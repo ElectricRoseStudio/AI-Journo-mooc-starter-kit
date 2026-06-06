@@ -1,0 +1,152 @@
+#!/usr/bin/env python3
+# send-newtown-docs.py
+# Run the Newtown CT agenda downloader and email all collected files.
+#
+# USAGE:
+#   python3 scripts/send-newtown-docs.py [--days N] [--output-dir DIR]
+#
+# CONFIGURATION:
+#   Set the four SMTP_* variables below, or export them as environment
+#   variables before running:
+#
+#     export SMTP_HOST=smtp.gmail.com
+#     export SMTP_PORT=587
+#     export SMTP_USER=you@gmail.com
+#     export SMTP_PASS=your-app-password
+#
+# WHAT IT DOES:
+#   1. Runs download-newtown-agendas.py and captures its output
+#   2. Collects every PDF in beat-archive/newtown-agendas/ modified today
+#   3. Sends them as email attachments to TO_ADDRESS
+
+import datetime
+import email.mime.application
+import email.mime.multipart
+import email.mime.text
+import os
+import smtplib
+import subprocess
+import sys
+
+# --- Configuration ---
+SMTP_HOST = os.environ.get("SMTP_HOST", "")
+SMTP_PORT = int(os.environ.get("SMTP_PORT", "587"))
+SMTP_USER = os.environ.get("SMTP_USER", "")
+SMTP_PASS = os.environ.get("SMTP_PASS", "")
+
+FROM_ADDRESS = os.environ.get("SMTP_FROM", "rich@electricrose.net")
+TO_ADDRESSES = ["rich.kirby@patch.com", "hayleigh.evans@patch.com"]
+
+REPO_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOG_PATH   = os.path.join(REPO_DIR, "beat-archive", "send-log.txt")
+SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-newtown-agendas.py")
+OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive", "newtown-agendas")
+
+
+def check_config():
+    missing = [v for v in ("SMTP_HOST", "SMTP_USER", "SMTP_PASS")
+               if not os.environ.get(v) and not globals()[v]]
+    if missing:
+        print(
+            f"ERROR: Missing SMTP configuration: {', '.join(missing)}\n"
+            "Set them as environment variables before running:\n"
+            "  export SMTP_HOST=smtp.example.com\n"
+            "  export SMTP_USER=you@example.com\n"
+            "  export SMTP_PASS=yourpassword",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+
+def run_downloader():
+    """Run the Newtown downloader and return its combined output as a string."""
+    print("Running download-newtown-agendas.py ...")
+    result = subprocess.run(
+        [sys.executable, SCRIPT],
+        capture_output=True,
+        text=True,
+        cwd=REPO_DIR,
+    )
+    output = result.stdout + result.stderr
+    print(output)
+    return output
+
+
+def collect_recent_files(hours=24):
+    """Return list of PDF paths under OUTPUT_DIR added in the past N hours."""
+    cutoff = datetime.datetime.now().timestamp() - hours * 3600
+    found = []
+    for root, _, files in os.walk(OUTPUT_DIR):
+        for fname in sorted(files):
+            if not fname.lower().endswith(".pdf"):
+                continue
+            fpath = os.path.join(root, fname)
+            if os.path.getmtime(fpath) >= cutoff:
+                found.append(fpath)
+    return found
+
+
+def send_email(files, downloader_output):
+    subject = (
+        f"Newtown CT meeting docs — {datetime.date.today().strftime('%B %-d, %Y')} "
+        f"({len(files)} file{'s' if len(files) != 1 else ''})"
+    )
+
+    msg = email.mime.multipart.MIMEMultipart()
+    msg["From"]    = FROM_ADDRESS
+    msg["To"]      = ", ".join(TO_ADDRESSES)
+    msg["Subject"] = subject
+
+    body = (
+        f"Newtown CT agenda/minutes download — {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
+        f"{len(files)} file(s) attached (new in past 24 hours).\n\n"
+        "--- Downloader log ---\n"
+        + downloader_output
+    )
+    msg.attach(email.mime.text.MIMEText(body, "plain"))
+
+    for fpath in files:
+        with open(fpath, "rb") as f:
+            part = email.mime.application.MIMEApplication(f.read(), Name=os.path.basename(fpath))
+        part["Content-Disposition"] = f'attachment; filename="{os.path.basename(fpath)}"'
+        msg.attach(part)
+
+    print(f"Connecting to {SMTP_HOST}:{SMTP_PORT} ...")
+    if SMTP_PORT == 465:
+        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, timeout=30) as server:
+            server.login(SMTP_USER, SMTP_PASS)
+            server.sendmail(FROM_ADDRESS, TO_ADDRESSES, msg.as_string())
+    else:
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASS)
+            server.sendmail(FROM_ADDRESS, TO_ADDRESSES, msg.as_string())
+    print(f"Email sent to {', '.join(TO_ADDRESSES)}  ({len(files)} attachment(s))")
+    write_send_log(', '.join(TO_ADDRESSES), len(files))
+
+
+def write_send_log(to, n_files):
+    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+    with open(LOG_PATH, "a") as _lf:
+        _lf.write(
+            f"{datetime.datetime.now().isoformat()}  "
+            f"{os.path.basename(__file__)}  "
+            f"-> {to}  "
+            f"{n_files} attachment(s)
+"
+        )
+
+def main():
+    check_config()
+    log = run_downloader()
+    files = collect_recent_files()
+
+    if not files:
+        print("No files downloaded in the past 24 hours — sending summary email with no attachments.")
+
+    send_email(files, log)
+
+
+if __name__ == "__main__":
+    main()
