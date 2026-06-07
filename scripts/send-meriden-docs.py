@@ -141,8 +141,7 @@ def write_send_log(to, n_files):
             f"{datetime.datetime.now().isoformat()}  "
             f"{os.path.basename(__file__)}  "
             f"-> {to}  "
-            f"{n_files} attachment(s)
-"
+            f"{n_files} attachment(s)\n"
         )
 
 def main():
