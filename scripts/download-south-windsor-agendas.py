@@ -118,7 +118,7 @@ HUB_URL = f"{BASE_URL}/minutes-and-agendas"
 SWAGIT_BASE = "http://gmedia.swagit.com"
 SWAGIT_NEW = "https://southwindsorct.new.swagit.com"
 OUTPUT_DIR = "beat-archive/south-windsor-agendas"
-DAYS_BACK = 30
+DAYS_BACK = 4
 DAYS_AHEAD = 7
 DELAY_SECONDS = 0.5   # between requests to southwindsor-ct.gov
 
