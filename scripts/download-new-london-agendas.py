@@ -331,6 +331,10 @@ def main():
     )
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     if args.list_boards:
         seen = set()
         for board, doc_type, folder_ids in FOLDER_REGISTRY:

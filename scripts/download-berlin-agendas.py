@@ -433,6 +433,10 @@ def main():
     )
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     today = datetime.date.today()
     if args.all:
         cutoff = datetime.date(MIN_YEAR, 1, 1)

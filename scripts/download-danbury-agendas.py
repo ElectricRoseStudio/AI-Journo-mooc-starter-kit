@@ -217,6 +217,10 @@ def main():
                         help="Skip recording links (Granicus/Zoom .url shortcuts)")
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     cutoff = datetime.date.today() - datetime.timedelta(days=args.days)
 
     print(f"Date window : {cutoff} to {datetime.date.today()}  ({args.days} days back)")

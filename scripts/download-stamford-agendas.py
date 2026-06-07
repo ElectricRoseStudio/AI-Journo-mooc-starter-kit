@@ -502,6 +502,10 @@ def main():
     )
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     do_docs  = not args.video_only
     do_video = args.include_video or args.video_only
     board_filter = args.board.lower() if args.board else None

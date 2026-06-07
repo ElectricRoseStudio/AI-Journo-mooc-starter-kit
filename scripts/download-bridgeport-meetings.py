@@ -406,6 +406,10 @@ def main():
     parser.add_argument("--no-granicus",  action="store_true", help="Skip Granicus source")
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     today        = datetime.date.today()
     cutoff       = today - datetime.timedelta(days=args.days)
     future_limit = today + datetime.timedelta(days=args.ahead)

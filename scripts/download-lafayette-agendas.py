@@ -313,6 +313,10 @@ def main():
                         help="Skip saving recording shortcuts")
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     cutoff = datetime.date.today() - datetime.timedelta(days=args.days)
     want_agendas = not args.no_agendas
     want_minutes = not args.no_minutes

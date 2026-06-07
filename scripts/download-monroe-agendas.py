@@ -224,6 +224,10 @@ def main():
                         help="Skip the Videos & Recording folder entirely")
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     today = datetime.date.today()
     cutoff = today - datetime.timedelta(days=args.days)
     years_needed = set(range(cutoff.year, today.year + 1))

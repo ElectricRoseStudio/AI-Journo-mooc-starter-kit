@@ -332,6 +332,10 @@ def main():
                       help="Download minutes only (skip agendas)")
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     do_agendas = not args.minutes_only
     do_minutes = not args.agendas_only
 

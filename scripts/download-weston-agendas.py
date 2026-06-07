@@ -390,6 +390,10 @@ def main():
                              "use xvfb-run without this flag)")
     args = parser.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     cutoff = datetime.date.today() - datetime.timedelta(days=args.days)
     today = datetime.date.today()
     years_needed = {today.year}

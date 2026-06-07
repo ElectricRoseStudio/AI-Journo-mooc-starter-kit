@@ -302,6 +302,10 @@ def main():
                     help=f"Output directory (default: {OUTPUT_DIR})")
     args = ap.parse_args()
 
+    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
+        print("Skipping — no downloads on Sunday or Monday.")
+        sys.exit(0)
+
     cutoff_back = MIN_DATE if args.all else date.today() - timedelta(days=args.days)
     cutoff_ahead = date.today() + timedelta(days=args.ahead)
 
