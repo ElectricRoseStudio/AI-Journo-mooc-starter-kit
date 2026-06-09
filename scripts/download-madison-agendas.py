@@ -264,8 +264,9 @@ def main():
                         help="Download only PDFs; skip video even if --include-video is set")
     args = parser.parse_args()
 
-    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
-        print("Skipping — no downloads on Sunday or Monday.")
+    now = datetime.datetime.now()
+    if (now.weekday() == 5 and now.hour >= 18) or (now.weekday() == 6 and now.hour < 12):  # Saturday night, Sunday morning
+        print("Skipping — no downloads on Saturday nights or Sunday mornings.")
         sys.exit(0)
 
     today = datetime.date.today()

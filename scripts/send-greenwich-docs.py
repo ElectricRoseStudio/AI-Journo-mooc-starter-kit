@@ -148,8 +148,9 @@ def write_send_log(to, n_files):
 def main():
     check_config()
 
-    if datetime.date.today().weekday() in (6, 0):  # Sunday, Monday
-        print("Skipping — no sends on Sunday or Monday.")
+    now = datetime.datetime.now()
+    if (now.weekday() == 5 and now.hour >= 18) or (now.weekday() == 6 and now.hour < 12):  # Saturday night, Sunday morning
+        print("Skipping — no sends on Saturday nights or Sunday mornings.")
         sys.exit(0)
     log = run_downloader()
     files = collect_recent_files()
