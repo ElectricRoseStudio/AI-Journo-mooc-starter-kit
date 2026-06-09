@@ -6,3 +6,8 @@ Thumbs.db
 *.swo
 *~
 summaries/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+beat-archive/
