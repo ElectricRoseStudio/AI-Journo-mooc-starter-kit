@@ -33,7 +33,7 @@ SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-norwalk-agendas.py")
 OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive", "norwalk-agendas")
 
 ATTACH_EXTENSIONS = {".pdf"}
-MAX_ATTACH_BYTES = 20 * 1024 * 1024  # 20 MB per file; SendGrid limit is ~25 MB total
+MAX_ATTACH_BYTES = 10 * 1024 * 1024  # 10 MB per file; base64 overhead ~33% brings a 20 MB file to ~27 MB, exceeding SendGrid's ~25 MB limit
 
 
 def check_config():
