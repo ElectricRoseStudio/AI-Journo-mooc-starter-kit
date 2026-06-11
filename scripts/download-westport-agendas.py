@@ -138,20 +138,26 @@ def fetch_json(url):
         return None
 
 
-def download_file(ctx, path, dest_path):
-    """Download a VisionLive PDF via the Playwright browser context (carries session cookies)."""
+def download_file(pw_page, path, dest_path):
+    """Download a VisionLive PDF via in-page fetch() (carries Cloudflare cookies + browser fingerprint)."""
     url = BASE_URL + path if path.startswith("/") else path
     try:
-        response = ctx.request.get(
-            url,
-            headers={"Referer": LIST_URL, "Accept": "application/pdf,*/*"},
-            timeout=60_000,
+        result = pw_page.evaluate(
+            """async ([url, referer]) => {
+                const resp = await fetch(url, {
+                    headers: { Accept: 'application/pdf,*/*', Referer: referer }
+                });
+                if (!resp.ok) return { ok: false, status: resp.status };
+                const buf = await resp.arrayBuffer();
+                return { ok: true, status: resp.status, data: Array.from(new Uint8Array(buf)) };
+            }""",
+            [url, LIST_URL],
         )
-        if not response.ok:
-            print(f"  WARNING: {url} returned HTTP {response.status}", file=sys.stderr)
+        if not result["ok"]:
+            print(f"  WARNING: {url} returned HTTP {result['status']}", file=sys.stderr)
             return False
         with open(dest_path, "wb") as f:
-            f.write(response.body())
+            f.write(bytes(result["data"]))
         return True
     except Exception as e:
         print(f"  WARNING: {e}", file=sys.stderr)
@@ -534,7 +540,7 @@ def main():
             print(f"  [{e['date']}] {e['board']} — {e['doc_type']}")
             print(f"  downloading    {label}")
 
-            if download_file(ctx, e["path"], dest):
+            if download_file(pw_page, e["path"], dest):
                 downloaded += 1
                 log_lines.append(
                     f"{datetime.datetime.now().isoformat()}  OK       {dest}"
