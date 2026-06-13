@@ -33,6 +33,7 @@ SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-hartford-agendas.py")
 OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive", "hartford-agendas")
 
 ATTACH_EXTENSIONS = {".pdf", ".html"}
+MAX_ATTACH_BYTES = 10 * 1024 * 1024  # 10 MB per file
 
 
 def check_config():
@@ -79,9 +80,16 @@ def collect_recent_files(hours=24):
 
 
 def send_email(files, downloader_output):
+    attached, skipped = [], []
+    for fpath in files:
+        if os.path.getsize(fpath) > MAX_ATTACH_BYTES:
+            skipped.append(fpath)
+        else:
+            attached.append(fpath)
+
     subject = (
         f"Hartford CT meeting docs — {datetime.date.today().strftime('%B %-d, %Y')} "
-        f"({len(files)} file{'s' if len(files) != 1 else ''})"
+        f"({len(attached)} file{'s' if len(attached) != 1 else ''})"
     )
 
     msg = email.mime.multipart.MIMEMultipart()
@@ -89,15 +97,24 @@ def send_email(files, downloader_output):
     msg["To"]      = TO_ADDRESS
     msg["Subject"] = subject
 
+    skipped_note = ""
+    if skipped:
+        skipped_note = (
+            f"\n{len(skipped)} file(s) exceeded the {MAX_ATTACH_BYTES // (1024*1024)} MB size limit and were not attached:\n"
+            + "\n".join(f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)" for p in skipped)
+            + "\n"
+        )
+
     body = (
         f"Hartford CT agenda/minutes download — {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
-        f"{len(files)} file(s) attached (new in past 24 hours).\n\n"
-        "--- Downloader log ---\n"
+        f"{len(attached)} file(s) attached (new in past 24 hours).\n"
+        + skipped_note
+        + "\n--- Downloader log ---\n"
         + downloader_output
     )
     msg.attach(email.mime.text.MIMEText(body, "plain"))
 
-    for fpath in files:
+    for fpath in attached:
         with open(fpath, "rb") as f:
             part = email.mime.application.MIMEApplication(f.read(), Name=os.path.basename(fpath))
         part["Content-Disposition"] = f'attachment; filename="{os.path.basename(fpath)}"'
@@ -114,8 +131,8 @@ def send_email(files, downloader_output):
             server.starttls()
             server.login(SMTP_USER, SMTP_PASS)
             server.sendmail(FROM_ADDRESS, TO_ADDRESS, msg.as_string())
-    print(f"Email sent to {TO_ADDRESS}  ({len(files)} attachment(s))")
-    write_send_log(TO_ADDRESS, len(files))
+    print(f"Email sent to {TO_ADDRESS}  ({len(attached)} attachment(s), {len(skipped)} skipped)")
+    write_send_log(TO_ADDRESS, len(attached))
 
 
 def write_send_log(to, n_files):

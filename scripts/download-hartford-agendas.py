@@ -302,7 +302,7 @@ def main():
                     help=f"Output directory (default: {OUTPUT_DIR})")
     args = ap.parse_args()
 
-    now = datetime.datetime.now()
+    now = datetime.now()
     if (now.weekday() == 5 and now.hour >= 18) or (now.weekday() == 6 and now.hour < 12):  # Saturday night, Sunday morning
         print("Skipping — no downloads on Saturday nights or Sunday mornings.")
         sys.exit(0)

@@ -32,7 +32,7 @@ LOG_PATH   = os.path.join(REPO_DIR, "beat-archive", "send-log.txt")
 SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-groton-agendas.py")
 OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive", "groton-agendas")
 
-ATTACH_EXTENSIONS = {".pdf", ".mp4"}
+ATTACH_EXTENSIONS = {".pdf"}
 MAX_ATTACH_BYTES = 20 * 1024 * 1024  # 20 MB per file; SendGrid limit is ~25 MB total
 
 

@@ -22,7 +22,7 @@ import os
 import re
 import time
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 BASE_URL = "https://www.easthartfordct.gov"
 OUTPUT_DIR = "beat-archive/east-hartford-agendas"
@@ -294,7 +294,7 @@ def main():
     )
     args = ap.parse_args()
 
-    now = datetime.datetime.now()
+    now = datetime.now()
     if (now.weekday() == 5 and now.hour >= 18) or (now.weekday() == 6 and now.hour < 12):  # Saturday night, Sunday morning
         print("Skipping — no downloads on Saturday nights or Sunday mornings.")
         sys.exit(0)

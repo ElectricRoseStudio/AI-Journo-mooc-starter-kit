@@ -14,7 +14,7 @@ import time
 import urllib.error
 import urllib.request
 import zlib
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 BASE_URL = "https://www.farmington-ct.org"
 OUTPUT_DIR = "beat-archive/farmington-agendas"
@@ -265,7 +265,7 @@ def main():
                     help=f"Output directory (default: {OUTPUT_DIR})")
     args = ap.parse_args()
 
-    now = datetime.datetime.now()
+    now = datetime.now()
     if (now.weekday() == 5 and now.hour >= 18) or (now.weekday() == 6 and now.hour < 12):  # Saturday night, Sunday morning
         print("Skipping — no downloads on Saturday nights or Sunday mornings.")
         sys.exit(0)

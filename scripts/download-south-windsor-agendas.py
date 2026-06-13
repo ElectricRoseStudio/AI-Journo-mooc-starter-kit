@@ -578,13 +578,22 @@ def main():
                         f"{datetime.datetime.now().isoformat()}  FAILED   {full_url}"
                     )
                     continue
-                ct = response.headers.get("content-type", "")
-                if "pdf" not in ct.lower() and "octet-stream" not in ct.lower():
-                    print(f"  WARNING: unexpected content-type {ct!r}, skipping", file=sys.stderr)
+                body = response.body()
+                if not body.startswith(b"%PDF"):
+                    ct = response.headers.get("content-type", "unknown")
+                    print(
+                        f"  WARNING: response is not a PDF "
+                        f"(content-type: {ct!r}, {len(body)} bytes, "
+                        f"starts with {body[:16]!r}), skipping",
+                        file=sys.stderr,
+                    )
                     failed += 1
+                    log_lines.append(
+                        f"{datetime.datetime.now().isoformat()}  FAILED   {full_url}"
+                    )
                     continue
                 with open(dest, "wb") as f:
-                    f.write(response.body())
+                    f.write(body)
                 downloaded += 1
                 log_lines.append(
                     f"{datetime.datetime.now().isoformat()}  OK       {dest}"
