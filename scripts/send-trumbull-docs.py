@@ -157,7 +157,7 @@ def send_email(files, downloader_output, biz_table=""):
     )
 
     msg = email.mime.multipart.MIMEMultipart()
-    msg["From"]    = FROM_ADDRESS
+    msg["From"]    = f"Patch_Edit_AI <{FROM_ADDRESS}>"
     msg["To"]      = TO_ADDRESS
     msg["Subject"] = subject
 
