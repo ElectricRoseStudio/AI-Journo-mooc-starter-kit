@@ -506,6 +506,8 @@ def main():
                 log_lines.append(
                     f"{datetime.datetime.now().isoformat()}  FAILED   {m['video_url']}"
                 )
+        elif m["video_url"]:
+            print(f"  VIDEO (not downloaded): {m['video_url']}")
 
     if log_lines:
         with open(log_path, "a") as f:

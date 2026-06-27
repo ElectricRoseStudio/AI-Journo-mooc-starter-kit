@@ -394,6 +394,8 @@ def main():
 
         print(f"  [{d['meeting_date']}] {d['title'][:55]} — {d['doc_type']}")
         print(f"  saving         {label}")
+        if d["doc_type"] in ("video", "audio"):
+            print(f"  source URL:    {d['url']}")
 
         if d["is_shortcut"]:
             ok = save_url_shortcut(d["url"], dest)

@@ -445,6 +445,8 @@ def main():
 
         print(f"  [{d['meeting_date']}] {d['board']} — {d['doc_type']}")
         print(f"  downloading    {label}")
+        if d["doc_type"] == "video":
+            print(f"  source URL:    {d['url']}")
 
         if d["doc_type"] == "video":
             ok = download_video(d["url"], dest)

@@ -219,6 +219,7 @@ def download_video(video_id, title, upload_date, dry_run):
             return True
 
     print(f"    Downloading video: '{title}'  ({upload_date.date()})")
+    print(f"    Source URL:        {yt_url}")
     if dry_run:
         return True
 

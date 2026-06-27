@@ -546,6 +546,7 @@ def main():
                 continue
 
             print(f"  [{v['vdate']}] {v['title']}")
+            print(f"  source URL:    https://www.youtube.com/watch?v={v['vid_id']}")
             if download_video(v["vid_id"], dest_template):
                 vid_downloaded += 1
                 log_lines.append(f"{datetime.datetime.now().isoformat()}  OK       {dest_mp4}")

@@ -529,6 +529,7 @@ def main():
                     continue
 
                 print(f"    downloading    {os.path.basename(tmpl)}")
+                print(f"    source URL:    https://www.youtube.com/watch?v={vid_id}")
                 os.makedirs(os.path.dirname(tmpl), exist_ok=True)
                 if download_youtube_video(vid_id, tmpl):
                     vd_ok += 1

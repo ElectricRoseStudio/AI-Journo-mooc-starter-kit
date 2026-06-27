@@ -463,6 +463,7 @@ def main():
                     continue
 
                 print(f"    downloading    {os.path.basename(tmpl)}")
+                print(f"    source URL:    {url}")
                 os.makedirs(os.path.dirname(tmpl), exist_ok=True)
                 if download_vimeo_video(m["vimeo_id"], tmpl):
                     vd_ok += 1

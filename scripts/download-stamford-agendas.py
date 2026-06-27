@@ -687,6 +687,8 @@ def main():
                 continue
 
             print(f"  [{meeting_date}] {board_name} — {meeting_name}")
+            granicus_url = f"{GRANICUS_URL}/MediaPlayer.php?view_id={view_id}&clip_id={clip_id}"
+            print(f"  source URL:    {granicus_url}")
             if download_video(view_id, clip_id, dest_template):
                 vid_downloaded += 1
                 log_lines.append(f"{datetime.datetime.now().isoformat()}  OK       {dest_mp4}")
