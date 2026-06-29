@@ -472,6 +472,8 @@ def main():
 
         print(f"  [{item['meeting_date']}] {item['board']} — {item['doc_type']}")
         print(f"  downloading    {label}")
+        if item["doc_type"] == "video" and item.get("url"):
+            print(f"  Source URL:        {item['url']}")
 
         os.makedirs(os.path.dirname(dest), exist_ok=True)
 
