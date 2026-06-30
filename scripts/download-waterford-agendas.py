@@ -131,7 +131,7 @@ def is_specific_video(url):
 def download_video(video_url, dest_path):
     """Download a specific YouTube video via yt-dlp. Returns True on success."""
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

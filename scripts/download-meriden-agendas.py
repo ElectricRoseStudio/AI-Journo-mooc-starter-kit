@@ -124,7 +124,7 @@ def download_video(hls_url, dest_template):
     Returns True on success.
     """
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

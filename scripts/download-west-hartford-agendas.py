@@ -248,7 +248,7 @@ def download_with_ytdlp(url, output_dir, event_date, board_slug):
     os.makedirs(month_dir, exist_ok=True)
     out_template = os.path.join(month_dir, f"{date_str}-{board_slug}-recording.%(ext)s")
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--quiet",
         "--no-warnings",
         "--output", out_template,

@@ -315,7 +315,7 @@ def download_media_ytdlp(url, outtmpl, retries=2):
     """Download audio/video from url using yt-dlp. Returns True on success."""
     for attempt in range(retries + 1):
         cmd = [
-            "yt-dlp",
+            "yt-dlp", "--js-runtimes", "node",
             "--no-playlist",
             "--quiet",
             "--no-warnings",

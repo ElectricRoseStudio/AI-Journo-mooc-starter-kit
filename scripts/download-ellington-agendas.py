@@ -332,7 +332,7 @@ def download_zoom_recording(url, title, rec_date, board, output_dir, archive_pat
     outtmpl = os.path.join(month_dir, f"{date_str}-{board_slug}-{title_slug}.%(ext)s")
 
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "--merge-output-format", "mp4",
         "-o", outtmpl,

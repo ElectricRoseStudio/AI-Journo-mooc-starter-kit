@@ -141,7 +141,7 @@ def vimeo_upload_date(vimeo_url):
 
 def download_vimeo(vimeo_url, dest_path):
     cmd = [
-        "yt-dlp", "--no-playlist",
+        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_path,

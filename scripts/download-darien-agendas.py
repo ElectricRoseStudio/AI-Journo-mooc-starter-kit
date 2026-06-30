@@ -254,7 +254,7 @@ def download_video(darientv_url, dest_path, dry_run=False):
         return True
     vimeo_url = f"https://vimeo.com/{vimeo_id}"
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

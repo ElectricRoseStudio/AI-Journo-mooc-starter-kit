@@ -199,7 +199,7 @@ def download_pdf(url, dest_path):
 def download_vimeo(video_id, dest_path):
     watch_url = f"https://vimeo.com/{video_id}"
     cmd = [
-        "yt-dlp", "--no-playlist",
+        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_path,

@@ -292,7 +292,7 @@ def download_yt_video(video_id, title, channel_name, pub_date, output_dir, archi
     url = f"https://www.youtube.com/watch?v={video_id}"
 
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

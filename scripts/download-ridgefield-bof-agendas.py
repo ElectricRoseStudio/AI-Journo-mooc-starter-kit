@@ -276,7 +276,7 @@ def download_boxcast_video(broadcast, dest_template, dry_run=False):
         return True
 
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
@@ -293,7 +293,7 @@ def download_boxcast_video(broadcast, dest_template, dry_run=False):
 
 def _ytdlp_available():
     try:
-        r = subprocess.run(["yt-dlp", "--version"], capture_output=True, timeout=5)
+        r = subprocess.run(["yt-dlp", "--js-runtimes", "node", "--version"], capture_output=True, timeout=5)
         return r.returncode == 0
     except (FileNotFoundError, subprocess.TimeoutExpired):
         return False

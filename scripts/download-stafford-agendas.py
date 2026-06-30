@@ -351,7 +351,7 @@ def download_zoom(rec_url, title, meeting_date, board, output_dir, archive_path)
         month_dir, f"{date_str}-{board_slug}-{url_id}.%(ext)s"
     )
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

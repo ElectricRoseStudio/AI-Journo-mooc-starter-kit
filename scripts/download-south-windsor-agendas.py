@@ -630,7 +630,7 @@ def main():
             print(f"  downloading    {os.path.basename(outtmpl.replace('%(ext)s', 'mp4'))}")
 
             cmd = [
-                "yt-dlp",
+                "yt-dlp", "--js-runtimes", "node",
                 "--no-playlist",
                 "--quiet",
                 "--no-warnings",

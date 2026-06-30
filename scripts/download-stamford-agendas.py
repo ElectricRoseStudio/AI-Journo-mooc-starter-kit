@@ -441,7 +441,7 @@ def download_video(view_id, clip_id, dest_template, dry_run=False):
     if dry_run:
         return True
     cmd = [
-        "yt-dlp", "--no-playlist",
+        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_template,

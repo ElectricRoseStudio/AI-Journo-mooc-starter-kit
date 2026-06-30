@@ -220,7 +220,7 @@ def download_pdf(url, dest_path):
 def download_video(watch_url, dest_path):
     """Download a YouTube video via yt-dlp. Returns True on success."""
     cmd = [
-        "yt-dlp", "--no-playlist",
+        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_path,

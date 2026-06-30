@@ -117,7 +117,7 @@ def download_video(youtube_url, dest_template):
     Returns True on success.
     """
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
         "--merge-output-format", "mp4",
@@ -202,7 +202,7 @@ def fetch_channel_videos():
     Returns a list of {video_id, title, youtube_url}.
     """
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--flat-playlist",
         "--no-warnings",
         "--print", "%(id)s\t%(title)s",

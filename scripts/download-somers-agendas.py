@@ -261,7 +261,7 @@ def download_yt_video(video_id, url, board, mtg_name, mtg_date, output_dir, arch
     outtmpl = os.path.join(month_dir, f"{date_str}-{board_slug}-{name_slug}-{video_id}.%(ext)s")
 
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

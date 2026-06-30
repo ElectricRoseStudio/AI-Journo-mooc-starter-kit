@@ -288,7 +288,7 @@ def parse_video_date(title):
 def list_channel_videos(channel_url):
     """Return [(vid_id, vdate, title), ...] for all datable GCTV videos."""
     cmd = [
-        "yt-dlp", "--flat-playlist", "--print", "%(id)s\t%(title)s",
+        "yt-dlp", "--js-runtimes", "node", "--flat-playlist", "--print", "%(id)s\t%(title)s",
         "--no-warnings", channel_url,
     ]
     try:
@@ -314,7 +314,7 @@ def download_video(vid_id, dest_template, dry_run=False):
     if dry_run:
         return True
     cmd = [
-        "yt-dlp", "--no-playlist",
+        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_template,

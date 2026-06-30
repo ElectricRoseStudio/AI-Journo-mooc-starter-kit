@@ -286,7 +286,7 @@ def download_recording(gctv_url, board, meeting_date, output_dir, archive_path):
     outtmpl = make_recording_path(board, meeting_date, gctv_slug, output_dir)
 
     cmd = [
-        "yt-dlp",
+        "yt-dlp", "--js-runtimes", "node",
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

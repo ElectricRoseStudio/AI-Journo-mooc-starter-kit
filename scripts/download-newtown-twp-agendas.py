@@ -173,7 +173,7 @@ def download_video(yt_url, meeting_name, meeting_date, cutoff, dry_run):
     # Verify upload date via yt-dlp before downloading
     try:
         result = subprocess.run(
-            ["yt-dlp", "--no-playlist", "--print", "upload_date", yt_url],
+            ["yt-dlp", "--js-runtimes", "node", "--no-playlist", "--print", "upload_date", yt_url],
             capture_output=True, text=True, timeout=30,
         )
         raw = result.stdout.strip()
@@ -200,7 +200,7 @@ def download_video(yt_url, meeting_name, meeting_date, cutoff, dry_run):
         return
 
     subprocess.run(
-        ["yt-dlp", "--no-overwrites", "-o", out_tmpl, yt_url],
+        ["yt-dlp", "--js-runtimes", "node", "--no-overwrites", "-o", out_tmpl, yt_url],
         timeout=600,
     )
 
