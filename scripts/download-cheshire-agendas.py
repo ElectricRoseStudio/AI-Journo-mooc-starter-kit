@@ -58,6 +58,8 @@ import re
 import subprocess
 import sys
 import time
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -117,7 +119,7 @@ def download_video(youtube_url, dest_template):
     Returns True on success.
     """
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
         "--merge-output-format", "mp4",
@@ -202,7 +204,7 @@ def fetch_channel_videos():
     Returns a list of {video_id, title, youtube_url}.
     """
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--flat-playlist",
         "--no-warnings",
         "--print", "%(id)s\t%(title)s",

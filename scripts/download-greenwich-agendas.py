@@ -58,6 +58,8 @@ import argparse
 import datetime
 import html.parser
 import os
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import re
 import subprocess
 import sys
@@ -288,7 +290,7 @@ def parse_video_date(title):
 def list_channel_videos(channel_url):
     """Return [(vid_id, vdate, title), ...] for all datable GCTV videos."""
     cmd = [
-        "yt-dlp", "--js-runtimes", "node", "--flat-playlist", "--print", "%(id)s\t%(title)s",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE, "--flat-playlist", "--print", "%(id)s\t%(title)s",
         "--no-warnings", channel_url,
     ]
     try:
@@ -314,7 +316,7 @@ def download_video(vid_id, dest_template, dry_run=False):
     if dry_run:
         return True
     cmd = [
-        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_template,

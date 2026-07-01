@@ -74,6 +74,8 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.oxford-ct.gov"
 HUB_URL = f"{BASE_URL}/agendacenter"
@@ -292,7 +294,7 @@ def download_yt_video(video_id, title, channel_name, pub_date, output_dir, archi
     url = f"https://www.youtube.com/watch?v={video_id}"
 
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

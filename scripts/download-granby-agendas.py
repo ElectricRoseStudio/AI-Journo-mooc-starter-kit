@@ -84,6 +84,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.granby-ct.gov"
 HUB_URL = f"{BASE_URL}/agendacenter"
@@ -286,7 +288,7 @@ def download_recording(gctv_url, board, meeting_date, output_dir, archive_path):
     outtmpl = make_recording_path(board, meeting_date, gctv_slug, output_dir)
 
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

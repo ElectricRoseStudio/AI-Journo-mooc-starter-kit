@@ -53,6 +53,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.madisonct.org"
 AGENDA_CENTER_URL = f"{BASE_URL}/AgendaCenter"
@@ -114,7 +116,7 @@ def download_video(youtube_url, dest_template):
     Returns True on success.
     """
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
         "--merge-output-format", "mp4",

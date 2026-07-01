@@ -58,6 +58,8 @@
 import argparse
 import datetime
 import json
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import os
 import re
 import subprocess
@@ -141,7 +143,7 @@ def vimeo_upload_date(vimeo_url):
 
 def download_vimeo(vimeo_url, dest_path):
     cmd = [
-        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_path,

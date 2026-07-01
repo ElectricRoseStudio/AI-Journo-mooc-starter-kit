@@ -20,6 +20,8 @@ import sys
 import urllib.error
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
@@ -136,7 +138,7 @@ def get_channel_video_ids(max_videos=50):
     """Return all video IDs from the channel (channel order, not upload order)."""
     try:
         result = subprocess.run(
-            ["yt-dlp", "--js-runtimes", "node", "--flat-playlist", "--no-update",
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--flat-playlist", "--no-update",
              "--playlist-items", f"1:{max_videos}",
              "--print", "%(id)s",
              YT_CHANNEL],
@@ -152,7 +154,7 @@ def get_video_info(video_id):
     """Return (upload_date datetime, title str) or (None, None)."""
     try:
         result = subprocess.run(
-            ["yt-dlp", "--js-runtimes", "node", "--no-playlist", "--no-update",
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-playlist", "--no-update",
              "--print", "%(upload_date)s\t%(title)s",
              f"https://www.youtube.com/watch?v={video_id}"],
             capture_output=True, text=True, timeout=30,
@@ -184,7 +186,7 @@ def download_video(video_id, title, upload_date, dry_run):
         return True
 
     subprocess.run(
-        ["yt-dlp", "--js-runtimes", "node", "--no-update", "--no-overwrites", "--no-playlist",
+        ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-update", "--no-overwrites", "--no-playlist",
          "-o", out_tmpl, yt_url],
         timeout=600,
     )

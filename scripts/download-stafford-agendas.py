@@ -44,6 +44,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.staffordct.org"
 RECORDINGS_URL = f"{BASE_URL}/government/recordings.php"
@@ -351,7 +353,7 @@ def download_zoom(rec_url, title, meeting_date, board, output_dir, archive_path)
         month_dir, f"{date_str}-{board_slug}-{url_id}.%(ext)s"
     )
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

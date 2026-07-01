@@ -58,6 +58,8 @@
 #   Veterans Memorial Park Ad Hoc Committee
 
 import argparse
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import collections
 import datetime
 import html as html_module
@@ -261,7 +263,7 @@ def download_yt_video(video_id, url, board, mtg_name, mtg_date, output_dir, arch
     outtmpl = os.path.join(month_dir, f"{date_str}-{board_slug}-{name_slug}-{video_id}.%(ext)s")
 
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "--merge-output-format", "mp4",
         "--download-archive", archive_path,

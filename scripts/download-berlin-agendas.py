@@ -69,6 +69,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.berlinct.gov"
 DOC_CENTER = f"{BASE_URL}/egov/apps/document/center.egov"
@@ -181,7 +183,7 @@ def download_channel_videos(channel_url, output_dir, date_after, dry_run=False):
     if dry_run:
         # List videos without downloading
         cmd = [
-            "yt-dlp", "--js-runtimes", "node", "--flat-playlist", "--dateafter", date_str,
+            "yt-dlp", "--js-runtimes", YT_DLP_NODE, "--flat-playlist", "--dateafter", date_str,
             "--print", "%(upload_date)s %(title)s",
             "--no-warnings", "--quiet",
             channel_url,
@@ -199,7 +201,7 @@ def download_channel_videos(channel_url, output_dir, date_after, dry_run=False):
 
     os.makedirs(video_dir, exist_ok=True)
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--dateafter", date_str,
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

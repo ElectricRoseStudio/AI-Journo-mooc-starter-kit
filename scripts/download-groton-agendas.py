@@ -53,6 +53,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.agendasuite.org"
 PORTAL = f"{BASE_URL}/iip/groton"
@@ -243,7 +245,7 @@ def download_video(video_url, dest_path, dry_run=False):
     if dry_run:
         return True
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

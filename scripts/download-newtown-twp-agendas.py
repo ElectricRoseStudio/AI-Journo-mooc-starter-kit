@@ -20,6 +20,8 @@ import urllib.error
 import urllib.request
 from email.utils import parsedate_to_datetime
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
@@ -173,7 +175,7 @@ def download_video(yt_url, meeting_name, meeting_date, cutoff, dry_run):
     # Verify upload date via yt-dlp before downloading
     try:
         result = subprocess.run(
-            ["yt-dlp", "--js-runtimes", "node", "--no-playlist", "--print", "upload_date", yt_url],
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-playlist", "--print", "upload_date", yt_url],
             capture_output=True, text=True, timeout=30,
         )
         raw = result.stdout.strip()
@@ -200,7 +202,7 @@ def download_video(yt_url, meeting_name, meeting_date, cutoff, dry_run):
         return
 
     subprocess.run(
-        ["yt-dlp", "--js-runtimes", "node", "--no-overwrites", "-o", out_tmpl, yt_url],
+        ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-overwrites", "-o", out_tmpl, yt_url],
         timeout=600,
     )
 

@@ -58,6 +58,8 @@
 #   are downloaded directly via HTTP.
 
 import argparse
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import datetime
 import email.utils
 import html as htmllib
@@ -199,7 +201,7 @@ def download_pdf(url, dest_path):
 def download_vimeo(video_id, dest_path):
     watch_url = f"https://vimeo.com/{video_id}"
     cmd = [
-        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_path,

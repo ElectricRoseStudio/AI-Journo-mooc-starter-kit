@@ -58,6 +58,8 @@ import sys
 import time
 import urllib.error
 import urllib.parse
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import urllib.request
 
 # --- Configuration ---
@@ -134,7 +136,7 @@ def download_pdf(path, dest_path):
 def download_video(video_url, dest_path):
     """Download a YouTube video with yt-dlp. Returns True on success."""
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

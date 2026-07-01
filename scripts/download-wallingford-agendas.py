@@ -73,6 +73,8 @@ import time
 import urllib.error
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL    = "https://www.wallingfordct.gov"
 LISTING_URL = f"{BASE_URL}/minutes-and-agendas/"
@@ -279,7 +281,7 @@ def make_doc_dest(board_name, doc_type, meeting_date, output_dir, suffix=""):
 
 def _ytdlp_available():
     try:
-        r = subprocess.run(["yt-dlp", "--js-runtimes", "node", "--version"], capture_output=True, timeout=5)
+        r = subprocess.run(["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--version"], capture_output=True, timeout=5)
         return r.returncode == 0
     except (FileNotFoundError, subprocess.TimeoutExpired):
         return False
@@ -291,7 +293,7 @@ def list_channel_videos(channel_url):
     Uses --flat-playlist for speed (single API call, ~1-2 seconds).
     """
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--flat-playlist",
         "--print", "%(id)s\t%(title)s",
         "--no-warnings",
@@ -328,7 +330,7 @@ def download_youtube_video(video_id, dest_template, dry_run=False):
         print(f"    [dry-run] would download: {url}")
         return True
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",

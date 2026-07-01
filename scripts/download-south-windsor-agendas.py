@@ -104,6 +104,8 @@ import time
 import urllib.request
 import urllib.error
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 try:
     from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 except ImportError:
@@ -630,7 +632,7 @@ def main():
             print(f"  downloading    {os.path.basename(outtmpl.replace('%(ext)s', 'mp4'))}")
 
             cmd = [
-                "yt-dlp", "--js-runtimes", "node",
+                "yt-dlp", "--js-runtimes", YT_DLP_NODE,
                 "--no-playlist",
                 "--quiet",
                 "--no-warnings",

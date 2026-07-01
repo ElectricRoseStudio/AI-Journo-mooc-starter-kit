@@ -58,6 +58,8 @@ import datetime
 import email.utils
 import html
 import os
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import re
 import subprocess
 import sys
@@ -220,7 +222,7 @@ def download_pdf(url, dest_path):
 def download_video(watch_url, dest_path):
     """Download a YouTube video via yt-dlp. Returns True on success."""
     cmd = [
-        "yt-dlp", "--js-runtimes", "node", "--no-playlist",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", dest_path,

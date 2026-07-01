@@ -58,6 +58,8 @@ import ssl
 import subprocess
 import sys
 import time
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -211,7 +213,7 @@ def fetch_channel_videos(channel_id, label):
     url = f"https://www.youtube.com/channel/{channel_id}/videos"
     try:
         result = subprocess.run(
-            ["yt-dlp", "--js-runtimes", "node", "--flat-playlist", "-J", url],
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--flat-playlist", "-J", url],
             capture_output=True, text=True, timeout=60,
         )
     except FileNotFoundError:

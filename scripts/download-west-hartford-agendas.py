@@ -58,6 +58,8 @@ import json
 import os
 import re
 import shutil
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import subprocess
 import sys
 import time
@@ -248,7 +250,7 @@ def download_with_ytdlp(url, output_dir, event_date, board_slug):
     os.makedirs(month_dir, exist_ok=True)
     out_template = os.path.join(month_dir, f"{date_str}-{board_slug}-recording.%(ext)s")
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--quiet",
         "--no-warnings",
         "--output", out_template,

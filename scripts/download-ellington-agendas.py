@@ -74,6 +74,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+
 # --- Configuration ---
 BASE_URL = "https://www.ellington-ct.gov"
 AGENDAS_HUB = f"{BASE_URL}/government/agendas-and-minutes"
@@ -332,7 +334,7 @@ def download_zoom_recording(url, title, rec_date, board, output_dir, archive_pat
     outtmpl = os.path.join(month_dir, f"{date_str}-{board_slug}-{title_slug}.%(ext)s")
 
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "--merge-output-format", "mp4",
         "-o", outtmpl,

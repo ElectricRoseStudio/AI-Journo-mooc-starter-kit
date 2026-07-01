@@ -58,6 +58,8 @@ import datetime
 import html.parser
 import os
 import re
+
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
 import subprocess
 import sys
 import time
@@ -254,7 +256,7 @@ def download_video(darientv_url, dest_path, dry_run=False):
         return True
     vimeo_url = f"https://vimeo.com/{vimeo_id}"
     cmd = [
-        "yt-dlp", "--js-runtimes", "node",
+        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
