@@ -38,6 +38,7 @@ OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive", "west-hartford-agendas")
 CITY_NAME  = "WEST HARTFORD"
 
 ATTACH_EXTENSIONS = {".pdf"}
+VIDEO_EXTENSIONS = {".mp4", ".webm", ".mkv"}
 
 
 CT_BIZ_API   = "https://data.ct.gov/resource/n7gp-d28j.json"
@@ -128,24 +129,28 @@ def run_downloader():
 
 
 def collect_recent_files(hours=24):
-    """Return list of files under OUTPUT_DIR added in the past N hours."""
+    """Return (docs, videos) — lists of files under OUTPUT_DIR added in the past N hours."""
     cutoff = datetime.datetime.now().timestamp() - hours * 3600
-    found = []
+    docs, videos = [], []
     for root, _, files in os.walk(OUTPUT_DIR):
         for fname in sorted(files):
             ext = os.path.splitext(fname)[1].lower()
-            if ext not in ATTACH_EXTENSIONS:
-                continue
             fpath = os.path.join(root, fname)
-            if os.path.getmtime(fpath) >= cutoff:
-                found.append(fpath)
-    return found
+            if os.path.getmtime(fpath) < cutoff:
+                continue
+            if ext in ATTACH_EXTENSIONS:
+                docs.append(fpath)
+            elif ext in VIDEO_EXTENSIONS:
+                videos.append(fpath)
+    return docs, videos
 
 
-def send_email(files, downloader_output, biz_table=""):
+def send_email(files, video_files, downloader_output, biz_table=""):
+    n_vids = len(video_files)
+    vid_label = f", {n_vids} video{'s' if n_vids != 1 else ''}" if n_vids else ""
     subject = (
         f"West Hartford CT meeting docs — {datetime.date.today().strftime('%B %-d, %Y')} "
-        f"({len(files)} file{'s' if len(files) != 1 else ''})"
+        f"({len(files)} file{'s' if len(files) != 1 else ''}{vid_label})"
     )
 
     msg = email.mime.multipart.MIMEMultipart()
@@ -153,10 +158,19 @@ def send_email(files, downloader_output, biz_table=""):
     msg["To"]      = TO_ADDRESS
     msg["Subject"] = subject
 
+    video_note = ""
+    if video_files:
+        video_note = (
+            f"\n--- Video recordings (stored locally, not attached) ---\n"
+            + "\n".join(f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)" for p in video_files)
+            + "\nSource URLs appear in the downloader log below.\n"
+        )
+
     body = (
         f"West Hartford CT agenda/minutes download — {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
-        f"{len(files)} file(s) attached (new in past 24 hours).\n\n"
-        "--- New business registrations (past 7 days) ---\n"
+        f"{len(files)} file(s) attached (new in past 24 hours).\n"
+        + video_note
+        + "\n--- New business registrations (past 7 days) ---\n"
         + biz_table
         + "\n--- Downloader log ---\n"
         + downloader_output
@@ -180,7 +194,7 @@ def send_email(files, downloader_output, biz_table=""):
             server.starttls()
             server.login(SMTP_USER, SMTP_PASS)
             server.sendmail(FROM_ADDRESS, TO_ADDRESS, msg.as_string())
-    print(f"Email sent to {TO_ADDRESS}  ({len(files)} attachment(s))")
+    print(f"Email sent to {TO_ADDRESS}  ({len(files)} attachment(s), {n_vids} video(s) noted)")
     write_send_log(TO_ADDRESS, len(files))
 
 
@@ -202,14 +216,14 @@ def main():
         print("Skipping — no sends on Saturday nights or Sunday mornings.")
         sys.exit(0)
     log = run_downloader()
-    files = collect_recent_files()
+    files, video_files = collect_recent_files()
     businesses = fetch_businesses(days=7)
     biz_table = format_business_table(businesses)
 
-    if not files:
+    if not files and not video_files:
         print("No new files in the past 24 hours — sending summary email with no attachments.")
 
-    send_email(files, log, biz_table)
+    send_email(files, video_files, log, biz_table)
 
 
 if __name__ == "__main__":
