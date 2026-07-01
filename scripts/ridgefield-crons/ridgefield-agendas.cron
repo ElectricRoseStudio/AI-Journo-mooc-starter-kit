@@ -1,5 +1,0 @@
-SHELL=/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
-# Run Ridgefield agenda downloader every Monday at 5:00 a.m.
-0 5 * * 1 cd "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude" && /usr/bin/python3 scripts/download-ridgefield-agendas.py --output-dir "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/ridgefield-crons" >> "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/ridgefield-crons/ridgefield-agendas.log" 2>&1
