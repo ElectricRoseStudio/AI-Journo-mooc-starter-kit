@@ -1,0 +1,11 @@
+[Unit]
+Description=Read-only HTTP file server for beat-archive/ (video link workaround for send-*-docs.py)
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/serve-beat-archive.py" --port 8843
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
