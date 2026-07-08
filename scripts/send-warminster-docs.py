@@ -18,6 +18,7 @@ import os
 import smtplib
 import subprocess
 import sys
+import urllib.parse
 
 SMTP_HOST = os.environ.get("SMTP_HOST", "")
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "587"))
@@ -35,6 +36,18 @@ TOWN_NAME  = "Warminster Township, PA"
 
 ATTACH_EXTENSIONS = {".pdf", ".mp4", ".mkv", ".webm", ".m4a", ".mp3", ".mov"}
 MAX_ATTACH_BYTES  = 20 * 1024 * 1024
+
+VIDEO_LINK_BASE_URL = os.environ.get("VIDEO_LINK_BASE_URL", "").rstrip("/")
+BEAT_ARCHIVE_ROOT   = os.path.join(REPO_DIR, "beat-archive")
+
+
+def file_url(fpath):
+    """Link to fpath on the beat-archive file server, or None if unconfigured."""
+    if not VIDEO_LINK_BASE_URL:
+        return None
+    rel = os.path.relpath(fpath, BEAT_ARCHIVE_ROOT)
+    quoted = "/".join(urllib.parse.quote(part) for part in rel.split(os.sep))
+    return f"{VIDEO_LINK_BASE_URL}/{quoted}"
 
 
 def check_config():
@@ -104,6 +117,7 @@ def send_email(files, downloader_output):
             "size limit and were not attached:\n"
             + "\n".join(
                 f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)"
+                + (f"\n    {file_url(p)}" if file_url(p) else "")
                 for p in skipped
             )
             + "\n"

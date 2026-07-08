@@ -40,6 +40,18 @@ CITY_NAME  = "EAST WINDSOR"
 ATTACH_EXTENSIONS = {".pdf", ".mp4"}
 MAX_ATTACH_BYTES = 20 * 1024 * 1024  # 20 MB per file; SendGrid limit is ~25 MB total
 
+VIDEO_LINK_BASE_URL = os.environ.get("VIDEO_LINK_BASE_URL", "").rstrip("/")
+BEAT_ARCHIVE_ROOT   = os.path.join(REPO_DIR, "beat-archive")
+
+
+def file_url(fpath):
+    """Link to fpath on the beat-archive file server, or None if unconfigured."""
+    if not VIDEO_LINK_BASE_URL:
+        return None
+    rel = os.path.relpath(fpath, BEAT_ARCHIVE_ROOT)
+    quoted = "/".join(urllib.parse.quote(part) for part in rel.split(os.sep))
+    return f"{VIDEO_LINK_BASE_URL}/{quoted}"
+
 
 CT_BIZ_API   = "https://data.ct.gov/resource/n7gp-d28j.json"
 _NAICS_PAREN = re.compile(r"\s*\(\d+\)\s*$")
@@ -164,7 +176,11 @@ def send_email(files, downloader_output, biz_table=""):
     if skipped:
         skipped_note = (
             f"\n{len(skipped)} file(s) exceeded the {MAX_ATTACH_BYTES // (1024*1024)} MB size limit and were not attached:\n"
-            + "\n".join(f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)" for p in skipped)
+            + "\n".join(
+                f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)"
+                + (f"\n    {file_url(p)}" if file_url(p) else "")
+                for p in skipped
+            )
             + "\n"
         )
 
