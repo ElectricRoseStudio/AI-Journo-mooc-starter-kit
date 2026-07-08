@@ -61,7 +61,7 @@ def get_bundle_url():
     """Fetch the homepage and extract the current JS bundle URL."""
     with urllib.request.urlopen(_req(BASE), timeout=20) as r:
         html = r.read().decode("utf-8", errors="replace")
-    m = re.search(r'src="(/assets/index-[A-Za-z0-9]+\.js)"', html)
+    m = re.search(r'src="(/assets/index-[A-Za-z0-9_-]+\.js)"', html)
     if not m:
         raise RuntimeError("Could not find bundle URL in homepage HTML")
     return BASE + m.group(1)
