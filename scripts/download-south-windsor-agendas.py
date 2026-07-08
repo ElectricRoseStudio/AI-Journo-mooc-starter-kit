@@ -104,7 +104,7 @@ import time
 import urllib.request
 import urllib.error
 
-YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v24.18.0/bin/node"  # yt-dlp needs Node 22+; system node is 18
+YT_DLP_NODE = "node:/home/richkirby/.local/bin/yt-dlp-node"  # yt-dlp needs Node 22+; symlink kept current by scripts/update-yt-dlp-node.sh
 
 try:
     from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout

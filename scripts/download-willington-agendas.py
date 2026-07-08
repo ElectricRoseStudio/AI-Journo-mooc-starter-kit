@@ -51,7 +51,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v24.18.0/bin/node"  # yt-dlp needs Node 22+; system node is 18
+YT_DLP_NODE = "node:/home/richkirby/.local/bin/yt-dlp-node"  # yt-dlp needs Node 22+; symlink kept current by scripts/update-yt-dlp-node.sh
 
 # --- Configuration ---
 BASE_URL = "https://www.willingtonct.gov"
