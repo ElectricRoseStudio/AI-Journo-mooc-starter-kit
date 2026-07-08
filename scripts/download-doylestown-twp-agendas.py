@@ -59,7 +59,7 @@ import email.utils
 import html
 import os
 
-YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v24.18.0/bin/node"  # yt-dlp needs Node 22+; system node is 18
 import re
 import subprocess
 import sys

@@ -53,7 +53,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v20.20.2/bin/node"  # yt-dlp needs Node 20+; system node is 18
+YT_DLP_NODE = "node:/home/richkirby/.nvm/versions/node/v24.18.0/bin/node"  # yt-dlp needs Node 22+; system node is 18
 
 # --- Configuration ---
 BASE_URL = "https://www.madisonct.org"
