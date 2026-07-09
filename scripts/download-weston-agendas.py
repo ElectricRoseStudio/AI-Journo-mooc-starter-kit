@@ -22,6 +22,14 @@
 #   If you are on a home/office IP (not a datacenter), try --headless first;
 #   Akamai's IP-reputation block mainly targets cloud/server IPs.
 #
+# WHY A THROWAWAY CHROME PROFILE:
+#   Non-headless Chromium renders PDFs inline with its built-in PDF-viewer
+#   extension instead of firing a "download" event, which makes every
+#   download_doc() call time out. Each run launches a persistent context
+#   backed by a fresh temp profile with the
+#   "plugins.always_open_pdf_externally" preference set, which forces PDFs
+#   to download instead of render. The profile dir is deleted on exit.
+#
 # WHAT IT DOES:
 #   1. Loads westonct.gov/government/boards-commissions to discover all boards
 #   2. For each board, visits its page and finds year folder links (/-folder-NNN)
@@ -49,9 +57,12 @@
 
 import argparse
 import datetime
+import json
 import os
 import re
+import shutil
 import sys
+import tempfile
 import time
 
 try:
@@ -175,20 +186,38 @@ def save_url_shortcut(url, dest_path):
 
 # --- Browser helpers ---
 
-def make_browser(pw, headless):
+def make_profile_dir():
+    """
+    Create a throwaway Chrome profile dir with the built-in PDF viewer
+    disabled (plugins.always_open_pdf_externally). Without this, non-headless
+    Chromium renders PDFs inline via its PDF-viewer extension instead of
+    firing a "download" event, which makes every download_doc() call time out.
+    """
+    profile_dir = tempfile.mkdtemp(prefix="weston-chrome-profile-")
+    default_dir = os.path.join(profile_dir, "Default")
+    os.makedirs(default_dir, exist_ok=True)
+    prefs_path = os.path.join(default_dir, "Preferences")
+    with open(prefs_path, "w", encoding="utf-8") as f:
+        json.dump({"plugins": {"always_open_pdf_externally": True}}, f)
+    return profile_dir
+
+
+def make_browser(pw, headless, profile_dir):
     args = ["--disable-blink-features=AutomationControlled", "--no-sandbox"]
-    browser = pw.chromium.launch(headless=headless, args=args)
-    ctx = browser.new_context(
+    ctx = pw.chromium.launch_persistent_context(
+        profile_dir,
+        headless=headless,
+        args=args,
         user_agent=UA,
         viewport={"width": 1280, "height": 800},
         locale="en-US",
         accept_downloads=True,
     )
-    page = ctx.new_page()
+    page = ctx.pages[0] if ctx.pages else ctx.new_page()
     page.add_init_script(
         "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
     )
-    return browser, ctx, page
+    return ctx, page
 
 
 def safe_goto(page, url, timeout=25000):
@@ -414,132 +443,136 @@ def main():
     print(f"Mode        : {'headless' if headless else 'non-headless (display=' + os.environ.get('DISPLAY','?') + ')'}")
     print()
 
-    with sync_playwright() as pw:
-        browser, ctx, page = make_browser(pw, headless)
+    profile_dir = make_profile_dir()
+    log_lines = []
+    dl_ok = dl_skip = dl_fail = 0
+    log_path = os.path.join(args.output_dir, "download-log.txt")
+    try:
+        with sync_playwright() as pw:
+            ctx, page = make_browser(pw, headless, profile_dir)
 
-        # --- Step 1: discover all boards ---
-        print("Loading boards hub page...")
-        board_urls = collect_board_urls(page)
-        if not board_urls:
-            print("ERROR: Could not load boards page or no boards found.", file=sys.stderr)
-            if check_blocked(page):
-                print("  → Akamai blocked this request.", file=sys.stderr)
-                print("    Non-headless mode is the most reliable fix.", file=sys.stderr)
-                print("    If no display: xvfb-run python3 " + os.path.basename(__file__),
-                      file=sys.stderr)
-            browser.close()
-            sys.exit(1)
+            # --- Step 1: discover all boards ---
+            print("Loading boards hub page...")
+            board_urls = collect_board_urls(page)
+            if not board_urls:
+                print("ERROR: Could not load boards page or no boards found.", file=sys.stderr)
+                if check_blocked(page):
+                    print("  → Akamai blocked this request.", file=sys.stderr)
+                    print("    Non-headless mode is the most reliable fix.", file=sys.stderr)
+                    print("    If no display: xvfb-run python3 " + os.path.basename(__file__),
+                          file=sys.stderr)
+                ctx.close()
+                sys.exit(1)
 
-        print(f"Found {len(board_urls)} board page(s).")
+            print(f"Found {len(board_urls)} board page(s).")
 
-        if args.board:
-            fn = args.board.lower()
-            board_urls = [(u, n) for u, n in board_urls if fn in n.lower()]
-            print(f"Filtered to {len(board_urls)} board(s) matching '{args.board}'.")
-        print()
+            if args.board:
+                fn = args.board.lower()
+                board_urls = [(u, n) for u, n in board_urls if fn in n.lower()]
+                print(f"Filtered to {len(board_urls)} board(s) matching '{args.board}'.")
+            print()
 
-        # --- Step 2: collect candidate documents ---
-        candidates = []
-        no_date_count = 0
-        seen_doc_ids = set()
+            # --- Step 2: collect candidate documents ---
+            candidates = []
+            no_date_count = 0
+            seen_doc_ids = set()
 
-        for board_url, board_name in board_urls:
-            print(f"  Scanning: {board_name}")
+            for board_url, board_name in board_urls:
+                print(f"  Scanning: {board_name}")
 
-            year_folders = collect_year_folder_urls(page, board_url, years_needed)
-            if not year_folders:
-                print(f"    (no {max(years_needed)} folder found)")
-                time.sleep(0.5)
-                continue
+                year_folders = collect_year_folder_urls(page, board_url, years_needed)
+                if not year_folders:
+                    print(f"    (no {max(years_needed)} folder found)")
+                    time.sleep(0.5)
+                    continue
 
-            for year, folder_url in year_folders:
-                docs = collect_docs_from_folder(page, folder_url)
-                for doc in docs:
-                    if doc["doc_id"] in seen_doc_ids:
-                        continue
-                    seen_doc_ids.add(doc["doc_id"])
+                for year, folder_url in year_folders:
+                    docs = collect_docs_from_folder(page, folder_url)
+                    for doc in docs:
+                        if doc["doc_id"] in seen_doc_ids:
+                            continue
+                        seen_doc_ids.add(doc["doc_id"])
 
-                    meeting_date = parse_date_from_text(doc["title"])
+                        meeting_date = parse_date_from_text(doc["title"])
 
-                    if meeting_date is None:
-                        no_date_count += 1
-                        if args.include_undated:
+                        if meeting_date is None:
+                            no_date_count += 1
+                            if args.include_undated:
+                                candidates.append({**doc, "board": board_name,
+                                                   "meeting_date": None})
+                        elif meeting_date >= cutoff:
                             candidates.append({**doc, "board": board_name,
-                                               "meeting_date": None})
-                    elif meeting_date >= cutoff:
-                        candidates.append({**doc, "board": board_name,
-                                           "meeting_date": meeting_date})
-                time.sleep(0.5)
+                                               "meeting_date": meeting_date})
+                    time.sleep(0.5)
 
-        candidates.sort(
-            key=lambda x: (x.get("meeting_date") or datetime.date.min), reverse=True
-        )
+            candidates.sort(
+                key=lambda x: (x.get("meeting_date") or datetime.date.min), reverse=True
+            )
 
-        undated_note = (
-            f"  (+{no_date_count} undated included via --include-undated)"
-            if args.include_undated and no_date_count
-            else f"  ({no_date_count} undated skipped; use --include-undated to add)"
-            if no_date_count else ""
-        )
-        print()
-        print(f"Documents in window : {len(candidates)}{undated_note}")
-        print()
+            undated_note = (
+                f"  (+{no_date_count} undated included via --include-undated)"
+                if args.include_undated and no_date_count
+                else f"  ({no_date_count} undated skipped; use --include-undated to add)"
+                if no_date_count else ""
+            )
+            print()
+            print(f"Documents in window : {len(candidates)}{undated_note}")
+            print()
 
-        if not candidates:
-            print("No documents found within the date window.")
-            browser.close()
-            sys.exit(0)
+            if not candidates:
+                print("No documents found within the date window.")
+                ctx.close()
+                sys.exit(0)
 
-        if args.dry_run:
-            print(f"{'Board':<40} {'Date':<12} {'Type':<9} Title")
-            print("-" * 85)
+            if args.dry_run:
+                print(f"{'Board':<40} {'Date':<12} {'Type':<9} Title")
+                print("-" * 85)
+                for c in candidates:
+                    date_s = str(c["meeting_date"]) if c["meeting_date"] else "unknown"
+                    dtype = doc_type_from_text(c["title"])
+                    print(f"{c['board'][:39]:<40} {date_s:<12} {dtype:<9} {c['title'][:30]}")
+                print(f"\n{len(candidates)} document(s). Re-run without --dry-run to download.")
+                ctx.close()
+                return
+
+            # --- Step 3: download ---
+            os.makedirs(args.output_dir, exist_ok=True)
+
             for c in candidates:
-                date_s = str(c["meeting_date"]) if c["meeting_date"] else "unknown"
-                dtype = doc_type_from_text(c["title"])
-                print(f"{c['board'][:39]:<40} {date_s:<12} {dtype:<9} {c['title'][:30]}")
-            print(f"\n{len(candidates)} document(s). Re-run without --dry-run to download.")
-            browser.close()
-            return
+                board = c["board"]
+                meeting_date = c["meeting_date"]
+                title = c["title"]
+                doc_url = c["doc_url"]
+                dtype = doc_type_from_text(title)
+                date_s = str(meeting_date) if meeting_date else "unknown"
 
-        # --- Step 3: download ---
-        os.makedirs(args.output_dir, exist_ok=True)
-        log_path = os.path.join(args.output_dir, "download-log.txt")
-        log_lines = []
-        dl_ok = dl_skip = dl_fail = 0
+                dpath = dest_path(board, dtype, meeting_date, args.output_dir)
+                label = os.path.basename(dpath)
 
-        for c in candidates:
-            board = c["board"]
-            meeting_date = c["meeting_date"]
-            title = c["title"]
-            doc_url = c["doc_url"]
-            dtype = doc_type_from_text(title)
-            date_s = str(meeting_date) if meeting_date else "unknown"
+                print(f"[{date_s}] {board}")
 
-            dpath = dest_path(board, dtype, meeting_date, args.output_dir)
-            label = os.path.basename(dpath)
-
-            print(f"[{date_s}] {board}")
-
-            if os.path.exists(dpath):
-                print(f"  skip (exists)  {label}")
-                dl_skip += 1
-                continue
-
-            print(f"  downloading    {label}  ({title[:40]})")
-            if download_doc(ctx, doc_url, dpath):
-                dl_ok += 1
-                log_lines.append(
-                    f"{datetime.datetime.now().isoformat()}  OK    {dpath}")
-            else:
-                dl_fail += 1
-                log_lines.append(
-                    f"{datetime.datetime.now().isoformat()}  FAIL  {doc_url}")
                 if os.path.exists(dpath):
-                    os.remove(dpath)
+                    print(f"  skip (exists)  {label}")
+                    dl_skip += 1
+                    continue
 
-            time.sleep(DELAY_SECONDS)
+                print(f"  downloading    {label}  ({title[:40]})")
+                if download_doc(ctx, doc_url, dpath):
+                    dl_ok += 1
+                    log_lines.append(
+                        f"{datetime.datetime.now().isoformat()}  OK    {dpath}")
+                else:
+                    dl_fail += 1
+                    log_lines.append(
+                        f"{datetime.datetime.now().isoformat()}  FAIL  {doc_url}")
+                    if os.path.exists(dpath):
+                        os.remove(dpath)
 
-        browser.close()
+                time.sleep(DELAY_SECONDS)
+
+            ctx.close()
+    finally:
+        shutil.rmtree(profile_dir, ignore_errors=True)
 
     # --- Save Vimeo recording channel shortcut ---
     if not args.no_video:

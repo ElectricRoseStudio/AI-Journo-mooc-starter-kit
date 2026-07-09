@@ -17,6 +17,7 @@ import email.mime.text
 import json
 import os
 import re
+import shutil
 import smtplib
 import subprocess
 import sys
@@ -129,8 +130,13 @@ def check_config():
 
 def run_downloader():
     print("Running download-weston-agendas.py ...")
+    cmd = [sys.executable, SCRIPT]
+    # westonct.gov blocks headless Chromium (Akamai). Cron has no DISPLAY,
+    # so wrap in xvfb-run to give it a virtual one and run non-headless.
+    if not os.environ.get("DISPLAY") and shutil.which("xvfb-run"):
+        cmd = ["xvfb-run", "-a"] + cmd
     result = subprocess.run(
-        [sys.executable, SCRIPT],
+        cmd,
         capture_output=True,
         text=True,
         cwd=REPO_DIR,
