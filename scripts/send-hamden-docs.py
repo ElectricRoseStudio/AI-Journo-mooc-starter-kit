@@ -37,7 +37,7 @@ SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-hamden-agendas.py")
 OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive", "hamden-agendas")
 CITY_NAME  = "HAMDEN"
 
-ATTACH_EXTENSIONS = {".pdf"}
+ATTACH_EXTENSIONS = {".pdf", ".mp4", ".m4a", ".mp3"}
 MAX_ATTACH_BYTES = 20 * 1024 * 1024  # 20 MB per file; SendGrid limit is ~25 MB total
 
 VIDEO_LINK_BASE_URL = os.environ.get("VIDEO_LINK_BASE_URL", "").rstrip("/")
