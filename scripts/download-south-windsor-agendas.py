@@ -639,7 +639,16 @@ def main():
                 "-o", outtmpl,
                 v["new_url"],
             ]
-            result = subprocess.run(cmd, capture_output=True, text=True)
+            try:
+                result = subprocess.run(cmd, capture_output=True, text=True, timeout=3600)
+            except subprocess.TimeoutExpired:
+                failed += 1
+                print(f"  WARNING: yt-dlp timed out downloading video {video_id} — partial file kept, will resume next run", file=sys.stderr)
+                log_lines.append(
+                    f"{datetime.datetime.now().isoformat()}  TIMEOUT  video {video_id} {v['new_url']}"
+                )
+                continue
+
             if result.returncode == 0:
                 downloaded += 1
                 add_to_archive(archive_path, video_id)

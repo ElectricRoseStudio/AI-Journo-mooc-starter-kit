@@ -287,7 +287,11 @@ def download_boxcast_video(broadcast, dest_template, dry_run=False):
         "--quiet", "--no-warnings",
         url,
     ]
-    result = subprocess.run(cmd, capture_output=True, text=True, timeout=7200)
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=7200)
+    except subprocess.TimeoutExpired:
+        print(f"  WARNING: yt-dlp timed out downloading {url}", file=sys.stderr)
+        return False
     if result.returncode != 0 and result.stderr:
         print(f"  WARNING: yt-dlp: {result.stderr[:300]}", file=sys.stderr)
     return result.returncode == 0

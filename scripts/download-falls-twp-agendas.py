@@ -184,11 +184,23 @@ def download_video(video_id, title, upload_date, dry_run):
     if dry_run:
         return True
 
-    subprocess.run(
-        ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-update", "--no-overwrites", "--no-playlist",
-         "-o", out_tmpl, yt_url],
-        timeout=600,
-    )
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-update", "--no-overwrites", "--no-playlist",
+             "-o", out_tmpl, yt_url],
+            timeout=3600,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"    ERROR: yt-dlp timed out after 3600s downloading '{title}' — partial file kept, will resume next run")
+        return False
+    except Exception as e:
+        print(f"    ERROR downloading video '{title}': {e}")
+        return False
+
+    if result.returncode != 0:
+        print(f"    ERROR: yt-dlp exited with code {result.returncode} for '{title}'")
+        return False
+
     log_path = os.path.join(out_dir, "download-log.txt")
     with open(log_path, "a") as lf:
         lf.write(
