@@ -39,6 +39,9 @@ CITY_NAME  = "CANTON"
 
 ATTACH_EXTENSIONS  = {".pdf", ".zip"}
 MAX_ATTACH_BYTES   = 20 * 1024 * 1024  # 20 MB per file; SendGrid limit is ~25 MB total
+# SendGrid's message-size cap is 30 MB and base64 inflates attachments by
+# ~37%, so the raw attachment total needs headroom well under that.
+MAX_TOTAL_ATTACH_BYTES = 21 * 1024 * 1024
 
 VIDEO_LINK_BASE_URL = os.environ.get("VIDEO_LINK_BASE_URL", "").rstrip("/")
 BEAT_ARCHIVE_ROOT   = os.path.join(REPO_DIR, "beat-archive")
@@ -157,11 +160,14 @@ def collect_recent_files(hours=24):
 
 def send_email(files, downloader_output, biz_table=""):
     attached, skipped = [], []
+    total_bytes = 0
     for fpath in files:
-        if os.path.getsize(fpath) > MAX_ATTACH_BYTES:
+        size = os.path.getsize(fpath)
+        if size > MAX_ATTACH_BYTES or total_bytes + size > MAX_TOTAL_ATTACH_BYTES:
             skipped.append(fpath)
         else:
             attached.append(fpath)
+            total_bytes += size
 
     subject = (
         f"Canton CT meeting docs — {datetime.date.today().strftime('%B %-d, %Y')} "
@@ -176,7 +182,9 @@ def send_email(files, downloader_output, biz_table=""):
     skipped_note = ""
     if skipped:
         skipped_note = (
-            f"\n{len(skipped)} file(s) exceeded the {MAX_ATTACH_BYTES // (1024*1024)} MB size limit and were not attached:\n"
+            f"\n{len(skipped)} file(s) exceeded the per-file {MAX_ATTACH_BYTES // (1024*1024)} MB "
+            f"limit or the combined {MAX_TOTAL_ATTACH_BYTES // (1024*1024)} MB message budget "
+            "and were not attached:\n"
             + "\n".join(
                 f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)"
                 + (f"\n    {file_url(p)}" if file_url(p) else "")
