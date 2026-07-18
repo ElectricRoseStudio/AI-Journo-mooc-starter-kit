@@ -127,7 +127,7 @@ _TOTAL_RE = re.compile(r'\bof (\d+)\b')
 
 # --- HTTP helpers ---
 
-def fetch_html(url, retries=3):
+def fetch_html(url, retries=2):
     req = urllib.request.Request(
         url,
         headers={
@@ -137,7 +137,7 @@ def fetch_html(url, retries=3):
     )
     for attempt in range(retries + 1):
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=20) as r:
                 charset = r.headers.get_content_charset() or "utf-8"
                 return r.read().decode(charset, errors="replace")
         except urllib.error.HTTPError as e:

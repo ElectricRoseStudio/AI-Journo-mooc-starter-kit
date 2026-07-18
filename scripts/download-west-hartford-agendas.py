@@ -257,7 +257,7 @@ def download_with_ytdlp(url, output_dir, event_date, board_slug):
         url,
     ]
     try:
-        result = subprocess.run(cmd, timeout=300, capture_output=True)
+        result = subprocess.run(cmd, timeout=3600, capture_output=True)
         return result.returncode == 0
     except (subprocess.TimeoutExpired, FileNotFoundError):
         return False

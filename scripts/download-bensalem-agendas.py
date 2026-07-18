@@ -23,6 +23,7 @@ import urllib.error
 import urllib.request
 
 YT_DLP_NODE = "node:/home/richkirby/.local/bin/yt-dlp-node"  # yt-dlp needs Node 22+; symlink kept current by scripts/update-yt-dlp-node.sh
+VIDEO_DOWNLOAD_TIMEOUT = 3600  # seconds; observed line speed for these streams can be well under 1MB/s
 
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -231,11 +232,26 @@ def download_video(video_id, title, upload_date, dry_run):
     if dry_run:
         return True
 
-    subprocess.run(
-        ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-update", "--no-overwrites", "--no-playlist",
-         "-o", out_tmpl, yt_url],
-        timeout=600,
-    )
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-update", "--no-overwrites", "--no-playlist",
+             "-o", out_tmpl, yt_url],
+            timeout=VIDEO_DOWNLOAD_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        print(
+            f"    ERROR: yt-dlp timed out after {VIDEO_DOWNLOAD_TIMEOUT}s downloading "
+            f"'{title}' — partial file kept, will resume next run"
+        )
+        return False
+    except Exception as e:
+        print(f"    ERROR downloading video '{title}': {e}")
+        return False
+
+    if result.returncode != 0:
+        print(f"    ERROR: yt-dlp exited with code {result.returncode} for '{title}'")
+        return False
+
     log_path = os.path.join(out_dir, "download-log.txt")
     with open(log_path, "a") as lf:
         lf.write(

@@ -144,13 +144,16 @@ def download_video(video_url, dest_path):
         video_url,
     ]
     try:
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=True, timeout=3600)
         return True
     except FileNotFoundError:
         print("  ERROR: yt-dlp not found. Install with: pip install yt-dlp", file=sys.stderr)
         return False
     except subprocess.CalledProcessError as e:
         print(f"  WARNING: yt-dlp failed ({e})", file=sys.stderr)
+        return False
+    except subprocess.TimeoutExpired:
+        print(f"  WARNING: yt-dlp timed out downloading {video_url}", file=sys.stderr)
         return False
 
 

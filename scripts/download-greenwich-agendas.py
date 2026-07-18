@@ -323,10 +323,13 @@ def download_video(vid_id, dest_template, dry_run=False):
         "--no-overwrites", "--quiet", "--no-warnings", url,
     ]
     try:
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=True, timeout=3600)
         return True
     except (subprocess.CalledProcessError, FileNotFoundError) as e:
         print(f"  WARNING: {e}", file=sys.stderr)
+        return False
+    except subprocess.TimeoutExpired:
+        print("  WARNING: yt-dlp timed out after 3600s — partial file kept, will resume next run", file=sys.stderr)
         return False
 
 

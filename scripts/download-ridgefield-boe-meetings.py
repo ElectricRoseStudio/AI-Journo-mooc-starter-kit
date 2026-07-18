@@ -87,7 +87,11 @@ def download_videos(cutoff, output_dir, dry_run, audio_only):
 
     cmd.append(CHANNEL_URL)
 
-    result = subprocess.run(cmd)
+    try:
+        result = subprocess.run(cmd, timeout=3600)
+    except subprocess.TimeoutExpired:
+        print("ERROR: yt-dlp timed out — partial file(s) kept, will resume next run", file=sys.stderr)
+        return 1
 
     if not dry_run and result.returncode == 0:
         log_path = os.path.join(output_dir, "download-log.txt")

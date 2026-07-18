@@ -1,0 +1,2266 @@
+==============================
+2026-06-06 09:08:34 — Starting (1/8): download-glastonbury-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Output dir  : beat-archive/glastonbury-agendas
+
+Discovering board pages...
+  Found 28 board/committee page(s).
+
+Fetching board meeting listings (28 boards)...
+  [ 1/28] Town Council Agendas and Minutes...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/town-leadership-council/town-council-agendas-and-minutes/-toggle-allupcoming
+9 doc(s)
+  [ 2/28] Affordable Housing Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/affordable-housing-committee-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [ 3/28] ASDRC Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 4/28] BAA Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 5/28] Board of Finance Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/board-of-finance-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/board-of-finance-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 6/28] Commission on Aging Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/commission-on-aging/commission-on-aging-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/commission-on-aging/commission-on-aging-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 7/28] Commission on Racial Justice and Equity Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/commission-on-racial-justice-and-equity-minutes-and-agendas/-toggle-allpast
+0 doc(s)
+  [ 8/28] Community Beautification Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 9/28] Conservation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/conservation-commission-minutes-agendas/-toggle-allupcoming
+3 doc(s)
+  [10/28] Council/TP&Z Building Zone Regulations Working Group Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/council-tp-z-building-zone-regulations-working-group-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [11/28] Economic Development Commission Minutes, & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/economic-development-commission/economic-development-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/economic-development-commission/economic-development-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [12/28] Ethics Commission Minutes & Agendas... 0 doc(s)
+  [13/28] Fair Rent Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fair-rent-commission/fair-rent-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fair-rent-commission/fair-rent-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [14/28] Fire Commission Minutes & Agendas... 5 doc(s)
+  [15/28] Great Pond Stewardship Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/great-pond-preserve-stewardship-committee/great-pond-stewardship-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/great-pond-preserve-stewardship-committee/great-pond-stewardship-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [16/28] Historic District Commission Minutes & Agendas... 0 doc(s)
+  [17/28] Human Relations Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/human-relations-commission/human-relations-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [18/28] Insurance Advisory Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/insurance-advisory-committee/insurance-advisory-committee-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [19/28] Planning & Zoning Update Steering Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/planning-zoning-update-steering-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/planning-zoning-update-steering-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [20/28] Public Buildings Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/public-buildings-commission/public-buildings-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [21/28] Recreation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [22/28] Road Safety Action Plan Steering Committee Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/road-safety-action-plan-steering-committee-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/road-safety-action-plan-steering-committee-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [23/28] Town Council Policy & Ordinance Review Subcommittee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/council-tp-z-building-zone-regulations-working-group/town-council-policy-ordinance-review-subcommittee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/council-tp-z-building-zone-regulations-working-group/town-council-policy-ordinance-review-subcommittee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [24/28] Planning and Zoning Agendas and Minutes...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/town-plan-zoning-commission/planning-and-zoning-agendas-and-minutes/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/town-plan-zoning-commission/planning-and-zoning-agendas-and-minutes/-toggle-allupcoming
+0 doc(s)
+  [25/28] Water Pollution Control Authority Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/water-pollution-control-authority/water-pollution-control-authority-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/water-pollution-control-authority/water-pollution-control-authority-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [26/28] Welles Turner Library Board Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [27/28] Youth and Family Services Commission Meetings & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/youth-and-family-services-commission/youth-and-family-services-commission-meetings-agendas/-toggle-allpast
+0 doc(s)
+  [28/28] Zoning Board of Appeals Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/zoning-board-of-appeals/zoning-board-of-appeals-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/zoning-board-of-appeals/zoning-board-of-appeals-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+
+Found 17 PDF document(s) across 3 board(s).
+
+  [2026-06-04] Fire Commission Minutes & Agendas — agenda
+  downloading    2026-06-04-fire-commission-minutes-agendas-agenda.pdf
+  [2026-06-04] Fire Commission Minutes & Agendas — agenda
+  downloading    2026-06-04-fire-commission-minutes-agendas-agenda-1.pdf
+  [2026-05-28] Conservation Commission Minutes & Agendas — agenda
+  downloading    2026-05-28-conservation-commission-minutes-agendas-agenda.pdf
+  [2026-05-28] Conservation Commission Minutes & Agendas — minutes
+  downloading    2026-05-28-conservation-commission-minutes-agendas-minutes.pdf
+  [2026-05-26] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-26-town-council-agendas-and-minutes-agenda.pdf
+  [2026-05-26] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-26-town-council-agendas-and-minutes-agenda-1.pdf
+  [2026-05-26] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-26-town-council-agendas-and-minutes-agenda-2.pdf
+  [2026-05-26] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-26-town-council-agendas-and-minutes-agenda-3.pdf
+  [2026-05-26] Town Council Agendas and Minutes — minutes
+  downloading    2026-05-26-town-council-agendas-and-minutes-minutes.pdf
+  [2026-05-14] Conservation Commission Minutes & Agendas — agenda
+  downloading    2026-05-14-conservation-commission-minutes-agendas-agenda.pdf
+  [2026-05-12] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-12-town-council-agendas-and-minutes-agenda.pdf
+  [2026-05-12] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-12-town-council-agendas-and-minutes-agenda-1.pdf
+  [2026-05-12] Town Council Agendas and Minutes — agenda
+  downloading    2026-05-12-town-council-agendas-and-minutes-agenda-2.pdf
+  [2026-05-12] Town Council Agendas and Minutes — minutes
+  downloading    2026-05-12-town-council-agendas-and-minutes-minutes.pdf
+  [2026-05-07] Fire Commission Minutes & Agendas — agenda
+  downloading    2026-05-07-fire-commission-minutes-agendas-agenda.pdf
+  [2026-05-07] Fire Commission Minutes & Agendas — agenda
+  downloading    2026-05-07-fire-commission-minutes-agendas-agenda-1.pdf
+  [2026-05-07] Fire Commission Minutes & Agendas — minutes
+  downloading    2026-05-07-fire-commission-minutes-agendas-minutes.pdf
+
+Querying Cablecast VOD API for recordings...
+  Found 13 recording(s) in window.
+
+  [2026-06-03] Board of Finance 6/3/2026 — VOD 977 downloading → 2026-06-03-board-of-finance-6-3-2026.mp4
+  [2026-06-02] Glastonbury Youth & Family Services Commission 6/2/2026 — VOD 978 downloading → 2026-06-02-glastonbury-youth-family-services-commission-6-2-2.mp4
+  [2026-06-02] Town Plan and Zoning 6/2/2026 — VOD 974 downloading → 2026-06-02-town-plan-and-zoning-6-2-2026.mp4
+  [2026-06-01] Board of Ed Special Meeting 6/1/2026 — VOD 973 downloading → 2026-06-01-board-of-ed-special-meeting-6-1-2026.mp4
+  [2026-05-28] Conservation Commission 5/28/2026 — VOD 975 downloading → 2026-05-28-conservation-commission-5-28-2026.mp4
+  [2026-05-26] Town Council 5/26/2026 — VOD 970 downloading → 2026-05-26-town-council-5-26-2026.mp4
+  [2026-05-21] Zoning Board of Appeals 5/21/2026 — VOD 971 downloading → 2026-05-21-zoning-board-of-appeals-5-21-2026.mp4
+  [2026-05-20] Board of Finance 5/20/2026 — VOD 968 downloading → 2026-05-20-board-of-finance-5-20-2026.mp4
+  [2026-05-19] ASDRC 5/19/2026 — VOD 967 downloading → 2026-05-19-asdrc-5-19-2026.mp4
+  [2026-05-18] Board of Ed 5/18/2026 — VOD 965 downloading → 2026-05-18-board-of-ed-5-18-2026.mp4
+  [2026-05-14] Conservation Commission 5/14/2026 — VOD 966 downloading → 2026-05-14-conservation-commission-5-14-2026.mp4
+  [2026-05-12] Town Council 5/12/2026 — VOD 962 downloading → 2026-05-12-town-council-5-12-2026.mp4
+  [2026-05-11] Board of Ed Special Meeting 5/11/2026 — VOD 961 downloading → 2026-05-11-board-of-ed-special-meeting-5-11-2026.mp4
+
+Done — downloaded: 30  skipped: 0  failed: 0
+Files in: beat-archive/glastonbury-agendas
+Log:      beat-archive/glastonbury-agendas/download-log.txt
+
+2026-06-06 09:35:44 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 09:50:44 — Starting (2/8): download-manchester-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Output dir  : beat-archive/manchester-agendas
+
+Fetching document categories from eCode360 (MA2034)...
+  Agendas: 52 categories,  Minutes: 46 categories
+
+Fetching Agendas (52 categories)...
+  [ 1/52] (Uncategorized)... 0 doc(s)
+  [ 2/52] 21st Century Senior Center Task Force... 0 doc(s)
+  [ 3/52] Advisory Board of Health... 0 doc(s)
+  [ 4/52] Advisory Parks, Recreation and Leisure Services Commission... 0 doc(s)
+  [ 5/52] Bennet Housing Corporation:  Meeting Schedules... 0 doc(s)
+  [ 6/52] Board of Assessment Appeals: Agendas... 0 doc(s)
+  [ 7/52] Board of Directors: Agendas... 1 doc(s)
+  [ 8/52] Board of Directors: Notices... 0 doc(s)
+  [ 9/52] Boards and Commissions Subcommittee... 1 doc(s)
+  [10/52] Building Committee... 0 doc(s)
+  [11/52] Case Cabin Committee... 0 doc(s)
+  [12/52] Charter Review Commission... 0 doc(s)
+  [13/52] Charter Review Commission - Committee Sheets... 0 doc(s)
+  [14/52] Cheney Brothers National Historic District Commission: Meeting Schedules... 0 doc(s)
+  [15/52] Cheney Brothers National Historic Landmark District Commission... 1 doc(s)
+  [16/52] Cheney Hall: Meeting Schedule... 0 doc(s)
+  [17/52] Civilian Police Review and Relations Board... 0 doc(s)
+  [18/52] Commission on Elderly... 0 doc(s)
+  [19/52] Commission on Elderly: Notices... 0 doc(s)
+  [20/52] Commission on Human Relations... 0 doc(s)
+  [21/52] Conservation Commission... 2 doc(s)
+  [22/52] Conservation Commission: Meeting Schedules... 0 doc(s)
+  [23/52] Conservation Commission: Notices... 0 doc(s)
+  [24/52] Continuum of Care: Notices... 0 doc(s)
+  [25/52] Economic Development Commission... 1 doc(s)
+  [26/52] Economic Development Commission: Notices... 0 doc(s)
+  [27/52] Ethics Commission: Notices... 0 doc(s)
+  [28/52] Golf Course Oversight Committee... 0 doc(s)
+  [29/52] Golf Course Oversight Committee: Meeting Schedules... 0 doc(s)
+  [30/52] Health and Human Services Advisory Commission... 0 doc(s)
+  [31/52] Housing Commission... 0 doc(s)
+  [32/52] Housing and Fair Rent Commission... 2 doc(s)
+  [33/52] Land Acquisition and Historic Property Investment Committee... 0 doc(s)
+  [34/52] Land Acquisition and Historic Property Investment Committee: Notices... 0 doc(s)
+  [35/52] Library Board... 1 doc(s)
+  [36/52] Library Building Committee... 1 doc(s)
+  [37/52] Pension Board... 0 doc(s)
+  [38/52] Pension Board - Defined Benefit Plan... 0 doc(s)
+  [39/52] Permanent Memorial Day Committee... 0 doc(s)
+  [40/52] Planning and Zoning Commission: Agendas... 2 doc(s)
+  [41/52] Property Maintenance... 0 doc(s)
+  [42/52] Quality of Life Subcommittee... 0 doc(s)
+  [43/52] Redevelopment Agency... 1 doc(s)
+  [44/52] Repurposing Subcommittee... 0 doc(s)
+  [45/52] Sustainability Commission... 0 doc(s)
+  [46/52] Veterans Advisory Committee... 1 doc(s)
+  [47/52] Workforce Development Commission... 0 doc(s)
+  [48/52] Youth Commission... 0 doc(s)
+  [49/52] Zoning Board of Appeals: Agendas... 1 doc(s)
+  [50/52] Zoning Board of Appeals: Meeting Packet... 1 doc(s)
+  [51/52] Zoning Board of Appeals: Meeting Schedules... 0 doc(s)
+  [52/52] Zoning Board of Appeals: Notices... 2 doc(s)
+
+Fetching Minutes (46 categories)...
+  [ 1/46] 21st Century Senior Center Task Force... 0 doc(s)
+  [ 2/46] Advisory Board of Health... 0 doc(s)
+  [ 3/46] Advisory Parks, Recreation and Leisure Services Commission... 0 doc(s)
+  [ 4/46] Bennet Housing Corporation... 0 doc(s)
+  [ 5/46] Board of Assessment Appeals... 0 doc(s)
+  [ 6/46] Board of Directors: Actions... 0 doc(s)
+  [ 7/46] Board of Directors: Agendas... 0 doc(s)
+  [ 8/46] Board of Directors: Minutes... 0 doc(s)
+  [ 9/46] Board of Directors: Resolutions... 0 doc(s)
+  [10/46] Boards and Commissions Subcommittee... 1 doc(s)
+  [11/46] Building Committee... 0 doc(s)
+  [12/46] Case Cabin Committee... 0 doc(s)
+  [13/46] Charter Revision Commission... 0 doc(s)
+  [14/46] Cheney Brothers National Historic Landmard District Commission... 0 doc(s)
+  [15/46] Cheney Hall... 0 doc(s)
+  [16/46] Civilian Police Review and Relations Board... 0 doc(s)
+  [17/46] Commission on Elderly... 0 doc(s)
+  [18/46] Commission on Human Relations... 0 doc(s)
+  [19/46] Conservation Commission... 0 doc(s)
+  [20/46] Continuum of Care... 0 doc(s)
+  [21/46] Economic Development Commission... 1 doc(s)
+  [22/46] Ethics Commission... 0 doc(s)
+  [23/46] Golf Course Lease Oversight Committee... 0 doc(s)
+  [24/46] Health and Human Services Advisory Commission... 0 doc(s)
+  [25/46] Hockanum River Linear Park Committee... 0 doc(s)
+  [26/46] Housing Commission... 0 doc(s)
+  [27/46] Housing and Fair Rent Commission... 0 doc(s)
+  [28/46] Land Acquisition and Historic Property Investment Committee... 0 doc(s)
+  [29/46] Library Board... 1 doc(s)
+  [30/46] Library Building Committee... 1 doc(s)
+  [31/46] MECC School Readiness Council... 0 doc(s)
+  [32/46] Pension Board... 0 doc(s)
+  [33/46] Permanent Memorial Day Committee... 0 doc(s)
+  [34/46] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency... 2 doc(s)
+  [35/46] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency: Actions... 2 doc(s)
+  [36/46] Property Maintenance Board of Appeals... 0 doc(s)
+  [37/46] Quality of Life Subcommittee... 0 doc(s)
+  [38/46] Redevelopment Agency... 0 doc(s)
+  [39/46] Repurposing Subcommittee... 0 doc(s)
+  [40/46] SMARTR Committee... 0 doc(s)
+  [41/46] Sustainability Commission... 0 doc(s)
+  [42/46] Veterans Advisory Committee... 0 doc(s)
+  [43/46] Workforce Development Commission... 0 doc(s)
+  [44/46] Youth Commission... 0 doc(s)
+  [45/46] Zoning Board of Appeals: Actions... 1 doc(s)
+  [46/46] Zoning Board of Appeals: Minutes... 2 doc(s)
+
+Found 29 PDF document(s) across 18 board(s).
+
+  [2026-06-02] Board of Directors: Agendas — agenda
+  downloading    2026-06-02-board-of-directors-agendas-agenda.pdf
+  [2026-06-01] Veterans Advisory Committee — agenda
+  downloading    2026-06-01-veterans-advisory-committee-agenda.pdf
+  [2026-06-01] Planning and Zoning Commission: Agendas — agenda
+  downloading    2026-06-01-planning-and-zoning-commission-agendas-agenda.pdf
+  [2026-06-01] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency: Actions — minutes
+  downloading    2026-06-01-planning-and-zoning-commission-inland-wetlands-age-minutes.pdf
+  [2026-05-29] Conservation Commission — agenda
+  downloading    2026-05-29-conservation-commission-agenda.pdf
+  [2026-05-28] Boards and Commissions Subcommittee — agenda
+  downloading    2026-05-28-boards-and-commissions-subcommittee-agenda.pdf
+  [2026-05-28] Boards and Commissions Subcommittee — agenda
+  downloading    2026-05-28-boards-and-commissions-subcommittee-agenda-1.pdf
+  [2026-05-27] Zoning Board of Appeals: Notices — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-notices-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals: Notices — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-notices-agenda-1.pdf
+  [2026-05-27] Zoning Board of Appeals: Minutes — minutes
+  downloading    2026-05-27-zoning-board-of-appeals-minutes-minutes.pdf
+  [2026-05-27] Zoning Board of Appeals: Minutes — minutes
+  downloading    2026-05-27-zoning-board-of-appeals-minutes-minutes-1.pdf
+  [2026-05-27] Zoning Board of Appeals: Meeting Packet — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-meeting-packet-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals: Agendas — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-agendas-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals: Actions — minutes
+  downloading    2026-05-27-zoning-board-of-appeals-actions-minutes.pdf
+  [2026-05-26] Housing and Fair Rent Commission — agenda
+  downloading    2026-05-26-housing-and-fair-rent-commission-agenda.pdf
+  [2026-05-26] Housing and Fair Rent Commission — agenda
+  downloading    2026-05-26-housing-and-fair-rent-commission-agenda-1.pdf
+  [2026-05-21] Redevelopment Agency — agenda
+  downloading    2026-05-21-redevelopment-agency-agenda.pdf
+  [2026-05-21] Library Building Committee — agenda
+  downloading    2026-05-21-library-building-committee-agenda.pdf
+  [2026-05-21] Library Building Committee — agenda
+  downloading    2026-05-21-library-building-committee-agenda-1.pdf
+  [2026-05-21] Cheney Brothers National Historic Landmark District Commission — agenda
+  downloading    2026-05-21-cheney-brothers-national-historic-landmark-distric-agenda.pdf
+  [2026-05-18] Planning and Zoning Commission: Agendas — agenda
+  downloading    2026-05-18-planning-and-zoning-commission-agendas-agenda.pdf
+  [2026-05-18] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency: Actions — minutes
+  downloading    2026-05-18-planning-and-zoning-commission-inland-wetlands-age-minutes.pdf
+  [2026-05-18] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency — agenda
+  downloading    2026-05-18-planning-and-zoning-commission-inland-wetlands-age-agenda.pdf
+  [2026-05-18] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency — agenda
+  downloading    2026-05-18-planning-and-zoning-commission-inland-wetlands-age-agenda-1.pdf
+  [2026-05-14] Economic Development Commission — agenda
+  downloading    2026-05-14-economic-development-commission-agenda.pdf
+  [2026-05-14] Economic Development Commission — agenda
+  downloading    2026-05-14-economic-development-commission-agenda-1.pdf
+  [2026-05-13] Conservation Commission — agenda
+  downloading    2026-05-13-conservation-commission-agenda.pdf
+  [2026-05-11] Library Board — agenda
+  downloading    2026-05-11-library-board-agenda.pdf
+  [2026-05-11] Library Board — agenda
+  downloading    2026-05-11-library-board-agenda-1.pdf
+
+Querying Cablecast VOD API (channel16.org) for recordings...
+  Found 3 recording(s) in window.
+
+  [2026-06-01] MTG-PZC-2026-06-01 — VOD 800 downloading → 2026-06-01-mtg-pzc-2026-06-01.mp4
+  [2026-05-18] MTG-PZC-2026-05-18 — VOD 798 downloading → 2026-05-18-mtg-pzc-2026-05-18.mp4
+  [2026-05-12] MTG-BOD-2026-05-12 — VOD 797 downloading → 2026-05-12-mtg-bod-2026-05-12.mp4
+
+Done — downloaded: 32  skipped: 0  failed: 0
+Files in: beat-archive/manchester-agendas
+Log:      beat-archive/manchester-agendas/download-log.txt
+
+2026-06-06 09:53:54 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:08:54 — Starting (3/8): download-mansfield-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.mansfieldct.gov/agendacenter
+Output dir  : beat-archive/mansfield-agendas
+
+Fetching hub page to discover board categories...
+  Found 60 board category/categories.
+Searching for meetings in date window...
+  Found 73 meeting(s) with documents in date window.
+
+Fetching YouTube channel RSS for recent meeting recordings...
+  Found 15 recording(s) in window.
+  NOTE: RSS feed returns a maximum of 15 videos — older recordings may be missed.
+        Run this script at least weekly to stay current.
+
+  [2026-06-11] Board of Education: Transportation/Communications  — agenda
+  downloading    2026-06-11-board-of-education-transportation-communicati-17579-agenda.pdf
+  [2026-06-11] Board of Education: Transportation/Communications  — agenda
+  downloading    2026-06-11-board-of-education-transportation-communicati-17580-agenda.pdf
+  [2026-06-11] Board of Education — agenda
+  downloading    2026-06-11-board-of-education-17581-agenda.pdf
+  [2026-06-09] Youth Services Advisory Board — agenda
+  downloading    2026-06-09-youth-services-advisory-board-17576-agenda.pdf
+  [2026-06-08] Town Council: Personnel & Procedures Committee — agenda
+  downloading    2026-06-08-town-council-personnel-procedures-committee-17570-agenda.pdf
+  [2026-06-08] Town Council — agenda
+  downloading    2026-06-08-town-council-17577-agenda.pdf
+  [2026-06-08] Commission on Aging — agenda
+  downloading    2026-06-08-commission-on-aging-17578-agenda.pdf
+  [2026-06-04] Mansfield Downtown Partnership — agenda
+  downloading    2026-06-04-mansfield-downtown-partnership-17567-agenda.pdf
+  [2026-06-04] Board of Education — agenda
+  downloading    2026-06-04-board-of-education-17563-agenda.pdf
+  [2026-06-04] Board of Education — agenda
+  downloading    2026-06-04-board-of-education-17574-agenda.pdf
+  [2026-06-04] Board of Education — agenda
+  downloading    2026-06-04-board-of-education-17582-agenda.pdf
+  [2026-06-04] Affordable Housing Committee — agenda
+  downloading    2026-06-04-affordable-housing-committee-17572-agenda.pdf
+  [2026-06-03] Mansfield Advocates for Children — agenda
+  downloading    2026-06-03-mansfield-advocates-for-children-17568-agenda.pdf
+  [2026-06-03] Human Rights Commission — agenda
+  downloading    2026-06-03-human-rights-commission-17557-agenda.pdf
+  [2026-06-03] Arts Advisory Committee — agenda
+  downloading    2026-06-03-arts-advisory-committee-17565-agenda.pdf
+  [2026-06-02] Town Council: Committee on Committees — agenda
+  downloading    2026-06-02-town-council-committee-on-committees-17566-agenda.pdf
+  [2026-06-02] Library Advisory Board — agenda
+  downloading    2026-06-02-library-advisory-board-17562-agenda.pdf
+  [2026-06-02] Library Advisory Board — agenda
+  downloading    2026-06-02-library-advisory-board-17575-agenda.pdf
+  [2026-06-01] Town Council: Finance Committee — agenda
+  downloading    2026-06-01-town-council-finance-committee-17571-agenda.pdf
+  [2026-06-01] Town Council: Finance Committee — agenda
+  downloading    2026-06-01-town-council-finance-committee-17556-agenda.pdf
+  [2026-06-01] Town Council: Finance Committee — agenda
+  downloading    2026-06-01-town-council-finance-committee-17558-agenda.pdf
+  [2026-06-01] Planning and Zoning Commission — agenda
+  downloading    2026-06-01-planning-and-zoning-commission-17559-agenda.pdf
+  [2026-06-01] Inland/Wetlands Agency — agenda
+  downloading    2026-06-01-inland-wetlands-agency-17560-agenda.pdf
+  [2026-05-28] School Building Committee (2018 - ) — agenda
+  downloading    2026-05-28-school-building-committee-2018-17544-agenda.pdf
+  [2026-05-28] School Building Committee (2018 - ) — agenda
+  downloading    2026-05-28-school-building-committee-2018-17554-agenda.pdf
+  [2026-05-28] School Building Committee (2018 - ) — agenda
+  downloading    2026-05-28-school-building-committee-2018-17569-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-17541-agenda.pdf
+  [2026-05-27] Traffic Authority — agenda
+  downloading    2026-05-27-traffic-authority-17545-agenda.pdf
+  [2026-05-27] Human Services Advisory Committee — agenda
+  downloading    2026-05-27-human-services-advisory-committee-17547-agenda.pdf
+  [2026-05-27] Historic District Commission — agenda
+  downloading    2026-05-27-historic-district-commission-17540-agenda.pdf
+  [2026-05-26] Town Council: Personnel & Procedures Committee — agenda
+  downloading    2026-05-26-town-council-personnel-procedures-committee-17536-agenda.pdf
+  [2026-05-26] Town Council: Personnel & Procedures Committee — agenda
+  downloading    2026-05-26-town-council-personnel-procedures-committee-17561-agenda.pdf
+  [2026-05-26] Town Council: Personnel & Procedures Committee — agenda
+  downloading    2026-05-26-town-council-personnel-procedures-committee-17537-agenda.pdf
+  [2026-05-26] Town Council — agenda
+  downloading    2026-05-26-town-council-17546-agenda.pdf
+  [2026-05-26] Town Council — agenda
+  downloading    2026-05-26-town-council-17573-agenda.pdf
+  [2026-05-21] Town Council — agenda
+  downloading    2026-05-21-town-council-17534-agenda.pdf
+  [2026-05-21] Town Council — agenda
+  downloading    2026-05-21-town-council-17553-agenda.pdf
+  [2026-05-21] Planning and Zoning Commission: Regulatory Review — agenda
+  downloading    2026-05-21-planning-and-zoning-commission-regulatory-rev-17533-agenda.pdf
+  [2026-05-20] Town/University Relations — agenda
+  downloading    2026-05-20-town-university-relations-17535-agenda.pdf
+  [2026-05-20] Mansfield Downtown Partnership: Finance and Growth — agenda
+  downloading    2026-05-20-mansfield-downtown-partnership-finance-and-gr-17529-agenda.pdf
+  [2026-05-20] Mansfield Downtown Partnership: Finance and Growth — agenda
+  downloading    2026-05-20-mansfield-downtown-partnership-finance-and-gr-17548-agenda.pdf
+  [2026-05-20] Conservation Commission — agenda
+  downloading    2026-05-20-conservation-commission-17531-agenda.pdf
+  [2026-05-19] Solid Waste Advisory Committee — agenda
+  downloading    2026-05-19-solid-waste-advisory-committee-17525-agenda.pdf
+  [2026-05-19] Solid Waste Advisory Committee — agenda
+  downloading    2026-05-19-solid-waste-advisory-committee-17539-agenda.pdf
+  [2026-05-19] Mansfield Downtown Partnership: Celebrate Mansfiel — agenda
+  downloading    2026-05-19-mansfield-downtown-partnership-celebrate-mans-17530-agenda.pdf
+  [2026-05-18] Planning and Zoning Commission — agenda
+  downloading    2026-05-18-planning-and-zoning-commission-17526-agenda.pdf
+  [2026-05-18] Planning and Zoning Commission — agenda
+  downloading    2026-05-18-planning-and-zoning-commission-17552-agenda.pdf
+  [2026-05-18] Mansfield Middle School HVAC Building Committee — agenda
+  downloading    2026-05-18-mansfield-middle-school-hvac-building-committ-17523-agenda.pdf
+  [2026-05-15] Mansfield Housing Authority Board of Commissioners — agenda
+  downloading    2026-05-15-mansfield-housing-authority-board-of-commissi-17522-agenda.pdf
+  [2026-05-15] Economic Development Commission — agenda
+  downloading    2026-05-15-economic-development-commission-17538-agenda.pdf
+  [2026-05-14] Parks and Natural Resources Committee — agenda
+  downloading    2026-05-14-parks-and-natural-resources-committee-17517-agenda.pdf
+  [2026-05-14] Parks and Natural Resources Committee — agenda
+  downloading    2026-05-14-parks-and-natural-resources-committee-17543-agenda.pdf
+  [2026-05-14] Economic Development Commission — agenda
+  downloading    2026-05-14-economic-development-commission-17520-agenda.pdf
+  [2026-05-14] Agriculture Committee — agenda
+  downloading    2026-05-14-agriculture-committee-17516-agenda.pdf
+  [2026-05-13] Traffic Authority — agenda
+  downloading    2026-05-13-traffic-authority-17511-agenda.pdf
+  [2026-05-13] Traffic Authority — agenda
+  downloading    2026-05-13-traffic-authority-17542-agenda.pdf
+  [2026-05-13] Sustainability Committee — agenda
+  downloading    2026-05-13-sustainability-committee-17503-agenda.pdf
+  [2026-05-13] Sustainability Committee — agenda
+  downloading    2026-05-13-sustainability-committee-17524-agenda.pdf
+  [2026-05-13] Recreation Advisory Committee — agenda
+  downloading    2026-05-13-recreation-advisory-committee-17519-agenda.pdf
+  [2026-05-13] Recreation Advisory Committee — minutes
+  downloading    2026-05-13-recreation-advisory-committee-17519-minutes.pdf
+  [2026-05-13] Arts Advisory Committee — agenda
+  downloading    2026-05-13-arts-advisory-committee-17518-agenda.pdf
+  [2026-05-13] Arts Advisory Committee — minutes
+  downloading    2026-05-13-arts-advisory-committee-17518-minutes.pdf
+  [2026-05-12] Youth Services Advisory Board — agenda
+  downloading    2026-05-12-youth-services-advisory-board-17505-agenda.pdf
+  [2026-05-12] Youth Services Advisory Board — agenda
+  downloading    2026-05-12-youth-services-advisory-board-17512-agenda.pdf
+  [2026-05-12] Town/University Relations — agenda
+  downloading    2026-05-12-town-university-relations-17504-agenda.pdf
+  [2026-05-11] Town Council: Finance Committee — agenda
+  downloading    2026-05-11-town-council-finance-committee-17390-agenda.pdf
+  [2026-05-11] Town Council — agenda
+  downloading    2026-05-11-town-council-17502-agenda.pdf
+  [2026-05-11] Commission on Aging — agenda
+  downloading    2026-05-11-commission-on-aging-17501-agenda.pdf
+  [2026-05-11] Commission on Aging — agenda
+  downloading    2026-05-11-commission-on-aging-17551-agenda.pdf
+  [2026-05-07] Planning and Zoning Commission — agenda
+  downloading    2026-05-07-planning-and-zoning-commission-17497-agenda.pdf
+  [2026-05-07] Planning and Zoning Commission — agenda
+  downloading    2026-05-07-planning-and-zoning-commission-17528-agenda.pdf
+  [2026-05-07] Mansfield Downtown Partnership — agenda
+  downloading    2026-05-07-mansfield-downtown-partnership-17496-agenda.pdf
+  [2026-05-07] Mansfield Downtown Partnership — agenda
+  downloading    2026-05-07-mansfield-downtown-partnership-17508-agenda.pdf
+  [2026-05-07] Board of Education — agenda
+  downloading    2026-05-07-board-of-education-17354-agenda.pdf
+  [2026-05-07] Affordable Housing Committee — agenda
+  downloading    2026-05-07-affordable-housing-committee-17498-agenda.pdf
+
+Downloading 15 YouTube recording(s)...
+  [2026-06-05] Board of Education 06/04/2026
+  downloading    HiuaCsPaYt4
+  [2026-06-02] Finance Committee Special Meeting 06/01/2026
+  downloading    dBD4Kaha9zA
+  [2026-06-02] IWA/PZC 06/01/2026
+  downloading    SbUOLfMUUjA
+  [2026-05-29] School Building Committee 05/28/2026
+  downloading    8SOKaIxazkM
+  [2026-05-28] Human Services Advisory Committee 05/27/2026
+  downloading    przHwFcGj3Y
+  [2026-05-27] Town Council Meeting Adjournment from executive session 05/26/2026
+  downloading    WF4OjoCM_oc
+  [2026-05-27] Personnel Committee 05/26/2026
+  downloading    GnYcj9CPEak
+  [2026-05-27] Town Council 05/26/2026
+  downloading    dqnGvhXSukA
+  [2026-05-26] Town Univ Relations Special Meeting re POCD 05/20/2026
+  downloading    2mHu0gtxcbI
+  [2026-05-22] Special Town Council Meeting 5/22/2026
+  downloading    p3IRCdqEM8Q
+  [2026-05-21] MDP Finance and Growth Committee 5/20/2026
+  downloading    7TwWn5voDF4
+  [2026-05-19] PZC 05/18/2026
+  downloading    1iuNRX5gG1o
+  [2026-05-18] MMS HVAC Building Committee 05/18/2026
+  downloading    mWKIwLkBjZ4
+  [2026-05-18] Parks & Natural Resource Committee 05/14/2026
+  downloading    Gx3ZxxYc4KY
+  [2026-05-15] Mansfield Economic Development Commission 5/14/2026
+  downloading    -lpzd2nUazc
+
+Done — downloaded: 75  skipped: 0  failed: 15
+Files in: beat-archive/mansfield-agendas
+Log:      beat-archive/mansfield-agendas/download-log.txt
+
+2026-06-06 10:11:30 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:26:30 — Starting (4/8): download-middletown-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.middletownct.gov/agendacenter
+Output dir  : beat-archive/middletown-agendas
+
+Fetching hub page to discover board categories...
+  Found 97 board category/categories.
+Searching for meetings in date window...
+  Found 105 meeting(s) with documents in date window.
+
+Fetching Granicus recording list (this page is ~10 MB)...
+  Found 15 recording(s) in window.
+
+  skip (exists)  2026-06-10-youth-service-bureau-advisory-board-11456-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-11462-agenda.pdf
+  skip (exists)  2026-06-10-design-review-preservation-board-middletown-11461-agenda.pdf
+  skip (exists)  2026-06-09-mattabassett-district-board-11447-agenda.pdf
+  skip (exists)  2026-06-09-macdonough-school-bldg-committee-11460-agenda.pdf
+  skip (exists)  2026-06-09-estuary-transit-district-board-of-directors-11458-agenda.pdf
+  skip (exists)  2026-06-09-board-of-health-11459-agenda.pdf
+  skip (exists)  2026-06-08-housing-authority-11442-agenda.pdf
+  skip (exists)  2026-06-08-complete-streets-bikeway-committee-11457-agenda.pdf
+  skip (exists)  2026-06-08-board-of-education-11454-agenda.pdf
+  skip (exists)  2026-06-04-zoning-board-of-appeals-11443-agenda.pdf
+  skip (exists)  2026-06-04-water-pollution-control-authority-11451-agenda.pdf
+  skip (exists)  2026-06-03-public-works-critical-repairs-and-city-yard-p-11453-agenda.pdf
+  skip (exists)  2026-06-03-inland-wetlands-water-courses-agency-11438-agenda.pdf
+  skip (exists)  2026-06-03-board-of-education-11450-agenda.pdf
+  skip (exists)  2026-06-02-sanitary-disposal-district-commission-11431-agenda.pdf
+  skip (exists)  2026-06-02-russell-library-executive-committee-11439-agenda.pdf
+  skip (exists)  2026-06-02-committee-concerning-people-with-disabilities-11430-agenda.pdf
+  skip (exists)  2026-06-02-board-of-education-11449-agenda.pdf
+  skip (exists)  2026-06-02-anti-racism-task-force-11422-agenda.pdf
+  skip (exists)  2026-06-01-common-council-11406-agenda.pdf
+  skip (exists)  2026-06-01-common-council-11444-agenda.pdf
+  skip (exists)  2026-06-01-common-council-11437-agenda.pdf
+  skip (exists)  2026-06-01-board-of-education-11445-agenda.pdf
+  skip (exists)  2026-05-29-water-pollution-control-authority-11440-agenda.pdf
+  skip (exists)  2026-05-28-walter-c-jones-fund-11420-agenda.pdf
+  skip (exists)  2026-05-28-urban-forestry-commission-11429-agenda.pdf
+  skip (exists)  2026-05-28-public-safety-911-center-building-committee-11434-agenda.pdf
+  skip (exists)  2026-05-28-affirmative-action-monitoring-committee-11404-agenda.pdf
+  skip (exists)  2026-05-27-water-pollution-control-authority-11448-agenda.pdf
+  skip (exists)  2026-05-27-water-pollution-control-authority-11425-agenda.pdf
+  skip (exists)  2026-05-27-walter-c-jones-fund-11421-agenda.pdf
+  skip (exists)  2026-05-27-planning-zoning-commission-11423-agenda.pdf
+  skip (exists)  2026-05-27-planning-zoning-commission-11423-minutes.pdf
+  skip (exists)  2026-05-27-lower-connecticut-river-valley-11418-agenda.pdf
+  skip (exists)  2026-05-27-finance-government-operations-commission-11424-agenda.pdf
+  skip (exists)  2026-05-27-fair-rent-commission-11396-agenda.pdf
+  skip (exists)  2026-05-27-fair-rent-commission-11396-minutes.pdf
+  skip (exists)  2026-05-27-downtown-business-district-11409-agenda.pdf
+  skip (exists)  2026-05-27-commission-on-conservation-agriculture-11428-agenda.pdf
+  skip (exists)  2026-05-27-board-of-education-11435-agenda.pdf
+  skip (exists)  2026-05-27-board-of-education-11427-agenda.pdf
+  skip (exists)  2026-05-27-arts-commission-11436-agenda.pdf
+  skip (exists)  2026-05-26-russell-library-city-hall-feasibility-study-c-11384-agenda.pdf
+  skip (exists)  2026-05-26-middletown-sustainability-commission-11433-agenda.pdf
+  skip (exists)  2026-05-26-macdonough-school-bldg-committee-11426-agenda.pdf
+  skip (exists)  2026-05-26-lower-connecticut-river-valley-11408-agenda.pdf
+  skip (exists)  2026-05-26-common-council-11405-agenda.pdf
+  skip (exists)  2026-05-26-common-council-11419-agenda.pdf
+  skip (exists)  2026-05-21-wesley-elementary-school-roof-building-commit-11415-agenda.pdf
+  skip (exists)  2026-05-21-spencer-elementary-school-roof-building-commi-11416-agenda.pdf
+  skip (exists)  2026-05-21-snow-school-roof-building-committee-11412-agenda.pdf
+  skip (exists)  2026-05-21-russell-library-strategic-planning-committee-11403-agenda.pdf
+  skip (exists)  2026-05-21-russell-library-strategic-planning-committee-11403-minutes.pdf
+  skip (exists)  2026-05-21-recreation-community-services-commission-11400-agenda.pdf
+  skip (exists)  2026-05-21-recreation-community-services-commission-11400-minutes.pdf
+  skip (exists)  2026-05-21-keigwin-building-committee-11414-agenda.pdf
+  skip (exists)  2026-05-21-indoor-air-quality-11413-agenda.pdf
+  skip (exists)  2026-05-21-harbor-improvement-agency-11410-agenda.pdf
+  skip (exists)  2026-05-21-farm-hill-school-roof-building-committee-11411-agenda.pdf
+  skip (exists)  2026-05-20-riverfront-boathouse-building-committee-11390-agenda.pdf
+  skip (exists)  2026-05-20-public-works-critical-repairs-and-city-yard-p-11417-agenda.pdf
+  skip (exists)  2026-05-20-public-works-facilities-commission-11402-agenda.pdf
+  skip (exists)  2026-05-20-lgbtqia-commission-11399-agenda.pdf
+  skip (exists)  2026-05-20-lgbtqia-commission-11399-minutes.pdf
+  skip (exists)  2026-05-20-human-relations-commission-11389-agenda.pdf
+  skip (exists)  2026-05-20-human-relations-commission-11389-minutes.pdf
+  skip (exists)  2026-05-20-general-counsel-commission-11401-agenda.pdf
+  skip (exists)  2026-05-20-general-counsel-commission-11398-agenda.pdf
+  [2026-05-20] Citizens Advisory Committee — agenda
+  downloading    2026-05-20-citizens-advisory-committee-11407-agenda.pdf
+  [2026-05-19] Youth Service Bureau Advisory Board — agenda
+  downloading    2026-05-19-youth-service-bureau-advisory-board-11394-agenda.pdf
+  [2026-05-19] Russell Library Board of Trustees — agenda
+  downloading    2026-05-19-russell-library-board-of-trustees-11392-agenda.pdf
+  [2026-05-19] Russell Library Board of Trustees — minutes
+  downloading    2026-05-19-russell-library-board-of-trustees-11392-minutes.pdf
+  [2026-05-19] Parking Advisory Committee — agenda
+  downloading    2026-05-19-parking-advisory-committee-11379-agenda.pdf
+  [2026-05-19] Mattabassett District Board — agenda
+  downloading    2026-05-19-mattabassett-district-board-11387-agenda.pdf
+  [2026-05-19] Mattabassett District Board — minutes
+  downloading    2026-05-19-mattabassett-district-board-11387-minutes.pdf
+  [2026-05-19] Economic Development Commission — agenda
+  downloading    2026-05-19-economic-development-commission-11366-agenda.pdf
+  [2026-05-19] Commission on Conservation & Agriculture — agenda
+  downloading    2026-05-19-commission-on-conservation-agriculture-11393-agenda.pdf
+  [2026-05-19] Commission on Conservation & Agriculture — minutes
+  downloading    2026-05-19-commission-on-conservation-agriculture-11393-minutes.pdf
+  [2026-05-19] Commission on Conservation & Agriculture — agenda
+  downloading    2026-05-19-commission-on-conservation-agriculture-11391-agenda.pdf
+  [2026-05-19] Commission on Conservation & Agriculture — minutes
+  downloading    2026-05-19-commission-on-conservation-agriculture-11391-minutes.pdf
+  [2026-05-19] Clean Energy Taskforce — agenda
+  downloading    2026-05-19-clean-energy-taskforce-11395-agenda.pdf
+  [2026-05-18] Public Safety Commission — agenda
+  downloading    2026-05-18-public-safety-commission-11385-agenda.pdf
+  [2026-05-18] Public Safety Commission — agenda
+  downloading    2026-05-18-public-safety-commission-11386-agenda.pdf
+  [2026-05-18] Board of Education — agenda
+  downloading    2026-05-18-board-of-education-11397-agenda.pdf
+  [2026-05-15] Area Transit District — agenda
+  downloading    2026-05-15-area-transit-district-11388-agenda.pdf
+  [2026-05-14] Code Enforcement Committee — agenda
+  downloading    2026-05-14-code-enforcement-committee-11381-agenda.pdf
+  [2026-05-14] Code Enforcement Committee — minutes
+  downloading    2026-05-14-code-enforcement-committee-11381-minutes.pdf
+  [2026-05-14] Anti-Racism Task Force — agenda
+  downloading    2026-05-14-anti-racism-task-force-11355-agenda.pdf
+  [2026-05-13] Russell Library Governance Committee — agenda
+  downloading    2026-05-13-russell-library-governance-committee-11374-agenda.pdf
+  [2026-05-13] Russell Library Governance Committee — minutes
+  downloading    2026-05-13-russell-library-governance-committee-11374-minutes.pdf
+  [2026-05-13] Russell Library Finance Committee — agenda
+  downloading    2026-05-13-russell-library-finance-committee-11383-agenda.pdf
+  [2026-05-13] Public Works & Facilities Commission — agenda
+  downloading    2026-05-13-public-works-facilities-commission-11375-agenda.pdf
+  [2026-05-13] Planning & Zoning Commission — agenda
+  downloading    2026-05-13-planning-zoning-commission-11317-agenda.pdf
+  [2026-05-13] Mary Shepherd Home Citizens' Advisory Committee — agenda
+  downloading    2026-05-13-mary-shepherd-home-citizens-advisory-committe-11348-agenda.pdf
+  [2026-05-13] Fair Rent Commission — agenda
+  downloading    2026-05-13-fair-rent-commission-11359-agenda.pdf
+  [2026-05-13] Fair Rent Commission — minutes
+  downloading    2026-05-13-fair-rent-commission-11359-minutes.pdf
+  [2026-05-13] Estuary Transit District – Finance Committee — agenda
+  downloading    2026-05-13-estuary-transit-district-finance-committee-11380-agenda.pdf
+  [2026-05-13] Design Review & Preservation Board, Middletown — agenda
+  downloading    2026-05-13-design-review-preservation-board-middletown-11361-agenda.pdf
+  [2026-05-13] Common Council — agenda
+  downloading    2026-05-13-common-council-11351-agenda.pdf
+  [2026-05-13] American Rescue Plan Task Force — agenda
+  downloading    2026-05-13-american-rescue-plan-task-force-11373-agenda.pdf
+  [2026-05-12] Westfield Fire District — agenda
+  downloading    2026-05-12-westfield-fire-district-11358-agenda.pdf
+  [2026-05-12] Parking Advisory Committee — agenda
+  downloading    2026-05-12-parking-advisory-committee-11378-agenda.pdf
+  [2026-05-12] Mattabassett District Board — agenda
+  downloading    2026-05-12-mattabassett-district-board-11352-agenda.pdf
+  [2026-05-12] Mattabassett District Board — minutes
+  downloading    2026-05-12-mattabassett-district-board-11352-minutes.pdf
+  [2026-05-12] Economic Development Commission — agenda
+  downloading    2026-05-12-economic-development-commission-11367-agenda.pdf
+  [2026-05-12] Common Council — agenda
+  downloading    2026-05-12-common-council-11377-agenda.pdf
+  [2026-05-12] Board of Health — agenda
+  downloading    2026-05-12-board-of-health-11369-agenda.pdf
+  [2026-05-12] Board of Education — agenda
+  downloading    2026-05-12-board-of-education-11382-agenda.pdf
+  [2026-05-12] Area Transit District — agenda
+  downloading    2026-05-12-area-transit-district-11432-agenda.pdf
+  [2026-05-11] Retirement Board — agenda
+  downloading    2026-05-11-retirement-board-11364-agenda.pdf
+  [2026-05-11] Retirement Board — minutes
+  downloading    2026-05-11-retirement-board-11364-minutes.pdf
+  [2026-05-11] Middletown/Portland America 250 Committee — agenda
+  downloading    2026-05-11-middletown-portland-america-250-committee-11370-agenda.pdf
+  [2026-05-11] Mattabassett District Board — agenda
+  downloading    2026-05-11-mattabassett-district-board-11342-agenda.pdf
+  [2026-05-11] Mattabassett District Board — minutes
+  downloading    2026-05-11-mattabassett-district-board-11342-minutes.pdf
+  [2026-05-11] Housing Authority — agenda
+  downloading    2026-05-11-housing-authority-11360-agenda.pdf
+  [2026-05-11] Housing Authority — minutes
+  downloading    2026-05-11-housing-authority-11360-minutes.pdf
+  [2026-05-11] Complete Streets & Bikeway Committee — agenda
+  downloading    2026-05-11-complete-streets-bikeway-committee-11368-agenda.pdf
+  [2026-05-11] Complete Streets & Bikeway Committee — minutes
+  downloading    2026-05-11-complete-streets-bikeway-committee-11368-minutes.pdf
+  [2026-05-11] Board of Education — agenda
+  downloading    2026-05-11-board-of-education-11372-agenda.pdf
+  [2026-05-07] Zoning Board of Appeals — agenda
+  downloading    2026-05-07-zoning-board-of-appeals-11349-agenda.pdf
+  [2026-05-07] Zoning Board of Appeals — minutes
+  downloading    2026-05-07-zoning-board-of-appeals-11349-minutes.pdf
+  [2026-05-07] Water Pollution Control Authority — agenda
+  downloading    2026-05-07-water-pollution-control-authority-11296-agenda.pdf
+  [2026-05-07] Water Pollution Control Authority — minutes
+  downloading    2026-05-07-water-pollution-control-authority-11296-minutes.pdf
+  [2026-05-07] Water Pollution Control Authority — agenda
+  downloading    2026-05-07-water-pollution-control-authority-11371-agenda.pdf
+  [2026-05-07] Water Pollution Control Authority — minutes
+  downloading    2026-05-07-water-pollution-control-authority-11371-minutes.pdf
+
+Downloading 15 Granicus recording(s)...
+  NOTE: Files are 1–3 GB each. Progress: one dot per 10%.
+
+  [2026-05-26] COMMON COUNCIL - SPECIAL MEETING  - WORKSHOP: BAKER TILLY CLASSIFICATION & COMPENSATION STUDY (clip 3629)
+  downloading    2026-05-26-common-council-special-meeting-workshop-baker-till-3629.mp4
+  size: 1171 MB..........
+  [2026-05-13] COMMON COUNCIL - SPECIAL MEETING - FY26-27 BUDGET ADOPTION (clip 3623)
+  downloading    2026-05-13-common-council-special-meeting-fy26-27-budget-adop-3623.mp4
+  size: 1504 MB..........
+  [2026-05-12] COMMON COUNCIL - SPECIAL MEETING - UPSEU ARBITRATION AWARD (clip 3620)
+  downloading    2026-05-12-common-council-special-meeting-upseu-arbitration-a-3620.mp4
+  size: 426 MB..........
+  [2026-05-27] MFRC May 27, 2026 Special Meeting (clip 3638)
+  downloading    2026-05-27-mfrc-may-27-2026-special-meeting-3638.mp4
+  size: 545 MB..........
+  [2026-05-20] General Counsel Commission May 20, 2026 Special Meeting (clip 3631)
+  downloading    2026-05-20-general-counsel-commission-may-20-2026-special-mee-3631.mp4
+  size: 661 MB..........
+  [2026-05-27] PLANNING AND ZONING COMMISSION (clip 3635)
+  downloading    2026-05-27-planning-and-zoning-commission-3635.mp4
+  size: 2066 MB..........
+  [2026-05-12] Public Safety Committee Fire April 2026 (clip 3618)
+  downloading    2026-05-12-public-safety-committee-fire-april-2026-3618.mp4
+  size: 20 MB..........
+  [2026-05-28] Public Safety 911 Center Building Committee- May 2026 Regular Meeting (clip 3637)
+  downloading    2026-05-28-public-safety-911-center-building-committee-may-20-3637.mp4
+  size: 52 MB..........
+  [2026-05-21] Russell Library Strategic Planning Committee (clip 3628)
+  downloading    2026-05-21-russell-library-strategic-planning-committee-3628.mp4
+  size: 109 MB..........
+  [2026-05-14] Code Enforcement Committee May 14, 2026 Regular Meeting (clip 3632)
+  downloading    2026-05-14-code-enforcement-committee-may-14-2026-regular-mee-3632.mp4
+  size: 25 MB..........
+  [2026-05-13] Russell Library Governance Committee Regular Meeting (clip 3624)
+  downloading    2026-05-13-russell-library-governance-committee-regular-meeti-3624.mp4
+  size: 261 MB..........
+  [2026-05-13] Russell Library Finance Committee meeting (clip 3626)
+  downloading    2026-05-13-russell-library-finance-committee-meeting-3626.mp4
+  size: 129 MB..........
+  [2026-05-13] ARPA Task Force May 13, 2026 Regular Meeting (clip 3651)
+  downloading    2026-05-13-arpa-task-force-may-13-2026-regular-meeting-3651.mp4
+  size: 46 MB..........
+  [2026-05-07] Monthly Hybrid Webex Regular & Special WPCA Meeting (clip 3617)
+  downloading    2026-05-07-monthly-hybrid-webex-regular-special-wpca-meeting-3617.mp4
+  size: 775 MB..........
+  [2026-05-07] ZONING BOARD OF APPEALS (clip 3616)
+  downloading    2026-05-07-zoning-board-of-appeals-3616.mp4
+  size: 126 MB..........
+
+Done — downloaded: 72  skipped: 69  failed: 0
+Files in: beat-archive/middletown-agendas
+Log:      beat-archive/middletown-agendas/download-log.txt
+
+2026-06-06 10:34:14 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:49:14 — Starting (5/8): download-stafford-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Site        : https://www.staffordct.org
+Output dir  : beat-archive/stafford-agendas
+
+Scanning 33 board page(s) for documents...
+  [ 1/33] Board of Selectmen... 6 doc(s)
+  [ 2/33] Water Pollution Control Authority... 3 doc(s)
+  [ 3/33] 300 Year Anniversary Committee... 0 doc(s)
+  [ 4/33] Agriculture Advisory Commission... 1 doc(s)
+  [ 5/33] Annette Hyde Colton Fund... 1 doc(s)
+  [ 6/33] ARPA Commission... 0 doc(s)
+  [ 7/33] Arts Commission... 2 doc(s)
+  [ 8/33] Board of Assessment Appeals... 0 doc(s)
+  [ 9/33] Board of Education... 10 doc(s)
+  [10/33] Board of Finance... 9 doc(s)
+  [11/33] Cemetery Association... 0 doc(s)
+  [12/33] Conservation Commission... 4 doc(s)
+  [13/33] Economic Development Commission... 1 doc(s)
+  [14/33] Emergency Services Commission... 1 doc(s)
+  [15/33] Energy Advisory Committee... 0 doc(s)
+  [16/33] Events & Celebrations Committee... 2 doc(s)
+  [17/33] Family Services Advisory Board... 1 doc(s)
+  [18/33] Flag Pole Committee... 0 doc(s)
+  [19/33] Hyde Park Commission... 0 doc(s)
+  [20/33] Inland Wetlands Commission... 2 doc(s)
+  [21/33] Library Board... 2 doc(s)
+  [22/33] North Central District Board of Health... 0 doc(s)
+  [23/33] Pension Committee... 1 doc(s)
+  [24/33] Planning & Zoning Commission... 4 doc(s)
+  [25/33] Recreation Commission... 4 doc(s)
+  [26/33] Safety Committee... 0 doc(s)
+  [27/33] Service District Commission... 0 doc(s)
+  [28/33] Stafford Brownfields Advisory Board... 0 doc(s)
+  [29/33] Stafford Historic Advisory Commission... 0 doc(s)
+  [30/33] Stafford Housing Authority... 3 doc(s)
+  [31/33] Veterans Advisory Committee... 2 doc(s)
+  [32/33] Wall of Honor Phase IV Committee... 0 doc(s)
+  [33/33] Zoning Board of Appeals... 4 doc(s)
+  Total: 63 document(s) in window.
+
+Fetching recordings page...
+  Found 0 recording(s) in window.
+
+  skip (exists)  2026-06-11-zoning-board-of-appeals-06-11-Public Notice-ZBA.pdf
+  skip (exists)  2026-06-10-recreation-commission-06-10-Agenda-RC.pdf
+  skip (exists)  2026-06-09-board-of-education-06-09-Agenda-Curriculum Committee-BOE.pdf
+  skip (exists)  2026-06-09-board-of-education-06-09-Agenda-Finance Review Committee-BOE.pdf
+  skip (exists)  2026-06-09-board-of-education-06-09-Agenda-BOE.pdf
+  skip (exists)  2026-06-04-planning-zoning-commission-06-04-Legal Notice-Public Hearing-PZ.pdf
+  skip (exists)  2026-06-04-planning-zoning-commission-06-04-Agenda-PZpdf.pdf
+  skip (exists)  2026-06-04-family-services-advisory-board-06-04-Cancelled-FSAB.pdf
+  skip (exists)  2026-06-04-emergency-services-commission-06-04-Agenda-ESC.pdf
+  skip (exists)  2026-06-04-conservation-commission-06-04-Cancelled-CC.pdf
+  skip (exists)  2026-06-04-board-of-selectmen-06-04-Agenda-BOS.pdf
+  skip (exists)  2026-06-04-board-of-selectmen-06-04-Minutes-BOS.pdf
+  skip (exists)  2026-06-03-conservation-commission-06-03-Agenda-CC.pdf
+  skip (exists)  2026-06-03-board-of-selectmen-06-03-Agenda-BOS.pdf
+  skip (exists)  2026-06-03-board-of-selectmen-06-03-Minutes-BOS.pdf
+  skip (exists)  2026-06-03-board-of-education-06-03-Agenda-BOE.pdf
+  skip (exists)  2026-06-02-board-of-finance-06-02-Agenda-BOF.pdf
+  skip (exists)  2026-06-02-arts-commission-06-02-Agenda-AC.pdf
+  skip (exists)  2026-06-02-arts-commission-06-02-Minutes-AC.pdf
+  skip (exists)  2026-06-01-board-of-finance-06-01-Cancelled-BOF.pdf
+  skip (exists)  2026-05-28-veterans-advisory-committee-05-28-Agenda-SVAC.pdf
+  skip (exists)  2026-05-28-veterans-advisory-committee-05-28-Minutes-SVAC.pdf
+  skip (exists)  2026-05-28-board-of-finance-05-28-Agenda-BOF.pdf
+  skip (exists)  2026-05-28-board-of-finance-05-28-Packet-BOF.pdf
+  skip (exists)  2026-05-28-board-of-finance-05-28-Minutes-BOF.pdf
+  skip (exists)  2026-05-27-stafford-housing-authority-05-27-Cancelled-SHA.pdf
+  skip (exists)  2026-05-26-annette-hyde-colton-fund-05-26-Cancelled-AHCF.pdf
+  skip (exists)  2026-05-21-water-pollution-control-authority-05-21-Agenda-WPCA.pdf
+  skip (exists)  2026-05-21-water-pollution-control-authority-05-21-Minutes-WPCA.pdf
+  skip (exists)  2026-05-20-recreation-commission-05-20-Agenda-RC.pdf
+  skip (exists)  2026-05-20-recreation-commission-05-20-Cancelled-RC.pdf
+  skip (exists)  2026-05-20-pension-committee-05-20-Agenda-PC.pdf
+  skip (exists)  2026-05-20-inland-wetlands-commission-05-20-Agenda-IWC.pdf
+  skip (exists)  2026-05-20-inland-wetlands-commission-05-20-Minutes-IWC.pdf
+  skip (exists)  2026-05-19-stafford-housing-authority-05-19-Agenda-SHA.pdf
+  skip (exists)  2026-05-19-stafford-housing-authority-05-19-Cancelled-SHA.pdf
+  skip (exists)  2026-05-19-economic-development-commission-05-19-Agenda-EDC.pdf
+  skip (exists)  2026-05-19-board-of-education-05-19-Agenda-BOE.pdf
+  skip (exists)  2026-05-18-water-pollution-control-authority-05-18-Cancelled-WPCA.pdf
+  skip (exists)  2026-05-14-zoning-board-of-appeals-05-14-Public Notice-ZBA.pdf
+  skip (exists)  2026-05-14-zoning-board-of-appeals-05-14-Agenda-ZBA.pdf
+  skip (exists)  2026-05-14-zoning-board-of-appeals-05-14-Minutes-ZBA.pdf
+  skip (exists)  2026-05-14-library-board-05-14-Agenda-SPLB.pdf
+  skip (exists)  2026-05-14-library-board-05-14-Minutes-SPLB.pdf
+  skip (exists)  2026-05-13-recreation-commission-05-13-Cancelled-RC.pdf
+  skip (exists)  2026-05-13-board-of-selectmen-05-13-Agenda-BOS.pdf
+  skip (exists)  2026-05-13-board-of-selectmen-05-13-Minutes-BOS.pdf
+  skip (exists)  2026-05-13-board-of-finance-05-13-Agenda-BOF.pdf
+  skip (exists)  2026-05-13-board-of-finance-05-13-Packet-BOF.pdf
+  skip (exists)  2026-05-13-board-of-finance-05-13-Minutes-BOF.pdf
+  skip (exists)  2026-05-13-board-of-finance-05-13-Packet-BOF.pdf
+  skip (exists)  2026-05-13-agriculture-advisory-commission-05-13-Agenda-SAC.pdf
+  skip (exists)  2026-05-12-events-celebrations-committee-05-12-Agenda-ECC.pdf
+  skip (exists)  2026-05-12-events-celebrations-committee-05-12-Minutes-ECC.pdf
+  skip (exists)  2026-05-12-board-of-education-05-12-Cancelled-BOE.pdf
+  skip (exists)  2026-05-12-board-of-education-05-12-Agenda-BOE.pdf
+  skip (exists)  2026-05-12-board-of-education-05-12-Agenda-Board Policy Committee-BOE.pdf
+  skip (exists)  2026-05-12-board-of-education-05-12-Agenda-Finance Review Committee-BOE.pdf
+  skip (exists)  2026-05-07-planning-zoning-commission-05-07-Agenda-PZ.pdf
+  skip (exists)  2026-05-07-planning-zoning-commission-05-07-Minutes-PZ.pdf
+  skip (exists)  2026-05-07-conservation-commission-05-07-Agenda-CC.pdf
+  skip (exists)  2026-05-07-conservation-commission-05-07-Minutes-CC.pdf
+  skip (exists)  2026-05-07-board-of-education-05-07-Agenda-BOS.pdf
+
+Done — downloaded: 0  skipped: 63  failed: 0
+Files in: beat-archive/stafford-agendas
+
+2026-06-06 10:49:36 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 11:04:36 — Starting (6/8): download-tolland-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+eCode360    : https://ecode360.com/api/location/TO1208/
+Output dir  : beat-archive/tolland-agendas
+
+Fetching eCode360 board categories and documents...
+  Found 42 document(s) in date window.
+
+Fetching Community Voice Channel YouTube RSS for Tolland recordings...
+  Found 3 Tolland recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older videos from any town are not
+        visible. Run this script at least weekly to avoid gaps in Tolland coverage.
+
+  skip (exists)  2026-06-11-permanent-celebration-committee-753261214-agenda.pdf
+  skip (exists)  2026-06-11-inland-wetlands-commission-753261430-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-753261388-agenda.pdf
+  skip (exists)  2026-06-09-town-council-753261391-agenda.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-pzc-753261068-agenda.pdf
+  skip (exists)  2026-06-04-design-advisory-board-753260533-agenda.pdf
+  skip (exists)  2026-06-03-economic-development-commission-edc-753261269-minutes.pdf
+  skip (exists)  2026-06-03-economic-development-commission-753260492-agenda.pdf
+  skip (exists)  2026-06-02-town-council-753259357-agenda.pdf
+  skip (exists)  2026-06-02-town-council-753261056-minutes.pdf
+  skip (exists)  2026-06-01-agriculture-commission-753259810-agenda.pdf
+  skip (exists)  2026-06-01-agriculture-commission-753260563-agenda.pdf
+  skip (exists)  2026-05-28-zoning-board-of-appeals-zba-753258612-agenda.pdf
+  skip (exists)  2026-05-28-zoning-board-of-appeals-zba-753260271-minutes.pdf
+  skip (exists)  2026-05-28-conservation-commission-753259420-agenda.pdf
+  skip (exists)  2026-05-28-conservation-commission-753260281-minutes.pdf
+  skip (exists)  2026-05-26-town-council-753258717-agenda.pdf
+  skip (exists)  2026-05-26-town-council-753260490-minutes.pdf
+  skip (exists)  2026-05-21-veterans-recognition-commission-753257921-agenda.pdf
+  skip (exists)  2026-05-21-veterans-recognition-commission-753259294-minutes.pdf
+  skip (exists)  2026-05-21-inland-wetlands-commission-753257288-agenda.pdf
+  skip (exists)  2026-05-21-inland-wetlands-commission-753258479-agenda.pdf
+  skip (exists)  2026-05-20-town-council-753258174-agenda.pdf
+  skip (exists)  2026-05-20-historic-district-commission-753260275-minutes.pdf
+  skip (exists)  2026-05-19-firehouse-sub-committee-753258843-minutes.pdf
+  skip (exists)  2026-05-18-tolland-water-commission-753257706-agenda.pdf
+  skip (exists)  2026-05-18-tolland-water-commission-753258659-minutes.pdf
+  skip (exists)  2026-05-14-permanent-celebration-committee-753255166-agenda.pdf
+  skip (exists)  2026-05-14-permanent-celebration-committee-753257733-minutes.pdf
+  skip (exists)  2026-05-14-conservation-commission-753255771-agenda.pdf
+  skip (exists)  2026-05-14-conservation-commission-753257924-minutes.pdf
+  skip (exists)  2026-05-13-housing-authority-753254469-agenda.pdf
+  skip (exists)  2026-05-13-housing-authority-753259347-minutes.pdf
+  skip (exists)  2026-05-12-town-council-753255189-agenda.pdf
+  skip (exists)  2026-05-12-town-council-753257098-minutes.pdf
+  skip (exists)  2026-05-11-planning-and-zoning-commission-pzc-753255015-agenda.pdf
+  skip (exists)  2026-05-11-planning-and-zoning-commission-pzc-753256950-minutes.pdf
+  skip (exists)  2026-05-11-ethics-commission-753254603-agenda.pdf
+  skip (exists)  2026-05-11-ethics-commission-753257816-minutes.pdf
+  skip (exists)  2026-05-07-town-council-753254894-agenda.pdf
+  skip (exists)  2026-05-07-town-council-753255756-minutes.pdf
+  skip (exists)  2026-05-07-design-advisory-board-753260532-agenda.pdf
+
+Downloading 3 YouTube recording(s)...
+  [2026-05-28] Tolland Board of Education - May 27, 2026
+  skip (archive) rjxp5jhV36U
+  [2026-05-27] Tolland Town Council - May 26, 2026
+  skip (archive) npCvZlKGxYU
+  [2026-05-21] Tolland Town Council - May 12, 2026
+  skip (archive) 19d8e_ZEOwo
+
+Done — downloaded: 0  skipped: 45  failed: 0
+Files in: beat-archive/tolland-agendas
+
+2026-06-06 11:05:28 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 11:20:28 — Starting (7/8): download-vernon-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+CMS         : Thrillshare, org 26255, section 443064
+Output dir  : beat-archive/vernon-agendas
+
+Scanning Thrillshare document tree (Town Council, Boards & Commissions, Budget)...
+  [ 2/45] America 250 Committee... 10 doc(s)
+  [ 3/45] Arts Comission... 0 doc(s)
+  [ 4/45] Board of Ethics... 2 doc(s)
+  [ 5/45] Bolton Lakes Regional WPCA... 0 doc(s)
+  [ 6/45] Building Committee - School Roof Replacement... 0 doc(s)
+  [ 7/45] Building Committee - Water Pollution Control Facil... 0 doc(s)
+  [ 8/45] Capital Improvement Committee... 0 doc(s)
+  [ 9/45] Cell Tower Task Force... 0 doc(s)
+  [10/45] Cemetery Commission... 3 doc(s)
+  [11/45] Conservation Commission... 10 doc(s)
+  [12/45] Cultural District Advisory Board... 18 doc(s)
+  [13/45] Design Review Commission... 0 doc(s)
+  [14/45] Economic Development Commission... 6 doc(s)
+  [15/45] Energy Improvement District Board... 8 doc(s)
+  [16/45] Fair Rent Commission... 0 doc(s)
+  [17/45] Hockanum River Linear Park Committee... 0 doc(s)
+  [18/45] Homestead Revitalization Committee... 0 doc(s)
+  [19/45] Human Services Advisory Commission... 1 doc(s)
+  [20/45] Hydropower Commission... 0 doc(s)
+  [21/45] Inland Wetlands Commission... 8 doc(s)
+  [22/45] Local Historic Properties Commission... 10 doc(s)
+  [23/45] Mayor's Task Force on Library Finances... 0 doc(s)
+  [24/45] Municipal Flood and Erosion Control Board... 0 doc(s)
+  [25/45] North Central District Health Department Board... 10 doc(s)
+  [26/45] Open Space Task Force... 0 doc(s)
+  [27/45] Pension Board... 0 doc(s)
+  [28/45] Permanent Municipal Building Committee... 12 doc(s)
+  [29/45] Planning and Zoning Commission... 20 doc(s)
+  [30/45] Recovery and Reopening Advisory Committee... 0 doc(s)
+  [31/45] Risk Management Subcommittee... 0 doc(s)
+  [32/45] School Readiness Council... 0 doc(s)
+  [33/45] Senior Citizens Advisory Board... 4 doc(s)
+  [34/45] Youth Services Bureau Advisory Board... 3 doc(s)
+  [35/45] Vernon Area Cable Advisory Council... 1 doc(s)
+  [36/45] Vernon Housing Authority... 0 doc(s)
+  [37/45] Vernon Rocks Coalition... 7 doc(s)
+  [38/45] Vernon Traffic Authority... 14 doc(s)
+  [39/45] Water Pollution Control Authority... 13 doc(s)
+  [40/45] Zoning Board of Appeals... 9 doc(s)
+  [44/45] Conservation Commission(1)... 0 doc(s)
+  Found 32 document(s) in date window.
+
+Fetching Vernon CT YouTube channel RSS for meeting recordings...
+  Found 2 recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older recordings may be missed.
+        Run this script at least weekly to stay current.
+
+  skip (exists)  2026-06-10-north-central-district-health-department-6-10-2026-ncdhd-canceled.pdf
+  skip (exists)  2026-06-09-water-pollution-control-authority-6-9-2026-wpca-agenda.pdf
+  skip (exists)  2026-06-09-vernon-traffic-authority-6-9-2026-revised-traffic-authority-agenda.pdf
+  skip (exists)  2026-06-09-vernon-traffic-authority-6-9-2026-traffic-authority-agenda.pdf
+  skip (exists)  2026-06-09-local-historic-properties-commission-6-9-2026-lhpc-canceled.pdf
+  skip (exists)  2026-06-09-economic-development-commission-6-9-2026-edc-agenda.pdf
+  skip (exists)  2026-06-09-america-250-committee-6-9-2026-america-250-agenda.pdf
+  skip (exists)  2026-06-06-cultural-district-advisory-board-6-6-2026-cultural-district-advisory-board-agenda.pdf
+  skip (exists)  2026-06-04-board-of-ethics-6-4-2026-board-of-ethics-agenda.pdf
+  skip (exists)  2026-06-03-inland-wetlands-commission-6-3-2026-inland-wetlands-commission-canceled.pdf
+  skip (exists)  2026-06-02-planning-and-zoning-commission-6-2-2026-pzc-revised-agenda.pdf
+  skip (exists)  2026-06-02-planning-and-zoning-commission-6-2-2026-pzc-agenda.pdf
+  skip (exists)  2026-05-26-permanent-municipal-building-committee-5-26-2026-pmbc-draft-minutes.pdf
+  skip (exists)  2026-05-26-permanent-municipal-building-committee-5-26-2026-pmbc-agenda.pdf
+  skip (exists)  2026-05-26-cultural-district-advisory-board-5-26-2026-cultural-district-advisory-board-cancele.pdf
+  skip (exists)  2026-05-20-zoning-board-of-appeals-5-20-2026-zba-draft-minutes.pdf
+  skip (exists)  2026-05-20-zoning-board-of-appeals-5-20-2026-zba-agenda.pdf
+  skip (exists)  2026-05-19-town-council-5-19-2026-town-council-agenda.pdf
+  skip (exists)  2026-05-19-town-council-5-19-2026-town-council-draft-minutes.pdf
+  skip (exists)  2026-05-19-planning-and-zoning-commission-5-19-2026-pzc-canceled.pdf
+  skip (exists)  2026-05-18-energy-improvement-district-board-5-18-2026-eidb-canceled.pdf
+  skip (exists)  2026-05-18-conservation-commission-5-18-2026-conservation-commission-canceled.pdf
+  skip (exists)  2026-05-18-conservation-commission-5-18-2026-conservation-commission-agenda.pdf
+  skip (exists)  2026-05-13-north-central-district-health-department-5-13-2026-ncdhd-agenda.pdf
+  skip (exists)  2026-05-13-north-central-district-health-department-5-13-2026-ncdhd-draft-minutes.pdf
+  skip (exists)  2026-05-12-water-pollution-control-authority-5-12-2026-wpca-agenda.pdf
+  skip (exists)  2026-05-12-water-pollution-control-authority-5-12-2026-wpca-draft-minutes.pdf
+  skip (exists)  2026-05-12-vernon-traffic-authority-5-12-2026-traffic-authority-canceled.pdf
+  skip (exists)  2026-05-12-local-historic-properties-commission-5-12-2026-local-historic-properties-commission-age.pdf
+  skip (exists)  2026-05-12-local-historic-properties-commission-5-12-2026-lhpc-draft-minutes.pdf
+  skip (exists)  2026-05-12-america-250-committee-5-12-2026-america-250-committee-agenda.pdf
+  skip (exists)  2026-05-12-america-250-committee-5-12-2026-america-250-draft-minutes.pdf
+
+Downloading 2 YouTube recording(s)...
+  [2026-06-03] June 2, 2026 Town Council meeting, Town of Vernon, Connecticut
+  downloading    GkYzAzvgvG8
+  [2026-05-20] May 19, 2026 Town Council meeting, Town of Vernon, Connecticut
+  downloading    a8SuLMxuyns
+
+Done — downloaded: 0  skipped: 32  failed: 2
+Files in: beat-archive/vernon-agendas
+Log:      beat-archive/vernon-agendas/download-log.txt
+
+2026-06-06 11:23:10 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 11:38:10 — Starting (8/8): download-willington-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.willingtonct.gov/agendacenter
+Output dir  : beat-archive/willington-agendas
+
+Fetching hub page to discover board categories...
+  Found 22 board category/categories.
+Searching for meetings in date window...
+  Found 36 meeting(s) with documents in date window.
+
+Fetching YouTube channel RSS for recent meeting recordings...
+  Found 15 recording(s) in window.
+  NOTE: RSS feed returns a maximum of 15 videos — older recordings may be missed.
+        Run this script at least weekly to stay current.
+
+  skip (exists)  2026-06-11-zoning-board-of-appeals-481-agenda.pdf
+  skip (exists)  2026-06-10-library-board-473-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-484-agenda.pdf
+  skip (exists)  2026-06-08-school-building-committee-483-agenda.pdf
+  skip (exists)  2026-06-08-historic-district-commission-460-agenda.pdf
+  skip (exists)  2026-06-04-conservation-commission-480-agenda.pdf
+  skip (exists)  2026-06-04-board-of-finance-482-agenda.pdf
+  skip (exists)  2026-06-03-library-board-479-agenda.pdf
+  skip (exists)  2026-06-02-planning-and-zoning-commission-477-agenda.pdf
+  skip (exists)  2026-06-01-parks-and-recreation-commission-476-agenda.pdf
+  skip (exists)  2026-06-01-parks-and-recreation-commission-476-minutes.pdf
+  skip (exists)  2026-06-01-board-of-selectmen-478-agenda.pdf
+  skip (exists)  2026-06-01-board-of-selectmen-478-minutes.pdf
+  skip (exists)  2026-05-28-emergency-services-facilities-building-commit-475-agenda.pdf
+  skip (exists)  2026-05-27-emergency-services-facilities-building-commit-472-agenda.pdf
+  skip (exists)  2026-05-26-school-building-committee-471-agenda.pdf
+  skip (exists)  2026-05-26-school-building-committee-471-minutes.pdf
+  skip (exists)  2026-05-21-school-building-committee-469-agenda.pdf
+  skip (exists)  2026-05-21-school-building-committee-469-minutes.pdf
+  skip (exists)  2026-05-21-board-of-finance-470-agenda.pdf
+  skip (exists)  2026-05-20-town-clerk-462-agenda.pdf
+  skip (exists)  2026-05-20-town-clerk-462-minutes.pdf
+  skip (exists)  2026-05-20-conservation-commission-468-agenda.pdf
+  skip (exists)  2026-05-20-conservation-commission-468-minutes.pdf
+  skip (exists)  2026-05-19-planning-and-zoning-commission-463-agenda.pdf
+  skip (exists)  2026-05-18-inland-wetland-and-watercourses-commission-465-agenda.pdf
+  skip (exists)  2026-05-18-inland-wetland-and-watercourses-commission-464-agenda.pdf
+  skip (exists)  2026-05-18-housing-authority-466-agenda.pdf
+  skip (exists)  2026-05-18-housing-authority-466-minutes.pdf
+  skip (exists)  2026-05-18-board-of-selectmen-467-agenda.pdf
+  skip (exists)  2026-05-18-board-of-selectmen-467-minutes.pdf
+  skip (exists)  2026-05-14-emergency-services-facilities-building-commit-461-agenda.pdf
+  skip (exists)  2026-05-14-emergency-services-facilities-building-commit-461-minutes.pdf
+  skip (exists)  2026-05-13-the-willington-sustainability-energy-committe-458-agenda.pdf
+  skip (exists)  2026-05-13-the-willington-sustainability-energy-committe-458-minutes.pdf
+  skip (exists)  2026-05-13-library-board-451-agenda.pdf
+  skip (exists)  2026-05-13-library-board-451-minutes.pdf
+  skip (exists)  2026-05-13-capital-improvement-program-457-agenda.pdf
+  skip (exists)  2026-05-13-board-of-selectmen-459-agenda.pdf
+  skip (exists)  2026-05-13-board-of-selectmen-459-minutes.pdf
+  skip (exists)  2026-05-13-board-of-education-452-agenda.pdf
+  skip (exists)  2026-05-13-board-of-education-452-minutes.pdf
+  skip (exists)  2026-05-12-board-of-education-454-agenda.pdf
+  skip (exists)  2026-05-12-board-of-education-454-minutes.pdf
+  skip (exists)  2026-05-11-tricentennial-committee-455-agenda.pdf
+  skip (exists)  2026-05-11-tricentennial-committee-455-minutes.pdf
+  skip (exists)  2026-05-11-school-building-committee-450-agenda.pdf
+  skip (exists)  2026-05-11-school-building-committee-450-minutes.pdf
+  skip (exists)  2026-05-11-inland-wetland-and-watercourses-commission-456-agenda.pdf
+  skip (exists)  2026-05-11-board-of-education-453-agenda.pdf
+  skip (exists)  2026-05-11-board-of-education-453-minutes.pdf
+  skip (exists)  2026-05-07-zoning-board-of-appeals-447-agenda.pdf
+  skip (exists)  2026-05-07-board-of-finance-449-agenda.pdf
+
+Downloading 15 YouTube recording(s)...
+  [2026-06-02] BOS Regular Meeting 6-1-26
+  skip (archive) 4h_g18osSHs
+  [2026-05-28] Emergency Services Facilities Building Committee Special Meeting - Public Forum 5-27-26
+  skip (archive) J0BYDUsZmuM
+  [2026-05-27] Willington School Building Committee Regular Meeting 5-26-26
+  skip (archive) EF_2_3-WFqE
+  [2026-05-26] Willington School Building Committee Special Meeting 5-21-26
+  skip (archive) 2VnP5XIdBV4
+  [2026-05-26] Board of Finance Regular Meeting 5-21-26
+  skip (archive) HFAeu6CapG0
+  [2026-05-21] Conservation Commission Regular Meeting 5-20-26
+  skip (archive) yuCyZtc1CRU
+  [2026-05-19] BOS Regular Meeting 5-18-26
+  skip (archive) WS4Sr7HZLMQ
+  [2026-05-19] Inland Wetlands Commission, May 18, 2026
+  skip (archive) OOlMHwhtXEM
+  [2026-05-18] Emergency Services Facilities Building Committee Regular Meeting 5-14-26
+  skip (archive) joJey-CB52U
+  [2026-05-14] WiSE Committee Regular Meeting 5-13-26
+  skip (archive) 6nSA2HV78EU
+  [2026-05-14] Willington Board of Education special meeting 5-13-26
+  skip (archive) cQSlTgUopV8
+  [2026-05-14] BOS Special Meeting 5-13-26
+  skip (archive) NizX_Ujo6ps
+  [2026-05-13] Willington Board of Education regular meeting 5-12-26
+  skip (archive) fYXelW-NTxM
+  [2026-05-13] Willington Board of Education policy subcommittee meeting 5-11-26
+  skip (archive) lInFVhDqEgs
+  [2026-05-12] Willington School Building Committee Regular Meeting 5-11-26
+  skip (archive) q3L6SnZzqvQ
+
+Done — downloaded: 0  skipped: 68  failed: 0
+Files in: beat-archive/willington-agendas
+
+2026-06-06 11:38:12 — All Dehnel scripts complete.
+=============================
+2026-06-10 07:28:31 — Starting (1/3): download-shelton-agendas.py
+=============================
+Date window : 2026-06-06 to 2026-06-17
+Hub page    : https://www.cityofshelton.org/p/minutes-agendas
+Output dir  : beat-archive/shelton-agendas
+
+Fetching hub page to discover boards...
+Found 49 board(s). Root dir: 3ed76910-9429-4e68-ad46-9f000db7b7c0
+
+  Scanning: Animal Shelter Building Committee
+  Scanning: Anti Litter Committee
+  Scanning: Apportionment and Taxation
+  Scanning: Bid Opening
+  Scanning: Board Of Education
+  Scanning: Board Of Ethics
+  Scanning: Board of Aldermen Finance Committee Meetings
+  Scanning: Board of Aldermen Full Board Regular & Special Meetings
+  Scanning: Board of Aldermen Public Health & Safety Meetings
+  Scanning: Board of Aldermen Public Hearings/Public Hearing on Ordinances
+  Scanning: Board of Aldermen Street Committee Meetings
+  Scanning: Board of Education
+  Scanning: Board of Education Finance Committee
+  Scanning: Board of Fire Commissioners
+  Scanning: Charter Revision Commission
+  Scanning: Citizens Advisory Board
+  Scanning: Civil War Memorial Committee
+  Scanning: Community Gardens Ad Hoc Committee
+  Scanning: Conservation Commission
+  Scanning: Downtown Subcommittee
+  Scanning: Economic Development Commission
+  Scanning: Ems Commission
+  Scanning: Fair Rent Commission
+  Scanning: Farmers Market Association
+  Scanning: Housatonic River Estuary Commission
+  Scanning: Inland Wetlands Commission
+  Scanning: Library Board of Directors
+  Scanning: Long Hill Baseball Field Building Committee
+  Scanning: Officers Council
+  Scanning: Parks & Recreation Commission
+  Scanning: Parks and Recreation Commission
+  Scanning: Pension Board
+  Scanning: Perry Hill School Building Committee
+  Scanning: Planning and Zoning Commission
+  Scanning: Public Improvement Building Committee
+  Scanning: Renovation Building Committee
+  Scanning: SHS Code Compliance Building Committee
+  Scanning: SHS Fire Rehabilitation Building Committee
+  Scanning: Senior Center
+  Scanning: Senior Commission
+  Scanning: Trails Committee
+  Scanning: Valley Transit District
+  Scanning: Veterans Memorial Committee
+  Scanning: Water Pollution Control Authority
+  Scanning: Youth Service Bureau
+  Scanning: Zoning Board Of Appeals
+  Scanning: Zoning Board of Adjustments
+  Scanning: Zoning Enforcement Subcommittee
+  Scanning: Zoning Subcommittee
+
+Found 1 document(s) across 1 board(s).
+
+  YouTube (City Hall): fetching channel video list...
+    32 video(s) listed, 0 in date window.
+  YouTube (Conservation Commission): fetching channel video list...
+    11 video(s) listed, 0 in date window.
+
+Found 0 recording link(s) from YouTube.
+
+  skip (exists)  2026-06-11-board-of-aldermen-full-board-r-06112026-boa-regular-meeting-agenda-2723f71d.pdf
+
+Done — PDFs: downloaded=0  skipped=1  failed=0
+Files in: beat-archive/shelton-agendas
+
+2026-06-10 07:31:30 — Sleeping 3 minutes...
+=============================
+2026-06-10 07:34:30 — Starting (2/3): download-glastonbury-agendas.py
+=============================
+Date window : 2026-06-06 to 2026-06-17
+Output dir  : beat-archive/glastonbury-agendas
+
+Discovering board pages...
+  Found 28 board/committee page(s).
+
+Fetching board meeting listings (28 boards)...
+  [ 1/28] Town Council Agendas and Minutes...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/town-leadership-council/town-council-agendas-and-minutes/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/town-leadership-council/town-council-agendas-and-minutes/-toggle-allupcoming
+0 doc(s)
+  [ 2/28] Affordable Housing Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/affordable-housing-committee-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [ 3/28] ASDRC Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allpast
+1 doc(s)
+  [ 4/28] BAA Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 5/28] Board of Finance Minutes and Agendas... 0 doc(s)
+  [ 6/28] Commission on Aging Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/commission-on-aging/commission-on-aging-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 7/28] Commission on Racial Justice and Equity Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/commission-on-racial-justice-and-equity-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/commission-on-racial-justice-and-equity-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 8/28] Community Beautification Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 9/28] Conservation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/conservation-commission-minutes-agendas/-toggle-allpast
+1 doc(s)
+  [10/28] Council/TP&Z Building Zone Regulations Working Group Minutes & Agendas... 0 doc(s)
+  [11/28] Economic Development Commission Minutes, & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/economic-development-commission/economic-development-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/economic-development-commission/economic-development-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [12/28] Ethics Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/ethics-commission/ethics-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/ethics-commission/ethics-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [13/28] Fair Rent Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fair-rent-commission/fair-rent-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fair-rent-commission/fair-rent-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [14/28] Fire Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fire-commission/fire-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [15/28] Great Pond Stewardship Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/great-pond-preserve-stewardship-committee/great-pond-stewardship-minutes-agendas/-toggle-allpast
+1 doc(s)
+  [16/28] Historic District Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/historic-district-commission/historic-district-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/historic-district-commission/historic-district-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [17/28] Human Relations Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/human-relations-commission/human-relations-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [18/28] Insurance Advisory Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/insurance-advisory-committee/insurance-advisory-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [19/28] Planning & Zoning Update Steering Committee Minutes & Agendas... 0 doc(s)
+  [20/28] Public Buildings Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/public-buildings-commission/public-buildings-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [21/28] Recreation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [22/28] Road Safety Action Plan Steering Committee Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/road-safety-action-plan-steering-committee-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [23/28] Town Council Policy & Ordinance Review Subcommittee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/council-tp-z-building-zone-regulations-working-group/town-council-policy-ordinance-review-subcommittee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/council-tp-z-building-zone-regulations-working-group/town-council-policy-ordinance-review-subcommittee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [24/28] Planning and Zoning Agendas and Minutes...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/town-plan-zoning-commission/planning-and-zoning-agendas-and-minutes/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/town-plan-zoning-commission/planning-and-zoning-agendas-and-minutes/-toggle-allupcoming
+0 doc(s)
+  [25/28] Water Pollution Control Authority Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/water-pollution-control-authority/water-pollution-control-authority-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [26/28] Welles Turner Library Board Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [27/28] Youth and Family Services Commission Meetings & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/youth-and-family-services-commission/youth-and-family-services-commission-meetings-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/youth-and-family-services-commission/youth-and-family-services-commission-meetings-agendas/-toggle-allupcoming
+0 doc(s)
+  [28/28] Zoning Board of Appeals Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/zoning-board-of-appeals/zoning-board-of-appeals-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/zoning-board-of-appeals/zoning-board-of-appeals-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+
+Found 3 PDF document(s) across 3 board(s).
+
+  skip (exists)  2026-06-16-asdrc-minutes-and-agendas-agenda.pdf
+  [2026-06-11] Great Pond Stewardship Minutes & Agendas — agenda
+  downloading    2026-06-11-great-pond-stewardship-minutes-agendas-agenda.pdf
+  [2026-06-11] Conservation Commission Minutes & Agendas — agenda
+  downloading    2026-06-11-conservation-commission-minutes-agendas-agenda.pdf
+
+Querying Cablecast VOD API for recordings...
+  Found 2 recording(s) in window.
+
+  [2026-06-09] Town Council 6/9/2026 — VOD 980 downloading → 2026-06-09-town-council-6-9-2026.mp4
+  [2026-06-08] Board of Ed 6/8/2026 — VOD 979 skip (exists): 2026-06-08-board-of-ed-6-8-2026.mp4
+
+Done — downloaded: 3  skipped: 2  failed: 0
+Files in: beat-archive/glastonbury-agendas
+Log:      beat-archive/glastonbury-agendas/download-log.txt
+
+2026-06-10 07:40:51 — Sleeping 3 minutes...
+=============================
+2026-06-10 07:43:51 — Starting (3/3): download-tolland-agendas.py
+=============================
+Date window : 2026-06-06 to 2026-06-17
+eCode360    : https://ecode360.com/api/location/TO1208/
+Output dir  : beat-archive/tolland-agendas
+
+Fetching eCode360 board categories and documents...
+  Found 5 document(s) in date window.
+
+Fetching Community Voice Channel YouTube RSS for Tolland recordings...
+  Found 0 Tolland recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older videos from any town are not
+        visible. Run this script at least weekly to avoid gaps in Tolland coverage.
+
+  skip (exists)  2026-06-11-permanent-celebration-committee-753261214-agenda.pdf
+  skip (exists)  2026-06-11-inland-wetlands-commission-753261430-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-753261388-agenda.pdf
+  skip (exists)  2026-06-09-town-council-753261391-agenda.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-pzc-753261068-agenda.pdf
+
+Done — downloaded: 0  skipped: 5  failed: 0
+Files in: beat-archive/tolland-agendas
+
+2026-06-10 07:44:35 — Dehnel/RJ catch-up complete.
+=============================
+2026-06-11 06:45:23 — Starting (1/3): download-shelton-agendas.py
+=============================
+Date window : 2026-06-07 to 2026-06-18
+Hub page    : https://www.cityofshelton.org/p/minutes-agendas
+Output dir  : beat-archive/shelton-agendas
+
+Fetching hub page to discover boards...
+Found 49 board(s). Root dir: 3ed76910-9429-4e68-ad46-9f000db7b7c0
+
+  Scanning: Animal Shelter Building Committee
+  Scanning: Anti Litter Committee
+  Scanning: Apportionment and Taxation
+  Scanning: Bid Opening
+  Scanning: Board Of Education
+  Scanning: Board Of Ethics
+  Scanning: Board of Aldermen Finance Committee Meetings
+  Scanning: Board of Aldermen Full Board Regular & Special Meetings
+  Scanning: Board of Aldermen Public Health & Safety Meetings
+  Scanning: Board of Aldermen Public Hearings/Public Hearing on Ordinances
+  Scanning: Board of Aldermen Street Committee Meetings
+  Scanning: Board of Education
+  Scanning: Board of Education Finance Committee
+  Scanning: Board of Fire Commissioners
+  Scanning: Charter Revision Commission
+  Scanning: Citizens Advisory Board
+  Scanning: Civil War Memorial Committee
+  Scanning: Community Gardens Ad Hoc Committee
+  Scanning: Conservation Commission
+  Scanning: Downtown Subcommittee
+  Scanning: Economic Development Commission
+  Scanning: Ems Commission
+  Scanning: Fair Rent Commission
+  Scanning: Farmers Market Association
+  Scanning: Housatonic River Estuary Commission
+  Scanning: Inland Wetlands Commission
+  Scanning: Library Board of Directors
+  Scanning: Long Hill Baseball Field Building Committee
+  Scanning: Officers Council
+  Scanning: Parks & Recreation Commission
+  Scanning: Parks and Recreation Commission
+  Scanning: Pension Board
+  Scanning: Perry Hill School Building Committee
+  Scanning: Planning and Zoning Commission
+  Scanning: Public Improvement Building Committee
+  Scanning: Renovation Building Committee
+  Scanning: SHS Code Compliance Building Committee
+  Scanning: SHS Fire Rehabilitation Building Committee
+  Scanning: Senior Center
+  Scanning: Senior Commission
+  Scanning: Trails Committee
+  Scanning: Valley Transit District
+  Scanning: Veterans Memorial Committee
+  Scanning: Water Pollution Control Authority
+  Scanning: Youth Service Bureau
+  Scanning: Zoning Board Of Appeals
+  Scanning: Zoning Board of Adjustments
+  Scanning: Zoning Enforcement Subcommittee
+  Scanning: Zoning Subcommittee
+
+Found 1 document(s) across 1 board(s).
+
+  YouTube (City Hall): fetching channel video list...
+    32 video(s) listed, 0 in date window.
+  YouTube (Conservation Commission): fetching channel video list...
+    11 video(s) listed, 0 in date window.
+
+Found 0 recording link(s) from YouTube.
+
+  skip (exists)  2026-06-11-board-of-aldermen-full-board-r-06112026-boa-regular-meeting-agenda-2723f71d.pdf
+
+Done — PDFs: downloaded=0  skipped=1  failed=0
+Files in: beat-archive/shelton-agendas
+=============================
+2026-06-11 07:04:55 — Starting (2/3): download-glastonbury-agendas.py
+=============================
+Date window : 2026-06-07 to 2026-06-18
+Output dir  : beat-archive/glastonbury-agendas
+
+Discovering board pages...
+  Found 28 board/committee page(s).
+
+Fetching board meeting listings (28 boards)...
+  [ 1/28] Town Council Agendas and Minutes...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/town-leadership-council/town-council-agendas-and-minutes/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/town-leadership-council/town-council-agendas-and-minutes/-toggle-allupcoming
+0 doc(s)
+  [ 2/28] Affordable Housing Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/affordable-housing-committee-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [ 3/28] ASDRC Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 4/28] BAA Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/minutes-agendas/-toggle-allpast
+0 doc(s)
+  [ 5/28] Board of Finance Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/board-of-finance-minutes-and-agendas/-toggle-allpast
+0 doc(s)
+  [ 6/28] Commission on Aging Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/commission-on-aging/commission-on-aging-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [ 7/28] Commission on Racial Justice and Equity Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/commission-on-racial-justice-and-equity-minutes-and-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 8/28] Community Beautification Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 9/28] Conservation Commission Minutes & Agendas... 1 doc(s)
+  [10/28] Council/TP&Z Building Zone Regulations Working Group Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/council-tp-z-building-zone-regulations-working-group-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [11/28] Economic Development Commission Minutes, & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/economic-development-commission/economic-development-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [12/28] Ethics Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/ethics-commission/ethics-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [13/28] Fair Rent Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fair-rent-commission/fair-rent-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [14/28] Fire Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fire-commission/fire-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [15/28] Great Pond Stewardship Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/great-pond-preserve-stewardship-committee/great-pond-stewardship-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/great-pond-preserve-stewardship-committee/great-pond-stewardship-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [16/28] Historic District Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/historic-district-commission/historic-district-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [17/28] Human Relations Commission Minutes & Agendas... 0 doc(s)
+  [18/28] Insurance Advisory Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/insurance-advisory-committee/insurance-advisory-committee-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [19/28] Planning & Zoning Update Steering Committee Minutes & Agendas... 0 doc(s)
+  [20/28] Public Buildings Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/public-buildings-commission/public-buildings-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/public-buildings-commission/public-buildings-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [21/28] Recreation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [22/28] Road Safety Action Plan Steering Committee Minutes and Agendas... 0 doc(s)
+  [23/28] Town Council Policy & Ordinance Review Subcommittee Minutes & Agendas... 0 doc(s)
+  [24/28] Planning and Zoning Agendas and Minutes... 1 doc(s)
+  [25/28] Water Pollution Control Authority Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/water-pollution-control-authority/water-pollution-control-authority-minutes-and-agendas/-toggle-allupcoming
+1 doc(s)
+  [26/28] Welles Turner Library Board Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [27/28] Youth and Family Services Commission Meetings & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/youth-and-family-services-commission/youth-and-family-services-commission-meetings-agendas/-toggle-allpast
+0 doc(s)
+  [28/28] Zoning Board of Appeals Minutes & Agendas... 1 doc(s)
+
+Found 4 PDF document(s) across 4 board(s).
+
+  [2026-06-15] Zoning Board of Appeals Minutes & Agendas — agenda
+  downloading    2026-06-15-zoning-board-of-appeals-minutes-agendas-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-minutes-agendas-agenda.pdf
+  [2026-06-10] Water Pollution Control Authority Minutes and Agendas — agenda
+  downloading    2026-06-10-water-pollution-control-authority-minutes-and-agen-agenda.pdf
+  skip (exists)  2026-06-10-planning-and-zoning-agendas-and-minutes-agenda.pdf
+
+Querying Cablecast VOD API for recordings...
+  Found 3 recording(s) in window.
+
+  [2026-06-09] Town Council 6/9/2026 — VOD 981 skip (exists): 2026-06-09-town-council-6-9-2026.mp4
+  [2026-06-09] Town Council 6/9/2026 — VOD 980 no URL (processing or disabled)
+  [2026-06-08] Board of Ed 6/8/2026 — VOD 979 skip (exists): 2026-06-08-board-of-ed-6-8-2026.mp4
+
+Done — downloaded: 2  skipped: 4  failed: 1
+Files in: beat-archive/glastonbury-agendas
+Log:      beat-archive/glastonbury-agendas/download-log.txt
+=============================
+2026-06-11 07:26:00 — Starting (3/3): download-tolland-agendas.py
+=============================
+Date window : 2026-06-07 to 2026-06-18
+eCode360    : https://ecode360.com/api/location/TO1208/
+Output dir  : beat-archive/tolland-agendas
+
+Fetching eCode360 board categories and documents...
+  Found 6 document(s) in date window.
+
+Fetching Community Voice Channel YouTube RSS for Tolland recordings...
+  Found 0 Tolland recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older videos from any town are not
+        visible. Run this script at least weekly to avoid gaps in Tolland coverage.
+
+  skip (exists)  2026-06-11-permanent-celebration-committee-753261214-agenda.pdf
+  skip (exists)  2026-06-11-inland-wetlands-commission-753261430-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-753261388-agenda.pdf
+  skip (exists)  2026-06-09-town-council-753261391-agenda.pdf
+  skip (exists)  2026-06-08-tolland-public-library-foundation-753262416-minutes.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-pzc-753261068-agenda.pdf
+
+Done — downloaded: 0  skipped: 6  failed: 0
+Files in: beat-archive/tolland-agendas
+2026-06-11 07:26:44 — Dehnel/RJ catch-up complete.
+=============================
+2026-06-12 05:45:24 — Starting (1/3): download-shelton-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Hub page    : https://www.cityofshelton.org/p/minutes-agendas
+Output dir  : beat-archive/shelton-agendas
+
+Fetching hub page to discover boards...
+Found 49 board(s). Root dir: 3ed76910-9429-4e68-ad46-9f000db7b7c0
+
+  Scanning: Animal Shelter Building Committee
+  Scanning: Anti Litter Committee
+  Scanning: Apportionment and Taxation
+  Scanning: Bid Opening
+  Scanning: Board Of Education
+  Scanning: Board Of Ethics
+  Scanning: Board of Aldermen Finance Committee Meetings
+  Scanning: Board of Aldermen Full Board Regular & Special Meetings
+  Scanning: Board of Aldermen Public Health & Safety Meetings
+  Scanning: Board of Aldermen Public Hearings/Public Hearing on Ordinances
+  Scanning: Board of Aldermen Street Committee Meetings
+  Scanning: Board of Education
+  Scanning: Board of Education Finance Committee
+  Scanning: Board of Fire Commissioners
+  Scanning: Charter Revision Commission
+  Scanning: Citizens Advisory Board
+  Scanning: Civil War Memorial Committee
+  Scanning: Community Gardens Ad Hoc Committee
+  Scanning: Conservation Commission
+  Scanning: Downtown Subcommittee
+  Scanning: Economic Development Commission
+  Scanning: Ems Commission
+  Scanning: Fair Rent Commission
+  Scanning: Farmers Market Association
+  Scanning: Housatonic River Estuary Commission
+  Scanning: Inland Wetlands Commission
+  Scanning: Library Board of Directors
+  Scanning: Long Hill Baseball Field Building Committee
+  Scanning: Officers Council
+  Scanning: Parks & Recreation Commission
+  Scanning: Parks and Recreation Commission
+  Scanning: Pension Board
+  Scanning: Perry Hill School Building Committee
+  Scanning: Planning and Zoning Commission
+  Scanning: Public Improvement Building Committee
+  Scanning: Renovation Building Committee
+  Scanning: SHS Code Compliance Building Committee
+  Scanning: SHS Fire Rehabilitation Building Committee
+  Scanning: Senior Center
+  Scanning: Senior Commission
+  Scanning: Trails Committee
+  Scanning: Valley Transit District
+  Scanning: Veterans Memorial Committee
+  Scanning: Water Pollution Control Authority
+  Scanning: Youth Service Bureau
+  Scanning: Zoning Board Of Appeals
+  Scanning: Zoning Board of Adjustments
+  Scanning: Zoning Enforcement Subcommittee
+  Scanning: Zoning Subcommittee
+
+Found 1 document(s) across 1 board(s).
+
+  YouTube (City Hall): fetching channel video list...
+    32 video(s) listed, 0 in date window.
+  YouTube (Conservation Commission): fetching channel video list...
+    11 video(s) listed, 0 in date window.
+
+Found 0 recording link(s) from YouTube.
+
+  skip (exists)  2026-06-11-board-of-aldermen-full-board-r-06112026-boa-regular-meeting-agenda-2723f71d.pdf
+
+Done — PDFs: downloaded=0  skipped=1  failed=0
+Files in: beat-archive/shelton-agendas
+
+2026-06-12 05:48:25 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:53:25 — Starting (2/3): download-glastonbury-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Output dir  : beat-archive/glastonbury-agendas
+
+Discovering board pages...
+  Found 28 board/committee page(s).
+
+Fetching board meeting listings (28 boards)...
+  [ 1/28] Town Council Agendas and Minutes... 2 doc(s)
+  [ 2/28] Affordable Housing Committee Minutes & Agendas... 0 doc(s)
+  [ 3/28] ASDRC Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allpast
+1 doc(s)
+  [ 4/28] BAA Minutes & Agendas... 0 doc(s)
+  [ 5/28] Board of Finance Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/board-of-finance-minutes-and-agendas/-toggle-allpast
+0 doc(s)
+  [ 6/28] Commission on Aging Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/commission-on-aging/commission-on-aging-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [ 7/28] Commission on Racial Justice and Equity Minutes and Agendas... 0 doc(s)
+  [ 8/28] Community Beautification Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [ 9/28] Conservation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/conservation-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/conservation-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [10/28] Council/TP&Z Building Zone Regulations Working Group Minutes & Agendas... 0 doc(s)
+  [11/28] Economic Development Commission Minutes, & Agendas... 0 doc(s)
+  [12/28] Ethics Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/ethics-commission/ethics-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [13/28] Fair Rent Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fair-rent-commission/fair-rent-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [14/28] Fire Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fire-commission/fire-commission-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [15/28] Great Pond Stewardship Minutes & Agendas... 1 doc(s)
+  [16/28] Historic District Commission Minutes & Agendas... 0 doc(s)
+  [17/28] Human Relations Commission Minutes & Agendas... 0 doc(s)
+  [18/28] Insurance Advisory Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/insurance-advisory-committee/insurance-advisory-committee-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [19/28] Planning & Zoning Update Steering Committee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/planning-zoning-update-steering-committee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [20/28] Public Buildings Commission Minutes & Agendas... 0 doc(s)
+  [21/28] Recreation Commission Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [22/28] Road Safety Action Plan Steering Committee Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/road-safety-action-plan-steering-committee-minutes-and-agendas/-toggle-allpast
+0 doc(s)
+  [23/28] Town Council Policy & Ordinance Review Subcommittee Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/council-tp-z-building-zone-regulations-working-group/town-council-policy-ordinance-review-subcommittee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/council-tp-z-building-zone-regulations-working-group/town-council-policy-ordinance-review-subcommittee-minutes-agendas/-toggle-allupcoming
+0 doc(s)
+  [24/28] Planning and Zoning Agendas and Minutes... 1 doc(s)
+  [25/28] Water Pollution Control Authority Minutes and Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/water-pollution-control-authority/water-pollution-control-authority-minutes-and-agendas/-toggle-allpast
+0 doc(s)
+  [26/28] Welles Turner Library Board Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allpast
+0 doc(s)
+  [27/28] Youth and Family Services Commission Meetings & Agendas... 0 doc(s)
+  [28/28] Zoning Board of Appeals Minutes & Agendas...   HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/zoning-board-of-appeals/zoning-board-of-appeals-minutes-agendas/-toggle-allpast
+1 doc(s)
+
+Found 6 PDF document(s) across 5 board(s).
+
+  skip (exists)  2026-06-16-asdrc-minutes-and-agendas-agenda.pdf
+  skip (exists)  2026-06-15-zoning-board-of-appeals-minutes-agendas-agenda.pdf
+  skip (exists)  2026-06-11-great-pond-stewardship-minutes-agendas-agenda.pdf
+  skip (exists)  2026-06-10-planning-and-zoning-agendas-and-minutes-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agendas-and-minutes-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agendas-and-minutes-agenda-1.pdf
+
+Querying Cablecast VOD API for recordings...
+  Found 4 recording(s) in window.
+
+  [2026-06-12]  Conservation CommissionInland Wetlands & Watercourses Agency meeting 20260611 — VOD 982 no URL (processing or disabled)
+  [2026-06-09] Town Council 6/9/2026 — VOD 981 skip (exists): 2026-06-09-town-council-6-9-2026.mp4
+  [2026-06-09] Town Council 6/9/2026 — VOD 980 no URL (processing or disabled)
+  [2026-06-08] Board of Ed 6/8/2026 — VOD 979 skip (exists): 2026-06-08-board-of-ed-6-8-2026.mp4
+
+Done — downloaded: 0  skipped: 8  failed: 2
+Files in: beat-archive/glastonbury-agendas
+Log:      beat-archive/glastonbury-agendas/download-log.txt
+
+2026-06-12 05:54:26 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:59:26 — Starting (3/3): download-tolland-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+eCode360    : https://ecode360.com/api/location/TO1208/
+Output dir  : beat-archive/tolland-agendas
+
+Fetching eCode360 board categories and documents...
+  Found 7 document(s) in date window.
+
+Fetching Community Voice Channel YouTube RSS for Tolland recordings...
+  Found 0 Tolland recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older videos from any town are not
+        visible. Run this script at least weekly to avoid gaps in Tolland coverage.
+
+  [2026-06-16] Firehouse Sub-Committee — agenda
+  downloading    2026-06-16-firehouse-sub-committee-753262702-agenda.pdf
+  skip (exists)  2026-06-11-permanent-celebration-committee-753261214-agenda.pdf
+  skip (exists)  2026-06-11-inland-wetlands-commission-753261430-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-753261388-agenda.pdf
+  skip (exists)  2026-06-09-town-council-753261391-agenda.pdf
+  skip (exists)  2026-06-08-tolland-public-library-foundation-753262416-minutes.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-pzc-753261068-agenda.pdf
+
+Done — downloaded: 1  skipped: 6  failed: 0
+Files in: beat-archive/tolland-agendas
+Log:      beat-archive/tolland-agendas/download-log.txt
+
+2026-06-12 06:00:12 — All Dehnel scripts complete.
+2026-06-13 09:23:17 — Hartford retry + derby-through-vernon.
+Running download-glastonbury-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Output dir  : beat-archive/glastonbury-agendas
+
+Discovering board pages...
+  Found 28 board/committee page(s).
+
+Fetching board meeting listings (28 boards)...
+  [ 1/28] Town Council Agendas and Minutes... 2 doc(s)
+  [ 2/28] Affordable Housing Committee Minutes & Agendas... 0 doc(s)
+  [ 3/28] ASDRC Minutes and Agendas... 1 doc(s)
+  [ 4/28] BAA Minutes & Agendas... 0 doc(s)
+  [ 5/28] Board of Finance Minutes and Agendas... 2 doc(s)
+  [ 6/28] Commission on Aging Minutes & Agendas... 0 doc(s)
+  [ 7/28] Commission on Racial Justice and Equity Minutes and Agendas... 0 doc(s)
+  [ 8/28] Community Beautification Committee Minutes & Agendas... 0 doc(s)
+  [ 9/28] Conservation Commission Minutes & Agendas... 1 doc(s)
+  [10/28] Council/TP&Z Building Zone Regulations Working Group Minutes & Agendas... 0 doc(s)
+  [11/28] Economic Development Commission Minutes, & Agendas... 0 doc(s)
+  [12/28] Ethics Commission Minutes & Agendas... 0 doc(s)
+  [13/28] Fair Rent Commission Minutes & Agendas... 0 doc(s)
+  [14/28] Fire Commission Minutes & Agendas... 0 doc(s)
+  [15/28] Great Pond Stewardship Minutes & Agendas... 1 doc(s)
+  [16/28] Historic District Commission Minutes & Agendas... 0 doc(s)
+  [17/28] Human Relations Commission Minutes & Agendas... 0 doc(s)
+  [18/28] Insurance Advisory Committee Minutes & Agendas... 0 doc(s)
+  [19/28] Planning & Zoning Update Steering Committee Minutes & Agendas... 0 doc(s)
+  [20/28] Public Buildings Commission Minutes & Agendas... 0 doc(s)
+  [21/28] Recreation Commission Minutes & Agendas... 0 doc(s)
+  [22/28] Road Safety Action Plan Steering Committee Minutes and Agendas... 0 doc(s)
+  [23/28] Town Council Policy & Ordinance Review Subcommittee Minutes & Agendas... 0 doc(s)
+  [24/28] Planning and Zoning Agendas and Minutes... 1 doc(s)
+  [25/28] Water Pollution Control Authority Minutes and Agendas... 1 doc(s)
+  [26/28] Welles Turner Library Board Minutes & Agendas... 0 doc(s)
+  [27/28] Youth and Family Services Commission Meetings & Agendas... 0 doc(s)
+  [28/28] Zoning Board of Appeals Minutes & Agendas... 1 doc(s)
+
+Found 10 PDF document(s) across 8 board(s).
+
+  [2026-06-17] Board of Finance Minutes and Agendas — agenda
+  downloading    2026-06-17-board-of-finance-minutes-and-agendas-agenda.pdf
+  [2026-06-17] Board of Finance Minutes and Agendas — agenda
+  downloading    2026-06-17-board-of-finance-minutes-and-agendas-agenda-1.pdf
+  [2026-06-16] Planning and Zoning Agendas and Minutes — agenda
+  downloading    2026-06-16-planning-and-zoning-agendas-and-minutes-agenda.pdf
+  skip (exists)  2026-06-16-asdrc-minutes-and-agendas-agenda.pdf
+  skip (exists)  2026-06-15-zoning-board-of-appeals-minutes-agendas-agenda.pdf
+  skip (exists)  2026-06-11-great-pond-stewardship-minutes-agendas-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-minutes-agendas-agenda.pdf
+  skip (exists)  2026-06-10-water-pollution-control-authority-minutes-and-agen-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agendas-and-minutes-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agendas-and-minutes-agenda-1.pdf
+
+Querying Cablecast VOD API for recordings...
+  Found 3 recording(s) in window.
+
+  [2026-06-12]  Conservation CommissionInland Wetlands & Watercourses Agency meeting 20260611 — VOD 982 no URL (processing or disabled)
+  [2026-06-09] Town Council 6/9/2026 — VOD 981 skip (exists): 2026-06-09-town-council-6-9-2026.mp4
+  [2026-06-09] Town Council 6/9/2026 — VOD 980 no URL (processing or disabled)
+
+Done — downloaded: 3  skipped: 8  failed: 2
+Files in: beat-archive/glastonbury-agendas
+Log:      beat-archive/glastonbury-agendas/download-log.txt
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/asdrc-finance-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-assessment-appeals/minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/commission-on-aging/commission-on-aging-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/commission-on-racial-justice-and-equity-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/community-beautification-committee/community-beautification-committee-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/conservation-commission-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/board-of-finance/council-tp-z-building-zone-regulations-working-group-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/economic-development-commission/economic-development-commission-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/fire-commission/fire-commission-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/great-pond-preserve-stewardship-committee/great-pond-stewardship-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/insurance-advisory-committee/insurance-advisory-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/planning-zoning-update-steering-committee-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/conservation-wetlands/planning-zoning-update-steering-committee-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/public-buildings-commission/public-buildings-commission-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/recreation-commission-minutes-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/recreation-commission/road-safety-action-plan-steering-committee-minutes-and-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/town-plan-zoning-commission/planning-and-zoning-agendas-and-minutes/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/water-pollution-control-authority/water-pollution-control-authority-minutes-and-agendas/-toggle-allupcoming
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allpast
+  HTTP 403 — https://www.glastonburyct.gov/our-community/about-us/town-government/boards-commissions-committees/welles-turner-library-board/welles-turner-library-board-minutes-agendas/-toggle-allupcoming
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (2 attachment(s), 1 skipped)
+Running download-manchester-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Output dir  : beat-archive/manchester-agendas
+
+Fetching document categories from eCode360 (MA2034)...
+  Agendas: 52 categories,  Minutes: 46 categories
+
+Fetching Agendas (52 categories)...
+  [ 1/52] (Uncategorized)... 0 doc(s)
+  [ 2/52] 21st Century Senior Center Task Force... 0 doc(s)
+  [ 3/52] Advisory Board of Health... 0 doc(s)
+  [ 4/52] Advisory Parks, Recreation and Leisure Services Commission... 0 doc(s)
+  [ 5/52] Bennet Housing Corporation:  Meeting Schedules... 0 doc(s)
+  [ 6/52] Board of Assessment Appeals: Agendas... 0 doc(s)
+  [ 7/52] Board of Directors: Agendas... 0 doc(s)
+  [ 8/52] Board of Directors: Notices... 0 doc(s)
+  [ 9/52] Boards and Commissions Subcommittee... 0 doc(s)
+  [10/52] Building Committee... 0 doc(s)
+  [11/52] Case Cabin Committee... 0 doc(s)
+  [12/52] Charter Review Commission... 0 doc(s)
+  [13/52] Charter Review Commission - Committee Sheets... 0 doc(s)
+  [14/52] Cheney Brothers National Historic District Commission: Meeting Schedules... 0 doc(s)
+  [15/52] Cheney Brothers National Historic Landmark District Commission... 1 doc(s)
+  [16/52] Cheney Hall: Meeting Schedule... 0 doc(s)
+  [17/52] Civilian Police Review and Relations Board... 0 doc(s)
+  [18/52] Commission on Elderly... 0 doc(s)
+  [19/52] Commission on Elderly: Notices... 0 doc(s)
+  [20/52] Commission on Human Relations... 0 doc(s)
+  [21/52] Conservation Commission... 1 doc(s)
+  [22/52] Conservation Commission: Meeting Schedules... 0 doc(s)
+  [23/52] Conservation Commission: Notices... 0 doc(s)
+  [24/52] Continuum of Care: Notices... 0 doc(s)
+  [25/52] Economic Development Commission... 1 doc(s)
+  [26/52] Economic Development Commission: Notices... 0 doc(s)
+  [27/52] Ethics Commission: Notices... 0 doc(s)
+  [28/52] Golf Course Oversight Committee... 0 doc(s)
+  [29/52] Golf Course Oversight Committee: Meeting Schedules... 0 doc(s)
+  [30/52] Health and Human Services Advisory Commission... 0 doc(s)
+  [31/52] Housing Commission... 0 doc(s)
+  [32/52] Housing and Fair Rent Commission... 0 doc(s)
+  [33/52] Land Acquisition and Historic Property Investment Committee... 0 doc(s)
+  [34/52] Land Acquisition and Historic Property Investment Committee: Notices... 0 doc(s)
+  [35/52] Library Board... 0 doc(s)
+  [36/52] Library Building Committee... 0 doc(s)
+  [37/52] Pension Board... 0 doc(s)
+  [38/52] Pension Board - Defined Benefit Plan... 0 doc(s)
+  [39/52] Permanent Memorial Day Committee... 0 doc(s)
+  [40/52] Planning and Zoning Commission: Agendas... 1 doc(s)
+  [41/52] Property Maintenance... 0 doc(s)
+  [42/52] Quality of Life Subcommittee... 0 doc(s)
+  [43/52] Redevelopment Agency... 1 doc(s)
+  [44/52] Repurposing Subcommittee... 0 doc(s)
+  [45/52] Sustainability Commission... 0 doc(s)
+  [46/52] Veterans Advisory Committee... 0 doc(s)
+  [47/52] Workforce Development Commission... 0 doc(s)
+  [48/52] Youth Commission... 0 doc(s)
+  [49/52] Zoning Board of Appeals: Agendas... 0 doc(s)
+  [50/52] Zoning Board of Appeals: Meeting Packet... 0 doc(s)
+  [51/52] Zoning Board of Appeals: Meeting Schedules... 0 doc(s)
+  [52/52] Zoning Board of Appeals: Notices... 0 doc(s)
+
+Fetching Minutes (46 categories)...
+  [ 1/46] 21st Century Senior Center Task Force... 0 doc(s)
+  [ 2/46] Advisory Board of Health... 0 doc(s)
+  [ 3/46] Advisory Parks, Recreation and Leisure Services Commission... 0 doc(s)
+  [ 4/46] Bennet Housing Corporation... 0 doc(s)
+  [ 5/46] Board of Assessment Appeals... 0 doc(s)
+  [ 6/46] Board of Directors: Actions... 0 doc(s)
+  [ 7/46] Board of Directors: Agendas... 0 doc(s)
+  [ 8/46] Board of Directors: Minutes... 0 doc(s)
+  [ 9/46] Board of Directors: Resolutions... 0 doc(s)
+  [10/46] Boards and Commissions Subcommittee... 0 doc(s)
+  [11/46] Building Committee... 0 doc(s)
+  [12/46] Case Cabin Committee... 0 doc(s)
+  [13/46] Charter Revision Commission... 0 doc(s)
+  [14/46] Cheney Brothers National Historic Landmard District Commission... 1 doc(s)
+  [15/46] Cheney Hall... 0 doc(s)
+  [16/46] Civilian Police Review and Relations Board... 0 doc(s)
+  [17/46] Commission on Elderly... 0 doc(s)
+  [18/46] Commission on Human Relations... 0 doc(s)
+  [19/46] Conservation Commission... 0 doc(s)
+  [20/46] Continuum of Care... 0 doc(s)
+  [21/46] Economic Development Commission... 1 doc(s)
+  [22/46] Ethics Commission... 0 doc(s)
+  [23/46] Golf Course Lease Oversight Committee... 0 doc(s)
+  [24/46] Health and Human Services Advisory Commission... 0 doc(s)
+  [25/46] Hockanum River Linear Park Committee... 0 doc(s)
+  [26/46] Housing Commission... 0 doc(s)
+  [27/46] Housing and Fair Rent Commission... 0 doc(s)
+  [28/46] Land Acquisition and Historic Property Investment Committee... 0 doc(s)
+  [29/46] Library Board... 0 doc(s)
+  [30/46] Library Building Committee... 0 doc(s)
+  [31/46] MECC School Readiness Council... 0 doc(s)
+  [32/46] Pension Board... 0 doc(s)
+  [33/46] Permanent Memorial Day Committee... 0 doc(s)
+  [34/46] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency... 0 doc(s)
+  [35/46] Planning and Zoning Commission/Inland Wetlands Agency/Aquifer Protection Agency: Actions... 0 doc(s)
+  [36/46] Property Maintenance Board of Appeals... 0 doc(s)
+  [37/46] Quality of Life Subcommittee... 0 doc(s)
+  [38/46] Redevelopment Agency... 1 doc(s)
+  [39/46] Repurposing Subcommittee... 0 doc(s)
+  [40/46] SMARTR Committee... 0 doc(s)
+  [41/46] Sustainability Commission... 0 doc(s)
+  [42/46] Veterans Advisory Committee... 0 doc(s)
+  [43/46] Workforce Development Commission... 0 doc(s)
+  [44/46] Youth Commission... 0 doc(s)
+  [45/46] Zoning Board of Appeals: Actions... 0 doc(s)
+  [46/46] Zoning Board of Appeals: Minutes... 0 doc(s)
+
+Found 8 PDF document(s) across 6 board(s).
+
+  skip (exists)  2026-06-18-redevelopment-agency-agenda.pdf
+  skip (exists)  2026-06-18-redevelopment-agency-agenda-1.pdf
+  skip (exists)  2026-06-18-cheney-brothers-national-historic-landmark-distric-agenda.pdf
+  skip (exists)  2026-06-18-cheney-brothers-national-historic-landmard-distric-agenda.pdf
+  skip (exists)  2026-06-15-planning-and-zoning-commission-agendas-agenda.pdf
+  skip (exists)  2026-06-11-economic-development-commission-agenda.pdf
+  skip (exists)  2026-06-11-economic-development-commission-agenda-1.pdf
+  skip (exists)  2026-06-10-conservation-commission-agenda.pdf
+
+Querying Cablecast VOD API (channel16.org) for recordings...
+  Found 1 recording(s) in window.
+
+  [2026-06-15] MTG-PZC-2026-06-15 — VOD 802 no URL (still processing or disabled)
+
+Done — downloaded: 0  skipped: 8  failed: 1
+Files in: beat-archive/manchester-agendas
+Log:      beat-archive/manchester-agendas/download-log.txt
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (0 attachment(s), 0 skipped)
+Running download-mansfield-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.mansfieldct.gov/agendacenter
+Output dir  : beat-archive/mansfield-agendas
+
+Fetching hub page to discover board categories...
+  Found 60 board category/categories.
+Searching for meetings in date window...
+  Found 11 meeting(s) with documents in date window.
+
+Fetching YouTube channel RSS for recent meeting recordings...
+  Found 3 recording(s) in window.
+
+  skip (exists)  2026-06-19-mansfield-housing-authority-board-of-commissi-17549-agenda.pdf
+  skip (exists)  2026-06-16-solid-waste-advisory-committee-17592-agenda.pdf
+  skip (exists)  2026-06-15-planning-and-zoning-commission-17595-agenda.pdf
+  skip (exists)  2026-06-15-mansfield-middle-school-hvac-building-committ-17585-agenda.pdf
+  skip (exists)  2026-06-11-board-of-education-transportation-communicati-17579-agenda.pdf
+  skip (exists)  2026-06-11-board-of-education-transportation-communicati-17580-agenda.pdf
+  skip (exists)  2026-06-11-board-of-education-17581-agenda.pdf
+  skip (exists)  2026-06-10-sustainability-committee-17587-agenda.pdf
+  skip (exists)  2026-06-09-youth-services-advisory-board-17576-agenda.pdf
+  skip (exists)  2026-06-09-youth-services-advisory-board-17590-agenda.pdf
+  skip (exists)  2026-06-09-youth-services-advisory-board-17590-minutes.pdf
+  skip (exists)  2026-06-09-mansfield-downtown-partnership-celebrate-mans-17583-agenda.pdf
+
+Downloading 3 YouTube recording(s)...
+  [2026-06-12] Board of Education 06/11/2026
+  downloading    WZKJNqLMru8
+  [2026-06-09] Town Council Meeting 6/8/2026
+  downloading    FW1XeWVRBus
+  [2026-06-09] Town Council Meeting 6/8/2026
+  downloading    XaRwSgvKQIg
+
+Done — downloaded: 0  skipped: 12  failed: 3
+Files in: beat-archive/mansfield-agendas
+Log:      beat-archive/mansfield-agendas/download-log.txt
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (0 attachment(s), 0 skipped)
+Running download-middletown-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.middletownct.gov/agendacenter
+Output dir  : beat-archive/middletown-agendas
+
+Fetching hub page to discover board categories...
+  Found 97 board category/categories.
+Searching for meetings in date window...
+  Found 31 meeting(s) with documents in date window.
+
+Fetching Granicus recording list (this page is ~10 MB)...
+  Found 0 recording(s) in window.
+
+  [2026-06-18] Water Pollution Control Authority — agenda
+  downloading    2026-06-18-water-pollution-control-authority-11483-agenda.pdf
+  skip (exists)  2026-06-17-riverfront-boathouse-building-committee-11479-agenda.pdf
+  skip (exists)  2026-06-17-human-relations-commission-11477-agenda.pdf
+  skip (exists)  2026-06-16-youth-service-bureau-advisory-board-11455-agenda.pdf
+  [2026-06-16] Russell Library Board of Trustees — agenda
+  downloading    2026-06-16-russell-library-board-of-trustees-11482-agenda.pdf
+  skip (exists)  2026-06-16-resource-recovery-commission-to-eccra-11473-agenda.pdf
+  [2026-06-16] Clean Energy Taskforce — agenda
+  downloading    2026-06-16-clean-energy-taskforce-11484-agenda.pdf
+  skip (exists)  2026-06-15-russell-library-board-of-trustees-11452-agenda.pdf
+  skip (exists)  2026-06-15-public-safety-commission-11469-agenda.pdf
+  skip (exists)  2026-06-15-public-safety-commission-11466-agenda.pdf
+  skip (exists)  2026-06-15-mattabassett-district-board-11478-agenda.pdf
+  [2026-06-15] Board of Education — agenda
+  downloading    2026-06-15-board-of-education-11485-agenda.pdf
+  skip (exists)  2026-06-12-estuary-transit-district-board-of-directors-11480-agenda.pdf
+  skip (exists)  2026-06-12-area-transit-district-11481-agenda.pdf
+  skip (exists)  2026-06-11-general-counsel-commission-11467-agenda.pdf
+  skip (exists)  2026-06-11-code-enforcement-committee-11476-agenda.pdf
+  skip (exists)  2026-06-11-code-enforcement-committee-11476-minutes.pdf
+  skip (exists)  2026-06-11-anti-racism-task-force-11474-agenda.pdf
+  skip (exists)  2026-06-10-youth-service-bureau-advisory-board-11456-agenda.pdf
+  skip (exists)  2026-06-10-public-works-facilities-commission-11475-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-11462-agenda.pdf
+  skip (exists)  2026-06-10-estuary-transit-district-finance-committee-11465-agenda.pdf
+  skip (exists)  2026-06-10-design-review-preservation-board-middletown-11461-agenda.pdf
+  skip (exists)  2026-06-10-american-rescue-plan-task-force-11472-agenda.pdf
+  skip (exists)  2026-06-09-parking-advisory-committee-11468-agenda.pdf
+  skip (exists)  2026-06-09-mattabassett-district-board-11447-agenda.pdf
+  [2026-06-09] Mattabassett District Board — minutes
+  downloading    2026-06-09-mattabassett-district-board-11447-minutes.pdf
+  skip (exists)  2026-06-09-macdonough-school-bldg-committee-11460-agenda.pdf
+  skip (exists)  2026-06-09-macdonough-school-bldg-committee-11460-minutes.pdf
+  skip (exists)  2026-06-09-estuary-transit-district-board-of-directors-11458-agenda.pdf
+  skip (exists)  2026-06-09-estuary-transit-district-advisory-committee-11463-agenda.pdf
+  skip (exists)  2026-06-09-economic-development-commission-11470-agenda.pdf
+  skip (exists)  2026-06-09-board-of-health-11459-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-11471-agenda.pdf
+
+Done — downloaded: 5  skipped: 29  failed: 0
+Files in: beat-archive/middletown-agendas
+Log:      beat-archive/middletown-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (5 attachment(s), 0 skipped)
+Running download-stafford-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Site        : https://www.staffordct.org
+Output dir  : beat-archive/stafford-agendas
+
+Scanning 33 board page(s) for documents...
+  [ 1/33] Board of Selectmen... 2 doc(s)
+  [ 2/33] Water Pollution Control Authority... 1 doc(s)
+  [ 3/33] 300 Year Anniversary Committee... 0 doc(s)
+  [ 4/33] Agriculture Advisory Commission... 1 doc(s)
+  [ 5/33] Annette Hyde Colton Fund... 0 doc(s)
+  [ 6/33] ARPA Commission... 0 doc(s)
+  [ 7/33] Arts Commission... 0 doc(s)
+  [ 8/33] Board of Assessment Appeals... 0 doc(s)
+  [ 9/33] Board of Education... 3 doc(s)
+  [10/33] Board of Finance... 0 doc(s)
+  [11/33] Cemetery Association... 0 doc(s)
+  [12/33] Conservation Commission... 0 doc(s)
+  [13/33] Economic Development Commission... 0 doc(s)
+  [14/33] Emergency Services Commission... 0 doc(s)
+  [15/33] Energy Advisory Committee... 0 doc(s)
+  [16/33] Events & Celebrations Committee... 1 doc(s)
+  [17/33] Family Services Advisory Board... 0 doc(s)
+  [18/33] Flag Pole Committee... 0 doc(s)
+  [19/33] Hyde Park Commission... 0 doc(s)
+  [20/33] Inland Wetlands Commission... 1 doc(s)
+  [21/33] Library Board... 1 doc(s)
+  [22/33] North Central District Board of Health... 0 doc(s)
+  [23/33] Pension Committee... 0 doc(s)
+  [24/33] Planning & Zoning Commission... 1 doc(s)
+  [25/33] Recreation Commission... 1 doc(s)
+  [26/33] Safety Committee... 0 doc(s)
+  [27/33] Service District Commission... 1 doc(s)
+  [28/33] Stafford Brownfields Advisory Board... 0 doc(s)
+  [29/33] Stafford Historic Advisory Commission... 0 doc(s)
+  [30/33] Stafford Housing Authority... 0 doc(s)
+  [31/33] Veterans Advisory Committee... 0 doc(s)
+  [32/33] Wall of Honor Phase IV Committee... 0 doc(s)
+  [33/33] Zoning Board of Appeals... 2 doc(s)
+  Total: 15 document(s) in window.
+
+Fetching recordings page...
+  Found 0 recording(s) in window.
+
+  skip (exists)  2026-06-18-planning-zoning-commission-06-18-Cancelled-PZ.pdf
+  skip (exists)  2026-06-17-inland-wetlands-commission-06-17-Cancelled-IWC.pdf
+  skip (exists)  2026-06-15-water-pollution-control-authority-06-15-Agenda-WPCA.pdf
+  skip (exists)  2026-06-11-zoning-board-of-appeals-06-11-Public Notice-ZBA.pdf
+  skip (exists)  2026-06-11-zoning-board-of-appeals-06-11-Agenda-ZBA.pdf
+  skip (exists)  2026-06-11-service-district-commission-06-11-Agenda-SDC.pdf
+  skip (exists)  2026-06-11-library-board-06-11-Agenda-SPLB.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-06-11-Agenda-BOS.pdf
+  skip (exists)  2026-06-10-recreation-commission-06-10-Agenda-RC.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-06-10-Cancelled-BOS.pdf
+  skip (exists)  2026-06-10-agriculture-advisory-commission-06-10-Agenda-SAC.pdf
+  skip (exists)  2026-06-09-events-celebrations-committee-06-09-Agenda-ECC.pdf
+  skip (exists)  2026-06-09-board-of-education-06-09-Agenda-Curriculum Committee-BOE.pdf
+  skip (exists)  2026-06-09-board-of-education-06-09-Agenda-Finance Review Committee-BOE.pdf
+  skip (exists)  2026-06-09-board-of-education-06-09-Agenda-BOE.pdf
+
+Done — downloaded: 0  skipped: 15  failed: 0
+Files in: beat-archive/stafford-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (0 attachment(s), 0 skipped)
+Running download-willington-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.willingtonct.gov/agendacenter
+Output dir  : beat-archive/willington-agendas
+
+Fetching hub page to discover board categories...
+  Found 22 board category/categories.
+Searching for meetings in date window...
+  Found 14 meeting(s) with documents in date window.
+
+Fetching YouTube channel RSS for recent meeting recordings...
+  Found 3 recording(s) in window.
+
+  skip (exists)  2026-06-17-conservation-commission-495-agenda.pdf
+  skip (exists)  2026-06-16-town-clerk-489-agenda.pdf
+  skip (exists)  2026-06-16-planning-and-zoning-commission-491-agenda.pdf
+  skip (exists)  2026-06-15-tricentennial-committee-492-agenda.pdf
+  skip (exists)  2026-06-15-housing-authority-487-agenda.pdf
+  skip (exists)  2026-06-15-board-of-selectmen-496-agenda.pdf
+  skip (exists)  2026-06-11-zoning-board-of-appeals-481-agenda.pdf
+  skip (exists)  2026-06-11-emergency-services-facilities-building-commit-493-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-494-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-494-minutes.pdf
+  skip (exists)  2026-06-10-the-willington-sustainability-energy-committe-488-agenda.pdf
+  skip (exists)  2026-06-10-library-board-473-agenda.pdf
+  skip (exists)  2026-06-10-capital-improvement-program-490-agenda.pdf
+  skip (exists)  2026-06-09-board-of-selectmen-486-agenda.pdf
+  skip (exists)  2026-06-09-board-of-selectmen-486-minutes.pdf
+  skip (exists)  2026-06-09-board-of-education-484-agenda.pdf
+
+Downloading 3 YouTube recording(s)...
+  [2026-06-10] Willington Board of Education regular meeting 6-9-26
+  skip (archive) JV1c-By2QWA
+  [2026-06-10] BOS Special Meeting 6-9-26
+  skip (archive) 3ZQerouzbNo
+  [2026-06-09] Willington School Building Committee Regular Meeting 6-8-26
+  skip (archive) YgFKWPi6SBw
+
+Done — downloaded: 0  skipped: 19  failed: 0
+Files in: beat-archive/willington-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (0 attachment(s), 0 skipped)
+Running download-tolland-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+eCode360    : https://ecode360.com/api/location/TO1208/
+Output dir  : beat-archive/tolland-agendas
+
+Fetching eCode360 board categories and documents...
+  Found 5 document(s) in date window.
+
+Fetching Community Voice Channel YouTube RSS for Tolland recordings...
+  Found 1 Tolland recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older videos from any town are not
+        visible. Run this script at least weekly to avoid gaps in Tolland coverage.
+
+  skip (exists)  2026-06-16-firehouse-sub-committee-753262702-agenda.pdf
+  skip (exists)  2026-06-11-permanent-celebration-committee-753261214-agenda.pdf
+  skip (exists)  2026-06-11-inland-wetlands-commission-753261430-agenda.pdf
+  skip (exists)  2026-06-11-conservation-commission-753261388-agenda.pdf
+  skip (exists)  2026-06-09-town-council-753261391-agenda.pdf
+
+Downloading 1 YouTube recording(s)...
+  [2026-06-12] Tolland Board of Education - June 10, 2026
+  downloading    DwQ7FrhuZ2s
+
+Done — downloaded: 1  skipped: 5  failed: 0
+Files in: beat-archive/tolland-agendas
+Log:      beat-archive/tolland-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (0 attachment(s), 1 skipped)
+Running download-vernon-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+CMS         : Thrillshare, org 26255, section 443064
+Output dir  : beat-archive/vernon-agendas
+
+Scanning Thrillshare document tree (Town Council, Boards & Commissions, Budget)...
+  [ 2/45] America 250 Committee... 10 doc(s)
+  [ 3/45] Arts Comission... 0 doc(s)
+  [ 4/45] Board of Ethics... 3 doc(s)
+  [ 5/45] Bolton Lakes Regional WPCA... 0 doc(s)
+  [ 6/45] Building Committee - School Roof Replacement... 0 doc(s)
+  [ 7/45] Building Committee - Water Pollution Control Facil... 0 doc(s)
+  [ 8/45] Capital Improvement Committee... 0 doc(s)
+  [ 9/45] Cell Tower Task Force... 0 doc(s)
+  [10/45] Cemetery Commission... 4 doc(s)
+  [11/45] Conservation Commission... 10 doc(s)
+  [12/45] Cultural District Advisory Board... 19 doc(s)
+  [13/45] Design Review Commission... 0 doc(s)
+  [14/45] Economic Development Commission... 8 doc(s)
+  [15/45] Energy Improvement District Board... 8 doc(s)
+  [16/45] Fair Rent Commission... 0 doc(s)
+  [17/45] Hockanum River Linear Park Committee... 0 doc(s)
+  [18/45] Homestead Revitalization Committee... 0 doc(s)
+  [19/45] Human Services Advisory Commission... 1 doc(s)
+  [20/45] Hydropower Commission... 0 doc(s)
+  [21/45] Inland Wetlands Commission... 8 doc(s)
+  [22/45] Local Historic Properties Commission... 10 doc(s)
+  [23/45] Mayor's Task Force on Library Finances... 0 doc(s)
+  [24/45] Municipal Flood and Erosion Control Board... 0 doc(s)
+  [25/45] North Central District Health Department Board... 10 doc(s)
+  [26/45] Open Space Task Force... 0 doc(s)
+  [27/45] Pension Board... 0 doc(s)
+  [28/45] Permanent Municipal Building Committee... 12 doc(s)
+  [29/45] Planning and Zoning Commission... 20 doc(s)
+  [30/45] Recovery and Reopening Advisory Committee... 0 doc(s)
+  [31/45] Risk Management Subcommittee... 0 doc(s)
+  [32/45] School Readiness Council... 0 doc(s)
+  [33/45] Senior Citizens Advisory Board... 9 doc(s)
+  [34/45] Youth Services Bureau Advisory Board... 3 doc(s)
+  [35/45] Vernon Area Cable Advisory Council... 1 doc(s)
+  [36/45] Vernon Housing Authority... 0 doc(s)
+  [37/45] Vernon Rocks Coalition... 7 doc(s)
+  [38/45] Vernon Traffic Authority... 15 doc(s)
+  [39/45] Water Pollution Control Authority... 13 doc(s)
+  [40/45] Zoning Board of Appeals... 9 doc(s)
+  [44/45] Conservation Commission(1)... 0 doc(s)
+  Found 14 document(s) in date window.
+
+Fetching Vernon CT YouTube channel RSS for meeting recordings...
+  Found 0 recording(s) in window (15 total entries in RSS feed).
+  NOTE: RSS feed is at the 15-video cap — older recordings may be missed.
+        Run this script at least weekly to stay current.
+
+  skip (exists)  2026-06-17-zoning-board-of-appeals-6-17-2026-zba-canceled.pdf
+  skip (exists)  2026-06-16-planning-and-zoning-commission-6-16-2026-pzc-agenda.pdf
+  skip (exists)  2026-06-10-north-central-district-health-department-6-10-2026-ncdhd-canceled.pdf
+  skip (exists)  2026-06-10-economic-development-commission-6-10-2026-edc-agenda.pdf
+  skip (exists)  2026-06-10-cemetery-commission-6-10-2026-cemetery-commission-agenda.pdf
+  skip (exists)  2026-06-09-water-pollution-control-authority-6-9-2026-wpca-agenda.pdf
+  skip (exists)  2026-06-09-vernon-traffic-authority-6-9-2026-revised-traffic-authority-agenda.pdf
+  skip (exists)  2026-06-09-vernon-traffic-authority-6-9-2026-traffic-authority-draft-minutes.pdf
+  skip (exists)  2026-06-09-vernon-traffic-authority-6-9-2026-traffic-authority-agenda.pdf
+  skip (exists)  2026-06-09-local-historic-properties-commission-6-9-2026-lhpc-canceled.pdf
+  skip (exists)  2026-06-09-economic-development-commission-6-9-2026-edc-draft-minutes.pdf
+  skip (exists)  2026-06-09-economic-development-commission-6-9-2026-edc-agenda.pdf
+  skip (exists)  2026-06-09-cultural-district-advisory-board-6-9-2026-cultural-district-advisory-board-agenda.pdf
+  skip (exists)  2026-06-09-america-250-committee-6-9-2026-america-250-agenda.pdf
+
+Done — downloaded: 0  skipped: 14  failed: 0
+Files in: beat-archive/vernon-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.dehnel@patch.com  (0 attachment(s), 0 skipped)
+2026-06-13 09:41:30 — All 1-6 catch-up sends complete.

@@ -1,0 +1,1688 @@
+==============================
+2026-06-06 08:54:59 — Starting (1/4): download-groton-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Portal      : https://www.agendasuite.org/iip/groton
+Output dir  : beat-archive/groton-agendas
+
+Fetching meeting list...
+  Found 53 meeting(s) in window.
+Fetching meeting detail pages...
+Found 52 document(s), 22 video(s) across 25 board(s) in date window.
+
+  [2026-06-10] Zoning Board of Appeals — agenda
+  downloading    2026-06-10-zoning-board-of-appeals-agenda.pdf
+  [2026-06-10] Representative Town Meeting — agenda
+  downloading    2026-06-10-representative-town-meeting-agenda.pdf
+  [2026-06-10] RTM Recreation Committee — agenda
+  downloading    2026-06-10-rtm-recreation-committee-agenda.pdf
+  [2026-06-10] RTM Finance Committee — agenda
+  downloading    2026-06-10-rtm-finance-committee-agenda.pdf
+  [2026-06-10] RTM Community Development and Services Committee — agenda
+  downloading    2026-06-10-rtm-community-development-and-services-c-agenda.pdf
+  [2026-06-10] Inland Wetlands Agency — agenda
+  downloading    2026-06-10-inland-wetlands-agency-agenda.pdf
+  [2026-06-09] Town Council Committee of the Whole — agenda
+  downloading    2026-06-09-town-council-committee-of-the-whole-agenda.pdf
+  [2026-06-09] Town Council — agenda
+  downloading    2026-06-09-town-council-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda.pdf
+  [2026-06-08] Traffic Authority — agenda
+  downloading    2026-06-08-traffic-authority-agenda.pdf
+  [2026-06-05] Inland Wetlands Agency — agenda
+  downloading    2026-06-05-inland-wetlands-agency-agenda.pdf
+  [2026-06-04] Planning & Zoning Commission — agenda
+  downloading    2026-06-04-planning-zoning-commission-agenda.pdf
+  [2026-06-04] Economic Development Commission — agenda
+  downloading    2026-06-04-economic-development-commission-agenda.pdf
+  [2026-06-04] Beautification Committee — agenda
+  downloading    2026-06-04-beautification-committee-agenda.pdf
+  [2026-06-02] Town Council — agenda
+  downloading    2026-06-02-town-council-agenda.pdf
+  [2026-06-02] Historic District Commission — agenda
+  downloading    2026-06-02-historic-district-commission-agenda.pdf
+  [2026-06-01] Golf Advisory Board — agenda
+  downloading    2026-06-01-golf-advisory-board-agenda.pdf
+  [2026-06-01] Conservation Commission — agenda
+  downloading    2026-06-01-conservation-commission-agenda.pdf
+  [2026-05-28] Planning & Zoning Commission — agenda
+  downloading    2026-05-28-planning-zoning-commission-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-agenda.pdf
+  [2026-05-27] Parks and Recreation Commission — agenda
+  downloading    2026-05-27-parks-and-recreation-commission-agenda.pdf
+  [2026-05-27] Parks and Recreation Commission — video
+  downloading    2026-05-27-parks-and-recreation-commission-video.mp4
+  [2026-05-27] Inland Wetlands Agency — agenda
+  downloading    2026-05-27-inland-wetlands-agency-agenda.pdf
+  [2026-05-26] Town Council Committee of the Whole — agenda
+  downloading    2026-05-26-town-council-committee-of-the-whole-agenda.pdf
+  [2026-05-26] Town Council Committee of the Whole — minutes
+  downloading    2026-05-26-town-council-committee-of-the-whole-minutes.pdf
+  [2026-05-26] Town Council Committee of the Whole — video
+  downloading    2026-05-26-town-council-committee-of-the-whole-video.mp4
+  [2026-05-26] Town Council — agenda
+  downloading    2026-05-26-town-council-agenda.pdf
+  [2026-05-26] Town Council — minutes
+  downloading    2026-05-26-town-council-minutes.pdf
+  [2026-05-26] Planning & Zoning Commission — agenda
+  downloading    2026-05-26-planning-zoning-commission-agenda.pdf
+  [2026-05-26] Planning & Zoning Commission — video
+  downloading    2026-05-26-planning-zoning-commission-video.mp4
+  [2026-05-22] Town Council Rules and Procedures Committee — agenda
+  downloading    2026-05-22-town-council-rules-and-procedures-commit-agenda.pdf
+  [2026-05-22] Town Council Rules and Procedures Committee — video
+  downloading    2026-05-22-town-council-rules-and-procedures-commit-video.mp4
+  [2026-05-21] Harbor Management Commission — agenda
+  downloading    2026-05-21-harbor-management-commission-agenda.pdf
+  [2026-05-21] Athletic Fields Task Force — video
+  downloading    2026-05-21-athletic-fields-task-force-video.mp4
+  [2026-05-20] Library Board — agenda
+  downloading    2026-05-20-library-board-agenda.pdf
+  [2026-05-20] Library Board — video
+  downloading    2026-05-20-library-board-video.mp4
+  [2026-05-20] Complete Streets Advisory Committee — video
+  downloading    2026-05-20-complete-streets-advisory-committee-video.mp4
+  [2026-05-19] Town Council Personnel and Appointments Committee — agenda
+  downloading    2026-05-19-town-council-personnel-and-appointments--agenda.pdf
+  [2026-05-19] Representative Town Meeting — video
+  downloading    2026-05-19-representative-town-meeting-video.mp4
+  [2026-05-19] Historic District Commission — agenda
+  downloading    2026-05-19-historic-district-commission-agenda.pdf
+  [2026-05-19] Historic District Commission — video
+  downloading    2026-05-19-historic-district-commission-video.mp4
+  [2026-05-14] Retirement Board — agenda
+  downloading    2026-05-14-retirement-board-agenda.pdf
+  [2026-05-14] Retirement Board — minutes
+  downloading    2026-05-14-retirement-board-minutes.pdf
+  [2026-05-14] Retirement Board — video
+  downloading    2026-05-14-retirement-board-video.mp4
+  [2026-05-14] Representative Town Meeting — video
+  downloading    2026-05-14-representative-town-meeting-video.mp4
+  [2026-05-14] Planning & Zoning Commission — agenda
+  downloading    2026-05-14-planning-zoning-commission-agenda.pdf
+  [2026-05-13] Zoning Board of Appeals — agenda
+  downloading    2026-05-13-zoning-board-of-appeals-agenda.pdf
+  [2026-05-13] Representative Town Meeting — agenda
+  downloading    2026-05-13-representative-town-meeting-agenda.pdf
+  [2026-05-13] Representative Town Meeting — minutes
+  downloading    2026-05-13-representative-town-meeting-minutes.pdf
+  [2026-05-13] Representative Town Meeting — video
+  downloading    2026-05-13-representative-town-meeting-video.mp4
+  [2026-05-13] RTM Recreation Committee — agenda
+  downloading    2026-05-13-rtm-recreation-committee-agenda.pdf
+  [2026-05-13] RTM Recreation Committee — video
+  downloading    2026-05-13-rtm-recreation-committee-video.mp4
+  [2026-05-13] RTM Finance Committee — agenda
+  downloading    2026-05-13-rtm-finance-committee-agenda.pdf
+  [2026-05-13] RTM Finance Committee — video
+  downloading    2026-05-13-rtm-finance-committee-video.mp4
+  [2026-05-13] Inland Wetlands Agency — agenda
+  downloading    2026-05-13-inland-wetlands-agency-agenda.pdf
+  [2026-05-13] Inland Wetlands Agency — video
+  downloading    2026-05-13-inland-wetlands-agency-video.mp4
+  [2026-05-12] Water Pollution Control Authority — agenda
+  downloading    2026-05-12-water-pollution-control-authority-agenda.pdf
+  [2026-05-12] Water Pollution Control Authority — minutes
+  downloading    2026-05-12-water-pollution-control-authority-minutes.pdf
+  [2026-05-12] Water Pollution Control Authority — video
+  downloading    2026-05-12-water-pollution-control-authority-video.mp4
+  [2026-05-12] Town Council Committee of the Whole — agenda
+  downloading    2026-05-12-town-council-committee-of-the-whole-agenda.pdf
+  [2026-05-12] Town Council Committee of the Whole — minutes
+  downloading    2026-05-12-town-council-committee-of-the-whole-minutes.pdf
+  [2026-05-12] Town Council Committee of the Whole — video
+  downloading    2026-05-12-town-council-committee-of-the-whole-video.mp4
+  [2026-05-12] RTM Finance Committee — agenda
+  downloading    2026-05-12-rtm-finance-committee-agenda.pdf
+  [2026-05-12] RTM Finance Committee — video
+  downloading    2026-05-12-rtm-finance-committee-video.mp4
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda.pdf
+  [2026-05-12] Planning & Zoning Commission — video
+  downloading    2026-05-12-planning-zoning-commission-video.mp4
+  [2026-05-11] Conservation Commission — agenda
+  downloading    2026-05-11-conservation-commission-agenda.pdf
+  [2026-05-11] Conservation Commission — video
+  downloading    2026-05-11-conservation-commission-video.mp4
+  [2026-05-07] RTM Education Committee — agenda
+  downloading    2026-05-07-rtm-education-committee-agenda.pdf
+  [2026-05-07] Economic Development Commission — agenda
+  downloading    2026-05-07-economic-development-commission-agenda.pdf
+  [2026-05-07] Economic Development Commission — minutes
+  downloading    2026-05-07-economic-development-commission-minutes.pdf
+  [2026-05-07] Economic Development Commission — video
+  downloading    2026-05-07-economic-development-commission-video.mp4
+  [2026-05-07] Beautification Committee — agenda
+  downloading    2026-05-07-beautification-committee-agenda.pdf
+  [2026-05-07] Beautification Committee — video
+  downloading    2026-05-07-beautification-committee-video.mp4
+
+Done — downloaded: 74  skipped: 0  failed: 0
+Files in: beat-archive/groton-agendas
+Log:      beat-archive/groton-agendas/download-log.txt
+
+2026-06-06 09:16:46 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 09:31:46 — Starting (2/4): download-milford-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://milfordct.us/AgendaCenter
+Output dir  : beat-archive/milford-agendas
+
+Fetching Agenda Center page...
+  Parsed 38 board(s).
+  Found 80 document(s), 4 recording(s), 4 live meeting link(s) across 31 board(s) in date window.
+
+  [2026-06-10] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-06-10-other-committees-including-founders-walk-agenda-1889.pdf
+  [2026-06-10] Milford Historic District Number 2 South of the Green — agenda
+  downloading    2026-06-10-milford-historic-district-number-2-south-agenda-1888.pdf
+  [2026-06-10] Inland Wetlands Agency — agenda
+  downloading    2026-06-10-inland-wetlands-agency-agenda-1893.pdf
+  [2026-06-09] Zoning Board of Appeals — agenda
+  downloading    2026-06-09-zoning-board-of-appeals-agenda-1872.pdf
+  [2026-06-09] Flood & Erosion Control Board — agenda
+  downloading    2026-06-09-flood-erosion-control-board-agenda-1897.pdf
+  [2026-06-08] Police Commission — agenda
+  downloading    2026-06-08-police-commission-agenda-1890.pdf
+  [2026-06-08] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-06-08-other-committees-including-founders-walk-agenda-1895.pdf
+  [2026-06-08] Council on Aging — agenda
+  downloading    2026-06-08-council-on-aging-agenda-1892.pdf
+  [2026-06-08] Board of Education — agenda
+  downloading    2026-06-08-board-of-education-agenda-1894.pdf
+  [2026-06-08] Animal Shelter Commission — agenda
+  downloading    2026-06-08-animal-shelter-commission-agenda-1891.pdf
+  [2026-06-03] Park, Beach, & Recreation Commission — agenda
+  downloading    2026-06-03-park-beach-recreation-commission-agenda-1887.pdf
+  [2026-06-03] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-06-03-other-committees-including-founders-walk-agenda-1875.pdf
+  [2026-06-03] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — minutes
+  downloading    2026-06-03-other-committees-including-founders-walk-minutes-1875.pdf
+  [2026-06-03] Inland Wetlands Agency — agenda
+  downloading    2026-06-03-inland-wetlands-agency-agenda-1885.pdf
+  [2026-06-03] Inland Wetlands Agency — video
+  downloading    2026-06-03-inland-wetlands-agency-video.mp4
+  [2026-06-02] Planning & Zoning Board — agenda
+  downloading    2026-06-02-planning-zoning-board-agenda-1884.pdf
+  [2026-06-02] Planning & Zoning Board — video
+  downloading    2026-06-02-planning-zoning-board-video.mp4
+  [2026-06-02] Conservation Commission — agenda
+  downloading    2026-06-02-conservation-commission-agenda-1886.pdf
+  [2026-06-01] Board of Aldermen Sub Committees — agenda
+  downloading    2026-06-01-board-of-aldermen-sub-committees-agenda-1874.pdf
+  [2026-06-01] Board of Aldermen Sub Committees — minutes
+  downloading    2026-06-01-board-of-aldermen-sub-committees-minutes-1874.pdf
+  [2026-06-01] Board of Aldermen Sub Committees — agenda
+  downloading    2026-06-01-board-of-aldermen-sub-committees-agenda-1881.pdf
+  [2026-06-01] Board of Aldermen Sub Committees — minutes
+  downloading    2026-06-01-board-of-aldermen-sub-committees-minutes-1881.pdf
+  [2026-06-01] Board of Aldermen — agenda
+  downloading    2026-06-01-board-of-aldermen-agenda-1879.pdf
+  [2026-06-01] Board of Aldermen — minutes
+  downloading    2026-06-01-board-of-aldermen-minutes-1879.pdf
+  [2026-05-29] Sewer Commission — agenda
+  downloading    2026-05-29-sewer-commission-agenda-1882.pdf
+  [2026-05-29] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-05-29-other-committees-including-founders-walk-agenda-1880.pdf
+  [2026-05-27] Sewer Commission — agenda
+  downloading    2026-05-27-sewer-commission-agenda-1870.pdf
+  [2026-05-27] Sewer Commission — minutes
+  downloading    2026-05-27-sewer-commission-minutes-1870.pdf
+  [2026-05-27] Sewer Commission — agenda
+  downloading    2026-05-27-sewer-commission-agenda-1871.pdf
+  [2026-05-27] Sewer Commission — minutes
+  downloading    2026-05-27-sewer-commission-minutes-1871.pdf
+  [2026-05-27] Sewer Commission — agenda
+  downloading    2026-05-27-sewer-commission-agenda-1857.pdf
+  [2026-05-27] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-05-27-other-committees-including-founders-walk-agenda-1877.pdf
+  [2026-05-27] Economic Development Commission — agenda
+  downloading    2026-05-27-economic-development-commission-agenda-1878.pdf
+  [2026-05-26] Milford Government Access Television Committee — agenda
+  downloading    2026-05-26-milford-government-access-television-com-agenda-1876.pdf
+  [2026-05-26] Board of Education — agenda
+  downloading    2026-05-26-board-of-education-agenda-1873.pdf
+  [2026-05-21] Pension & Retirement Board — agenda
+  downloading    2026-05-21-pension-retirement-board-agenda-1864.pdf
+  [2026-05-21] Pension & Retirement Board — minutes
+  downloading    2026-05-21-pension-retirement-board-minutes-1864.pdf
+  [2026-05-21] Harbor Management Commission — agenda
+  downloading    2026-05-21-harbor-management-commission-agenda-1869.pdf
+  [2026-05-20] Library Board — agenda
+  downloading    2026-05-20-library-board-agenda-1866.pdf
+  [2026-05-20] Library Board — minutes
+  downloading    2026-05-20-library-board-minutes-1866.pdf
+  [2026-05-20] Inland Wetlands Agency — agenda
+  downloading    2026-05-20-inland-wetlands-agency-agenda-1863.pdf
+  [2026-05-19] Planning & Zoning Board — agenda
+  downloading    2026-05-19-planning-zoning-board-agenda-1862.pdf
+  [2026-05-19] Planning & Zoning Board — minutes
+  downloading    2026-05-19-planning-zoning-board-minutes-1862.pdf
+  [2026-05-19] Planning & Zoning Board — video
+  downloading    2026-05-19-planning-zoning-board-video.mp4
+  [2026-05-19] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-05-19-other-committees-including-founders-walk-agenda-1854.pdf
+  [2026-05-19] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — minutes
+  downloading    2026-05-19-other-committees-including-founders-walk-minutes-1854.pdf
+  [2026-05-19] Milford Redevelopment & Housing Partnership (MRHP) — agenda
+  downloading    2026-05-19-milford-redevelopment-housing-partnershi-agenda-1865.pdf
+  [2026-05-19] Milford Department of Human Services — agenda
+  downloading    2026-05-19-milford-department-of-human-services-agenda-1858.pdf
+  [2026-05-19] Milford Department of Human Services — minutes
+  downloading    2026-05-19-milford-department-of-human-services-minutes-1858.pdf
+  [2026-05-19] Fire Commission — agenda
+  downloading    2026-05-19-fire-commission-agenda-1859.pdf
+  [2026-05-19] Fire Commission — minutes
+  downloading    2026-05-19-fire-commission-minutes-1859.pdf
+  [2026-05-19] Conservation Commission — agenda
+  downloading    2026-05-19-conservation-commission-agenda-1867.pdf
+  [2026-05-19] Board of Health — agenda
+  downloading    2026-05-19-board-of-health-agenda-1883.pdf
+  [2026-05-19] Board of Health — minutes
+  downloading    2026-05-19-board-of-health-minutes-1883.pdf
+  [2026-05-18] Milford's Historic Preservation Commission — agenda
+  downloading    2026-05-18-milfords-historic-preservation-commissio-agenda-1861.pdf
+  [2026-05-18] Civil Service Commission — agenda
+  downloading    2026-05-18-civil-service-commission-agenda-1860.pdf
+  [2026-05-18] Civil Service Commission — minutes
+  downloading    2026-05-18-civil-service-commission-minutes-1860.pdf
+  [2026-05-18] Board of Finance — agenda
+  downloading    2026-05-18-board-of-finance-agenda-1851.pdf
+  [2026-05-14] Veterans, Ceremony & Parade Commission — agenda
+  downloading    2026-05-14-veterans-ceremony-parade-commission-agenda-1855.pdf
+  [2026-05-14] Veterans, Ceremony & Parade Commission — minutes
+  downloading    2026-05-14-veterans-ceremony-parade-commission-minutes-1855.pdf
+  [2026-05-13] Milford Historic District Number 2 South of the Green — agenda
+  downloading    2026-05-13-milford-historic-district-number-2-south-agenda-1842.pdf
+  [2026-05-13] Milford Historic District Number 2 South of the Green — minutes
+  downloading    2026-05-13-milford-historic-district-number-2-south-minutes-1842.pdf
+  [2026-05-13] Golf Course Commission — agenda
+  downloading    2026-05-13-golf-course-commission-agenda-1856.pdf
+  [2026-05-12] Zoning Board of Appeals — agenda
+  downloading    2026-05-12-zoning-board-of-appeals-agenda-1829.pdf
+  [2026-05-12] Zoning Board of Appeals — minutes
+  downloading    2026-05-12-zoning-board-of-appeals-minutes-1829.pdf
+  [2026-05-12] Zoning Board of Appeals — video
+  downloading    2026-05-12-zoning-board-of-appeals-video.mp4
+  [2026-05-12] Flood & Erosion Control Board — agenda
+  downloading    2026-05-12-flood-erosion-control-board-agenda-1852.pdf
+  [2026-05-12] Flood & Erosion Control Board — minutes
+  downloading    2026-05-12-flood-erosion-control-board-minutes-1852.pdf
+  [2026-05-12] Fire Commission — agenda
+  downloading    2026-05-12-fire-commission-agenda-1846.pdf
+  [2026-05-12] Fire Commission — minutes
+  downloading    2026-05-12-fire-commission-minutes-1846.pdf
+  [2026-05-12] Energy Advisory Board — agenda
+  downloading    2026-05-12-energy-advisory-board-agenda-1853.pdf
+  [2026-05-11] Tree Commission — agenda
+  downloading    2026-05-11-tree-commission-agenda-1849.pdf
+  [2026-05-11] Police Commission — agenda
+  downloading    2026-05-11-police-commission-agenda-1844.pdf
+  [2026-05-11] Police Commission — minutes
+  downloading    2026-05-11-police-commission-minutes-1844.pdf
+  [2026-05-11] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-05-11-other-committees-including-founders-walk-agenda-1848.pdf
+  [2026-05-11] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — minutes
+  downloading    2026-05-11-other-committees-including-founders-walk-minutes-1848.pdf
+  [2026-05-11] Council on Aging — agenda
+  downloading    2026-05-11-council-on-aging-agenda-1843.pdf
+  [2026-05-11] Conservation Commission — agenda
+  downloading    2026-05-11-conservation-commission-agenda-1850.pdf
+  [2026-05-11] Board of Education — agenda
+  downloading    2026-05-11-board-of-education-agenda-1847.pdf
+  [2026-05-11] Animal Shelter Commission — agenda
+  downloading    2026-05-11-animal-shelter-commission-agenda-1868.pdf
+  [2026-05-11] Animal Shelter Commission — minutes
+  downloading    2026-05-11-animal-shelter-commission-minutes-1868.pdf
+  [2026-05-08] Other Committees (Including Founders' Walk, Perm. Schools, School Readiness, 250th, etc.) — agenda
+  downloading    2026-05-08-other-committees-including-founders-walk-agenda-1845.pdf
+  [2026-05-07] Board of Aldermen — agenda
+  downloading    2026-05-07-board-of-aldermen-agenda-1782.pdf
+  [2026-05-07] Board of Aldermen — minutes
+  downloading    2026-05-07-board-of-aldermen-minutes-1782.pdf
+
+Done — downloaded: 84  skipped: 0  failed: 0
+Files in: beat-archive/milford-agendas
+Log:      beat-archive/milford-agendas/download-log.txt
+
+2026-06-06 09:36:22 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 09:51:22 — Starting (3/4): download-new-london-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+API base    : https://www.newlondonct.gov
+Output dir  : beat-archive/new-london-agendas
+
+Querying 154 folder(s) across 55 board/type combination(s)...
+
+  Folder 33119  (City Council agenda): 91 file(s), 0 in window
+  Folder 37355  (City Council agenda): 75 file(s), 0 in window
+  Folder 41840  (City Council agenda): 64 file(s), 0 in window
+  Folder 44635  (City Council agenda): 7 file(s), 0 in window
+  Folder 33163  (City Council minutes): 30 file(s), 0 in window
+  Folder 37507  (City Council minutes): 26 file(s), 0 in window
+  Folder 42073  (City Council minutes): 27 file(s), 0 in window
+  Folder 44885  (City Council minutes): 14 file(s), 2 in window
+  Folder 33116  (Finance Committee agenda): 30 file(s), 0 in window
+  Folder 41993  (Finance Committee agenda): 20 file(s), 0 in window
+  Folder 44639  (Finance Committee agenda): 14 file(s), 3 in window
+  Folder 42212  (Finance Committee minutes): 20 file(s), 0 in window
+  Folder 34498  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37397  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 37759  (Board of Finance agenda): 4 file(s), 0 in window
+  Folder 42130  (Board of Finance agenda): 3 file(s), 0 in window
+  Folder 42208  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 44470  (Board of Finance agenda): 6 file(s), 1 in window
+  Folder 44708  (Board of Finance agenda): 2 file(s), 1 in window
+  Folder 37447  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 42431  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 42450  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 44366  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 35312  (Fiscal Review Committee agenda): 1 file(s), 0 in window
+  Folder 37512  (Fiscal Review Committee agenda): 19 file(s), 0 in window
+  Folder 37711  (Fiscal Review Committee minutes): 14 file(s), 0 in window
+  Folder 36156  (Planning and Zoning Commission agenda): 21 file(s), 0 in window
+  Folder 41596  (Planning and Zoning Commission agenda): 22 file(s), 0 in window
+  Folder 44246  (Planning and Zoning Commission agenda): 10 file(s), 3 in window
+  Folder 37573  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 42042  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 44858  (Planning and Zoning Commission minutes): 8 file(s), 2 in window
+  Folder 36307  (Zoning Board of Appeals agenda): 13 file(s), 0 in window
+  Folder 41940  (Zoning Board of Appeals agenda): 10 file(s), 0 in window
+  Folder 44769  (Zoning Board of Appeals agenda): 4 file(s), 1 in window
+  Folder 37851  (Zoning Board of Appeals minutes): 7 file(s), 0 in window
+  Folder 38012  (Zoning Board of Appeals minutes): 8 file(s), 0 in window
+  Folder 45436  (Zoning Board of Appeals minutes): 2 file(s), 0 in window
+  Folder 33144  (IWCC agenda): 11 file(s), 0 in window
+  Folder 37362  (IWCC agenda): 12 file(s), 0 in window
+  Folder 38328  (IWCC agenda): 13 file(s), 0 in window
+  Folder 40087  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40335  (IWCC agenda): 2 file(s), 0 in window
+  Folder 40492  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40855  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41505  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41867  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42734  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42882  (IWCC agenda): 1 file(s), 0 in window
+  Folder 43689  (IWCC agenda): 1 file(s), 0 in window
+  Folder 44040  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40080  (IWCC minutes): 6 file(s), 0 in window
+  Folder 41948  (IWCC minutes): 6 file(s), 0 in window
+  Folder 33197  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 37453  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 41907  (Harbor Management Commission agenda): 12 file(s), 0 in window
+  Folder 44683  (Harbor Management Commission agenda): 6 file(s), 1 in window
+  Folder 37792  (Harbor Management Commission minutes): 8 file(s), 0 in window
+  Folder 41910  (Harbor Management Commission minutes): 4 file(s), 0 in window
+  Folder 45040  (Harbor Management Commission minutes): 3 file(s), 0 in window
+  Folder 33289  (Parking Authority agenda): 12 file(s), 0 in window
+  Folder 37473  (Parking Authority agenda): 9 file(s), 0 in window
+  Folder 41897  (Parking Authority agenda): 11 file(s), 0 in window
+  Folder 44688  (Parking Authority agenda): 5 file(s), 1 in window
+  Folder 45873  (Parking Authority agenda): 3 file(s), 1 in window
+  Folder 33365  (Parking Authority minutes): 12 file(s), 0 in window
+  Folder 37876  (Parking Authority minutes): 11 file(s), 0 in window
+  Folder 45035  (Parking Authority minutes): 5 file(s), 0 in window
+  Folder 45645  (Parking Authority minutes): 2 file(s), 0 in window
+  Folder 33372  (Personnel Board agenda): 10 file(s), 0 in window
+  Folder 37661  (Personnel Board agenda): 9 file(s), 0 in window
+  Folder 42107  (Personnel Board agenda): 5 file(s), 0 in window
+  Folder 45086  (Personnel Board agenda): 3 file(s), 1 in window
+  Folder 33408  (Personnel Board minutes): 5 file(s), 0 in window
+  Folder 37666  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44121  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44950  (Personnel Board minutes): 1 file(s), 0 in window
+  Folder 33157  (Citizens Advisory Committee agenda): 5 file(s), 0 in window
+  Folder 37699  (Citizens Advisory Committee agenda): 2 file(s), 0 in window
+  Folder 33297  (Citizens Advisory Committee minutes): 5 file(s), 0 in window
+  Folder 33575  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 33681  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 41974  (Historic District Commission agenda): 10 file(s), 0 in window
+  Folder 44868  (Historic District Commission agenda): 4 file(s), 0 in window
+  Folder 38570  (Historic District Commission minutes): 4 file(s), 0 in window
+  Folder 45273  (Historic District Commission minutes): 1 file(s), 0 in window
+  Folder 45275  (Historic District Commission minutes): 3 file(s), 0 in window
+  Folder 33399  (Sustainable Action Commission agenda): 10 file(s), 0 in window
+  Folder 37580  (Sustainable Action Commission agenda): 11 file(s), 0 in window
+  Folder 42391  (Sustainable Action Commission agenda): 8 file(s), 0 in window
+  Folder 34315  (Sustainable Action Commission minutes): 6 file(s), 0 in window
+  Folder 38251  (Sustainable Action Commission minutes): 1 file(s), 0 in window
+  Folder 43051  (Sustainable Action Commission minutes): 3 file(s), 0 in window
+  Folder 33992  (Beautification Committee agenda): 7 file(s), 0 in window
+  Folder 38110  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 42542  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 45286  (Beautification Committee agenda): 3 file(s), 1 in window
+  Folder 33830  (City Council Development agenda): 3 file(s), 0 in window
+  Folder 33833  (City Council Development minutes): 2 file(s), 0 in window
+  Folder 34263  (City Council Development minutes): 10 file(s), 0 in window
+  Folder 33262  (Veterans Advisory Committee agenda): 7 file(s), 0 in window
+  Folder 37489  (Veterans Advisory Committee agenda): 10 file(s), 0 in window
+  Folder 41980  (Veterans Advisory Committee agenda): 9 file(s), 0 in window
+  Folder 44765  (Veterans Advisory Committee agenda): 4 file(s), 0 in window
+  Folder 34127  (Housing Authority agenda): 7 file(s), 0 in window
+  Folder 37613  (Housing Authority agenda): 11 file(s), 0 in window
+  Folder 44920  (Housing Authority agenda): 5 file(s), 1 in window
+  Folder 38401  (Ethics Board agenda): 6 file(s), 0 in window
+  Folder 42422  (Ethics Board agenda): 1 file(s), 0 in window
+  Folder 38424  (Ethics Board minutes): 7 file(s), 0 in window
+  Folder 42523  (Ethics Board minutes): 3 file(s), 0 in window
+  Folder 34189  (Board of Assessment Appeals agenda): 3 file(s), 0 in window
+  Folder 38314  (Board of Assessment Appeals agenda): 12 file(s), 0 in window
+  Folder 42490  (Board of Assessment Appeals agenda): 4 file(s), 0 in window
+  Folder 45187  (Board of Assessment Appeals agenda): 2 file(s), 0 in window
+  Folder 45381  (Board of Assessment Appeals minutes): 2 file(s), 0 in window
+  Folder 37351  (Public Welfare Committee agenda): 25 file(s), 0 in window
+  Folder 44888  (Public Welfare Committee minutes): 12 file(s), 1 in window
+  Folder 37505  (Public Safety Committee agenda): 20 file(s), 0 in window
+  Folder 42159  (Public Safety Committee minutes): 2 file(s), 0 in window
+  Folder 38105  (Police Civilian Review Board agenda): 8 file(s), 0 in window
+  Folder 41962  (Police Civilian Review Board agenda): 7 file(s), 0 in window
+  Folder 44664  (Police Civilian Review Board agenda): 6 file(s), 2 in window
+  Folder 44846  (Police Civilian Review Board minutes): 3 file(s), 0 in window
+  Folder 39781  (Pension Committee agenda): 3 file(s), 0 in window
+  Folder 43075  (Pension Committee agenda): 2 file(s), 0 in window
+  Folder 43201  (Pension Committee minutes): 1 file(s), 0 in window
+  Folder 33376  (WWPCA agenda): 14 file(s), 0 in window
+  Folder 37534  (WWPCA agenda): 13 file(s), 0 in window
+  Folder 44750  (WWPCA agenda): 8 file(s), 2 in window
+  Folder 33625  (WWPCA minutes): 13 file(s), 0 in window
+  Folder 37538  (WWPCA minutes): 14 file(s), 0 in window
+  Folder 45711  (WWPCA minutes): 1 file(s), 0 in window
+  Folder 33472  (Permanent Revaluation Commission agenda): 1 file(s), 0 in window
+  Folder 33997  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 38309  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 42924  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 45182  (Foreign Trade Zone agenda): 2 file(s), 1 in window
+  Folder 33981  (Sustainability Commission agenda): 4 file(s), 0 in window
+  Folder 33984  (Sustainability Commission agenda): 1 file(s), 0 in window
+  Folder 38140  (Cultural District Commission minutes): 7 file(s), 0 in window
+  Folder 41904  (Cultural District Commission minutes): 8 file(s), 0 in window
+  Folder 44637  (Cultural District Commission minutes): 5 file(s), 0 in window
+  Folder 42114  (Fair Rent Commission agenda): 11 file(s), 0 in window
+  Folder 44877  (Senior Affairs Commission agenda): 4 file(s), 0 in window
+  Folder 44479  (Library Board agenda): 2 file(s), 0 in window
+  Folder 37516  (City Council recording): 24 file(s), 0 in window
+  Folder 42800  (City Council recording): 12 file(s), 0 in window
+  Folder 37549  (Planning and Zoning Commission recording): 19 file(s), 0 in window
+  Folder 42027  (Planning and Zoning Commission recording): 17 file(s), 0 in window
+  Folder 44852  (Planning and Zoning Commission recording): 9 file(s), 2 in window
+  Folder 37853  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 42175  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 45520  (Zoning Board of Appeals recording): 2 file(s), 0 in window
+
+Found 27 document(s) across 14 board(s) in date window.
+
+  [2026-06-09] Police Civilian Review Board — agenda: 06-09-2026 Police Civilian Review Board Meeting Agenda.pdf
+  downloading    2026-06-09-police-civilian-review-board-agenda-06-09-2026-police-civilian-review-board-meeti.pdf
+  [2026-06-04] Planning and Zoning Commission — agenda: 06-04-26 pzc agenda.pdf
+  downloading    2026-06-04-planning-and-zoning-commission-agenda-06-04-26-pzc-agenda.pdf
+  [2026-06-04] Planning and Zoning Commission — recording: 06-04-26 pzc meeting part 2.mp3
+  downloading    2026-06-04-planning-and-zoning-commission-recording-06-04-26-pzc-meeting-part-2.mp3
+  [2026-06-03] Foreign Trade Zone — agenda: 06-03-2026 Foreign Trade Zone Commission Meeting Agenda.pdf
+  downloading    2026-06-03-foreign-trade-zone-agenda-06-03-2026-foreign-trade-zone-commission-meet.pdf
+  [2026-06-03] Board of Finance — agenda: 06.03.2026 PRC Agenda.pdf
+  downloading    2026-06-03-board-of-finance-agenda-06032026-prc-agenda.pdf
+  [2026-06-01] Finance Committee — agenda: 06-01-2026 Finance Committee Agenda.pdf
+  downloading    2026-06-01-finance-committee-agenda-06-01-2026-finance-committee-agenda.pdf
+  [2026-06-01] Finance Committee — agenda: 06-01-2026 Administration Committee Agenda.pdf
+  downloading    2026-06-01-finance-committee-agenda-06-01-2026-administration-committee-agenda.pdf
+  [2026-05-28] Zoning Board of Appeals — agenda: 05-28-26 zba agenda-cancelled.pdf
+  downloading    2026-05-28-zoning-board-of-appeals-agenda-05-28-26-zba-agenda-cancelled.pdf
+  [2026-05-28] WWPCA — agenda: 05-28-2026 Reschedule to 05-21-2026.pdf
+  downloading    2026-05-28-wwpca-agenda-05-28-2026-reschedule-to-05-21-2026.pdf
+  [2026-05-26] Housing Authority — agenda: 05-26-2026 Housing Authority Meeting Agenda.pdf
+  downloading    2026-05-26-housing-authority-agenda-05-26-2026-housing-authority-meeting-agenda.pdf
+  [2026-05-25] Personnel Board — agenda: 05.25.2026 Personnel Board Meeting Cancelled.pdf
+  downloading    2026-05-25-personnel-board-agenda-05252026-personnel-board-meeting-cancelled.pdf
+  [2026-05-21] WWPCA — agenda: 5-21-2026 W&WPCA Agenda Package.pdf
+  downloading    2026-05-21-wwpca-agenda-5-21-2026-w-wpca-agenda-package.pdf
+  [2026-05-21] Planning and Zoning Commission — agenda: 05-21-26 pzc agenda.pdf
+  downloading    2026-05-21-planning-and-zoning-commission-agenda-05-21-26-pzc-agenda.pdf
+  [2026-05-21] Planning and Zoning Commission — minutes: 05-21-26 pzc meeting minutes.pdf
+  downloading    2026-05-21-planning-and-zoning-commission-minutes-05-21-26-pzc-meeting-minutes.pdf
+  [2026-05-21] Planning and Zoning Commission — recording: 05-21-26 pzc meeting.mp3
+  downloading    2026-05-21-planning-and-zoning-commission-recording-05-21-26-pzc-meeting.mp3
+  [2026-05-20] Beautification Committee — agenda: 05-20-2026 Beautification Committee Agenda.pdf
+  downloading    2026-05-20-beautification-committee-agenda-05-20-2026-beautification-committee-agenda.pdf
+  [2026-05-18] Public Welfare Committee — minutes: 05-18-2026 Education, Parks & Recreation Committee Minutes.pdf
+  downloading    2026-05-18-public-welfare-committee-minutes-05-18-2026-education-parks-recreation-committ.pdf
+  [2026-05-18] Finance Committee — agenda: 05-18-2026 Education, Parks & Recreation Committee Agenda.pdf
+  downloading    2026-05-18-finance-committee-agenda-05-18-2026-education-parks-recreation-committ.pdf
+  [2026-05-18] City Council — minutes: 05-18-2026 Public Hearing Minutes - 2026 NAAP.pdf
+  downloading    2026-05-18-city-council-minutes-05-18-2026-public-hearing-minutes-2026-naap.pdf
+  [2026-05-18] City Council — minutes: 05-18-2026 City Council Minutes.pdf
+  downloading    2026-05-18-city-council-minutes-05-18-2026-city-council-minutes.pdf
+  [2026-05-14] Harbor Management Commission — agenda: 5-14-2026 NLPA Harbor Man Agenda.pdf
+  downloading    2026-05-14-harbor-management-commission-agenda-5-14-2026-nlpa-harbor-man-agenda.pdf
+  [2026-05-12] Police Civilian Review Board — agenda: 05-12-2026 Police Civilian Review Board Meeting Agenda.pdf
+  downloading    2026-05-12-police-civilian-review-board-agenda-05-12-2026-police-civilian-review-board-meeti.pdf
+  [2026-05-12] Parking Authority — agenda: 5-12-2026 New London Parking Authority Meeting.pdf
+  downloading    2026-05-12-parking-authority-agenda-5-12-2026-new-london-parking-authority-meetin.pdf
+  [2026-05-12] Board of Finance — agenda: 05-12-2026 Board of Finance Meeting Agenda.pdf
+  downloading    2026-05-12-board-of-finance-agenda-05-12-2026-board-of-finance-meeting-agenda.pdf
+  [2026-05-07] Planning and Zoning Commission — agenda: 05-07-26 pzc agenda-Modified.pdf
+  downloading    2026-05-07-planning-and-zoning-commission-agenda-05-07-26-pzc-agenda-modified.pdf
+  [2026-05-07] Planning and Zoning Commission — minutes: 05-07-26 pzc meeting minutes.pdf
+  downloading    2026-05-07-planning-and-zoning-commission-minutes-05-07-26-pzc-meeting-minutes.pdf
+  [2026-05-07] Parking Authority — agenda: 05-07-2026 PAC Agenda.pdf
+  downloading    2026-05-07-parking-authority-agenda-05-07-2026-pac-agenda.pdf
+
+Done — downloaded: 27  skipped: 0  failed: 0
+Files in: beat-archive/new-london-agendas
+Log:      beat-archive/new-london-agendas/download-log.txt
+
+2026-06-06 09:54:15 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:09:15 — Starting (4/4): download-stonington-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://ct-stonington.civicplus.com/AgendaCenter
+Output dir  : beat-archive/stonington-agendas
+
+Fetching Agenda Center page...
+  Parsed 44 board(s).
+  Found 51 document(s) across 28 board(s) in date window.
+
+  [2026-06-09] Zoning Board of Appeals — agenda
+  downloading    2026-06-09-zoning-board-of-appeals-agenda-725.pdf
+  [2026-06-09] Cemetery Commission — agenda
+  downloading    2026-06-09-cemetery-commission-agenda-667.pdf
+  [2026-06-08] Old Mystic Fire District — agenda
+  downloading    2026-06-08-old-mystic-fire-district-agenda-675.pdf
+  [2026-06-08] Old Mystic Fire District — agenda
+  downloading    2026-06-08-old-mystic-fire-district-agenda-676.pdf
+  [2026-06-08] Cultural District Commission — agenda
+  downloading    2026-06-08-cultural-district-commission-agenda-700.pdf
+  [2026-06-08] Architectural Design Review Board — agenda
+  downloading    2026-06-08-architectural-design-review-board-agenda-672.pdf
+  [2026-06-04] Shellfish Commission — agenda
+  downloading    2026-06-04-shellfish-commission-agenda-721.pdf
+  [2026-06-04] Mystic Harbor Management Commission — agenda
+  downloading    2026-06-04-mystic-harbor-management-commission-agenda-710.pdf
+  [2026-06-04] Inland Wetlands and Water Courses Commission — agenda
+  downloading    2026-06-04-inland-wetlands-and-water-courses-commis-agenda-707.pdf
+  [2026-06-04] Board of Education — agenda
+  downloading    2026-06-04-board-of-education-agenda-665.pdf
+  [2026-06-04] Board of Education — agenda
+  downloading    2026-06-04-board-of-education-agenda-666.pdf
+  [2026-06-03] Pawcatuck River Harbor Management Commission — agenda
+  downloading    2026-06-03-pawcatuck-river-harbor-management-commis-agenda-713.pdf
+  [2026-06-03] Board of Finance — agenda
+  downloading    2026-06-03-board-of-finance-agenda-681.pdf
+  [2026-06-03] Aging Commission — agenda
+  downloading    2026-06-03-aging-commission-agenda-661.pdf
+  [2026-06-02] Planning and Zoning Commission — agenda
+  downloading    2026-06-02-planning-and-zoning-commission-agenda-714.pdf
+  [2026-06-02] K-12 School Building Committee — agenda
+  downloading    2026-06-02-k-12-school-building-committee-agenda-671.pdf
+  [2026-05-30] Inland Wetlands and Water Courses Commission — agenda
+  downloading    2026-05-30-inland-wetlands-and-water-courses-commis-agenda-706.pdf
+  [2026-05-28] Shellfish Commission — agenda
+  downloading    2026-05-28-shellfish-commission-agenda-720.pdf
+  [2026-05-28] Housing Opportunities Commission — agenda
+  downloading    2026-05-28-housing-opportunities-commission-agenda-704.pdf
+  [2026-05-27] Board of Selectmen — agenda
+  downloading    2026-05-27-board-of-selectmen-agenda-688.pdf
+  [2026-05-26] Water Pollution Control Authority — agenda
+  downloading    2026-05-26-water-pollution-control-authority-agenda-670.pdf
+  [2026-05-26] Water Pollution Control Authority — minutes
+  downloading    2026-05-26-water-pollution-control-authority-minutes-670.pdf
+  [2026-05-26] Board of Police Commissioners — agenda
+  downloading    2026-05-26-board-of-police-commissioners-agenda-716.pdf
+  [2026-05-21] Climate Change Task Force — agenda
+  downloading    2026-05-21-climate-change-task-force-agenda-693.pdf
+  [2026-05-21] Board of Education — agenda
+  downloading    2026-05-21-board-of-education-agenda-680.pdf
+  [2026-05-19] Planning and Zoning Commission — agenda
+  downloading    2026-05-19-planning-and-zoning-commission-agenda-673.pdf
+  [2026-05-19] Planning and Zoning Commission — minutes
+  downloading    2026-05-19-planning-and-zoning-commission-minutes-673.pdf
+  [2026-05-19] Flood Prevention, Climate Resilience and Erosion Control Board — agenda
+  downloading    2026-05-19-flood-prevention-climate-resilience-and--agenda-702.pdf
+  [2026-05-19] Economic Development Commission — agenda
+  downloading    2026-05-19-economic-development-commission-agenda-701.pdf
+  [2026-05-19] Cemetery Commission — agenda
+  downloading    2026-05-19-cemetery-commission-agenda-690.pdf
+  [2026-05-18] Stonington Beautification Committee — agenda
+  downloading    2026-05-18-stonington-beautification-committee-agenda-722.pdf
+  [2026-05-18] Recreation Commission — agenda
+  downloading    2026-05-18-recreation-commission-agenda-717.pdf
+  [2026-05-18] Conservation Commission — agenda
+  downloading    2026-05-18-conservation-commission-agenda-694.pdf
+  [2026-05-18] Charter Revision Commission — agenda
+  downloading    2026-05-18-charter-revision-commission-agenda-692.pdf
+  [2026-05-14] Housing Authority — agenda
+  downloading    2026-05-14-housing-authority-agenda-703.pdf
+  [2026-05-14] Board of Police Commissioners — agenda
+  downloading    2026-05-14-board-of-police-commissioners-agenda-715.pdf
+  [2026-05-14] Board of Education — agenda
+  downloading    2026-05-14-board-of-education-agenda-678.pdf
+  [2026-05-14] Board of Education — agenda
+  downloading    2026-05-14-board-of-education-agenda-679.pdf
+  [2026-05-13] Board of Selectmen — agenda
+  downloading    2026-05-13-board-of-selectmen-agenda-687.pdf
+  [2026-05-13] Board of Finance — agenda
+  downloading    2026-05-13-board-of-finance-agenda-686.pdf
+  [2026-05-12] Zoning Board of Appeals — agenda
+  downloading    2026-05-12-zoning-board-of-appeals-agenda-724.pdf
+  [2026-05-12] Retirement Board — agenda
+  downloading    2026-05-12-retirement-board-agenda-718.pdf
+  [2026-05-12] Cemetery Commission — agenda
+  downloading    2026-05-12-cemetery-commission-agenda-689.pdf
+  [2026-05-11] Stonington Harbor Management Commission — agenda
+  downloading    2026-05-11-stonington-harbor-management-commission-agenda-723.pdf
+  [2026-05-11] Cultural District Commission — agenda
+  downloading    2026-05-11-cultural-district-commission-agenda-699.pdf
+  [2026-05-11] Charter Revision Commission — agenda
+  downloading    2026-05-11-charter-revision-commission-agenda-691.pdf
+  [2026-05-11] Architectural Design Review Board — agenda
+  downloading    2026-05-11-architectural-design-review-board-agenda-664.pdf
+  [2026-05-07] Shellfish Commission — agenda
+  downloading    2026-05-07-shellfish-commission-agenda-719.pdf
+  [2026-05-07] Mystic Harbor Management Commission — agenda
+  downloading    2026-05-07-mystic-harbor-management-commission-agenda-709.pdf
+  [2026-05-07] Inland Wetlands and Water Courses Commission — agenda
+  downloading    2026-05-07-inland-wetlands-and-water-courses-commis-agenda-705.pdf
+  [2026-05-07] Board of Education — agenda
+  downloading    2026-05-07-board-of-education-agenda-677.pdf
+
+Done — downloaded: 51  skipped: 0  failed: 0
+Files in: beat-archive/stonington-agendas
+Log:      beat-archive/stonington-agendas/download-log.txt
+
+2026-06-06 10:10:20 — All Rhatigan scripts complete.
+
+=============================
+2026-06-10 08:33:18 — Starting (1/4): download-groton-agendas.py
+=============================
+  URL error — https://www.agendasuite.org/iip/groton/meetingsearch: <urlopen error [Errno -2] Name or service not known>
+ERROR: Could not fetch the meetingsearch page.
+Date window : 2026-06-06 to 2026-06-17
+Portal      : https://www.agendasuite.org/iip/groton
+Output dir  : beat-archive/groton-agendas
+
+Fetching meeting list...
+
+2026-06-10 08:33:18 — Sleeping 5 minutes before next script...
+==============================
+2026-06-10 08:38:08 — Starting (1/4): download-groton-agendas.py
+Date window : 2026-06-06 to 2026-06-17
+Portal      : https://www.agendasuite.org/iip/groton
+Output dir  : beat-archive/groton-agendas
+
+Fetching meeting list...
+  Found 17 meeting(s) in window.
+Fetching meeting detail pages...
+Found 12 document(s), 0 video(s) across 11 board(s) in date window.
+
+  skip (exists)  2026-06-11-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-10-rtm-recreation-committee-agenda.pdf
+  skip (exists)  2026-06-10-rtm-finance-committee-agenda.pdf
+  skip (exists)  2026-06-10-rtm-community-development-and-services-c-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-06-09-water-pollution-control-authority-agenda.pdf
+  skip (exists)  2026-06-09-town-council-committee-of-the-whole-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-08-traffic-authority-agenda.pdf
+
+Done — downloaded: 0  skipped: 12  failed: 0
+Files in: beat-archive/groton-agendas
+2026-06-10 08:38:44 — Sleeping 5 minutes before next script...
+==============================
+2026-06-10 08:43:44 — Starting (2/4): download-milford-agendas.py
+Date window : 2026-06-06 to 2026-06-17
+Hub page    : https://milfordct.us/AgendaCenter
+Output dir  : beat-archive/milford-agendas
+
+Fetching Agenda Center page...
+  Parsed 38 board(s).
+  Found 14 document(s) across 13 board(s) in date window.
+
+  skip (exists)  2026-06-15-civil-service-commission-agenda-1896.pdf
+  skip (exists)  2026-06-11-milford-redevelopment-housing-partnershi-agenda-1899.pdf
+  skip (exists)  2026-06-10-other-committees-including-founders-walk-agenda-1889.pdf
+  skip (exists)  2026-06-10-milford-historic-district-number-2-south-agenda-1888.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda-1893.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-1872.pdf
+  skip (exists)  2026-06-09-flood-erosion-control-board-agenda-1897.pdf
+  skip (exists)  2026-06-09-energy-advisory-board-agenda-1900.pdf
+  skip (exists)  2026-06-08-tree-commission-agenda-1898.pdf
+  skip (exists)  2026-06-08-police-commission-agenda-1890.pdf
+  skip (exists)  2026-06-08-other-committees-including-founders-walk-agenda-1895.pdf
+  skip (exists)  2026-06-08-council-on-aging-agenda-1892.pdf
+  skip (exists)  2026-06-08-board-of-education-agenda-1894.pdf
+  skip (exists)  2026-06-08-animal-shelter-commission-agenda-1891.pdf
+
+Done — downloaded: 0  skipped: 14  failed: 0
+Files in: beat-archive/milford-agendas
+2026-06-10 08:43:53 — Sleeping 5 minutes before next script...
+==============================
+2026-06-10 08:48:53 — Starting (3/4): download-new-london-agendas.py
+  WARNING: folder 33119 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37355 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 41840 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44635 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 33163 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37507 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42073 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44885 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 33116 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 41993 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44639 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42212 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 34498 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37397 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37759 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42130 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42208 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44470 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44708 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37447 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42431 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42450 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44366 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 35312 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37512 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37711 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 36156 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 41596 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44246 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37573 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 42042 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44858 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 36307 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 41940 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 44769 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37851 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 38012 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 45436 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 33144 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 37362 — <urlopen error [Errno -2] Name or service not known>
+  WARNING: folder 38328 — <urlopen error [Errno -2] Name or service not known>
+                                                                                 === 2026-06-10 09:21:52 — Starting (3/4): download-new-london-agendas.py ===
+Date window : 2026-06-06 to 2026-06-17
+API base    : https://www.newlondonct.gov
+Output dir  : beat-archive/new-london-agendas
+
+Querying 154 folder(s) across 55 board/type combination(s)...
+
+  Folder 33119  (City Council agenda): 91 file(s), 0 in window
+  Folder 37355  (City Council agenda): 75 file(s), 0 in window
+  Folder 41840  (City Council agenda): 64 file(s), 0 in window
+  Folder 44635  (City Council agenda): 7 file(s), 0 in window
+  Folder 33163  (City Council minutes): 30 file(s), 0 in window
+  Folder 37507  (City Council minutes): 26 file(s), 0 in window
+  Folder 42073  (City Council minutes): 27 file(s), 0 in window
+  Folder 44885  (City Council minutes): 14 file(s), 0 in window
+  Folder 33116  (Finance Committee agenda): 30 file(s), 0 in window
+  Folder 41993  (Finance Committee agenda): 20 file(s), 0 in window
+  Folder 44639  (Finance Committee agenda): 14 file(s), 0 in window
+  Folder 42212  (Finance Committee minutes): 20 file(s), 0 in window
+  Folder 34498  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37397  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 37759  (Board of Finance agenda): 4 file(s), 0 in window
+  Folder 42130  (Board of Finance agenda): 3 file(s), 0 in window
+  Folder 42208  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 44470  (Board of Finance agenda): 6 file(s), 0 in window
+  Folder 44708  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37447  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 42431  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 42450  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 44366  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 35312  (Fiscal Review Committee agenda): 1 file(s), 0 in window
+  Folder 37512  (Fiscal Review Committee agenda): 19 file(s), 0 in window
+  Folder 37711  (Fiscal Review Committee minutes): 14 file(s), 0 in window
+  Folder 36156  (Planning and Zoning Commission agenda): 21 file(s), 0 in window
+  Folder 41596  (Planning and Zoning Commission agenda): 22 file(s), 0 in window
+  Folder 44246  (Planning and Zoning Commission agenda): 10 file(s), 0 in window
+  Folder 37573  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 42042  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 44858  (Planning and Zoning Commission minutes): 9 file(s), 0 in window
+  Folder 36307  (Zoning Board of Appeals agenda): 13 file(s), 0 in window
+  Folder 41940  (Zoning Board of Appeals agenda): 10 file(s), 0 in window
+  Folder 44769  (Zoning Board of Appeals agenda): 4 file(s), 0 in window
+  Folder 37851  (Zoning Board of Appeals minutes): 7 file(s), 0 in window
+  Folder 38012  (Zoning Board of Appeals minutes): 8 file(s), 0 in window
+  Folder 45436  (Zoning Board of Appeals minutes): 2 file(s), 0 in window
+  Folder 33144  (IWCC agenda): 11 file(s), 0 in window
+  Folder 37362  (IWCC agenda): 12 file(s), 0 in window
+  Folder 38328  (IWCC agenda): 13 file(s), 0 in window
+  Folder 40087  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40335  (IWCC agenda): 2 file(s), 0 in window
+  Folder 40492  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40855  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41505  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41867  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42734  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42882  (IWCC agenda): 1 file(s), 0 in window
+  Folder 43689  (IWCC agenda): 1 file(s), 0 in window
+  Folder 44040  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40080  (IWCC minutes): 6 file(s), 0 in window
+  Folder 41948  (IWCC minutes): 6 file(s), 0 in window
+  Folder 33197  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 37453  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 41907  (Harbor Management Commission agenda): 12 file(s), 0 in window
+  Folder 44683  (Harbor Management Commission agenda): 6 file(s), 0 in window
+  Folder 37792  (Harbor Management Commission minutes): 8 file(s), 0 in window
+  Folder 41910  (Harbor Management Commission minutes): 4 file(s), 0 in window
+  Folder 45040  (Harbor Management Commission minutes): 3 file(s), 0 in window
+  Folder 33289  (Parking Authority agenda): 12 file(s), 0 in window
+  Folder 37473  (Parking Authority agenda): 9 file(s), 0 in window
+  Folder 41897  (Parking Authority agenda): 11 file(s), 0 in window
+  Folder 44688  (Parking Authority agenda): 5 file(s), 0 in window
+  Folder 45873  (Parking Authority agenda): 4 file(s), 1 in window
+  Folder 33365  (Parking Authority minutes): 12 file(s), 0 in window
+  Folder 37876  (Parking Authority minutes): 11 file(s), 0 in window
+  Folder 45035  (Parking Authority minutes): 5 file(s), 0 in window
+  Folder 45645  (Parking Authority minutes): 2 file(s), 0 in window
+  Folder 33372  (Personnel Board agenda): 10 file(s), 0 in window
+  Folder 37661  (Personnel Board agenda): 9 file(s), 0 in window
+  Folder 42107  (Personnel Board agenda): 5 file(s), 0 in window
+  Folder 45086  (Personnel Board agenda): 3 file(s), 0 in window
+  Folder 33408  (Personnel Board minutes): 5 file(s), 0 in window
+  Folder 37666  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44121  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44950  (Personnel Board minutes): 1 file(s), 0 in window
+  Folder 33157  (Citizens Advisory Committee agenda): 5 file(s), 0 in window
+  Folder 37699  (Citizens Advisory Committee agenda): 2 file(s), 0 in window
+  Folder 33297  (Citizens Advisory Committee minutes): 5 file(s), 0 in window
+  Folder 33575  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 33681  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 41974  (Historic District Commission agenda): 10 file(s), 0 in window
+  Folder 44868  (Historic District Commission agenda): 4 file(s), 0 in window
+  Folder 38570  (Historic District Commission minutes): 4 file(s), 0 in window
+  Folder 45273  (Historic District Commission minutes): 1 file(s), 0 in window
+  Folder 45275  (Historic District Commission minutes): 3 file(s), 0 in window
+  Folder 33399  (Sustainable Action Commission agenda): 10 file(s), 0 in window
+  Folder 37580  (Sustainable Action Commission agenda): 11 file(s), 0 in window
+  Folder 42391  (Sustainable Action Commission agenda): 8 file(s), 0 in window
+  Folder 34315  (Sustainable Action Commission minutes): 6 file(s), 0 in window
+  Folder 38251  (Sustainable Action Commission minutes): 1 file(s), 0 in window
+  Folder 43051  (Sustainable Action Commission minutes): 3 file(s), 0 in window
+  Folder 33992  (Beautification Committee agenda): 7 file(s), 0 in window
+  Folder 38110  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 42542  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 45286  (Beautification Committee agenda): 4 file(s), 1 in window
+  Folder 33830  (City Council Development agenda): 3 file(s), 0 in window
+  Folder 33833  (City Council Development minutes): 2 file(s), 0 in window
+  Folder 34263  (City Council Development minutes): 10 file(s), 0 in window
+  Folder 33262  (Veterans Advisory Committee agenda): 7 file(s), 0 in window
+  Folder 37489  (Veterans Advisory Committee agenda): 10 file(s), 0 in window
+  Folder 41980  (Veterans Advisory Committee agenda): 9 file(s), 0 in window
+  Folder 44765  (Veterans Advisory Committee agenda): 4 file(s), 0 in window
+  Folder 34127  (Housing Authority agenda): 7 file(s), 0 in window
+  Folder 37613  (Housing Authority agenda): 11 file(s), 0 in window
+  Folder 44920  (Housing Authority agenda): 5 file(s), 0 in window
+  Folder 38401  (Ethics Board agenda): 6 file(s), 0 in window
+  Folder 42422  (Ethics Board agenda): 1 file(s), 0 in window
+  Folder 38424  (Ethics Board minutes): 7 file(s), 0 in window
+  Folder 42523  (Ethics Board minutes): 3 file(s), 0 in window
+  Folder 34189  (Board of Assessment Appeals agenda): 3 file(s), 0 in window
+  Folder 38314  (Board of Assessment Appeals agenda): 12 file(s), 0 in window
+  Folder 42490  (Board of Assessment Appeals agenda): 4 file(s), 0 in window
+  Folder 45187  (Board of Assessment Appeals agenda): 2 file(s), 0 in window
+  Folder 45381  (Board of Assessment Appeals minutes): 2 file(s), 0 in window
+  Folder 37351  (Public Welfare Committee agenda): 25 file(s), 0 in window
+  Folder 44888  (Public Welfare Committee minutes): 12 file(s), 0 in window
+  Folder 37505  (Public Safety Committee agenda): 20 file(s), 0 in window
+  Folder 42159  (Public Safety Committee minutes): 2 file(s), 0 in window
+  Folder 38105  (Police Civilian Review Board agenda): 8 file(s), 0 in window
+  Folder 41962  (Police Civilian Review Board agenda): 7 file(s), 0 in window
+  Folder 44664  (Police Civilian Review Board agenda): 6 file(s), 1 in window
+  Folder 44846  (Police Civilian Review Board minutes): 4 file(s), 0 in window
+  Folder 39781  (Pension Committee agenda): 3 file(s), 0 in window
+  Folder 43075  (Pension Committee agenda): 2 file(s), 0 in window
+  Folder 43201  (Pension Committee minutes): 1 file(s), 0 in window
+  Folder 33376  (WWPCA agenda): 14 file(s), 0 in window
+  Folder 37534  (WWPCA agenda): 13 file(s), 0 in window
+  Folder 44750  (WWPCA agenda): 8 file(s), 0 in window
+  Folder 33625  (WWPCA minutes): 13 file(s), 0 in window
+  Folder 37538  (WWPCA minutes): 14 file(s), 0 in window
+  Folder 45711  (WWPCA minutes): 1 file(s), 0 in window
+  Folder 33472  (Permanent Revaluation Commission agenda): 1 file(s), 0 in window
+  Folder 33997  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 38309  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 42924  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 45182  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 33981  (Sustainability Commission agenda): 4 file(s), 0 in window
+  Folder 33984  (Sustainability Commission agenda): 1 file(s), 0 in window
+  Folder 38140  (Cultural District Commission minutes): 7 file(s), 0 in window
+  Folder 41904  (Cultural District Commission minutes): 8 file(s), 0 in window
+  Folder 44637  (Cultural District Commission minutes): 5 file(s), 0 in window
+  Folder 42114  (Fair Rent Commission agenda): 11 file(s), 0 in window
+  Folder 44877  (Senior Affairs Commission agenda): 4 file(s), 0 in window
+  Folder 44479  (Library Board agenda): 2 file(s), 0 in window
+  Folder 37516  (City Council recording): 24 file(s), 0 in window
+  Folder 42800  (City Council recording): 12 file(s), 0 in window
+  Folder 37549  (Planning and Zoning Commission recording): 19 file(s), 0 in window
+  Folder 42027  (Planning and Zoning Commission recording): 17 file(s), 0 in window
+  Folder 44852  (Planning and Zoning Commission recording): 9 file(s), 0 in window
+  Folder 37853  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 42175  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 45520  (Zoning Board of Appeals recording): 2 file(s), 0 in window
+
+Found 3 document(s) across 3 board(s) in date window.
+
+  skip (exists)  2026-06-10-beautification-committee-agenda-06-10-2026-beautification-committee-agenda.pdf
+  skip (exists)  2026-06-09-police-civilian-review-board-agenda-06-09-2026-police-civilian-review-board-meeti.pdf
+  skip (exists)  2026-06-09-parking-authority-agenda-new-london-parking-authority-meeting-6-9-2026.pdf
+
+Done — downloaded: 0  skipped: 3  failed: 0
+Files in: beat-archive/new-london-agendas
+2026-06-10 09:24:06 — Sleeping 5 minutes before next script...
+==============================
+2026-06-10 09:24:45 — Starting (4/4): download-stonington-agendas.py
+Date window : 2026-06-06 to 2026-06-17
+Hub page    : https://ct-stonington.civicplus.com/AgendaCenter
+Output dir  : beat-archive/stonington-agendas
+
+Fetching Agenda Center page...
+  Parsed 44 board(s).
+  Found 10 document(s) across 8 board(s) in date window.
+
+  skip (exists)  2026-06-11-old-mystic-fire-district-agenda-729.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda-730.pdf
+  skip (exists)  2026-06-10-resource-recovery-authority-agenda-733.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-agenda-732.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-725.pdf
+  skip (exists)  2026-06-09-cemetery-commission-agenda-667.pdf
+  skip (exists)  2026-06-08-old-mystic-fire-district-agenda-675.pdf
+  skip (exists)  2026-06-08-old-mystic-fire-district-agenda-676.pdf
+  skip (exists)  2026-06-08-cultural-district-commission-agenda-700.pdf
+  skip (exists)  2026-06-08-architectural-design-review-board-agenda-672.pdf
+
+Done — downloaded: 0  skipped: 10  failed: 0
+Files in: beat-archive/stonington-agendas
+2026-06-10 09:24:47 — All Rhatigan scripts complete.
+Date window : 2026-06-07 to 2026-06-18
+Hub page    : https://ct-stonington.civicplus.com/AgendaCenter
+Output dir  : beat-archive/stonington-agendas
+
+Fetching Agenda Center page...
+  Parsed 44 board(s).
+  Found 13 document(s) across 10 board(s) in date window.
+
+  [2026-06-15] Stonington Beautification Committee — agenda
+  downloading    2026-06-15-stonington-beautification-committee-agenda-737.pdf
+  skip (exists)  2026-06-11-old-mystic-fire-district-agenda-729.pdf
+  [2026-06-11] Board of Police Commissioners — agenda
+  downloading    2026-06-11-board-of-police-commissioners-agenda-736.pdf
+  [2026-06-11] Board of Education — agenda
+  downloading    2026-06-11-board-of-education-agenda-738.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda-730.pdf
+  skip (exists)  2026-06-10-resource-recovery-authority-agenda-733.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-agenda-732.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-725.pdf
+  skip (exists)  2026-06-09-cemetery-commission-agenda-667.pdf
+  skip (exists)  2026-06-08-old-mystic-fire-district-agenda-675.pdf
+  skip (exists)  2026-06-08-old-mystic-fire-district-agenda-676.pdf
+  skip (exists)  2026-06-08-cultural-district-commission-agenda-700.pdf
+  skip (exists)  2026-06-08-architectural-design-review-board-agenda-672.pdf
+
+Done — downloaded: 3  skipped: 10  failed: 0
+Files in: beat-archive/stonington-agendas
+Log:      beat-archive/stonington-agendas/download-log.txt
+2026-06-11 06:45:59 — All Rhatigan scripts complete.
+=============================
+2026-06-12 05:45:44 — Starting (1/4): download-groton-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Portal      : https://www.agendasuite.org/iip/groton
+Output dir  : beat-archive/groton-agendas
+
+Fetching meeting list...
+  Found 21 meeting(s) in window.
+Fetching meeting detail pages...
+Found 14 document(s), 0 video(s) across 12 board(s) in date window.
+
+  skip (exists)  2026-06-16-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-11-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-10-rtm-recreation-committee-agenda.pdf
+  skip (exists)  2026-06-10-rtm-finance-committee-agenda.pdf
+  skip (exists)  2026-06-10-rtm-community-development-and-services-c-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-06-09-water-pollution-control-authority-agenda.pdf
+  skip (exists)  2026-06-09-town-council-committee-of-the-whole-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-09-town-council-minutes.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-08-traffic-authority-agenda.pdf
+
+Done — downloaded: 0  skipped: 14  failed: 0
+Files in: beat-archive/groton-agendas
+
+2026-06-12 05:46:09 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:51:09 — Starting (2/4): download-milford-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Hub page    : https://milfordct.us/AgendaCenter
+Output dir  : beat-archive/milford-agendas
+
+Fetching Agenda Center page...
+  Parsed 38 board(s).
+  Found 23 document(s) across 17 board(s) in date window.
+
+  skip (exists)  2026-06-16-board-of-health-agenda-1904.pdf
+  skip (exists)  2026-06-15-police-commission-agenda-1905.pdf
+  skip (exists)  2026-06-15-milfords-historic-preservation-commissio-agenda-1908.pdf
+  skip (exists)  2026-06-15-civil-service-commission-agenda-1896.pdf
+  skip (exists)  2026-06-15-board-of-education-agenda-1907.pdf
+  skip (exists)  2026-06-12-other-committees-including-founders-walk-agenda-1906.pdf
+  skip (exists)  2026-06-11-veterans-ceremony-parade-commission-agenda-1902.pdf
+  skip (exists)  2026-06-11-milford-redevelopment-housing-partnershi-agenda-1899.pdf
+  skip (exists)  2026-06-10-other-committees-including-founders-walk-agenda-1889.pdf
+  skip (exists)  2026-06-10-other-committees-including-founders-walk-minutes-1889.pdf
+  skip (exists)  2026-06-10-milford-historic-district-number-2-south-agenda-1888.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda-1893.pdf
+  skip (exists)  2026-06-10-golf-course-commission-agenda-1901.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-1872.pdf
+  skip (exists)  2026-06-09-flood-erosion-control-board-agenda-1897.pdf
+  skip (exists)  2026-06-09-flood-erosion-control-board-minutes-1897.pdf
+  skip (exists)  2026-06-09-energy-advisory-board-agenda-1900.pdf
+  skip (exists)  2026-06-08-tree-commission-agenda-1898.pdf
+  skip (exists)  2026-06-08-police-commission-agenda-1890.pdf
+  skip (exists)  2026-06-08-other-committees-including-founders-walk-agenda-1895.pdf
+  skip (exists)  2026-06-08-council-on-aging-agenda-1892.pdf
+  skip (exists)  2026-06-08-board-of-education-agenda-1894.pdf
+  skip (exists)  2026-06-08-animal-shelter-commission-agenda-1891.pdf
+
+Done — downloaded: 0  skipped: 23  failed: 0
+Files in: beat-archive/milford-agendas
+
+2026-06-12 05:51:10 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:56:10 — Starting (3/4): download-new-london-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+API base    : https://www.newlondonct.gov
+Output dir  : beat-archive/new-london-agendas
+
+Querying 154 folder(s) across 55 board/type combination(s)...
+
+  Folder 33119  (City Council agenda): 91 file(s), 0 in window
+  Folder 37355  (City Council agenda): 75 file(s), 0 in window
+  Folder 41840  (City Council agenda): 64 file(s), 0 in window
+  Folder 44635  (City Council agenda): 7 file(s), 0 in window
+  Folder 33163  (City Council minutes): 30 file(s), 0 in window
+  Folder 37507  (City Council minutes): 26 file(s), 0 in window
+  Folder 42073  (City Council minutes): 27 file(s), 0 in window
+  Folder 44885  (City Council minutes): 14 file(s), 0 in window
+  Folder 33116  (Finance Committee agenda): 30 file(s), 0 in window
+  Folder 41993  (Finance Committee agenda): 20 file(s), 0 in window
+  Folder 44639  (Finance Committee agenda): 16 file(s), 2 in window
+  Folder 42212  (Finance Committee minutes): 20 file(s), 0 in window
+  Folder 34498  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37397  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 37759  (Board of Finance agenda): 4 file(s), 0 in window
+  Folder 42130  (Board of Finance agenda): 3 file(s), 0 in window
+  Folder 42208  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 44470  (Board of Finance agenda): 6 file(s), 0 in window
+  Folder 44708  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37447  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 42431  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 42450  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 44366  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 35312  (Fiscal Review Committee agenda): 1 file(s), 0 in window
+  Folder 37512  (Fiscal Review Committee agenda): 19 file(s), 0 in window
+  Folder 37711  (Fiscal Review Committee minutes): 14 file(s), 0 in window
+  Folder 36156  (Planning and Zoning Commission agenda): 21 file(s), 0 in window
+  Folder 41596  (Planning and Zoning Commission agenda): 22 file(s), 0 in window
+  Folder 44246  (Planning and Zoning Commission agenda): 10 file(s), 0 in window
+  Folder 37573  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 42042  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 44858  (Planning and Zoning Commission minutes): 9 file(s), 0 in window
+  Folder 36307  (Zoning Board of Appeals agenda): 13 file(s), 0 in window
+  Folder 41940  (Zoning Board of Appeals agenda): 10 file(s), 0 in window
+  Folder 44769  (Zoning Board of Appeals agenda): 5 file(s), 0 in window
+  Folder 37851  (Zoning Board of Appeals minutes): 7 file(s), 0 in window
+  Folder 38012  (Zoning Board of Appeals minutes): 8 file(s), 0 in window
+  Folder 45436  (Zoning Board of Appeals minutes): 2 file(s), 0 in window
+  Folder 33144  (IWCC agenda): 11 file(s), 0 in window
+  Folder 37362  (IWCC agenda): 12 file(s), 0 in window
+  Folder 38328  (IWCC agenda): 13 file(s), 0 in window
+  Folder 40087  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40335  (IWCC agenda): 2 file(s), 0 in window
+  Folder 40492  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40855  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41505  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41867  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42734  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42882  (IWCC agenda): 1 file(s), 0 in window
+  Folder 43689  (IWCC agenda): 1 file(s), 0 in window
+  Folder 44040  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40080  (IWCC minutes): 6 file(s), 0 in window
+  Folder 41948  (IWCC minutes): 6 file(s), 0 in window
+  Folder 33197  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 37453  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 41907  (Harbor Management Commission agenda): 12 file(s), 0 in window
+  Folder 44683  (Harbor Management Commission agenda): 7 file(s), 1 in window
+  Folder 37792  (Harbor Management Commission minutes): 8 file(s), 0 in window
+  Folder 41910  (Harbor Management Commission minutes): 4 file(s), 0 in window
+  Folder 45040  (Harbor Management Commission minutes): 3 file(s), 0 in window
+  Folder 33289  (Parking Authority agenda): 12 file(s), 0 in window
+  Folder 37473  (Parking Authority agenda): 9 file(s), 0 in window
+  Folder 41897  (Parking Authority agenda): 11 file(s), 0 in window
+  Folder 44688  (Parking Authority agenda): 5 file(s), 0 in window
+  Folder 45873  (Parking Authority agenda): 4 file(s), 1 in window
+  Folder 33365  (Parking Authority minutes): 12 file(s), 0 in window
+  Folder 37876  (Parking Authority minutes): 11 file(s), 0 in window
+  Folder 45035  (Parking Authority minutes): 5 file(s), 0 in window
+  Folder 45645  (Parking Authority minutes): 2 file(s), 0 in window
+  Folder 33372  (Personnel Board agenda): 10 file(s), 0 in window
+  Folder 37661  (Personnel Board agenda): 9 file(s), 0 in window
+  Folder 42107  (Personnel Board agenda): 5 file(s), 0 in window
+  Folder 45086  (Personnel Board agenda): 3 file(s), 0 in window
+  Folder 33408  (Personnel Board minutes): 5 file(s), 0 in window
+  Folder 37666  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44121  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44950  (Personnel Board minutes): 1 file(s), 0 in window
+  Folder 33157  (Citizens Advisory Committee agenda): 5 file(s), 0 in window
+  Folder 37699  (Citizens Advisory Committee agenda): 2 file(s), 0 in window
+  Folder 33297  (Citizens Advisory Committee minutes): 5 file(s), 0 in window
+  Folder 33575  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 33681  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 41974  (Historic District Commission agenda): 10 file(s), 0 in window
+  Folder 44868  (Historic District Commission agenda): 4 file(s), 0 in window
+  Folder 38570  (Historic District Commission minutes): 4 file(s), 0 in window
+  Folder 45273  (Historic District Commission minutes): 1 file(s), 0 in window
+  Folder 45275  (Historic District Commission minutes): 3 file(s), 0 in window
+  Folder 33399  (Sustainable Action Commission agenda): 10 file(s), 0 in window
+  Folder 37580  (Sustainable Action Commission agenda): 11 file(s), 0 in window
+  Folder 42391  (Sustainable Action Commission agenda): 8 file(s), 0 in window
+  Folder 34315  (Sustainable Action Commission minutes): 6 file(s), 0 in window
+  Folder 38251  (Sustainable Action Commission minutes): 1 file(s), 0 in window
+  Folder 43051  (Sustainable Action Commission minutes): 3 file(s), 0 in window
+  Folder 33992  (Beautification Committee agenda): 7 file(s), 0 in window
+  Folder 38110  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 42542  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 45286  (Beautification Committee agenda): 4 file(s), 1 in window
+  Folder 33830  (City Council Development agenda): 3 file(s), 0 in window
+  Folder 33833  (City Council Development minutes): 2 file(s), 0 in window
+  Folder 34263  (City Council Development minutes): 10 file(s), 0 in window
+  Folder 33262  (Veterans Advisory Committee agenda): 7 file(s), 0 in window
+  Folder 37489  (Veterans Advisory Committee agenda): 10 file(s), 0 in window
+  Folder 41980  (Veterans Advisory Committee agenda): 9 file(s), 0 in window
+  Folder 44765  (Veterans Advisory Committee agenda): 4 file(s), 0 in window
+  Folder 34127  (Housing Authority agenda): 7 file(s), 0 in window
+  Folder 37613  (Housing Authority agenda): 11 file(s), 0 in window
+  Folder 44920  (Housing Authority agenda): 5 file(s), 0 in window
+  Folder 38401  (Ethics Board agenda): 6 file(s), 0 in window
+  Folder 42422  (Ethics Board agenda): 1 file(s), 0 in window
+  Folder 38424  (Ethics Board minutes): 7 file(s), 0 in window
+  Folder 42523  (Ethics Board minutes): 3 file(s), 0 in window
+  Folder 34189  (Board of Assessment Appeals agenda): 3 file(s), 0 in window
+  Folder 38314  (Board of Assessment Appeals agenda): 12 file(s), 0 in window
+  Folder 42490  (Board of Assessment Appeals agenda): 4 file(s), 0 in window
+  Folder 45187  (Board of Assessment Appeals agenda): 2 file(s), 0 in window
+  Folder 45381  (Board of Assessment Appeals minutes): 2 file(s), 0 in window
+  Folder 37351  (Public Welfare Committee agenda): 25 file(s), 0 in window
+  Folder 44888  (Public Welfare Committee minutes): 12 file(s), 0 in window
+  Folder 37505  (Public Safety Committee agenda): 20 file(s), 0 in window
+  Folder 42159  (Public Safety Committee minutes): 2 file(s), 0 in window
+  Folder 38105  (Police Civilian Review Board agenda): 8 file(s), 0 in window
+  Folder 41962  (Police Civilian Review Board agenda): 7 file(s), 0 in window
+  Folder 44664  (Police Civilian Review Board agenda): 6 file(s), 1 in window
+  Folder 44846  (Police Civilian Review Board minutes): 4 file(s), 0 in window
+  Folder 39781  (Pension Committee agenda): 3 file(s), 0 in window
+  Folder 43075  (Pension Committee agenda): 2 file(s), 0 in window
+  Folder 43201  (Pension Committee minutes): 1 file(s), 0 in window
+  Folder 33376  (WWPCA agenda): 14 file(s), 0 in window
+  Folder 37534  (WWPCA agenda): 13 file(s), 0 in window
+  Folder 44750  (WWPCA agenda): 8 file(s), 0 in window
+  Folder 33625  (WWPCA minutes): 13 file(s), 0 in window
+  Folder 37538  (WWPCA minutes): 14 file(s), 0 in window
+  Folder 45711  (WWPCA minutes): 1 file(s), 0 in window
+  Folder 33472  (Permanent Revaluation Commission agenda): 1 file(s), 0 in window
+  Folder 33997  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 38309  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 42924  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 45182  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 33981  (Sustainability Commission agenda): 4 file(s), 0 in window
+  Folder 33984  (Sustainability Commission agenda): 1 file(s), 0 in window
+  Folder 38140  (Cultural District Commission minutes): 7 file(s), 0 in window
+  Folder 41904  (Cultural District Commission minutes): 8 file(s), 0 in window
+  Folder 44637  (Cultural District Commission minutes): 5 file(s), 0 in window
+  Folder 42114  (Fair Rent Commission agenda): 11 file(s), 0 in window
+  Folder 44877  (Senior Affairs Commission agenda): 4 file(s), 0 in window
+  Folder 44479  (Library Board agenda): 2 file(s), 0 in window
+  Folder 37516  (City Council recording): 24 file(s), 0 in window
+  Folder 42800  (City Council recording): 12 file(s), 0 in window
+  Folder 37549  (Planning and Zoning Commission recording): 19 file(s), 0 in window
+  Folder 42027  (Planning and Zoning Commission recording): 17 file(s), 0 in window
+  Folder 44852  (Planning and Zoning Commission recording): 9 file(s), 0 in window
+  Folder 37853  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 42175  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 45520  (Zoning Board of Appeals recording): 2 file(s), 0 in window
+
+Found 6 document(s) across 5 board(s) in date window.
+
+  skip (exists)  2026-06-15-finance-committee-agenda-06-15-2026-finance-committee-agendajoint-mtg-.pdf
+  skip (exists)  2026-06-15-finance-committee-agenda-06-15-2026-economic-development-committee-age.pdf
+  skip (exists)  2026-06-11-harbor-management-commission-agenda-6-11-2026-nlpa-harbor-man-agenda.pdf
+  skip (exists)  2026-06-10-beautification-committee-agenda-06-10-2026-beautification-committee-agenda.pdf
+  skip (exists)  2026-06-09-police-civilian-review-board-agenda-06-09-2026-police-civilian-review-board-meeti.pdf
+  skip (exists)  2026-06-09-parking-authority-agenda-new-london-parking-authority-meeting-6-9-2026.pdf
+
+Done — downloaded: 0  skipped: 6  failed: 0
+Files in: beat-archive/new-london-agendas
+
+2026-06-12 05:58:09 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:03:09 — Starting (4/4): download-stonington-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Hub page    : https://ct-stonington.civicplus.com/AgendaCenter
+Output dir  : beat-archive/stonington-agendas
+
+Fetching Agenda Center page...
+  Parsed 44 board(s).
+  Found 15 document(s) across 12 board(s) in date window.
+
+  skip (exists)  2026-06-16-planning-and-zoning-commission-agenda-740.pdf
+  skip (exists)  2026-06-16-flood-prevention-climate-resilience-and--agenda-739.pdf
+  skip (exists)  2026-06-15-stonington-beautification-committee-agenda-737.pdf
+  skip (exists)  2026-06-11-old-mystic-fire-district-agenda-729.pdf
+  skip (exists)  2026-06-11-board-of-police-commissioners-agenda-736.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda-738.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda-730.pdf
+  skip (exists)  2026-06-10-resource-recovery-authority-agenda-733.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-agenda-732.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-725.pdf
+  skip (exists)  2026-06-09-cemetery-commission-agenda-667.pdf
+  skip (exists)  2026-06-08-old-mystic-fire-district-agenda-675.pdf
+  skip (exists)  2026-06-08-old-mystic-fire-district-agenda-676.pdf
+  skip (exists)  2026-06-08-cultural-district-commission-agenda-700.pdf
+  skip (exists)  2026-06-08-architectural-design-review-board-agenda-672.pdf
+
+Done — downloaded: 0  skipped: 15  failed: 0
+Files in: beat-archive/stonington-agendas
+
+2026-06-12 06:03:11 — All Rhatigan scripts complete.
+2026-06-13 07:33:45 — Catch-up sends starting.
+Running download-groton-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Portal      : https://www.agendasuite.org/iip/groton
+Output dir  : beat-archive/groton-agendas
+
+Fetching meeting list...
+  Found 20 meeting(s) in window.
+Fetching meeting detail pages...
+Found 13 document(s), 9 video(s) across 11 board(s) in date window.
+
+  [2026-06-16] Town Council Personnel and Appointments Committee — agenda
+  downloading    2026-06-16-town-council-personnel-and-appointments--agenda.pdf
+  skip (exists)  2026-06-11-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-representative-town-meeting-agenda.pdf
+  [2026-06-10] Representative Town Meeting — video
+  downloading    2026-06-10-representative-town-meeting-video.mp4
+  skip (exists)  2026-06-10-rtm-recreation-committee-agenda.pdf
+  [2026-06-10] RTM Recreation Committee — video
+  downloading    2026-06-10-rtm-recreation-committee-video.mp4
+  skip (exists)  2026-06-10-rtm-finance-committee-agenda.pdf
+  [2026-06-10] RTM Finance Committee — video
+  downloading    2026-06-10-rtm-finance-committee-video.mp4
+  skip (exists)  2026-06-10-rtm-community-development-and-services-c-agenda.pdf
+  [2026-06-10] RTM Community Development and Services Committee — video
+  downloading    2026-06-10-rtm-community-development-and-services-c-video.mp4
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  [2026-06-10] Inland Wetlands Agency — video
+  downloading    2026-06-10-inland-wetlands-agency-video.mp4
+  skip (exists)  2026-06-09-water-pollution-control-authority-agenda.pdf
+  [2026-06-09] Water Pollution Control Authority — video
+  downloading    2026-06-09-water-pollution-control-authority-video.mp4
+  skip (exists)  2026-06-09-town-council-committee-of-the-whole-agenda.pdf
+  [2026-06-09] Town Council Committee of the Whole — video
+  downloading    2026-06-09-town-council-committee-of-the-whole-video.mp4
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-09-town-council-minutes.pdf
+  [2026-06-09] Town Council — video
+  downloading    2026-06-09-town-council-video.mp4
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — video
+  downloading    2026-06-09-planning-zoning-commission-video.mp4
+
+Done — downloaded: 10  skipped: 12  failed: 0
+Files in: beat-archive/groton-agendas
+Log:      beat-archive/groton-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/smtplib.py", line 360, in send
+    self.sock.sendall(s)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/send-groton-docs.py", line 165, in <module>
+    main()
+  File "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/send-groton-docs.py", line 161, in main
+    send_email(files, log)
+  File "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/send-groton-docs.py", line 133, in send_email
+    server.sendmail(FROM_ADDRESS, TO_ADDRESS, msg.as_string())
+  File "/usr/lib/python3.12/smtplib.py", line 891, in sendmail
+    (code, resp) = self.data(msg)
+                   ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 579, in data
+    self.send(q)
+  File "/usr/lib/python3.12/smtplib.py", line 363, in send
+    raise SMTPServerDisconnected('Server not connected')
+smtplib.SMTPServerDisconnected: Server not connected
+Running download-groton-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Portal      : https://www.agendasuite.org/iip/groton
+Output dir  : beat-archive/groton-agendas
+
+Fetching meeting list...
+  Found 20 meeting(s) in window.
+Fetching meeting detail pages...
+Found 13 document(s), 9 video(s) across 11 board(s) in date window.
+
+  skip (exists)  2026-06-16-town-council-personnel-and-appointments--agenda.pdf
+  skip (exists)  2026-06-11-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-representative-town-meeting-agenda.pdf
+  [2026-06-10] Representative Town Meeting — video
+  downloading    2026-06-10-representative-town-meeting-video.mp4
+  skip (exists)  2026-06-10-rtm-recreation-committee-agenda.pdf
+  [2026-06-10] RTM Recreation Committee — video
+  downloading    2026-06-10-rtm-recreation-committee-video.mp4
+  skip (exists)  2026-06-10-rtm-finance-committee-agenda.pdf
+  [2026-06-10] RTM Finance Committee — video
+  downloading    2026-06-10-rtm-finance-committee-video.mp4
+  skip (exists)  2026-06-10-rtm-community-development-and-services-c-agenda.pdf
+  [2026-06-10] RTM Community Development and Services Committee — video
+  downloading    2026-06-10-rtm-community-development-and-services-c-video.mp4
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  [2026-06-10] Inland Wetlands Agency — video
+  downloading    2026-06-10-inland-wetlands-agency-video.mp4
+  skip (exists)  2026-06-09-water-pollution-control-authority-agenda.pdf
+  [2026-06-09] Water Pollution Control Authority — video
+  downloading    2026-06-09-water-pollution-control-authority-video.mp4
+  skip (exists)  2026-06-09-town-council-committee-of-the-whole-agenda.pdf
+  [2026-06-09] Town Council Committee of the Whole — video
+  downloading    2026-06-09-town-council-committee-of-the-whole-video.mp4
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-09-town-council-minutes.pdf
+  [2026-06-09] Town Council — video
+  downloading    2026-06-09-town-council-video.mp4
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — video
+  downloading    2026-06-09-planning-zoning-commission-video.mp4
+
+Done — downloaded: 9  skipped: 13  failed: 0
+Files in: beat-archive/groton-agendas
+Log:      beat-archive/groton-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.ratigan@patch.com  (1 attachment(s), 0 skipped)
+Running download-milford-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://milfordct.us/AgendaCenter
+Output dir  : beat-archive/milford-agendas
+
+Fetching Agenda Center page...
+  Parsed 38 board(s).
+  Found 21 document(s) across 16 board(s) in date window.
+
+  [2026-06-18] Pension & Retirement Board — agenda
+  downloading    2026-06-18-pension-retirement-board-agenda-1910.pdf
+  [2026-06-17] Inland Wetlands Agency — agenda
+  downloading    2026-06-17-inland-wetlands-agency-agenda-1911.pdf
+  [2026-06-16] Planning & Zoning Board — agenda
+  downloading    2026-06-16-planning-zoning-board-agenda-1909.pdf
+  [2026-06-16] Milford Redevelopment & Housing Partnership (MRHP) — agenda
+  downloading    2026-06-16-milford-redevelopment-housing-partnershi-agenda-1912.pdf
+  skip (exists)  2026-06-16-board-of-health-agenda-1904.pdf
+  skip (exists)  2026-06-15-police-commission-agenda-1905.pdf
+  skip (exists)  2026-06-15-milfords-historic-preservation-commissio-agenda-1908.pdf
+  skip (exists)  2026-06-15-civil-service-commission-agenda-1896.pdf
+  skip (exists)  2026-06-15-board-of-education-agenda-1907.pdf
+  skip (exists)  2026-06-12-other-committees-including-founders-walk-agenda-1906.pdf
+  skip (exists)  2026-06-11-veterans-ceremony-parade-commission-agenda-1902.pdf
+  skip (exists)  2026-06-11-milford-redevelopment-housing-partnershi-agenda-1899.pdf
+  skip (exists)  2026-06-10-other-committees-including-founders-walk-agenda-1889.pdf
+  skip (exists)  2026-06-10-other-committees-including-founders-walk-minutes-1889.pdf
+  skip (exists)  2026-06-10-milford-historic-district-number-2-south-agenda-1888.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda-1893.pdf
+  skip (exists)  2026-06-10-golf-course-commission-agenda-1901.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-1872.pdf
+  skip (exists)  2026-06-09-flood-erosion-control-board-agenda-1897.pdf
+  skip (exists)  2026-06-09-flood-erosion-control-board-minutes-1897.pdf
+  skip (exists)  2026-06-09-energy-advisory-board-agenda-1900.pdf
+
+Done — downloaded: 4  skipped: 17  failed: 0
+Files in: beat-archive/milford-agendas
+Log:      beat-archive/milford-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.ratigan@patch.com  (4 attachment(s), 0 skipped)
+Running download-new-london-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+API base    : https://www.newlondonct.gov
+Output dir  : beat-archive/new-london-agendas
+
+Querying 154 folder(s) across 55 board/type combination(s)...
+
+  Folder 33119  (City Council agenda): 91 file(s), 0 in window
+  Folder 37355  (City Council agenda): 75 file(s), 0 in window
+  Folder 41840  (City Council agenda): 64 file(s), 0 in window
+  Folder 44635  (City Council agenda): 7 file(s), 0 in window
+  Folder 33163  (City Council minutes): 30 file(s), 0 in window
+  Folder 37507  (City Council minutes): 26 file(s), 0 in window
+  Folder 42073  (City Council minutes): 27 file(s), 0 in window
+  Folder 44885  (City Council minutes): 14 file(s), 0 in window
+  Folder 33116  (Finance Committee agenda): 30 file(s), 0 in window
+  Folder 41993  (Finance Committee agenda): 20 file(s), 0 in window
+  Folder 44639  (Finance Committee agenda): 16 file(s), 2 in window
+  Folder 42212  (Finance Committee minutes): 20 file(s), 0 in window
+  Folder 34498  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37397  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 37759  (Board of Finance agenda): 4 file(s), 0 in window
+  Folder 42130  (Board of Finance agenda): 3 file(s), 0 in window
+  Folder 42208  (Board of Finance agenda): 12 file(s), 0 in window
+  Folder 44470  (Board of Finance agenda): 6 file(s), 0 in window
+  Folder 44708  (Board of Finance agenda): 2 file(s), 0 in window
+  Folder 37447  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 42431  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 42450  (Board of Finance minutes): 12 file(s), 0 in window
+  Folder 44366  (Board of Finance minutes): 2 file(s), 0 in window
+  Folder 35312  (Fiscal Review Committee agenda): 1 file(s), 0 in window
+  Folder 37512  (Fiscal Review Committee agenda): 19 file(s), 0 in window
+  Folder 37711  (Fiscal Review Committee minutes): 14 file(s), 0 in window
+  Folder 36156  (Planning and Zoning Commission agenda): 21 file(s), 0 in window
+  Folder 41596  (Planning and Zoning Commission agenda): 22 file(s), 0 in window
+  Folder 44246  (Planning and Zoning Commission agenda): 11 file(s), 1 in window
+  Folder 37573  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 42042  (Planning and Zoning Commission minutes): 20 file(s), 0 in window
+  Folder 44858  (Planning and Zoning Commission minutes): 9 file(s), 0 in window
+  Folder 36307  (Zoning Board of Appeals agenda): 13 file(s), 0 in window
+  Folder 41940  (Zoning Board of Appeals agenda): 10 file(s), 0 in window
+  Folder 44769  (Zoning Board of Appeals agenda): 5 file(s), 0 in window
+  Folder 37851  (Zoning Board of Appeals minutes): 7 file(s), 0 in window
+  Folder 38012  (Zoning Board of Appeals minutes): 8 file(s), 0 in window
+  Folder 45436  (Zoning Board of Appeals minutes): 2 file(s), 0 in window
+  Folder 33144  (IWCC agenda): 11 file(s), 0 in window
+  Folder 37362  (IWCC agenda): 12 file(s), 0 in window
+  Folder 38328  (IWCC agenda): 13 file(s), 0 in window
+  Folder 40087  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40335  (IWCC agenda): 2 file(s), 0 in window
+  Folder 40492  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40855  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41505  (IWCC agenda): 1 file(s), 0 in window
+  Folder 41867  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42734  (IWCC agenda): 1 file(s), 0 in window
+  Folder 42882  (IWCC agenda): 1 file(s), 0 in window
+  Folder 43689  (IWCC agenda): 1 file(s), 0 in window
+  Folder 44040  (IWCC agenda): 1 file(s), 0 in window
+  Folder 40080  (IWCC minutes): 6 file(s), 0 in window
+  Folder 41948  (IWCC minutes): 6 file(s), 0 in window
+  Folder 33197  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 37453  (Harbor Management Commission agenda): 11 file(s), 0 in window
+  Folder 41907  (Harbor Management Commission agenda): 12 file(s), 0 in window
+  Folder 44683  (Harbor Management Commission agenda): 7 file(s), 1 in window
+  Folder 37792  (Harbor Management Commission minutes): 8 file(s), 0 in window
+  Folder 41910  (Harbor Management Commission minutes): 4 file(s), 0 in window
+  Folder 45040  (Harbor Management Commission minutes): 3 file(s), 0 in window
+  Folder 33289  (Parking Authority agenda): 12 file(s), 0 in window
+  Folder 37473  (Parking Authority agenda): 9 file(s), 0 in window
+  Folder 41897  (Parking Authority agenda): 11 file(s), 0 in window
+  Folder 44688  (Parking Authority agenda): 5 file(s), 0 in window
+  Folder 45873  (Parking Authority agenda): 4 file(s), 1 in window
+  Folder 33365  (Parking Authority minutes): 12 file(s), 0 in window
+  Folder 37876  (Parking Authority minutes): 11 file(s), 0 in window
+  Folder 45035  (Parking Authority minutes): 5 file(s), 0 in window
+  Folder 45645  (Parking Authority minutes): 2 file(s), 0 in window
+  Folder 33372  (Personnel Board agenda): 10 file(s), 0 in window
+  Folder 37661  (Personnel Board agenda): 9 file(s), 0 in window
+  Folder 42107  (Personnel Board agenda): 5 file(s), 0 in window
+  Folder 45086  (Personnel Board agenda): 3 file(s), 0 in window
+  Folder 33408  (Personnel Board minutes): 5 file(s), 0 in window
+  Folder 37666  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44121  (Personnel Board minutes): 3 file(s), 0 in window
+  Folder 44950  (Personnel Board minutes): 1 file(s), 0 in window
+  Folder 33157  (Citizens Advisory Committee agenda): 5 file(s), 0 in window
+  Folder 37699  (Citizens Advisory Committee agenda): 2 file(s), 0 in window
+  Folder 33297  (Citizens Advisory Committee minutes): 5 file(s), 0 in window
+  Folder 33575  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 33681  (Historic District Commission agenda): 8 file(s), 0 in window
+  Folder 41974  (Historic District Commission agenda): 10 file(s), 0 in window
+  Folder 44868  (Historic District Commission agenda): 4 file(s), 0 in window
+  Folder 38570  (Historic District Commission minutes): 4 file(s), 0 in window
+  Folder 45273  (Historic District Commission minutes): 1 file(s), 0 in window
+  Folder 45275  (Historic District Commission minutes): 3 file(s), 0 in window
+  Folder 33399  (Sustainable Action Commission agenda): 10 file(s), 0 in window
+  Folder 37580  (Sustainable Action Commission agenda): 11 file(s), 0 in window
+  Folder 42391  (Sustainable Action Commission agenda): 8 file(s), 0 in window
+  Folder 34315  (Sustainable Action Commission minutes): 6 file(s), 0 in window
+  Folder 38251  (Sustainable Action Commission minutes): 1 file(s), 0 in window
+  Folder 43051  (Sustainable Action Commission minutes): 3 file(s), 0 in window
+  Folder 33992  (Beautification Committee agenda): 7 file(s), 0 in window
+  Folder 38110  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 42542  (Beautification Committee agenda): 9 file(s), 0 in window
+  Folder 45286  (Beautification Committee agenda): 4 file(s), 1 in window
+  Folder 33830  (City Council Development agenda): 3 file(s), 0 in window
+  Folder 33833  (City Council Development minutes): 2 file(s), 0 in window
+  Folder 34263  (City Council Development minutes): 10 file(s), 0 in window
+  Folder 33262  (Veterans Advisory Committee agenda): 7 file(s), 0 in window
+  Folder 37489  (Veterans Advisory Committee agenda): 10 file(s), 0 in window
+  Folder 41980  (Veterans Advisory Committee agenda): 9 file(s), 0 in window
+  Folder 44765  (Veterans Advisory Committee agenda): 6 file(s), 1 in window
+  Folder 34127  (Housing Authority agenda): 7 file(s), 0 in window
+  Folder 37613  (Housing Authority agenda): 11 file(s), 0 in window
+  Folder 44920  (Housing Authority agenda): 5 file(s), 0 in window
+  Folder 38401  (Ethics Board agenda): 6 file(s), 0 in window
+  Folder 42422  (Ethics Board agenda): 1 file(s), 0 in window
+  Folder 38424  (Ethics Board minutes): 7 file(s), 0 in window
+  Folder 42523  (Ethics Board minutes): 3 file(s), 0 in window
+  Folder 34189  (Board of Assessment Appeals agenda): 3 file(s), 0 in window
+  Folder 38314  (Board of Assessment Appeals agenda): 12 file(s), 0 in window
+  Folder 42490  (Board of Assessment Appeals agenda): 4 file(s), 0 in window
+  Folder 45187  (Board of Assessment Appeals agenda): 2 file(s), 0 in window
+  Folder 45381  (Board of Assessment Appeals minutes): 2 file(s), 0 in window
+  Folder 37351  (Public Welfare Committee agenda): 25 file(s), 0 in window
+  Folder 44888  (Public Welfare Committee minutes): 12 file(s), 0 in window
+  Folder 37505  (Public Safety Committee agenda): 20 file(s), 0 in window
+  Folder 42159  (Public Safety Committee minutes): 2 file(s), 0 in window
+  Folder 38105  (Police Civilian Review Board agenda): 8 file(s), 0 in window
+  Folder 41962  (Police Civilian Review Board agenda): 7 file(s), 0 in window
+  Folder 44664  (Police Civilian Review Board agenda): 6 file(s), 1 in window
+  Folder 44846  (Police Civilian Review Board minutes): 4 file(s), 0 in window
+  Folder 39781  (Pension Committee agenda): 3 file(s), 0 in window
+  Folder 43075  (Pension Committee agenda): 2 file(s), 0 in window
+  Folder 43201  (Pension Committee minutes): 1 file(s), 0 in window
+  Folder 33376  (WWPCA agenda): 14 file(s), 0 in window
+  Folder 37534  (WWPCA agenda): 13 file(s), 0 in window
+  Folder 44750  (WWPCA agenda): 9 file(s), 0 in window
+  Folder 33625  (WWPCA minutes): 13 file(s), 0 in window
+  Folder 37538  (WWPCA minutes): 14 file(s), 0 in window
+  Folder 45711  (WWPCA minutes): 1 file(s), 0 in window
+  Folder 33472  (Permanent Revaluation Commission agenda): 1 file(s), 0 in window
+  Folder 33997  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 38309  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 42924  (Foreign Trade Zone agenda): 1 file(s), 0 in window
+  Folder 45182  (Foreign Trade Zone agenda): 2 file(s), 0 in window
+  Folder 33981  (Sustainability Commission agenda): 4 file(s), 0 in window
+  Folder 33984  (Sustainability Commission agenda): 1 file(s), 0 in window
+  Folder 38140  (Cultural District Commission minutes): 7 file(s), 0 in window
+  Folder 41904  (Cultural District Commission minutes): 8 file(s), 0 in window
+  Folder 44637  (Cultural District Commission minutes): 5 file(s), 0 in window
+  Folder 42114  (Fair Rent Commission agenda): 11 file(s), 0 in window
+  Folder 44877  (Senior Affairs Commission agenda): 4 file(s), 0 in window
+  Folder 44479  (Library Board agenda): 2 file(s), 0 in window
+  Folder 37516  (City Council recording): 24 file(s), 0 in window
+  Folder 42800  (City Council recording): 12 file(s), 0 in window
+  Folder 37549  (Planning and Zoning Commission recording): 19 file(s), 0 in window
+  Folder 42027  (Planning and Zoning Commission recording): 17 file(s), 0 in window
+  Folder 44852  (Planning and Zoning Commission recording): 9 file(s), 0 in window
+  Folder 37853  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 42175  (Zoning Board of Appeals recording): 8 file(s), 0 in window
+  Folder 45520  (Zoning Board of Appeals recording): 2 file(s), 0 in window
+
+Found 8 document(s) across 7 board(s) in date window.
+
+  [2026-06-18] Planning and Zoning Commission — agenda: 06-18-26 pzc agenda.pdf
+  downloading    2026-06-18-planning-and-zoning-commission-agenda-06-18-26-pzc-agenda.pdf
+  [2026-06-17] Veterans Advisory Committee — agenda: 06-17-2026 Veterans Affairs Advisory Committee Meeting Agenda.pdf
+  downloading    2026-06-17-veterans-advisory-committee-agenda-06-17-2026-veterans-affairs-advisory-committe.pdf
+  skip (exists)  2026-06-15-finance-committee-agenda-06-15-2026-finance-committee-agendajoint-mtg-.pdf
+  skip (exists)  2026-06-15-finance-committee-agenda-06-15-2026-economic-development-committee-age.pdf
+  skip (exists)  2026-06-11-harbor-management-commission-agenda-6-11-2026-nlpa-harbor-man-agenda.pdf
+  skip (exists)  2026-06-10-beautification-committee-agenda-06-10-2026-beautification-committee-agenda.pdf
+  skip (exists)  2026-06-09-police-civilian-review-board-agenda-06-09-2026-police-civilian-review-board-meeti.pdf
+  skip (exists)  2026-06-09-parking-authority-agenda-new-london-parking-authority-meeting-6-9-2026.pdf
+
+Done — downloaded: 2  skipped: 6  failed: 0
+Files in: beat-archive/new-london-agendas
+Log:      beat-archive/new-london-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.ratigan@patch.com  (2 attachment(s), 0 skipped)
+Running download-stonington-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://ct-stonington.civicplus.com/AgendaCenter
+Output dir  : beat-archive/stonington-agendas
+
+Fetching Agenda Center page...
+  Parsed 44 board(s).
+  Found 13 document(s) across 11 board(s) in date window.
+
+  skip (exists)  2026-06-16-planning-and-zoning-commission-agenda-740.pdf
+  skip (exists)  2026-06-16-flood-prevention-climate-resilience-and--agenda-739.pdf
+  skip (exists)  2026-06-15-stonington-beautification-committee-agenda-737.pdf
+  [2026-06-15] Charter Revision Commission — agenda
+  downloading    2026-06-15-charter-revision-commission-agenda-747.pdf
+  skip (exists)  2026-06-11-old-mystic-fire-district-agenda-729.pdf
+  skip (exists)  2026-06-11-board-of-police-commissioners-agenda-736.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda-738.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda-730.pdf
+  skip (exists)  2026-06-10-resource-recovery-authority-agenda-733.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-agenda-732.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda-725.pdf
+  [2026-06-09] Zoning Board of Appeals — minutes
+  downloading    2026-06-09-zoning-board-of-appeals-minutes-725.pdf
+  skip (exists)  2026-06-09-cemetery-commission-agenda-667.pdf
+
+Done — downloaded: 2  skipped: 11  failed: 0
+Files in: beat-archive/stonington-agendas
+Log:      beat-archive/stonington-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to chris.ratigan@patch.com  (2 attachment(s), 0 skipped)
+2026-06-13 08:20:02 — All Rhatigan catch-up sends complete.

@@ -356,7 +356,14 @@ def download_youtube(cutoff, output_dir, board_filter, dry_run):
             cmd += ["--simulate", "--print", "%(upload_date)s %(title)s"]
         cmd.append(channel_url)
         print(f"  {channel_name} (--dateafter {date_str})")
-        subprocess.run(cmd)
+        try:
+            result = subprocess.run(cmd, timeout=3600)
+            if result.returncode != 0:
+                print(f"  ERROR: yt-dlp exited with code {result.returncode} for {channel_name}")
+        except subprocess.TimeoutExpired:
+            print(f"  ERROR: yt-dlp timed out after 3600s for {channel_name} — partial files kept, will resume next run")
+        except Exception as e:
+            print(f"  ERROR: yt-dlp failed for {channel_name}: {e}")
 
 # ── Download queue ─────────────────────────────────────────────────────────────
 

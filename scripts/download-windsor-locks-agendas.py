@@ -315,6 +315,7 @@ def add_to_archive(archive_path, key):
 
 def download_media_ytdlp(url, outtmpl, retries=2):
     """Download audio/video from url using yt-dlp. Returns True on success."""
+    err = "unknown error"
     for attempt in range(retries + 1):
         cmd = [
             "yt-dlp", "--js-runtimes", YT_DLP_NODE,
@@ -324,12 +325,18 @@ def download_media_ytdlp(url, outtmpl, retries=2):
             "-o", outtmpl,
             url,
         ]
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        try:
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=3600)
+        except subprocess.TimeoutExpired:
+            err = "yt-dlp timed out after 3600s"
+            if attempt < retries:
+                time.sleep(3)
+            continue
         if result.returncode == 0:
             return True
+        err = result.stderr.strip()[:120] if result.stderr else "unknown error"
         if attempt < retries:
             time.sleep(3)
-    err = result.stderr.strip()[:120] if result.stderr else "unknown error"
     print(f"  WARNING: yt-dlp failed: {err}", file=sys.stderr)
     return False
 

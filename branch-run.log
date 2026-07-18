@@ -1,0 +1,548 @@
+==============================
+2026-06-06 10:55:02 — Starting (1/4): download-bridgeport-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Site        : https://bridgeportct.legistar.com
+Output dir  : beat-archive/bridgeport-agendas
+
+Fetching events from Legistar API...
+  API returned 3 event(s) total.
+
+Found 4 document(s) across 1 body/bodies.
+
+  skip (exists)  2026-06-01-city-council-agenda.pdf
+  skip (exists)  2026-06-01-city-council-minutes.pdf
+  skip (exists)  2026-05-18-city-council-agenda.pdf
+  skip (exists)  2026-05-18-city-council-minutes.pdf
+
+Done — downloaded: 0  skipped: 4  failed: 0
+Files in: beat-archive/bridgeport-agendas
+
+2026-06-06 10:55:04 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:00:04 — Starting (2/4): download-fairfield-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Site        : https://fairfieldct.gov
+Output dir  : beat-archive/fairfield-agendas
+
+Fetching Agendas & Minutes Manager index...
+Found 37 board(s).
+
+
+Found 104 document(s) across 31 board(s).
+
+  skip (exists)  2026-06-11-board-of-education-agenda.pdf
+  [2026-06-10] Shellfish Commission — Agenda
+  downloading    2026-06-10-shellfish-commission-agenda.pdf
+  skip (exists)  2026-06-10-police-commission-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-10-affordable-housing-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-plan-zoning-commission-agenda.pdf
+  [2026-06-09] Board of Education — Agenda
+  downloading    2026-06-09-board-of-education-agenda-1.pdf
+  [2026-06-09] Board of Education — Agenda
+  downloading    2026-06-09-board-of-education-agenda-2.pdf
+  skip (exists)  2026-06-08-solid-waste-recycling-commission-agenda.pdf
+  [2026-06-08] Golf Commission — Agenda
+  downloading    2026-06-08-golf-commission-agenda.pdf
+  skip (exists)  2026-06-08-board-of-library-trustees-agenda.pdf
+  [2026-06-08] Board of Health — Agenda
+  downloading    2026-06-08-board-of-health-agenda.pdf
+  skip (exists)  2026-06-05-board-of-library-trustees-agenda.pdf
+  skip (exists)  2026-06-05-board-of-education-agenda.pdf
+  skip (exists)  2026-06-04-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-04-economic-development-commission-agenda.pdf
+  skip (exists)  2026-06-03-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-06-03-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-03-board-of-selectpersons-agenda.pdf
+  skip (exists)  2026-06-03-board-of-education-agenda.pdf
+  skip (exists)  2026-06-02-town-plan-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-02-board-of-selectpersons-agenda.pdf
+  skip (exists)  2026-06-02-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-02-affordable-housing-committee-agenda.pdf
+  skip (exists)  2026-06-01-board-of-education-agenda.pdf
+  skip (exists)  2026-05-28-human-services-commission-agenda.pdf
+  skip (exists)  2026-05-28-economic-development-commission-agenda.pdf
+  skip (exists)  2026-05-28-board-of-finance-agenda.pdf
+  skip (exists)  2026-05-28-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-27-police-fire-retirement-board-agenda.pdf
+  skip (exists)  2026-05-27-joint-retirement-investment-board-agenda.pdf
+  skip (exists)  2026-05-27-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-05-27-inland-wetlands-agency-minutes.pdf
+  skip (exists)  2026-05-27-employees-retirement-board-agenda.pdf
+  skip (exists)  2026-05-27-economic-development-commission-agenda.pdf
+  skip (exists)  2026-05-27-board-of-finance-agenda.pdf
+  skip (exists)  2026-05-27-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-26-town-plan-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-26-town-plan-zoning-commission-minutes.pdf
+  skip (exists)  2026-05-26-board-of-education-agenda-1.pdf
+  skip (exists)  2026-05-26-board-of-education-agenda-2.pdf
+  skip (exists)  2026-05-26-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-21-historic-district-commission-agenda-1.pdf
+  [2026-05-21] Historic District Commission — Minutes
+  downloading    2026-05-21-historic-district-commission-minutes.pdf
+  skip (exists)  2026-05-21-historic-district-commission-agenda-2.pdf
+  skip (exists)  2026-05-21-fairfield-traffic-authority-agenda.pdf
+  skip (exists)  2026-05-21-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-21-board-of-assessment-appeals-minutes.pdf
+  skip (exists)  2026-05-20-water-pollution-control-authority-wpca-agenda-1.pdf
+  skip (exists)  2026-05-20-water-pollution-control-authority-wpca-agenda-2.pdf
+  skip (exists)  2026-05-20-parks-recreation-commission-agenda.pdf
+  skip (exists)  2026-05-20-conservation-commission-agenda.pdf
+  skip (exists)  2026-05-20-conservation-commission-minutes.pdf
+  skip (exists)  2026-05-20-board-of-selectpersons-agenda.pdf
+  skip (exists)  2026-05-20-board-of-education-agenda.pdf
+  skip (exists)  2026-05-20-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-19-harbor-management-commission-agenda.pdf
+  skip (exists)  2026-05-19-flood-and-erosion-control-board-agenda.pdf
+  skip (exists)  2026-05-19-board-of-selectpersons-agenda.pdf
+  skip (exists)  2026-05-19-board-of-selectpersons-minutes.pdf
+  skip (exists)  2026-05-19-board-of-finance-agenda.pdf
+  skip (exists)  2026-05-19-board-of-education-agenda.pdf
+  skip (exists)  2026-05-19-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-18-fairtv-commission-agenda.pdf
+  skip (exists)  2026-05-18-fairtv-commission-minutes.pdf
+  skip (exists)  2026-05-18-board-of-library-trustees-agenda.pdf
+  skip (exists)  2026-05-18-board-of-library-trustees-minutes.pdf
+  skip (exists)  2026-05-18-board-of-education-agenda.pdf
+  skip (exists)  2026-05-18-board-of-education-minutes.pdf
+  skip (exists)  2026-05-18-board-of-condemnation-agenda.pdf
+  skip (exists)  2026-05-18-board-of-condemnation-minutes.pdf
+  skip (exists)  2026-05-18-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-16-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-14-fire-commission-agenda.pdf
+  skip (exists)  2026-05-14-fire-commission-minutes.pdf
+  skip (exists)  2026-05-14-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-14-bicycle-pedestrian-committee-agenda.pdf
+  skip (exists)  2026-05-13-shellfish-commission-agenda.pdf
+  skip (exists)  2026-05-13-shellfish-commission-minutes.pdf
+  skip (exists)  2026-05-13-police-commission-agenda.pdf
+  skip (exists)  2026-05-13-police-commission-minutes.pdf
+  skip (exists)  2026-05-13-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-13-board-of-assessment-appeals-minutes.pdf
+  skip (exists)  2026-05-13-affordable-housing-committee-agenda.pdf
+  skip (exists)  2026-05-12-town-plan-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-12-town-plan-zoning-commission-minutes.pdf
+  skip (exists)  2026-05-12-housing-authority-agenda.pdf
+  skip (exists)  2026-05-12-board-of-education-agenda.pdf
+  skip (exists)  2026-05-12-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-12-board-of-assessment-appeals-minutes.pdf
+  skip (exists)  2026-05-11-solid-waste-recycling-commission-agenda.pdf
+  skip (exists)  2026-05-11-solid-waste-recycling-commission-minutes.pdf
+  skip (exists)  2026-05-11-golf-commission-agenda.pdf
+  skip (exists)  2026-05-11-board-of-library-trustees-agenda.pdf
+  skip (exists)  2026-05-11-board-of-health-agenda.pdf
+  skip (exists)  2026-05-11-board-of-education-agenda.pdf
+  skip (exists)  2026-05-11-board-of-assessment-appeals-agenda.pdf
+  skip (exists)  2026-05-11-board-of-assessment-appeals-minutes.pdf
+  skip (exists)  2026-05-08-board-of-education-agenda.pdf
+  skip (exists)  2026-05-07-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-05-07-economic-development-commission-agenda.pdf
+  skip (exists)  2026-05-07-board-of-finance-agenda.pdf
+  skip (exists)  2026-05-07-board-of-finance-minutes.pdf
+
+Done — downloaded: 6  skipped: 98  failed: 0
+Files in: beat-archive/fairfield-agendas
+Log:      beat-archive/fairfield-agendas/download-log.txt
+
+2026-06-06 11:00:37 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:05:37 — Starting (3/4): download-madison-agendas.py
+==============================
+Cutoff date : 2026-05-07  (30 days back)
+Fetching    : https://www.madisonct.org/AgendaCenter
+Output dir  : beat-archive/madison-agendas
+
+Fetching AgendaCenter index...
+Found 52 board(s).
+
+Found 37 meeting(s) with up to 58 document(s) and 11 video recording(s) in the past 30 days.
+
+[2026-06-11] Madison 200 | America 250 Steering Committee
+  skip (exists)  2026-06-11-madison-200-america-250-steering-committee-agenda.pdf
+[2026-06-09] School HVAC Building Committees - Polson & Hand
+  skip (exists)  2026-06-09-school-hvac-building-committees-polson-hand-agenda.pdf
+[2026-06-09] Board of Selectmen
+  downloading    2026-06-09-board-of-selectmen-agenda.pdf
+[2026-06-09] Advisory Committee on Community Appearance (ACCA)
+  downloading    2026-06-09-advisory-committee-on-community-appearance-acca-agenda.pdf
+[2026-06-04] Salt Meadow Park Governance Committee
+  skip (exists)  2026-06-04-salt-meadow-park-governance-committee-agenda.pdf
+[2026-06-02] Madison Youth & Family Services Board
+  skip (exists)  2026-06-02-madison-youth-family-services-board-agenda.pdf
+[2026-06-02] Bicycle and Pedestrian Advisory Committee
+  skip (exists)  2026-06-02-bicycle-and-pedestrian-advisory-committee-agenda.pdf
+[2026-06-02] Beach & Recreation Commission
+  skip (exists)  2026-06-02-beach-recreation-commission-agenda.pdf
+[2026-06-01] Rockland Preserve Advisory Committee
+  skip (exists)  2026-06-01-rockland-preserve-advisory-committee-agenda.pdf
+  skip (exists)  2026-06-01-rockland-preserve-advisory-committee-minutes.pdf
+[2026-06-01] Inland Wetlands and Watercourses Agency
+  skip (exists)  2026-06-01-inland-wetlands-and-watercourses-agency-agenda.pdf
+  skip (exists)  2026-06-01-inland-wetlands-and-watercourses-agency-minutes.pdf
+[2026-06-01] Beach & Recreation Commission
+  skip (exists)  2026-06-01-beach-recreation-commission-agenda.pdf
+[2026-05-28] Emergency Operations Center - Firehouse Expansion Building Committee
+  skip (exists)  2026-05-28-emergency-operations-center-firehouse-expansion-building-com-agenda.pdf
+  skip (exists)  2026-05-28-emergency-operations-center-firehouse-expansion-building-com-minutes.pdf
+[2026-05-27] Madison 200 | America 250 Steering Committee
+  skip (exists)  2026-05-27-madison-200-america-250-steering-committee-agenda.pdf
+  skip (exists)  2026-05-27-madison-200-america-250-steering-committee-minutes.pdf
+[2026-05-27] Conservation Commission
+  skip (exists)  2026-05-27-conservation-commission-agenda.pdf
+[2026-05-27] Bauer Park Advisory Committee
+  skip (exists)  2026-05-27-bauer-park-advisory-committee-agenda.pdf
+  skip (exists)  2026-05-27-bauer-park-advisory-committee-minutes.pdf
+[2026-05-26] Board of Selectmen
+  skip (exists)  2026-05-26-board-of-selectmen-agenda.pdf
+[2026-05-21] Shellfish Commission
+  skip (exists)  2026-05-21-shellfish-commission-agenda.pdf
+  skip (exists)  2026-05-21-shellfish-commission-minutes.pdf
+[2026-05-21] Planning & Zoning Commission
+  skip (exists)  2026-05-21-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-21-planning-zoning-commission-minutes.pdf
+[2026-05-21] Facilities Committee (Ad Hoc)
+  skip (exists)  2026-05-21-facilities-committee-ad-hoc-agenda.pdf
+[2026-05-20] Tree Advisory Committee
+  skip (exists)  2026-05-20-tree-advisory-committee-agenda.pdf
+  skip (exists)  2026-05-20-tree-advisory-committee-minutes.pdf
+[2026-05-20] Pension/Retirement Committees
+  skip (exists)  2026-05-20-pension-retirement-committees-agenda.pdf
+[2026-05-20] Board of Finance
+  skip (exists)  2026-05-20-board-of-finance-agenda.pdf
+  skip (exists)  2026-05-20-board-of-finance-minutes.pdf
+[2026-05-20] Beach & Recreation Commission
+  skip (exists)  2026-05-20-beach-recreation-commission-agenda.pdf
+  skip (exists)  2026-05-20-beach-recreation-commission-minutes.pdf
+[2026-05-20] Affordable Housing Committee
+  skip (exists)  2026-05-20-affordable-housing-committee-agenda.pdf
+[2026-05-18] New Elementary School Building Committee (Ad Hoc)
+  skip (exists)  2026-05-18-new-elementary-school-building-committee-ad-hoc-agenda.pdf
+  skip (exists)  2026-05-18-new-elementary-school-building-committee-ad-hoc-minutes.pdf
+[2026-05-18] Historic District Commission
+  skip (exists)  2026-05-18-historic-district-commission-agenda.pdf
+  skip (exists)  2026-05-18-historic-district-commission-minutes.pdf
+[2026-05-14] Emergency Operations Center - Firehouse Expansion Building Committee
+  skip (exists)  2026-05-14-emergency-operations-center-firehouse-expansion-building-com-agenda.pdf
+  skip (exists)  2026-05-14-emergency-operations-center-firehouse-expansion-building-com-minutes.pdf
+[2026-05-14] Economic Development Commission
+  skip (exists)  2026-05-14-economic-development-commission-agenda.pdf
+  skip (exists)  2026-05-14-economic-development-commission-minutes.pdf
+[2026-05-14] Board of Police Commissioners
+  skip (exists)  2026-05-14-board-of-police-commissioners-agenda.pdf
+[2026-05-13] Flood Prevention, Climate Resilience, and Erosion Control Board
+  skip (exists)  2026-05-13-flood-prevention-climate-resilience-and-erosion-control-boar-agenda.pdf
+  skip (exists)  2026-05-13-flood-prevention-climate-resilience-and-erosion-control-boar-minutes.pdf
+[2026-05-12] Zoning Board of Appeals
+  skip (exists)  2026-05-12-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-05-12-zoning-board-of-appeals-minutes.pdf
+[2026-05-12] Senior Citizen Commission
+  skip (exists)  2026-05-12-senior-citizen-commission-agenda.pdf
+  skip (exists)  2026-05-12-senior-citizen-commission-minutes.pdf
+[2026-05-12] Madison Youth & Family Services Board
+  skip (exists)  2026-05-12-madison-youth-family-services-board-agenda.pdf
+  skip (exists)  2026-05-12-madison-youth-family-services-board-minutes.pdf
+[2026-05-12] Board of Selectmen
+  skip (exists)  2026-05-12-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-12-board-of-selectmen-minutes.pdf
+[2026-05-12] Advisory Committee on Community Appearance (ACCA)
+  skip (exists)  2026-05-12-advisory-committee-on-community-appearance-acca-agenda.pdf
+  skip (exists)  2026-05-12-advisory-committee-on-community-appearance-acca-minutes.pdf
+[2026-05-07] Salt Meadow Park Governance Committee
+  skip (exists)  2026-05-07-salt-meadow-park-governance-committee-agenda.pdf
+[2026-05-07] Planning & Zoning Commission
+  skip (exists)  2026-05-07-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-07-planning-zoning-commission-minutes.pdf
+
+Done — downloaded: 2  skipped: 56  failed: 0
+Files in: beat-archive/madison-agendas
+Log:      beat-archive/madison-agendas/download-log.txt
+
+2026-06-06 11:05:42 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:10:42 — Starting (4/4): download-westport-agendas.py
+==============================
+ERROR: missing dependency: No module named 'playwright'
+  pip install playwright playwright-stealth
+  python3 -m playwright install chromium
+
+2026-06-06 11:10:42 — All Branch scripts complete.
+==============================
+2026-06-11 09:08:18 — Starting (1/4): download-bridgeport-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Site        : https://bridgeportct.legistar.com
+Output dir  : beat-archive/bridgeport-agendas
+
+Fetching events from Legistar API...
+  API returned 4 event(s) total.
+
+Found 1 document(s) across 1 body/bodies.
+
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+
+Done — downloaded: 0  skipped: 1  failed: 0
+Files in: beat-archive/bridgeport-agendas
+2026-06-11 09:08:19 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:13:19 — Starting (2/4): download-fairfield-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Site        : https://fairfieldct.gov
+Output dir  : beat-archive/fairfield-agendas
+
+Fetching Agendas & Minutes Manager index...
+Found 37 board(s).
+
+
+Found 21 document(s) across 17 board(s).
+
+  skip (exists)  2026-06-17-conservation-commission-agenda.pdf
+  skip (exists)  2026-06-17-board-of-selectpersons-agenda.pdf
+  skip (exists)  2026-06-16-ethics-commission-agenda.pdf
+  skip (exists)  2026-06-11-fire-commission-agenda.pdf
+  skip (exists)  2026-06-11-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda.pdf
+  skip (exists)  2026-06-11-bicycle-pedestrian-committee-agenda.pdf
+  skip (exists)  2026-06-10-shellfish-commission-agenda.pdf
+  skip (exists)  2026-06-10-police-commission-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-10-affordable-housing-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-plan-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-housing-authority-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-1.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-2.pdf
+  skip (exists)  2026-06-08-solid-waste-recycling-commission-agenda.pdf
+  skip (exists)  2026-06-08-golf-commission-agenda.pdf
+  skip (exists)  2026-06-08-board-of-library-trustees-agenda.pdf
+  skip (exists)  2026-06-08-board-of-library-trustees-minutes.pdf
+  skip (exists)  2026-06-08-board-of-health-agenda.pdf
+
+Done — downloaded: 0  skipped: 21  failed: 0
+Files in: beat-archive/fairfield-agendas
+2026-06-11 09:13:45 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:18:45 — Starting (3/4): download-madison-agendas.py
+==============================
+Cutoff date : 2026-06-07  (4 days back)
+Fetching    : https://www.madisonct.org/AgendaCenter
+Output dir  : beat-archive/madison-agendas
+
+Fetching AgendaCenter index...
+Found 40 board(s).
+
+Found 9 meeting(s) with up to 10 document(s) and 2 video recording(s) in the past 4 days.
+
+[2026-06-17] Tree Advisory Committee
+  downloading    2026-06-17-tree-advisory-committee-agenda.pdf
+[2026-06-11] Madison 200 | America 250 Steering Committee
+  skip (exists)  2026-06-11-madison-200-america-250-steering-committee-agenda.pdf
+[2026-06-11] Emergency Operations Center - Firehouse Expansion Building Committee
+  skip (exists)  2026-06-11-emergency-operations-center-firehouse-expansion-building-com-agenda.pdf
+[2026-06-11] Board of Police Commissioners
+  skip (exists)  2026-06-11-board-of-police-commissioners-agenda.pdf
+[2026-06-10] Conservation Commission
+  skip (exists)  2026-06-10-conservation-commission-agenda.pdf
+[2026-06-09] Senior Citizen Commission
+  skip (exists)  2026-06-09-senior-citizen-commission-agenda.pdf
+[2026-06-09] School HVAC Building Committees - Polson & Hand
+  skip (exists)  2026-06-09-school-hvac-building-committees-polson-hand-agenda.pdf
+  skip (exists)  2026-06-09-school-hvac-building-committees-polson-hand-minutes.pdf
+[2026-06-09] Board of Selectmen
+  skip (exists)  2026-06-09-board-of-selectmen-agenda.pdf
+[2026-06-09] Advisory Committee on Community Appearance (ACCA)
+  skip (exists)  2026-06-09-advisory-committee-on-community-appearance-acca-agenda.pdf
+
+Done — downloaded: 1  skipped: 9  failed: 0
+Files in: beat-archive/madison-agendas
+Log:      beat-archive/madison-agendas/download-log.txt
+2026-06-11 09:18:49 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:23:49 — Starting (4/4): download-westport-agendas.py
+==============================
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125739/639166877817093419 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125447/639160814256400000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125577/639162690233600000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125643 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125755/639167028984742048 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125443/639160800673630000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125661 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125493/639161772499700000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125489/639161769544370000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125721/639166838247577205 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125575/639162675600730000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125499/639161802479400000 returned HTTP 403
+  WARNING: https://www.westportct.gov/home/showpublisheddocument/125507/639161819819370000 returned HTTP 403
+Date window : 2026-06-07 to 2026-06-18
+Site        : https://www.westportct.gov
+Output dir  : beat-archive/westport-agendas
+
+Establishing session with westportct.gov ...
+Fetching past meeting pages...
+  Found 0 past event(s) in window.
+Fetching upcoming meeting pages...
+  Found 23 upcoming event(s) in window.
+
+Found 13 PDF document(s) across 13 board(s).
+
+  [2026-06-18] Tree Board — agenda
+  downloading    2026-06-18-tree-board-agenda.pdf
+  [2026-06-17] Conservation Commission — agenda
+  downloading    2026-06-17-conservation-commission-agenda.pdf
+  [2026-06-17] Board of Finance Special Meeting — agenda
+  downloading    2026-06-17-board-of-finance-special-meeting-agenda.pdf
+  [2026-06-16] Affordable Housing Committee — agenda
+  downloading    2026-06-16-affordable-housing-committee-agenda.pdf
+  [2026-06-15] Planning &amp; Zoning Commission — agenda
+  downloading    2026-06-15-planning-amp-zoning-commission-agenda.pdf
+  [2026-06-15] Commission for Senior Services — agenda
+  downloading    2026-06-15-commission-for-senior-services-agenda.pdf
+  [2026-06-11] Historic District Commission Special Meeting — agenda
+  downloading    2026-06-11-historic-district-commission-special-meeting-agenda.pdf
+  [2026-06-11] Greater Bridgeport Regional Solid Waste Interlocal Committee — agenda
+  downloading    2026-06-11-greater-bridgeport-regional-solid-waste-inter-agenda.pdf
+  [2026-06-11] Greater Bridgeport Regional Recycling Interlocal Committee — agenda
+  downloading    2026-06-11-greater-bridgeport-regional-recycling-interlo-agenda.pdf
+  [2026-06-11] Board of Education — agenda
+  downloading    2026-06-11-board-of-education-agenda.pdf
+  [2026-06-11] Blight Prevention Board — agenda
+  downloading    2026-06-11-blight-prevention-board-agenda.pdf
+  [2026-06-10] Long Lots School Building Committee - Long Lots Elementary and  Stepping Stones Pre-School Project Presentation — agenda
+  downloading    2026-06-10-long-lots-school-building-committee-long-lots-agenda.pdf
+  [2026-06-10] Board of Selectmen - REVISED — agenda
+  downloading    2026-06-10-board-of-selectmen-revised-agenda.pdf
+
+Done — downloaded: 0  skipped: 0  failed: 13
+Log:      beat-archive/westport-agendas/download-log.txt
+2026-06-11 09:24:11 — All Branch scripts complete.
+=============================
+2026-06-12 05:45:17 — Starting (1/4): download-bridgeport-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Site        : https://bridgeportct.legistar.com
+Output dir  : beat-archive/bridgeport-agendas
+
+Fetching events from Legistar API...
+  API returned 5 event(s) total.
+
+Found 1 document(s) across 1 body/bodies.
+
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+
+Done — downloaded: 0  skipped: 1  failed: 0
+Files in: beat-archive/bridgeport-agendas
+
+2026-06-12 05:45:17 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:50:17 — Starting (2/4): download-fairfield-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Site        : https://fairfieldct.gov
+Output dir  : beat-archive/fairfield-agendas
+
+Fetching Agendas & Minutes Manager index...
+Found 37 board(s).
+
+
+Found 23 document(s) across 19 board(s).
+
+  skip (exists)  2026-06-18-fairfield-traffic-authority-agenda.pdf
+  skip (exists)  2026-06-17-conservation-commission-agenda.pdf
+  skip (exists)  2026-06-17-board-of-selectpersons-agenda.pdf
+  skip (exists)  2026-06-16-ethics-commission-agenda.pdf
+  skip (exists)  2026-06-15-board-of-condemnation-agenda.pdf
+  skip (exists)  2026-06-11-fire-commission-agenda.pdf
+  skip (exists)  2026-06-11-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda.pdf
+  skip (exists)  2026-06-11-bicycle-pedestrian-committee-agenda.pdf
+  skip (exists)  2026-06-10-shellfish-commission-agenda.pdf
+  skip (exists)  2026-06-10-police-commission-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-agency-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-10-affordable-housing-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-plan-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-housing-authority-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-1.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-2.pdf
+  skip (exists)  2026-06-08-solid-waste-recycling-commission-agenda.pdf
+  skip (exists)  2026-06-08-golf-commission-agenda.pdf
+  skip (exists)  2026-06-08-board-of-library-trustees-agenda.pdf
+  skip (exists)  2026-06-08-board-of-library-trustees-minutes.pdf
+  skip (exists)  2026-06-08-board-of-health-agenda.pdf
+
+Done — downloaded: 0  skipped: 23  failed: 0
+Files in: beat-archive/fairfield-agendas
+
+2026-06-12 05:50:44 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:55:44 — Starting (3/4): download-madison-agendas.py
+=============================
+Cutoff date : 2026-06-08  (4 days back)
+Fetching    : https://www.madisonct.org/AgendaCenter
+Output dir  : beat-archive/madison-agendas
+
+Fetching AgendaCenter index...
+Found 40 board(s).
+
+Found 10 meeting(s) with up to 11 document(s) and 2 video recording(s) in the past 4 days.
+
+[2026-06-18] Economic Development Commission
+  skip (exists)  2026-06-18-economic-development-commission-agenda.pdf
+[2026-06-17] Tree Advisory Committee
+  skip (exists)  2026-06-17-tree-advisory-committee-agenda.pdf
+[2026-06-11] Madison 200 | America 250 Steering Committee
+  skip (exists)  2026-06-11-madison-200-america-250-steering-committee-agenda.pdf
+[2026-06-11] Emergency Operations Center - Firehouse Expansion Building Committee
+  skip (exists)  2026-06-11-emergency-operations-center-firehouse-expansion-building-com-agenda.pdf
+[2026-06-11] Board of Police Commissioners
+  skip (exists)  2026-06-11-board-of-police-commissioners-agenda.pdf
+[2026-06-10] Conservation Commission
+  skip (exists)  2026-06-10-conservation-commission-agenda.pdf
+[2026-06-09] Senior Citizen Commission
+  skip (exists)  2026-06-09-senior-citizen-commission-agenda.pdf
+[2026-06-09] School HVAC Building Committees - Polson & Hand
+  skip (exists)  2026-06-09-school-hvac-building-committees-polson-hand-agenda.pdf
+  skip (exists)  2026-06-09-school-hvac-building-committees-polson-hand-minutes.pdf
+[2026-06-09] Board of Selectmen
+  skip (exists)  2026-06-09-board-of-selectmen-agenda.pdf
+[2026-06-09] Advisory Committee on Community Appearance (ACCA)
+  skip (exists)  2026-06-09-advisory-committee-on-community-appearance-acca-agenda.pdf
+
+Done — downloaded: 0  skipped: 11  failed: 0
+Files in: beat-archive/madison-agendas
+
+2026-06-12 05:55:47 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:00:47 — Starting (4/4): download-westport-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Site        : https://www.westportct.gov
+Output dir  : beat-archive/westport-agendas
+
+Establishing session with westportct.gov ...
+Fetching past meeting pages...
+  Found 0 past event(s) in window.
+Fetching upcoming meeting pages...
+  Found 20 upcoming event(s) in window.
+
+Found 11 PDF document(s) across 11 board(s).
+
+  skip (exists)  2026-06-18-tree-board-agenda.pdf
+  skip (exists)  2026-06-17-conservation-commission-agenda.pdf
+  skip (exists)  2026-06-17-board-of-finance-special-meeting-agenda.pdf
+  skip (exists)  2026-06-16-affordable-housing-committee-agenda.pdf
+  skip (exists)  2026-06-15-planning-amp-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-15-commission-for-senior-services-agenda.pdf
+  skip (exists)  2026-06-11-historic-district-commission-special-meeting-agenda.pdf
+  skip (exists)  2026-06-11-greater-bridgeport-regional-solid-waste-inter-agenda.pdf
+  skip (exists)  2026-06-11-greater-bridgeport-regional-recycling-interlo-agenda.pdf
+  skip (exists)  2026-06-11-board-of-education-agenda.pdf
+  skip (exists)  2026-06-11-blight-prevention-board-agenda.pdf
+
+Done — downloaded: 0  skipped: 11  failed: 0
+Files in: beat-archive/westport-agendas
+
+2026-06-12 06:00:53 — All Branch scripts complete.

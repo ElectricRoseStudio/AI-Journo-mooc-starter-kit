@@ -1,0 +1,1213 @@
+==============================
+2026-06-06 09:21:06 — Starting (1/9): download-bethel-agendas.py
+==============================
+ERROR: beautifulsoup4 is not installed.
+  pip install beautifulsoup4
+
+2026-06-06 09:21:06 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 09:36:06 — Starting (2/9): download-brookfield-agendas.py
+==============================
+Cutoff date : 2026-05-07  (30 days back)
+Source      : CHAMPDS API (https://playapi.champds.com/brookfieldct)
+Output dir  : beat-archive/brookfield-agendas
+
+Fetching board list...
+Found 9 board(s).
+
+Found 13 meeting(s) within the past 30 days.
+
+[2026-06-03] Conservation Commission — Conservation Commission Regular Meeting
+  skip (exists)  2026-06-03-conservation-commission-conservation-commission-regular-meeting
+[2026-06-01] Board of Selectmen — June Meeting
+  skip (exists)  2026-06-01-board-of-selectmen-june-meeting
+[2026-06-01] Board of Selectmen — PUBLIC HEARING
+  skip (exists)  2026-06-01-board-of-selectmen-public-hearing
+[2026-06-01] Zoning Board of Appeals — Zoning Board of Appeals
+  skip (exists)  2026-06-01-zoning-board-of-appeals-zoning-board-of-appeals
+[2026-05-30] Board of Selectmen — Special Meeting - Coffee with the Community
+  skip (exists)  2026-05-30-board-of-selectmen-special-meeting---coffee-with-the-community
+[2026-05-28] Blight Prevention Panel — Blight Prevention Panel Meeting - REVISED
+  skip (exists)  2026-05-28-blight-prevention-panel-blight-prevention-panel-meeting---revised
+[2026-05-28] Planning and Zoning Commission — Planning & Zoning Commission - REVISED 2
+  skip (exists)  2026-05-28-planning-and-zoning-commission-planning-zoning-commission---revised-2
+[2026-05-27] Water Pollution Control Authority — WPCA Hybrid Meeting
+  skip (exists)  2026-05-27-water-pollution-control-authority-wpca-hybrid-meeting
+[2026-05-19] Conservation Commission — Conservation Commission - SPECIAL MEETING
+  skip (exists)  2026-05-19-conservation-commission-conservation-commission---special-meeting
+[2026-05-19] Economic Development Commission — Economic Development Commission
+  skip (exists)  2026-05-19-economic-development-commission-economic-development-commission
+[2026-05-18] Inland Wetlands Commission — Inland Wetlands Commission-SPECIAL HYBRID MEETING
+  skip (exists)  2026-05-18-inland-wetlands-commission-inland-wetlands-commission-special-hybrid-meeting
+[2026-05-14] Planning and Zoning Commission — Planning & Zoning Commission - REVISED
+  skip (exists)  2026-05-14-planning-and-zoning-commission-planning-zoning-commission---revised
+[2026-05-11] Inland Wetlands Commission — Inland Wetlands Commission Regular Meeting
+  skip (exists)  2026-05-11-inland-wetlands-commission-inland-wetlands-commission-regular-meeting
+
+Done — saved: 0  skipped: 13  failed: 0
+Files in: beat-archive/brookfield-agendas
+
+NOTE: Files contain meeting agendas and minutes from CHAMPDS (text format).
+      For official PDFs, see https://ecode360.com/BR0697/documents/Agendas
+      (requires a web browser — the eCode360 archive is not machine-accessible).
+
+2026-06-06 09:36:12 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 09:51:12 — Starting (3/9): download-danbury-agendas.py
+==============================
+ERROR: beautifulsoup4 is not installed.
+  pip install beautifulsoup4
+
+2026-06-06 09:51:12 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:06:12 — Starting (4/9): download-easton-agendas.py
+==============================
+ERROR: beautifulsoup4 not installed.
+  pip install beautifulsoup4
+
+2026-06-06 10:06:12 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:21:12 — Starting (5/9): download-monroe-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-06  (30 days back)
+Hub URL     : https://www.monroect.gov/p/-agendas-voting-records-minutes-videos-recordings
+Output dir  : beat-archive/monroe-agendas
+
+Fetching board list...
+Discovered 49 board(s)/folder(s).
+
+  Scanning: Zoning Board of Appeals
+  Scanning: Youth Commission
+  Scanning: WMNR Commision
+  Scanning: Water Pollution Control Authority
+  Scanning: Videos & Recording
+  Scanning: Trumbull Monroe Health District
+  Scanning: Town Meetings
+  Scanning: Town Council Committee on Strategic Planning
+  Scanning: Town Council Committee on Planning & Zoning, Public Works and Parks & Recreation Matters
+  Scanning: Town Council Committee on Open Space Preservation & Acquisition
+  Scanning: Town Council Committee on Legislative & Administrative Matters
+  Scanning: Town Council Committee on Finance, Education, Public Health & Safety Matters
+  Scanning: Town Council
+  Scanning: Tax Incentive Program Review Committee
+  Scanning: State & Federal Town Hall Meetings
+  Scanning: Planning & Zoning Commission - Regulations Subcommittee
+  Scanning: Planning & Zoning Commission
+  Scanning: Pension Committee
+  Scanning: Pension & OPEB Other Post Employment Benefits Joint Meetings
+  Scanning: Parks & Recreation Commission - Development & Acquisition Subcommitte
+  Scanning: Parks & Recreation Commission
+  Scanning: Open Space Acquisition & Preservation Committee
+  Scanning: Monroe Bicentennial Committee
+  Scanning: Memorial Day Parade Committee
+  Scanning: Library Board of Trustees
+  Scanning: Lake Zoar Authority
+  Scanning: Joint Meetings
+  Scanning: Inland Wetlands Commission
+  Scanning: Housing Authority
+  Scanning: Historic District Commission
+  Scanning: First Selectman`s Meetings
+  Scanning: First Selectman`s Business Industry & Advisory Committee
+  Scanning: Fire Service Study Committee
+  Scanning: Facilities Planning Committee
+  Scanning: EMS Facility Workgroup
+  Scanning: EMS Building Committee
+  Scanning: Emergency Medical Services Commission
+  Scanning: Edith Wheeler Memorial Library Strategic Planning Committee
+  Scanning: Economic Development Commission
+  Scanning: CT 250 Committee
+  Scanning: Conservation & Water Resources Commission
+  Scanning: Commission for the Aging
+  Scanning: Board of Police Commissioners
+  Scanning: Board of Health
+  Scanning: Board of Finance
+  Scanning: Board of Ethics
+  Scanning: Board of Assessment Appeals
+  Scanning: Architectural Review Board
+  Scanning: Videos & Recording
+
+Documents in window : 56
+Boards with matches : 20
+
+  skip (exists)  2026-06-04-planning-zoning-commission-agendas-pzc-meeting-agenda.pdf
+  skip (exists)  2026-06-04-ct-250-committee-agendas-monroe-ct-250-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-03-facilities-planning-committee-agendas-facilities-planning-committee-special-meeting-agenda.pdf
+  skip (exists)  2026-06-03-commission-for-the-aging-agendas-commission-on-the-aging-special-meeting-agenda.pdf
+  skip (exists)  2026-06-02-historic-district-commission-agendas-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-01-town-council-agendas-notice-of-public-hearing.pdf
+  skip (exists)  2026-06-01-parks-recreation-commission-minutes-parks-and-recreation-regular-meeting-minutes.pdf
+  skip (exists)  2026-06-01-parks-recreation-commission-meeting-packets-parks-and-recreation-regular-meeting-minute.pdf
+  skip (exists)  2026-06-01-parks-recreation-commission-agendas-parks-and-recreation-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-27-inland-wetlands-commission-agendas-iwc-meeting-agenda.pdf
+  skip (exists)  2026-05-26-town-council-committee-on-legislative-administrative-matters-minutes-la-matters-meeting-minutes.pdf
+  skip (exists)  2026-05-26-town-council-committee-on-legislative-administrative-matters-agendas-l-a-agenda.pdf
+  skip (exists)  2026-05-26-town-council-minutes-town-council-regular-meeting-minutes-session-2026-12.pdf
+  skip (exists)  2026-05-26-town-council-meeting-packets-town-council-meeting-packet.pdf
+  skip (exists)  2026-05-26-town-council-agendas-agenda-town-council-regular-meeting-session-2026-12.pdf
+  skip (exists)  2026-05-21-planning-zoning-commission-minutes-pzc-meeting-minutes.pdf
+  skip (exists)  2026-05-21-planning-zoning-commission-agendas-pzc-meeting-agenda.pdf
+  skip (exists)  2026-05-21-library-board-of-trustees-minutes-library-board-of-trustees-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-21-library-board-of-trustees-agendas-library-board-of-trustees-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-21-ct-250-committee-minutes-monroe-ct-250-committee-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-21-ct-250-committee-agendas-monroe-ct-250-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-20-board-of-police-commissioners-minutes-board-of-police-commissioners-regular-meeting-minutes-chiefs.pdf
+  skip (exists)  2026-05-20-board-of-police-commissioners-agendas-board-of-police-commissioners-regular-meeting-agenda-amended.pdf
+  skip (exists)  2026-05-19-memorial-day-parade-committee-agendas-memorial-day-parade-committee-special-meeting-agenda.pdf
+  skip (exists)  2026-05-14-economic-development-commission-agendas-edc-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-14-conservation-water-resources-commission-agendas-conservation-water-resource-commission-regular-meeting-agend.pdf
+  skip (exists)  2026-05-14-board-of-finance-minutes-board-of-finance-special-meeting-minutes.pdf
+  skip (exists)  2026-05-14-board-of-finance-meeting-packets-board-of-finance-special-meeting-packet.pdf
+  skip (exists)  2026-05-14-board-of-finance-agendas-board-of-finance-special-meeting-agenda.pdf
+  skip (exists)  2026-05-13-inland-wetlands-commission-minutes-iwc-meeting-minutes.pdf
+  skip (exists)  2026-05-13-inland-wetlands-commission-agendas-iwc-meeting-agenda.pdf
+  skip (exists)  2026-05-13-emergency-medical-services-commission-agendas-ems-commission-meeting-agenda.pdf
+  skip (exists)  2026-05-13-board-of-health-minutes-board-of-health-minutes.pdf
+  skip (exists)  2026-05-13-board-of-health-agendas-board-of-health-regular-meeting.pdf
+  skip (exists)  2026-05-12-planning-zoning-commission-regulations-subcommittee-minutes-pzc-regulations-subcommittee-special-meeting-minutes.pdf
+  skip (exists)  2026-05-12-architectural-review-board-minutes-arb-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-12-architectural-review-board-agendas-arb-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-11-town-council-committee-on-legislative-administrative-matters-minutes-la-matters-meeting-minutes.pdf
+  skip (exists)  2026-05-11-town-council-committee-on-legislative-administrative-matters-agendas-l-a-agenda.pdf
+  skip (exists)  2026-05-11-town-council-minutes-town-council-special-meeting-public-hearing-minutes-session-.pdf
+  skip (exists)  2026-05-11-town-council-minutes-town-council-regular-meeting-minutes-session-2026-11.pdf
+  skip (exists)  2026-05-11-town-council-meeting-packets-town-council-meeting-packet.pdf
+  skip (exists)  2026-05-11-town-council-first-selectmans-reports-first-selectmans-update-to-town-council.pdf
+  skip (exists)  2026-05-11-town-council-agendas-agenda-town-council-special-meeting-public-hearing-session-2.pdf
+  skip (exists)  2026-05-11-town-council-agendas-agenda-town-council-regular-meeting-session-2026-11.pdf
+  skip (exists)  2026-05-11-planning-zoning-commission-regulations-subcommittee-agendas-pzc-special-sub-com-meeting-agenda.pdf
+  skip (exists)  2026-05-11-parks-recreation-commission-minutes-parks-and-recreation-special-meeting-minutes.pdf
+  skip (exists)  2026-05-11-parks-recreation-commission-agendas-parks-and-recreation-special-meeting-agenda.pdf
+  skip (exists)  2026-05-07-planning-zoning-commission-minutes-pzc-meeting-minutes.pdf
+  skip (exists)  2026-05-07-planning-zoning-commission-agendas-pzc-meeting-agenda.pdf
+  skip (exists)  2026-05-07-ct-250-committee-minutes-monroe-ct-250-committee-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-07-ct-250-committee-agendas-monroe-ct-250-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-07-board-of-finance-minutes-board-of-finance-special-meeting-minutes.pdf
+  skip (exists)  2026-05-07-board-of-finance-meeting-packets-board-of-finance-special-meeting-packet.pdf
+  skip (exists)  2026-05-07-board-of-finance-agendas-board-of-finance-special-meeting-agenda.pdf
+  [Open Space Acquisition & Preservation Committee] Open Space Preservation & Acquisition Committee Special Meet
+  downloading    2026-06-06-open-space-acquisition-preservation-committee-agendas-open-space-preservation-acquisition-committee-special-meetin.pdf
+
+Downloaded: 1  Skipped: 55  Failed: 0
+Files in: beat-archive/monroe-agendas
+Log:      beat-archive/monroe-agendas/download-log.txt
+
+2026-06-06 10:22:43 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:37:43 — Starting (6/9): download-redding-agendas.py
+==============================
+ERROR: beautifulsoup4 is not installed.
+  pip install beautifulsoup4
+
+2026-06-06 10:37:43 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 10:52:43 — Starting (7/9): download-southbury-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-06  (30 days back)
+Hub URL     : https://www.southbury-ct.org/minutes
+Output dir  : beat-archive/southbury-agendas
+
+Fetching board list...
+Discovered 44 board(s).
+
+  Scanning: Agricultural Sub-Committee
+  Scanning: ARPA Task Force
+  Scanning: Board of Assessment Appeals
+  Scanning: Board of Finance
+  Scanning: Board of Selectmen
+  Scanning: Cable Advisory Committee
+  Scanning: Certified Local Government
+  Scanning: Committee to Study Town Owned Property
+  Scanning: Community Relations Task Force
+  Scanning: Connecticut Department of Transportation
+  Scanning: Conservation Commission
+  Scanning: Economic Development Commission
+  Scanning: Emergency Medical Services Committee
+  Scanning: Energy Task Force
+  Scanning: Ethics Commission
+  Scanning: Greater Bridgeport
+  Scanning: Historic Buildings Commission
+  Scanning: Historic District Commission
+  Scanning: Historical Tree Restoration Committee
+  Scanning: Housatonic Valley Health District
+  Scanning: Inland Wetlands Commission
+  Scanning: Investment Portfolio Oversight Committee
+  Scanning: IT Committee
+  Scanning: Lake Zoar Authority
+  Scanning: Lake Lillinonah Authority
+  Scanning: Library Board
+  Scanning: Local Emergency Planning Committee
+  Scanning: Memorial Day Parade Committee
+  Scanning: Parks and Recreation Commission
+  Scanning: Planning Commission
+  Scanning: Pool Project Oversight Committee
+  Scanning: Public Information Meeting
+  Scanning: Road Study Committee
+  Scanning: Rural Preservation Advisory Committee
+  Scanning: Senior Services Commission
+  Scanning: SMMR2 Advisory Committee
+  Scanning: Southbury America 250th Commission
+  Scanning: Southbury Celebration Committee
+  Scanning: South Britain Historic District Commission
+  Scanning: Strategic Plan Task Force
+  Scanning: Water Pollution Control Authority
+  Scanning: Zoning Board of Appeals
+  Scanning: Zoning Commission
+  Scanning: DISSOLVED COMMISSIONS/COMMITTEES
+
+Documents in window : 108
+Boards with matches : 23
+
+  skip (exists)  economic-development-commission_edc_05202026_minutes.pdf
+  skip (exists)  board-of-finance_finance_04132026_minutes.docx_2.pdf
+  skip (exists)  strategic-plan-task-force_strategic_06092026_agenda.pdf
+  skip (exists)  planning-commission_affordable_05052026_minutes.pdf
+  skip (exists)  board-of-finance_finance_05182026_minutes.pdf
+  skip (exists)  board-of-selectmen_selectmen_06042016_agenda.pdf
+  skip (exists)  board-of-selectmen_agenda.06042026.pdf
+  skip (exists)  board-of-selectmen_J._2._fire_hydrant_fines.pdf
+  skip (exists)  board-of-selectmen_J._1._hydrant_ordinance.approval.pdf
+  skip (exists)  board-of-selectmen_I._1._selectmen_05212026_minutes.pdf
+  skip (exists)  board-of-selectmen_H._1._d._bids.parks_improvements.pdf
+  skip (exists)  board-of-selectmen_H._1._c._bid.rental_equipment.pdf
+  skip (exists)  board-of-selectmen_H._1._b._bid.concrete_sidewalks.pdf
+  skip (exists)  board-of-selectmen_H._1._a._bid.concrete_curbing.pdf
+  skip (exists)  board-of-selectmen_G._2._cancel_meetings.pdf
+  skip (exists)  board-of-selectmen_G._1._resign.reilly.pdf
+  skip (exists)  board-of-selectmen_G._1._appoint.leventhal.tax_abatement.pdf
+  skip (exists)  board-of-selectmen_F._6._Health_District_May_2026.pdf
+  skip (exists)  board-of-selectmen_F._5._Pride_Month_Proclamation.pdf
+  skip (exists)  board-of-selectmen_F._4._Dog_Licensing_flyer.pdf
+  skip (exists)  board-of-selectmen_F._3._Southbury_Senior_Center_June_2026_Newsletter.pdf
+  skip (exists)  board-of-selectmen_F._2._rabies_clinic.pdf
+  skip (exists)  board-of-selectmen_F._1._June_2026_P_&_R_news.pdf
+  skip (exists)  historic-buildings-commission_historicbuilding_06022026_minutes.pdf
+  skip (exists)  south-britain-historic-district-commission_southbritain_06082026_cancellation.pdf
+  skip (exists)  rural-preservation-advisory-committee_rupac_05262026_minutes.pdf
+  skip (exists)  rural-preservation-advisory-committee_rupac_05262026_agenda.pdf
+  skip (exists)  rural-preservation-advisory-committee_rupac_04282026_minutes.revised.pdf
+  skip (exists)  zoning-board-of-appeals_zoningappeals_06032026_agenda.pdf
+  skip (exists)  southbury-america-250th-commission_250th_anniversary_06042026_agenda.pdf
+  skip (exists)  planning-commission_planning_06012026_agenda.pdf
+  skip (exists)  strategic-plan-task-force_strategic_05262026_minutes.pdf
+  skip (exists)  historic-district-commission_historicdistrict_06082026_legal_notice.pdf
+  skip (exists)  historic-district-commission_historicdistrict_06082026_agenda.pdf
+  skip (exists)  lake-lillinonah-authority_lla_06022026_agenda.pdf
+  skip (exists)  library-board_library_06102026_agenda.pdf
+  skip (exists)  historic-buildings-commission_historicbuilding_06022026_agenda.pdf
+  skip (exists)  smmr2-advisory-committee_smmr_06022026_agenda.pdf
+  skip (exists)  southbury-america-250th-commission_250th_anniversary_05212026_minutes.pdf
+  skip (exists)  board-of-selectmen_selectmen_05212026_minutes.pdf
+  skip (exists)  inland-wetlands-commission_wetlands_04152026_minutes_corrected.pdf
+  skip (exists)  inland-wetlands-commission_wetlands_05202026_minutes.pdf
+  skip (exists)  board-of-selectmen_publichearing_06042026_notice.pdf
+  skip (exists)  board-of-selectmen_townmeeting_06042026_notice.both.pdf
+  skip (exists)  senior-services-commission_senior_05202026_minutes.pdf
+  skip (exists)  planning-commission_planning_04212026_minutes.pdf
+  skip (exists)  planning-commission_planning_05192026_minutes.pdf
+  skip (exists)  conservation-commission_conservation_05282026_agenda.pdf
+  skip (exists)  zoning-commission_zoning_05132026_minutes.pdf
+  skip (exists)  board-of-selectmen_M._1._draft_ordinance.pdf
+  skip (exists)  board-of-selectmen_J._2._ARPA_funds.pdf
+  skip (exists)  board-of-selectmen_J._1._Pension.pdf
+  skip (exists)  board-of-selectmen_agenda.05212026.pdf
+  skip (exists)  board-of-selectmen_selectmen_05212026_agenda.pdf
+  skip (exists)  southbury-america-250th-commission_250th_anniversary_05212026_agenda.pdf
+  skip (exists)  board-of-selectmen_H._1._Refunds.pdf
+  skip (exists)  board-of-selectmen_I._1._Public_Works_Vehicle_Replacement.pdf
+  skip (exists)  board-of-selectmen_L._1._Tax_Abatement_Task_Force.pdf
+  skip (exists)  library-board_library_05132026_minutes.pdf
+  skip (exists)  strategic-plan-task-force_strategic_05262026_agenda.pdf
+  skip (exists)  inland-wetlands-commission_wetlands_05202026_agenda.pdf
+  skip (exists)  planning-commission_streetscape_05182026_minutes.pdf
+  skip (exists)  board-of-selectmen_K._1._selectmen_05072026_minutes.pdf
+  skip (exists)  board-of-selectmen_H._3._Tax_Resolutions.2026.pdf
+  skip (exists)  board-of-selectmen_H._2._8-24_referral.bridge.pdf
+  skip (exists)  board-of-selectmen_G._4._May_Director's_report.pdf
+  skip (exists)  board-of-selectmen_G._3._Librarians'_Report_April_2026.pdf
+  skip (exists)  board-of-selectmen_G._2._Building_Dept._April_2026.pdf
+  skip (exists)  board-of-selectmen_G._1._Animal_Control.pdf
+  skip (exists)  board-of-selectmen_F._9._rumble_strips.pdf
+  skip (exists)  board-of-selectmen_F._8._Siting_Council.FirstLight.pdf
+  skip (exists)  board-of-selectmen_F._7._News_from_Jason_Buchsbaum.pdf
+  skip (exists)  board-of-selectmen_F._6._Relief_to_dairy_farmers.pdf
+  skip (exists)  board-of-selectmen_F._5._Southbury_Annual_Memorial_Day_Parade_and_Ceremony_and_Picnic.pdf
+  skip (exists)  board-of-selectmen_F._4._Mental_Health_Awareness.pdf
+  skip (exists)  board-of-selectmen_F._3._composter_&_rain_barrel_sale.pdf
+  skip (exists)  board-of-selectmen_F._2._animal_control_seminar.pdf
+  skip (exists)  board-of-selectmen_F._1._elder_abuse_awareness_day.pdf
+  skip (exists)  board-of-selectmen_E._1._Rodenticide_Policy.pdf
+  skip (exists)  planning-commission_planning_05192026_agenda.pdf
+  skip (exists)  parks-and-recreation-commission_parksrec_05142026_minutes.pdf
+  skip (exists)  investment-portfolio-oversight-committee_ipoc_05202026_agenda.pdf
+  skip (exists)  energy-task-force_energy_05192026_agenda.pdf
+  skip (exists)  planning-commission_streetscape_05182026_agenda.pdf
+  skip (exists)  senior-services-commission_senior_05202026_agenda.pdf
+  skip (exists)  parks-and-recreation-commission_parksrec_05142026_agenda.pdf
+  skip (exists)  historic-district-commission_historicdistrict_04132026_minutes.pdf
+  skip (exists)  historic-district-commission_historicdistrict_05112026_minutes.pdf
+  skip (exists)  smmr2-advisory-committee_smmr2_05122026_minutes.pdf
+  skip (exists)  board-of-finance_May_18,_2026.pdf
+  skip (exists)  board-of-finance_finance_05182026_agenda.pdf
+  skip (exists)  board-of-finance_finance_05062026_minutes.pdf
+  skip (exists)  board-of-selectmen_selectmen_05072026_minutes.pdf
+  skip (exists)  library-board_librarytech_05192026_cancellation.pdf
+  skip (exists)  zoning-board-of-appeals_zoningappeals_05062026_minutes.pdf
+  skip (exists)  zoning-commission_zoning_05132026_agenda.pdf
+  skip (exists)  library-board_library_05132026_agenda.pdf
+  skip (exists)  emergency-medical-services-committee_ems_05192026_agenda.pdf
+  skip (exists)  emergency-medical-services-committee_ems_04212026_minutes.pdf
+  skip (exists)  strategic-plan-task-force_strategic_05052026_minutes.pdf
+  skip (exists)  lake-lillinonah-authority_lla_05052026_minutes.pdf
+  skip (exists)  southbury-celebration-committee_celebration_05052026_minutes.pdf
+  skip (exists)  historic-district-commission_historicdistrict_05112026_agenda.pdf
+  skip (exists)  smmr2-advisory-committee_smmr_05122026_agenda.pdf
+  skip (exists)  conservation-commission_conservation_04302026_minutes.pdf
+  skip (exists)  economic-development-commission_edc_05132026_agenda.pdf
+  skip (exists)  planning-commission_streetscape_05042026_minutes.pdf
+  skip (exists)  planning-commission_streetscape_03232026_amendedminutes.pdf
+
+Downloaded: 0  Skipped: 108  Failed: 0
+Files in: beat-archive/southbury-agendas
+
+2026-06-06 10:54:27 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 11:09:27 — Starting (8/9): download-weston-agendas.py
+==============================
+ERROR: playwright is not installed.
+  pip install playwright
+  playwright install chromium
+
+2026-06-06 11:09:27 — Sleeping 15 minutes before next script...
+==============================
+2026-06-06 11:24:27 — Starting (9/9): download-wilton-agendas.py
+==============================
+ERROR: playwright is not installed.
+  pip install playwright
+  playwright install chromium
+
+2026-06-06 11:24:27 — All Hayleigh scripts complete.
+=============================
+2026-06-10 07:28:22 — Starting (1/2): download-easton-agendas.py
+=============================
+Date window : 2026-06-06 to 2026-06-10  (4 days back)
+Index URL   : https://www.eastonct.gov/minutes-and-agendas
+Output dir  : beat-archive/easton-agendas
+
+Fetching board index...
+Discovered 29 board(s).
+
+Documents in window : 11
+Boards with matches : 10
+
+  [2026-06-10] Zoning Board of Appeals — agenda
+  downloading    2026-06-10-zoning-board-of-appeals-agenda-zoning-board-of-appeals-special-meeting-agenda.pdf
+  [2026-06-10] EMS Commission (Emergency Medical Services) — agenda
+  downloading    2026-06-10-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  [2026-06-10] Cemetery Committee — agenda
+  downloading    2026-06-10-cemetery-committee-agenda-cemetery-committee-regular-meeting-agenda.pdf
+  [2026-06-10] Agricultural Commission — agenda
+  downloading    2026-06-10-agricultural-commission-agenda-agricultural-commission-regular-meeting-agenda.pdf
+  [2026-06-09] Conservation Commission/Inland Wetlands Agency — agenda
+  downloading    2026-06-09-conservation-commission-inland-wetlands-agency-agenda-conservation-commission-regular-meeting-agenda.pdf
+  [2026-06-09] Board of Education — agenda
+  downloading    2026-06-09-board-of-education-agenda-board-of-education-regular-meeting-agenda.pdf
+  [2026-06-08] Land Preservation and Acquisition Authority — agenda
+  downloading    2026-06-08-land-preservation-and-acquisition-authority-agenda-land-preservation-and-acquisition-authority-regular-meeting-.pdf
+  [2026-06-08] Commission for the Aging — agenda
+  downloading    2026-06-08-commission-for-the-aging-agenda-commission-for-the-aging-special-meeting-agenda.pdf
+  [2026-06-08] Commission for the Aging — agenda
+  downloading    2026-06-08-commission-for-the-aging-agenda-cancelled-commission-for-the-aging-special-meeting.pdf
+  [2026-06-08] Board of Selectmen — agenda
+  downloading    2026-06-08-board-of-selectmen-agenda-emergency-medical-services-planning-and-building-committee-f.pdf
+  [2026-06-08] Board of Police Commissioners — agenda
+  downloading    2026-06-08-board-of-police-commissioners-agenda-board-of-police-commissioners-regular-meeting-agenda.pdf
+
+Downloaded/saved: 11  Skipped: 0  Failed: 0
+Files in: beat-archive/easton-agendas
+Log:      beat-archive/easton-agendas/download-log.txt
+
+2026-06-10 07:30:24 — Sleeping 3 minutes...
+=============================
+2026-06-10 07:33:24 — Starting (2/2): download-weston-agendas.py
+=============================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+Date window : 2026-06-06 to 2026-06-10  (4 days back)
+Boards hub  : https://www.westonct.gov/government/boards-commissions
+Output dir  : beat-archive/weston-agendas
+Mode        : non-headless (display=:0)
+
+Loading boards hub page...
+Found 26 board page(s).
+
+  Scanning: Board of Selectmen
+  Scanning: Board of Finance
+  Scanning: Board of Education
+    (no 2026 folder found)
+  Scanning: Board of Police Commissioners
+  Scanning: Board of Assessment Appeals
+  Scanning: Planning & Zoning Commission
+  Scanning: Zoning Board of Appeals
+  Scanning: Registrar of Voters
+    (no 2026 folder found)
+  Scanning: Beautification Committee
+    (no 2026 folder found)
+  Scanning: Board of Ethics
+    (no 2026 folder found)
+  Scanning: Building Board of Appeals
+    (no 2026 folder found)
+  Scanning: Building Committee
+    (no 2026 folder found)
+  Scanning: Charter Revision Commission
+    (no 2026 folder found)
+  Scanning: Children & Youth Commission
+    (no 2026 folder found)
+  Scanning: Commission for the Arts
+  Scanning: Commission on Aging
+    (no 2026 folder found)
+  Scanning: Conservation Commission
+  Scanning: Diversity Equity and Inclusion Advisory Committee
+    (no 2026 folder found)
+  Scanning: Facility Optimization Committee
+    (no 2026 folder found)
+  Scanning: Historic District Commission
+    (no 2026 folder found)
+  Scanning: Lachat Town Farm Commission
+  Scanning: Library Board
+  Scanning: Marketing & Communications Advisory Committee
+  Scanning: Parks & Recreation Commission
+    (no 2026 folder found)
+  Scanning: Sustainable Weston Committee
+    (no 2026 folder found)
+  Scanning: Veterans Affairs Committee
+    (no 2026 folder found)
+
+Documents in window : 1  (620 undated skipped; use --include-undated to add)
+
+[2026-06-15] Planning & Zoning Commission
+  downloading    2026-06-15-planning-zoning-commission-document.pdf  (Notice of Pub Hearing PZC 6-15-2026 for )
+
+Downloaded: 0  Skipped: 0  Failed: 1
+Log:      beat-archive/weston-agendas/download-log.txt
+
+2026-06-10 07:36:49 — Hayleigh catch-up complete.
+=============================
+2026-06-11 06:45:42 — Starting (1/2): download-easton-agendas.py
+=============================
+Date window : 2026-06-07 to 2026-06-11  (4 days back)
+Index URL   : https://www.eastonct.gov/minutes-and-agendas
+Output dir  : beat-archive/easton-agendas
+
+Fetching board index...
+Discovered 29 board(s).
+
+Documents in window : 12
+Boards with matches : 10
+
+  [2026-06-11] EMS Commission (Emergency Medical Services) — agenda
+  downloading    2026-06-11-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda-zoning-board-of-appeals-special-meeting-agenda.pdf
+  skip (exists)  2026-06-10-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-cemetery-committee-agenda-cemetery-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-agricultural-commission-agenda-agricultural-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agency-agenda-conservation-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-board-of-education-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-08-land-preservation-and-acquisition-authority-agenda-land-preservation-and-acquisition-authority-regular-meeting-.pdf
+  skip (exists)  2026-06-08-commission-for-the-aging-agenda-commission-for-the-aging-special-meeting-agenda.pdf
+  skip (exists)  2026-06-08-commission-for-the-aging-agenda-cancelled-commission-for-the-aging-special-meeting.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-agenda-emergency-medical-services-planning-and-building-committee-f.pdf
+  skip (exists)  2026-06-08-board-of-police-commissioners-agenda-board-of-police-commissioners-regular-meeting-agenda.pdf
+
+Downloaded/saved: 1  Skipped: 11  Failed: 0
+Files in: beat-archive/easton-agendas
+Log:      beat-archive/easton-agendas/download-log.txt
+=============================
+2026-06-11 06:52:33 — Starting (2/2): download-weston-agendas.py
+=============================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+Date window : 2026-06-07 to 2026-06-11  (4 days back)
+Boards hub  : https://www.westonct.gov/government/boards-commissions
+Output dir  : beat-archive/weston-agendas
+Mode        : non-headless (display=:0)
+
+Loading boards hub page...
+Found 26 board page(s).
+
+  Scanning: Board of Selectmen
+  Scanning: Board of Finance
+  Scanning: Board of Education
+    (no 2026 folder found)
+  Scanning: Board of Police Commissioners
+  Scanning: Board of Assessment Appeals
+  Scanning: Planning & Zoning Commission
+  Scanning: Zoning Board of Appeals
+  Scanning: Registrar of Voters
+    (no 2026 folder found)
+  Scanning: Beautification Committee
+    (no 2026 folder found)
+  Scanning: Board of Ethics
+    (no 2026 folder found)
+  Scanning: Building Board of Appeals
+    (no 2026 folder found)
+  Scanning: Building Committee
+    (no 2026 folder found)
+  Scanning: Charter Revision Commission
+    (no 2026 folder found)
+  Scanning: Children & Youth Commission
+    (no 2026 folder found)
+  Scanning: Commission for the Arts
+  Scanning: Commission on Aging
+    (no 2026 folder found)
+  Scanning: Conservation Commission
+  Scanning: Diversity Equity and Inclusion Advisory Committee
+    (no 2026 folder found)
+  Scanning: Facility Optimization Committee
+    (no 2026 folder found)
+  Scanning: Historic District Commission
+    (no 2026 folder found)
+  Scanning: Lachat Town Farm Commission
+  Scanning: Library Board
+  Scanning: Marketing & Communications Advisory Committee
+  Scanning: Parks & Recreation Commission
+    (no 2026 folder found)
+  Scanning: Sustainable Weston Committee
+    (no 2026 folder found)
+  Scanning: Veterans Affairs Committee
+    (no 2026 folder found)
+
+Documents in window : 1  (620 undated skipped; use --include-undated to add)
+
+[2026-06-15] Planning & Zoning Commission
+  downloading    2026-06-15-planning-zoning-commission-document.pdf  (Notice of Pub Hearing PZC 6-15-2026 for )
+
+Downloaded: 0  Skipped: 0  Failed: 1
+Log:      beat-archive/weston-agendas/download-log.txt
+2026-06-11 06:56:23 — Hayleigh catch-up complete.
+=============================
+2026-06-12 05:45:32 — Starting (1/2): download-easton-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-12  (4 days back)
+Index URL   : https://www.eastonct.gov/minutes-and-agendas
+Output dir  : beat-archive/easton-agendas
+
+Fetching board index...
+Discovered 29 board(s).
+
+Documents in window : 12
+Boards with matches : 10
+
+  skip (exists)  2026-06-11-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda-zoning-board-of-appeals-special-meeting-agenda.pdf
+  skip (exists)  2026-06-10-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-cemetery-committee-agenda-cemetery-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-agricultural-commission-agenda-agricultural-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agency-agenda-conservation-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-board-of-education-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-08-land-preservation-and-acquisition-authority-agenda-land-preservation-and-acquisition-authority-regular-meeting-.pdf
+  skip (exists)  2026-06-08-commission-for-the-aging-agenda-commission-for-the-aging-special-meeting-agenda.pdf
+  skip (exists)  2026-06-08-commission-for-the-aging-agenda-cancelled-commission-for-the-aging-special-meeting.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-agenda-emergency-medical-services-planning-and-building-committee-f.pdf
+  skip (exists)  2026-06-08-board-of-police-commissioners-agenda-board-of-police-commissioners-regular-meeting-agenda.pdf
+
+Downloaded/saved: 0  Skipped: 12  Failed: 0
+Files in: beat-archive/easton-agendas
+
+2026-06-12 05:46:56 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:51:56 — Starting (2/2): download-weston-agendas.py
+=============================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+Date window : 2026-06-08 to 2026-06-12  (4 days back)
+Boards hub  : https://www.westonct.gov/government/boards-commissions
+Output dir  : beat-archive/weston-agendas
+Mode        : non-headless (display=:0)
+
+Loading boards hub page...
+Found 26 board page(s).
+
+  Scanning: Board of Selectmen
+  Scanning: Board of Finance
+  Scanning: Board of Education
+    (no 2026 folder found)
+  Scanning: Board of Police Commissioners
+  Scanning: Board of Assessment Appeals
+  Scanning: Planning & Zoning Commission
+  Scanning: Zoning Board of Appeals
+  Scanning: Registrar of Voters
+    (no 2026 folder found)
+  Scanning: Beautification Committee
+    (no 2026 folder found)
+  Scanning: Board of Ethics
+    (no 2026 folder found)
+  Scanning: Building Board of Appeals
+    (no 2026 folder found)
+  Scanning: Building Committee
+    (no 2026 folder found)
+  Scanning: Charter Revision Commission
+    (no 2026 folder found)
+  Scanning: Children & Youth Commission
+    (no 2026 folder found)
+  Scanning: Commission for the Arts
+  Scanning: Commission on Aging
+    (no 2026 folder found)
+  Scanning: Conservation Commission
+  Scanning: Diversity Equity and Inclusion Advisory Committee
+    (no 2026 folder found)
+  Scanning: Facility Optimization Committee
+    (no 2026 folder found)
+  Scanning: Historic District Commission
+    (no 2026 folder found)
+  Scanning: Lachat Town Farm Commission
+  Scanning: Library Board
+  Scanning: Marketing & Communications Advisory Committee
+  Scanning: Parks & Recreation Commission
+    (no 2026 folder found)
+  Scanning: Sustainable Weston Committee
+    (no 2026 folder found)
+  Scanning: Veterans Affairs Committee
+    (no 2026 folder found)
+
+Documents in window : 3  (625 undated skipped; use --include-undated to add)
+
+[2026-06-15] Planning & Zoning Commission
+  downloading    2026-06-15-planning-zoning-commission-document.pdf  (Notice of Pub Hearing PZC 6-15-2026 for )
+[2026-06-11] Board of Finance
+  downloading    2026-06-11-board-of-finance-agenda.pdf  (06-11-2026 Agenda)
+[2026-06-11] Board of Finance
+  downloading    2026-06-11-board-of-finance-document.pdf  (06-11-2026 Backup Materials)
+
+Downloaded: 0  Skipped: 0  Failed: 3
+Log:      beat-archive/weston-agendas/download-log.txt
+
+2026-06-12 05:56:32 — All Hayleigh scripts complete.
+=============================
+2026-06-12 06:31:27 — Retrying: download-weston-agendas.py
+=============================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+  WARNING: download failed — Timeout 30000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+Date window : 2026-06-08 to 2026-06-12  (4 days back)
+Boards hub  : https://www.westonct.gov/government/boards-commissions
+Output dir  : beat-archive/weston-agendas
+Mode        : non-headless (display=:0)
+
+Loading boards hub page...
+Found 26 board page(s).
+
+  Scanning: Board of Selectmen
+  Scanning: Board of Finance
+  Scanning: Board of Education
+    (no 2026 folder found)
+  Scanning: Board of Police Commissioners
+  Scanning: Board of Assessment Appeals
+  Scanning: Planning & Zoning Commission
+  Scanning: Zoning Board of Appeals
+  Scanning: Registrar of Voters
+    (no 2026 folder found)
+  Scanning: Beautification Committee
+    (no 2026 folder found)
+  Scanning: Board of Ethics
+    (no 2026 folder found)
+  Scanning: Building Board of Appeals
+    (no 2026 folder found)
+  Scanning: Building Committee
+    (no 2026 folder found)
+  Scanning: Charter Revision Commission
+    (no 2026 folder found)
+  Scanning: Children & Youth Commission
+    (no 2026 folder found)
+  Scanning: Commission for the Arts
+  Scanning: Commission on Aging
+    (no 2026 folder found)
+  Scanning: Conservation Commission
+  Scanning: Diversity Equity and Inclusion Advisory Committee
+    (no 2026 folder found)
+  Scanning: Facility Optimization Committee
+    (no 2026 folder found)
+  Scanning: Historic District Commission
+    (no 2026 folder found)
+  Scanning: Lachat Town Farm Commission
+  Scanning: Library Board
+  Scanning: Marketing & Communications Advisory Committee
+  Scanning: Parks & Recreation Commission
+    (no 2026 folder found)
+  Scanning: Sustainable Weston Committee
+    (no 2026 folder found)
+  Scanning: Veterans Affairs Committee
+    (no 2026 folder found)
+
+Documents in window : 3  (625 undated skipped; use --include-undated to add)
+
+[2026-06-15] Planning & Zoning Commission
+  downloading    2026-06-15-planning-zoning-commission-document.pdf  (Notice of Pub Hearing PZC 6-15-2026 for )
+[2026-06-11] Board of Finance
+  downloading    2026-06-11-board-of-finance-agenda.pdf  (06-11-2026 Agenda)
+[2026-06-11] Board of Finance
+  downloading    2026-06-11-board-of-finance-document.pdf  (06-11-2026 Backup Materials)
+
+Downloaded: 0  Skipped: 0  Failed: 3
+Log:      beat-archive/weston-agendas/download-log.txt
+
+2026-06-12 06:36:09 — Weston retry complete.
+Running download-redding-agendas.py ...
+Cutoff date : 2026-06-09  (4 days back)
+Hub page    : https://reddingct.gov/agendas-minutes/
+Output dir  : beat-archive/redding-agendas
+
+Fetching hub page...
+  HTTP 429 — https://reddingct.gov/agendas-minutes/
+ERROR: Could not fetch the hub page.
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (0 attachment(s))
+Running download-brookfield-agendas.py ...
+Cutoff date : 2026-06-09  (4 days back)
+Source      : CHAMPDS API (https://playapi.champds.com/brookfieldct)
+Output dir  : beat-archive/brookfield-agendas
+
+Fetching board list...
+Found 9 board(s).
+
+Found 1 meeting(s) within the past 4 days.
+
+[2026-06-11] Planning and Zoning Commission — Planning & Zoning Commission - REVISED
+  skip (exists)  2026-06-11-planning-and-zoning-commission-planning-zoning-commission---revised
+
+Done — saved: 0  skipped: 1  failed: 0
+Files in: beat-archive/brookfield-agendas
+
+NOTE: Files contain meeting agendas and minutes from CHAMPDS (text format).
+      For official PDFs, see https://ecode360.com/BR0697/documents/Agendas
+      (requires a web browser — the eCode360 archive is not machine-accessible).
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (0 attachment(s))
+Running download-monroe-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days back)
+Hub URL     : https://www.monroect.gov/p/-agendas-voting-records-minutes-videos-recordings
+Output dir  : beat-archive/monroe-agendas
+
+Fetching board list...
+Discovered 49 board(s)/folder(s).
+
+  Scanning: Zoning Board of Appeals
+  Scanning: Youth Commission
+  Scanning: WMNR Commision
+  Scanning: Water Pollution Control Authority
+  Scanning: Videos & Recording
+  Scanning: Trumbull Monroe Health District
+  Scanning: Town Meetings
+  Scanning: Town Council Committee on Strategic Planning
+  Scanning: Town Council Committee on Planning & Zoning, Public Works and Parks & Recreation Matters
+  Scanning: Town Council Committee on Open Space Preservation & Acquisition
+  Scanning: Town Council Committee on Legislative & Administrative Matters
+  Scanning: Town Council Committee on Finance, Education, Public Health & Safety Matters
+  Scanning: Town Council
+  Scanning: Tax Incentive Program Review Committee
+  Scanning: State & Federal Town Hall Meetings
+  Scanning: Planning & Zoning Commission - Regulations Subcommittee
+  Scanning: Planning & Zoning Commission
+  Scanning: Pension Committee
+  Scanning: Pension & OPEB Other Post Employment Benefits Joint Meetings
+  Scanning: Parks & Recreation Commission - Development & Acquisition Subcommitte
+  Scanning: Parks & Recreation Commission
+  Scanning: Open Space Acquisition & Preservation Committee
+  Scanning: Monroe Bicentennial Committee
+  Scanning: Memorial Day Parade Committee
+  Scanning: Library Board of Trustees
+  Scanning: Lake Zoar Authority
+  Scanning: Joint Meetings
+  Scanning: Inland Wetlands Commission
+  Scanning: Housing Authority
+  Scanning: Historic District Commission
+  Scanning: First Selectman`s Meetings
+  Scanning: First Selectman`s Business Industry & Advisory Committee
+  Scanning: Fire Service Study Committee
+  Scanning: Facilities Planning Committee
+  Scanning: EMS Facility Workgroup
+  Scanning: EMS Building Committee
+  Scanning: Emergency Medical Services Commission
+  Scanning: Edith Wheeler Memorial Library Strategic Planning Committee
+  Scanning: Economic Development Commission
+  Scanning: CT 250 Committee
+  Scanning: Conservation & Water Resources Commission
+  Scanning: Commission for the Aging
+  Scanning: Board of Police Commissioners
+  Scanning: Board of Health
+  Scanning: Board of Finance
+  Scanning: Board of Ethics
+  Scanning: Board of Assessment Appeals
+  Scanning: Architectural Review Board
+  Scanning: Videos & Recording
+
+Documents in window : 7
+Boards with matches : 6
+
+  skip (exists)  2026-06-11-economic-development-commission-agendas-edc-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-11-conservation-water-resources-commission-agendas-conservation-commission-regular-meeting-agenda.pdf
+  [Inland Wetlands Commission] 2026-06-10 IWC Meting Minutes
+  downloading    2026-06-10-inland-wetlands-commission-minutes-iwc-meting-minutes.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-agendas-iwc-meeting-agenda.pdf
+  skip (exists)  2026-06-10-board-of-health-agendas-.pdf
+  [Open Space Acquisition & Preservation Committee] Open Space Preservation & Acquisition Committee Special Meet
+  downloading    2026-06-13-open-space-acquisition-preservation-committee-agendas-open-space-preservation-acquisition-committee-special-meetin.pdf
+  [Lake Zoar Authority] 2026 06 2 Lake Zoar Authority Regular Meeting Minutes
+  downloading    2026-06-13-lake-zoar-authority-minutes-2026-06-2-lake-zoar-authority-regular-meeting-minutes.pdf
+
+Downloaded: 3  Skipped: 4  Failed: 0
+Files in: beat-archive/monroe-agendas
+Log:      beat-archive/monroe-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (3 attachment(s))
+Running download-easton-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days back)
+Index URL   : https://www.eastonct.gov/minutes-and-agendas
+Output dir  : beat-archive/easton-agendas
+
+Fetching board index...
+Discovered 29 board(s).
+
+Documents in window : 7
+Boards with matches : 6
+
+  skip (exists)  2026-06-11-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-zoning-board-of-appeals-agenda-zoning-board-of-appeals-special-meeting-agenda.pdf
+  skip (exists)  2026-06-10-ems-commission-emergency-medical-services-agenda-ems-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-cemetery-committee-agenda-cemetery-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-10-agricultural-commission-agenda-agricultural-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agency-agenda-conservation-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-09-board-of-education-agenda-board-of-education-regular-meeting-agenda.pdf
+
+Downloaded/saved: 0  Skipped: 7  Failed: 0
+Files in: beat-archive/easton-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (0 attachment(s))
+Running download-bethel-agendas.py ...
+Cutoff date  : 2026-06-09  (4 days back)
+Hub page     : https://bethel-ct.gov/meetings
+Output dir   : beat-archive/bethel-agendas
+
+Fetching hub page...
+Discovered 48 board page(s).
+
+  Scanning: Assessment Appeals
+  Scanning: Assessor
+  Scanning: Bethel Film Committee
+  Scanning: Bethel Fire Dept Officers
+  Scanning: Bethel Volunteer Fire Dept
+  Scanning: Board of Education
+  Scanning: Board of Finance
+  Scanning: Board of Selectmen
+  Scanning: Building Department
+  Scanning: Charter Revision Commission
+  Scanning: Downtown Advisory Committee
+  Scanning: Economic Development
+  Scanning: Elderly Tax Abatement
+  Scanning: EMS Commission
+  Scanning: Energy Conservation Committee
+  Scanning: Ethics Commission
+  Scanning: Fairfield City Deer Management Alliance
+  Scanning: Fire Apparatus Committee
+  Scanning: Fire Commission
+  Scanning: HARTransit
+  Scanning: Housing Authority
+  Scanning: HRRA
+  Scanning: Inland Wetlands Commission
+  Scanning: Insurance & Pension
+  Scanning: Neighboring Towns
+  Scanning: Old Train Station
+  Scanning: Ordinances
+  Scanning: Park & Recreation Commission
+  Scanning: Planning & Zoning
+  Scanning: Police Commission
+  Scanning: Procurement Committee
+  Scanning: Public Hearing
+  Scanning: Public Library
+  Scanning: Public Site & Building Commission
+  Scanning: Public Utilities Commission
+  Scanning: Registrar of Voters
+  Scanning: Social Services
+  Scanning: Stony Hill Fire Dept
+  Scanning: Sustainable Bethel Commission
+  Scanning: Tax Collector
+  Scanning: Town Meetings
+  Scanning: Water Utility Coordinating
+  Scanning: WCCOG
+  Scanning: WCEDD
+  Scanning: Western CT Tourism District
+  Scanning: Western CT Water Utility Coordinating
+  Scanning: Youth Commission
+  Scanning: Zoning Board of Appeals
+
+Documents in window  : 27  (57 undated skipped; use --include-undated to add)
+
+[2028-05-18] Inland Wetlands Commission
+  skip (exists)  2028-05-18-inland-wetlands-commission-minutes.pdf
+[2027-10-01] Assessment Appeals
+  downloading    2027-10-01-assessment-appeals-doc.pdf
+[2026-09-08] Youth Commission
+  skip (exists)  2026-09-08-youth-commission-agenda.pdf
+[2026-07-09] Bethel Volunteer Fire Dept
+  skip (exists)  2026-07-09-bethel-volunteer-fire-dept-agenda.pdf
+[2026-06-23] Public Hearing
+  skip (exists)  2026-06-23-public-hearing-doc.pdf
+[2026-06-23] Public Hearing
+  skip (exists)  2026-06-23-public-hearing-doc.pdf
+[2026-06-23] Public Hearing
+  skip (exists)  2026-06-23-public-hearing-doc.pdf
+[2026-06-18] Neighboring Towns
+  skip (exists)  2026-06-18-neighboring-towns-doc.pdf
+[2026-06-17] Police Commission
+  downloading    2026-06-17-police-commission-doc.pdf
+[2026-06-16] Zoning Board of Appeals
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agenda.pdf
+[2026-06-12] Inland Wetlands Commission
+  skip (exists)  2026-06-12-inland-wetlands-commission-agenda.pdf
+[2026-06-11] Fire Commission
+  skip (exists)  2026-06-11-fire-commission-agenda.pdf
+[2026-06-11] HRRA
+  skip (exists)  2026-06-11-hrra-agenda.pdf
+[2026-06-11] Public Utilities Commission
+  skip (exists)  2026-06-11-public-utilities-commission-agenda.pdf
+[2026-06-10] HARTransit
+  skip (exists)  2026-06-10-hartransit-agenda.pdf
+[2026-06-10] Public Site & Building Commission
+  skip (exists)  2026-06-10-public-site-building-commission-agenda.pdf
+[2026-06-10] Public Site & Building Commission
+  downloading    2026-06-10-public-site-building-commission-minutes.pdf
+[2026-06-09] Board of Finance
+  skip (exists)  2026-06-09-board-of-finance-agenda.pdf
+[2026-06-09] Board of Finance
+  skip (exists)  2026-06-09-board-of-finance-minutes.pdf
+[2026-06-09] Board of Selectmen
+  skip (exists)  2026-06-09-board-of-selectmen-agenda.pdf
+[2026-06-09] Board of Selectmen
+  skip (exists)  2026-06-09-board-of-selectmen-minutes.pdf
+[2026-06-09] Planning & Zoning
+  skip (exists)  2026-06-09-planning-zoning-agenda.pdf
+[2026-06-09] Planning & Zoning
+  skip (exists)  2026-06-09-planning-zoning-agenda.pdf
+[2026-06-09] Planning & Zoning
+  skip (exists)  2026-06-09-planning-zoning-agenda.pdf
+[2026-06-09] Planning & Zoning
+  skip (exists)  2026-06-09-planning-zoning-agenda.pdf
+[2026-06-09] Youth Commission
+  skip (exists)  2026-06-09-youth-commission-agenda.pdf
+[2026-06-09] Youth Commission
+  skip (exists)  2026-06-09-youth-commission-minutes.pdf
+
+Downloaded: 2  Skipped: 24  Failed: 1
+Files in: beat-archive/bethel-agendas
+Log:      beat-archive/bethel-agendas/download-log.txt
+  WARNING: HTTP Error 404: Not Found — https://bethelct.govoffice.com/vertical/Sites/%7B90B1B948-C443-4CA6-8B88-90B1EEA9B1E2%7D/uploads/2027_Complete_Reappraisal__Revaluation.pdf
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (2 attachment(s))
+Running download-southbury-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days back)
+Hub URL     : https://www.southbury-ct.org/minutes
+Output dir  : beat-archive/southbury-agendas
+
+Fetching board list...
+Discovered 44 board(s).
+
+  Scanning: Agricultural Sub-Committee
+  Scanning: ARPA Task Force
+  Scanning: Board of Assessment Appeals
+  Scanning: Board of Finance
+  Scanning: Board of Selectmen
+  Scanning: Cable Advisory Committee
+  Scanning: Certified Local Government
+  Scanning: Committee to Study Town Owned Property
+  Scanning: Community Relations Task Force
+  Scanning: Connecticut Department of Transportation
+  Scanning: Conservation Commission
+  Scanning: Economic Development Commission
+  Scanning: Emergency Medical Services Committee
+  Scanning: Energy Task Force
+  Scanning: Ethics Commission
+  Scanning: Greater Bridgeport
+  Scanning: Historic Buildings Commission
+  Scanning: Historic District Commission
+  Scanning: Historical Tree Restoration Committee
+  Scanning: Housatonic Valley Health District
+  Scanning: Inland Wetlands Commission
+  Scanning: Investment Portfolio Oversight Committee
+  Scanning: IT Committee
+  Scanning: Lake Zoar Authority
+  Scanning: Lake Lillinonah Authority
+  Scanning: Library Board
+  Scanning: Local Emergency Planning Committee
+  Scanning: Memorial Day Parade Committee
+  Scanning: Parks and Recreation Commission
+  Scanning: Planning Commission
+  Scanning: Pool Project Oversight Committee
+  Scanning: Public Information Meeting
+  Scanning: Road Study Committee
+  Scanning: Rural Preservation Advisory Committee
+  Scanning: Senior Services Commission
+  Scanning: SMMR2 Advisory Committee
+  Scanning: Southbury America 250th Commission
+  Scanning: Southbury Celebration Committee
+  Scanning: South Britain Historic District Commission
+  Scanning: Strategic Plan Task Force
+  Scanning: Water Pollution Control Authority
+  Scanning: Zoning Board of Appeals
+  Scanning: Zoning Commission
+  Scanning: DISSOLVED COMMISSIONS/COMMITTEES
+
+Documents in window : 22
+Boards with matches : 15
+
+  skip (exists)  rural-preservation-advisory-committee_rupac_06152026_agenda.pdf
+  skip (exists)  planning-commission_streetscape_06152026_agenda.pdf
+  skip (exists)  historical-tree-restoration-committee_historictree_06022026_minutes.pdf
+  skip (exists)  historical-tree-restoration-committee_historictree_09012026_agenda.pdf
+  skip (exists)  zoning-commission_zoning_02192026_minutes.pdf
+  skip (exists)  board-of-selectmen_publichearing_06042026_minutes.pdf
+  skip (exists)  lake-zoar-authority_lakezoar_06022026_minutes.pdf
+  skip (exists)  lake-zoar-authority_lakezoar_07132026_agenda.pdf
+  skip (exists)  board-of-selectmen_selectmen_06042026_minutes.pdf
+  skip (exists)  parks-and-recreation-commission_parksrec_06112026_agenda.pdf
+  skip (exists)  planning-commission_planning_06012026_minutes.pdf
+  skip (exists)  lake-zoar-authority_lakezoar_05052026_agenda.pdf
+  skip (exists)  lake-zoar-authority_lakezoar_04072026_minutes.pdf
+  skip (exists)  energy-task-force_energy_05192026_minutes.pdf
+  skip (exists)  emergency-medical-services-committee_ems_05192026_minutes.pdf
+  skip (exists)  conservation-commission_conservation_05282026_minutes.pdf
+  skip (exists)  senior-services-commission_senior_06172026_agenda.pdf
+  skip (exists)  lake-lillinonah-authority_lla_06022026_minutes.pdf
+  skip (exists)  southbury-celebration-committee_celebration_06102026_agenda.pdf
+  skip (exists)  zoning-board-of-appeals_zoningappeals_06032026_minutes.pdf
+  skip (exists)  zoning-commission_zoning_06102026_agenda.pdf
+  skip (exists)  southbury-america-250th-commission_250th_anniversary_06042026_minutes.pdf
+
+Downloaded: 0  Skipped: 22  Failed: 0
+Files in: beat-archive/southbury-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (0 attachment(s))
+2026-06-13 09:22:50 — farmington-through-shelton complete.
+2026-06-13 09:23:17 — Hartford retry + derby-through-vernon.
+Running download-newtown-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days back)
+Index URL   : https://www.newtown-ct.gov/minutes-and-agendas
+Output dir  : beat-archive/newtown-agendas
+
+Fetching board index...
+Discovered 44 board(s).
+
+Documents in window : 19
+Boards with matches : 9
+
+  skip (exists)  2026-06-11-water-sewer-authority-agenda.pdf
+  skip (exists)  2026-06-10-legislative-council-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-minutes.pdf
+  skip (exists)  2026-06-10-charter-revision-commission-2026-agenda.pdf
+  skip (exists)  2026-06-10-charter-revision-commission-2026-minutes.pdf
+  skip (exists)  2026-06-10-board-of-education-agenda.pdf
+  skip (exists)  2026-06-10-board-of-education-minutes.pdf
+  skip (exists)  2026-06-09-parks-recreation-commission-agenda.pdf
+  skip (exists)  2026-06-09-parks-recreation-commission-minutes.pdf
+  skip (exists)  2026-06-09-library-trustees-agenda.pdf
+  skip (exists)  2026-06-09-library-trustees-agenda.pdf
+  [2026-06-09] Library Trustees — minutes
+  downloading    2026-06-09-library-trustees-minutes.pdf
+  skip (exists)  2026-06-09-legislative-council-agenda.pdf
+  skip (exists)  2026-06-09-legislative-council-minutes.pdf
+  skip (exists)  2026-06-09-edmond-town-hall-managers-agenda.pdf
+  [2026-06-09] Edmond Town Hall Managers — minutes
+  downloading    2026-06-09-edmond-town-hall-managers-minutes.pdf
+  skip (exists)  2026-06-09-borough-of-newtown-agenda.pdf
+  [2026-06-09] Borough of Newtown — minutes
+  downloading    2026-06-09-borough-of-newtown-minutes.pdf
+
+Downloaded: 3  Skipped: 16  Failed: 0
+Files in: beat-archive/newtown-agendas
+Log:      beat-archive/newtown-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to rich.kirby@patch.com, hayleigh.evans@patch.com  (3 attachment(s))
+Running download-danbury-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days back)
+Hub page    : https://www.danbury-ct.gov/agendacenter
+Output dir  : beat-archive/danbury-agendas
+
+Fetching hub page...
+Found 197 meeting row(s) across all boards.
+Meetings in window  : 13
+Documents           : 16 PDF(s)
+Recordings          : 3 link(s) (saved as .url shortcuts)
+
+[2026-06-25] Zoning Board of Appeals
+  skip (exists)  2026-06-25-zoning-board-of-appeals-1844-agenda.pdf
+[2026-06-24] Environmental Impact Commission
+  skip (exists)  2026-06-24-environmental-impact-commission-1845-agenda.pdf
+[2026-06-17] Other Post Employment Benefits (OPEB) Board
+  skip (exists)  2026-06-17-other-post-employment-benefits-opeb-board-1833-agenda.pdf
+[2026-06-15] Richter Park Authority
+  skip (exists)  2026-06-15-richter-park-authority-1848-agenda.pdf
+[2026-06-11] Danbury Museum & Historical Society
+  skip (exists)  2026-06-11-danbury-museum-historical-society-1849-agenda.pdf
+[2026-06-11] Zoning Board of Appeals
+  skip (exists)  2026-06-11-zoning-board-of-appeals-1836-agenda.pdf
+[2026-06-10] Boards of Awards
+  skip (exists)  2026-06-10-boards-of-awards-1838-agenda.pdf
+  skip (exists)  2026-06-10-boards-of-awards-1838-minutes.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-1843-agenda.pdf
+  skip (exists)  2026-06-10-city-council-1843-recording.url
+[2026-06-10] Civil Service Commission
+  skip (exists)  2026-06-10-civil-service-commission-1839-agenda.pdf
+[2026-06-10] Environmental Impact Commission
+  skip (exists)  2026-06-10-environmental-impact-commission-1835-agenda.pdf
+  skip (exists)  2026-06-10-environmental-impact-commission-1835-recording.url
+[2026-06-10] POST 1983 Police Pension Board
+  skip (exists)  2026-06-10-post-1983-police-pension-board-1846-agenda.pdf
+  skip (exists)  2026-06-10-post-1983-police-pension-board-1846-minutes.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-1840-agenda.pdf
+  skip (exists)  2026-06-09-city-council-1840-minutes.pdf
+  skip (exists)  2026-06-09-city-council-1840-recording.url
+[2026-06-09] Local Emergency Planning Committee
+  skip (exists)  2026-06-09-local-emergency-planning-committee-1841-agenda.pdf
+
+Downloaded/saved: 0  Skipped: 19  Failed: 0
+Files in: beat-archive/danbury-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to hayleigh.evans@patch.com  (0 attachment(s))
+2026-06-13 09:41:30 — All 1-6 catch-up sends complete.

@@ -1,0 +1,1313 @@
+==============================
+2026-06-06 10:10:31 — Starting (1/7): download-cheshire-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Portal      : https://cheshirect.portal.civicclerk.com
+Output dir  : beat-archive/cheshire-agendas
+
+Fetching events from CivicClerk API...
+Found 43 event(s) in window.
+
+Found 52 document(s) (Agenda/Minutes) across 35 event(s).
+
+  skip (exists)  2026-06-09-town-council-budget-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-agenda-1.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-agenda-2.pdf
+  skip (exists)  2026-06-04-general-agenda.pdf
+  skip (exists)  2026-06-03-town-council-personnel-committee-agenda.pdf
+  skip (exists)  2026-06-03-town-beautification-committee-agenda.pdf
+  skip (exists)  2026-06-03-parks-and-recreation-commission-agenda.pdf
+  skip (exists)  2026-06-02-inland-wetlands-and-watercourses-commission-agenda-1.pdf
+  skip (exists)  2026-06-02-inland-wetlands-and-watercourses-commission-agenda-2.pdf
+  skip (exists)  2026-06-01-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-01-zoning-board-of-appeals-minutes.pdf
+  skip (exists)  2026-06-01-historic-district-commission-agenda.pdf
+  skip (exists)  2026-05-28-water-pollution-control-authority-agenda.pdf
+  skip (exists)  2026-05-28-water-pollution-control-authority-minutes.pdf
+  skip (exists)  2026-05-28-next-generation-school-building-committee-agenda.pdf
+  skip (exists)  2026-05-28-next-generation-school-building-committee-minutes.pdf
+  skip (exists)  2026-05-27-town-council-agenda.pdf
+  skip (exists)  2026-05-27-town-council-minutes.pdf
+  skip (exists)  2026-05-27-planning-and-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-21-general-agenda.pdf
+  skip (exists)  2026-05-21-general-minutes.pdf
+  skip (exists)  2026-05-20-town-council-sustainability-committee-agenda.pdf
+  skip (exists)  2026-05-20-town-council-sustainability-committee-minutes.pdf
+  skip (exists)  2026-05-19-town-council-personnel-committee-agenda.pdf
+  skip (exists)  2026-05-19-town-council-agenda.pdf
+  skip (exists)  2026-05-19-performing-and-fine-arts-committee-agenda.pdf
+  skip (exists)  2026-05-19-inland-wetlands-and-watercourses-commission-agenda.pdf
+  skip (exists)  2026-05-19-inland-wetlands-and-watercourses-commission-minutes.pdf
+  skip (exists)  2026-05-19-economic-development-commission-agenda.pdf
+  skip (exists)  2026-05-19-economic-development-commission-minutes.pdf
+  skip (exists)  2026-05-18-public-building-commission-agenda.pdf
+  skip (exists)  2026-05-18-library-advisory-board-agenda.pdf
+  skip (exists)  2026-05-18-library-advisory-board-minutes.pdf
+  skip (exists)  2026-05-18-general-agenda.pdf
+  skip (exists)  2026-05-18-general-minutes.pdf
+  skip (exists)  2026-05-14-public-safety-commission-agenda.pdf
+  skip (exists)  2026-05-13-environment-commission-agenda.pdf
+  skip (exists)  2026-05-13-environment-commission-minutes.pdf
+  skip (exists)  2026-05-12-town-council-budget-committee-agenda.pdf
+  skip (exists)  2026-05-12-town-council-budget-committee-minutes.pdf
+  skip (exists)  2026-05-12-town-council-agenda.pdf
+  skip (exists)  2026-05-12-town-council-minutes.pdf
+  skip (exists)  2026-05-11-planning-and-zoning-commission-agenda-1.pdf
+  skip (exists)  2026-05-11-planning-and-zoning-commission-minutes-1.pdf
+  skip (exists)  2026-05-11-planning-and-zoning-commission-agenda-2.pdf
+  skip (exists)  2026-05-11-planning-and-zoning-commission-minutes-2.pdf
+  skip (exists)  2026-05-11-inland-wetlands-and-watercourses-commission-agenda.pdf
+  skip (exists)  2026-05-11-inland-wetlands-and-watercourses-commission-minutes.pdf
+  skip (exists)  2026-05-07-veterans-advisory-committee-agenda.pdf
+  skip (exists)  2026-05-07-veterans-advisory-committee-minutes.pdf
+  skip (exists)  2026-05-07-next-generation-school-building-committee-agenda.pdf
+
+Done — downloaded: 0  skipped: 52  failed: 0
+Files in: beat-archive/cheshire-agendas
+
+2026-06-06 10:10:36 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:15:36 — Starting (2/7): download-hamden-agendas.py
+==============================
+Cutoff date : 2026-05-07  (30 days back)
+Fetching    : https://www.hamden.com/AgendaCenter
+Output dir  : beat-archive/hamden-agendas
+
+Fetching AgendaCenter index...
+Found 45 board(s).
+
+Found 0 meeting(s) with up to 0 document(s) and 0 Zoom recording(s) in the past 30 days.
+
+
+2026-06-06 10:15:38 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:20:38 — Starting (3/7): download-meriden-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Portal      : https://meridencityct.documents-on-demand.com
+Output dir  : beat-archive/meriden-agendas
+
+Fetching folder tree from Documents-On-Demand API...
+Found 60 board(s).
+
+Found 90 document(s) across 28 board(s).
+
+  skip (exists)  2026-06-10-planning-commission-agendas-cancellation.pdf
+  skip (exists)  2026-06-05-commission-on-aging-and-disabilitie-agendas-commission-on-aging-and-disabilities-age.pdf
+  skip (exists)  2026-06-04-school-building-commission-agendas-cancellation.pdf
+  skip (exists)  2026-06-04-meriden-linear-trails-advisory-comm-agendas-meriden-linear-trails-advisory-committee.pdf
+  skip (exists)  2026-06-04-human-services-agendas-legal-notice-of-public-hearing.pdf
+  skip (exists)  2026-06-04-human-services-agendas-hybrid-with-finance.pdf
+  skip (exists)  2026-06-04-human-services-agendas-human-services-code-revision-proposals.pdf
+  skip (exists)  2026-06-04-finance-agendas-hybrid-with-human-services.pdf
+  skip (exists)  2026-06-04-finance-agendas-hybrid-with-human-services.pdf
+  skip (exists)  2026-06-03-inland-wetlands-watercourse-agendas-cancellation.pdf
+  skip (exists)  2026-06-02-zoning-board-of-appeals-agendas-zoning-board-of-appeals-agenda-june-02-2.pdf
+  skip (exists)  2026-06-02-zoning-board-of-appeals-minutes-draft.pdf
+  skip (exists)  2026-06-02-human-services-agendas-hybrid-public-hearing-cdbg.pdf
+  skip (exists)  2026-06-02-human-services-agendas-hearing-notice-cdbg.pdf
+  skip (exists)  2026-06-02-human-services-agendas-cdbg-public-hearing.pdf
+  skip (exists)  2026-06-02-human-services-agendas-application-presentation.pdf
+  [2026-06-02] Human Services — Minutes
+  downloading    2026-06-02-human-services-minutes-hybrid.pdf
+  skip (exists)  2026-06-02-board-of-education-agendas-board-of-education-agenda-june-02-2026.pdf
+  skip (exists)  2026-06-02-board-of-education-minutes-draft.pdf
+  skip (exists)  2026-06-01-city-council-agendas-zoning-regulation-public-hearing-private.pdf
+  skip (exists)  2026-06-01-city-council-agendas-public-hearing-packet.pdf
+  skip (exists)  2026-06-01-city-council-agendas-packet.pdf
+  skip (exists)  2026-06-01-city-council-agendas-agenda.pdf
+  skip (exists)  2026-06-01-city-council-agendas-zoning-regulation-public-hearing-agenda-.pdf
+  skip (exists)  2026-06-01-city-council-agendas-miller-st-presentation-revised-scope-6-1.pdf
+  skip (exists)  2026-06-01-city-council-agendas-zoning-regulation-public-hearing-packet-.pdf
+  skip (exists)  2026-06-01-city-council-minutes-public-hearing.pdf
+  skip (exists)  2026-06-01-city-council-minutes-hybrid.pdf
+  skip (exists)  2026-05-28-public-safety-agendas-police-quarterly-crime-analaysis-report-.pdf
+  skip (exists)  2026-05-28-public-safety-agendas-police-dept-1st-qtr.pdf
+  skip (exists)  2026-05-28-public-safety-agendas-fire-dept-1st-qtr.pdf
+  skip (exists)  2026-05-28-public-safety-agendas-emergency-communications-1st-qtr.pdf
+  skip (exists)  2026-05-28-public-safety-agendas-public-safety-agenda-may-28-2026.pdf
+  skip (exists)  2026-05-28-public-safety-minutes-hybrid.pdf
+  skip (exists)  2026-05-28-conservation-commission-agendas-conservation-commission-agenda-may-28-20.pdf
+  skip (exists)  2026-05-28-conservation-commission-minutes-draft.pdf
+  skip (exists)  2026-05-28-coalition-to-end-homelessness-agendas-coalition-to-end-homelessness-agenda-may.pdf
+  skip (exists)  2026-05-28-coalition-to-end-homelessness-minutes-draft.pdf
+  skip (exists)  2026-05-26-public-golf-course-commission-agendas-golf-course-commission-agenda-may-26-202.pdf
+  skip (exists)  2026-05-26-public-golf-course-commission-minutes-draft.pdf
+  skip (exists)  2026-05-26-public-golf-course-commission-minutes-attendance-sheet.pdf
+  skip (exists)  2026-05-26-meriden-housing-authority-agendas-special-meeting.pdf
+  skip (exists)  2026-05-26-meriden-housing-authority-minutes-special-meeting.pdf
+  skip (exists)  2026-05-26-maynard-road-corporation-agenda-special-meeting.pdf
+  skip (exists)  2026-05-26-maynard-road-corporation-minutes-special-meeting.pdf
+  skip (exists)  2026-05-26-early-start-formerly-school-readine-agendas-early-start-agenda-may-26-2026.pdf
+  skip (exists)  2026-05-26-early-start-formerly-school-readine-minutes-draft.pdf
+  skip (exists)  2026-05-22-meriden-housing-authority-agendas-special-meeting.pdf
+  skip (exists)  2026-05-22-meriden-housing-authority-minutes-special-meeting.pdf
+  skip (exists)  2026-05-21-public-works-parks-recreation-agendas-public-works-staff-report.pdf
+  skip (exists)  2026-05-21-public-works-parks-recreation-agendas-public-utilities-staff-report.pdf
+  skip (exists)  2026-05-21-public-works-parks-recreation-agendas-parks-staff-report.pdf
+  skip (exists)  2026-05-21-public-works-parks-recreation-agendas-cancellation.pdf
+  skip (exists)  2026-05-20-senior-center-building-review-commi-agendas-cancellation.pdf
+  skip (exists)  2026-05-20-cable-advisory-board-agenda-cancellation.pdf
+  skip (exists)  2026-05-19-public-utilities-commission-agendas-public-utilities-commission-agenda-may-1.pdf
+  skip (exists)  2026-05-19-public-utilities-commission-agendas-public-utilities-commission-agenda-may-1.pdf
+  skip (exists)  2026-05-19-public-utilities-commission-minutes-public-utilities-commission-minutes-may-.pdf
+  skip (exists)  2026-05-19-economic-development-housing-and-zo-agendas-cancellation.pdf
+  skip (exists)  2026-05-19-board-of-education-agendas-finance-subcommittee.pdf
+  skip (exists)  2026-05-19-board-of-education-agendas-curriculum-subcommittee.pdf
+  skip (exists)  2026-05-19-board-of-education-agendas-board-of-education-agenda-may-19-2026.pdf
+  skip (exists)  2026-05-19-board-of-education-minutes-draft.pdf
+  skip (exists)  2026-05-19-board-of-education-minutes-approved.pdf
+  skip (exists)  2026-05-18-meriden-housing-authority-agendas-cancellation.pdf
+  skip (exists)  2026-05-18-meriden-housing-authority-agendas-meriden-housing-authority-agenda-may-18-.pdf
+  skip (exists)  2026-05-18-maynard-road-corporation-agenda-cancellation.pdf
+  skip (exists)  2026-05-18-maynard-road-corporation-agenda-maynard-road-corporation-agenda-may-18-2.pdf
+  skip (exists)  2026-05-18-library-board-agendas-hybrid.pdf
+  skip (exists)  2026-05-18-library-board-minutes-library-board-minutes-may-18-2026.pdf
+  skip (exists)  2026-05-14-city-council-agendas-special-meeting.pdf
+  skip (exists)  2026-05-14-city-council-agendas-revised-packet.pdf
+  skip (exists)  2026-05-14-city-council-agendas-packet.pdf
+  skip (exists)  2026-05-14-city-council-agendas-packet.pdf
+  skip (exists)  2026-05-14-city-council-minutes-special-meeting.pdf
+  skip (exists)  2026-05-13-planning-commission-agendas-planning-commission-agenda-may-13-2026.pdf
+  skip (exists)  2026-05-13-planning-commission-minutes-draft.pdf
+  skip (exists)  2026-05-13-aquifer-protection-agency-agendas-special-meeting.pdf
+  skip (exists)  2026-05-13-aquifer-protection-agency-minutes-draft.pdf
+  skip (exists)  2026-05-12-pension-board-agendas-quarterly-investment-1st-qtr.pdf
+  skip (exists)  2026-05-12-pension-board-agendas-packet.pdf
+  skip (exists)  2026-05-12-pension-board-agendas-pension-board-agenda-may-12-2026.pdf
+  skip (exists)  2026-05-12-pension-board-minutes-draft.pdf
+  skip (exists)  2026-05-12-aviation-commission-agendas-cancellation.pdf
+  skip (exists)  2026-05-11-human-rights-racial-equity-social-j-agendas-human-rights-racial-equity-social-justic.pdf
+  skip (exists)  2026-05-11-human-rights-racial-equity-social-j-minutes-human-rights-racial-equity-social-justic.pdf
+  skip (exists)  2026-05-07-school-building-commission-agendas-cancellation.pdf
+  skip (exists)  2026-05-07-personnel-committee-agendas-cancellation.pdf
+  skip (exists)  2026-05-07-meriden-linear-trails-advisory-comm-minutes-meriden-linear-trails-advisory-committee.pdf
+  skip (exists)  2026-05-07-meriden-linear-trails-advisory-comm-minutes-meriden-linear-trails-advisory-committee.pdf
+
+Done — downloaded: 1  skipped: 89  failed: 0
+Files in: beat-archive/meriden-agendas
+Log:      beat-archive/meriden-agendas/download-log.txt
+
+2026-06-06 10:21:46 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:26:46 — Starting (4/7): download-north-haven-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Site        : https://www.northhaven-ct.gov
+Output dir  : beat-archive/north-haven-agendas
+
+Fetching public meetings index...
+Found 28 board(s) with year pages.
+
+Found 28 document(s) across 9 board(s).
+
+  skip (exists)  2026-06-10-greater-new-haven-transit-district-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  [2026-06-08] South Central CT Regional Water District — Agenda
+  downloading    2026-06-08-south-central-ct-regional-water-district-agenda-1.pdf
+  [2026-06-08] South Central CT Regional Water District — Agenda
+  downloading    2026-06-08-south-central-ct-regional-water-district-agenda-2.pdf
+  [2026-06-08] South Central CT Regional Water District — Agenda
+  downloading    2026-06-08-south-central-ct-regional-water-district-agenda-3.pdf
+  skip (exists)  2026-06-04-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-06-04-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-28-south-central-ct-regional-water-district-agenda-1.pdf
+  skip (exists)  2026-05-28-south-central-ct-regional-water-district-agenda-2.pdf
+  skip (exists)  2026-05-28-board-of-education-agenda.pdf
+  skip (exists)  2026-05-26-board-of-education-agenda.pdf
+  skip (exists)  2026-05-26-board-of-education-minutes.pdf
+  skip (exists)  2026-05-22-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-22-board-of-selectmen-minutes.pdf
+  skip (exists)  2026-05-21-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-05-21-library-board-agenda.pdf
+  skip (exists)  2026-05-20-board-of-finance-agenda.pdf
+  skip (exists)  2026-05-20-board-of-finance-minutes.pdf
+  skip (exists)  2026-05-19-blight-prevention-appeals-board-agenda.pdf
+  skip (exists)  2026-05-18-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-05-15-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-05-14-board-of-education-finance-and-operation-minutes.pdf
+  skip (exists)  2026-05-14-board-of-education-agenda.pdf
+  skip (exists)  2026-05-14-board-of-education-minutes.pdf
+  skip (exists)  2026-05-13-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-05-11-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-05-07-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-07-board-of-selectmen-minutes.pdf
+
+Documents  — downloaded: 3  skipped: 25  failed: 0
+Files in: beat-archive/north-haven-agendas
+Log:      beat-archive/north-haven-agendas/download-log.txt
+
+2026-06-06 10:26:58 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:31:58 — Starting (5/7): download-stratford-agendas.py
+==============================
+ERROR: beautifulsoup4 not installed.
+  pip install beautifulsoup4
+
+2026-06-06 10:31:58 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:36:58 — Starting (6/7): download-wallingford-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Site        : https://www.wallingfordct.gov/minutes-and-agendas/
+Output dir  : beat-archive/wallingford-agendas
+
+Fetching minutes-and-agendas listing page (may be large)...
+Parsed 3578 document entries from listing page.
+
+Found 37 document(s) across 16 board(s).
+
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  [2026-06-08] Planning & Zoning Commission — agenda
+  downloading    2026-06-08-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-05-wallingford-celebrates-america-250-agenda.pdf
+  skip (exists)  2026-06-04-quinnipiac-river-linear-trail-advisory-c-agenda.pdf
+  skip (exists)  2026-06-03-inland-wetlands-watercourses-commission-agenda.pdf
+  skip (exists)  2026-06-03-board-of-health-agenda.pdf
+  skip (exists)  2026-06-02-public-utilities-commission-agenda.pdf
+  skip (exists)  2026-06-02-ordinance-committee-tc-agenda.pdf
+  skip (exists)  2026-06-01-veterans-memorial-committee-agenda.pdf
+  skip (exists)  2026-06-01-economic-development-commission-minutes.pdf
+  skip (exists)  2026-06-01-economic-development-commission-agenda-1.pdf
+  skip (exists)  2026-06-01-economic-development-commission-agenda-2.pdf
+  skip (exists)  2026-05-27-plan-of-conservation-development-impleme-minutes.pdf
+  skip (exists)  2026-05-27-plan-of-conservation-development-impleme-agenda.pdf
+  skip (exists)  2026-05-26-wallingford-celebrates-america-250-minutes.pdf
+  skip (exists)  2026-05-26-wallingford-celebrates-america-250-agenda.pdf
+  skip (exists)  2026-05-26-town-council-agenda-1.pdf
+  skip (exists)  2026-05-26-town-council-agenda-2.pdf
+  skip (exists)  2026-05-21-pension-commission-minutes.pdf
+  skip (exists)  2026-05-21-pension-commission-agenda.pdf
+  skip (exists)  2026-05-21-conservation-commission-agenda.pdf
+  skip (exists)  2026-05-19-public-utilities-commission-minutes.pdf
+  skip (exists)  2026-05-19-public-utilities-commission-agenda.pdf
+  skip (exists)  2026-05-18-zoning-board-of-appeals-minutes.pdf
+  skip (exists)  2026-05-18-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-05-18-veterans-memorial-committee-minutes.pdf
+  skip (exists)  2026-05-18-veterans-memorial-committee-agenda.pdf
+  skip (exists)  2026-05-15-committee-on-aging-agenda.pdf
+  skip (exists)  2026-05-13-wallingford-celebrates-america-250-minutes.pdf
+  skip (exists)  2026-05-13-wallingford-celebrates-america-250-agenda.pdf
+  skip (exists)  2026-05-13-parks-recreation-commission-agenda.pdf
+  skip (exists)  2026-05-11-veterans-memorial-committee-minutes.pdf
+  skip (exists)  2026-05-11-veterans-memorial-committee-agenda.pdf
+  skip (exists)  2026-05-11-planning-zoning-commission-minutes.pdf
+  skip (exists)  2026-05-11-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-07-quinnipiac-river-linear-trail-advisory-c-minutes.pdf
+  skip (exists)  2026-05-07-quinnipiac-river-linear-trail-advisory-c-agenda.pdf
+
+Documents  — downloaded: 1  skipped: 36  failed: 0
+Files in: beat-archive/wallingford-agendas
+Log:      beat-archive/wallingford-agendas/download-log.txt
+
+2026-06-06 10:37:02 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:42:02 — Starting (7/7): download-west-haven-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-06  (30 days back)
+AgendaCenter: https://www.cityofwesthaven.com/AgendaCenter
+Output dir  : beat-archive/west-haven-agendas
+
+Fetching AgendaCenter index...
+Found 36 board(s).
+
+Found 46 meeting(s) with up to 62 document(s) in window.
+
+[2026-06-23] West Haven High School Building Committee
+  skip (exists)  2026-06-23-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-16] Inland Wetlands Watercourse Agency
+  skip (exists)  2026-06-16-inland-wetlands-watercourse-agency-agenda.pdf
+[2026-06-09] West Haven High School Building Committee
+  skip (exists)  2026-06-09-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-09] Planning and Zoning Commission
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda.pdf
+[2026-06-08] City Council
+  downloading    2026-06-08-city-council-agenda.pdf
+[2026-06-08] City Council
+  skip (exists)  2026-06-08-city-council-agenda.pdf
+[2026-06-04] City Council
+  skip (exists)  2026-06-04-city-council-agenda.pdf
+[2026-06-03] Harbor Management Commission
+  skip (exists)  2026-06-03-harbor-management-commission-agenda.pdf
+[2026-06-02] Fair Rent Commission
+  skip (exists)  2026-06-02-fair-rent-commission-agenda.pdf
+[2026-06-02] Board of Police Commissioners
+  skip (exists)  2026-06-02-board-of-police-commissioners-agenda.pdf
+[2026-06-02] ARPA Committee
+  skip (exists)  2026-06-02-arpa-committee-agenda.pdf
+[2026-06-01] Parks and Recreation Commission
+  skip (exists)  2026-06-01-parks-and-recreation-commission-agenda.pdf
+[2026-06-01] City Council
+  skip (exists)  2026-06-01-city-council-agenda.pdf
+  downloading    2026-06-01-city-council-minutes.pdf
+[2026-06-01] City Council
+  skip (exists)  2026-06-01-city-council-agenda.pdf
+[2026-05-28] Charter Revision Commission
+  skip (exists)  2026-05-28-charter-revision-commission-agenda.pdf
+  skip (exists)  2026-05-28-charter-revision-commission-minutes.pdf
+[2026-05-28] Charter Revision Commission
+  skip (exists)  2026-05-28-charter-revision-commission-agenda.pdf
+[2026-05-26] Planning and Zoning Commission
+  skip (exists)  2026-05-26-planning-and-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-26-planning-and-zoning-commission-minutes.pdf
+[2026-05-26] City Council
+  skip (exists)  2026-05-26-city-council-agenda.pdf
+  skip (exists)  2026-05-26-city-council-minutes.pdf
+[2026-05-26] City Council
+  skip (exists)  2026-05-26-city-council-agenda.pdf
+[2026-05-21] Charter Revision Commission
+  skip (exists)  2026-05-21-charter-revision-commission-agenda.pdf
+  skip (exists)  2026-05-21-charter-revision-commission-minutes.pdf
+[2026-05-21] Charter Revision Commission
+  skip (exists)  2026-05-21-charter-revision-commission-agenda.pdf
+[2026-05-20] Zoning Board of Appeals
+  skip (exists)  2026-05-20-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-05-20-zoning-board-of-appeals-minutes.pdf
+[2026-05-20] Energy Commission
+  skip (exists)  2026-05-20-energy-commission-agenda.pdf
+[2026-05-20] Energy Commission
+  skip (exists)  2026-05-20-energy-commission-agenda.pdf
+[2026-05-20] Board of Ethics
+  skip (exists)  2026-05-20-board-of-ethics-agenda.pdf
+[2026-05-19] Inland Wetlands Watercourse Agency
+  skip (exists)  2026-05-19-inland-wetlands-watercourse-agency-agenda.pdf
+[2026-05-19] Fair Rent Commission
+  skip (exists)  2026-05-19-fair-rent-commission-agenda.pdf
+[2026-05-19] City Council
+  skip (exists)  2026-05-19-city-council-agenda.pdf
+[2026-05-19] City Council
+  skip (exists)  2026-05-19-city-council-agenda.pdf
+[2026-05-19] Board of Police Commissioners
+  skip (exists)  2026-05-19-board-of-police-commissioners-agenda.pdf
+  skip (exists)  2026-05-19-board-of-police-commissioners-minutes.pdf
+[2026-05-19] Board of Health
+  skip (exists)  2026-05-19-board-of-health-agenda.pdf
+[2026-05-18] City Council
+  skip (exists)  2026-05-18-city-council-agenda.pdf
+  skip (exists)  2026-05-18-city-council-minutes.pdf
+[2026-05-18] City Council
+  skip (exists)  2026-05-18-city-council-agenda.pdf
+[2026-05-14] Charter Revision Commission
+  skip (exists)  2026-05-14-charter-revision-commission-agenda.pdf
+  skip (exists)  2026-05-14-charter-revision-commission-minutes.pdf
+[2026-05-13] Emergency Reporting System Administrative Authority
+  skip (exists)  2026-05-13-emergency-reporting-system-administrative-authority-agenda.pdf
+[2026-05-12] West Haven High School Building Committee
+  skip (exists)  2026-05-12-west-haven-high-school-building-committee-agenda.pdf
+  skip (exists)  2026-05-12-west-haven-high-school-building-committee-minutes.pdf
+[2026-05-12] Seniors Commission
+  skip (exists)  2026-05-12-seniors-commission-agenda.pdf
+[2026-05-12] Seniors Commission
+  skip (exists)  2026-05-12-seniors-commission-agenda.pdf
+[2026-05-12] Planning and Zoning Commission
+  skip (exists)  2026-05-12-planning-and-zoning-commission-agenda.pdf
+  skip (exists)  2026-05-12-planning-and-zoning-commission-minutes.pdf
+[2026-05-12] City of West Haven Fire Department Allingtown Board of Commissioners
+  skip (exists)  2026-05-12-city-of-west-haven-fire-department-allingtown-board-of-commi-agenda.pdf
+  skip (exists)  2026-05-12-city-of-west-haven-fire-department-allingtown-board-of-commi-minutes.pdf
+[2026-05-12] Charter Revision Commission
+  skip (exists)  2026-05-12-charter-revision-commission-agenda.pdf
+  skip (exists)  2026-05-12-charter-revision-commission-minutes.pdf
+[2026-05-11] City Council
+  skip (exists)  2026-05-11-city-council-agenda.pdf
+  skip (exists)  2026-05-11-city-council-minutes.pdf
+[2026-05-11] City Council
+  skip (exists)  2026-05-11-city-council-agenda.pdf
+[2026-05-07] City Council
+  skip (exists)  2026-05-07-city-council-agenda.pdf
+  skip (exists)  2026-05-07-city-council-minutes.pdf
+[2026-05-07] City Council
+  skip (exists)  2026-05-07-city-council-agenda.pdf
+[2026-05-07] Charter Revision Commission
+  skip (exists)  2026-05-07-charter-revision-commission-agenda.pdf
+  skip (exists)  2026-05-07-charter-revision-commission-minutes.pdf
+Documents  — downloaded: 2  skipped: 60  failed: 0
+Files in: beat-archive/west-haven-agendas
+Log:      beat-archive/west-haven-agendas/download-log.txt
+
+2026-06-06 10:42:08 — All Vinny scripts complete.
+==============================
+2026-06-11 09:08:12 — Starting (1/7): download-cheshire-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Portal      : https://cheshirect.portal.civicclerk.com
+Output dir  : beat-archive/cheshire-agendas
+
+Fetching events from CivicClerk API...
+Found 13 event(s) in window.
+
+Found 9 document(s) (Agenda/Minutes) across 8 event(s).
+
+  skip (exists)  2026-06-16-economic-development-commission-agenda.pdf
+  skip (exists)  2026-06-11-public-safety-commission-agenda.pdf
+  skip (exists)  2026-06-11-next-generation-school-building-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-council-budget-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda-1.pdf
+  skip (exists)  2026-06-09-town-council-agenda-2.pdf
+  skip (exists)  2026-06-09-town-council-minutes.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-agenda-1.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-agenda-2.pdf
+
+Done — downloaded: 0  skipped: 9  failed: 0
+Files in: beat-archive/cheshire-agendas
+2026-06-11 09:08:13 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:13:13 — Starting (2/7): download-hamden-agendas.py
+==============================
+Cutoff date : 2026-06-07  (4 days back)
+Fetching    : https://www.hamden.com/AgendaCenter
+Output dir  : beat-archive/hamden-agendas
+
+Fetching AgendaCenter index...
+Found 45 board(s).
+
+Found 0 meeting(s) with up to 0 document(s) and 0 Zoom recording(s) in the past 4 days.
+
+2026-06-11 09:13:15 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:18:15 — Starting (3/7): download-meriden-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Portal      : https://meridencityct.documents-on-demand.com
+Output dir  : beat-archive/meriden-agendas
+
+Fetching folder tree from Documents-On-Demand API...
+Found 60 board(s).
+
+Found 8 document(s) across 6 board(s).
+
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agendas-special-meeting.pdf
+  skip (exists)  2026-06-16-board-of-education-agendas-cancellation.pdf
+  skip (exists)  2026-06-15-city-council-agendas-zoning-regulation-public-hearing-pa-25-1.pdf
+  skip (exists)  2026-06-15-city-council-agendas-public-hearing-packet.pdf
+  skip (exists)  2026-06-15-city-council-agendas-public-hearing.pdf
+  skip (exists)  2026-06-10-planning-commission-agendas-cancellation.pdf
+  skip (exists)  2026-06-09-pension-board-agendas-packet.pdf
+  skip (exists)  2026-06-09-aviation-commission-agendas-packet.pdf
+
+Done — downloaded: 0  skipped: 8  failed: 0
+Files in: beat-archive/meriden-agendas
+2026-06-11 09:19:10 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:24:10 — Starting (4/7): download-north-haven-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Site        : https://www.northhaven-ct.gov
+Output dir  : beat-archive/north-haven-agendas
+
+Fetching public meetings index...
+Found 28 board(s) with year pages.
+
+Found 6 document(s) across 3 board(s).
+
+  skip (exists)  2026-06-10-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-06-10-greater-new-haven-transit-district-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-08-south-central-ct-regional-water-district-agenda-1.pdf
+  skip (exists)  2026-06-08-south-central-ct-regional-water-district-agenda-2.pdf
+  skip (exists)  2026-06-08-south-central-ct-regional-water-district-agenda-3.pdf
+
+Documents  — downloaded: 0  skipped: 6  failed: 0
+Files in: beat-archive/north-haven-agendas
+2026-06-11 09:24:16 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:29:16 — Starting (5/7): download-stratford-agendas.py
+==============================
+  WARNING: no agenda URL found for: Mayor Chess's Office Hours (2026-06-10)
+  WARNING: no agenda URL found for: Neighborhood Association Meeting - Districts 3, 4, 5, and 6 (2026-06-10)
+  WARNING: no agenda URL found for: Neighborhood Association Meeting - Districts 1, 2, and 7 (2026-06-09)
+  WARNING: no agenda URL found for: Stratford Library Annual Book Sale (2026-06-07)
+Date window : 2026-06-07 to 2026-06-11  (4 days)
+Portal      : https://www.stratfordct.gov
+Output dir  : beat-archive/stratford-agendas
+
+Fetching ThrillShare events...
+Found 18 event(s) in window.
+
+Loading root folder to map board IDs...
+Found 78 board(s) in root folder.
+
+Fetching agenda folders...
+  [2026-06-11] Arts Commission - Special Meeting
+  [2026-06-11] Architectural Review Board - Cancelled
+  [2026-06-10] Board of Education Liaison Committee
+  [2026-06-10] Zoning Commission Adminstrative Meeting - Cancelled
+  [2026-06-10] Waterfront and Harbor Management Commission
+  [2026-06-09] Commission on Aging
+  [2026-06-09] Public Safety Committee
+  [2026-06-09] Board of Education - Curriculum Committee
+  [2026-06-09] Conservation Commission Meeting
+  [2026-06-09] Shellfish Commission Meeting
+  [2026-06-08] Town Council Public Forum
+  [2026-06-08] Town Council
+  [2026-06-08] Water Pollution Control Authority - Special Meeting
+
+Fetching minutes folders...
+  architectural-review-board
+  arts-commission
+  board-of-education
+  board-of-education-liaison-committee
+  commission-on-aging
+  conservation-commission
+  public-safety-committee
+  shellfish-commission
+  town-council
+  water-pollution-control-authority-(wpca)
+  waterfront-%26-harbor-management-commission
+  zoning-commission
+
+Found 36 document(s) in window.
+
+  [2026-06-11] Arts Commission — Agenda
+    skip (exists)  2026-06-11-arts-commission-agenda-arts-commission-schedule-for-2026.pdf
+  [2026-06-11] Arts Commission — Agenda
+    skip (exists)  2026-06-11-arts-commission-agenda-ac-special-meeting-agenda-61126.pdf
+  [2026-06-11] Architectural Review Board — Agenda
+    skip (exists)  2026-06-11-architectural-review-board-agenda-arb-2026-calendar-schedule.pdf
+  [2026-06-11] Architectural Review Board — Agenda
+    skip (exists)  2026-06-11-architectural-review-board-agenda-arb-6-11-26-cancellation.pdf
+  [2026-06-10] Board Of Education Liaison Committee — Agenda
+    skip (exists)  2026-06-10-board-of-education-liaison-com-agenda-agenda-boe-liaison-committee-june-10-202.pdf
+  [2026-06-10] Zoning Commission — Agenda
+    skip (exists)  2026-06-10-zoning-commission-agenda-zoning-meeting-schedule-2026.pdf
+  [2026-06-10] Zoning Commission — Agenda
+    skip (exists)  2026-06-10-zoning-commission-agenda-zoning-commission-administrative-meeting.pdf
+  [2026-06-10] Waterfront %26 Harbor Management Commission — Agenda
+    skip (exists)  2026-06-10-waterfront-26-harbor-managemen-agenda-wtrfrnt-hrbrtc.pdf
+  [2026-06-10] Waterfront %26 Harbor Management Commission — Agenda
+    skip (exists)  2026-06-10-waterfront-26-harbor-managemen-agenda-wtrfrnt-reg-adg2cdoc-5.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-commission-on-aging-schedule-for-2026.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-20260109131437377.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-coa-agenda-june-92c-2026.pdf
+  [2026-06-09] Public Safety Committee — Agenda
+    skip (exists)  2026-06-09-public-safety-committee-agenda-public-safety-committee-agenda-for-06-09.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-stratford-board-of-education-schedule-fo.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-board-of-education-special-meeting-agend.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-6-9-26-curriculum-agenda.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-6-9-26-curriculum-agenda-revised-6-8-26.pdf
+  [2026-06-09] Conservation Commission — Agenda
+    skip (exists)  2026-06-09-conservation-commission-agenda-2026-conservation-commission-calendar.pdf
+  [2026-06-09] Conservation Commission — Agenda
+    skip (exists)  2026-06-09-conservation-commission-agenda-conservationcommission-6-9-26-agenda.pdf
+  [2026-06-09] Shellfish Commission — Agenda
+    skip (exists)  2026-06-09-shellfish-commission-agenda-2026-signed-meeting-schedule.pdf
+  [2026-06-09] Shellfish Commission — Agenda
+    skip (exists)  2026-06-09-shellfish-commission-agenda-ssc-agenda-for-06-09-2026.pdf
+  [2026-06-08] Board Of Education — Agenda
+    skip (exists)  2026-06-08-board-of-education-agenda-draft-boe-agenda-jun-8-2026-awards-28spe.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-schedule-for-2026.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-notice-and-agenda-for-06-08.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-addendum-to-town-council-agenda-06-08-20.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-schedule-for-2026.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-notice-and-agenda-for-06-08.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-addendum-to-town-council-agenda-06-08-20.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Agenda
+    skip (exists)  2026-06-08-water-pollution-control-author-agenda-wpca-2026-calendar-1.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Agenda
+    skip (exists)  2026-06-08-water-pollution-control-author-agenda-wpca-6-2-26-special-meeting-agenda.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Agenda
+    skip (exists)  2026-06-08-water-pollution-control-author-agenda-wpca-special-agenda-6-8-26.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-psr-town-council-june-2026.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-stratford-solar-schools-and-town-bldgs-s.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-town-council-minutes-for-06-08-26.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-town-council-public-forum-minutes-06-08-.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Minutes
+    skip (exists)  2026-06-08-water-pollution-control-author-minutes-wpca-minutes-for-06-08-26-28129.pdf
+
+Documents  — downloaded: 0  skipped: 36  failed: 0
+Files in: beat-archive/stratford-agendas
+2026-06-11 09:34:27 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:39:27 — Starting (6/7): download-wallingford-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Site        : https://www.wallingfordct.gov/minutes-and-agendas/
+Output dir  : beat-archive/wallingford-agendas
+
+Fetching minutes-and-agendas listing page (may be large)...
+Parsed 3592 document entries from listing page.
+
+Found 5 document(s) across 5 board(s).
+
+  skip (exists)  2026-06-12-wallingford-celebrates-america-250-agenda.pdf
+  skip (exists)  2026-06-12-committee-on-aging-agenda.pdf
+  skip (exists)  2026-06-11-plan-of-conservation-development-impleme-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-08-planning-zoning-commission-agenda.pdf
+
+Documents  — downloaded: 0  skipped: 5  failed: 0
+Files in: beat-archive/wallingford-agendas
+2026-06-11 09:39:28 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:44:28 — Starting (7/7): download-west-haven-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-11  (4 days back)
+AgendaCenter: https://www.cityofwesthaven.com/AgendaCenter
+Output dir  : beat-archive/west-haven-agendas
+
+Fetching AgendaCenter index...
+Found 36 board(s).
+
+Found 26 meeting(s) with up to 28 document(s) in window.
+
+[2026-06-23] West Haven High School Building Committee
+  skip (exists)  2026-06-23-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-18] City Council
+  skip (exists)  2026-06-18-city-council-agenda.pdf
+[2026-06-18] City Council
+  skip (exists)  2026-06-18-city-council-agenda.pdf
+[2026-06-17] Zoning Board of Appeals
+  skip (exists)  2026-06-17-zoning-board-of-appeals-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-16] Inland Wetlands Watercourse Agency
+  skip (exists)  2026-06-16-inland-wetlands-watercourse-agency-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-10] Emergency Reporting System Administrative Authority
+  skip (exists)  2026-06-10-emergency-reporting-system-administrative-authority-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-09] West Haven High School Building Committee
+  skip (exists)  2026-06-09-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-09] Seniors Commission
+  skip (exists)  2026-06-09-seniors-commission-agenda.pdf
+[2026-06-09] Planning and Zoning Commission
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda.pdf
+[2026-06-09] City of West Haven Fire Department Allingtown Board of Commissioners
+  skip (exists)  2026-06-09-city-of-west-haven-fire-department-allingtown-board-of-commi-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+  skip (exists)  2026-06-09-city-council-minutes.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-08] City Council
+  skip (exists)  2026-06-08-city-council-agenda.pdf
+  skip (exists)  2026-06-08-city-council-minutes.pdf
+[2026-06-08] City Council
+  skip (exists)  2026-06-08-city-council-agenda.pdf
+Documents  — downloaded: 0  skipped: 28  failed: 0
+Files in: beat-archive/west-haven-agendas
+2026-06-11 09:44:30 — All Vinny scripts complete.
+=============================
+2026-06-12 05:45:56 — Starting (1/7): download-cheshire-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Portal      : https://cheshirect.portal.civicclerk.com
+Output dir  : beat-archive/cheshire-agendas
+
+Fetching events from CivicClerk API...
+Found 13 event(s) in window.
+
+Found 9 document(s) (Agenda/Minutes) across 8 event(s).
+
+  skip (exists)  2026-06-16-economic-development-commission-agenda.pdf
+  skip (exists)  2026-06-11-public-safety-commission-agenda.pdf
+  skip (exists)  2026-06-11-next-generation-school-building-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-council-budget-committee-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda-1.pdf
+  skip (exists)  2026-06-09-town-council-agenda-2.pdf
+  skip (exists)  2026-06-09-town-council-minutes.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-agenda-1.pdf
+  skip (exists)  2026-06-08-planning-and-zoning-commission-agenda-2.pdf
+
+Done — downloaded: 0  skipped: 9  failed: 0
+Files in: beat-archive/cheshire-agendas
+
+2026-06-12 05:45:57 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:50:57 — Starting (2/7): download-hamden-agendas.py
+=============================
+Cutoff date : 2026-06-08  (4 days back)
+Fetching    : https://www.hamden.com/AgendaCenter
+Output dir  : beat-archive/hamden-agendas
+
+Fetching AgendaCenter index...
+Found 45 board(s).
+
+Found 0 meeting(s) with up to 0 document(s) and 0 Zoom recording(s) in the past 4 days.
+
+
+2026-06-12 05:50:59 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:55:59 — Starting (3/7): download-meriden-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Portal      : https://meridencityct.documents-on-demand.com
+Output dir  : beat-archive/meriden-agendas
+
+Fetching folder tree from Documents-On-Demand API...
+Found 60 board(s).
+
+Found 8 document(s) across 6 board(s).
+
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agendas-special-meeting.pdf
+  skip (exists)  2026-06-16-board-of-education-agendas-cancellation.pdf
+  skip (exists)  2026-06-15-city-council-agendas-zoning-regulation-public-hearing-pa-25-1.pdf
+  skip (exists)  2026-06-15-city-council-agendas-public-hearing-packet.pdf
+  skip (exists)  2026-06-15-city-council-agendas-public-hearing.pdf
+  skip (exists)  2026-06-10-planning-commission-agendas-cancellation.pdf
+  skip (exists)  2026-06-09-pension-board-agendas-packet.pdf
+  skip (exists)  2026-06-09-aviation-commission-agendas-packet.pdf
+
+Done — downloaded: 0  skipped: 8  failed: 0
+Files in: beat-archive/meriden-agendas
+
+2026-06-12 05:56:51 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:01:51 — Starting (4/7): download-north-haven-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Site        : https://www.northhaven-ct.gov
+Output dir  : beat-archive/north-haven-agendas
+
+Fetching public meetings index...
+Found 28 board(s) with year pages.
+
+Found 6 document(s) across 3 board(s).
+
+  skip (exists)  2026-06-10-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-06-10-greater-new-haven-transit-district-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  skip (exists)  2026-06-08-south-central-ct-regional-water-district-agenda-1.pdf
+  skip (exists)  2026-06-08-south-central-ct-regional-water-district-agenda-2.pdf
+  skip (exists)  2026-06-08-south-central-ct-regional-water-district-agenda-3.pdf
+
+Documents  — downloaded: 0  skipped: 6  failed: 0
+Files in: beat-archive/north-haven-agendas
+
+2026-06-12 06:01:57 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:06:57 — Starting (5/7): download-stratford-agendas.py
+=============================
+  WARNING: no agenda URL found for: Marine Tag Sale (2026-06-13)
+  WARNING: no agenda URL found for: Mayor Chess's Office Hours (2026-06-10)
+  WARNING: no agenda URL found for: Neighborhood Association Meeting - Districts 3, 4, 5, and 6 (2026-06-10)
+  WARNING: no agenda URL found for: Neighborhood Association Meeting - Districts 1, 2, and 7 (2026-06-09)
+Date window : 2026-06-08 to 2026-06-12  (4 days)
+Portal      : https://www.stratfordct.gov
+Output dir  : beat-archive/stratford-agendas
+
+Fetching ThrillShare events...
+Found 18 event(s) in window.
+
+Loading root folder to map board IDs...
+Found 78 board(s) in root folder.
+
+Fetching agenda folders...
+  [2026-06-11] Arts Commission - Special Meeting
+  [2026-06-11] Architectural Review Board - Cancelled
+  [2026-06-10] Board of Education Liaison Committee
+  [2026-06-10] Zoning Commission Adminstrative Meeting - Cancelled
+  [2026-06-10] Waterfront and Harbor Management Commission
+  [2026-06-09] Commission on Aging
+  [2026-06-09] Public Safety Committee
+  [2026-06-09] Board of Education - Curriculum Committee
+  [2026-06-09] Conservation Commission Meeting
+  [2026-06-09] Shellfish Commission Meeting
+  [2026-06-08] Town Council Public Forum
+  [2026-06-08] Town Council
+  [2026-06-08] Water Pollution Control Authority - Special Meeting
+
+Fetching minutes folders...
+  architectural-review-board
+  arts-commission
+  board-of-education
+  board-of-education-liaison-committee
+  commission-on-aging
+  conservation-commission
+  public-safety-committee
+  shellfish-commission
+  town-council
+  water-pollution-control-authority-(wpca)
+  waterfront-%26-harbor-management-commission
+  zoning-commission
+
+Found 36 document(s) in window.
+
+  [2026-06-11] Arts Commission — Agenda
+    skip (exists)  2026-06-11-arts-commission-agenda-arts-commission-schedule-for-2026.pdf
+  [2026-06-11] Arts Commission — Agenda
+    skip (exists)  2026-06-11-arts-commission-agenda-ac-special-meeting-agenda-61126.pdf
+  [2026-06-11] Architectural Review Board — Agenda
+    skip (exists)  2026-06-11-architectural-review-board-agenda-arb-2026-calendar-schedule.pdf
+  [2026-06-11] Architectural Review Board — Agenda
+    skip (exists)  2026-06-11-architectural-review-board-agenda-arb-6-11-26-cancellation.pdf
+  [2026-06-10] Board Of Education Liaison Committee — Agenda
+    skip (exists)  2026-06-10-board-of-education-liaison-com-agenda-agenda-boe-liaison-committee-june-10-202.pdf
+  [2026-06-10] Zoning Commission — Agenda
+    skip (exists)  2026-06-10-zoning-commission-agenda-zoning-meeting-schedule-2026.pdf
+  [2026-06-10] Zoning Commission — Agenda
+    skip (exists)  2026-06-10-zoning-commission-agenda-zoning-commission-administrative-meeting.pdf
+  [2026-06-10] Waterfront %26 Harbor Management Commission — Agenda
+    skip (exists)  2026-06-10-waterfront-26-harbor-managemen-agenda-wtrfrnt-hrbrtc.pdf
+  [2026-06-10] Waterfront %26 Harbor Management Commission — Agenda
+    skip (exists)  2026-06-10-waterfront-26-harbor-managemen-agenda-wtrfrnt-reg-adg2cdoc-5.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-commission-on-aging-schedule-for-2026.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-20260109131437377.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-coa-agenda-june-92c-2026.pdf
+  [2026-06-09] Public Safety Committee — Agenda
+    skip (exists)  2026-06-09-public-safety-committee-agenda-public-safety-committee-agenda-for-06-09.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-stratford-board-of-education-schedule-fo.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-board-of-education-special-meeting-agend.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-6-9-26-curriculum-agenda.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-6-9-26-curriculum-agenda-revised-6-8-26.pdf
+  [2026-06-09] Conservation Commission — Agenda
+    skip (exists)  2026-06-09-conservation-commission-agenda-2026-conservation-commission-calendar.pdf
+  [2026-06-09] Conservation Commission — Agenda
+    skip (exists)  2026-06-09-conservation-commission-agenda-conservationcommission-6-9-26-agenda.pdf
+  [2026-06-09] Shellfish Commission — Agenda
+    skip (exists)  2026-06-09-shellfish-commission-agenda-2026-signed-meeting-schedule.pdf
+  [2026-06-09] Shellfish Commission — Agenda
+    skip (exists)  2026-06-09-shellfish-commission-agenda-ssc-agenda-for-06-09-2026.pdf
+  [2026-06-08] Board Of Education — Agenda
+    skip (exists)  2026-06-08-board-of-education-agenda-draft-boe-agenda-jun-8-2026-awards-28spe.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-schedule-for-2026.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-notice-and-agenda-for-06-08.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-addendum-to-town-council-agenda-06-08-20.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-schedule-for-2026.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-town-council-notice-and-agenda-for-06-08.pdf
+  [2026-06-08] Town Council — Agenda
+    skip (exists)  2026-06-08-town-council-agenda-addendum-to-town-council-agenda-06-08-20.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Agenda
+    skip (exists)  2026-06-08-water-pollution-control-author-agenda-wpca-2026-calendar-1.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Agenda
+    skip (exists)  2026-06-08-water-pollution-control-author-agenda-wpca-6-2-26-special-meeting-agenda.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Agenda
+    skip (exists)  2026-06-08-water-pollution-control-author-agenda-wpca-special-agenda-6-8-26.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-psr-town-council-june-2026.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-stratford-solar-schools-and-town-bldgs-s.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-town-council-minutes-for-06-08-26.pdf
+  [2026-06-08] Town Council — Minutes
+    skip (exists)  2026-06-08-town-council-minutes-town-council-public-forum-minutes-06-08-.pdf
+  [2026-06-08] Water Pollution Control Authority (Wpca) — Minutes
+    skip (exists)  2026-06-08-water-pollution-control-author-minutes-wpca-minutes-for-06-08-26-28129.pdf
+
+Documents  — downloaded: 0  skipped: 36  failed: 0
+Files in: beat-archive/stratford-agendas
+
+2026-06-12 06:12:03 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:17:03 — Starting (6/7): download-wallingford-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Site        : https://www.wallingfordct.gov/minutes-and-agendas/
+Output dir  : beat-archive/wallingford-agendas
+
+Fetching minutes-and-agendas listing page (may be large)...
+Parsed 3596 document entries from listing page.
+
+Found 6 document(s) across 6 board(s).
+
+  skip (exists)  2026-06-15-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-12-wallingford-celebrates-america-250-agenda.pdf
+  skip (exists)  2026-06-12-committee-on-aging-agenda.pdf
+  skip (exists)  2026-06-11-plan-of-conservation-development-impleme-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+  skip (exists)  2026-06-08-planning-zoning-commission-agenda.pdf
+
+Documents  — downloaded: 0  skipped: 6  failed: 0
+Files in: beat-archive/wallingford-agendas
+
+2026-06-12 06:17:05 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:22:05 — Starting (7/7): download-west-haven-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-12  (4 days back)
+AgendaCenter: https://www.cityofwesthaven.com/AgendaCenter
+Output dir  : beat-archive/west-haven-agendas
+
+Fetching AgendaCenter index...
+Found 36 board(s).
+
+Found 26 meeting(s) with up to 28 document(s) in window.
+
+[2026-06-23] West Haven High School Building Committee
+  skip (exists)  2026-06-23-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-18] City Council
+  skip (exists)  2026-06-18-city-council-agenda.pdf
+[2026-06-18] City Council
+  skip (exists)  2026-06-18-city-council-agenda.pdf
+[2026-06-17] Zoning Board of Appeals
+  skip (exists)  2026-06-17-zoning-board-of-appeals-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-16] Inland Wetlands Watercourse Agency
+  skip (exists)  2026-06-16-inland-wetlands-watercourse-agency-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-10] Emergency Reporting System Administrative Authority
+  skip (exists)  2026-06-10-emergency-reporting-system-administrative-authority-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-09] West Haven High School Building Committee
+  skip (exists)  2026-06-09-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-09] Seniors Commission
+  skip (exists)  2026-06-09-seniors-commission-agenda.pdf
+[2026-06-09] Planning and Zoning Commission
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda.pdf
+[2026-06-09] City of West Haven Fire Department Allingtown Board of Commissioners
+  skip (exists)  2026-06-09-city-of-west-haven-fire-department-allingtown-board-of-commi-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+  skip (exists)  2026-06-09-city-council-minutes.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-08] City Council
+  skip (exists)  2026-06-08-city-council-agenda.pdf
+  skip (exists)  2026-06-08-city-council-minutes.pdf
+[2026-06-08] City Council
+  skip (exists)  2026-06-08-city-council-agenda.pdf
+Documents  — downloaded: 0  skipped: 28  failed: 0
+Files in: beat-archive/west-haven-agendas
+
+2026-06-12 06:22:06 — All Vinny scripts complete.
+Running download-hamden-agendas.py ...
+Cutoff date : 2026-06-09  (4 days back)
+Fetching    : https://www.hamden.com/AgendaCenter
+Output dir  : beat-archive/hamden-agendas
+
+Fetching AgendaCenter index...
+Found 45 board(s).
+
+Found 0 meeting(s) with up to 0 document(s) and 0 Zoom recording(s) in the past 4 days.
+
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to vincent.salzo@patch.com  (0 attachment(s), 0 skipped)
+2026-06-13 08:39:02 — berlin-through-hamden complete.
+Running download-meriden-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Portal      : https://meridencityct.documents-on-demand.com
+Output dir  : beat-archive/meriden-agendas
+
+Fetching folder tree from Documents-On-Demand API...
+Found 60 board(s).
+
+Found 10 document(s) across 6 board(s).
+
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agendas-special-meeting.pdf
+  skip (exists)  2026-06-16-board-of-education-agendas-cancellation.pdf
+  skip (exists)  2026-06-15-city-council-agendas-zoning-regulation-public-hearing-pa-25-1.pdf
+  skip (exists)  2026-06-15-city-council-agendas-public-hearing-packet.pdf
+  skip (exists)  2026-06-15-city-council-agendas-public-hearing.pdf
+  [2026-06-15] City Council — Agendas
+  downloading    2026-06-15-city-council-agendas-packet.pdf
+  [2026-06-15] City Council — Agendas
+  downloading    2026-06-15-city-council-agendas-agenda.pdf
+  skip (exists)  2026-06-10-planning-commission-agendas-cancellation.pdf
+  skip (exists)  2026-06-09-pension-board-agendas-packet.pdf
+  skip (exists)  2026-06-09-aviation-commission-agendas-packet.pdf
+
+Done — downloaded: 2  skipped: 8  failed: 0
+Files in: beat-archive/meriden-agendas
+Log:      beat-archive/meriden-agendas/download-log.txt
+  ERROR fetching https://meridencityct.documents-on-demand.com/meta/docfolder?containerId=4148008d-ef82-ed11-a3a0-000c29a59557: <urlopen error timed out>
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to vincent.salzo@patch.com  (2 attachment(s), 0 skipped)
+Running download-north-haven-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Site        : https://www.northhaven-ct.gov
+Video       : enabled (Vimeo / yt-dlp)
+Output dir  : beat-archive/north-haven-agendas
+
+Fetching public meetings index...
+Found 28 board(s) with year pages.
+
+Found 5 document(s) across 4 board(s).
+Found 1 video recording(s) in window.
+
+  [2026-06-16] Blight Prevention Appeals Board — Agenda
+  downloading    2026-06-16-blight-prevention-appeals-board-agenda.pdf
+  [2026-06-15] South Central CT Regional Water District — Agenda
+  downloading    2026-06-15-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-06-10-south-central-ct-regional-water-district-agenda.pdf
+  skip (exists)  2026-06-10-greater-new-haven-transit-district-agenda.pdf
+  skip (exists)  2026-06-10-board-of-finance-agenda.pdf
+  [2026-06-10] Board of Finance
+    skip (exists)  2026-06-10-board-of-finance-video.fhls-1863-1.mp4
+
+Documents  — downloaded: 2  skipped: 3  failed: 0
+Video      — downloaded: 0  skipped: 1  failed: 0
+Files in: beat-archive/north-haven-agendas
+Log:      beat-archive/north-haven-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to vincent.salzo@patch.com  (2 attachment(s), 0 skipped)
+Running download-stratford-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days)
+Portal      : https://www.stratfordct.gov
+Output dir  : beat-archive/stratford-agendas
+
+Fetching ThrillShare events...
+Found 15 event(s) in window.
+
+Loading root folder to map board IDs...
+Found 78 board(s) in root folder.
+
+Fetching agenda folders...
+  [2026-06-11] Arts Commission - Special Meeting
+  [2026-06-11] Architectural Review Board - Cancelled
+  [2026-06-10] Board of Education Liaison Committee
+  [2026-06-10] Zoning Commission Adminstrative Meeting - Cancelled
+  [2026-06-10] Waterfront and Harbor Management Commission
+  [2026-06-09] Commission on Aging
+  [2026-06-09] Public Safety Committee
+  [2026-06-09] Board of Education - Curriculum Committee
+  [2026-06-09] Conservation Commission Meeting
+  [2026-06-09] Shellfish Commission Meeting
+
+Fetching minutes folders...
+  architectural-review-board
+  arts-commission
+  board-of-education
+  board-of-education-liaison-committee
+  commission-on-aging
+  conservation-commission
+  public-safety-committee
+  shellfish-commission
+  waterfront-%26-harbor-management-commission
+  zoning-commission
+
+Found 21 document(s) in window.
+
+  [2026-06-11] Arts Commission — Agenda
+    skip (exists)  2026-06-11-arts-commission-agenda-arts-commission-schedule-for-2026.pdf
+  [2026-06-11] Arts Commission — Agenda
+    skip (exists)  2026-06-11-arts-commission-agenda-ac-special-meeting-agenda-61126.pdf
+  [2026-06-11] Architectural Review Board — Agenda
+    skip (exists)  2026-06-11-architectural-review-board-agenda-arb-2026-calendar-schedule.pdf
+  [2026-06-11] Architectural Review Board — Agenda
+    skip (exists)  2026-06-11-architectural-review-board-agenda-arb-6-11-26-cancellation.pdf
+  [2026-06-10] Board Of Education Liaison Committee — Agenda
+    skip (exists)  2026-06-10-board-of-education-liaison-com-agenda-agenda-boe-liaison-committee-june-10-202.pdf
+  [2026-06-10] Zoning Commission — Agenda
+    skip (exists)  2026-06-10-zoning-commission-agenda-zoning-meeting-schedule-2026.pdf
+  [2026-06-10] Zoning Commission — Agenda
+    skip (exists)  2026-06-10-zoning-commission-agenda-zoning-commission-administrative-meeting.pdf
+  [2026-06-10] Waterfront %26 Harbor Management Commission — Agenda
+    skip (exists)  2026-06-10-waterfront-26-harbor-managemen-agenda-wtrfrnt-hrbrtc.pdf
+  [2026-06-10] Waterfront %26 Harbor Management Commission — Agenda
+    skip (exists)  2026-06-10-waterfront-26-harbor-managemen-agenda-wtrfrnt-reg-adg2cdoc-5.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-commission-on-aging-schedule-for-2026.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-20260109131437377.pdf
+  [2026-06-09] Commission On Aging — Agenda
+    skip (exists)  2026-06-09-commission-on-aging-agenda-coa-agenda-june-92c-2026.pdf
+  [2026-06-09] Public Safety Committee — Agenda
+    skip (exists)  2026-06-09-public-safety-committee-agenda-public-safety-committee-agenda-for-06-09.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-stratford-board-of-education-schedule-fo.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-board-of-education-special-meeting-agend.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-6-9-26-curriculum-agenda.pdf
+  [2026-06-09] Board Of Education — Agenda
+    skip (exists)  2026-06-09-board-of-education-agenda-6-9-26-curriculum-agenda-revised-6-8-26.pdf
+  [2026-06-09] Conservation Commission — Agenda
+    skip (exists)  2026-06-09-conservation-commission-agenda-2026-conservation-commission-calendar.pdf
+  [2026-06-09] Conservation Commission — Agenda
+    skip (exists)  2026-06-09-conservation-commission-agenda-conservationcommission-6-9-26-agenda.pdf
+  [2026-06-09] Shellfish Commission — Agenda
+    skip (exists)  2026-06-09-shellfish-commission-agenda-2026-signed-meeting-schedule.pdf
+  [2026-06-09] Shellfish Commission — Agenda
+    skip (exists)  2026-06-09-shellfish-commission-agenda-ssc-agenda-for-06-09-2026.pdf
+
+Documents  — downloaded: 0  skipped: 21  failed: 0
+Files in: beat-archive/stratford-agendas
+  WARNING: no agenda URL found for: Flag Day (2026-06-14)
+  WARNING: no agenda URL found for: Marine Tag Sale (2026-06-13)
+  WARNING: no agenda URL found for: Mayor Chess's Office Hours (2026-06-10)
+  WARNING: no agenda URL found for: Neighborhood Association Meeting - Districts 3, 4, 5, and 6 (2026-06-10)
+  WARNING: no agenda URL found for: Neighborhood Association Meeting - Districts 1, 2, and 7 (2026-06-09)
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to vincent.salzo@patch.com  (0 attachment(s), 0 skipped)
+Running download-wallingford-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Site        : https://www.wallingfordct.gov/minutes-and-agendas/
+Video       : enabled (WGTV YouTube / yt-dlp)
+Output dir  : beat-archive/wallingford-agendas
+
+Fetching minutes-and-agendas listing page (may be large)...
+Parsed 3596 document entries from listing page.
+
+Found 5 document(s) across 5 board(s).
+
+  skip (exists)  2026-06-15-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-12-wallingford-celebrates-america-250-agenda.pdf
+  skip (exists)  2026-06-12-committee-on-aging-agenda.pdf
+  skip (exists)  2026-06-11-plan-of-conservation-development-impleme-agenda.pdf
+  skip (exists)  2026-06-09-town-council-agenda.pdf
+
+Fetching WGTV YouTube channel listing...
+Found 956 video(s) on channel. Filtering by date window...
+Found 2 meeting recording(s) in window.
+
+  [2026-06-11] Plan of Conservation & Development - Final Public Meeting - Thursday, June 11, 2026
+    skip (exists)  2026-06-11-plan-of-conservation-development-final-public-meeting-thursd.f140.m4a
+  [2026-06-09] Town Council - Regular Meeting - Tuesday, June 9, 2026
+    skip (exists)  2026-06-09-town-council-regular-meeting-tuesday-june-9-2026.f251.webm
+Documents  — downloaded: 0  skipped: 5  failed: 0
+Video      — downloaded: 0  skipped: 2  failed: 0
+Files in: beat-archive/wallingford-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to vincent.salzo@patch.com  (0 attachment(s), 0 skipped)
+Running download-west-haven-agendas.py ...
+Date window : 2026-06-09 to 2026-06-13  (4 days back)
+AgendaCenter: https://www.cityofwesthaven.com/AgendaCenter
+Video       : enabled (YouTube / yt-dlp)
+Output dir  : beat-archive/west-haven-agendas
+
+Fetching AgendaCenter index...
+Found 36 board(s).
+
+Found 27 meeting(s) with up to 30 document(s) in window.
+
+[2026-06-23] West Haven High School Building Committee
+  skip (exists)  2026-06-23-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-18] City Council
+  skip (exists)  2026-06-18-city-council-agenda.pdf
+[2026-06-18] City Council
+  skip (exists)  2026-06-18-city-council-agenda.pdf
+[2026-06-17] Zoning Board of Appeals
+  skip (exists)  2026-06-17-zoning-board-of-appeals-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-17] City Council
+  skip (exists)  2026-06-17-city-council-agenda.pdf
+[2026-06-16] Inland Wetlands Watercourse Agency
+  skip (exists)  2026-06-16-inland-wetlands-watercourse-agency-agenda.pdf
+[2026-06-16] Board of Health
+  downloading    2026-06-16-board-of-health-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-15] City Council
+  skip (exists)  2026-06-15-city-council-agenda.pdf
+[2026-06-10] Emergency Reporting System Administrative Authority
+  skip (exists)  2026-06-10-emergency-reporting-system-administrative-authority-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+  downloading    2026-06-10-city-council-minutes.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-10] City Council
+  skip (exists)  2026-06-10-city-council-agenda.pdf
+[2026-06-09] West Haven High School Building Committee
+  skip (exists)  2026-06-09-west-haven-high-school-building-committee-agenda.pdf
+[2026-06-09] Seniors Commission
+  skip (exists)  2026-06-09-seniors-commission-agenda.pdf
+[2026-06-09] Planning and Zoning Commission
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda.pdf
+[2026-06-09] City of West Haven Fire Department Allingtown Board of Commissioners
+  skip (exists)  2026-06-09-city-of-west-haven-fire-department-allingtown-board-of-commi-agenda.pdf
+  downloading    2026-06-09-city-of-west-haven-fire-department-allingtown-board-of-commi-minutes.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+  skip (exists)  2026-06-09-city-council-minutes.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+[2026-06-09] City Council
+  skip (exists)  2026-06-09-city-council-agenda.pdf
+Fetching YouTube channel listing...
+Found 2 meeting recording(s) in window.
+
+  [2026-06-10] City Council Special Meeting
+    skip (exists)  2026-06-10-city-council-special-meeting.f140.m4a
+  [2026-06-09] City Council Special Meeting
+    skip (exists)  2026-06-09-city-council-special-meeting.f251.webm
+Documents  — downloaded: 3  skipped: 27  failed: 0
+Video      — downloaded: 0  skipped: 2  failed: 0
+Files in: beat-archive/west-haven-agendas
+Log:      beat-archive/west-haven-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to vincent.salzo@patch.com  (3 attachment(s), 0 skipped)
+2026-06-13 09:22:50 — farmington-through-shelton complete.

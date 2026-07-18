@@ -1,0 +1,310 @@
+Running download-enfield-agendas.py ...
+Date window : 2026-06-06 to 2026-06-17
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  21 event(s) in window
+
+  16 document(s) matched
+  3 recording(s) matched
+
+Downloading 16 document(s)...
+  skip (exists)  2026-06-12-tc-boe-security-committee-tc-boe-joint-security-committe-agenda.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 3 recording(s)...
+  [2026-06-09] Conservation Commission — Conservation Commission Regular Meeting  [MP3]
+  downloading    2026-06-09-conservation-commission-conservation-commission-r-98807e4c-9d2.mp3
+  [2026-06-09] Board of Education — Board of Education Regular Meeting  [MP4]
+  downloading    2026-06-09-board-of-education-board-of-education-regula-cba40677-a80.mp4
+  [2026-06-09] Agricultural Commission — Agriculture Commission Regular Meeting  [MP3]
+  downloading    2026-06-09-agricultural-commission-agriculture-commission-re-c6662ee7-38a.mp3
+
+Done — downloaded: 0  skipped: 16  failed: 3
+Files in: beat-archive/enfield-agendas
+Log:      beat-archive/enfield-agendas/download-log.txt
+  WARNING: The read operation timed out
+  WARNING: <urlopen error [Errno -2] Name or service not known>
+  WARNING: <urlopen error [Errno -2] Name or service not known>
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Traceback (most recent call last):
+  File "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/send-enfield-docs.py", line 164, in <module>
+    main()
+  File "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/send-enfield-docs.py", line 160, in main
+    send_email(files, log)
+  File "/home/richkirby/SpiderOak Hive/Code/GitHubProjects/Clinton-Claude/scripts/send-enfield-docs.py", line 128, in send_email
+    with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as server:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+Date window : 2026-06-06 to 2026-06-17
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  21 event(s) in window
+
+  16 document(s) matched
+  3 recording(s) matched
+
+Downloading 16 document(s)...
+  skip (exists)  2026-06-12-tc-boe-security-committee-tc-boe-joint-security-committe-agenda.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 3 recording(s)...
+  [2026-06-09] Conservation Commission — Conservation Commission Regular Meeting  [MP3]
+  downloading    2026-06-09-conservation-commission-conservation-commission-r-98807e4c-9d2.mp3
+  [2026-06-09] Board of Education — Board of Education Regular Meeting  [MP4]
+  downloading    2026-06-09-board-of-education-board-of-education-regula-cba40677-a80.mp4
+  [2026-06-09] Agricultural Commission — Agriculture Commission Regular Meeting  [MP3]
+  downloading    2026-06-09-agricultural-commission-agriculture-commission-re-c6662ee7-38a.mp3
+
+Done — downloaded: 3  skipped: 16  failed: 0
+Files in: beat-archive/enfield-agendas
+Log:      beat-archive/enfield-agendas/download-log.txt
+Running download-enfield-agendas.py ...
+Date window : 2026-06-06 to 2026-06-17
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  21 event(s) in window
+
+  16 document(s) matched
+  3 recording(s) matched
+
+Downloading 16 document(s)...
+  skip (exists)  2026-06-12-tc-boe-security-committee-tc-boe-joint-security-committe-agenda.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 3 recording(s)...
+  skip (archive) event 5868  Conservation Commission
+  skip (archive) event 5910  Board of Education
+  skip (archive) event 5856  Agricultural Commission
+
+Done — downloaded: 0  skipped: 19  failed: 0
+Files in: beat-archive/enfield-agendas
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (0 attachment(s), 3 skipped)
+2026-06-10 13:18:12 — Enfield send complete.
+Running download-enfield-agendas.py ...
+Date window : 2026-06-07 to 2026-06-18
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  26 event(s) in window
+
+  16 document(s) matched
+  4 recording(s) matched
+
+Downloading 16 document(s)...
+  [2026-06-18] America250 Coordinating Committee — Agenda
+  downloading    2026-06-18-america250-coordinating-committee-america-250-coordinating-commi-agenda.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 4 recording(s)...
+  [2026-06-10] Planning & Zoning Commission — Planning & Zoning Commission Regular Mee  [MP4]
+  downloading    2026-06-10-planning-zoning-commission-planning-zoning-commissio-1d99f12d77.mp4
+  skip (archive) event 5868  Conservation Commission
+  skip (archive) event 5910  Board of Education
+  skip (archive) event 5856  Agricultural Commission
+
+Done — downloaded: 2  skipped: 18  failed: 0
+Files in: beat-archive/enfield-agendas
+Log:      beat-archive/enfield-agendas/download-log.txt
+Running download-enfield-agendas.py ...
+Date window : 2026-06-07 to 2026-06-18
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  26 event(s) in window
+
+  16 document(s) matched
+  4 recording(s) matched
+
+Downloading 16 document(s)...
+  skip (exists)  2026-06-18-america250-coordinating-committee-america-250-coordinating-commi-agenda.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 4 recording(s)...
+  skip (archive) event 7228  Planning & Zoning Commission
+  skip (archive) event 5868  Conservation Commission
+  skip (archive) event 5910  Board of Education
+  skip (archive) event 5856  Agricultural Commission
+
+Done — downloaded: 0  skipped: 20  failed: 0
+Files in: beat-archive/enfield-agendas
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (1 attachment(s), 4 skipped)
+2026-06-11 06:59:02 — Enfield send complete.
+2026-06-12 05:45:58 — Enfield download starting.
+Date window : 2026-06-08 to 2026-06-19
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  27 event(s) in window
+
+  18 document(s) matched
+  4 recording(s) matched
+
+Downloading 18 document(s)...
+  [2026-06-18] Board of Education — Notice
+  downloading    2026-06-18-board-of-education-boe-curriculum-committee-regul-notice.pdf
+  skip (exists)  2026-06-18-america250-coordinating-committee-america-250-coordinating-commi-agenda.pdf
+  [2026-06-16] Board of Education — Notice
+  downloading    2026-06-16-board-of-education-boe-policy-committee-regular-m-notice.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 4 recording(s)...
+  skip (archive) event 7228  Planning & Zoning Commission
+  skip (archive) event 5868  Conservation Commission
+  skip (archive) event 5910  Board of Education
+  skip (archive) event 5856  Agricultural Commission
+
+Done — downloaded: 2  skipped: 20  failed: 0
+Files in: beat-archive/enfield-agendas
+Log:      beat-archive/enfield-agendas/download-log.txt
+2026-06-12 05:46:02 — Enfield download complete.
+2026-06-12 07:02:20 — Enfield send starting.
+Running download-enfield-agendas.py ...
+Date window : 2026-06-08 to 2026-06-19
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  27 event(s) in window
+
+  18 document(s) matched
+  4 recording(s) matched
+
+Downloading 18 document(s)...
+  skip (exists)  2026-06-18-board-of-education-boe-curriculum-committee-regul-notice.pdf
+  skip (exists)  2026-06-18-america250-coordinating-committee-america-250-coordinating-commi-agenda.pdf
+  skip (exists)  2026-06-16-board-of-education-boe-policy-committee-regular-m-notice.pdf
+  skip (exists)  2026-06-11-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-06-10-public-safety-subcommittee-public-safety-subcommittee-reg-agenda.pdf
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-10-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-06-10-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-06-09-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-08-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+
+Downloading 4 recording(s)...
+  skip (archive) event 7228  Planning & Zoning Commission
+  skip (archive) event 5868  Conservation Commission
+  skip (archive) event 5910  Board of Education
+  skip (archive) event 5856  Agricultural Commission
+
+Done — downloaded: 0  skipped: 22  failed: 0
+Files in: beat-archive/enfield-agendas
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (2 attachment(s), 0 skipped)
+2026-06-12 07:02:24 — Enfield send complete.

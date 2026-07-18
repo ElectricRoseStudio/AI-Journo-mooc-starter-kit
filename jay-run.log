@@ -1,0 +1,1363 @@
+==============================
+2026-06-06 09:37:52 — Starting (1/11): download-east-granby-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Years       : 2026
+Site        : https://eastgranbyct.org
+Output dir  : beat-archive/east-granby-agendas
+
+Scanning 12 board(s) for documents...
+  Board of Selectmen: 6 item(s)
+  Board of Finance: 7 item(s)
+  Board of Education: 7 item(s)
+  Planning & Zoning Commission: 5 item(s)
+  Zoning Board of Appeals: 1 item(s)
+  Inland Wetlands & Conservation Comm.: 2 item(s)
+  Commission on Aging: 1 item(s)
+  Parks & Recreation Commission: 3 item(s)
+  Economic Development Commission: 2 item(s)
+  Youth Services Commission: 1 item(s)
+
+Downloading 35 document(s)...
+  [2026-05-07] Board of Finance — minutes
+  downloading    2026-05-07-board-of-finance-minutes-bof-minutes.pdf
+  [2026-05-07] Board of Finance — agenda
+  downloading    2026-05-07-board-of-finance-agenda-bof-agenda.pdf
+  [2026-05-07] Parks & Recreation Commission — minutes
+  downloading    2026-05-07-parks-recreation-commission-minutes-pr-minutes.pdf
+  [2026-05-07] Parks & Recreation Commission — agenda
+  downloading    2026-05-07-parks-recreation-commission-agenda-pr-agenda.pdf
+  [2026-05-11] Board of Education — minutes
+  downloading    2026-05-11-board-of-education-minutes-boe-regular-meeting-minutes.pdf
+  [2026-05-11] Board of Education — agenda
+  downloading    2026-05-11-board-of-education-agenda-boe-regular-meeting-agenda.pdf
+  [2026-05-11] Board of Selectmen — minutes
+  downloading    2026-05-11-board-of-selectmen-minutes-bos-special-meeting-minutes.pdf
+  [2026-05-11] Board of Selectmen — agenda
+  downloading    2026-05-11-board-of-selectmen-agenda-bos-special-meeting-agenda.pdf
+  [2026-05-12] Planning & Zoning Commission — minutes
+  downloading    2026-05-12-planning-zoning-commission-minutes-pzc-minutes.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda-pzc-pocd-workshop-agenda.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda-pzc-agenda.pdf
+  [2026-05-13] Board of Selectmen — minutes
+  downloading    2026-05-13-board-of-selectmen-minutes-bos-minutes.pdf
+  [2026-05-13] Board of Selectmen — agenda
+  downloading    2026-05-13-board-of-selectmen-agenda-bos-agenda.pdf
+  [2026-05-18] Board of Finance — agenda
+  downloading    2026-05-18-board-of-finance-agenda-bof-presentation-final.pdf
+  [2026-05-18] Economic Development Commission — minutes
+  downloading    2026-05-18-economic-development-commission-minutes-edc-minutes.pdf
+  [2026-05-18] Economic Development Commission — agenda
+  downloading    2026-05-18-economic-development-commission-agenda-edc-agenda.pdf
+  [2026-05-18] Youth Services Commission — agenda
+  downloading    2026-05-18-youth-services-commission-agenda-ysc-agenda.pdf
+  [2026-05-19] Board of Finance — minutes
+  downloading    2026-05-19-board-of-finance-minutes-bof-minutes.pdf
+  [2026-05-19] Board of Finance — agenda
+  downloading    2026-05-19-board-of-finance-agenda-bof-agenda.pdf
+  [2026-05-21] Board of Education — minutes
+  downloading    2026-05-21-board-of-education-minutes-boe-curriculum-subcommittee-me.pdf
+  [2026-05-21] Board of Education — agenda
+  downloading    2026-05-21-board-of-education-agenda-boe-curriculum-sub-committee-m.pdf
+  [2026-05-26] Board of Education — minutes
+  downloading    2026-05-26-board-of-education-minutes-boe-regular-meeting-minutes.pdf
+  [2026-05-26] Board of Education — agenda
+  downloading    2026-05-26-board-of-education-agenda-boe-regular-meeting-agenda.pdf
+  [2026-05-26] Board of Finance — minutes
+  downloading    2026-05-26-board-of-finance-minutes-bof-minutes.pdf
+  [2026-05-26] Board of Finance — agenda
+  downloading    2026-05-26-board-of-finance-agenda-bof-special-agenda.pdf
+  [2026-05-27] Board of Selectmen — minutes
+  downloading    2026-05-27-board-of-selectmen-minutes-bos-minutes.pdf
+  [2026-05-27] Board of Selectmen — agenda
+  downloading    2026-05-27-board-of-selectmen-agenda-bos-agenda.pdf
+  [2026-05-28] Zoning Board of Appeals — agenda
+  downloading    2026-05-28-zoning-board-of-appeals-agenda-zba-cancellation.pdf
+  [2026-06-02] Commission on Aging — agenda
+  downloading    2026-06-02-commission-on-aging-agenda-coa-agenda.pdf
+  [2026-06-03] Inland Wetlands & Conservation Comm. — minutes
+  downloading    2026-06-03-inland-wetlands-conservation-comm-minutes-iwcc-minutes.pdf
+  [2026-06-03] Inland Wetlands & Conservation Comm. — agenda
+  downloading    2026-06-03-inland-wetlands-conservation-comm-agenda-iwcc-agenda.pdf
+  [2026-06-04] Parks & Recreation Commission — agenda
+  downloading    2026-06-04-parks-recreation-commission-agenda-pr-agenda.pdf
+  [2026-06-08] Board of Education — agenda
+  downloading    2026-06-08-board-of-education-agenda-boe-meeting-cancellation-notic.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda-pzc-pocd-workshop-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda-pzc-agenda.pdf
+
+Done — downloaded: 35  skipped: 0  failed: 0
+Files in: beat-archive/east-granby-agendas
+Log:      beat-archive/east-granby-agendas/download-log.txt
+
+2026-06-06 09:39:01 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 09:44:01 — Starting (2/11): download-east-windsor-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.eastwindsor-ct.gov/agendacenter
+Output dir  : beat-archive/east-windsor-agendas
+
+Fetching hub page to discover board categories...
+  Found 31 board category/categories.
+Searching for meetings in date window...
+  Found 44 meeting(s) with documents in date window.
+
+Fetching YouTube channel RSS for recent meeting recordings...
+  Found 10 recording(s) in window.
+
+  skip (exists)  2026-06-10-board-of-education-561-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-560-agenda.pdf
+  skip (exists)  2026-06-09-arts-and-culture-committee-551-agenda.pdf
+  skip (exists)  2026-06-08-charter-revision-commission-555-agenda.pdf
+  skip (exists)  2026-06-04-town-meeting-549-agenda.pdf
+  [2026-06-04] Town Meeting — minutes
+  downloading    2026-06-04-town-meeting-549-minutes.pdf
+  skip (exists)  2026-06-04-board-of-selectmen-552-agenda.pdf
+  [2026-06-04] Board of Selectmen — minutes
+  downloading    2026-06-04-board-of-selectmen-552-minutes.pdf
+  skip (exists)  2026-06-03-planning-zoning-commission-542-agenda.pdf
+  [2026-06-03] Planning & Zoning Commission — minutes
+  downloading    2026-06-03-planning-zoning-commission-542-minutes.pdf
+  skip (exists)  2026-06-03-inland-wetlands-watercourses-agency-548-agenda.pdf
+  skip (exists)  2026-06-03-inland-wetlands-watercourses-agency-548-minutes.pdf
+  skip (exists)  2026-06-03-ad-hoc-school-facilities-committee-550-agenda.pdf
+  skip (exists)  2026-06-02-elderly-commission-546-agenda.pdf
+  skip (exists)  2026-06-02-elderly-commission-546-minutes.pdf
+  skip (exists)  2026-06-02-economic-development-commission-547-agenda.pdf
+  skip (exists)  2026-06-01-zoning-board-of-appeals-536-agenda.pdf
+  skip (exists)  2026-06-01-zoning-board-of-appeals-536-minutes.pdf
+  skip (exists)  2026-06-01-warehouse-point-fire-district-543-agenda.pdf
+  skip (exists)  2026-06-01-public-hearings-556-agenda.pdf
+  skip (exists)  2026-06-01-public-hearings-556-minutes.pdf
+  skip (exists)  2026-06-01-board-of-finance-539-agenda.pdf
+  skip (exists)  2026-06-01-board-of-finance-539-minutes.pdf
+  skip (exists)  2026-06-01-board-of-finance-540-agenda.pdf
+  skip (exists)  2026-06-01-board-of-finance-540-minutes.pdf
+  skip (exists)  2026-05-28-conservation-commission-545-agenda.pdf
+  skip (exists)  2026-05-28-conservation-commission-545-minutes.pdf
+  skip (exists)  2026-05-28-agricultural-commission-544-agenda.pdf
+  skip (exists)  2026-05-28-agricultural-commission-544-minutes.pdf
+  skip (exists)  2026-05-27-water-pollution-control-authority-526-agenda.pdf
+  skip (exists)  2026-05-27-water-pollution-control-authority-526-minutes.pdf
+  skip (exists)  2026-05-27-east-windsor-housing-authority-541-agenda.pdf
+  skip (exists)  2026-05-27-east-windsor-housing-authority-541-minutes.pdf
+  skip (exists)  2026-05-27-board-of-education-538-agenda.pdf
+  skip (exists)  2026-05-27-board-of-education-534-agenda.pdf
+  skip (exists)  2026-05-26-planning-zoning-commission-537-agenda.pdf
+  skip (exists)  2026-05-22-board-of-education-535-agenda.pdf
+  skip (exists)  2026-05-21-board-of-selectmen-530-agenda.pdf
+  skip (exists)  2026-05-21-board-of-selectmen-530-minutes.pdf
+  skip (exists)  2026-05-21-american-heritage-river-commission-524-agenda.pdf
+  skip (exists)  2026-05-20-east-windsor-housing-authority-533-agenda.pdf
+  skip (exists)  2026-05-20-board-of-finance-523-agenda.pdf
+  skip (exists)  2026-05-20-board-of-finance-523-minutes.pdf
+  skip (exists)  2026-05-20-american-heritage-river-commission-525-agenda.pdf
+  skip (exists)  2026-05-20-american-heritage-river-commission-525-minutes.pdf
+  skip (exists)  2026-05-18-town-of-east-windsor-broad-brook-fire-departm-509-agenda.pdf
+  skip (exists)  2026-05-18-town-of-east-windsor-broad-brook-fire-departm-509-minutes.pdf
+  skip (exists)  2026-05-18-bmx-committee-502-agenda.pdf
+  skip (exists)  2026-05-18-bmx-committee-502-minutes.pdf
+  skip (exists)  2026-05-14-veterans-commission-515-agenda.pdf
+  skip (exists)  2026-05-14-board-of-education-522-agenda.pdf
+  skip (exists)  2026-05-13-veterans-commission-516-agenda.pdf
+  skip (exists)  2026-05-13-veterans-commission-516-minutes.pdf
+  skip (exists)  2026-05-13-public-hearings-501-agenda.pdf
+  skip (exists)  2026-05-13-public-hearings-501-minutes.pdf
+  skip (exists)  2026-05-13-police-commission-519-agenda.pdf
+  skip (exists)  2026-05-13-police-commission-519-minutes.pdf
+  skip (exists)  2026-05-13-board-of-finance-503-agenda.pdf
+  skip (exists)  2026-05-13-board-of-finance-503-minutes.pdf
+  skip (exists)  2026-05-13-board-of-finance-504-agenda.pdf
+  skip (exists)  2026-05-13-board-of-finance-504-minutes.pdf
+  skip (exists)  2026-05-13-board-of-education-521-agenda.pdf
+  skip (exists)  2026-05-12-planning-zoning-commission-517-agenda.pdf
+  skip (exists)  2026-05-12-arts-and-culture-committee-511-agenda.pdf
+  skip (exists)  2026-05-12-arts-and-culture-committee-511-minutes.pdf
+  skip (exists)  2026-05-11-parks-recreation-commission-518-agenda.pdf
+  skip (exists)  2026-05-11-charter-revision-commission-520-agenda.pdf
+  skip (exists)  2026-05-07-board-of-selectmen-510-agenda.pdf
+  skip (exists)  2026-05-07-board-of-selectmen-510-minutes.pdf
+
+Downloading 10 YouTube recording(s)...
+  [2026-06-05] Board of Selectmen Regular Meeting - June 4, 2026
+  skip (archive) -9AP43h6uhg
+  [2026-06-04] IWWA Meeting 6.3.2026
+  skip (archive) 8UfceOFLZTE
+  [2026-06-02] Zoning Board of Appeals Meeting 6/1/2026
+  skip (archive) F_d4gNP_pKc
+  [2026-06-02] Board of Finance FY 26-27 Budget Special Meeting, Monday June 1, 2026
+  skip (archive) --czKxdwvs4
+  [2026-06-02] Board of Finance FY 26-27 Budget Public Hearing, June 1, 2026
+  skip (archive) ZqaakmAzGq4
+  [2026-05-22] Board of Selectmen Regular Meeting - May 21, 2026
+  skip (archive) ppUAneU97Qc
+  [2026-05-21] Board of Finance Wednesday, May 20, 2026
+  skip (archive) XFKDNuOzgVQ
+  [2026-05-14] Board of Finance, Wednesday, May 13, 2026 Special Meeting
+  skip (archive) 6AuAHFlVCJk
+  [2026-05-14] Board of Finance, Wednesday May 13, 2026 FY 26-27 Budget Public Hearing
+  skip (archive) KMXS576-6h0
+  [2026-05-08] Board of Selectmen Regular Meeting - May 7th, 2026
+  skip (archive) bj7HJDN_vPo
+
+Done — downloaded: 4  skipped: 75  failed: 0
+Files in: beat-archive/east-windsor-agendas
+Log:      beat-archive/east-windsor-agendas/download-log.txt
+
+2026-06-06 09:44:08 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 09:49:08 — Starting (3/11): download-ellington-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.ellington-ct.gov/government/agendas-and-minutes
+Output dir  : beat-archive/ellington-agendas
+
+Fetching agendas hub to discover boards and collection IDs...
+  Found 33 board(s).
+Fetching document collections...
+  Found 39 document(s) in date window.
+
+Fetching BOS and BOF pages for Zoom recordings...
+  Found 3 Zoom recording(s) in window.
+
+  skip (exists)  2026-06-09-hall-memorial-library-board-of-trustees-agenda-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-agenda-regular-meeting.pdf
+  skip (exists)  2026-06-08-inland-wetlands-agency-agenda-cancellation-notice.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-agenda-regular-meeting.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-agenda-public-hearing.pdf
+  skip (exists)  2026-06-03-ellington-trails-committee-agenda-regular-meeting.pdf
+  skip (exists)  2026-06-03-ad-hoc-committee-on-diversity-and-inclus-agenda-regular-meeting.pdf
+  skip (exists)  2026-06-02-ethics-commission-agenda-.pdf
+  skip (exists)  2026-06-02-board-of-finance-agenda-regular-meeting.pdf
+  skip (exists)  2026-06-01-zoning-board-of-appeals-agenda-regular-meeting.pdf
+  skip (exists)  2026-06-01-zoning-board-of-appeals-minutes-regular-meeting-minutes.pdf
+  skip (exists)  2026-06-01-human-services-commission-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-28-board-of-finance-agenda-special-meeting.pdf
+  skip (exists)  2026-05-26-housing-authority-agenda-cancellation.pdf
+  skip (exists)  2026-05-26-housing-authority-agenda-agenda.pdf
+  skip (exists)  2026-05-26-board-of-finance-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-26-board-of-finance-minutes-regular-meeting.pdf
+  skip (exists)  2026-05-21-ad-hoc-committee-comprehensive-lighting--agenda-regular-meeting-cancelled.pdf
+  skip (exists)  2026-05-20-water-pollution-control-authority-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-20-water-pollution-control-authority-minutes-regular-meeting.pdf
+  skip (exists)  2026-05-20-patriotic-committee-agenda-special-meeting.pdf
+  skip (exists)  2026-05-19-hall-memorial-library-board-of-trustees-agenda-agenda.pdf
+  skip (exists)  2026-05-19-hall-memorial-library-board-of-trustees-minutes-minutes.pdf
+  skip (exists)  2026-05-19-conservation-commission-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-19-board-of-finance-agenda-meeting-cancellation.pdf
+  skip (exists)  2026-05-18-planning-zoning-commission-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-18-planning-zoning-commission-minutes-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-13-permanent-building-committee-agenda-.pdf
+  skip (exists)  2026-05-13-permanent-building-committee-minutes-.pdf
+  skip (exists)  2026-05-13-parks-and-recreation-commission-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-13-parks-and-recreation-commission-minutes-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-13-economic-development-commission-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-13-economic-development-commission-minutes-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-12-town-meeting-minutes-minutes.pdf
+  skip (exists)  2026-05-11-town-policies-committee-agenda-.pdf
+  skip (exists)  2026-05-11-town-policies-committee-minutes-.pdf
+  skip (exists)  2026-05-11-inland-wetlands-agency-agenda-cancellation-notice.pdf
+  skip (exists)  2026-05-11-board-of-selectmen-agenda-regular-meeting.pdf
+  skip (exists)  2026-05-11-board-of-selectmen-minutes-regular-meeting-minutes.pdf
+
+Downloading 3 Zoom recording(s)...
+  NOTE: Zoom share links may require a passcode; yt-dlp may not succeed.
+  [2026-05-12] Board of Selectmen — May 12th Town Meeting
+  skip (archive)
+  [2026-05-12] Board of Selectmen — May 12th Regular Meeting
+  skip (archive)
+  [2026-05-11] Board of Selectmen — May 11th Regular Meeting
+  skip (archive)
+
+Done — downloaded: 0  skipped: 42  failed: 0
+Files in: beat-archive/ellington-agendas
+
+2026-06-06 09:49:47 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 09:54:47 — Starting (4/11): download-enfield-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Output dir  : beat-archive/enfield-agendas
+
+Fetching events from CivicClerk API...
+  75 event(s) in window
+
+  89 document(s) matched
+  19 recording(s) matched
+
+Downloading 89 document(s)...
+  skip (exists)  2026-06-10-prison-town-liaison-committee-prison-town-liaison-committee--agenda.pdf
+  [2026-06-10] Planning & Zoning Commission — Agenda
+  downloading    2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  [2026-06-10] Planning & Zoning Commission — Agenda Packet
+  downloading    2026-06-10-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-06-09-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  [2026-06-09] Conservation Commission — Agenda
+  downloading    2026-06-09-conservation-commission-conservation-commission-regula-agenda.pdf
+  [2026-06-09] Conservation Commission — Agenda Packet
+  downloading    2026-06-09-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  [2026-06-09] Board of Education — Agenda
+  downloading    2026-06-09-board-of-education-board-of-education-regular-mee-agenda.pdf
+  [2026-06-09] Agricultural Commission — Agenda
+  downloading    2026-06-09-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  [2026-06-09] Agricultural Commission — Agenda Packet
+  downloading    2026-06-09-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-06-04-board-of-education-special-boe-policy-committee-m-agenda.pdf
+  skip (exists)  2026-06-04-blight-review-committee-blight-review-committee-regula-agenda.pdf
+  [2026-06-04] Blight Review Committee — Minutes
+  downloading    2026-06-04-blight-review-committee-blight-review-committee-regula-minutes.pdf
+  skip (exists)  2026-06-03-tax-increment-financing-advisory-co-tax-increment-financing-adviso-agenda.pdf
+  skip (exists)  2026-06-03-economic-development-commission-economic-development-commissio-agenda.pdf
+  skip (exists)  2026-06-02-inland-wetlands-watercourses-agency-inland-wetlands-watercourses-a-agenda.pdf
+  skip (exists)  2026-06-02-inland-wetlands-watercourses-agency-inland-wetlands-watercourses-a-agenda-packet.pdf
+  skip (exists)  2026-06-01-water-pollution-control-authority-water-pollution-control-author-agenda.pdf
+  skip (exists)  2026-06-01-water-pollution-control-authority-water-pollution-control-author-minutes.pdf
+  skip (exists)  2026-06-01-town-council-town-council-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-01-town-council-town-council-regular-meeting-agenda-packet.pdf
+  skip (exists)  2026-06-01-board-of-education-boe-finance-budget-committee-agenda.pdf
+  skip (exists)  2026-05-28-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-05-28-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-05-28-planning-zoning-commission-planning-zoning-commission-reg-minutes.pdf
+  skip (exists)  2026-05-28-aquifer-protection-agency-aquifer-protection-agency-regu-agenda.pdf
+  skip (exists)  2026-05-28-america250-coordinating-committee-america250-coordinating-commit-agenda.pdf
+  skip (exists)  2026-05-28-america250-coordinating-committee-america250-coordinating-commit-minutes.pdf
+  skip (exists)  2026-05-27-historic-district-commission-historic-district-commission-r-agenda.pdf
+  skip (exists)  2026-05-27-fair-rent-commission-fair-rent-commission-regular-m-agenda.pdf
+  skip (exists)  2026-05-26-policy-and-procedure-subcommittee-policy-procedure-subcommittee-agenda.pdf
+  skip (exists)  2026-05-26-charter-revision-commission-charter-revision-commission-re-agenda.pdf
+  skip (exists)  2026-05-26-board-of-education-boe-special-meeting-agenda.pdf
+  skip (exists)  2026-05-26-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-05-26-board-of-education-board-of-education-regular-mee-minutes.pdf
+  skip (exists)  2026-05-22-tc-boe-joint-insurance-subcommittee-joint-health-insurance-subcomm-agenda.pdf
+  skip (exists)  2026-05-21-charter-revision-commission-charter-revision-commission-re-agenda.pdf
+  skip (exists)  2026-05-21-charter-revision-commission-charter-revision-commission-re-minutes.pdf
+  skip (exists)  2026-05-21-charter-revision-commission-charter-revision-commission-pu-agenda.pdf
+  skip (exists)  2026-05-21-charter-revision-commission-charter-revision-commission-pu-minutes.pdf
+  skip (exists)  2026-05-21-charter-revision-commission-charter-revision-commission-pu-notice.pdf
+  skip (exists)  2026-05-21-board-of-education-boe-curriculum-committee-regul-agenda.pdf
+  skip (exists)  2026-05-20-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-agenda.pdf
+  skip (exists)  2026-05-20-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-and-ea-minutes.pdf
+  skip (exists)  2026-05-20-board-of-education-boe-special-meeting-agenda.pdf
+  skip (exists)  2026-05-19-inland-wetlands-watercourses-agency-inland-wetlands-watercourses-a-agenda.pdf
+  skip (exists)  2026-05-19-inland-wetlands-watercourses-agency-inland-wetlands-watercourses-a-agenda-packet.pdf
+  skip (exists)  2026-05-19-inland-wetlands-watercourses-agency-inland-wetlands-watercourses-a-minutes.pdf
+  skip (exists)  2026-05-19-charter-revision-commission-charter-revision-commission-re-agenda.pdf
+  skip (exists)  2026-05-19-board-of-education-boe-policy-committee-regular-m-agenda.pdf
+  skip (exists)  2026-05-18-zoning-board-of-appeals-zoning-board-of-appeals-regula-agenda.pdf
+  skip (exists)  2026-05-18-zoning-board-of-appeals-zoning-board-of-appeals-regula-agenda-packet.pdf
+  skip (exists)  2026-05-18-zoning-board-of-appeals-zoning-board-of-appeals-regula-minutes.pdf
+  skip (exists)  2026-05-18-town-council-town-council-special-meeting-agenda.pdf
+  skip (exists)  2026-05-18-town-council-town-council-special-meeting-minutes.pdf
+  skip (exists)  2026-05-18-town-council-town-council-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-18-town-council-town-council-regular-meeting-agenda-packet.pdf
+  skip (exists)  2026-05-18-town-council-town-council-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-15-general-government-subcommittee-general-government-subcommitte-agenda.pdf
+  skip (exists)  2026-05-15-general-government-subcommittee-general-government-subcommitte-minutes.pdf
+  skip (exists)  2026-05-14-planning-zoning-commission-planning-zoning-commission-reg-agenda.pdf
+  skip (exists)  2026-05-14-planning-zoning-commission-planning-zoning-commission-reg-agenda-packet.pdf
+  skip (exists)  2026-05-14-planning-zoning-commission-planning-zoning-commission-reg-minutes.pdf
+  skip (exists)  2026-05-14-joint-facilities-committee-joint-facilities-committee-reg-agenda.pdf
+  skip (exists)  2026-05-14-enfield-culture-and-arts-commission-ecac-special-zoom-meeting-agenda.pdf
+  skip (exists)  2026-05-14-enfield-culture-and-arts-commission-ecac-special-meeting-minutes.pdf
+  skip (exists)  2026-05-14-charter-revision-commission-charter-revision-commission-re-agenda.pdf
+  skip (exists)  2026-05-14-america250-coordinating-committee-america-250-coordinating-commi-agenda.pdf
+  skip (exists)  2026-05-13-commission-on-aging-commission-on-aging-regular-me-agenda.pdf
+  skip (exists)  2026-05-12-enfield-beautification-committee-enfield-beautification-committ-agenda.pdf
+  skip (exists)  2026-05-12-enfield-athletic-hall-of-fame-enfield-athletic-hall-of-fame--agenda.pdf
+  skip (exists)  2026-05-12-conservation-commission-conservation-commission-regula-agenda.pdf
+  skip (exists)  2026-05-12-conservation-commission-conservation-commission-regula-agenda-packet.pdf
+  skip (exists)  2026-05-12-conservation-commission-conservation-commission-regula-minutes.pdf
+  skip (exists)  2026-05-12-charter-revision-commission-charter-revision-commission-re-agenda.pdf
+  skip (exists)  2026-05-12-board-of-education-board-of-education-special-mee-agenda.pdf
+  skip (exists)  2026-05-12-board-of-education-board-of-education-regular-mee-agenda.pdf
+  skip (exists)  2026-05-12-agricultural-commission-agriculture-commission-regular-agenda.pdf
+  skip (exists)  2026-05-12-agricultural-commission-agriculture-commission-regular-agenda-packet.pdf
+  skip (exists)  2026-05-12-agricultural-commission-agriculture-commission-regular-minutes.pdf
+  skip (exists)  2026-05-11-town-council-town-council-special-meeting-agenda.pdf
+  skip (exists)  2026-05-11-town-council-town-council-special-meeting-agenda-packet.pdf
+  skip (exists)  2026-05-11-town-council-town-council-special-meeting-minutes.pdf
+  skip (exists)  2026-05-11-dpw-subcommittee-dpw-subcommittee-regular-meeti-agenda.pdf
+  skip (exists)  2026-05-11-dpw-subcommittee-dpw-subcommittee-regular-meeti-minutes.pdf
+  skip (exists)  2026-05-08-tc-boe-security-committee-tc-boe-joint-security-committe-agenda.pdf
+  skip (exists)  2026-05-07-town-council-town-council-special-meeting-agenda.pdf
+  skip (exists)  2026-05-07-town-council-town-council-special-meeting-minutes.pdf
+  skip (exists)  2026-05-07-charter-revision-commission-charter-revision-commission-re-agenda.pdf
+  skip (exists)  2026-05-07-blight-review-committee-blight-review-committee-regula-agenda.pdf
+
+Downloading 19 recording(s)...
+  skip (archive) event 5808  Inland Wetlands & Watercourses Agency
+  skip (archive) event 7343  Water Pollution Control Authority
+  skip (archive) event 5956  Town Council
+  skip (archive) event 7238  Planning & Zoning Commission
+  [2026-05-27] Fair Rent Commission — Fair Rent Commission Regular Meeting  [MP4]
+  downloading    2026-05-27-fair-rent-commission-fair-rent-commission-regu-d087d2e4-09c.mp4
+  [2026-05-26] Board of Education — Board of Education Regular Meeting  [MP4]
+  downloading    2026-05-26-board-of-education-board-of-education-regula-d0c599f9-dfc.mp4
+  [2026-05-21] Charter Revision Commission — Charter Revision Commission Regular Meet  [MP4]
+  downloading    2026-05-21-charter-revision-commission-charter-revision-commissi-2b04a7a1-5a4.mp4
+  [2026-05-21] Charter Revision Commission — Charter Revision Commission Public Heari  [MP4]
+  downloading    2026-05-21-charter-revision-commission-charter-revision-commissi-1dd19a0d-a43.mp4
+  [2026-05-20] PK-5 Elementary Schools & Eagle Academy Thera — PK-5 Elementary Schools and Eagle Academ  [MP4]
+  downloading    2026-05-20-pk-5-elementary-schools-eagle-acade-pk-5-elementary-schools-a-2357a9fb-353.mp4
+  [2026-05-19] Inland Wetlands & Watercourses Agency — Inland Wetlands & Watercourses Agency Re  [MP4]
+  downloading    2026-05-19-inland-wetlands-watercourses-agency-inland-wetlands-watercour-90eddba15f.mp4
+  [2026-05-18] Zoning Board of Appeals — Zoning Board of Appeals Regular Meeting  [MP3]
+  downloading    2026-05-18-zoning-board-of-appeals-zoning-board-of-appeals-r-77af6360-30c.mp3
+  [2026-05-18] Town Council — Town Council Special Meeting  [MP4]
+  downloading    2026-05-18-town-council-town-council-special-meet-25917d2730.mp4
+  [2026-05-18] Town Council — Town Council Regular Meeting  [MP4]
+  downloading    2026-05-18-town-council-town-council-regular-meet-247f9136db.mp4
+  [2026-05-14] Planning & Zoning Commission — Planning & Zoning Commission Regular Mee  [MP4]
+  downloading    2026-05-14-planning-zoning-commission-planning-zoning-commissio-38e46aeb3a.mp4
+  [2026-05-12] Conservation Commission — Conservation Commission Regular Meeting  [MP3]
+  downloading    2026-05-12-conservation-commission-conservation-commission-r-d4ede96e-2ba.mp3
+  [2026-05-12] Board of Education — Board of Education Regular Meeting  [MP4]
+  downloading    2026-05-12-board-of-education-board-of-education-regula-03e6853c-e46.mp4
+  [2026-05-12] Agricultural Commission — Agriculture Commission Regular Meeting  [MP3]
+  downloading    2026-05-12-agricultural-commission-agriculture-commission-re-9f7edc7c-224.mp3
+  [2026-05-11] Town Council — Town Council Special Meeting  [MP4]
+  downloading    2026-05-11-town-council-town-council-special-meet-d9dbcd8871.mp4
+  [2026-05-07] Town Council — Town Council Special Meeting  [MP4]
+  downloading    2026-05-07-town-council-town-council-special-meet-8d211bd7-048.mp4
+
+Done — downloaded: 23  skipped: 85  failed: 0
+Files in: beat-archive/enfield-agendas
+Log:      beat-archive/enfield-agendas/download-log.txt
+
+2026-06-06 10:27:27 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:32:27 — Starting (5/11): download-granby-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.granby-ct.gov/agendacenter
+Output dir  : beat-archive/granby-agendas
+
+Fetching hub page to discover board categories...
+  Found 25 board category/categories.
+
+Searching for meetings in date window...
+  Found 30 meeting(s) with documents in date window.
+
+Downloading 44 document(s)...
+  [2026-05-13] Agricultural Commission — agenda
+  downloading    2026-05-13-agricultural-commission-agenda-2489.pdf
+  [2026-05-13] Agricultural Commission — minutes
+  downloading    2026-05-13-agricultural-commission-minutes-2489.pdf
+  [2026-05-26] Board of Finance — agenda
+  downloading    2026-05-26-board-of-finance-agenda-2495.pdf
+  [2026-05-19] Board of Finance — agenda
+  downloading    2026-05-19-board-of-finance-agenda-2494.pdf
+  [2026-05-19] Board of Finance — packet
+  downloading    2026-05-19-board-of-finance-packet-2494.pdf
+  [2026-05-19] Board of Finance — minutes
+  downloading    2026-05-19-board-of-finance-minutes-2494.pdf
+  [2026-05-11] Board of Finance — agenda
+  downloading    2026-05-11-board-of-finance-agenda-2481.pdf
+  [2026-05-11] Board of Finance — packet
+  downloading    2026-05-11-board-of-finance-packet-2481.pdf
+  [2026-05-11] Board of Finance — minutes
+  downloading    2026-05-11-board-of-finance-minutes-2481.pdf
+  [2026-06-01] Board of Selectmen — agenda
+  downloading    2026-06-01-board-of-selectmen-agenda-2500.pdf
+  [2026-06-01] Board of Selectmen — packet
+  downloading    2026-06-01-board-of-selectmen-packet-2500.pdf
+  [2026-05-18] Board of Selectmen — agenda
+  downloading    2026-05-18-board-of-selectmen-agenda-2492.pdf
+  [2026-05-18] Board of Selectmen — packet
+  downloading    2026-05-18-board-of-selectmen-packet-2492.pdf
+  [2026-05-11] Commission on Aging — agenda
+  downloading    2026-05-11-commission-on-aging-agenda-2485.pdf
+  [2026-05-11] Commission on Aging — minutes
+  downloading    2026-05-11-commission-on-aging-minutes-2485.pdf
+  [2026-06-09] Conservation Commission — agenda
+  downloading    2026-06-09-conservation-commission-agenda-2502.pdf
+  [2026-05-12] Conservation Commission — agenda
+  downloading    2026-05-12-conservation-commission-agenda-2477.pdf
+  [2026-05-12] Conservation Commission — minutes
+  downloading    2026-05-12-conservation-commission-minutes-2477.pdf
+  [2026-06-08] Development Commission — agenda
+  downloading    2026-06-08-development-commission-agenda-2508.pdf
+  [2026-05-11] Development Commission — agenda
+  downloading    2026-05-11-development-commission-agenda-2479.pdf
+  [2026-05-11] Development Commission — minutes
+  downloading    2026-05-11-development-commission-minutes-2479.pdf
+  [2026-05-21] Granby America 250 Committee — agenda
+  downloading    2026-05-21-granby-america-250-committee-agenda-2475.pdf
+  [2026-06-10] Inland Wetlands & Watercourses Commission — agenda
+  downloading    2026-06-10-inland-wetlands-watercourses-commission-agenda-2506.pdf
+  [2026-06-10] Inland Wetlands & Watercourses Commission — agenda
+  downloading    2026-06-10-inland-wetlands-watercourses-commission-agenda-2507.pdf
+  [2026-05-13] Inland Wetlands & Watercourses Commission — agenda
+  downloading    2026-05-13-inland-wetlands-watercourses-commission-agenda-2478.pdf
+  [2026-05-13] Inland Wetlands & Watercourses Commission — minutes
+  downloading    2026-05-13-inland-wetlands-watercourses-commission-minutes-2478.pdf
+  [2026-05-13] Inland Wetlands & Watercourses Commission — agenda
+  downloading    2026-05-13-inland-wetlands-watercourses-commission-agenda-2480.pdf
+  [2026-05-11] Library Board — agenda
+  downloading    2026-05-11-library-board-agenda-2486.pdf
+  [2026-06-02] Park & Recreation Board — agenda
+  downloading    2026-06-02-park-recreation-board-agenda-2501.pdf
+  [2026-05-26] Plan of Conservation and Development 2026 Com — agenda
+  downloading    2026-05-26-plan-of-conservation-and-development-202-agenda-2496.pdf
+  [2026-05-26] Plan of Conservation and Development 2026 Com — minutes
+  downloading    2026-05-26-plan-of-conservation-and-development-202-minutes-2496.pdf
+  [2026-05-26] Plan of Conservation and Development 2026 Com — agenda
+  downloading    2026-05-26-plan-of-conservation-and-development-202-agenda-2497.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda-2509.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda-2510.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda-2511.pdf
+  [2026-05-27] Planning & Zoning Commission — agenda
+  downloading    2026-05-27-planning-zoning-commission-agenda-2498.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda-2482.pdf
+  [2026-05-12] Planning & Zoning Commission — minutes
+  downloading    2026-05-12-planning-zoning-commission-minutes-2482.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda-2483.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda-2484.pdf
+  [2026-05-19] Zoning Board of Appeals — agenda
+  downloading    2026-05-19-zoning-board-of-appeals-agenda-2490.pdf
+  [2026-05-19] Zoning Board of Appeals — minutes
+  downloading    2026-05-19-zoning-board-of-appeals-minutes-2490.pdf
+  [2026-05-19] Zoning Board of Appeals — agenda
+  downloading    2026-05-19-zoning-board-of-appeals-agenda-2491.pdf
+  [2026-05-19] Zoning Board of Appeals — agenda
+  downloading    2026-05-19-zoning-board-of-appeals-agenda-2493.pdf
+
+Downloading 6 recording(s) via yt-dlp...
+  [2026-06-01] Board of Selectmen
+  gctv16         granby-board-of-selectmen---06-01-26
+  [2026-05-18] Board of Selectmen
+  gctv16         granby-solar-project-hearing--board-of-select
+  [2026-05-13] Inland Wetlands & Watercourses Commission
+  gctv16         granby-inland-wetlands--watercourses-commissi
+  [2026-05-26] Plan of Conservation and Development 2026 Com
+  gctv16         plan-of-conservation-and-development-2026-com
+  [2026-05-12] Planning & Zoning Commission
+  gctv16         granby-planning--zoning-commission---05-12-26
+  [2026-05-19] Zoning Board of Appeals
+  gctv16         granby-zoning-board-of-appeals---05-19-26
+
+Done — downloaded: 44  skipped: 0  failed: 6
+Files in: beat-archive/granby-agendas
+Log:      beat-archive/granby-agendas/download-log.txt
+
+2026-06-06 10:34:06 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:39:06 — Starting (6/11): download-oxford-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.oxford-ct.gov/agendacenter
+Output dir  : beat-archive/oxford-agendas
+
+Fetching hub page to discover board categories...
+  Found 24 board category/categories.
+Searching for meetings in date window...
+  Found 30 meeting(s) with documents in date window.
+
+Fetching YouTube RSS feeds for meeting recordings...
+  Planning & Zoning Commission: 0 recording(s) in window.
+  Board of Selectmen: 3 recording(s) in window.
+
+Downloading 48 document(s)...
+  skip (exists)  2026-06-10-fire-department-chiefs-588-agenda.pdf
+  skip (exists)  2026-06-10-elderly-commission-586-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agenc-596-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agenc-597-agenda.pdf
+  skip (exists)  2026-06-09-charter-revision-2026-595-agenda.pdf
+  skip (exists)  2026-06-09-charter-revision-2026-595-minutes.pdf
+  skip (exists)  2026-06-04-open-space-trail-management-committee-593-agenda.pdf
+  [2026-06-04] Open Space Trail Management Committee — minutes
+  downloading    2026-06-04-open-space-trail-management-committee-593-minutes.pdf
+  skip (exists)  2026-06-03-board-of-selectmen-594-agenda.pdf
+  skip (exists)  2026-06-03-board-of-selectmen-594-minutes.pdf
+  skip (exists)  2026-06-02-planning-and-zoning-commission-592-agenda.pdf
+  skip (exists)  2026-06-02-planning-and-zoning-commission-592-minutes.pdf
+  skip (exists)  2026-06-01-parks-and-recreation-commission-577-agenda.pdf
+  skip (exists)  2026-06-01-parks-and-recreation-commission-577-minutes.pdf
+  skip (exists)  2026-05-28-open-space-trail-management-committee-590-agenda.pdf
+  skip (exists)  2026-05-28-open-space-trail-management-committee-590-minutes.pdf
+  skip (exists)  2026-05-27-water-pollution-control-authority-589-agenda.pdf
+  skip (exists)  2026-05-27-water-pollution-control-authority-589-minutes.pdf
+  skip (exists)  2026-05-26-conservation-commission-inland-wetlands-agenc-587-agenda.pdf
+  skip (exists)  2026-05-26-charter-revision-2026-584-agenda.pdf
+  skip (exists)  2026-05-26-charter-revision-2026-584-minutes.pdf
+  skip (exists)  2026-05-21-housing-authority-574-agenda.pdf
+  skip (exists)  2026-05-21-housing-authority-574-minutes.pdf
+  skip (exists)  2026-05-21-great-oak-middle-school-evaluation-and-improv-581-agenda.pdf
+  skip (exists)  2026-05-20-library-board-of-directors-566-agenda.pdf
+  skip (exists)  2026-05-20-library-board-of-directors-566-minutes.pdf
+  skip (exists)  2026-05-20-board-of-selectmen-583-agenda.pdf
+  skip (exists)  2026-05-20-board-of-selectmen-583-minutes.pdf
+  skip (exists)  2026-05-19-planning-and-zoning-commission-578-agenda.pdf
+  skip (exists)  2026-05-19-economic-development-582-agenda.pdf
+  skip (exists)  2026-05-18-parks-and-recreation-commission-576-agenda.pdf
+  skip (exists)  2026-05-18-community-support-committee-579-agenda.pdf
+  skip (exists)  2026-05-18-community-support-committee-579-minutes.pdf
+  skip (exists)  2026-05-18-board-of-finance-580-agenda.pdf
+  skip (exists)  2026-05-18-board-of-finance-580-minutes.pdf
+  skip (exists)  2026-05-14-cultural-arts-commission-573-agenda.pdf
+  skip (exists)  2026-05-14-board-of-finance-575-agenda.pdf
+  skip (exists)  2026-05-14-board-of-finance-575-minutes.pdf
+  skip (exists)  2026-05-13-fire-department-chiefs-551-agenda.pdf
+  skip (exists)  2026-05-13-fire-department-chiefs-551-minutes.pdf
+  skip (exists)  2026-05-12-main-street-project-committee-572-agenda.pdf
+  skip (exists)  2026-05-12-main-street-project-committee-572-minutes.pdf
+  skip (exists)  2026-05-12-elderly-commission-561-agenda.pdf
+  skip (exists)  2026-05-12-elderly-commission-561-minutes.pdf
+  skip (exists)  2026-05-12-conservation-commission-inland-wetlands-agenc-570-agenda.pdf
+  skip (exists)  2026-05-12-conservation-commission-inland-wetlands-agenc-571-agenda.pdf
+  skip (exists)  2026-05-12-charter-revision-2026-568-agenda.pdf
+  skip (exists)  2026-05-12-charter-revision-2026-568-minutes.pdf
+
+Downloading 3 YouTube recording(s)...
+  [2026-06-04] Board of Selectmen — My Broadcast
+  skip (archive) v4k_Ay4VJr8
+  [2026-05-21] Board of Selectmen — My Broadcast
+  skip (archive) cR05e93_JV0
+  [2026-05-07] Board of Selectmen — 05 06 26 BOS Meeting
+  skip (archive) 2HvBkZuJfAM
+
+Done — downloaded: 1  skipped: 50  failed: 0
+Files in: beat-archive/oxford-agendas
+Log:      beat-archive/oxford-agendas/download-log.txt
+
+2026-06-06 10:39:10 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:44:10 — Starting (7/11): download-somers-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Boards      : 28 pages
+Output dir  : beat-archive/somers-agendas
+
+Fetching 28 board pages...
+  America250 Planning Committee: 3 meeting(s) in window
+  Advisory Committee for Seniors: 2 meeting(s) in window
+  Board of Education: 2 meeting(s) in window
+  Board of Finance: 3 meeting(s) in window
+  Board of Selectmen: 3 meeting(s) in window
+  Capital Improvement Projects Committee: 1 meeting(s) in window
+  Cemetery Committee: 1 meeting(s) in window
+  Conservation Commission: 2 meeting(s) in window
+  Cultural Commission: 1 meeting(s) in window
+  Economic Development Commission: 2 meeting(s) in window
+  Emergency Preparedness Advisory Council: 2 meeting(s) in window
+  Ethics: 1 meeting(s) in window
+  Housing Authority: 1 meeting(s) in window
+  Library Trustees: 2 meeting(s) in window
+  Open Space Trails Committee: 1 meeting(s) in window
+  Sr Building Committee: 1 meeting(s) in window
+  Water Pollution Control Authority: 2 meeting(s) in window
+  Youth Services Bureau Advisory Board: 1 meeting(s) in window
+  Zoning Board of Appeals: 2 meeting(s) in window
+  Sr Building Committee: 2 meeting(s) in window
+
+  47 document(s) in window
+  1 recording(s) in window
+
+  skip (exists)  2026-06-10-library-trustees-special-meeting-agenda.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-regular-meeting-cancelled-agenda.pdf
+  skip (exists)  2026-06-09-advisory-committee-for-seniors-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-08-board-of-education-policy-meeting-agenda.pdf
+  [2026-06-05] Board of Finance — agenda
+  downloading    2026-06-05-board-of-finance-special-meeting-agenda.pdf
+  skip (exists)  2026-06-04-emergency-preparedness-advisory-cou-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-04-emergency-preparedness-advisory-cou-regular-meeting-minutes.pdf
+  skip (exists)  2026-06-04-board-of-selectmen-regular-meeting-agenda.pdf
+  skip (exists)  2026-06-03-sr-building-committee-canceled-meeting-agenda.pdf
+  skip (exists)  2026-06-03-conservation-commission-canceled-meeting-agenda.pdf
+  skip (exists)  2026-06-03-conservation-commission-special-meeting-agenda.pdf
+  skip (exists)  2026-06-03-america250-planning-committee-special-meeting-agenda.pdf
+  skip (exists)  2026-06-03-america250-planning-committee-special-meeting-minutes.pdf
+  skip (exists)  2026-06-02-board-of-finance-special-meeting-agenda.pdf
+  skip (exists)  2026-05-28-ethics-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-27-sr-building-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-27-economic-development-commission-special-meeting-agenda.pdf
+  skip (exists)  2026-05-27-economic-development-commission-special-meeting-minutes.pdf
+  skip (exists)  2026-05-26-water-pollution-control-authority-special-meeting-agenda.pdf
+  skip (exists)  2026-05-26-water-pollution-control-authority-special-meeting-minutes.pdf
+  skip (exists)  2026-05-26-economic-development-commission-canceled-meeting-agenda.pdf
+  skip (exists)  2026-05-26-board-of-finance-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-26-board-of-finance-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-21-board-of-selectmen-regular-meeting-cancelled-at-6pm-agenda.pdf
+  skip (exists)  2026-05-21-board-of-selectmen-special-bos-agenda-630pm-agenda.pdf
+  skip (exists)  2026-05-20-youth-services-bureau-advisory-boar-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-20-america250-planning-committee-special-meeting-agenda.pdf
+  skip (exists)  2026-05-19-water-pollution-control-authority-canceled-meeting-agenda.pdf
+  skip (exists)  2026-05-19-library-trustees-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-18-open-space-trails-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-18-open-space-trails-committee-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-13-sr-building-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-13-sr-building-committee-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-13-housing-authority-special-meeting-agenda.pdf
+  skip (exists)  2026-05-13-housing-authority-special-meeting-minutes.pdf
+  skip (exists)  2026-05-13-cemetery-committee-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-13-cemetery-committee-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-13-america250-planning-committee-canceled-meeting-agenda.pdf
+  skip (exists)  2026-05-12-zoning-board-of-appeals-regular-meeting-cancelled-agenda.pdf
+  skip (exists)  2026-05-12-advisory-committee-for-seniors-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-12-advisory-committee-for-seniors-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-11-cultural-commission-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-11-board-of-education-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-07-emergency-preparedness-advisory-cou-regular-meeting-agenda.pdf
+  skip (exists)  2026-05-07-emergency-preparedness-advisory-cou-regular-meeting-minutes.pdf
+  skip (exists)  2026-05-07-capital-improvement-projects-commit-special-meeting-agenda.pdf
+  skip (exists)  2026-05-07-capital-improvement-projects-commit-special-meeting-minutes.pdf
+
+Downloading 1 YouTube recording(s)...
+  [2026-05-26] Board of Finance — Regular Meeting
+  skip (archive) xh8tL8dcVbg
+
+Done — downloaded: 1  skipped: 47  failed: 0
+Files in: beat-archive/somers-agendas
+Log:      beat-archive/somers-agendas/download-log.txt
+
+2026-06-06 10:44:41 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:49:41 — Starting (8/11): download-south-windsor-agendas.py
+==============================
+ERROR: cloudscraper is required.
+Install it with: pip3 install cloudscraper
+
+2026-06-06 10:49:41 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 10:54:41 — Starting (9/11): download-suffield-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.suffieldct.gov/government/agendas-minutes
+Output dir  : beat-archive/suffield-agendas
+
+Fetching hub page...
+  Found 34 boards.
+
+  99 document(s) on hub page, 51 within date window.
+
+Downloading 51 document(s)...
+  [2026-05-11] Board of Finance — minutes
+  downloading    2026-05-11-BoardofFinanceMeetingMinutes.pdf
+  [2026-05-11] Board of Finance — agenda
+  downloading    2026-05-11-BoardofFinanceMeetingAgenda.pdf
+  [2026-05-12] Conservation Commission — minutes
+  downloading    2026-05-12-ConservationCommissionMeetingMinutes.pdf
+  [2026-05-12] Conservation Commission — agenda
+  downloading    2026-05-12-ConservationCommissionMeetingAgenda.pdf
+  [2026-05-12] Fire Commission — minutes
+  downloading    2026-05-12-FireCommissionMeetingMinutes.pdf
+  [2026-05-12] Housing Authority — minutes
+  downloading    2026-05-12-SuffieldHousingAuthorityMeetingMinutes.pdf
+  [2026-05-12] Housing Authority — agenda
+  downloading    2026-05-12-SuffieldHousingAuthorityMeetingAgenda.pdf
+  [2026-05-12] Library Commission — minutes
+  downloading    2026-05-12-LibraryCommissionMeetingMinutes.pdf
+  [2026-05-12] Library Commission — agenda
+  downloading    2026-05-12-LibraryCommissionMeetingAgenda.pdf
+  [2026-05-12] Water Pollution Control Authority — minutes
+  downloading    2026-05-12-WaterPollutionControlAuthorityMeetingMinutes.pdf
+  [2026-05-12] Water Pollution Control Authority — minutes
+  downloading    2026-05-12-WaterPollutionControlAuthorityPublicHearingMeetingMinutes.pdf
+  [2026-05-12] Water Pollution Control Authority — notice
+  downloading    2026-05-12-WPCALegalNoticeDecision.pdf
+  [2026-05-13] Parks & Recreation Commission — minutes
+  downloading    2026-05-13-ParksRecreationCommissionMeetingMinutes.pdf
+  [2026-05-13] Parks & Recreation Commission — agenda
+  downloading    2026-05-13-ParksRecreationCommissionMeetingAgenda.pdf
+  [2026-05-14] Fire Commission — cancellation
+  downloading    2026-05-14-FireCommissionandPermanentBuildingCommissionJointSpecialMeetingCancellation.pdf
+  [2026-05-14] Retirement Commission — minutes
+  downloading    2026-05-14-RetirementCommissionMeetingMinutes.pdf
+  [2026-05-14] Retirement Commission — agenda
+  downloading    2026-05-14-RetirementCommissionMeetingAgenda.pdf
+  [2026-05-18] Planning & Zoning Commission — minutes
+  downloading    2026-05-18-PlanningandZoningCommissionMeetingMinutes.pdf
+  [2026-05-18] Planning & Zoning Commission — agenda
+  downloading    2026-05-18-PlanningandZoningCommissionMeetingAgenda.pdf
+  [2026-05-18] Planning & Zoning Commission — notice
+  downloading    2026-05-18-PlanningandZoningCommissionLegalNotice.pdf
+  [2026-05-20] Board of Education — minutes
+  downloading    2026-05-20-BoardofEducationPolicySubcommitteeSpecialMeetingMinutes.pdf
+  [2026-05-20] Board of Selectmen — minutes
+  downloading    2026-05-20-BoardofSelectmenMeetingMinutes.pdf
+  [2026-05-20] Board of Selectmen — agenda
+  downloading    2026-05-20-BoardofSelectmenMeetingAgenda.pdf
+  [2026-05-21] Board of Education — minutes
+  downloading    2026-05-21-BoardofEducationandPermanentBuildingCommissionJointSpecialMeetingMinutes.pdf
+  [2026-05-21] Economic Development Commission — minutes
+  downloading    2026-05-21-EconomicDevelopmentCommissionMeetingMinutes.pdf
+  [2026-05-21] Economic Development Commission — agenda
+  downloading    2026-05-21-EconomicDevelopmentCommissionMeetingAgenda.pdf
+  [2026-05-21] Helena Bailey Spencer Tree Fund Committee — minutes
+  downloading    2026-05-21-HelenaBaileyTreeFundCommitteeSpecialMeetingMinutes.pdf
+  [2026-05-21] Helena Bailey Spencer Tree Fund Committee — agenda
+  downloading    2026-05-21-HelenaBaileySpencerTreeFundSpecialMeetingAgenda.pdf
+  [2026-05-21] Permanent Building Commission — minutes
+  downloading    2026-05-21-PermanentBuildingCommissionandBoardofEducationJointSpecialMeetingMinutes.pdf
+  [2026-05-21] Permanent Building Commission — agenda
+  downloading    2026-05-21-PermanentBuildingCommissionandBoardofEducationJointSpecialMeetingAgenda.pdf
+  [2026-05-26] Conservation Commission — cancellation
+  downloading    2026-05-26-ConservationCommissionMeetingCancellation.pdf
+  [2026-05-26] Zoning Board of Appeals — minutes
+  downloading    2026-05-26-ZoningBoardofAppealsMeetingMinutes.pdf
+  [2026-05-26] Zoning Board of Appeals — notice
+  downloading    2026-05-26-ZoningBoardofAppealsLegalNoticeDecision.pdf
+  [2026-05-26] Zoning Board of Appeals — agenda
+  downloading    2026-05-26-ZoningBoardofAppealsMeetingAgenda.pdf
+  [2026-05-26] Zoning Board of Appeals — notice
+  downloading    2026-05-26-ZoningBoardofAppealsLegalNotice.pdf
+  [2026-05-27] Police Commission — minutes
+  downloading    2026-05-27-PoliceCommissionMeetingMinutes.pdf
+  [2026-05-27] Police Commission — agenda
+  downloading    2026-05-27-PoliceCommissionMeetingAgenda.pdf
+  [2026-05-28] Board of Education — agenda
+  downloading    2026-05-28-BoardofEducationFinanceFacilitiesSubcommitteeSpecialMeetingAgenda.pdf
+  [2026-05-28] Fire Commission — minutes
+  downloading    2026-05-28-FireCommissionandPermanentBuildingCommissionJointSpecialMeetingMinutes.pdf
+  [2026-05-28] Fire Commission — agenda
+  downloading    2026-05-28-FireCommissionandPermanentBuildingCommissionJointSpecialMeetingAgenda.pdf
+  [2026-05-28] Permanent Building Commission — minutes
+  downloading    2026-05-28-PermanentBuildingCommissionandFireCommissionJointSpecialMeetingMinutes.pdf
+  [2026-05-28] Permanent Building Commission — agenda
+  downloading    2026-05-28-PermanentBuildingCommissionandFireCommissionJointSpecialMeetingAgenda.pdf
+  [2026-06-01] Board of Education — agenda
+  downloading    2026-06-01-BoardofEducationMeetingAgenda.pdf
+  [2026-06-01] Historic District Commission — cancellation
+  downloading    2026-06-01-HistoricDistrictCommissionMeetingCancellation.pdf
+  [2026-06-03] Board of Selectmen — agenda
+  downloading    2026-06-03-BoardofSelectmenAmendedMeetingAgenda.pdf
+  [2026-06-03] Board of Selectmen — agenda
+  downloading    2026-06-03-BoardofSelectmenMeetingAgenda.pdf
+  [2026-06-05] Social Services Commission — agenda
+  downloading    2026-06-05-SocialServicesCommissionMeetingAgenda.pdf
+  [2026-06-08] Board of Finance — agenda
+  downloading    2026-06-08-BoardofFinanceMeetingAgenda.pdf
+  [2026-06-08] Historic District Commission — agenda
+  downloading    2026-06-08-HistoricDistrictCommissionSpecialMeetingAgenda.pdf
+  [2026-06-09] Housing Authority — agenda
+  downloading    2026-06-09-SuffieldHousingAuthorityMeetingAgenda.pdf
+  [2026-06-09] Water Pollution Control Authority — agenda
+  downloading    2026-06-09-WaterPollutionControlAuthorityMeetingAgenda.pdf
+
+Done — downloaded: 51  skipped: 0  failed: 0
+Files in: beat-archive/suffield-agendas
+Log:      beat-archive/suffield-agendas/download-log.txt
+
+2026-06-06 10:55:29 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:00:29 — Starting (10/11): download-windsor-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Site        : https://www.windsorct.gov
+Output dir  : beat-archive/windsor-agendas
+
+Fetching AgendaCenter Search results...
+  Found 25 meeting(s), 32 document(s).
+
+Fetching Granicus listing (BOE): https://windsorct.granicus.com/ViewPublisher.php?view_id=1
+  0 recording(s) in date window.
+Fetching Granicus listing (All boards): https://windsor-ct.granicus.com/ViewPublisher.php?view_id=2
+  3 recording(s) in date window.
+
+  Total recordings: 3
+
+Downloading 32 document(s)...
+  [2026-05-12] Public Building Commission — agenda
+  downloading    2026-05-12-public-building-commission-agenda-1374.pdf
+  [2026-05-12] Public Building Commission — minutes
+  downloading    2026-05-12-public-building-commission-minutes-1374.pdf
+  [2026-05-12] Special Town Meeting — agenda
+  downloading    2026-05-12-special-town-meeting-agenda-1475.pdf
+  [2026-05-12] Special Town Meeting — minutes
+  downloading    2026-05-12-special-town-meeting-minutes-1475.pdf
+  [2026-05-13] Human Relations Commission — agenda
+  downloading    2026-05-13-human-relations-commission-agenda-1350.pdf
+  [2026-05-13] Town Planning & Zoning Commission — agenda
+  downloading    2026-05-13-town-planning-zoning-commission-agenda-1390.pdf
+  [2026-05-13] Town Planning & Zoning Commission — minutes
+  downloading    2026-05-13-town-planning-zoning-commission-minutes-1390.pdf
+  [2026-05-18] Special Town Meeting — agenda
+  downloading    2026-05-18-special-town-meeting-agenda-1478.pdf
+  [2026-05-18] Special Town Meeting — minutes
+  downloading    2026-05-18-special-town-meeting-minutes-1478.pdf
+  [2026-05-18] Town Council — agenda
+  downloading    2026-05-18-town-council-agenda-1270.pdf
+  [2026-05-20] Economic Development Commission — agenda
+  downloading    2026-05-20-economic-development-commission-agenda-1300.pdf
+  [2026-05-20] Historic District Commission — agenda
+  downloading    2026-05-20-historic-district-commission-agenda-1339.pdf
+  [2026-05-20] Windsor Housing Authority — agenda
+  downloading    2026-05-20-windsor-housing-authority-agenda-1486.pdf
+  [2026-05-20] Zoning Board of Appeals — agenda
+  downloading    2026-05-20-zoning-board-of-appeals-agenda-1477.pdf
+  [2026-05-20] Zoning Board of Appeals — minutes
+  downloading    2026-05-20-zoning-board-of-appeals-minutes-1477.pdf
+  [2026-05-26] Public Building Commission — agenda
+  downloading    2026-05-26-public-building-commission-agenda-1375.pdf
+  [2026-05-26] Public Building Commission — minutes
+  downloading    2026-05-26-public-building-commission-minutes-1375.pdf
+  [2026-05-27] Conservation Commission — agenda
+  downloading    2026-05-27-conservation-commission-agenda-1329.pdf
+  [2026-05-28] Wilson / Deerfield Advisory Committee — agenda
+  downloading    2026-05-28-wilson-deerfield-advisory-committee-agenda-1399.pdf
+  [2026-06-01] Town Council — agenda
+  downloading    2026-06-01-town-council-agenda-1489.pdf
+  [2026-06-01] Town Council — agenda
+  downloading    2026-06-01-town-council-agenda-1271.pdf
+  [2026-06-02] Commission on Aging & Persons with Disabiliti — agenda
+  downloading    2026-06-02-commission-on-aging-persons-with-disabil-agenda-1320.pdf
+  [2026-06-02] Inland Wetlands & Watercourses Commission — agenda
+  downloading    2026-06-02-inland-wetlands-watercourses-commission-agenda-1360.pdf
+  [2026-06-02] Library Advisory Board — agenda
+  downloading    2026-06-02-library-advisory-board-agenda-1488.pdf
+  [2026-06-02] Special Town Meeting — agenda
+  downloading    2026-06-02-special-town-meeting-agenda-1481.pdf
+  [2026-06-02] Special Town Meeting — minutes
+  downloading    2026-06-02-special-town-meeting-minutes-1481.pdf
+  [2026-06-04] Personnel Committee — agenda
+  downloading    2026-06-04-personnel-committee-agenda-1490.pdf
+  [2026-06-08] Personnel Committee — agenda
+  downloading    2026-06-08-personnel-committee-agenda-1492.pdf
+  [2026-06-09] Public Building Commission — agenda
+  downloading    2026-06-09-public-building-commission-agenda-1376.pdf
+  [2026-06-09] Town Planning & Zoning Commission — agenda
+  downloading    2026-06-09-town-planning-zoning-commission-agenda-1391.pdf
+  [2026-06-10] Human Relations Commission — agenda
+  downloading    2026-06-10-human-relations-commission-agenda-1351.pdf
+  [2026-06-10] Inland Wetlands & Watercourses Commission — agenda
+  downloading    2026-06-10-inland-wetlands-watercourses-commission-agenda-1480.pdf
+
+Downloading 3 recording(s)...
+  [2026-05-13] Town Planning & Zoning - 7:00 PM (clip 1396)
+  resolving      MediaPlayer.php ... OK
+  downloading    2026-05-13-town-planning-zoning-700-pm-1396.mp4
+  size: 1991 MB..........
+  [2026-05-18] Town Council - 7:30 PM (clip 1398)
+  resolving      MediaPlayer.php ... OK
+  downloading    2026-05-18-town-council-730-pm-1398.mp4
+  size: 3737 MB..........
+  [2026-06-01] Town Council - 7:30 PM (clip 1403)
+  resolving      MediaPlayer.php ... OK
+  downloading    2026-06-01-town-council-730-pm-1403.mp4
+  size: 1146 MB..........
+
+Done — downloaded: 35  skipped: 0  failed: 0
+Files in: beat-archive/windsor-agendas
+Log:      beat-archive/windsor-agendas/download-log.txt
+
+2026-06-06 11:05:39 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:10:39 — Starting (11/11): download-windsor-locks-agendas.py
+==============================
+ERROR: cloudscraper is required.
+Install it with: pip3 install cloudscraper
+
+2026-06-06 11:10:39 — All Jay scripts complete.
+=============================
+2026-06-10 07:28:23 — Starting (1/1): download-south-windsor-agendas.py
+=============================
+Date window : 2026-06-06 to 2026-06-17
+Hub page    : https://www.southwindsor-ct.gov/minutes-and-agendas
+Output dir  : beat-archive/south-windsor-agendas
+
+Fetching board list from hub page...
+  Found 45 board(s).
+
+Scanning 45 board(s) × 2 doc type(s) × 1 year(s)...
+  Found 6 document(s) in window.
+
+Fetching Swagit recording listings...
+  Found 0 recording(s) in window.
+
+Downloading 6 document(s)...
+  [2026-06-17] Pension Committee — agenda
+  downloading    2026-06-17-pension-committee-agenda-pension-committee-agenda-29.pdf
+  skip (exists)  2026-06-10-public-building-commission-agenda-cancelled-public-building-commission-agenda-5.pdf
+  skip (exists)  2026-06-10-insurance-control-commission-agenda-insurance-control-commission-agenda-20.pdf
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda-pzc-6-9-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-09-energy-committee-agenda-energy-committee-meeting-agenda-3.pdf
+  skip (exists)  2026-06-08-personnel-committee-agenda-personnel-committee-meeting-6.pdf
+
+Done — downloaded: 1  skipped: 5  failed: 0
+Files in: beat-archive/south-windsor-agendas
+Log:      beat-archive/south-windsor-agendas/download-log.txt
+
+2026-06-10 07:30:06 — Jay catch-up complete.
+=============================
+2026-06-11 06:42:57 — Starting (1/1): download-south-windsor-agendas.py
+=============================
+  WARNING: unexpected content-type 'text/html; charset=utf-8', skipping
+Date window : 2026-06-07 to 2026-06-18
+Hub page    : https://www.southwindsor-ct.gov/minutes-and-agendas
+Output dir  : beat-archive/south-windsor-agendas
+
+Fetching board list from hub page...
+  Found 45 board(s).
+
+Scanning 45 board(s) × 2 doc type(s) × 1 year(s)...
+  Found 10 document(s) in window.
+
+Fetching Swagit recording listings...
+  Found 1 recording(s) in window.
+
+Downloading 10 document(s)...
+  [2026-06-18] Architectural & Design Review Committee — agenda
+  downloading    2026-06-18-architectural-design-review-committ-agenda-adrc-6-18-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-17-pension-committee-agenda-pension-committee-agenda-29.pdf
+  skip (exists)  2026-06-10-public-building-commission-agenda-cancelled-public-building-commission-agenda-5.pdf
+  skip (exists)  2026-06-10-insurance-control-commission-agenda-insurance-control-commission-agenda-20.pdf
+  [2026-06-09] Senior Advisory Board — agenda
+  downloading    2026-06-09-senior-advisory-board-agenda-june-2026-agenda.pdf
+  [2026-06-09] Senior Advisory Board — minutes
+  downloading    2026-06-09-senior-advisory-board-minutes-june-2026-minutes.pdf
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda-pzc-6-9-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-09-energy-committee-agenda-energy-committee-meeting-agenda-3.pdf
+  skip (exists)  2026-06-08-personnel-committee-agenda-personnel-committee-meeting-6.pdf
+  [2026-06-08] Personnel Committee — minutes
+  downloading    2026-06-08-personnel-committee-minutes-personnel-committee-minutes-9.pdf
+
+Downloading 1 recording(s) via yt-dlp...
+  [2026-06-10] Insurance Control Commission (video 390762)
+  downloading    2026-06-10-insurance-control-commission-390762.mp4
+
+Done — downloaded: 4  skipped: 6  failed: 1
+Files in: beat-archive/south-windsor-agendas
+Log:      beat-archive/south-windsor-agendas/download-log.txt
+2026-06-11 06:56:09 — Jay catch-up complete.
+Running download-south-windsor-agendas.py ...
+Date window : 2026-06-07 to 2026-06-18
+Hub page    : https://www.southwindsor-ct.gov/minutes-and-agendas
+Output dir  : beat-archive/south-windsor-agendas
+
+Fetching board list from hub page...
+  Found 45 board(s).
+
+Scanning 45 board(s) × 2 doc type(s) × 1 year(s)...
+  Found 10 document(s) in window.
+
+Fetching Swagit recording listings...
+  Found 1 recording(s) in window.
+
+Downloading 10 document(s)...
+  skip (exists)  2026-06-18-architectural-design-review-committ-agenda-adrc-6-18-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-17-pension-committee-agenda-pension-committee-agenda-29.pdf
+  skip (exists)  2026-06-10-public-building-commission-agenda-cancelled-public-building-commission-agenda-5.pdf
+  skip (exists)  2026-06-10-insurance-control-commission-agenda-insurance-control-commission-agenda-20.pdf
+  [2026-06-09] Senior Advisory Board — agenda
+  downloading    2026-06-09-senior-advisory-board-agenda-june-2026-agenda.pdf
+  skip (exists)  2026-06-09-senior-advisory-board-minutes-june-2026-minutes.pdf
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda-pzc-6-9-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-09-energy-committee-agenda-energy-committee-meeting-agenda-3.pdf
+  skip (exists)  2026-06-08-personnel-committee-agenda-personnel-committee-meeting-6.pdf
+  skip (exists)  2026-06-08-personnel-committee-minutes-personnel-committee-minutes-9.pdf
+
+Downloading 1 recording(s) via yt-dlp...
+  skip (archive) video 390762  Insurance Control Commission
+
+Done — downloaded: 0  skipped: 10  failed: 1
+Files in: beat-archive/south-windsor-agendas
+  WARNING: unexpected content-type 'text/html; charset=utf-8', skipping
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (4 attachment(s), 1 skipped)
+2026-06-11 07:00:05 — South Windsor send complete.
+=============================
+2026-06-12 05:45:32 — Starting (1/1): download-south-windsor-agendas.py
+=============================
+  WARNING: unexpected content-type 'text/html; charset=utf-8', skipping
+Date window : 2026-06-08 to 2026-06-19
+Hub page    : https://www.southwindsor-ct.gov/minutes-and-agendas
+Output dir  : beat-archive/south-windsor-agendas
+
+Fetching board list from hub page...
+  Found 45 board(s).
+
+Scanning 45 board(s) × 2 doc type(s) × 1 year(s)...
+  Found 15 document(s) in window.
+
+Fetching Swagit recording listings...
+  Found 1 recording(s) in window.
+
+Downloading 15 document(s)...
+  skip (exists)  2026-06-18-architectural-design-review-committ-agenda-adrc-6-18-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-17-pension-committee-agenda-pension-committee-agenda-29.pdf
+  [2026-06-17] Inland Wetlands Agency / Conservation Commiss — agenda
+  downloading    2026-06-17-inland-wetlands-agency-conservation-agenda-iwacc-agenda-43.pdf
+  [2026-06-17] Capital Projects Committee — agenda
+  downloading    2026-06-17-capital-projects-committee-agenda-capital-projects-committee-agenda-47.pdf
+  [2026-06-15] Town Council — agenda
+  downloading    2026-06-15-town-council-agenda-town-council-regular-meeting-agenda-51.pdf
+  [2026-06-15] Housing and Fair Rent Commission — agenda
+  downloading    2026-06-15-housing-and-fair-rent-commission-agenda-housing-fair-rent-commission-1.pdf
+  skip (exists)  2026-06-10-public-building-commission-agenda-cancelled-public-building-commission-agenda-5.pdf
+  skip (exists)  2026-06-10-insurance-control-commission-agenda-insurance-control-commission-agenda-20.pdf
+  [2026-06-10] Insurance Control Commission — minutes
+  downloading    2026-06-10-insurance-control-commission-minutes-insurance-control-commission-minutes-12.pdf
+  [2026-06-09] Senior Advisory Board — agenda
+  downloading    2026-06-09-senior-advisory-board-agenda-june-2026-agenda.pdf
+  skip (exists)  2026-06-09-senior-advisory-board-minutes-june-2026-minutes.pdf
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda-pzc-6-9-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-09-energy-committee-agenda-energy-committee-meeting-agenda-3.pdf
+  skip (exists)  2026-06-08-personnel-committee-agenda-personnel-committee-meeting-6.pdf
+  skip (exists)  2026-06-08-personnel-committee-minutes-personnel-committee-minutes-9.pdf
+
+Downloading 1 recording(s) via yt-dlp...
+  skip (archive) video 390762  Insurance Control Commission
+
+Done — downloaded: 5  skipped: 10  failed: 1
+Files in: beat-archive/south-windsor-agendas
+Log:      beat-archive/south-windsor-agendas/download-log.txt
+
+2026-06-12 05:47:11 — All Jay scripts complete.
+2026-06-13 07:44:03 — Oxford/East-Granby/Granby sends starting.
+Running download-oxford-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.oxford-ct.gov/agendacenter
+Output dir  : beat-archive/oxford-agendas
+
+Fetching hub page to discover board categories...
+  Found 24 board category/categories.
+Searching for meetings in date window...
+  Found 8 meeting(s) with documents in date window.
+
+Fetching YouTube RSS feeds for meeting recordings...
+  Planning & Zoning Commission: 0 recording(s) in window.
+  Board of Selectmen: 0 recording(s) in window.
+
+Downloading 9 document(s)...
+  [2026-06-16] Planning and Zoning Commission — agenda
+  downloading    2026-06-16-planning-and-zoning-commission-601-agenda.pdf
+  skip (exists)  2026-06-11-cultural-arts-commission-598-agenda.pdf
+  skip (exists)  2026-06-10-fire-department-chiefs-588-agenda.pdf
+  skip (exists)  2026-06-10-elderly-commission-586-agenda.pdf
+  skip (exists)  2026-06-09-planning-and-zoning-commission-599-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agenc-596-agenda.pdf
+  skip (exists)  2026-06-09-conservation-commission-inland-wetlands-agenc-597-agenda.pdf
+  skip (exists)  2026-06-09-charter-revision-2026-595-agenda.pdf
+  skip (exists)  2026-06-09-charter-revision-2026-595-minutes.pdf
+
+Done — downloaded: 1  skipped: 8  failed: 0
+Files in: beat-archive/oxford-agendas
+Log:      beat-archive/oxford-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (1 attachment(s), 0 skipped)
+Running download-east-granby-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Years       : 2026
+Site        : https://eastgranbyct.org
+Output dir  : beat-archive/east-granby-agendas
+
+Scanning 12 board(s) for documents...
+  Board of Selectmen: 3 item(s)
+  Board of Finance: 1 item(s)
+  Planning & Zoning Commission: 4 item(s)
+  Youth Services Commission: 1 item(s)
+
+Downloading 9 document(s)...
+  skip (exists)  2026-06-09-planning-zoning-commission-minutes-pzc-pocd-minutes.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-minutes-pzc-minutes.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda-pzc-pocd-workshop-agenda.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda-pzc-agenda.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-minutes-bos-minutes.pdf
+  skip (exists)  2026-06-10-board-of-selectmen-agenda-bos-agenda.pdf
+  skip (exists)  2026-06-15-youth-services-commission-agenda-ysc-agenda.pdf
+  skip (exists)  2026-06-16-board-of-finance-agenda-bof-agenda.pdf
+  skip (exists)  2026-06-17-board-of-selectmen-agenda-bos-special-agenda.pdf
+
+Done — downloaded: 0  skipped: 9  failed: 0
+Files in: beat-archive/east-granby-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (0 attachment(s), 0 skipped)
+Running download-granby-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.granby-ct.gov/agendacenter
+Output dir  : beat-archive/granby-agendas
+
+Fetching hub page to discover board categories...
+  Found 25 board category/categories.
+
+Searching for meetings in date window...
+  Found 11 meeting(s) with documents in date window.
+
+Downloading 13 document(s)...
+  skip (exists)  2026-06-10-agricultural-commission-agenda-2515.pdf
+  skip (exists)  2026-06-15-board-of-selectmen-agenda-2518.pdf
+  skip (exists)  2026-06-15-board-of-selectmen-packet-2518.pdf
+  skip (exists)  2026-06-09-conservation-commission-agenda-2502.pdf
+  skip (exists)  2026-06-09-conservation-commission-minutes-2502.pdf
+  skip (exists)  2026-06-10-inland-wetlands-watercourses-commission-agenda-2506.pdf
+  skip (exists)  2026-06-10-inland-wetlands-watercourses-commission-agenda-2507.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda-2509.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda-2510.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda-2511.pdf
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agenda-2516.pdf
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agenda-2517.pdf
+  skip (exists)  2026-06-16-zoning-board-of-appeals-agenda-2514.pdf
+
+Downloading 1 recording(s) via yt-dlp...
+  [2026-06-09] Planning & Zoning Commission
+  gctv16         granby-planning--zoning-commission---06-09-26
+
+Done — downloaded: 0  skipped: 13  failed: 1
+Files in: beat-archive/granby-agendas
+Log:      beat-archive/granby-agendas/download-log.txt
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (0 attachment(s), 0 skipped)
+2026-06-13 07:44:35 — South Windsor send starting.
+Running download-south-windsor-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.southwindsor-ct.gov/minutes-and-agendas
+Output dir  : beat-archive/south-windsor-agendas
+
+Fetching board list from hub page...
+  Found 45 board(s).
+
+Scanning 45 board(s) × 2 doc type(s) × 1 year(s)...
+  Found 13 document(s) in window.
+
+Fetching Swagit recording listings...
+  Found 1 recording(s) in window.
+
+Downloading 13 document(s)...
+  skip (exists)  2026-06-18-architectural-design-review-committ-agenda-adrc-6-18-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-17-pension-committee-agenda-pension-committee-agenda-29.pdf
+  skip (exists)  2026-06-17-inland-wetlands-agency-conservation-agenda-iwacc-agenda-43.pdf
+  skip (exists)  2026-06-17-capital-projects-committee-agenda-capital-projects-committee-agenda-47.pdf
+  skip (exists)  2026-06-15-town-council-agenda-town-council-regular-meeting-agenda-51.pdf
+  skip (exists)  2026-06-15-housing-and-fair-rent-commission-agenda-housing-fair-rent-commission-1.pdf
+  skip (exists)  2026-06-10-public-building-commission-agenda-cancelled-public-building-commission-agenda-5.pdf
+  skip (exists)  2026-06-10-insurance-control-commission-agenda-insurance-control-commission-agenda-20.pdf
+  skip (exists)  2026-06-10-insurance-control-commission-minutes-insurance-control-commission-minutes-12.pdf
+  [2026-06-09] Senior Advisory Board — agenda
+  downloading    2026-06-09-senior-advisory-board-agenda-june-2026-agenda.pdf
+  skip (exists)  2026-06-09-senior-advisory-board-minutes-june-2026-minutes.pdf
+  skip (exists)  2026-06-09-planning-and-zoning-commission-agenda-pzc-6-9-2026-agenda-cancelled.pdf
+  skip (exists)  2026-06-09-energy-committee-agenda-energy-committee-meeting-agenda-3.pdf
+
+Downloading 1 recording(s) via yt-dlp...
+  skip (archive) video 390762  Insurance Control Commission
+
+Done — downloaded: 0  skipped: 13  failed: 1
+Files in: beat-archive/south-windsor-agendas
+  WARNING: unexpected content-type 'text/html; charset=utf-8', skipping
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (0 attachment(s), 0 skipped)
+2026-06-13 07:46:33 — Jay catch-up complete.
+2026-06-13 07:54:50 — 1-6 catch-up sends starting (avon through canton).
+Running download-suffield-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.suffieldct.gov/government/agendas-minutes
+Output dir  : beat-archive/suffield-agendas
+
+Fetching hub page...
+  Found 34 boards.
+
+  99 document(s) on hub page, 11 within date window.
+
+Downloading 11 document(s)...
+  skip (exists)  2026-06-09-ConservationCommissionMeetingCancellation.pdf
+  skip (exists)  2026-06-09-FireCommissionMeetingAgenda.pdf
+  skip (exists)  2026-06-09-SuffieldHousingAuthorityMeetingMinutes.pdf
+  skip (exists)  2026-06-09-SuffieldHousingAuthorityMeetingAgenda.pdf
+  skip (exists)  2026-06-09-LibraryCommissionMeetingAgenda.pdf
+  skip (exists)  2026-06-09-WaterPollutionControlAuthorityMeetingAgenda.pdf
+  skip (exists)  2026-06-10-ParksRecreationCommissionMeetingAgenda.pdf
+  skip (exists)  2026-06-11-LibraryCommissionFinanceSubcommitteeSpecialMeetingAgenda.pdf
+  [2026-06-15] Board of Education — agenda
+  downloading    2026-06-15-BoardofEducationMeetingAgenda.pdf
+  [2026-06-15] Planning & Zoning Commission — agenda
+  downloading    2026-06-15-PlanningandZoningCommissionMeetingAgenda.pdf
+  skip (exists)  2026-06-15-PlanningandZoningCommissionLegalNotice.pdf
+
+Done — downloaded: 2  skipped: 9  failed: 0
+Files in: beat-archive/suffield-agendas
+Log:      beat-archive/suffield-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (2 attachment(s), 0 skipped)
+Running download-windsor-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Site        : https://www.windsorct.gov
+Output dir  : beat-archive/windsor-agendas
+
+Fetching AgendaCenter Search results...
+  Found 10 meeting(s), 11 document(s).
+
+Fetching Granicus listing (BOE): https://windsorct.granicus.com/ViewPublisher.php?view_id=1
+  0 recording(s) in date window.
+Fetching Granicus listing (All boards): https://windsor-ct.granicus.com/ViewPublisher.php?view_id=2
+  1 recording(s) in date window.
+
+  Total recordings: 1
+
+Downloading 11 document(s)...
+  skip (exists)  2026-06-09-public-building-commission-agenda-1376.pdf
+  skip (exists)  2026-06-09-town-planning-zoning-commission-agenda-1391.pdf
+  skip (exists)  2026-06-09-town-planning-zoning-commission-minutes-1391.pdf
+  skip (exists)  2026-06-10-human-relations-commission-agenda-1351.pdf
+  skip (exists)  2026-06-10-inland-wetlands-watercourses-commission-agenda-1480.pdf
+  skip (exists)  2026-06-11-health-safety-committee-agenda-1493.pdf
+  skip (exists)  2026-06-15-town-council-agenda-1494.pdf
+  skip (exists)  2026-06-15-town-council-agenda-1272.pdf
+  skip (exists)  2026-06-17-historic-district-commission-agenda-1340.pdf
+  skip (exists)  2026-06-17-windsor-housing-authority-agenda-1487.pdf
+  skip (exists)  2026-06-17-zoning-board-of-appeals-agenda-1491.pdf
+
+Downloading 1 recording(s)...
+  skip (archive) clip 1405  Town Planning & Zoning - 7:00 PM
+
+Done — downloaded: 0  skipped: 12  failed: 0
+Files in: beat-archive/windsor-agendas
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (0 attachment(s), 0 skipped)
+Running download-windsor-locks-agendas.py ...
+Date window : 2026-06-09 to 2026-06-20
+Site        : https://windsorlocksct.org
+Output dir  : beat-archive/windsor-locks-agendas
+
+Fetching board categories...
+  Found 23 board(s).
+
+Fetching meeting repository posts...
+  Found 12 meeting(s) in date window.
+
+Downloading 12 PDF(s)...
+  skip (exists)  2026-06-09-board-of-finance-agenda-Agenda-06-09-26-1-1.pdf
+  skip (exists)  2026-06-09-water-pollution-control-authority-agenda-Cancelled-Hearing-Sheet-1.pdf
+  skip (exists)  2026-06-09-water-pollution-control-authority-agenda-Cancelled-Meeting-Sheet-Regular.pdf
+  skip (exists)  2026-06-10-fire-commission-agenda-June-2026-Fire-Department-Agenda.pdf
+  skip (exists)  2026-06-10-police-commission-agenda-PC-mgt-6-10-26.pdf
+  skip (exists)  2026-06-11-windsor-locks-arts-agenda-WLAC-Agenda-06.11.2026.pdf
+  [2026-06-15] Commission On the Needs of the Aging — agenda
+  downloading    2026-06-15-commission-on-the-needs-of-the-agin-agenda-Cona-Agenda-6.15.26.docx
+  skip (exists)  2026-06-15-water-pollution-control-authority-agenda-Cancelled-Meeting-Sheet-Regular-1.pdf
+  skip (exists)  2026-06-15-water-pollution-control-authority-agenda-Cancelled-Hearing-Sheet-3.pdf
+  [2026-06-16] Board of Selectmen — agenda
+  downloading    2026-06-16-board-of-selectmen-agenda-bos_6_16_26_agendazoom.pdf
+  skip (exists)  2026-06-17-water-pollution-control-authority-agenda-WPCA-Agenda-06.17.2026.pdf
+  skip (exists)  2026-06-17-water-pollution-control-authority-agenda-WPCA-Public-Hearing-06.17.2026.pdf
+
+Done — downloaded: 1  skipped: 10  failed: 1
+Files in: beat-archive/windsor-locks-agendas
+Log:      beat-archive/windsor-locks-agendas/download-log.txt
+  WARNING: unexpected content-type 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to jay.kenney@patch.com  (1 attachment(s), 0 skipped)
+2026-06-13 08:14:07 — avon-through-canton complete.

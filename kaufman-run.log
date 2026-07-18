@@ -1,0 +1,1246 @@
+==============================
+2026-06-06 11:20:09 — Starting (1/4): download-darien-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.darienct.gov/AgendaCenter
+Output dir  : beat-archive/darien-agendas
+
+Fetching Agenda Center page...
+  Parsed 306 meeting row(s) across all boards.
+  Found 73 document(s) across 33 board(s) in date window.
+
+  [2026-06-11] Representative Town Meeting — agenda
+  downloading    2026-06-11-representative-town-meeting-agenda.pdf
+  [2026-06-10] Blight Review Board — agenda
+  downloading    2026-06-10-blight-review-board-agenda.pdf
+  [2026-06-10] Beautification Commission — agenda
+  downloading    2026-06-10-beautification-commission-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda.pdf
+  [2026-06-09] Advisory Board of Health — agenda
+  downloading    2026-06-09-advisory-board-of-health-agenda.pdf
+  [2026-06-08] Representative Town Meeting — agenda
+  downloading    2026-06-08-representative-town-meeting-agenda.pdf
+  [2026-06-08] RTM - Planning, Zoning & Housing Committee — agenda
+  downloading    2026-06-08-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-08-rtm-planning-zoning-housing-committee-agenda.pdf
+  [2026-06-08] RTM - Education Committee — agenda
+  downloading    2026-06-08-rtm-education-committee-agenda.pdf
+  [2026-06-07] RTM - Parks & Recreation Committee — agenda
+  downloading    2026-06-07-rtm-parks-recreation-committee-agenda.pdf
+  [2026-06-07] Parks & Recreation Commission — agenda
+  downloading    2026-06-07-parks-recreation-commission-agenda.pdf
+  [2026-06-04] RTM - Public Works Committee — agenda
+  downloading    2026-06-04-rtm-public-works-committee-agenda.pdf
+  [2026-06-04] RTM - Finance & Budget Committee — agenda
+  downloading    2026-06-04-rtm-finance-budget-committee-agenda.pdf
+  [2026-06-04] Five Mile River Commission — agenda
+  downloading    2026-06-04-five-mile-river-commission-agenda.pdf
+  [2026-06-04] Advisory Sidewalk Committee — agenda
+  downloading    2026-06-04-advisory-sidewalk-committee-agenda.pdf
+  [2026-06-03] RTM - Parks & Recreation Committee — agenda
+  downloading    2026-06-03-rtm-parks-recreation-committee-agenda.pdf
+  [2026-06-03] RTM - Parks & Recreation Committee — minutes
+  downloading    2026-06-03-rtm-parks-recreation-committee-minutes.pdf
+  [2026-06-03] Environmental Protection Commission — agenda
+  downloading    2026-06-03-environmental-protection-commission-agenda.pdf
+  [2026-06-02] Sewer Commission — agenda
+  downloading    2026-06-02-sewer-commission-agenda.pdf
+  [2026-06-02] Sewer Commission — minutes
+  downloading    2026-06-02-sewer-commission-minutes.pdf
+  [2026-06-02] RTM - TGS&A Committee — agenda
+  downloading    2026-06-02-rtm-tgs-a-committee-agenda.pdf
+  [2026-06-02] RTM - TGS&A Committee — minutes
+  downloading    2026-06-02-rtm-tgs-a-committee-minutes.pdf
+  [2026-06-02] RTM - Public Health & Safety Committee — agenda
+  downloading    2026-06-02-rtm-public-health-safety-committee-agenda.pdf
+  skip (exists)  2026-06-02-rtm-public-health-safety-committee-agenda.pdf
+  [2026-06-01] Representative Town Meeting — agenda
+  downloading    2026-06-01-representative-town-meeting-agenda.pdf
+  [2026-06-01] RTM - Rules Committee — agenda
+  downloading    2026-06-01-rtm-rules-committee-agenda.pdf
+  [2026-06-01] RTM - Rules Committee — minutes
+  downloading    2026-06-01-rtm-rules-committee-minutes.pdf
+  [2026-06-01] Board of Selectmen — agenda
+  downloading    2026-06-01-board-of-selectmen-agenda.pdf
+  [2026-05-28] Police Commission — agenda
+  downloading    2026-05-28-police-commission-agenda.pdf
+  [2026-05-28] Police Commission — minutes
+  downloading    2026-05-28-police-commission-minutes.pdf
+  [2026-05-28] Advisory Conservation Committee — agenda
+  downloading    2026-05-28-advisory-conservation-committee-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals — agenda
+  downloading    2026-05-27-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-05-27-zoning-board-of-appeals-agenda.pdf
+  [2026-05-27] Zoning Board of Appeals — minutes
+  downloading    2026-05-27-zoning-board-of-appeals-minutes.pdf
+  [2026-05-27] Representative Town Meeting — agenda
+  downloading    2026-05-27-representative-town-meeting-agenda.pdf
+  [2026-05-27] Representative Town Meeting — minutes
+  downloading    2026-05-27-representative-town-meeting-minutes.pdf
+  [2026-05-26] Planning & Zoning Commission — agenda
+  downloading    2026-05-26-planning-zoning-commission-agenda.pdf
+  [2026-05-26] Planning & Zoning Commission — minutes
+  downloading    2026-05-26-planning-zoning-commission-minutes.pdf
+  [2026-05-26] Darien Housing Authority — agenda
+  downloading    2026-05-26-darien-housing-authority-agenda.pdf
+  [2026-05-22] Advisory Sidewalk Committee — agenda
+  downloading    2026-05-22-advisory-sidewalk-committee-agenda.pdf
+  [2026-05-22] Advisory Sidewalk Committee — minutes
+  downloading    2026-05-22-advisory-sidewalk-committee-minutes.pdf
+  [2026-05-21] Advisory Commission on Coastal Waters — agenda
+  downloading    2026-05-21-advisory-commission-on-coastal-waters-agenda.pdf
+  [2026-05-20] Parks & Recreation Commission — agenda
+  downloading    2026-05-20-parks-recreation-commission-agenda.pdf
+  [2026-05-20] HHR Building Committee — agenda
+  downloading    2026-05-20-hhr-building-committee-agenda.pdf
+  [2026-05-20] Commission on Aging — agenda
+  downloading    2026-05-20-commission-on-aging-agenda.pdf
+  [2026-05-20] Board of Selectmen — agenda
+  downloading    2026-05-20-board-of-selectmen-agenda.pdf
+  [2026-05-19] Representative Town Meeting — agenda
+  downloading    2026-05-19-representative-town-meeting-agenda.pdf
+  [2026-05-19] Operations Planning Committee — agenda
+  downloading    2026-05-19-operations-planning-committee-agenda.pdf
+  [2026-05-19] Darien TV 79 Advisory Board — agenda
+  downloading    2026-05-19-darien-tv-79-advisory-board-agenda.pdf
+  [2026-05-19] Board of Finance — agenda
+  downloading    2026-05-19-board-of-finance-agenda.pdf
+  [2026-05-19] Architectural Review Board — agenda
+  downloading    2026-05-19-architectural-review-board-agenda.pdf
+  [2026-05-19] Architectural Review Board — minutes
+  downloading    2026-05-19-architectural-review-board-minutes.pdf
+  [2026-05-18] Representative Town Meeting — agenda
+  downloading    2026-05-18-representative-town-meeting-agenda.pdf
+  [2026-05-18] Representative Town Meeting — minutes
+  downloading    2026-05-18-representative-town-meeting-minutes.pdf
+  [2026-05-18] RTM - Public Health & Safety Committee — agenda
+  downloading    2026-05-18-rtm-public-health-safety-committee-agenda.pdf
+  [2026-05-18] RTM - Finance & Budget Committee — agenda
+  downloading    2026-05-18-rtm-finance-budget-committee-agenda.pdf
+  [2026-05-18] Board of Selectmen — agenda
+  downloading    2026-05-18-board-of-selectmen-agenda.pdf
+  [2026-05-18] Board of Finance — agenda
+  downloading    2026-05-18-board-of-finance-agenda.pdf
+  [2026-05-14] RTM - Planning, Zoning & Housing Committee — agenda
+  downloading    2026-05-14-rtm-planning-zoning-housing-committee-agenda.pdf
+  [2026-05-14] Great Island Parking Design Committee — agenda
+  downloading    2026-05-14-great-island-parking-design-committee-agenda.pdf
+  [2026-05-14] Great Island Parking Design Committee — minutes
+  downloading    2026-05-14-great-island-parking-design-committee-minutes.pdf
+  [2026-05-13] Representative Town Meeting — agenda
+  downloading    2026-05-13-representative-town-meeting-agenda.pdf
+  [2026-05-13] Beautification Commission — agenda
+  downloading    2026-05-13-beautification-commission-agenda.pdf
+  [2026-05-13] Beautification Commission — minutes
+  downloading    2026-05-13-beautification-commission-minutes.pdf
+  [2026-05-13] Advisory Committee on Sustainability — agenda
+  downloading    2026-05-13-advisory-committee-on-sustainability-agenda.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda.pdf
+  [2026-05-12] Planning & Zoning Commission — minutes
+  downloading    2026-05-12-planning-zoning-commission-minutes.pdf
+  [2026-05-12] Monuments & Ceremonies Commission — agenda
+  downloading    2026-05-12-monuments-ceremonies-commission-agenda.pdf
+  [2026-05-11] Representative Town Meeting — agenda
+  downloading    2026-05-11-representative-town-meeting-agenda.pdf
+  [2026-05-11] Representative Town Meeting — minutes
+  downloading    2026-05-11-representative-town-meeting-minutes.pdf
+  skip (exists)  2026-05-11-representative-town-meeting-agenda.pdf
+  [2026-05-07] Advisory Sidewalk Committee — agenda
+  downloading    2026-05-07-advisory-sidewalk-committee-agenda.pdf
+  [2026-05-07] Advisory Sidewalk Committee — minutes
+  downloading    2026-05-07-advisory-sidewalk-committee-minutes.pdf
+
+Done — downloaded: 69  skipped: 4  failed: 0
+Files in: beat-archive/darien-agendas
+Log:      beat-archive/darien-agendas/download-log.txt
+
+2026-06-06 11:21:59 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:26:59 — Starting (2/4): download-greenwich-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Hub page    : https://www.greenwichct.gov/AgendaCenter
+Output dir  : beat-archive/greenwich-agendas
+
+Fetching Agenda Center page...
+  Parsed 409 meeting row(s) across all boards.
+  Found 75 document(s) across 38 board(s) in date window.
+
+  [2026-06-10] Planning & Zoning Board of Appeals — agenda
+  downloading    2026-06-10-planning-zoning-board-of-appeals-agenda.pdf
+  [2026-06-10] Nathaniel Witherell Board — agenda
+  downloading    2026-06-10-nathaniel-witherell-board-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — agenda
+  downloading    2026-06-09-planning-zoning-commission-agenda.pdf
+  [2026-06-08] Representative Town Meeting — agenda
+  downloading    2026-06-08-representative-town-meeting-agenda.pdf
+  [2026-06-08] Planning & Zoning Commission — agenda
+  downloading    2026-06-08-planning-zoning-commission-agenda.pdf
+  [2026-06-08] Inland Wetlands & Watercourses Agency — agenda
+  downloading    2026-06-08-inland-wetlands-watercourses-agency-agenda.pdf
+  [2026-06-08] Energy Management Advisory Committee — agenda
+  downloading    2026-06-08-energy-management-advisory-committee-agenda.pdf
+  [2026-06-04] Nathaniel Witherell Board — agenda
+  downloading    2026-06-04-nathaniel-witherell-board-agenda.pdf
+  [2026-06-04] FS Sustainability Committee — agenda
+  downloading    2026-06-04-fs-sustainability-committee-agenda.pdf
+  [2026-06-04] Conservation Commission — agenda
+  downloading    2026-06-04-conservation-commission-agenda.pdf
+  [2026-06-03] Architectural Review Committee — agenda
+  downloading    2026-06-03-architectural-review-committee-agenda.pdf
+  [2026-06-02] FS AI Task Force — agenda
+  downloading    2026-06-02-fs-ai-task-force-agenda.pdf
+  [2026-06-02] Board of Ethics — agenda
+  downloading    2026-06-02-board-of-ethics-agenda.pdf
+  [2026-06-01] Architectural Review Committee — agenda
+  downloading    2026-06-01-architectural-review-committee-agenda.pdf
+  [2026-05-28] Retirement Board — agenda
+  downloading    2026-05-28-retirement-board-agenda.pdf
+  [2026-05-28] Board of Selectmen — agenda
+  downloading    2026-05-28-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-28-board-of-selectmen-agenda.pdf
+  [2026-05-27] Planning & Zoning Commission — agenda
+  downloading    2026-05-27-planning-zoning-commission-agenda.pdf
+  [2026-05-27] Board of Parks & Recreation — agenda
+  downloading    2026-05-27-board-of-parks-recreation-agenda.pdf
+  [2026-05-27] Board of Parks & Recreation — minutes
+  downloading    2026-05-27-board-of-parks-recreation-minutes.pdf
+  [2026-05-26] Planning & Zoning Commission — agenda
+  downloading    2026-05-26-planning-zoning-commission-agenda.pdf
+  [2026-05-26] Board of Health — agenda
+  downloading    2026-05-26-board-of-health-agenda.pdf
+  [2026-05-21] Planning & Zoning Commission — agenda
+  downloading    2026-05-21-planning-zoning-commission-agenda.pdf
+  [2026-05-20] Nathaniel Witherell Board — agenda
+  downloading    2026-05-20-nathaniel-witherell-board-agenda.pdf
+  [2026-05-20] Nathaniel Witherell Board — minutes
+  downloading    2026-05-20-nathaniel-witherell-board-minutes.pdf
+  [2026-05-20] Harbor Management Commission — agenda
+  downloading    2026-05-20-harbor-management-commission-agenda.pdf
+  [2026-05-20] FS Nominating Advisory Committee — agenda
+  downloading    2026-05-20-fs-nominating-advisory-committee-agenda.pdf
+  [2026-05-20] FS Active Transportation Task Force — agenda
+  downloading    2026-05-20-fs-active-transportation-task-force-agenda.pdf
+  [2026-05-20] Commission on Aging — agenda
+  downloading    2026-05-20-commission-on-aging-agenda.pdf
+  [2026-05-20] Board of Ethics — agenda
+  downloading    2026-05-20-board-of-ethics-agenda.pdf
+  [2026-05-20] Board of Ethics — minutes
+  downloading    2026-05-20-board-of-ethics-minutes.pdf
+  [2026-05-20] Architectural Review Committee — agenda
+  downloading    2026-05-20-architectural-review-committee-agenda.pdf
+  [2026-05-19] FS Youth Commission — agenda
+  downloading    2026-05-19-fs-youth-commission-agenda.pdf
+  [2026-05-19] FS Operations Planning Committee — agenda
+  downloading    2026-05-19-fs-operations-planning-committee-agenda.pdf
+  [2026-05-19] FS AI Task Force — agenda
+  downloading    2026-05-19-fs-ai-task-force-agenda.pdf
+  [2026-05-19] Board of Human Services — agenda
+  downloading    2026-05-19-board-of-human-services-agenda.pdf
+  [2026-05-18] Inland Wetlands & Watercourses Agency — agenda
+  downloading    2026-05-18-inland-wetlands-watercourses-agency-agenda.pdf
+  [2026-05-18] Inland Wetlands & Watercourses Agency — minutes
+  downloading    2026-05-18-inland-wetlands-watercourses-agency-minutes.pdf
+  [2026-05-18] Board of Health — agenda
+  downloading    2026-05-18-board-of-health-agenda.pdf
+  [2026-05-18] Board of Estimate & Taxation Regular Meeting — agenda
+  downloading    2026-05-18-board-of-estimate-taxation-regular-meeting-agenda.pdf
+  [2026-05-18] Architectural Review Committee — agenda
+  downloading    2026-05-18-architectural-review-committee-agenda.pdf
+  [2026-05-18] Advisory Committee for People With Disabilities — agenda
+  downloading    2026-05-18-advisory-committee-for-people-with-disabilities-agenda.pdf
+  [2026-05-18] Advisory Committee for People With Disabilities — minutes
+  downloading    2026-05-18-advisory-committee-for-people-with-disabilities-minutes.pdf
+  [2026-05-14] Board of Selectmen — agenda
+  downloading    2026-05-14-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-14-board-of-selectmen-agenda.pdf
+  [2026-05-14] Board of Selectmen — minutes
+  downloading    2026-05-14-board-of-selectmen-minutes.pdf
+  skip (exists)  2026-05-14-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-05-14-board-of-selectmen-minutes.pdf
+  [2026-05-14] Board of Estimate & Taxation Policy & Procedures Committee — agenda
+  downloading    2026-05-14-board-of-estimate-taxation-policy-procedures-commi-agenda.pdf
+  [2026-05-14] Board of Estimate & Taxation Investment Advisory Committee — agenda
+  downloading    2026-05-14-board-of-estimate-taxation-investment-advisory-com-agenda.pdf
+  [2026-05-14] Board of Estimate & Taxation Audit Committee — agenda
+  downloading    2026-05-14-board-of-estimate-taxation-audit-committee-agenda.pdf
+  [2026-05-13] Historic District Commission — agenda
+  downloading    2026-05-13-historic-district-commission-agenda.pdf
+  [2026-05-13] Board of Estimate & Taxation Human Resources Committee — agenda
+  downloading    2026-05-13-board-of-estimate-taxation-human-resources-committ-agenda.pdf
+  [2026-05-13] Board of Estimate & Taxation Debt & Fund Balance Policy Committee — agenda
+  downloading    2026-05-13-board-of-estimate-taxation-debt-fund-balance-polic-agenda.pdf
+  [2026-05-13] Affordable Housing Trust Fund Board — agenda
+  downloading    2026-05-13-affordable-housing-trust-fund-board-agenda.pdf
+  [2026-05-12] Shellfish Commission — agenda
+  downloading    2026-05-12-shellfish-commission-agenda.pdf
+  [2026-05-12] Shellfish Commission — minutes
+  downloading    2026-05-12-shellfish-commission-minutes.pdf
+  [2026-05-12] Planning & Zoning Commission — agenda
+  downloading    2026-05-12-planning-zoning-commission-agenda.pdf
+  [2026-05-12] FS Diversity Advisory Committee — agenda
+  downloading    2026-05-12-fs-diversity-advisory-committee-agenda.pdf
+  [2026-05-12] Board of Selectmen — agenda
+  downloading    2026-05-12-board-of-selectmen-agenda.pdf
+  [2026-05-12] Board of Selectmen — minutes
+  downloading    2026-05-12-board-of-selectmen-minutes.pdf
+  [2026-05-12] Board of Estimate & Taxation Budget Committee — agenda
+  downloading    2026-05-12-board-of-estimate-taxation-budget-committee-agenda.pdf
+  [2026-05-11] Representative Town Meeting — agenda
+  downloading    2026-05-11-representative-town-meeting-agenda.pdf
+  [2026-05-11] Representative Town Meeting — minutes
+  downloading    2026-05-11-representative-town-meeting-minutes.pdf
+  [2026-05-11] Planning & Zoning Commission — agenda
+  downloading    2026-05-11-planning-zoning-commission-agenda.pdf
+  [2026-05-11] Energy Management Advisory Committee — agenda
+  downloading    2026-05-11-energy-management-advisory-committee-agenda.pdf
+  [2026-05-11] Board of Estimate & Taxation Law Committee — agenda
+  downloading    2026-05-11-board-of-estimate-taxation-law-committee-agenda.pdf
+  [2026-05-08] FS Arch Street Task Force — agenda
+  downloading    2026-05-08-fs-arch-street-task-force-agenda.pdf
+  [2026-05-07] Parks & Recreation-Public Tree Hearings — agenda
+  downloading    2026-05-07-parks-recreation-public-tree-hearings-agenda.pdf
+  [2026-05-07] Parks & Recreation-Public Tree Hearings — minutes
+  downloading    2026-05-07-parks-recreation-public-tree-hearings-minutes.pdf
+  [2026-05-07] Flood & Erosion Control Board — agenda
+  downloading    2026-05-07-flood-erosion-control-board-agenda.pdf
+  [2026-05-07] Flood & Erosion Control Board — minutes
+  downloading    2026-05-07-flood-erosion-control-board-minutes.pdf
+  [2026-05-07] FS Sustainability Committee — agenda
+  downloading    2026-05-07-fs-sustainability-committee-agenda.pdf
+  [2026-05-07] Conservation Commission — agenda
+  downloading    2026-05-07-conservation-commission-agenda.pdf
+  [2026-05-07] Conservation Commission — minutes
+  downloading    2026-05-07-conservation-commission-minutes.pdf
+
+PDFs  — downloaded: 71  skipped: 4  failed: 0
+Files in: beat-archive/greenwich-agendas
+Log:      beat-archive/greenwich-agendas/download-log.txt
+
+2026-06-06 11:28:14 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:33:14 — Starting (3/4): download-guilford-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Index page  : https://www.guilfordct.gov/agenda_center/index.php
+Output dir  : beat-archive/guilford-agendas
+
+Fetching Agenda Center index...
+  Found 46 board/committee page(s).
+
+Fetching board pages (46 total)...
+  [ 1/46] Affordable Housing Commission... 2 doc(s)
+  [ 2/46] Agricultural Commission... 1 doc(s)
+  [ 3/46] Board of Assessment Appeals... 0 items
+  [ 4/46] Board of Ethics... 1 doc(s)
+  [ 5/46] Board of Finance... 4 doc(s), 2 video(s)
+  [ 6/46] Board of Fire Commissioners... 2 doc(s)
+  [ 7/46] Board of Police Commissioners... 2 doc(s)
+  [ 8/46] Board of Selectmen... 7 doc(s), 2 video(s)
+  [ 9/46] Building Code Board of Appeals... 0 items
+  [10/46] Conservation Commission... 1 doc(s)
+  [11/46] Design Review Committee... 0 items
+  [12/46] Economic Development Commission... 2 doc(s)
+  [13/46] Elderly Tax Relief Review Committee... 0 items
+  [14/46] Guilford Green Committee... 1 doc(s)
+  [15/46] Guilford Lakes Golf Course Commission... 2 doc(s)
+  [16/46] Harbor Management Commission... 2 doc(s)
+  [17/46] Hazard Mitigation Commission... 0 items
+  [18/46] Historic District Commission... 1 doc(s)
+  [19/46] Human Rights Commission... 2 doc(s)
+  [20/46] Human Services Council... 0 items
+  [21/46] Inland Wetlands Commission... 4 doc(s), 1 video(s)
+  [22/46] Lake Quonnipaug Subcommittee... 0 items
+  [23/46] Land Acquisition Commission... 1 doc(s)
+  [24/46] Land Stewardship Committee... 0 items
+  [25/46] Marina Commission... 3 doc(s)
+  [26/46] OPEB Board... 0 items
+  [27/46] Parks and Recreation Commission... 1 doc(s)
+  [28/46] Pension Committee... 0 items
+  [29/46] Planning and Zoning Commission... 1 video(s)
+  [30/46] Planning Committee... 0 items
+  [31/46] Public Works Commission... 1 doc(s)
+  [32/46] Route 1 West Study Committee... 0 items
+  [33/46] Safe Streets Task Force... 0 items
+  [34/46] Scenic Roads Advisory Committee... 0 items
+  [35/46] Shellfish Commission... 1 doc(s)
+  [36/46] Standing Building Committee... 1 doc(s)
+  [37/46] Standing Fields Committee... 0 items
+  [38/46] Sustainable Guilford... 1 doc(s)
+  [39/46] Tree Advisory Board... 1 doc(s)
+  [40/46] Veterans Advisory Joint Committee... 0 items
+  [41/46] Waste Transfer Station Advisory Committee... 1 doc(s)
+  [42/46] Water Pollution Control Authority... 1 doc(s)
+  [43/46] Youth and Family Services Board... 0 items
+  [44/46] Zoning Board of Appeals... 0 items
+  [45/46] America 250th Celebration Committee... 0 items
+  [46/46] Charter Revision Commission... 2 doc(s), 1 video(s)
+
+Found 48 document(s) across 26 board(s).
+
+  [2026-06-10] Inland Wetlands Commission — agenda
+  downloading    2026-06-10-inland-wetlands-commission-agenda.pdf
+  [2026-06-09] Board of Ethics — agenda
+  downloading    2026-06-09-board-of-ethics-agenda.pdf
+  [2026-06-08] Marina Commission — agenda
+  downloading    2026-06-08-marina-commission-agenda.pdf
+  [2026-06-08] Board of Selectmen — agenda
+  downloading    2026-06-08-board-of-selectmen-agenda.pdf
+  [2026-06-03] Water Pollution Control Authority — agenda
+  downloading    2026-06-03-water-pollution-control-authority-agenda.pdf
+  [2026-06-03] Public Works Commission — agenda
+  downloading    2026-06-03-public-works-commission-agenda.pdf
+  [2026-06-02] Standing Building Committee — agenda
+  downloading    2026-06-02-standing-building-committee-agenda.pdf
+  [2026-06-02] Economic Development Commission — agenda
+  downloading    2026-06-02-economic-development-commission-agenda.pdf
+  [2026-06-02] Economic Development Commission — minutes
+  downloading    2026-06-02-economic-development-commission-minutes.pdf
+  [2026-06-02] Conservation Commission — agenda
+  downloading    2026-06-02-conservation-commission-agenda.pdf
+  [2026-06-02] Charter Revision Commission — agenda
+  downloading    2026-06-02-charter-revision-commission-agenda.pdf
+  [2026-06-02] Board of Fire Commissioners — agenda
+  downloading    2026-06-02-board-of-fire-commissioners-agenda.pdf
+  [2026-06-02] Board of Fire Commissioners — minutes
+  downloading    2026-06-02-board-of-fire-commissioners-minutes.pdf
+  [2026-06-01] Waste Transfer Station Advisory Committee — agenda
+  downloading    2026-06-01-waste-transfer-station-advisory-committee-agenda.pdf
+  [2026-06-01] Parks and Recreation Commission — agenda
+  downloading    2026-06-01-parks-and-recreation-commission-agenda.pdf
+  [2026-06-01] Board of Selectmen — agenda
+  downloading    2026-06-01-board-of-selectmen-agenda.pdf
+  [2026-06-01] Board of Selectmen — minutes
+  downloading    2026-06-01-board-of-selectmen-minutes.pdf
+  [2026-05-28] Tree Advisory Board — agenda
+  downloading    2026-05-28-tree-advisory-board-agenda.pdf
+  [2026-05-27] Board of Selectmen — agenda
+  downloading    2026-05-27-board-of-selectmen-agenda.pdf
+  [2026-05-27] Board of Selectmen — minutes
+  downloading    2026-05-27-board-of-selectmen-minutes.pdf
+  [2026-05-26] Harbor Management Commission — agenda
+  downloading    2026-05-26-harbor-management-commission-agenda.pdf
+  [2026-05-26] Harbor Management Commission — minutes
+  downloading    2026-05-26-harbor-management-commission-minutes.pdf
+  [2026-05-26] Board of Finance — agenda
+  downloading    2026-05-26-board-of-finance-agenda.pdf
+  [2026-05-26] Board of Finance — minutes
+  downloading    2026-05-26-board-of-finance-minutes.pdf
+  [2026-05-23] Inland Wetlands Commission — agenda
+  downloading    2026-05-23-inland-wetlands-commission-agenda.pdf
+  [2026-05-21] Human Rights Commission — agenda
+  downloading    2026-05-21-human-rights-commission-agenda.pdf
+  [2026-05-21] Human Rights Commission — minutes
+  downloading    2026-05-21-human-rights-commission-minutes.pdf
+  [2026-05-21] Affordable Housing Commission — agenda
+  downloading    2026-05-21-affordable-housing-commission-agenda.pdf
+  [2026-05-20] Historic District Commission — agenda
+  downloading    2026-05-20-historic-district-commission-agenda.pdf
+  [2026-05-20] Guilford Green Committee — agenda
+  downloading    2026-05-20-guilford-green-committee-agenda.pdf
+  [2026-05-20] Board of Police Commissioners — agenda
+  downloading    2026-05-20-board-of-police-commissioners-agenda.pdf
+  [2026-05-20] Board of Police Commissioners — minutes
+  downloading    2026-05-20-board-of-police-commissioners-minutes.pdf
+  [2026-05-19] Sustainable Guilford — agenda
+  downloading    2026-05-19-sustainable-guilford-agenda.pdf
+  [2026-05-19] Guilford Lakes Golf Course Commission — agenda
+  downloading    2026-05-19-guilford-lakes-golf-course-commission-agenda.pdf
+  [2026-05-19] Guilford Lakes Golf Course Commission — minutes
+  downloading    2026-05-19-guilford-lakes-golf-course-commission-minutes.pdf
+  [2026-05-19] Affordable Housing Commission — agenda
+  downloading    2026-05-19-affordable-housing-commission-agenda.pdf
+  [2026-05-18] Board of Selectmen — agenda
+  downloading    2026-05-18-board-of-selectmen-agenda.pdf
+  [2026-05-18] Board of Selectmen — minutes
+  downloading    2026-05-18-board-of-selectmen-minutes.pdf
+  [2026-05-18] Board of Finance — agenda
+  downloading    2026-05-18-board-of-finance-agenda.pdf
+  [2026-05-18] Board of Finance — minutes
+  downloading    2026-05-18-board-of-finance-minutes.pdf
+  [2026-05-18] Agricultural Commission — agenda
+  downloading    2026-05-18-agricultural-commission-agenda.pdf
+  [2026-05-14] Charter Revision Commission — agenda
+  downloading    2026-05-14-charter-revision-commission-agenda.pdf
+  [2026-05-13] Shellfish Commission — agenda
+  downloading    2026-05-13-shellfish-commission-agenda.pdf
+  [2026-05-13] Inland Wetlands Commission — agenda
+  downloading    2026-05-13-inland-wetlands-commission-agenda.pdf
+  [2026-05-13] Inland Wetlands Commission — agenda
+  downloading    2026-05-13-inland-wetlands-commission-agenda-1.pdf
+  [2026-05-11] Marina Commission — agenda
+  downloading    2026-05-11-marina-commission-agenda.pdf
+  [2026-05-11] Marina Commission — minutes
+  downloading    2026-05-11-marina-commission-minutes.pdf
+  [2026-05-07] Land Acquisition Commission — agenda
+  downloading    2026-05-07-land-acquisition-commission-agenda.pdf
+
+Done — downloaded: 48  skipped: 0  failed: 0
+Files in: beat-archive/guilford-agendas
+Log:      beat-archive/guilford-agendas/download-log.txt
+
+2026-06-06 11:34:52 — Sleeping 5 minutes before next script...
+==============================
+2026-06-06 11:39:52 — Starting (4/4): download-stamford-agendas.py
+==============================
+Date window : 2026-05-07 to 2026-06-13
+Source (doc): https://www.stamfordct.gov (GovAccess — 40 boards)
+Output dir  : beat-archive/stamford-agendas
+
+Scanning 40 board page(s) for documents...
+  Affordable Housing Trust Fund: 2 document(s)
+  Arts & Culture Commission: 2 document(s)
+  Board of Ethics: 5 document(s)
+  CERF: 2 document(s)
+  Custodian & Mechanic Pension: 2 document(s)
+  Economic Development Commission: 2 document(s)
+  Environmental Protection Board: 2 document(s)
+  Fire Commission: 2 document(s)
+  Firefighters Pension Fund: 1 document(s)
+  Golf Commission: 2 document(s)
+  Harbor Management Commission: 4 document(s)
+  Health Commission: 1 document(s)
+  Historic Preservation: 2 document(s)
+  Investment Advisory Committee: 2 document(s)
+  OPEB Board of Trustees: 1 document(s)
+  Parks & Recreation Commission: 2 document(s)
+  Personnel Commission: 8 document(s)
+  Planning Board: 3 document(s)
+  Police Commission: 4 document(s)
+  Police Pension Board: 2 document(s)
+  Social Services Commission: 1 document(s)
+  Urban Redevelopment Commission: 2 document(s)
+  WPCA Board: 10 document(s)
+  Zoning Board: 3 document(s)
+  Zoning Board of Appeals: 3 document(s)
+
+  Total: 70 document(s) in date window.
+
+  [2026-06-09] Planning Board — agenda
+  downloading    2026-06-09-planning-board-agenda.pdf
+  [2026-06-08] Zoning Board — agenda
+  downloading    2026-06-08-zoning-board-agenda.pdf
+  [2026-06-03] Zoning Board of Appeals — agenda
+  downloading    2026-06-03-zoning-board-of-appeals-agenda.pdf
+  [2026-06-02] Police Commission — minutes
+  downloading    2026-06-02-police-commission-minutes.pdf
+  skip (exists)  2026-06-02-police-commission-minutes.pdf
+  [2026-06-02] Historic Preservation — agenda
+  downloading    2026-06-02-historic-preservation-agenda.pdf
+  [2026-06-02] Historic Preservation — minutes
+  downloading    2026-06-02-historic-preservation-minutes.pdf
+  [2026-06-01] Personnel Commission — minutes
+  downloading    2026-06-01-personnel-commission-minutes.pdf
+  skip (exists)  2026-06-01-personnel-commission-minutes.pdf
+  [2026-05-29] Police Commission — agenda
+  downloading    2026-05-29-police-commission-agenda.pdf
+  [2026-05-29] Personnel Commission — minutes
+  downloading    2026-05-29-personnel-commission-minutes.pdf
+  [2026-05-29] Harbor Management Commission — agenda
+  downloading    2026-05-29-harbor-management-commission-agenda.pdf
+  [2026-05-28] Zoning Board of Appeals — minutes
+  downloading    2026-05-28-zoning-board-of-appeals-minutes.pdf
+  [2026-05-28] Fire Commission — agenda
+  downloading    2026-05-28-fire-commission-agenda.pdf
+  [2026-05-27] Personnel Commission — agenda
+  downloading    2026-05-27-personnel-commission-agenda.pdf
+  [2026-05-26] Firefighters Pension Fund — agenda
+  downloading    2026-05-26-firefighters-pension-fund-agenda.pdf
+  [2026-05-22] Environmental Protection Board — minutes
+  downloading    2026-05-22-environmental-protection-board-minutes.pdf
+  [2026-05-22] Board of Ethics — minutes
+  downloading    2026-05-22-board-of-ethics-minutes.pdf
+  skip (exists)  2026-05-22-board-of-ethics-minutes.pdf
+  skip (exists)  2026-05-22-board-of-ethics-minutes.pdf
+  [2026-05-21] Environmental Protection Board — agenda
+  downloading    2026-05-21-environmental-protection-board-agenda.pdf
+  [2026-05-20] Social Services Commission — agenda
+  downloading    2026-05-20-social-services-commission-agenda.pdf
+  [2026-05-20] Parks & Recreation Commission — agenda
+  downloading    2026-05-20-parks-recreation-commission-agenda.pdf
+  [2026-05-20] Parks & Recreation Commission — minutes
+  downloading    2026-05-20-parks-recreation-commission-minutes.pdf
+  [2026-05-19] Planning Board — agenda
+  downloading    2026-05-19-planning-board-agenda.pdf
+  [2026-05-19] Planning Board — minutes
+  downloading    2026-05-19-planning-board-minutes.pdf
+  [2026-05-19] Harbor Management Commission — minutes
+  downloading    2026-05-19-harbor-management-commission-minutes.pdf
+  [2026-05-19] Golf Commission — agenda
+  downloading    2026-05-19-golf-commission-agenda.pdf
+  skip (exists)  2026-05-19-golf-commission-agenda.pdf
+  [2026-05-18] Zoning Board — agenda
+  downloading    2026-05-18-zoning-board-agenda.pdf
+  [2026-05-18] Zoning Board — minutes
+  downloading    2026-05-18-zoning-board-minutes.pdf
+  [2026-05-18] WPCA Board — minutes
+  downloading    2026-05-18-wpca-board-minutes.pdf
+  [2026-05-18] Board of Ethics — agenda
+  downloading    2026-05-18-board-of-ethics-agenda.pdf
+  [2026-05-18] Arts & Culture Commission — agenda
+  downloading    2026-05-18-arts-culture-commission-agenda.pdf
+  [2026-05-18] Arts & Culture Commission — minutes
+  downloading    2026-05-18-arts-culture-commission-minutes.pdf
+  [2026-05-15] WPCA Board — agenda
+  downloading    2026-05-15-wpca-board-agenda.pdf
+  skip (exists)  2026-05-15-wpca-board-agenda.pdf
+  skip (exists)  2026-05-15-wpca-board-agenda.pdf
+  skip (exists)  2026-05-15-wpca-board-agenda.pdf
+  [2026-05-15] WPCA Board — minutes
+  downloading    2026-05-15-wpca-board-minutes.pdf
+  skip (exists)  2026-05-15-wpca-board-minutes.pdf
+  [2026-05-15] Personnel Commission — minutes
+  downloading    2026-05-15-personnel-commission-minutes.pdf
+  skip (exists)  2026-05-15-personnel-commission-minutes.pdf
+  [2026-05-15] Harbor Management Commission — agenda
+  downloading    2026-05-15-harbor-management-commission-agenda.pdf
+  [2026-05-14] Zoning Board of Appeals — minutes
+  downloading    2026-05-14-zoning-board-of-appeals-minutes.pdf
+  [2026-05-14] OPEB Board of Trustees — agenda
+  downloading    2026-05-14-opeb-board-of-trustees-agenda.pdf
+  [2026-05-14] Health Commission — agenda
+  downloading    2026-05-14-health-commission-agenda.pdf
+  [2026-05-14] Harbor Management Commission — minutes
+  downloading    2026-05-14-harbor-management-commission-minutes.pdf
+  [2026-05-14] Custodian & Mechanic Pension — minutes
+  downloading    2026-05-14-custodian-mechanic-pension-minutes.pdf
+  [2026-05-14] CERF — minutes
+  downloading    2026-05-14-cerf-minutes.pdf
+  [2026-05-13] Urban Redevelopment Commission — agenda
+  downloading    2026-05-13-urban-redevelopment-commission-agenda.pdf
+  [2026-05-13] Urban Redevelopment Commission — minutes
+  downloading    2026-05-13-urban-redevelopment-commission-minutes.pdf
+  [2026-05-13] Police Pension Board — minutes
+  downloading    2026-05-13-police-pension-board-minutes.pdf
+  [2026-05-13] Economic Development Commission — agenda
+  downloading    2026-05-13-economic-development-commission-agenda.pdf
+  [2026-05-13] Economic Development Commission — minutes
+  downloading    2026-05-13-economic-development-commission-minutes.pdf
+  [2026-05-13] Affordable Housing Trust Fund — agenda
+  downloading    2026-05-13-affordable-housing-trust-fund-agenda.pdf
+  [2026-05-13] Affordable Housing Trust Fund — minutes
+  downloading    2026-05-13-affordable-housing-trust-fund-minutes.pdf
+  [2026-05-12] WPCA Board — agenda
+  downloading    2026-05-12-wpca-board-agenda.pdf
+  skip (exists)  2026-05-12-wpca-board-agenda.pdf
+  [2026-05-12] Fire Commission — agenda
+  downloading    2026-05-12-fire-commission-agenda.pdf
+  [2026-05-12] Custodian & Mechanic Pension — agenda
+  downloading    2026-05-12-custodian-mechanic-pension-agenda.pdf
+  [2026-05-12] CERF — agenda
+  downloading    2026-05-12-cerf-agenda.pdf
+  [2026-05-11] Personnel Commission — agenda
+  downloading    2026-05-11-personnel-commission-agenda.pdf
+  [2026-05-11] Investment Advisory Committee — agenda
+  downloading    2026-05-11-investment-advisory-committee-agenda.pdf
+  [2026-05-11] Investment Advisory Committee — minutes
+  downloading    2026-05-11-investment-advisory-committee-minutes.pdf
+  [2026-05-08] WPCA Board — minutes
+  downloading    2026-05-08-wpca-board-minutes.pdf
+  [2026-05-08] Police Pension Board — agenda
+  downloading    2026-05-08-police-pension-board-agenda.pdf
+  [2026-05-08] Personnel Commission — minutes
+  downloading    2026-05-08-personnel-commission-minutes.pdf
+  [2026-05-08] Board of Ethics — minutes
+  downloading    2026-05-08-board-of-ethics-minutes.pdf
+  [2026-05-07] Police Commission — minutes
+  downloading    2026-05-07-police-commission-minutes.pdf
+
+PDFs  — downloaded: 59  skipped: 11  failed: 0
+Files in: beat-archive/stamford-agendas
+Log:      beat-archive/stamford-agendas/download-log.txt
+
+2026-06-06 11:42:21 — All Kaufman scripts complete.
+==============================
+2026-06-11 09:09:09 — Starting (1/4): download-darien-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Hub page    : https://www.darienct.gov/AgendaCenter
+Output dir  : beat-archive/darien-agendas
+
+Fetching Agenda Center page...
+  Parsed 311 meeting row(s) across all boards.
+  Found 19 document(s) across 14 board(s) in date window.
+
+  skip (exists)  2026-06-17-commission-on-aging-agenda.pdf
+  skip (exists)  2026-06-16-operations-planning-committee-agenda.pdf
+  skip (exists)  2026-06-11-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-11-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-10-blight-review-board-agenda.pdf
+  skip (exists)  2026-06-10-beautification-commission-agenda.pdf
+  skip (exists)  2026-06-10-advisory-committee-on-sustainability-agenda.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-monuments-ceremonies-commission-agenda.pdf
+  skip (exists)  2026-06-09-advisory-conservation-committee-agenda.pdf
+  skip (exists)  2026-06-09-advisory-board-of-health-agenda.pdf
+  skip (exists)  2026-06-08-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-08-representative-town-meeting-minutes.pdf
+  skip (exists)  2026-06-08-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-08-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-08-rtm-education-committee-agenda.pdf
+  skip (exists)  2026-06-07-rtm-parks-recreation-committee-agenda.pdf
+  skip (exists)  2026-06-07-rtm-parks-recreation-committee-minutes.pdf
+  skip (exists)  2026-06-07-parks-recreation-commission-agenda.pdf
+
+Done — downloaded: 0  skipped: 19  failed: 0
+Files in: beat-archive/darien-agendas
+2026-06-11 09:09:12 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:14:12 — Starting (2/4): download-greenwich-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Hub page    : https://www.greenwichct.gov/AgendaCenter
+Output dir  : beat-archive/greenwich-agendas
+
+Fetching Agenda Center page...
+  Parsed 419 meeting row(s) across all boards.
+  Found 19 document(s) across 15 board(s) in date window.
+
+  skip (exists)  2026-06-18-board-of-estimate-taxation-investment-advisory-com-agenda.pdf
+  skip (exists)  2026-06-17-fs-nominating-advisory-committee-agenda.pdf
+  skip (exists)  2026-06-16-inland-wetlands-watercourses-agency-agenda.pdf
+  skip (exists)  2026-06-16-fs-operations-planning-committee-agenda.pdf
+  skip (exists)  2026-06-15-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-15-fs-arch-street-task-force-agenda.pdf
+  skip (exists)  2026-06-11-fs-diversity-advisory-committee-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-nathaniel-witherell-board-agenda.pdf
+  skip (exists)  2026-06-10-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-09-shellfish-commission-agenda.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-fs-youth-commission-agenda.pdf
+  skip (exists)  2026-06-08-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-08-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-08-inland-wetlands-watercourses-agency-agenda.pdf
+  skip (exists)  2026-06-08-energy-management-advisory-committee-agenda.pdf
+
+PDFs  — downloaded: 0  skipped: 19  failed: 0
+Files in: beat-archive/greenwich-agendas
+2026-06-11 09:14:14 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:19:14 — Starting (3/4): download-guilford-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Index page  : https://www.guilfordct.gov/agenda_center/index.php
+Output dir  : beat-archive/guilford-agendas
+
+Fetching Agenda Center index...
+  Found 46 board/committee page(s).
+
+Fetching board pages (46 total)...
+  [ 1/46] Affordable Housing Commission... 0 items
+  [ 2/46] Agricultural Commission... 0 items
+  [ 3/46] Board of Assessment Appeals... 0 items
+  [ 4/46] Board of Ethics... 1 doc(s)
+  [ 5/46] Board of Finance... 0 items
+  [ 6/46] Board of Fire Commissioners... 1 doc(s)
+  [ 7/46] Board of Police Commissioners... 0 items
+  [ 8/46] Board of Selectmen... 2 doc(s)
+  [ 9/46] Building Code Board of Appeals... 0 items
+  [10/46] Conservation Commission... 0 items
+  [11/46] Design Review Committee... 0 items
+  [12/46] Economic Development Commission... 0 items
+  [13/46] Elderly Tax Relief Review Committee... 0 items
+  [14/46] Guilford Green Committee... 0 items
+  [15/46] Guilford Lakes Golf Course Commission... 0 items
+  [16/46] Harbor Management Commission... 0 items
+  [17/46] Hazard Mitigation Commission... 0 items
+  [18/46] Historic District Commission... 0 items
+  [19/46] Human Rights Commission... 0 items
+  [20/46] Human Services Council... 0 items
+  [21/46] Inland Wetlands Commission... 1 doc(s)
+  [22/46] Lake Quonnipaug Subcommittee... 0 items
+  [23/46] Land Acquisition Commission... 0 items
+  [24/46] Land Stewardship Committee... 0 items
+  [25/46] Marina Commission... 2 doc(s)
+  [26/46] OPEB Board... 0 items
+  [27/46] Parks and Recreation Commission... 0 items
+  [28/46] Pension Committee... 0 items
+  [29/46] Planning and Zoning Commission... 0 items
+  [30/46] Planning Committee... 0 items
+  [31/46] Public Works Commission... 0 items
+  [32/46] Route 1 West Study Committee... 0 items
+  [33/46] Safe Streets Task Force... 0 items
+  [34/46] Scenic Roads Advisory Committee... 0 items
+  [35/46] Shellfish Commission... 0 items
+  [36/46] Standing Building Committee... 0 items
+  [37/46] Standing Fields Committee... 0 items
+  [38/46] Sustainable Guilford... 0 items
+  [39/46] Tree Advisory Board... 0 items
+  [40/46] Veterans Advisory Joint Committee... 0 items
+  [41/46] Waste Transfer Station Advisory Committee... 0 items
+  [42/46] Water Pollution Control Authority... 0 items
+  [43/46] Youth and Family Services Board... 0 items
+  [44/46] Zoning Board of Appeals... 0 items
+  [45/46] America 250th Celebration Committee... 0 items
+  [46/46] Charter Revision Commission... 0 items
+
+Found 7 document(s) across 5 board(s).
+
+  skip (exists)  2026-06-16-board-of-fire-commissioners-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-agenda.pdf
+  skip (exists)  2026-06-09-board-of-ethics-agenda.pdf
+  skip (exists)  2026-06-08-marina-commission-agenda.pdf
+  skip (exists)  2026-06-08-marina-commission-minutes.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-minutes.pdf
+
+Done — downloaded: 0  skipped: 7  failed: 0
+Files in: beat-archive/guilford-agendas
+2026-06-11 09:19:58 — Sleeping 5 minutes before next script...
+==============================
+2026-06-11 09:24:58 — Starting (4/4): download-stamford-agendas.py
+==============================
+Date window : 2026-06-07 to 2026-06-18
+Source (doc): https://www.stamfordct.gov (GovAccess — 40 boards)
+Output dir  : beat-archive/stamford-agendas
+
+Scanning 40 board page(s) for documents...
+  Custodian & Mechanic Pension: 1 document(s)
+  Economic Development Commission: 1 document(s)
+  Health Commission: 1 document(s)
+  Planning Board: 1 document(s)
+  Stamford Transit District: 1 document(s)
+  Zoning Board: 2 document(s)
+  Zoning Board of Appeals: 1 document(s)
+
+  Total: 8 document(s) in date window.
+
+  [2026-06-10] Health Commission — minutes
+  downloading    2026-06-10-health-commission-minutes.pdf
+  skip (exists)  2026-06-10-economic-development-commission-agenda.pdf
+  [2026-06-09] Zoning Board of Appeals — agenda
+  downloading    2026-06-09-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-09-planning-board-agenda.pdf
+  skip (exists)  2026-06-08-zoning-board-agenda.pdf
+  skip (exists)  2026-06-08-zoning-board-minutes.pdf
+  skip (exists)  2026-06-08-stamford-transit-district-agenda.pdf
+  skip (exists)  2026-06-08-custodian-mechanic-pension-agenda.pdf
+
+PDFs  — downloaded: 2  skipped: 6  failed: 0
+Files in: beat-archive/stamford-agendas
+Log:      beat-archive/stamford-agendas/download-log.txt
+2026-06-11 09:26:57 — All Kaufman scripts complete.
+=============================
+2026-06-12 05:45:20 — Starting (1/4): download-darien-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Hub page    : https://www.darienct.gov/AgendaCenter
+Output dir  : beat-archive/darien-agendas
+
+Fetching Agenda Center page...
+  Parsed 312 meeting row(s) across all boards.
+  Found 17 document(s) across 13 board(s) in date window.
+
+  skip (exists)  2026-06-17-commission-on-aging-agenda.pdf
+  skip (exists)  2026-06-16-operations-planning-committee-agenda.pdf
+  [2026-06-16] Architectural Review Board — agenda
+  downloading    2026-06-16-architectural-review-board-agenda.pdf
+  skip (exists)  2026-06-11-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-11-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-10-blight-review-board-agenda.pdf
+  skip (exists)  2026-06-10-beautification-commission-agenda.pdf
+  skip (exists)  2026-06-10-advisory-committee-on-sustainability-agenda.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-monuments-ceremonies-commission-agenda.pdf
+  skip (exists)  2026-06-09-advisory-conservation-committee-agenda.pdf
+  skip (exists)  2026-06-09-advisory-board-of-health-agenda.pdf
+  skip (exists)  2026-06-08-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-08-representative-town-meeting-minutes.pdf
+  skip (exists)  2026-06-08-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-08-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-08-rtm-education-committee-agenda.pdf
+
+Done — downloaded: 1  skipped: 16  failed: 0
+Files in: beat-archive/darien-agendas
+Log:      beat-archive/darien-agendas/download-log.txt
+
+2026-06-12 05:45:24 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:50:24 — Starting (2/4): download-greenwich-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Hub page    : https://www.greenwichct.gov/AgendaCenter
+Output dir  : beat-archive/greenwich-agendas
+
+Fetching Agenda Center page...
+  Parsed 422 meeting row(s) across all boards.
+  Found 23 document(s) across 18 board(s) in date window.
+
+  skip (exists)  2026-06-18-board-of-estimate-taxation-investment-advisory-com-agenda.pdf
+  [2026-06-17] Harbor Management Commission — agenda
+  downloading    2026-06-17-harbor-management-commission-agenda.pdf
+  skip (exists)  2026-06-17-fs-nominating-advisory-committee-agenda.pdf
+  skip (exists)  2026-06-16-inland-wetlands-watercourses-agency-agenda.pdf
+  skip (exists)  2026-06-16-fs-operations-planning-committee-agenda.pdf
+  [2026-06-16] Board of Estimate & Taxation Law Committee — agenda
+  downloading    2026-06-16-board-of-estimate-taxation-law-committee-agenda.pdf
+  skip (exists)  2026-06-15-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-15-fs-arch-street-task-force-agenda.pdf
+  [2026-06-15] Architectural Review Committee — agenda
+  downloading    2026-06-15-architectural-review-committee-agenda.pdf
+  skip (exists)  2026-06-11-fs-diversity-advisory-committee-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-nathaniel-witherell-board-agenda.pdf
+  skip (exists)  2026-06-10-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-09-shellfish-commission-agenda.pdf
+  [2026-06-09] Shellfish Commission — minutes
+  downloading    2026-06-09-shellfish-commission-minutes.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-fs-youth-commission-agenda.pdf
+  skip (exists)  2026-06-08-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-08-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-08-inland-wetlands-watercourses-agency-agenda.pdf
+  skip (exists)  2026-06-08-energy-management-advisory-committee-agenda.pdf
+
+PDFs  — downloaded: 4  skipped: 19  failed: 0
+Files in: beat-archive/greenwich-agendas
+Log:      beat-archive/greenwich-agendas/download-log.txt
+
+2026-06-12 05:50:30 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 05:55:30 — Starting (3/4): download-guilford-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Index page  : https://www.guilfordct.gov/agenda_center/index.php
+Output dir  : beat-archive/guilford-agendas
+
+Fetching Agenda Center index...
+  Found 46 board/committee page(s).
+
+Fetching board pages (46 total)...
+  [ 1/46] Affordable Housing Commission... 0 items
+  [ 2/46] Agricultural Commission... 0 items
+  [ 3/46] Board of Assessment Appeals... 0 items
+  [ 4/46] Board of Ethics... 1 doc(s)
+  [ 5/46] Board of Finance... 0 items
+  [ 6/46] Board of Fire Commissioners... 1 doc(s)
+  [ 7/46] Board of Police Commissioners... 0 items
+  [ 8/46] Board of Selectmen... 2 doc(s)
+  [ 9/46] Building Code Board of Appeals... 0 items
+  [10/46] Conservation Commission... 0 items
+  [11/46] Design Review Committee... 1 doc(s)
+  [12/46] Economic Development Commission... 0 items
+  [13/46] Elderly Tax Relief Review Committee... 0 items
+  [14/46] Guilford Green Committee... 0 items
+  [15/46] Guilford Lakes Golf Course Commission... 0 items
+  [16/46] Harbor Management Commission... 0 items
+  [17/46] Hazard Mitigation Commission... 0 items
+  [18/46] Historic District Commission... 1 doc(s)
+  [19/46] Human Rights Commission... 0 items
+  [20/46] Human Services Council... 0 items
+  [21/46] Inland Wetlands Commission... 2 doc(s)
+  [22/46] Lake Quonnipaug Subcommittee... 0 items
+  [23/46] Land Acquisition Commission... 0 items
+  [24/46] Land Stewardship Committee... 0 items
+  [25/46] Marina Commission... 2 doc(s)
+  [26/46] OPEB Board... 0 items
+  [27/46] Parks and Recreation Commission... 0 items
+  [28/46] Pension Committee... 0 items
+  [29/46] Planning and Zoning Commission... 0 items
+  [30/46] Planning Committee... 0 items
+  [31/46] Public Works Commission... 0 items
+  [32/46] Route 1 West Study Committee... 0 items
+  [33/46] Safe Streets Task Force... 0 items
+  [34/46] Scenic Roads Advisory Committee... 0 items
+  [35/46] Shellfish Commission... 0 items
+  [36/46] Standing Building Committee... 0 items
+  [37/46] Standing Fields Committee... 0 items
+  [38/46] Sustainable Guilford... 0 items
+  [39/46] Tree Advisory Board... 0 items
+  [40/46] Veterans Advisory Joint Committee... 0 items
+  [41/46] Waste Transfer Station Advisory Committee... 0 items
+  [42/46] Water Pollution Control Authority... 0 items
+  [43/46] Youth and Family Services Board... 0 items
+  [44/46] Zoning Board of Appeals... 0 items
+  [45/46] America 250th Celebration Committee... 0 items
+  [46/46] Charter Revision Commission... 0 items
+
+Found 10 document(s) across 7 board(s).
+
+  [2026-06-17] Historic District Commission — agenda
+  downloading    2026-06-17-historic-district-commission-agenda.pdf
+  [2026-06-16] Design Review Committee — agenda
+  downloading    2026-06-16-design-review-committee-agenda.pdf
+  skip (exists)  2026-06-16-board-of-fire-commissioners-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-agenda.pdf
+  [2026-06-10] Inland Wetlands Commission — minutes
+  downloading    2026-06-10-inland-wetlands-commission-minutes.pdf
+  skip (exists)  2026-06-09-board-of-ethics-agenda.pdf
+  skip (exists)  2026-06-08-marina-commission-agenda.pdf
+  skip (exists)  2026-06-08-marina-commission-minutes.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-08-board-of-selectmen-minutes.pdf
+
+Done — downloaded: 3  skipped: 7  failed: 0
+Files in: beat-archive/guilford-agendas
+Log:      beat-archive/guilford-agendas/download-log.txt
+
+2026-06-12 05:56:19 — Sleeping 5 minutes before next script...
+=============================
+2026-06-12 06:01:19 — Starting (4/4): download-stamford-agendas.py
+=============================
+Date window : 2026-06-08 to 2026-06-19
+Source (doc): https://www.stamfordct.gov (GovAccess — 40 boards)
+Output dir  : beat-archive/stamford-agendas
+
+Scanning 40 board page(s) for documents...
+  Custodian & Mechanic Pension: 1 document(s)
+  Fire Commission: 1 document(s)
+  Health Commission: 2 document(s)
+  Planning Board: 1 document(s)
+  Stamford Transit District: 1 document(s)
+  WPCA Board: 1 document(s)
+  Zoning Board: 2 document(s)
+
+  Total: 9 document(s) in date window.
+
+  [2026-06-11] Health Commission — agenda
+  downloading    2026-06-11-health-commission-agenda.pdf
+  skip (exists)  2026-06-11-health-commission-agenda.pdf
+  skip (exists)  2026-06-09-planning-board-agenda.pdf
+  skip (exists)  2026-06-09-fire-commission-agenda.pdf
+  skip (exists)  2026-06-08-zoning-board-agenda.pdf
+  skip (exists)  2026-06-08-zoning-board-minutes.pdf
+  [2026-06-08] WPCA Board — agenda
+  downloading    2026-06-08-wpca-board-agenda.pdf
+  skip (exists)  2026-06-08-stamford-transit-district-minutes.pdf
+  skip (exists)  2026-06-08-custodian-mechanic-pension-minutes.pdf
+
+PDFs  — downloaded: 2  skipped: 7  failed: 0
+Files in: beat-archive/stamford-agendas
+Log:      beat-archive/stamford-agendas/download-log.txt
+
+2026-06-12 06:03:00 — All Kaufman scripts complete.
+2026-06-13 09:23:17 — Hartford retry + derby-through-vernon.
+Running download-greenwich-agendas.py --include-video ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.greenwichct.gov/AgendaCenter
+GCTV channel: https://www.youtube.com/channel/UCoiCrTH1tV16z2Ww-Tw3ohQ
+Output dir  : beat-archive/greenwich-agendas
+
+Fetching Agenda Center page...
+  Parsed 428 meeting row(s) across all boards.
+  Found 23 document(s) across 19 board(s) in date window.
+
+Scanning GCTV YouTube channel...
+  828 datable video(s) found on channel.
+  1 video(s) match the date window.
+
+  skip (exists)  2026-06-18-board-of-estimate-taxation-investment-advisory-com-agenda.pdf
+  skip (exists)  2026-06-17-harbor-management-commission-agenda.pdf
+  skip (exists)  2026-06-17-fs-nominating-advisory-committee-agenda.pdf
+  [2026-06-17] Commission on Aging — agenda
+  downloading    2026-06-17-commission-on-aging-agenda.pdf
+  skip (exists)  2026-06-17-commission-on-aging-agenda.pdf
+  [2026-06-17] Architectural Review Committee — agenda
+  downloading    2026-06-17-architectural-review-committee-agenda.pdf
+  skip (exists)  2026-06-16-inland-wetlands-watercourses-agency-agenda.pdf
+  skip (exists)  2026-06-16-fs-operations-planning-committee-agenda.pdf
+  skip (exists)  2026-06-16-board-of-estimate-taxation-law-committee-agenda.pdf
+  [2026-06-16] Board of Estimate & Taxation Budget Committee — agenda
+  downloading    2026-06-16-board-of-estimate-taxation-budget-committee-agenda.pdf
+  skip (exists)  2026-06-15-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-15-fs-arch-street-task-force-agenda.pdf
+  skip (exists)  2026-06-15-architectural-review-committee-agenda.pdf
+  skip (exists)  2026-06-11-fs-diversity-advisory-committee-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-11-board-of-selectmen-agenda.pdf
+  skip (exists)  2026-06-10-planning-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-10-nathaniel-witherell-board-agenda.pdf
+  skip (exists)  2026-06-10-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-09-shellfish-commission-agenda.pdf
+  skip (exists)  2026-06-09-shellfish-commission-minutes.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  skip (exists)  2026-06-09-fs-youth-commission-agenda.pdf
+
+Downloading videos...
+  [2026-06-09] Planning & Zoning Commission, June 9, 2026
+
+PDFs  — downloaded: 3  skipped: 20  failed: 0
+Video — downloaded: 1  skipped: 0  failed: 0
+Files in: beat-archive/greenwich-agendas
+Log:      beat-archive/greenwich-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to richard.kaufman@patch.com  (3 attachment(s), 0 skipped)
+Running download-stamford-agendas.py --include-video ...
+Date window : 2026-06-09 to 2026-06-20
+Source (doc): https://www.stamfordct.gov (GovAccess — 40 boards)
+Source (vid): https://cityofstamford.granicus.com (24 views)
+Output dir  : beat-archive/stamford-agendas
+
+Scanning 40 board page(s) for documents...
+  CERF: 1 document(s)
+  Custodian & Mechanic Pension: 1 document(s)
+  Economic Development Commission: 1 document(s)
+  Fire Commission: 1 document(s)
+  Harbor Management Commission: 1 document(s)
+  Health Commission: 2 document(s)
+  Planning Board: 1 document(s)
+  Social Services Commission: 1 document(s)
+  WPCA Board: 1 document(s)
+  Zoning Board of Appeals: 1 document(s)
+
+  Total: 11 document(s) in date window.
+
+Scanning 24 Granicus view(s) for recordings...
+  Board of Finance: 1 recording(s)
+  Planning Board: 1 recording(s)
+  CERF: 1 recording(s)
+  Custodian & Mechanic Pension: 1 recording(s)
+
+  Total: 4 recording(s) in date window.
+
+  [2026-06-17] Social Services Commission — agenda
+  downloading    2026-06-17-social-services-commission-agenda.pdf
+  [2026-06-12] WPCA Board — minutes
+  downloading    2026-06-12-wpca-board-minutes.pdf
+  [2026-06-12] Harbor Management Commission — minutes
+  downloading    2026-06-12-harbor-management-commission-minutes.pdf
+  [2026-06-12] Custodian & Mechanic Pension — minutes
+  downloading    2026-06-12-custodian-mechanic-pension-minutes.pdf
+  [2026-06-12] CERF — minutes
+  downloading    2026-06-12-cerf-minutes.pdf
+  skip (exists)  2026-06-11-health-commission-agenda.pdf
+  skip (exists)  2026-06-11-health-commission-agenda.pdf
+  [2026-06-10] Economic Development Commission — minutes
+  downloading    2026-06-10-economic-development-commission-minutes.pdf
+  skip (exists)  2026-06-09-zoning-board-of-appeals-agenda.pdf
+  skip (exists)  2026-06-09-planning-board-agenda.pdf
+  skip (exists)  2026-06-09-fire-commission-agenda.pdf
+
+Downloading recordings...
+  [2026-06-12] Custodian & Mechanic Pension — Custodians' Pension Meeting - June 11, 2026
+  [2026-06-12] CERF — CERF Pension Meeting - June 11, 2026
+  skip (exists)  2026-06-10-06102026-bof-regular-monthly-meeting.mp4
+  skip (exists)  2026-06-09-planning-board-regular-meeting.mp4
+
+PDFs  — downloaded: 6  skipped: 5  failed: 0
+Video — downloaded: 2  skipped: 2  failed: 0
+Files in: beat-archive/stamford-agendas
+Log:      beat-archive/stamford-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to richard.kaufman@patch.com  (6 attachment(s), 2 skipped)
+Running download-guilford-agendas.py --include-video ...
+Date window : 2026-06-09 to 2026-06-20
+Index page  : https://www.guilfordct.gov/agenda_center/index.php
+Output dir  : beat-archive/guilford-agendas
+
+Fetching Agenda Center index...
+  Found 46 board/committee page(s).
+
+Fetching board pages (46 total)...
+  [ 1/46] Affordable Housing Commission... 0 items
+  [ 2/46] Agricultural Commission... 1 doc(s)
+  [ 3/46] Board of Assessment Appeals... 0 items
+  [ 4/46] Board of Ethics... 1 doc(s)
+  [ 5/46] Board of Finance... 1 doc(s)
+  [ 6/46] Board of Fire Commissioners... 1 doc(s)
+  [ 7/46] Board of Police Commissioners... 0 items
+  [ 8/46] Board of Selectmen... 1 doc(s)
+  [ 9/46] Building Code Board of Appeals... 0 items
+  [10/46] Conservation Commission... 0 items
+  [11/46] Design Review Committee... 1 doc(s)
+  [12/46] Economic Development Commission... 0 items
+  [13/46] Elderly Tax Relief Review Committee... 0 items
+  [14/46] Guilford Green Committee... 0 items
+  [15/46] Guilford Lakes Golf Course Commission... 0 items
+  [16/46] Harbor Management Commission... 0 items
+  [17/46] Hazard Mitigation Commission... 0 items
+  [18/46] Historic District Commission... 1 doc(s)
+  [19/46] Human Rights Commission... 0 items
+  [20/46] Human Services Council... 0 items
+  [21/46] Inland Wetlands Commission... 3 doc(s)
+  [22/46] Lake Quonnipaug Subcommittee... 0 items
+  [23/46] Land Acquisition Commission... 0 items
+  [24/46] Land Stewardship Committee... 0 items
+  [25/46] Marina Commission... 0 items
+  [26/46] OPEB Board... 1 doc(s)
+  [27/46] Parks and Recreation Commission... 0 items
+  [28/46] Pension Committee... 1 doc(s)
+  [29/46] Planning and Zoning Commission... 0 items
+  [30/46] Planning Committee... 0 items
+  [31/46] Public Works Commission... 0 items
+  [32/46] Route 1 West Study Committee... 0 items
+  [33/46] Safe Streets Task Force... 0 items
+  [34/46] Scenic Roads Advisory Committee... 0 items
+  [35/46] Shellfish Commission... 0 items
+  [36/46] Standing Building Committee... 0 items
+  [37/46] Standing Fields Committee... 0 items
+  [38/46] Sustainable Guilford... 0 items
+  [39/46] Tree Advisory Board... 0 items
+  [40/46] Veterans Advisory Joint Committee... 0 items
+  [41/46] Waste Transfer Station Advisory Committee... 0 items
+  [42/46] Water Pollution Control Authority... 0 items
+  [43/46] Youth and Family Services Board... 0 items
+  [44/46] Zoning Board of Appeals... 0 items
+  [45/46] America 250th Celebration Committee... 0 items
+  [46/46] Charter Revision Commission... 0 items
+
+Found 12 document(s) across 10 board(s).
+
+  [2026-06-20] Inland Wetlands Commission — agenda
+  downloading    2026-06-20-inland-wetlands-commission-agenda.pdf
+  [2026-06-17] Pension Committee — agenda
+  downloading    2026-06-17-pension-committee-agenda.pdf
+  [2026-06-17] OPEB Board — agenda
+  downloading    2026-06-17-opeb-board-agenda.pdf
+  skip (exists)  2026-06-17-historic-district-commission-agenda.pdf
+  skip (exists)  2026-06-16-design-review-committee-agenda.pdf
+  skip (exists)  2026-06-16-board-of-fire-commissioners-agenda.pdf
+  [2026-06-15] Board of Selectmen — agenda
+  downloading    2026-06-15-board-of-selectmen-agenda.pdf
+  [2026-06-15] Board of Finance — agenda
+  downloading    2026-06-15-board-of-finance-agenda.pdf
+  [2026-06-15] Agricultural Commission — agenda
+  downloading    2026-06-15-agricultural-commission-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-agenda.pdf
+  skip (exists)  2026-06-10-inland-wetlands-commission-minutes.pdf
+  skip (exists)  2026-06-09-board-of-ethics-agenda.pdf
+
+Done — downloaded: 6  skipped: 6  failed: 0
+Files in: beat-archive/guilford-agendas
+Log:      beat-archive/guilford-agendas/download-log.txt
+
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to richard.kaufman@patch.com  (6 attachment(s), 0 skipped)
+Running download-darien-agendas.py --include-video ...
+Date window : 2026-06-09 to 2026-06-20
+Hub page    : https://www.darienct.gov/AgendaCenter
+Output dir  : beat-archive/darien-agendas
+
+Fetching Agenda Center page...
+  Parsed 312 meeting row(s) across all boards.
+  Found 12 document(s), 1 recording(s) across 12 board(s) in date window.
+
+  skip (exists)  2026-06-17-commission-on-aging-agenda.pdf
+  skip (exists)  2026-06-16-operations-planning-committee-agenda.pdf
+  skip (exists)  2026-06-16-architectural-review-board-agenda.pdf
+  skip (exists)  2026-06-11-representative-town-meeting-agenda.pdf
+  skip (exists)  2026-06-11-rtm-planning-zoning-housing-committee-agenda.pdf
+  skip (exists)  2026-06-10-blight-review-board-agenda.pdf
+  skip (exists)  2026-06-10-beautification-commission-agenda.pdf
+  skip (exists)  2026-06-10-advisory-committee-on-sustainability-agenda.pdf
+  skip (exists)  2026-06-09-planning-zoning-commission-agenda.pdf
+  [2026-06-09] Planning & Zoning Commission — video
+  downloading    2026-06-09-planning-zoning-commission-video.mp4
+  skip (exists)  2026-06-09-monuments-ceremonies-commission-agenda.pdf
+  skip (exists)  2026-06-09-advisory-conservation-committee-agenda.pdf
+  skip (exists)  2026-06-09-advisory-board-of-health-agenda.pdf
+
+Done — downloaded: 1  skipped: 12  failed: 0
+Files in: beat-archive/darien-agendas
+Log:      beat-archive/darien-agendas/download-log.txt
+
+No new files in the past 24 hours — sending summary email with no attachments.
+Connecting to smtp.sendgrid.net:587 ...
+Email sent to richard.kaufman@patch.com  (0 attachment(s), 0 skipped)
+2026-06-13 09:41:30 — All 1-6 catch-up sends complete.

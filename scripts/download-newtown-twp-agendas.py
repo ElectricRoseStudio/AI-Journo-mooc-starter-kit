@@ -201,10 +201,21 @@ def download_video(yt_url, meeting_name, meeting_date, cutoff, dry_run):
     if dry_run:
         return
 
-    subprocess.run(
-        ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-overwrites", "-o", out_tmpl, yt_url],
-        timeout=600,
-    )
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "--js-runtimes", YT_DLP_NODE, "--no-overwrites", "-o", out_tmpl, yt_url],
+            timeout=3600,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"    ERROR: yt-dlp timed out downloading {yt_url} — partial file kept, will resume next run")
+        return
+    except Exception as e:
+        print(f"    ERROR downloading video {yt_url}: {e}")
+        return
+
+    if result.returncode != 0:
+        print(f"    ERROR: yt-dlp exited with code {result.returncode} for {yt_url}")
+        return
 
     log_path = os.path.join(out_dir, "download-log.txt")
     with open(log_path, "a") as lf:

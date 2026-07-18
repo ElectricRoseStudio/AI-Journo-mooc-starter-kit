@@ -151,7 +151,7 @@ def download_vimeo(vimeo_url, dest_path):
         vimeo_url,
     ]
     try:
-        subprocess.run(cmd, check=True, timeout=600)
+        subprocess.run(cmd, check=True, timeout=3600)
         return True
     except FileNotFoundError:
         print("  ERROR: yt-dlp not found — install with: pip install yt-dlp",
@@ -159,6 +159,9 @@ def download_vimeo(vimeo_url, dest_path):
         return False
     except subprocess.CalledProcessError as e:
         print(f"  WARNING: yt-dlp failed ({e})", file=sys.stderr)
+        return False
+    except subprocess.TimeoutExpired:
+        print(f"  ERROR: yt-dlp timed out downloading {vimeo_url} — partial file kept, will resume next run", file=sys.stderr)
         return False
 
 
