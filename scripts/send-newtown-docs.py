@@ -46,6 +46,11 @@ LOG_PATH   = os.path.join(REPO_DIR, "beat-archive", "send-log.txt")
 SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-newtown-agendas.py")
 OUTPUT_DIR   = os.path.join(REPO_DIR, "beat-archive", "newtown-agendas")
 
+MAX_ATTACH_BYTES = 20 * 1024 * 1024
+# SendGrid's message-size cap is 30 MB and base64 inflates attachments by
+# ~37%, so the raw attachment total needs headroom well under that.
+MAX_TOTAL_ATTACH_BYTES = 21 * 1024 * 1024
+
 CT_BIZ_API   = "https://data.ct.gov/resource/n7gp-d28j.json"
 _NAICS_PAREN = re.compile(r"\s*\(\d+\)\s*$")
 
@@ -149,9 +154,19 @@ def format_business_table(businesses):
 
 
 def send_email(files, downloader_output, biz_table=""):
+    attached, skipped = [], []
+    total_bytes = 0
+    for fpath in files:
+        size = os.path.getsize(fpath)
+        if size > MAX_ATTACH_BYTES or total_bytes + size > MAX_TOTAL_ATTACH_BYTES:
+            skipped.append(fpath)
+        else:
+            attached.append(fpath)
+            total_bytes += size
+
     subject = (
         f"Newtown CT meeting docs — {datetime.date.today().strftime('%B %-d, %Y')} "
-        f"({len(files)} file{'s' if len(files) != 1 else ''})"
+        f"({len(attached)} file{'s' if len(attached) != 1 else ''})"
     )
 
     msg = email.mime.multipart.MIMEMultipart()
@@ -159,17 +174,31 @@ def send_email(files, downloader_output, biz_table=""):
     msg["To"]      = ", ".join(TO_ADDRESSES)
     msg["Subject"] = subject
 
+    skipped_note = ""
+    if skipped:
+        skipped_note = (
+            f"{len(skipped)} file(s) exceeded the per-file {MAX_ATTACH_BYTES // (1024*1024)} MB "
+            f"limit or the combined {MAX_TOTAL_ATTACH_BYTES // (1024*1024)} MB message budget "
+            "and were not attached:\n"
+            + "\n".join(
+                f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)"
+                for p in skipped
+            )
+            + "\n\n"
+        )
+
     body = (
         f"Newtown CT agenda/minutes download — {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
-        f"{len(files)} file(s) attached (new in past 24 hours).\n\n"
-        "--- New Newtown business registrations (past 7 days) ---\n"
+        f"{len(attached)} file(s) attached (new in past 24 hours).\n\n"
+        + skipped_note
+        + "--- New Newtown business registrations (past 7 days) ---\n"
         + biz_table
         + "\n--- Downloader log ---\n"
         + downloader_output
     )
     msg.attach(email.mime.text.MIMEText(body, "plain"))
 
-    for fpath in files:
+    for fpath in attached:
         with open(fpath, "rb") as f:
             part = email.mime.application.MIMEApplication(f.read(), Name=os.path.basename(fpath))
         part["Content-Disposition"] = f'attachment; filename="{os.path.basename(fpath)}"'
@@ -186,8 +215,8 @@ def send_email(files, downloader_output, biz_table=""):
             server.starttls()
             server.login(SMTP_USER, SMTP_PASS)
             server.sendmail(FROM_ADDRESS, TO_ADDRESSES, msg.as_string())
-    print(f"Email sent to {', '.join(TO_ADDRESSES)}  ({len(files)} attachment(s))")
-    write_send_log(', '.join(TO_ADDRESSES), len(files))
+    print(f"Email sent to {', '.join(TO_ADDRESSES)}  ({len(attached)} attachment(s), {len(skipped)} skipped)")
+    write_send_log(', '.join(TO_ADDRESSES), len(attached))
 
 
 def write_send_log(to, n_files):

@@ -40,6 +40,11 @@ CITY_NAME  = "WEST HARTFORD"
 ATTACH_EXTENSIONS = {".pdf"}
 VIDEO_EXTENSIONS = {".mp4", ".webm", ".mkv"}
 
+MAX_ATTACH_BYTES = 20 * 1024 * 1024
+# SendGrid's message-size cap is 30 MB and base64 inflates attachments by
+# ~37%, so the raw attachment total needs headroom well under that.
+MAX_TOTAL_ATTACH_BYTES = 21 * 1024 * 1024
+
 VIDEO_LINK_BASE_URL = os.environ.get("VIDEO_LINK_BASE_URL", "").rstrip("/")
 BEAT_ARCHIVE_ROOT   = os.path.join(REPO_DIR, "beat-archive")
 
@@ -158,11 +163,21 @@ def collect_recent_files(hours=24):
 
 
 def send_email(files, video_files, downloader_output, biz_table=""):
+    attached, skipped = [], []
+    total_bytes = 0
+    for fpath in files:
+        size = os.path.getsize(fpath)
+        if size > MAX_ATTACH_BYTES or total_bytes + size > MAX_TOTAL_ATTACH_BYTES:
+            skipped.append(fpath)
+        else:
+            attached.append(fpath)
+            total_bytes += size
+
     n_vids = len(video_files)
     vid_label = f", {n_vids} video{'s' if n_vids != 1 else ''}" if n_vids else ""
     subject = (
         f"West Hartford CT meeting docs — {datetime.date.today().strftime('%B %-d, %Y')} "
-        f"({len(files)} file{'s' if len(files) != 1 else ''}{vid_label})"
+        f"({len(attached)} file{'s' if len(attached) != 1 else ''}{vid_label})"
     )
 
     msg = email.mime.multipart.MIMEMultipart()
@@ -182,10 +197,24 @@ def send_email(files, video_files, downloader_output, biz_table=""):
             + "\n"
         )
 
+    skipped_note = ""
+    if skipped:
+        skipped_note = (
+            f"\n--- Files over the size budget (stored locally, not attached) ---\n"
+            f"{len(skipped)} file(s) exceeded the per-file {MAX_ATTACH_BYTES // (1024*1024)} MB "
+            f"limit or the combined {MAX_TOTAL_ATTACH_BYTES // (1024*1024)} MB message budget:\n"
+            + "\n".join(
+                f"  {os.path.basename(p)}  ({os.path.getsize(p) // (1024*1024)} MB)"
+                for p in skipped
+            )
+            + "\n"
+        )
+
     body = (
         f"West Hartford CT agenda/minutes download — {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
-        f"{len(files)} file(s) attached (new in past 24 hours).\n"
+        f"{len(attached)} file(s) attached (new in past 24 hours).\n"
         + video_note
+        + skipped_note
         + "\n--- New business registrations (past 7 days) ---\n"
         + biz_table
         + "\n--- Downloader log ---\n"
@@ -193,7 +222,7 @@ def send_email(files, video_files, downloader_output, biz_table=""):
     )
     msg.attach(email.mime.text.MIMEText(body, "plain"))
 
-    for fpath in files:
+    for fpath in attached:
         with open(fpath, "rb") as f:
             part = email.mime.application.MIMEApplication(f.read(), Name=os.path.basename(fpath))
         part["Content-Disposition"] = f'attachment; filename="{os.path.basename(fpath)}"'
@@ -210,8 +239,8 @@ def send_email(files, video_files, downloader_output, biz_table=""):
             server.starttls()
             server.login(SMTP_USER, SMTP_PASS)
             server.sendmail(FROM_ADDRESS, TO_ADDRESS, msg.as_string())
-    print(f"Email sent to {TO_ADDRESS}  ({len(files)} attachment(s), {n_vids} video(s) noted)")
-    write_send_log(TO_ADDRESS, len(files))
+    print(f"Email sent to {TO_ADDRESS}  ({len(attached)} attachment(s), {len(skipped)} skipped, {n_vids} video(s) noted)")
+    write_send_log(TO_ADDRESS, len(attached))
 
 
 def write_send_log(to, n_files):
