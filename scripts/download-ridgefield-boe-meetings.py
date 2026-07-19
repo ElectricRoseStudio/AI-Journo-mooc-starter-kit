@@ -65,7 +65,17 @@ def download_videos(cutoff, output_dir, dry_run, audio_only):
     cmd = [
         ytdlp,
         "--dateafter", date_str,
-        "--break-on-reject",                # stop when playlist goes past date window
+        "--break-match-filters", f"upload_date>={date_str}",
+        # Playlist is newest-first; without a hard cap, yt-dlp fully extracts
+        # every video in the playlist's history just to check its date. If
+        # the session gets rate-limited mid-walk, each extraction fails with
+        # an error rather than a clean filter rejection, so
+        # break-match-filters never fires either — this bounds the number
+        # of videos attempted regardless of success or failure.
+        "--playlist-end", "20",
+        "--sleep-requests", "0.75",
+        "--sleep-interval", "10",
+        "--max-sleep-interval", "20",
         "--cookies-from-browser", "firefox",
         "--js-runtimes", deno_arg,
         "--remote-components", "ejs:github",  # download challenge solver on first run

@@ -345,6 +345,17 @@ def download_youtube(cutoff, output_dir, board_filter, dry_run):
         cmd = [
             ytdlp,
             "--dateafter", date_str,
+            "--break-match-filters", f"upload_date>={date_str}",
+            # Channel listing is newest-first; without a hard cap, yt-dlp fully
+            # extracts every video in the channel's history just to check its
+            # date. If the session gets rate-limited mid-walk, each extraction
+            # fails with an error rather than a clean filter rejection, so
+            # break-match-filters never fires either — this bounds the
+            # number of videos attempted regardless of success or failure.
+            "--playlist-end", "20",
+            "--sleep-requests", "0.75",
+            "--sleep-interval", "10",
+            "--max-sleep-interval", "20",
             "--format", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
             "--output", out_tmpl,
             "--restrict-filenames",

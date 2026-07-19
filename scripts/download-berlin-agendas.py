@@ -203,6 +203,20 @@ def download_channel_videos(channel_url, output_dir, date_after, dry_run=False):
     cmd = [
         "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--dateafter", date_str,
+        # Channel listing is newest-first; without this, yt-dlp fully extracts
+        # every video in the channel's history (hundreds) just to check its
+        # date, which trips YouTube's per-session rate limit. This stops the
+        # walk as soon as it reaches the first video outside the window.
+        "--break-match-filters", f"upload_date>={date_str}",
+        # Hard cap independent of the above: once the session gets
+        # rate-limited, each extraction fails with an error rather than a
+        # clean filter rejection, so break-match-filters never fires and
+        # yt-dlp walks the entire channel history anyway. This bounds the
+        # number of videos attempted regardless of success or failure.
+        "--playlist-end", "20",
+        "--sleep-requests", "0.75",
+        "--sleep-interval", "10",
+        "--max-sleep-interval", "20",
         "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", os.path.join(video_dir, "%(upload_date)s-%(title)s.%(ext)s"),
