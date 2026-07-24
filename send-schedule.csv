@@ -8,10 +8,10 @@ time,days,town,script,recipient
 18:10,0-5,fairfield,send-fairfield-docs.py,alfred.branch@patch.com
 18:12,0-5,somers,send-somers-docs.py,jay.kenney@patch.com
 18:14,0-5,bridgeport,send-bridgeport-docs.py,alfred.branch@patch.com
-18:16,0-5,stafford,send-stafford-docs.py,chris.dehnel@patch.com
-18:18,0-5,willington,send-willington-docs.py,chris.dehnel@patch.com
-18:20,0-5,tolland,send-tolland-docs.py,chris.dehnel@patch.com
-18:22,0-5,vernon,send-vernon-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:16,0-5,stafford,send-stafford-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:18,0-5,willington,send-willington-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:20,0-5,tolland,send-tolland-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:22,0-5,vernon,send-vernon-docs.py,chris.dehnel@patch.com
 18:24,0-5,groton,send-groton-docs.py,chris.ratigan@patch.com
 18:26,0-5,oxford,send-oxford-docs.py,jay.kenney@patch.com
 18:28,0-5,milford,send-milford-docs.py,chris.ratigan@patch.com
@@ -19,19 +19,19 @@ time,days,town,script,recipient
 18:32,0-5,east-granby,send-east-granby-docs.py,jay.kenney@patch.com
 18:34,0-5,granby,send-granby-docs.py,jay.kenney@patch.com
 18:36,0-5,stonington,send-stonington-docs.py,chris.ratigan@patch.com
-18:38,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:38,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com
 18:40,0-5,suffield,send-suffield-docs.py,jay.kenney@patch.com
-18:42,0-5,berlin,send-berlin-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:42,0-5,berlin,send-berlin-docs.py,michael.lemanski@patch.com
 18:44,0-5,windsor,send-windsor-docs.py,jay.kenney@patch.com
-18:46,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:46,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com
 18:48,0-5,windsor-locks,send-windsor-locks-docs.py,jay.kenney@patch.com
-18:50,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com
-18:52,0-5,farmington,send-farmington-docs.py,michael.lemanski@patch.com
-18:54,0-5,hartford,send-hartford-docs.py,michael.lemanski@patch.com
-18:56,0-5,east-hartford,send-east-hartford-docs.py,michael.lemanski@patch.com
-18:58,0-5,simsbury,send-simsbury-docs.py,michael.lemanski@patch.com
-19:00,0-5,southington,send-southington-docs.py,michael.lemanski@patch.com
-19:02,0-5,west-hartford,send-west-hartford-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:50,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:52,0-5,farmington,send-farmington-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:54,0-5,hartford,send-hartford-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:56,0-5,east-hartford,send-east-hartford-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 18:58,0-5,simsbury,send-simsbury-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 19:00,0-5,southington,send-southington-docs.py,michael.lemanski@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 19:02,0-5,west-hartford,send-west-hartford-docs.py,michael.lemanski@patch.com
 19:04,0-5,hamden,send-hamden-docs.py,vincent.salzo@patch.com
 19:06,0-5,redding,send-redding-docs.py,hayleigh.evans@patch.com
 19:08,0-5,brookfield,send-brookfield-docs.py,hayleigh.evans@patch.com
@@ -56,10 +56,10 @@ time,days,town,script,recipient
 19:46,0-5,stamford,send-stamford-docs.py,richard.kaufman@patch.com
 19:48,0-5,guilford,send-guilford-docs.py,richard.kaufman@patch.com
 19:50,0-5,darien,send-darien-docs.py,richard.kaufman@patch.com
-19:52,0-5,glastonbury,send-glastonbury-docs.py,chris.dehnel@patch.com
-19:54,0-5,manchester,send-manchester-docs.py,chris.dehnel@patch.com
-19:56,0-5,mansfield,send-mansfield-docs.py,chris.dehnel@patch.com
-19:58,0-5,middletown,send-middletown-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 19:52,0-5,glastonbury,send-glastonbury-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 19:54,0-5,manchester,send-manchester-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 19:56,0-5,mansfield,send-mansfield-docs.py,chris.dehnel@patch.com
+# PAUSED 2026-07-24 dehnel-lemanski: 19:58,0-5,middletown,send-middletown-docs.py,chris.dehnel@patch.com
 20:00,0-5,old-lyme,send-old-lyme-docs.py,rich.kirby@patch.com
 20:02,0-5,east-lyme,send-east-lyme-docs.py,rich.kirby@patch.com
 20:04,0-5,waterford,send-waterford-docs.py,rich.kirby@patch.com

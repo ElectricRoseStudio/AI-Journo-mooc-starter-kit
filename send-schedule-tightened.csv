@@ -1,0 +1,114 @@
+# Revised schedule proposal — 2026-07-24
+# Rebuilt from the LIVE crontab and scripts/tier2-video-towns.sh (not from the old send-schedule.csv,
+# whose listed times had already drifted from what's actually installed).
+# NOT YET APPLIED to the live crontab — this file is for review only.
+#
+# Two independent scheduling mechanisms feed the daily run:
+#   1) individual-cron   - one crontab line per town, fixed clock time, still starts 17:00.
+#                           Closing the 10 dehnel/lemanski gaps moves every later town up by
+#                           4 min per removed slot: last active town (wilton) now 19:08 vs 19:48
+#                           before (40 min earlier), with zero gaps between active slots.
+#   2) tier2-sequential   - all towns in this segment run back-to-back inside one script,
+#                           triggered by a single 20:00 crontab entry. There's no per-town
+#                           clock time to "tighten" here — removing the 8 paused towns already
+#                           closes that gap automatically; the batch just has 8 fewer steps.
+#                           seq = execution order within the script (unchanged trigger: 20:00).
+#                           cap_sec = per-town timeout ceiling, NOT actual expected runtime —
+#                           real elapsed time is normally well under the cap. Worst-case ceiling
+#                           for this segment dropped from 203,400s (56.5h) to 172,500s (47.9h)
+#                           after removing the 8 paused towns.
+#   Paused rows (dehnel/lemanski) are listed at the end of each segment with their prior
+#   slot/seq for reference — not part of the active count, not touched in the source scripts.
+#
+segment,slot,cap_sec,days,town,script,recipient,status
+individual-cron,17:00,180,0-5,bridgeport,send-bridgeport-docs.py,alfred.branch@patch.com,active
+individual-cron,17:04,180,0-5,new-london,send-new-london-docs.py,chris.ratigan@patch.com,active
+individual-cron,17:08,180,0-5,east-granby,send-east-granby-docs.py,jay.kenney@patch.com,active
+individual-cron,17:12,180,0-5,stonington,send-stonington-docs.py,chris.ratigan@patch.com,active
+individual-cron,17:16,180,0-5,suffield,send-suffield-docs.py,jay.kenney@patch.com,active
+individual-cron,17:20,180,0-5,hamden,send-hamden-docs.py,vincent.salzo@patch.com,active
+individual-cron,17:24,180,0-5,redding,send-redding-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:28,180,0-5,brookfield,send-brookfield-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:32,180,0-5,monroe,send-monroe-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:36,180,0-5,easton,send-easton-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:40,1200,0-5,bethel,send-bethel-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:44,180,0-5,southbury,send-southbury-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:48,600,0-5,stratford,send-stratford-docs.py,vincent.salzo@patch.com,active
+individual-cron,17:52,180,0-5,naugatuck,send-naugatuck-docs.py,rj.scofield@patch.com,active
+individual-cron,17:56,180,0-5,new-canaan,send-new-canaan-docs.py,rj.scofield@patch.com,active
+individual-cron,18:00,180,0-5,norwalk,send-norwalk-docs.py,rj.scofield@patch.com,active
+individual-cron,18:04,600,0-5,shelton,send-shelton-docs.py,rj.scofield@patch.com,active
+individual-cron,18:08,180,0-5,derby,send-derby-docs.py,rj.scofield@patch.com,active
+individual-cron,18:12,180,0-5,newtown,send-newtown-docs.py,"rich.kirby@patch.com, hayleigh.evans@patch.com",active
+individual-cron,18:16,180,0-5,danbury,send-danbury-docs.py,hayleigh.evans@patch.com,active
+individual-cron,18:20,180,0-5,lyme,send-lyme-docs.py,rich.kirby@patch.com,active
+individual-cron,18:24,7200,0-5,new-milford,send-new-milford-docs.py,rich.kirby@patch.com,active
+individual-cron,18:28,180,0-5,orange,send-orange-docs.py,rich.kirby@patch.com,active
+individual-cron,18:32,180,0-5,clinton,send-clinton-docs.py,rich.kirby@patch.com,active
+individual-cron,18:36,180,0-5,langhorne-boro,send-langhorne-boro-docs.py,jeff.werner@patch.com,active
+individual-cron,18:40,180,0-5,doylestown,send-doylestown-docs.py,jeff.werner@patch.com,active
+individual-cron,18:44,180,0-5,plumstead-twp,send-plumstead-twp-docs.py,jeff.werner@patch.com,active
+individual-cron,18:48,180,0-5,newtown-boro,send-newtown-boro-docs.py,jeff.werner@patch.com,active
+individual-cron,18:52,180,0-5,upper-makefield-twp,send-upper-makefield-twp-docs.py,jeff.werner@patch.com,active
+individual-cron,18:56,180,0-5,wrightstown-twp,send-wrightstown-twp-docs.py,jeff.werner@patch.com,active
+individual-cron,19:00,180,0-5,haddam,send-haddam-docs.py,vincent.salzo@patch.com,active
+individual-cron,19:04,600,0-5,weston,send-weston-docs.py,hayleigh.evans@patch.com,active
+individual-cron,19:08,1200,0-5,wilton,send-wilton-docs.py,hayleigh.evans@patch.com,active
+individual-cron,17:16 (former),180,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:24 (former),180,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:28 (former),180,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:32 (former),180,0-5,farmington,send-farmington-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:36 (former),180,0-5,hartford,send-hartford-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:40 (former),180,0-5,east-hartford,send-east-hartford-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:44 (former),180,0-5,simsbury,send-simsbury-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,17:48 (former),180,0-5,southington,send-southington-docs.py,michael.lemanski@patch.com,PAUSED
+individual-cron,18:52 (former),180,0-5,glastonbury,send-glastonbury-docs.py,chris.dehnel@patch.com,PAUSED
+individual-cron,18:56 (former),180,0-5,manchester,send-manchester-docs.py,chris.dehnel@patch.com,PAUSED
+tier2-sequential-2000,seq01,7500,0-5,ridgefield,send-ridgefield-docs.py,rich.kirby@patch.com,active
+tier2-sequential-2000,seq02,3900,0-5,westport,send-westport-docs.py,alfred.branch@patch.com,active
+tier2-sequential-2000,seq03,3900,0-5,east-windsor,send-east-windsor-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq04,3900,0-5,madison,send-madison-docs.py,alfred.branch@patch.com,active
+tier2-sequential-2000,seq05,3900,0-5,ellington,send-ellington-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq06,3900,0-5,cheshire,send-cheshire-docs.py,vincent.salzo@patch.com,active
+tier2-sequential-2000,seq07,3900,0-5,fairfield,send-fairfield-docs.py,alfred.branch@patch.com,active
+tier2-sequential-2000,seq08,3900,0-5,somers,send-somers-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq09,3900,0-5,groton,send-groton-docs.py,chris.ratigan@patch.com,active
+tier2-sequential-2000,seq10,3900,0-5,oxford,send-oxford-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq11,3900,0-5,milford,send-milford-docs.py,chris.ratigan@patch.com,active
+tier2-sequential-2000,seq12,3900,0-5,granby,send-granby-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq13,5400,0-5,windsor,send-windsor-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq14,3900,0-5,windsor-locks,send-windsor-locks-docs.py,jay.kenney@patch.com,active
+tier2-sequential-2000,seq15,7500,0-5,meriden,send-meriden-docs.py,vincent.salzo@patch.com,active
+tier2-sequential-2000,seq16,7500,0-5,north-haven,send-north-haven-docs.py,vincent.salzo@patch.com,active
+tier2-sequential-2000,seq17,7500,0-5,wallingford,send-wallingford-docs.py,vincent.salzo@patch.com,active
+tier2-sequential-2000,seq18,7500,0-5,west-haven,send-west-haven-docs.py,vincent.salzo@patch.com,active
+tier2-sequential-2000,seq19,3900,0-5,trumbull,send-trumbull-docs.py,rj.scofield@patch.com,active
+tier2-sequential-2000,seq20,3900,0-5,greenwich,send-greenwich-docs.py,richard.kaufman@patch.com,active
+tier2-sequential-2000,seq21,3900,0-5,stamford,send-stamford-docs.py,richard.kaufman@patch.com,active
+tier2-sequential-2000,seq22,3900,0-5,guilford,send-guilford-docs.py,richard.kaufman@patch.com,active
+tier2-sequential-2000,seq23,3900,0-5,darien,send-darien-docs.py,richard.kaufman@patch.com,active
+tier2-sequential-2000,seq24,3900,0-5,old-lyme,send-old-lyme-docs.py,rich.kirby@patch.com,active
+tier2-sequential-2000,seq25,3900,0-5,east-lyme,send-east-lyme-docs.py,rich.kirby@patch.com,active
+tier2-sequential-2000,seq26,3900,0-5,waterford,send-waterford-docs.py,rich.kirby@patch.com,active
+tier2-sequential-2000,seq27,900,0-5,middletown-twp,send-middletown-twp-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq28,3900,0-5,doylestown-twp,send-doylestown-twp-docs.py,jeff.werner@patch.com,active
+tier2-sequential-2000,seq29,3900,0-5,buckingham-twp,send-buckingham-twp-docs.py,jeff.werner@patch.com,active
+tier2-sequential-2000,seq30,3900,0-5,solebury-twp,send-solebury-twp-docs.py,jeff.werner@patch.com,active
+tier2-sequential-2000,seq31,3900,0-5,new-hope,send-new-hope-docs.py,jeff.werner@patch.com,active
+tier2-sequential-2000,seq32,3900,0-5,newtown-twp,send-newtown-twp-docs.py,jeff.werner@patch.com,active
+tier2-sequential-2000,seq33,3900,0-5,northampton-twp,send-northampton-twp-docs.py,jeff.werner@patch.com,active
+tier2-sequential-2000,seq34,3900,0-5,lower-makefield-twp,send-lower-makefield-twp-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq35,3900,0-5,yardley-boro,send-yardley-boro-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq36,3900,0-5,falls-twp,send-falls-twp-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq37,3900,0-5,bristol-twp,send-bristol-twp-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq38,3900,0-5,bristol-boro,send-bristol-boro-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq39,3900,0-5,bensalem,send-bensalem-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq40,3900,0-5,warminster,send-warminster-docs.py,dino.ciliberti@patch.com,active
+tier2-sequential-2000,seq09 (former),3900,0-5,stafford,send-stafford-docs.py,chris.dehnel@patch.com,PAUSED
+tier2-sequential-2000,seq10 (former),3900,0-5,willington,send-willington-docs.py,chris.dehnel@patch.com,PAUSED
+tier2-sequential-2000,seq11 (former),3900,0-5,tolland,send-tolland-docs.py,chris.dehnel@patch.com,PAUSED
+tier2-sequential-2000,seq12 (former),3900,0-5,vernon,send-vernon-docs.py,chris.dehnel@patch.com,PAUSED
+tier2-sequential-2000,seq17 (former),2100,0-5,berlin,send-berlin-docs.py,michael.lemanski@patch.com,PAUSED
+tier2-sequential-2000,seq20 (former),3900,0-5,west-hartford,send-west-hartford-docs.py,michael.lemanski@patch.com,PAUSED
+tier2-sequential-2000,seq30 (former),3900,0-5,mansfield,send-mansfield-docs.py,chris.dehnel@patch.com,PAUSED
+tier2-sequential-2000,seq31 (former),5400,0-5,middletown,send-middletown-docs.py,chris.dehnel@patch.com,PAUSED

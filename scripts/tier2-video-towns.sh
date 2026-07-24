@@ -25,14 +25,15 @@ echo "--- $(date -Iseconds) tier2: fairfield (cap 3900s) ---" >> beat-archive/fa
 timeout 3900 /usr/bin/python3 scripts/send-fairfield-docs.py >> beat-archive/fairfield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: somers (cap 3900s) ---" >> beat-archive/somers-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-somers-docs.py >> beat-archive/somers-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: stafford (cap 3900s) ---" >> beat-archive/stafford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 3900 /usr/bin/python3 scripts/send-stafford-docs.py >> beat-archive/stafford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: willington (cap 3900s) ---" >> beat-archive/willington-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 3900 /usr/bin/python3 scripts/send-willington-docs.py >> beat-archive/willington-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: tolland (cap 3900s) ---" >> beat-archive/tolland-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 3900 /usr/bin/python3 scripts/send-tolland-docs.py >> beat-archive/tolland-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: vernon (cap 3900s) ---" >> beat-archive/vernon-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 3900 /usr/bin/python3 scripts/send-vernon-docs.py >> beat-archive/vernon-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# PAUSED 2026-07-24: dehnel off town rotation, keep script handy for reassignment
+# echo "--- $(date -Iseconds) tier2: stafford (cap 3900s) ---" >> beat-archive/stafford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 3900 /usr/bin/python3 scripts/send-stafford-docs.py >> beat-archive/stafford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# echo "--- $(date -Iseconds) tier2: willington (cap 3900s) ---" >> beat-archive/willington-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 3900 /usr/bin/python3 scripts/send-willington-docs.py >> beat-archive/willington-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# echo "--- $(date -Iseconds) tier2: tolland (cap 3900s) ---" >> beat-archive/tolland-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 3900 /usr/bin/python3 scripts/send-tolland-docs.py >> beat-archive/tolland-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# echo "--- $(date -Iseconds) tier2: vernon (cap 3900s) ---" >> beat-archive/vernon-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 3900 /usr/bin/python3 scripts/send-vernon-docs.py >> beat-archive/vernon-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: groton (cap 3900s) ---" >> beat-archive/groton-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-groton-docs.py >> beat-archive/groton-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: oxford (cap 3900s) ---" >> beat-archive/oxford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
@@ -41,14 +42,16 @@ echo "--- $(date -Iseconds) tier2: milford (cap 3900s) ---" >> beat-archive/milf
 timeout 3900 /usr/bin/python3 scripts/send-milford-docs.py >> beat-archive/milford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: granby (cap 3900s) ---" >> beat-archive/granby-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-granby-docs.py >> beat-archive/granby-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: berlin (cap 2100s) ---" >> beat-archive/berlin-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 2100 /usr/bin/python3 scripts/send-berlin-docs.py >> beat-archive/berlin-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# PAUSED 2026-07-24: lemanski off town rotation, keep script handy for reassignment
+# echo "--- $(date -Iseconds) tier2: berlin (cap 2100s) ---" >> beat-archive/berlin-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 2100 /usr/bin/python3 scripts/send-berlin-docs.py >> beat-archive/berlin-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: windsor (cap 5400s) ---" >> beat-archive/windsor-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 5400 /usr/bin/python3 scripts/send-windsor-docs.py >> beat-archive/windsor-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: windsor-locks (cap 3900s) ---" >> beat-archive/windsor-locks-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-windsor-locks-docs.py >> beat-archive/windsor-locks-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: west-hartford (cap 3900s) ---" >> beat-archive/west-hartford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 3900 /usr/bin/python3 scripts/send-west-hartford-docs.py >> beat-archive/west-hartford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# PAUSED 2026-07-24: lemanski off town rotation, keep script handy for reassignment
+# echo "--- $(date -Iseconds) tier2: west-hartford (cap 3900s) ---" >> beat-archive/west-hartford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 3900 /usr/bin/python3 scripts/send-west-hartford-docs.py >> beat-archive/west-hartford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: meriden (cap 7500s) ---" >> beat-archive/meriden-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 7500 /usr/bin/python3 scripts/send-meriden-docs.py >> beat-archive/meriden-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: north-haven (cap 7500s) ---" >> beat-archive/north-haven-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
@@ -67,10 +70,11 @@ echo "--- $(date -Iseconds) tier2: guilford (cap 3900s) ---" >> beat-archive/gui
 timeout 3900 /usr/bin/python3 scripts/send-guilford-docs.py >> beat-archive/guilford-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: darien (cap 3900s) ---" >> beat-archive/darien-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-darien-docs.py >> beat-archive/darien-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: mansfield (cap 3900s) ---" >> beat-archive/mansfield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 3900 /usr/bin/python3 scripts/send-mansfield-docs.py >> beat-archive/mansfield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: middletown (cap 5400s) ---" >> beat-archive/middletown-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 5400 /usr/bin/python3 scripts/send-middletown-docs.py >> beat-archive/middletown-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# PAUSED 2026-07-24: dehnel off town rotation, keep script handy for reassignment
+# echo "--- $(date -Iseconds) tier2: mansfield (cap 3900s) ---" >> beat-archive/mansfield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 3900 /usr/bin/python3 scripts/send-mansfield-docs.py >> beat-archive/mansfield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# echo "--- $(date -Iseconds) tier2: middletown (cap 5400s) ---" >> beat-archive/middletown-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+# timeout 5400 /usr/bin/python3 scripts/send-middletown-docs.py >> beat-archive/middletown-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: old-lyme (cap 3900s) ---" >> beat-archive/old-lyme-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-old-lyme-docs.py >> beat-archive/old-lyme-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: east-lyme (cap 3900s) ---" >> beat-archive/east-lyme-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
