@@ -11,6 +11,8 @@ if ! flock -n 9; then
   exit 0
 fi
 
+echo "--- $(date -Iseconds) tier2: ridgefield (cap 7500s) ---" >> beat-archive/ridgefield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
+timeout 7500 /usr/bin/python3 scripts/send-ridgefield-docs.py >> beat-archive/ridgefield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: westport (cap 3900s) ---" >> beat-archive/westport-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-westport-docs.py >> beat-archive/westport-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: east-windsor (cap 3900s) ---" >> beat-archive/east-windsor-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
@@ -109,7 +111,5 @@ echo "--- $(date -Iseconds) tier2: bensalem (cap 3900s) ---" >> beat-archive/ben
 timeout 3900 /usr/bin/python3 scripts/send-bensalem-docs.py >> beat-archive/bensalem-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 echo "--- $(date -Iseconds) tier2: warminster (cap 3900s) ---" >> beat-archive/warminster-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 timeout 3900 /usr/bin/python3 scripts/send-warminster-docs.py >> beat-archive/warminster-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-echo "--- $(date -Iseconds) tier2: ridgefield (cap 7500s) ---" >> beat-archive/ridgefield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
-timeout 7500 /usr/bin/python3 scripts/send-ridgefield-docs.py >> beat-archive/ridgefield-agendas/cron-$(date +\%Y-\%m-\%d).log 2>&1
 
 echo "$(date -Iseconds) tier2 run complete" >> beat-archive/tier2-run-log.txt
