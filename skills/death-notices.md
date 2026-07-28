@@ -18,15 +18,47 @@ Invoke this skill when asked to pull obituaries/death notices for a town, e.g. "
 ## Death Notice format
 
 ```
-[Full Name], [age], of [Town], died [Month Day]. [One factual sentence: occupation/service/defining detail]. [One sentence: survived by / key family, if available]. Arrangements are being handled by [Funeral Home Name].
+[Full Name], [age], died [Month Day]. [One factual sentence: occupation/service/defining detail]. [Second factual sentence: occupation/service/defining detail] [Third fctual sentence: survived by / key family, if available]. Source: [URL link to obituary]
 ```
 
-- Keep each notice to 2-3 sentences — this is a notice, not a full obituary.
+- Keep each notice to 3-4 sentences — this is a notice, not a full obituary.
 - Do not editorialize or add sentiment not present in the source ("beloved," "cherished") unless quoting the source directly.
-- Attribute the source implicitly via the "Arrangements are being handled by" line; if asked to publish, note that these are drawn from funeral home listings and not independently verified beyond what the listing states.
+
 
 ## Customization
 
 Add town-specific or style additions below this line:
 
 <!-- Your additions here -->
+
+### Cody-White Funeral Home (Milford, CT) — serves Orange, Milford, West Haven
+
+`https://www.codywhitefuneralservice.com/obituaries` renders via a Vue SPA (Carriage
+Services' "TributeCenterOnline" platform) with no server-side content, so a plain
+fetch/WebFetch of that URL returns only the page shell — do not mark it unreachable,
+query the JSON API behind it instead:
+
+```
+GET https://api.secure.tributecenteronline.com/ClientApi/obituaries/GetObituariesExtended
+    ?pageNumber=1&pageSize=100&searchTerm=&sortingColumn=3&servingLocationId=0
+Header: DomainId: 5005a7e5-15a7-40e7-a7fb-addef6fad565
+```
+
+Returns JSON with `FullName`, `DeathDate`, `BirthDate`, `Id`, and a full HTML
+`Description` field (the obituary body). `PlaceOfResidence` is consistently null —
+determine the decedent's town from the opening line of `Description` instead
+(pattern: "`Name, age, of TOWN,`"). Watch for false positives where "Orange" (or
+another town name) appears elsewhere in the text as a birthplace, a facility name
+(e.g. "Maplewood at Orange"), or a past-residence mention rather than the stated
+current residence — check the opening sentence, not just a keyword match.
+
+Individual obituary page (for the Source link) follows this pattern:
+`https://www.codywhitefuneralservice.com/obituaries/{First}-{Middle}-{Last}?obId={Id}`
+(periods stripped from middle initials, spaces in surnames become hyphens). Verify
+with a HEAD/GET before using — construct from the `FirstName`/`MiddleName`/`LastName`
+fields in the API response, not from `FullName`.
+
+The `DomainId` is specific to Cody-White; if the same platform shows up for another
+funeral home (same `tributecenteronline.com`/`site-builder` JS bundle structure),
+find its `window.API.domainId` by fetching the home page HTML directly with curl
+(not WebFetch) and grepping for `window.API.domainId`.
