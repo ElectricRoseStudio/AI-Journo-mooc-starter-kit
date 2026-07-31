@@ -39,7 +39,7 @@ SMTP_USER = os.environ.get("SMTP_USER", "")
 SMTP_PASS = os.environ.get("SMTP_PASS", "")
 
 FROM_ADDRESS = os.environ.get("SMTP_FROM", "rich@electricrose.net")
-TO_ADDRESSES = ["rich.kirby@patch.com", "hayleigh.evans@patch.com"]
+TO_ADDRESSES = ["hayleigh.evans@patch.com"]
 
 REPO_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_PATH   = os.path.join(REPO_DIR, "beat-archive", "send-log.txt")
