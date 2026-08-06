@@ -50,7 +50,7 @@ OUTPUT_DIR = "beat-archive/redding-agendas"
 DAYS_BACK = 4
 DELAY_SECONDS = 1.0
 
-UA = "Redding-CT-Agendas-Downloader/1.0 (journalism research)"
+UA = "Mozilla/5.0"
 
 DATE_PATTERNS = [
     # MM/DD/YYYY or M/D/YYYY

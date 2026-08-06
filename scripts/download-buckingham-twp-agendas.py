@@ -233,7 +233,7 @@ def extract_row_docs(row, board_label, meeting_cutoff, today, is_upcoming):
     """
     Parse one <tr> row and return (pdf_list, vid_list).
     Each pdf entry: {url, doc_type, board_label, meeting_date}
-    Each vid entry: {video_id, watch_url, meeting_date}
+    Each vid entry: {video_id, watch_url, board_label, meeting_date}
     Returns ([], []) if the row is out of range or has no links.
     """
     # For past-meeting rows, check meeting date bounds
@@ -270,6 +270,7 @@ def extract_row_docs(row, board_label, meeting_cutoff, today, is_upcoming):
             vids.append({
                 "video_id":     yt_m.group(1),
                 "watch_url":    f"https://www.youtube.com/watch?v={yt_m.group(1)}",
+                "board_label":  board_label,
                 "meeting_date": meeting_date,
             })
 
@@ -344,12 +345,16 @@ def slugify(text, max_len=50):
     return text.strip("-")[:max_len]
 
 
-def make_pdf_dest(doc_type, board_label, date_posted, output_dir, counter=0):
-    month_dir = os.path.join(output_dir, date_posted.strftime("%Y-%m"))
+def make_pdf_dest(doc_type, board_label, meeting_date, date_posted, output_dir, counter=0):
+    # File by the meeting the document is about, not the day it happened to be
+    # uploaded — otherwise a batch of backfilled minutes posted the same day
+    # collide on filename and are only distinguishable by a -1/-2 suffix.
+    ref_date  = meeting_date or date_posted
+    month_dir = os.path.join(output_dir, ref_date.strftime("%Y-%m"))
     os.makedirs(month_dir, exist_ok=True)
     suffix = f"-{counter}" if counter > 0 else ""
     fname = (
-        f"{date_posted.strftime('%Y-%m-%d')}-{slugify(board_label)}"
+        f"{ref_date.strftime('%Y-%m-%d')}-{slugify(board_label)}"
         f"-{doc_type}{suffix}.pdf"
     )
     return os.path.join(month_dir, fname)
@@ -448,7 +453,7 @@ def main():
             time.sleep(HEAD_DELAY)
             if lm is None or lm < cutoff:
                 continue
-            key = (cand["board_label"], cand["doc_type"], lm)
+            key = (cand["board_label"], cand["doc_type"], cand["meeting_date"] or lm)
             fname_counters[key] = fname_counters.get(key, 0) + 1
             cand["last_modified"] = lm
             cand["counter"]       = fname_counters[key] - 1
@@ -515,7 +520,7 @@ def main():
 
     for c in confirmed_pdfs:
         dest  = make_pdf_dest(
-            c["doc_type"], c["board_label"],
+            c["doc_type"], c["board_label"], c["meeting_date"],
             c["last_modified"], args.output_dir, c["counter"]
         )
         label = os.path.basename(dest)

@@ -27,7 +27,7 @@ UA = (
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
 BASE          = "https://www.yardleyboro.org"
-MEETINGS_URL  = BASE + "/council-meetings-1"
+MEETINGS_URL  = BASE + "/council-meetings"
 YT_CHANNEL    = "https://www.youtube.com/@yardleyborough8413"
 
 REPO_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
