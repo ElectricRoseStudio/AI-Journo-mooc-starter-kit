@@ -1,7 +1,9 @@
-# Revised schedule proposal — 2026-07-24
+# Revised schedule — originally proposed 2026-07-24, updated 2026-08-06.
 # Rebuilt from the LIVE crontab and scripts/tier2-video-towns.sh (not from the old send-schedule.csv,
 # whose listed times had already drifted from what's actually installed).
-# NOT YET APPLIED to the live crontab — this file is for review only.
+# Reflects the live crontab as of 2026-08-06, including enfield/south-windsor
+# (restored to cron in a prior session but never back-synced to this file
+# until now) and the new arlington entry (19:20).
 #
 # Two independent scheduling mechanisms feed the daily run:
 #   1) individual-cron   - one crontab line per town, fixed clock time, still starts 17:00.
@@ -54,6 +56,11 @@ individual-cron,18:56,180,0-5,wrightstown-twp,send-wrightstown-twp-docs.py,jeff.
 individual-cron,19:00,180,0-5,haddam,send-haddam-docs.py,vincent.salzo@patch.com,active
 individual-cron,19:04,600,0-5,weston,send-weston-docs.py,hayleigh.evans@patch.com,active
 individual-cron,19:08,1200,0-5,wilton,send-wilton-docs.py,hayleigh.evans@patch.com,active
+individual-cron,19:12,1200,0-5,enfield,send-enfield-docs.py,jay.kenney@patch.com,active
+individual-cron,19:16,1200,0-5,south-windsor,send-south-windsor-docs.py,jay.kenney@patch.com,active
+individual-cron,19:20,1200,0-5,arlington,send-arlington-docs.py,benjamin.pierce@patch.com,active
+individual-cron,19:24,1200,0-5,malden,send-malden-docs.py,benjamin.pierce@patch.com,active
+individual-cron,19:28,1200,0-5,medford,send-medford-docs.py,benjamin.pierce@patch.com,active
 individual-cron,17:16 (former),180,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:24 (former),180,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:28 (former),180,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com,PAUSED
