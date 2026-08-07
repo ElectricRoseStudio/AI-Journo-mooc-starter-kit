@@ -131,10 +131,24 @@ def download_pdf(path, dest_path):
 
 
 def download_video(video_url, dest_path):
+    # SharePoint (ZBA's host) exposes the real recording as both a single
+    # pre-muxed "source" file (under 1GB for a ~2-hour meeting) and, at
+    # far higher apparent quality, separate video/audio HLS/DASH streams
+    # that add up to 5GB+ for the same recording — confirmed directly
+    # with `yt-dlp -F`, and confirmed the hard way: two real ZBA
+    # recordings both blew through a 3600s yt-dlp timeout using
+    # bestvideo+bestaudio, which download.dlp picks by default. "best"
+    # instead picks that single pre-muxed file for SharePoint (no merge
+    # needed) while still using the normal high-quality
+    # bestvideo+bestaudio combo for YouTube (School Committee), where
+    # that combo is a reasonably-sized, already-proven-reliable download
+    # elsewhere in this repo.
+    is_sharepoint = "sharepoint.com" in video_url.lower()
+    fmt = "best" if is_sharepoint else "bestvideo+bestaudio/best"
     cmd = [
         "yt-dlp", "--js-runtimes", YT_DLP_NODE,
         "--no-playlist",
-        "-f", "bestvideo+bestaudio/best",
+        "-f", fmt,
         "--merge-output-format", "mp4",
         "-o", dest_path,
         "--no-overwrites",
