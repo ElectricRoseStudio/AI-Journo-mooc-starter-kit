@@ -148,19 +148,28 @@ def _get(url, **kwargs):
 
 
 def download_url_to_file(url, dest_path, headers=None):
+    # Written to a .part temp file and only renamed to dest_path once the
+    # whole transfer succeeds. Large videos can run well past the outer
+    # cron timeout wrapper, which kills this process with SIGTERM rather
+    # than a catchable exception — without this, a killed mid-download
+    # would leave a truncated file sitting at dest_path, and every future
+    # run's "if os.path.exists(dest): skip" check would then silently and
+    # permanently treat that corrupt file as already downloaded.
+    tmp_path = dest_path + ".part"
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
     try:
-        with urllib.request.urlopen(req, timeout=120) as r, open(dest_path, "wb") as f:
+        with urllib.request.urlopen(req, timeout=120) as r, open(tmp_path, "wb") as f:
             while True:
                 chunk = r.read(1024 * 256)
                 if not chunk:
                     break
                 f.write(chunk)
+        os.replace(tmp_path, dest_path)
         return True
     except Exception as e:
         print(f"  WARNING: {e}", file=sys.stderr)
-        if os.path.exists(dest_path):
-            os.remove(dest_path)
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
         return False
 
 
