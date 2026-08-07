@@ -65,6 +65,7 @@ individual-cron,19:32,1800,0-5,melrose,send-melrose-docs.py,benjamin.pierce@patc
 individual-cron,19:36,2400,0-5,somerville,send-somerville-docs.py,benjamin.pierce@patch.com,active
 individual-cron,19:40,2400,0-5,boston,send-boston-docs.py,benjamin.pierce@patch.com,active
 individual-cron,19:44,1800,0-5,milford-ma,send-milford-ma-docs.py,jessie.castellano@patch.com,active
+individual-cron,19:48,1800,0-5,shrewsbury,send-shrewsbury-docs.py,jessie.castellano@patch.com,active
 individual-cron,17:16 (former),180,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:24 (former),180,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:28 (former),180,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com,PAUSED
