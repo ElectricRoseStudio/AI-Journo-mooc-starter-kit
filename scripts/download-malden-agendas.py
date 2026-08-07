@@ -244,6 +244,12 @@ class AgendaParser(html.parser.HTMLParser):
             href = attrs_d.get("href", "")
             if not href:
                 return
+            # "?html=true" serves a tiny HTML wrapper (content-type:
+            # text/html) instead of the real PDF (confirmed directly via
+            # curl -I against a live Wayland MA link, same CivicPlus
+            # platform as this town) — strip any query string so
+            # downloads always hit the actual application/pdf response.
+            href = href.split("?", 1)[0]
             lower = href.lower()
             if "/agendacenter/viewfile/agenda/" in lower:
                 if self._agenda_url is None:

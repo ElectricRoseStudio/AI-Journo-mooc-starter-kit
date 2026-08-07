@@ -1,79 +1,83 @@
 #!/usr/bin/env python3
-# download-shrewsbury-agendas.py
-# Download municipal meeting agendas, minutes, and video recordings from
-# the Shrewsbury MA Agenda Center for meetings within the past N days (and
-# up to 7 days ahead).
+# download-wayland-agendas.py
+# Download municipal meeting agendas and minutes from the Wayland MA
+# Agenda Center for meetings within the past N days (and up to 7 days
+# ahead).
 #
 # USAGE:
-#   python3 scripts/download-shrewsbury-agendas.py [options]
+#   python3 scripts/download-wayland-agendas.py [options]
 #
 # REQUIREMENTS:
-#   - Python 3.6+  (no third-party packages needed for docs)
-#   - yt-dlp       (for video: pip install yt-dlp)
+#   - Python 3.6+  (no third-party packages needed)
 #   - Internet connection
 #
 # WHAT IT DOES:
-#   Documents (default or --docs-only):
-#     1. Fetches the Shrewsbury MA Agenda Center search endpoint with a
-#        date range spanning DAYS_BACK days ago through DAYS_AHEAD days
-#        ahead
-#     2. Parses each board section and meeting row for board name, meeting
-#        date, agenda URL, minutes URL, and video URL (if any)
-#     3. Downloads PDFs to beat-archive/shrewsbury-agendas/YYYY-MM/
-#     4. Appends a download log to beat-archive/shrewsbury-agendas/download-log.txt
-#
-#   Video (--include-video or --video-only):
-#     5. Extracts each meeting's single video link, if any, from the row's
-#        <td class="media"> cell (same markup as Malden MA's Agenda
-#        Center) and downloads it via yt-dlp
+#   1. Fetches the Wayland MA Agenda Center search endpoint with a date
+#      range spanning DAYS_BACK days ago through DAYS_AHEAD days ahead
+#   2. Parses each board section and meeting row for board name, meeting
+#      date, agenda URL, and minutes URL
+#   3. Downloads PDFs to beat-archive/wayland-agendas/YYYY-MM/
+#   4. Appends a download log to beat-archive/wayland-agendas/download-log.txt
 #
 # SITE STRUCTURE (CivicPlus CivicEngage "Agenda Center", same platform as
-# Waterford CT, Malden MA, and Milford MA):
-#   Hub:     https://www.shrewsburyma.gov/AgendaCenter
-#   Search:  https://www.shrewsburyma.gov/AgendaCenter/Search/?term=&CIDs=all
+# Waterford CT, Malden MA, Milford MA, Shrewsbury MA, and Westborough MA):
+#   Hub:     https://www.wayland.ma.us/AgendaCenter
+#   Search:  https://www.wayland.ma.us/AgendaCenter/Search/?term=&CIDs=all
 #              &startDate=MM/DD/YYYY&endDate=MM/DD/YYYY&dateRange=Custom&dateSelector=0
-#   Agenda:  https://www.shrewsburyma.gov/AgendaCenter/ViewFile/Agenda/_MMDDYYYY-ID
-#   Minutes: https://www.shrewsburyma.gov/AgendaCenter/ViewFile/Minutes/_MMDDYYYY-ID
-#   Video:   one link per meeting (if any) in <td class="media">, always
-#            youtube.com/watch or youtu.be in every sample checked (a
-#            6-month-window scan found only those two domains — simpler
-#            than Malden, which also has SharePoint/Zoom/Teams/tinyurl
-#            links; the host-matching regex below still allows for those
-#            in case Shrewsbury ever posts through one of them too).
+#   Agenda:  https://www.wayland.ma.us/AgendaCenter/ViewFile/Agenda/_MMDDYYYY-ID
+#   Minutes: https://www.wayland.ma.us/AgendaCenter/ViewFile/Minutes/_MMDDYYYY-ID
 #
-# COVERAGE: School Committee (Board of Education) and Parks & Cemetery
-# Commission (Shrewsbury's Parks & Recreation-equivalent board — there's
-# no board with "Recreation" alone in its name; Recreation is run by
-# rec.us, a separate registration platform with no public-meeting
-# component) are both native Agenda Center categories — no separate
-# document source needed for either. Shrewsbury Public Schools also has
-# its own subdomain (schools.shrewsburyma.gov) but School Committee's own
-# agendas are posted through this same Agenda Center, confirmed directly —
-# no separate scrape needed there either, unlike Medford's situation.
+# NO VIDEO — checked directly and confirmed this is a genuine gap, not a
+# scraping failure:
+#   - The Agenda Center's <td class="media"> "Videos" icon looks like a
+#     per-meeting video link at first glance (same markup Malden and
+#     Shrewsbury use for real per-meeting links), but every single
+#     instance across a 6-month window points to the exact same URL — a
+#     static "how to join remotely" info page
+#     (/1097/Public-Body-Meeting-Information-Remote-I), not an actual
+#     recording. There is no real per-meeting video in the Agenda Center.
+#   - WayCAM (Wayland's PEG access nonprofit) is the town's actual video
+#     source, but as of 2026-08-07: its YouTube channel
+#     (youtube.com/@waycamtv, 58 playlists) carries zero government
+#     meeting content — nothing for Select Board, School Committee, or
+#     any other board, only community/entertainment/education
+#     programming; its "Government On-Demand" archive (linked from
+#     waycam.tv/government-on-demand to cloud.castus.tv/vod/waycam) 404s;
+#     and no Vimeo channel exists either. WayCAM's own site displays a
+#     banner about "changes are coming to on-demand and streaming
+#     access," pointing to a paid membership page — suggesting the
+#     platform is mid-transition and future access may require payment,
+#     which this script will not automate around.
+#   Per an explicit 2026-08-07 decision, this script ships documents
+#   only; the gap is surfaced in the daily email rather than silently
+#   omitted. Revisit if WayCAM's on-demand platform comes back online
+#   with free access, or if a YouTube/Vimeo presence for government
+#   meetings appears.
+#
+# COVERAGE: School Committee (Board of Education) and Recreation
+# Commission (Parks & Recreation) are both native Agenda Center categories
+# — no separate document source needed for either.
 
 import argparse
 import datetime
 import html.parser
 import os
 import re
-import subprocess
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 
-YT_DLP_NODE = "node:/home/richkirby/.local/bin/yt-dlp-node"  # yt-dlp needs Node 22+; symlink kept current by scripts/update-yt-dlp-node.sh
-
 # --- Configuration ---
-BASE_URL = "https://www.shrewsburyma.gov"
+BASE_URL = "https://www.wayland.ma.us"
 SEARCH_URL = f"{BASE_URL}/AgendaCenter/Search/"
-OUTPUT_DIR = "beat-archive/shrewsbury-agendas"
+OUTPUT_DIR = "beat-archive/wayland-agendas"
 DAYS_BACK = 4
 DAYS_AHEAD = 7
 DELAY_SECONDS = 0.8
 
-UA = "Shrewsbury-MA-Agendas-Downloader/1.0 (journalism research)"
+UA = "Wayland-MA-Agendas-Downloader/1.0 (journalism research)"
 
 _H3_DATE_RE = re.compile(
     r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s+(\d{4})\b"
@@ -82,11 +86,6 @@ _MONTH_ABBR = {
     "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
     "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
 }
-_VIDEO_HOST_RE = re.compile(
-    r"https?://(?:www\.)?(youtube\.com|youtu\.be|[\w.-]*sharepoint\.com|"
-    r"[\w.-]*zoom\.us|teams\.microsoft\.com|tinyurl\.com)/",
-    re.IGNORECASE,
-)
 
 
 # --- HTTP helpers ---
@@ -124,59 +123,13 @@ def download_pdf(path, dest_path):
         return False
 
 
-def is_specific_video(url):
-    """True for youtube.com/watch, youtube.com/live, or youtu.be/ links (downloadable)."""
-    lower = url.lower()
-    return (
-        "youtu.be/" in lower
-        or "youtube.com/watch" in lower
-        or "youtube.com/live/" in lower
-    )
-
-
-def download_video(video_url, dest_path):
-    cmd = [
-        "yt-dlp", "--js-runtimes", YT_DLP_NODE,
-        "--no-playlist",
-        "-f", "bestvideo+bestaudio/best",
-        "--merge-output-format", "mp4",
-        "-o", dest_path,
-        "--no-overwrites",
-        "--quiet",
-        "--no-warnings",
-        video_url,
-    ]
-    try:
-        subprocess.run(cmd, check=True, timeout=3600)
-        return True
-    except FileNotFoundError:
-        print("  ERROR: yt-dlp not found. Install with: pip install yt-dlp", file=sys.stderr)
-        return False
-    except subprocess.CalledProcessError as e:
-        print(f"  WARNING: yt-dlp failed ({e})", file=sys.stderr)
-        return False
-    except subprocess.TimeoutExpired:
-        print(f"  WARNING: yt-dlp timed out downloading {video_url}", file=sys.stderr)
-        return False
-
-
-def save_url_shortcut(video_url, dest_path):
-    """Save a non-YouTube video link as a .url Internet Shortcut file."""
-    with open(dest_path, "w") as f:
-        f.write(f"[InternetShortcut]\nURL={video_url}\n")
-    return True
-
-
 # --- HTML parser ---
 
 class AgendaParser(html.parser.HTMLParser):
     """
-    Single-pass parser for the Shrewsbury CivicPlus Agenda Center search
+    Single-pass parser for the Wayland CivicPlus Agenda Center search
     results. Tracks h2 (board name) and h3 (meeting date), collecting
-    ViewFile/Agenda, ViewFile/Minutes, and video links between h3
-    boundaries. Video link detection is restricted to known video-hosting
-    domains rather than any href, to avoid false positives from unrelated
-    per-row links.
+    ViewFile/Agenda and ViewFile/Minutes links between h3 boundaries.
     """
 
     def __init__(self):
@@ -186,7 +139,6 @@ class AgendaParser(html.parser.HTMLParser):
         self._current_date = None
         self._agenda_url = None
         self._minutes_url = None
-        self._video_url = None
         self._in_h2 = False
         self._in_h3 = False
         self._buf = ""
@@ -211,9 +163,8 @@ class AgendaParser(html.parser.HTMLParser):
                 return
             # "?html=true" serves a tiny HTML wrapper (content-type:
             # text/html) instead of the real PDF (confirmed directly via
-            # curl -I against a live Wayland MA link, same CivicPlus
-            # platform as this town) — strip any query string so
-            # downloads always hit the actual application/pdf response.
+            # curl -I) — strip any query string so downloads always hit
+            # the actual application/pdf response.
             href = href.split("?", 1)[0]
             lower = href.lower()
             if "/agendacenter/viewfile/agenda/" in lower:
@@ -222,8 +173,6 @@ class AgendaParser(html.parser.HTMLParser):
             elif "/agendacenter/viewfile/minutes/" in lower:
                 if self._minutes_url is None:
                     self._minutes_url = href
-            elif self._video_url is None and _VIDEO_HOST_RE.search(href):
-                self._video_url = href
 
     def handle_data(self, data):
         if self._in_h2 or self._in_h3:
@@ -249,19 +198,15 @@ class AgendaParser(html.parser.HTMLParser):
             self._buf = ""
 
     def _flush(self):
-        if self._current_date and (
-            self._agenda_url or self._minutes_url or self._video_url
-        ):
+        if self._current_date and (self._agenda_url or self._minutes_url):
             self.items.append({
                 "board": self._board,
                 "meeting_date": self._current_date,
                 "agenda_url": self._agenda_url,
                 "minutes_url": self._minutes_url,
-                "video_url": self._video_url,
             })
         self._agenda_url = None
         self._minutes_url = None
-        self._video_url = None
 
     def get_items(self):
         self._flush()
@@ -305,8 +250,9 @@ def build_search_url(start_date, end_date):
 def main():
     parser = argparse.ArgumentParser(
         description=(
-            "Download Shrewsbury MA municipal agendas, minutes, and video recordings "
-            "for meetings within the past N days (and up to M days ahead)."
+            "Download Wayland MA municipal agendas and minutes for meetings "
+            "within the past N days (and up to M days ahead). No video source "
+            "exists — see script header."
         )
     )
     parser.add_argument("--days", type=int, default=DAYS_BACK, metavar="N",
@@ -323,19 +269,12 @@ def main():
                         help="Skip minutes, download agendas only")
     parser.add_argument("--no-agendas", action="store_true",
                         help="Skip agendas, download minutes only")
-    parser.add_argument("--include-video", action="store_true",
-                        help="Also download video recordings via yt-dlp (YouTube links) or .url shortcuts (everything else)")
-    parser.add_argument("--video-only", action="store_true",
-                        help="Download only video recordings (skip documents)")
     args = parser.parse_args()
 
     now = datetime.datetime.now()
     if (now.weekday() == 5 and now.hour >= 18) or (now.weekday() == 6 and now.hour < 12):
         print("Skipping — no downloads on Saturday nights or Sunday mornings.")
         sys.exit(0)
-
-    do_docs = not args.video_only
-    do_video = args.include_video or args.video_only
 
     today = datetime.date.today()
     start_date = today - datetime.timedelta(days=args.days)
@@ -370,40 +309,23 @@ def main():
           f"{len({i['board'] for i in all_items})} board(s).")
     print()
 
-    # Expand each meeting into individual download tasks
     tasks = []
     for item in sorted(all_items, key=lambda x: x["meeting_date"], reverse=True):
-        if do_docs:
-            if item["agenda_url"] and not args.no_agendas:
-                tasks.append({**item, "doc_type": "agenda", "href": item["agenda_url"],
-                               "ext": ".pdf"})
-            if item["minutes_url"] and not args.no_minutes:
-                tasks.append({**item, "doc_type": "minutes", "href": item["minutes_url"],
-                               "ext": ".pdf"})
-        if do_video and item["video_url"]:
-            if is_specific_video(item["video_url"]):
-                tasks.append({**item, "doc_type": "video", "href": item["video_url"],
-                               "ext": ".mp4"})
-            else:
-                tasks.append({**item, "doc_type": "video-link", "href": item["video_url"],
-                               "ext": ".url"})
-        elif item["video_url"] and not do_video:
-            print(f"  VIDEO (not downloaded): {item['video_url']}")
+        if item["agenda_url"] and not args.no_agendas:
+            tasks.append({**item, "doc_type": "agenda", "href": item["agenda_url"]})
+        if item["minutes_url"] and not args.no_minutes:
+            tasks.append({**item, "doc_type": "minutes", "href": item["minutes_url"]})
 
     if not tasks:
         print("No downloadable items found within the date window.")
         return
 
     if args.dry_run:
-        noun = "item(s)" if (do_docs and do_video) else (
-            "recording(s)" if do_video else "document(s)"
-        )
         print(f"{'Board':<45} {'Date':<12} Type")
         print("-" * 70)
         for t in tasks:
-            extra = f"  {t['href'][:40]}..." if t["doc_type"] in ("video", "video-link") else ""
-            print(f"{t['board'][:44]:<45} {t['meeting_date']!s:<12} {t['doc_type']}{extra}")
-        print(f"\n{len(tasks)} {noun}. Re-run without --dry-run to download.")
+            print(f"{t['board'][:44]:<45} {t['meeting_date']!s:<12} {t['doc_type']}")
+        print(f"\n{len(tasks)} document(s). Re-run without --dry-run to download.")
         return
 
     os.makedirs(args.output_dir, exist_ok=True)
@@ -419,8 +341,7 @@ def main():
         count = filename_counters[key] - 1
         suffix = f"-{count}" if count > 0 else ""
 
-        base = make_dest_path(t["board"], t["doc_type"], t["meeting_date"],
-                              args.output_dir, t["ext"])
+        base = make_dest_path(t["board"], t["doc_type"], t["meeting_date"], args.output_dir)
         if suffix:
             root, ext = os.path.splitext(base)
             dest = root + suffix + ext
@@ -437,23 +358,14 @@ def main():
         print(f"  [{t['meeting_date']}] {t['board']} — {t['doc_type']}")
         print(f"  downloading    {label}")
 
-        if t["doc_type"] == "video":
-            ok = download_video(t["href"], dest)
-        elif t["doc_type"] == "video-link":
-            ok = save_url_shortcut(t["href"], dest)
-        else:
-            ok = download_pdf(t["href"], dest)
-
-        if ok:
+        if download_pdf(t["href"], dest):
             downloaded += 1
             log_lines.append(f"{datetime.datetime.now().isoformat()}  OK       {dest}")
         else:
             failed += 1
-            src = t["href"] if t["doc_type"] in ("video", "video-link") else (
-                BASE_URL + t["href"] if t["href"].startswith("/") else t["href"]
-            )
+            src = BASE_URL + t["href"] if t["href"].startswith("/") else t["href"]
             log_lines.append(f"{datetime.datetime.now().isoformat()}  FAILED   {src}")
-            if os.path.exists(dest) and t["doc_type"] != "video-link":
+            if os.path.exists(dest):
                 os.remove(dest)
 
         time.sleep(DELAY_SECONDS)
@@ -477,19 +389,13 @@ if __name__ == "__main__":
 # --- Tips ---
 #
 # 1. Preview without downloading:
-#    python3 scripts/download-shrewsbury-agendas.py --dry-run
+#    python3 scripts/download-wayland-agendas.py --dry-run
 #
 # 2. Narrow to one board:
-#    python3 scripts/download-shrewsbury-agendas.py --board "School Committee"
+#    python3 scripts/download-wayland-agendas.py --board "School Committee"
 #
-# 3. Download documents AND video recordings:
-#    python3 scripts/download-shrewsbury-agendas.py --include-video
+# 3. Change the lookback window:
+#    python3 scripts/download-wayland-agendas.py --days 14
 #
-# 4. Download only video recordings:
-#    python3 scripts/download-shrewsbury-agendas.py --video-only
-#
-# 5. Change the lookback window:
-#    python3 scripts/download-shrewsbury-agendas.py --days 14
-#
-# 6. Run on a schedule (cron — evening):
-#    0 19 * * 1-5 cd /path/to/repo && python3 scripts/download-shrewsbury-agendas.py
+# 4. Run on a schedule (cron — evening):
+#    0 19 * * 1-5 cd /path/to/repo && python3 scripts/download-wayland-agendas.py
