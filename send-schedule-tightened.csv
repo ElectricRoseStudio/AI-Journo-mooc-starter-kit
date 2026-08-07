@@ -71,6 +71,8 @@ individual-cron,19:56,2400,0-5,worcester,send-worcester-docs.py,jessie.castellan
 individual-cron,19:58,1200,0-5,wayland,send-wayland-docs.py,jessie.castellano@patch.com,active
 individual-cron,20:02,2400,0-5,sudbury,send-sudbury-docs.py,jessie.castellano@patch.com,active
 individual-cron,20:06,1800,0-5,beverly,send-beverly-docs.py,scott.souza@patch.com,active
+individual-cron,20:10,1800,0-5,danvers,send-danvers-docs.py,scott.souza@patch.com,active
+individual-cron,20:14,1800,0-5,andover,send-andover-docs.py,scott.souza@patch.com,active
 individual-cron,17:16 (former),180,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:24 (former),180,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:28 (former),180,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com,PAUSED
