@@ -74,6 +74,8 @@ individual-cron,20:06,1800,0-5,beverly,send-beverly-docs.py,scott.souza@patch.co
 individual-cron,20:10,1800,0-5,danvers,send-danvers-docs.py,scott.souza@patch.com,active
 individual-cron,20:14,1800,0-5,andover,send-andover-docs.py,scott.souza@patch.com,active
 individual-cron,20:18,2400,0-5,north-andover,send-north-andover-docs.py,scott.souza@patch.com,active
+individual-cron,20:22,3000,0-5,peabody,send-peabody-docs.py,scott.souza@patch.com,active
+individual-cron,20:26,1800,0-5,salem,send-salem-docs.py,scott.souza@patch.com,active
 individual-cron,17:16 (former),180,0-5,avon,send-avon-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:24 (former),180,0-5,bloomfield,send-bloomfield-docs.py,michael.lemanski@patch.com,PAUSED
 individual-cron,17:28 (former),180,0-5,canton,send-canton-docs.py,michael.lemanski@patch.com,PAUSED

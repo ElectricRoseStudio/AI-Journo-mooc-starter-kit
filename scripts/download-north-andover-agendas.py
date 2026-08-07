@@ -707,7 +707,10 @@ def main():
 
     docs.sort(key=lambda x: (x["meeting_date"], x["board"]), reverse=True)
     videos.sort(key=lambda x: (x["meeting_date"], x["board"]), reverse=True)
-    assign_counters(docs, lambda d: (d["board"], d["meeting_date"], d["doc_type"], d["source"]))
+    # Keyed on the same fields make_path() uses for the filename (not
+    # "source") so that same-day same-type docs from different sources
+    # don't collide on the same output filename.
+    assign_counters(docs, lambda d: (d["board"], d["meeting_date"], d["doc_type"]))
     assign_counters(videos, lambda v: (v["board"], v["meeting_date"]))
 
     total = len(docs) + len(videos)
