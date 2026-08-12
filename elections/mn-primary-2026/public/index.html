@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minnesota 2026 Primary — Live Results</title>
+<style>
+  :root{
+    --patch-dark:#004C05; --patch-green:#009E13; --md-black:#000000;
+    --md-white:#ffffff; --paper:#f7f4ee; --ink:#1a1a1a; --line:#d8d2c4;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{ background:var(--paper); color:var(--ink); font-family:'Georgia','Times New Roman',serif; -webkit-font-smoothing:antialiased; }
+  .heraldic-band{
+    height:14px; width:100%;
+    background:repeating-conic-gradient(var(--md-black) 0% 25%, var(--patch-dark) 0% 50%) 0 0/28px 28px;
+  }
+  .heraldic-band.bottom{
+    background:repeating-conic-gradient(var(--patch-green) 0% 25%, var(--md-white) 0% 50%) 0 0/28px 28px;
+  }
+  header{ padding:40px 24px 24px; text-align:center; border-bottom:3px solid var(--md-black); background:var(--md-white); }
+  .eyebrow{ font-family:'Helvetica Neue',Arial,sans-serif; letter-spacing:.18em; text-transform:uppercase; font-size:11px; color:var(--patch-green); font-weight:700; margin-bottom:10px; }
+  h1{ font-size:clamp(28px,4.5vw,44px); margin:0 0 8px; letter-spacing:-0.01em; }
+  .subhead{ font-family:'Helvetica Neue',Arial,sans-serif; color:#555; font-size:14.5px; max-width:620px; margin:0 auto; }
+  .nav-links{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:12.5px; color:#888; margin-top:12px; }
+  .nav-links a{ color:#888; text-decoration:none; }
+  .status-bar{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:12px; color:#777; text-align:center; padding:10px 0; background:var(--md-white); border-bottom:1px solid var(--line); }
+  .status-bar span{ color:var(--ink); font-weight:600; }
+  main{ max-width:1280px; margin:0 auto; padding:24px 24px 80px; }
+  .grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:28px; }
+  @media(max-width:860px){ .grid{ grid-template-columns:1fr; } }
+  .race-card{ background:var(--md-white); border:1px solid var(--line); position:relative; }
+  .race-card::before{ content:""; position:absolute; top:0; left:0; right:0; height:6px; background:repeating-linear-gradient(45deg, var(--race-color,var(--patch-green)) 0 10px, transparent 10px 20px); }
+  .race-head{ padding:16px 18px 12px; border-bottom:1px solid var(--line); }
+  .race-tag{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:var(--race-color,var(--patch-green)); display:block; margin-bottom:6px; }
+  .race-title{ font-size:19px; margin:0; line-height:1.25; }
+  .frame-wrap{ position:relative; background:#fafafa; }
+  .frame-wrap iframe{ display:block; width:100%; min-height:280px; border:none; }
+  .frame-loading{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Helvetica Neue',Arial,sans-serif; font-size:13px; color:#999; background:#fafafa; transition:opacity .3s ease; }
+  .frame-loading.hidden{ opacity:0; pointer-events:none; }
+  .race-foot{ padding:8px 18px; border-top:1px solid var(--line); font-family:'Helvetica Neue',Arial,sans-serif; font-size:11.5px; color:#aaa; }
+  .loading-msg,.error-msg{ text-align:center; font-family:'Helvetica Neue',Arial,sans-serif; color:#888; padding:50px 20px; font-size:14px; }
+  footer{ text-align:center; padding:26px 24px 50px; font-family:'Helvetica Neue',Arial,sans-serif; font-size:12px; color:#888; }
+  footer a{ color:var(--patch-green); text-decoration:none; }
+</style>
+</head>
+<body>
+
+<div class="heraldic-band"></div>
+
+<header>
+  <div class="eyebrow">2026 Minnesota State Primary &nbsp;·&nbsp; Live Tracker</div>
+  <h1>Minnesota Primary Results</h1>
+  <p class="subhead">Tracking the Republican Governor, Republican U.S. Senate, DFL U.S. Senate, and DFL 2nd Congressional District primaries — sourced from the Minnesota Secretary of State.</p>
+  <div class="nav-links">
+    <a href="/embeds.html">Embed codes →</a> &nbsp;·&nbsp; <a href="/status">Scraper status</a>
+  </div>
+</header>
+
+<div class="status-bar" id="status-bar">Loading results…</div>
+
+<main>
+  <div class="grid" id="race-grid">
+    <div class="loading-msg">Loading races…</div>
+  </div>
+</main>
+
+<footer>
+  All vote data sourced from the
+  <a href="https://electionresults.sos.mn.gov" target="_blank" rel="noopener">Minnesota Secretary of State</a>.
+  This page re-hosts results as individually embeddable panels. Results are unofficial until certified.
+</footer>
+
+<div class="heraldic-band bottom"></div>
+
+<script>
+  const FEED_KEY = 'primary-2026';
+  let allRaces = [];
+
+  function escapeHtml(str){
+    return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function raceColor(party){
+    if (/republican/i.test(party)) return '#004C05';
+    if (/dfl|democrat/i.test(party)) return '#004C05';
+    return '#009E13';
+  }
+
+  function buildCard(contest){
+    const div = document.createElement('div');
+    div.className = 'race-card';
+    div.style.setProperty('--race-color', raceColor(contest.party));
+    div.dataset.label = contest.name.toLowerCase();
+    const src = `/mn/${FEED_KEY}/race/${encodeURIComponent(contest.slug)}`;
+    const precinctLine = contest.totalPrecincts
+      ? `${contest.precinctsReporting ?? 0} of ${contest.totalPrecincts} precincts`
+      : contest.slug;
+    div.innerHTML = `
+      <div class="race-head">
+        <span class="race-tag">${escapeHtml(contest.tag || contest.party)}</span>
+        <h2 class="race-title">${escapeHtml(contest.name)}</h2>
+      </div>
+      <div class="frame-wrap">
+        <div class="frame-loading">Loading…</div>
+        <iframe src="${src}" loading="lazy" title="${escapeHtml(contest.name)} results"></iframe>
+      </div>
+      <div class="race-foot">${escapeHtml(precinctLine)}</div>
+    `;
+    const iframe = div.querySelector('iframe');
+    const loadEl = div.querySelector('.frame-loading');
+    iframe.addEventListener('load', () => loadEl.classList.add('hidden'));
+    return div;
+  }
+
+  function render(races){
+    const grid = document.getElementById('race-grid');
+    grid.innerHTML = '';
+    if (!races.length){ grid.innerHTML = '<div class="error-msg">No races matched.</div>'; return; }
+    races.forEach((r) => grid.appendChild(buildCard(r)));
+  }
+
+  async function init(){
+    try {
+      const res = await fetch(`/api/mn/${FEED_KEY}/index`);
+      if (!res.ok) throw new Error(`Server returned ${res.status}`);
+      const data = await res.json();
+      allRaces = data.contests || [];
+
+      const statusEl = document.getElementById('status-bar');
+      if (data.error && !allRaces.length){
+        statusEl.innerHTML = `<span style="color:#b3261e">Error fetching Minnesota data: ${escapeHtml(data.error)}</span>`;
+        document.getElementById('race-grid').innerHTML = `<div class="error-msg">Minnesota results not yet available — check back after polls close or see <a href="/status">/status</a> for details.</div>`;
+        return;
+      }
+      statusEl.innerHTML = `Tracking <span>${allRaces.length} races</span> &nbsp;·&nbsp; Last updated: <span>${escapeHtml(data.lastUpdated || 'pending')}</span> &nbsp;·&nbsp; Fetched: <span>${data.fetchedAt ? new Date(data.fetchedAt).toLocaleTimeString() : 'pending'}</span>${data.stale ? ` &nbsp;·&nbsp; <span style="color:#b8860b;">⚠ Stale data — live feed down, retrying</span>` : ''}`;
+      render(allRaces);
+    } catch(err){
+      document.getElementById('status-bar').textContent = 'Could not reach scraper API';
+      document.getElementById('race-grid').innerHTML = `<div class="error-msg">${escapeHtml(err.message)}</div>`;
+    }
+  }
+
+  init();
+  setInterval(init, 60000);
+</script>
+
+</body>
+</html>

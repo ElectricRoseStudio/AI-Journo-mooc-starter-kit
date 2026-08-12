@@ -1,0 +1,70 @@
+{
+  "electionName": "2026 Minnesota State Primary",
+  "electionDate": "2026-08-11",
+  "contests": [
+    {
+      "slug": "governor-republican",
+      "name": "Governor — Republican Primary",
+      "office": "Governor",
+      "party": "Republican",
+      "tag": "Statewide",
+      "candidates": [
+        { "name": "Loner Blue", "party": "Republican" },
+        { "name": "Lisa Demuth", "party": "Republican" },
+        { "name": "Raul J. Estrada", "party": "Republican" },
+        { "name": "John Krhin", "party": "Republican" },
+        { "name": "Mike Lindell", "party": "Republican" },
+        { "name": "Ross Nova", "party": "Republican" },
+        { "name": "Kendall Qualls", "party": "Republican" }
+      ]
+    },
+    {
+      "slug": "us-senate-republican",
+      "name": "U.S. Senate — Republican Primary",
+      "office": "U.S. Senate",
+      "party": "Republican",
+      "tag": "Statewide",
+      "candidates": [
+        { "name": "Bob Carney Jr.", "party": "Republican" },
+        { "name": "Cynthia Gail", "party": "Republican" },
+        { "name": "Ahmad R. (Raafat) Hassan", "party": "Republican" },
+        { "name": "Joyce Lacey", "party": "Republican" },
+        { "name": "Patrick Munro", "party": "Republican" },
+        { "name": "Adam Schwarze", "party": "Republican" },
+        { "name": "Michele Tafoya", "party": "Republican" },
+        { "name": "Tom Weiler", "party": "Republican" },
+        { "name": "Royce White", "party": "Republican" }
+      ]
+    },
+    {
+      "slug": "us-senate-dfl",
+      "name": "U.S. Senate — DFL Primary",
+      "office": "U.S. Senate",
+      "party": "DFL",
+      "tag": "Statewide",
+      "candidates": [
+        { "name": "Kurt Michael Anderson", "party": "DFL" },
+        { "name": "Angie Craig", "party": "DFL" },
+        { "name": "Peggy Flanagan", "party": "DFL" },
+        { "name": "George H. Kalberer", "party": "DFL" },
+        { "name": "Peter John Murgic", "party": "DFL" },
+        { "name": "Billy Nord", "party": "DFL" }
+      ]
+    },
+    {
+      "slug": "us-house-2-dfl",
+      "name": "U.S. House District 2 — DFL Primary",
+      "office": "U.S. House (District 2)",
+      "party": "DFL",
+      "tag": "Congressional",
+      "candidates": [
+        { "name": "Abdisallam Abdulle", "party": "DFL" },
+        { "name": "Kaela Berg", "party": "DFL" },
+        { "name": "Matt Klein", "party": "DFL" },
+        { "name": "Matt Little", "party": "DFL" },
+        { "name": "Hugh McTavish", "party": "DFL" },
+        { "name": "Christopher Mosel", "party": "DFL" }
+      ]
+    }
+  ]
+}

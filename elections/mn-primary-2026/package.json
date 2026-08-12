@@ -1,0 +1,17 @@
+{
+  "name": "mn-primary-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "2026 Minnesota State Primary results tracker (Governor R, US Senate R, US Senate DFL, US House 2 DFL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "basic-ftp": "^6.2.0",
+    "express": "^4.19.2"
+  }
+}
