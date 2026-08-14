@@ -29,7 +29,7 @@ SMTP_USER = os.environ.get("SMTP_USER", "")
 SMTP_PASS = os.environ.get("SMTP_PASS", "")
 
 FROM_ADDRESS = os.environ.get("SMTP_FROM", "rich@electricrose.net")
-TO_ADDRESS   = "vincent.salzo@patch.com"
+TO_ADDRESS   = "rich.kirby@patch.com"
 
 REPO_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_PATH   = os.path.join(REPO_DIR, "beat-archive", "send-log.txt")
@@ -37,7 +37,7 @@ SCRIPT     = os.path.join(REPO_DIR, "scripts", "download-haddam-agendas.py")
 OUTPUT_DIR = os.path.join(REPO_DIR, "beat-archive/haddam-agendas")
 CITY_NAME  = "HADDAM"
 
-ATTACH_EXTENSIONS = {".pdf"}
+ATTACH_EXTENSIONS = {".pdf", ".mp4", ".mkv", ".webm", ".m4a", ".mp3", ".mov"}
 MAX_ATTACH_BYTES = 20 * 1024 * 1024  # 20 MB per file; SendGrid limit is ~25 MB total
 # SendGrid's message-size cap is 30 MB and base64 inflates attachments by
 # ~37%, so the raw attachment total needs headroom well under that.
@@ -132,7 +132,7 @@ def check_config():
 def run_downloader():
     print("Running download-haddam-agendas.py ...")
     result = subprocess.run(
-        [sys.executable, SCRIPT],
+        [sys.executable, SCRIPT, "--include-video"],
         capture_output=True,
         text=True,
         cwd=REPO_DIR,
