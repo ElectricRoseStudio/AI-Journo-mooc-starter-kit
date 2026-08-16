@@ -62,3 +62,25 @@ The `DomainId` is specific to Cody-White; if the same platform shows up for anot
 funeral home (same `tributecenteronline.com`/`site-builder` JS bundle structure),
 find its `window.API.domainId` by fetching the home page HTML directly with curl
 (not WebFetch) and grepping for `window.API.domainId`.
+
+### Adzima Funeral Home (Derby, CT) — serves Oxford
+
+`https://www.adzimafh.com/obituary-listing` is another JS/AJAX-rendered listing
+(FrontRunner Professional platform) — plain fetch returns only unpopulated
+`{name}`/`{date}` template markup, not actual records. The live API is:
+
+```
+POST https://obituaries.frontrunnerpro.com/runtime/311039/ims/WF2/public/get-records-additional.php
+Body (form-encoded): pageNum=1&rpp=20&type=current&guid=356489:11503&wholeSite=true
+```
+
+(`guid` is the site's `ExternalUid`, base64-decoded from the page HTML —
+`window.Parameters.ExternalUid`.) This returns well-formed JSON
+(`{"success":true,"data":[...],"maxPages":N}`), confirming the API path is
+correct, but as of 2026-08-15 it came back with an empty `data` array for both
+`type=current` and `type=all` — either the funeral home genuinely has no
+obituaries posted right now, or the request is missing a required param
+(`template`/`getServiceType`) that's set dynamically client-side and wasn't
+findable via static grep of the page HTML. Re-check the `data` array before
+trusting an empty result as "no obituaries" — don't assume the API is broken
+just because one query came back empty.
