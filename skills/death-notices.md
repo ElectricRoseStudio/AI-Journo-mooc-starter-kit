@@ -9,7 +9,7 @@ Invoke this skill when asked to pull obituaries/death notices for a town, e.g. "
 ## Process
 
 1. Look up the requested town in `FuneralHomes.csv` to get its funeral home(s) and obituary listing URL(s). A town may have no funeral home of its own and rely on homes in neighboring towns — the `Notes` column flags this with "No Funeral Home in Town."
-2. Fetch each listing URL. Some funeral home sites (e.g. Dignity Memorial properties) block automated fetches (403) or render listings via JS/carousel with no server-side content — note these as unreachable rather than guessing at their contents.
+2. Fetch each listing URL. Some funeral home sites block automated fetches (403, usually Cloudflare) or render listings via JS/carousel with no server-side content — note these as unreachable rather than guessing at their contents. Dignity Memorial properties (`dignitymemorial.com/obituaries?locationcode=...`) are Cloudflare-protected against direct curl/raw HTTP requests but are reachable via WebFetch, which returns real listing data — try WebFetch before writing a Dignity Memorial URL off as unreachable.
 3. From the reachable listings, keep only decedents whose residence matches the requested town (funeral homes often serve multiple towns).
 4. Drop any entry missing a usable age or date rather than guessing — note it as skipped for incomplete data.
 5. Sort by date of death, most recent first, and take the requested count (default 4-6).
@@ -87,6 +87,23 @@ same signature (`server: cloudflare`, `__cf_bm` cookie, 403 on both WebFetch
 and curl with a browser user agent), confirmed 2026-08-17. Note as unreachable;
 use Lillis Funeral Home (`lillisfuneralhome.wordpress.com/obituaries/`, a
 plain WordPress page, fetches fine) as the other New Milford source.
+
+### Fulton-Theroux Funeral Service (Old Lyme, CT, Dignity Memorial) — serves Lyme, Old Lyme
+
+`https://www.dignitymemorial.com/obituaries?locationcode=2694` is Cloudflare-protected
+against direct HTTP — curl (even with a browser user agent) gets a 403 with
+`server: cloudflare` and a `__cf_bm` cookie. WebFetch, however, gets through and
+returns a real, complete listing (confirmed 2026-08-17) — use WebFetch first for
+any Dignity Memorial URL rather than assuming it's unreachable; only fall back to
+"unreachable" if WebFetch itself comes back empty or blocked.
+
+Individual obituary pages load fine via WebFetch too. Watch for the same
+past-residence false positive noted for Cody-White/Orange: the listing page's
+per-entry "Residence" field can reflect the requested town's funeral-home service
+area rather than current residence — e.g. a listing on the Old Lyme page had
+"Residence: Bozrah, CT (formerly Old Lyme, CT)" in the obituary body. Check the
+individual obituary's stated current residence, not just the listing-page filter,
+before including an entry.
 
 Individual obituary page (for the Source link) follows this pattern:
 `https://www.codywhitefuneralservice.com/obituaries/{First}-{Middle}-{Last}?obId={Id}`
