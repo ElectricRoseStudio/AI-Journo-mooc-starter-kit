@@ -180,9 +180,44 @@ trusting this as a permanent verdict.
 
 Working fallback for Bethany in the meantime: `legacy.com`'s per-town page
 (`legacy.com/us/obituaries/local/connecticut/bethany`) and
-`prospectmemorialfh.com/listings` both 403 WebFetch directly (untested via
-browser — worth trying the same wait-and-render approach used here), but
-WebSearch surfaces individual Legacy.com obituary pages by name/town, and
-`echovita.com/us/obituaries/ct/bethany` fetches cleanly via WebFetch — though
-it lags real publication by several weeks, so cross-check it against a
-WebSearch for the requested date range before treating it as current.
+`prospectmemorialfh.com/listings` both 403 WebFetch/curl directly, but both
+render fine via claude-in-chrome (same wait-and-render pattern as above) —
+confirmed 2026-08-17, see their own notes below. WebSearch also surfaces
+individual Legacy.com obituary pages by name/town directly, and
+`echovita.com/us/obituaries/ct/bethany` fetches cleanly via plain WebFetch —
+though it lags real publication by several weeks, so cross-check it against
+a WebSearch for the requested date range before treating it as current.
+
+### Legacy.com per-town pages (e.g. `legacy.com/us/obituaries/local/connecticut/bethany`)
+
+403s WebFetch/curl but renders fine via claude-in-chrome — navigate, `wait`
+~4s, then read. Confirmed 2026-08-17 for the Bethany page: 453 total results,
+sorted "Newest" first by default, real listings (Mary M. Parcella, Madeline
+Slicer (Razza), Russell Samuel Woodward, ...). Two things to watch for:
+
+- An email-capture modal ("Never miss a notice") pops up on load/scroll —
+  close it (X button), don't fill in an email.
+- `get_page_text` is unreliable on this page — it picks one `<article>`
+  element rather than the full list (returned an entry buried in the results,
+  not the top one shown on screen). Use `screenshot` + scroll instead of
+  trusting `get_page_text` here.
+- Same false-positive risk as the Dignity Memorial/Old Lyme case: this is a
+  "local" page, not a strict town filter — one entry (Ann Marie Wilkinson)
+  was tagged "1938 - 2026" with body text "of Ansonia CT," not Bethany, despite
+  showing up on Bethany's page. Check each entry's stated town, don't trust
+  placement on the town page alone.
+
+### Prospect Memorial Funeral & Cremation Services (Prospect, CT) — serves Bethany
+
+`https://www.prospectmemorialfh.com/listings` 403s WebFetch/curl but renders
+fine via claude-in-chrome — confirmed 2026-08-17 (handled Madeline Slicer,
+the Bethany decedent Beecher & Bennett's feed didn't have). The page has a
+"Name" vs. "Word" radio-button search plus a month-tab picker (`Aug '26`,
+`Jul '26`, `Jun '26`, `<`/`>` to page further back); each result row shows a
+town label on the right. Select "Word", type the town, click Search. A
+search for `Bethany` correctly surfaced Madeline Slicer and Robert Smith
+(both town-labeled "Bethany") but also returned Robert Schlitter, labeled
+"Naugatuck" — the search isn't matching only the town label, so verify the
+town column on each result rather than trusting the query to have filtered
+it. An "Immediate Need" call-us popup also appears on load — close it (X)
+before interacting with the search form underneath.
