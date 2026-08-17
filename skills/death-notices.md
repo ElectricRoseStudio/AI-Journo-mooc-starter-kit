@@ -52,6 +52,14 @@ another town name) appears elsewhere in the text as a birthplace, a facility nam
 (e.g. "Maplewood at Orange"), or a past-residence mention rather than the stated
 current residence — check the opening sentence, not just a keyword match.
 
+### West Haven Funeral Home (West Haven, CT) — serves Orange
+
+`https://www.westhavenfuneral.com/listings` is Cloudflare-protected — confirmed
+2026-08-17 via both curl (browser user agent) and WebFetch, both returning a 403
+with `server: cloudflare` and a `__cf_bm` cookie. Unlike the Dignity Memorial
+sites, WebFetch does not get through here. Note as unreachable; use Cody-White
+(above) as the working Orange source.
+
 ### Lester Gee Funeral Home (New London, CT) — serves Waterford
 
 `https://www.lestergeefh.com/obituary-listing` is on the same FrontRunner
