@@ -145,3 +145,44 @@ obituaries posted right now, or the request is missing a required param
 findable via static grep of the page HTML. Re-check the `data` array before
 trusting an empty result as "no obituaries" — don't assume the API is broken
 just because one query came back empty.
+
+### Beecher & Bennett Funeral Service (Hamden, CT) — serves Bethany
+
+`https://www.beecherandbennett.com/obituaries` is a Duda-platform site whose
+obituary list is rendered client-side by a Tukios widget (`data-widget-id`
+`2d918be729a04a8884cf8c3869e8a4f4`, funeral home tagged `tukios_fhid: "9457"`
+in page metadata) — curl and WebFetch both return only the page shell (nav,
+empty widget container), no listing data. No public JSON API found behind it
+either: the obvious paths under `https://websites.tukios.com/api` (seen
+elsewhere on the page powering `/v1/subscriptions` and `/v1/branches`) —
+`/v1/obituaries`, `/v1/obits`, `/v1/fh/{fhid}/obituaries`, with `fhid`/`fhId`
+as query param — all 302-redirect to `websites.tukios.com/login`; it's an
+authenticated admin API, not public data.
+
+It **does** render fine in an actual browser (claude-in-chrome), though —
+confirmed 2026-08-17. Navigate, then `wait` ~4s and scroll before reading;
+the widget lazy-loads and `get_page_text` right after navigate still shows
+the empty shell. Once loaded it's a paginated feed (605 pages at 10/page as
+of this check — this looks like a shared multi-funeral-home Tukios feed, not
+just Beecher & Bennett's own listings) with a working text search box at the
+top (type a query, press Return; URL becomes `?query=...`).
+
+Searching `Bethany` returned **zero results** (confirmed 2026-08-17) —
+despite `FuneralHomes.csv` pointing Bethany here as its nearest option, this
+feed doesn't currently carry any Bethany-flagged obituaries. This tracks with
+two known August 2026 Bethany decedents found via WebSearch instead: Mary
+Parcella ran through the New Haven Register/Legacy.com, and Madeline Slicer
+through Prospect Memorial (Prospect, CT) — neither via Beecher & Bennett.
+Treat this source as low-yield for Bethany specifically; don't assume "zero
+results" means no recent Bethany deaths, just that this funeral home isn't
+where they're being published. Re-run the search each time rather than
+trusting this as a permanent verdict.
+
+Working fallback for Bethany in the meantime: `legacy.com`'s per-town page
+(`legacy.com/us/obituaries/local/connecticut/bethany`) and
+`prospectmemorialfh.com/listings` both 403 WebFetch directly (untested via
+browser — worth trying the same wait-and-render approach used here), but
+WebSearch surfaces individual Legacy.com obituary pages by name/town, and
+`echovita.com/us/obituaries/ct/bethany` fetches cleanly via WebFetch — though
+it lags real publication by several weeks, so cross-check it against a
+WebSearch for the requested date range before treating it as current.
