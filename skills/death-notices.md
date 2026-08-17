@@ -18,7 +18,7 @@ Invoke this skill when asked to pull obituaries/death notices for a town, e.g. "
 ## Death Notice format
 
 ```
-[Full Name], [age], died [Month Day]. [One factual sentence: occupation/service/defining detail]. [Second factual sentence: occupation/service/defining detail] [Third fctual sentence: survived by / key family, if available]. Source: [URL link to obituary]
+[Full Name], [age], died [Month Day]. [One factual sentence: occupation/service/defining detail]. [Second factual sentence: occupation/service/defining detail] [Third factual sentence: occupation/service/defining detail][Fourth factual sentence: survived by / key family, if available]. Source: [URL link to obituary]
 ```
 
 - Keep each notice to 3-4 sentences — this is a notice, not a full obituary.
@@ -51,6 +51,42 @@ determine the decedent's town from the opening line of `Description` instead
 another town name) appears elsewhere in the text as a birthplace, a facility name
 (e.g. "Maplewood at Orange"), or a past-residence mention rather than the stated
 current residence — check the opening sentence, not just a keyword match.
+
+### Lester Gee Funeral Home (New London, CT) — serves Waterford
+
+`https://www.lestergeefh.com/obituary-listing` is on the same FrontRunner
+platform as Adzima (same `runtime/311039` backend), so the same
+`get-records-additional.php` API pattern applies:
+
+```
+POST https://obituaries.frontrunnerpro.com/runtime/311039/ims/WF2/public/get-records-additional.php
+Body (form-encoded): pageNum=1&rpp=20&type=all&guid=380022:MainSite&wholeSite=true
+```
+
+(`guid` is base64-decoded from `window.Parameters.ExternalUid` in the page
+HTML — fetch with curl, not WebFetch, to see it — decodes to `380022:MainSite`.)
+Verified 2026-08-17: the API responds correctly (`{"success":true,...}`) but
+`data` came back empty for `type=current` and `type=all`, and with/without
+`getServiceType`/`template` params. Site's own widget config
+(`data-widget-config` on the page, also base64) confirms these are the right
+defaults, so this reads as genuinely no obituaries posted, not a broken query
+— but re-check the `data` array on future runs before assuming that.
+
+### Byles-MacDougall, Impellitteri-Malia, Thomas L. Neilan & Sons (serve Waterford)
+
+All three (`byles.com`, `impellitterimaliafh.com`, `neilanfuneralhome.com`)
+are Cloudflare-protected — confirmed via response headers (`server: cloudflare`,
+`__cf_bm` cookie) on a 403 from both WebFetch and curl with a browser user
+agent. No JS-API workaround found yet (unlike the FrontRunner/TributeCenter
+sites above). Note as unreachable rather than retrying with different headers.
+
+### Hull Funeral Service / Colonial Funeral Home (New Milford, CT) — serves New Milford
+
+`https://www.hullfuneralservice.com/listings` is also Cloudflare-protected —
+same signature (`server: cloudflare`, `__cf_bm` cookie, 403 on both WebFetch
+and curl with a browser user agent), confirmed 2026-08-17. Note as unreachable;
+use Lillis Funeral Home (`lillisfuneralhome.wordpress.com/obituaries/`, a
+plain WordPress page, fetches fine) as the other New Milford source.
 
 Individual obituary page (for the Source link) follows this pattern:
 `https://www.codywhitefuneralservice.com/obituaries/{First}-{Middle}-{Last}?obId={Id}`
