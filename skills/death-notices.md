@@ -146,7 +146,7 @@ findable via static grep of the page HTML. Re-check the `data` array before
 trusting an empty result as "no obituaries" — don't assume the API is broken
 just because one query came back empty.
 
-### Beecher & Bennett Funeral Service (Hamden, CT) — serves Bethany
+### Beecher & Bennett Funeral Service (Hamden, CT) — serves Bethany, Woodbridge
 
 `https://www.beecherandbennett.com/obituaries` is a Duda-platform site whose
 obituary list is rendered client-side by a Tukios widget (`data-widget-id`
@@ -178,6 +178,18 @@ results" means no recent Bethany deaths, just that this funeral home isn't
 where they're being published. Re-run the search each time rather than
 trusting this as a permanent verdict.
 
+Same result for Woodbridge (confirmed 2026-08-18): searching `Woodbridge`
+also returned zero results, despite `FuneralHomes.csv` pointing Woodbridge
+here too. The four Woodbridge decedents found instead (Salvatore Santo
+Petruzzello, Dr. Henry B. Samson, Barbara P. (Wakelee) Glover, Iva "Jeanne"
+Russ) were spread across four different funeral homes (Jenkins-King &
+Malerba in Ansonia, Robert E. Shure & Son in New Haven, Riverview in
+Shelton, William R. McDonald), none of them Beecher & Bennett and no single
+one covering enough volume to be worth adding to `FuneralHomes.csv` as a
+dedicated Woodbridge row the way Prospect Memorial was for Bethany. Legacy.com
+is the more productive route for Woodbridge specifically — go there directly
+rather than starting with Beecher & Bennett's search.
+
 Working fallback for Bethany in the meantime: `legacy.com`'s per-town page
 (`legacy.com/us/obituaries/local/connecticut/bethany`) and
 `prospectmemorialfh.com/listings` both 403 WebFetch/curl directly, but both
@@ -206,6 +218,31 @@ Slicer (Razza), Russell Samuel Woodward, ...). Two things to watch for:
   was tagged "1938 - 2026" with body text "of Ansonia CT," not Bethany, despite
   showing up on Bethany's page. Check each entry's stated town, don't trust
   placement on the town page alone.
+- The "Search within results" keyword box (left sidebar) is not a reliable
+  town filter either — confirmed 2026-08-18 on the Woodbridge page: typing
+  `Woodbridge` only trimmed the result count from 1022 to 928 and didn't
+  reorder or purge the non-Woodbridge entries already on screen. Don't rely
+  on it to do the residence-filtering for you; keep checking each entry's
+  stated town manually.
+- More false-positive examples, from the Woodbridge page (2026-08-18): a
+  decedent "of Madison" who was merely "raised in Woodbridge" (and appeared
+  twice, as "Christina Marie Del Santo" and "Christina Marie Del Santos" —
+  same person, two newspaper syndications, same photo); a decedent "of
+  Westerly, RI"; a decedent who "died... in Boynton Beach, FL" (likely a
+  Woodbridge, CT native who'd since relocated); and an entry via "Scott's
+  Chapel Hill Mortuary" with no stated CT town at all — Chapel Hill isn't a
+  CT place name, so this is likely a same-named town in another state (there
+  are Woodbridges in NJ and VA too) that Legacy's aggregation pulled in.
+  Exclude anything whose stated residence doesn't clearly read as the CT town
+  in question.
+- Clicking a result's title/name to open the full obituary was unreliable in
+  claude-in-chrome during this session — clicks registered (title underlined
+  on hover) but didn't navigate or open a new tracked tab. When you need the
+  full text (residence buried past the excerpt's "...", or a canonical URL
+  for the Source line), WebSearch for `"Full Name" town obituary` instead —
+  it reliably surfaces the direct Legacy.com/funeral-home permalink plus
+  enough of the obituary text to confirm residence, without fighting the
+  in-page click.
 
 ### Prospect Memorial Funeral & Cremation Services (Prospect, CT) — serves Bethany
 
