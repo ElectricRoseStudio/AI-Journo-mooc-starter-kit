@@ -392,3 +392,37 @@ Middlefield at all found. Also checked and found stale: Patch's dedicated
 `patch.com/connecticut/durham/obituaries` (labeled "Durham-Middlefield")
 does town-tag its entries reliably but hadn't been updated past April 2024
 as of this check — don't rely on it for anything called "recent."
+
+### Swan Funeral Homes (Deep River, CT) — serves Deep River
+
+`FuneralHomes.csv`'s URL for this one
+(`legacy.com/funeral-homes/connecticut/deep-river/swan-funeral-homes-inc/fh-4189`)
+is a genuine dead link — confirmed 2026-08-18 via both WebFetch (404) and
+claude-in-chrome (Legacy.com's own "Sorry, this item isn't currently
+available... temporarily suspended or deleted" page). Flagged directly in
+the CSV's Notes column rather than just here, since a request to fetch it
+will fail outright rather than just under-deliver. No replacement URL found
+for Swan Funeral Homes specifically — fall back to Legacy.com's town page
+(below) instead of trying to relocate this funeral home's own site.
+
+Legacy.com's Deep River page (`legacy.com/us/obituaries/local/connecticut/
+deep-river`) was another low-yield one (2026-08-18) — of the first several
+entries shown, most turned out to be false positives on verification:
+Richard Aronson (actually Danbury, CT), Elizabeth Anne Clark (actually New
+Haven, CT), Allison Darling (born St. Johnsbury, VT, handled by a Vermont
+funeral home), and Michael Charles Perreault (handled by a Vermont funeral
+home, no CT connection found). One entry, Edith Deeg, explicitly said "of
+Deep River, Connecticut" in the body text but was handled by a
+Massachusetts funeral home (Kelly Funeral Home – Lee) and Massachusetts
+newspaper (The Berkshire Eagle) with no independent confirmation
+findable — treated as unverifiable rather than trusted at face value,
+given how many other entries on this same page turned out to be wrong.
+
+`echovita.com/us/obituaries/ct/deep-river` fetched cleanly via plain
+WebFetch (per the general echovita note earlier in this file) and its list
+included two names that couldn't be independently confirmed via WebSearch
+(Frances E. Confrey, Debra Ziobron) alongside two that could (Mark J.
+Gawlak, Vincent Guy Vecchitto). Don't treat echovita inclusion alone as
+sufficient confirmation for this town — a name needs to independently
+surface via WebSearch (ideally landing on the funeral home's own obituary
+page) before counting it as verified.
