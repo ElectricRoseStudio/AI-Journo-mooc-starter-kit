@@ -469,3 +469,31 @@ permalink and re-fetch it before treating a name as confirmed. One name
 from the batch (Thomas Charles Boyle, 33) had a real, live permalink but
 the obituary itself was too thin to confirm any town connection — excluded
 for insufficient information rather than treated as a false positive.
+
+### Church & Allen Funeral Service (locationcode=2085) and Labenski Funeral Home (locationcode=5089) — serve Norwich
+
+Both locationcodes checked out well on individual-permalink verification
+(2026-08-18), same reliable pattern as Uncasville/locationcode=2080 above:
+pull each candidate's specific obituary URL from the batch listing, then
+fetch that URL on its own rather than trusting the listing summary at
+face value. Four of five checked names confirmed cleanly this way (John A.
+Majewski Sr., Donald A. Cosentino, Paul E. Daley, Billie Sue Hill).
+
+**New false-positive pattern found here: birthplace, not residence.**
+Cathleen Frances Mulcahy was tagged "Norwich, CT" on the batch listing, and
+her individual obituary's opening sentence also mentions Norwich — but only
+as her birthplace ("She was born in Norwich, Connecticut... to the late
+Francis and Rita (Arpin) Coleman"). Reading further in, the obituary states
+she "took pride in her Lebanon home, which she maintained with her husband
+Michael for 36 years" — she was actually a longtime Lebanon, CT resident.
+This is a distinct pattern from the previously documented ones (burial
+location ≠ residence, funeral-home town ≠ residence): here it's birthplace
+≠ residence, and it can appear in the *opening sentence* of the obituary,
+not just buried in the body — don't stop reading after the first town
+mention, keep going for a later, more specific residence statement.
+
+Cummings-Gagne Funeral Home (`cummings-gagnefh.com`) — the third Norwich
+source in `FuneralHomes.csv` — 403s WebFetch (Cloudflare-protected, same
+signature as the other non-Dignity-Memorial/non-Tukios sites documented
+elsewhere in this file). No workaround found; rely on the two Dignity
+Memorial locationcodes for Norwich instead.
