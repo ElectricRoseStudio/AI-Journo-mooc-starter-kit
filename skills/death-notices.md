@@ -531,3 +531,37 @@ age 79, of Ledyard, Connecticut"), so verification here was straightforward
 once the page was actually rendered — the difficulty was entirely
 mechanical (WebFetch blindness, the click-after-navigate quirk), not
 false-positive risk in the text itself.
+
+### Duksa Family Funeral Homes at Newington Memorial — serves Newington
+
+`https://www.newingtonmemorial.com/obituaries/obituary-listings` is
+another Tukios-powered site — unlike Beecher & Bennett/Biega/Woyasz,
+WebFetch actually returns real listing data here (names, ages, towns,
+dates), no browser needed just to see the batch list. Confirmed 2026-08-18.
+
+The listing page has a "Location" filter, but it's a *serving-branch*
+filter (Newington Memorial vs. Burritt Hill), not a decedent-town filter —
+selecting "Newington Memorial" narrows to obituaries handled by that
+branch, not to Newington residents specifically. Don't treat it as a town
+filter.
+
+More importantly: individual obituary pages on this site frequently don't
+state the decedent's town of residence anywhere in the body text at all —
+only funeral/visitation/burial locations, which can be a different town
+entirely (the top listing's Mieczyslaw Ledas obituary named a Newington
+visitation and a New Britain church/cemetery, with no residence statement
+either way). Don't infer residence from which of the two branch locations
+(Newington vs. New Britain) hosted the service. For this specific site,
+skip straight to a WebSearch for `"of Newington" Connecticut obituary
+[timeframe]` rather than trying to confirm residence from the obituary
+page itself — every name confirmed this session (Gail R. Sohn, Gary M.
+Donovan, Carl Joseph Thiesfield, Andrew John Martin) was verified this way,
+via search snippets or other syndication sources that did state "of
+Newington" explicitly, not from the newingtonmemorial.com page itself.
+
+One borderline case worth flagging: Charlotte (Downard) Testa's obituary
+called her "of Windsor" (her stated current-residence tag) while also
+describing her as "a longtime Newington resident" — historical connection,
+not current address. Treated as a Windsor resident and excluded, consistent
+with the rule of trusting the explicit "of [Town]" tag over other town
+mentions in the text.
