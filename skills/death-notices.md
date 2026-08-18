@@ -270,16 +270,46 @@ scrolling. Confirmed 2026-08-18: searching `Durham` returned "No obituaries
 found," same zero-result pattern as Beecher & Bennett/Bethany and
 Beecher & Bennett/Woodbridge, despite `FuneralHomes.csv` listing Biega as
 Durham's (and Middlefield's and East Haddam's) nearest option. Confirmed for
-Middlefield too (2026-08-18, same "No obituaries found" result) — East
-Haddam is still unconfirmed but likely behaves the same, being the same feed.
+Middlefield and East Haddam too (2026-08-18, same "No obituaries found"
+result both times), completing the pattern for all three towns Biega
+supposedly serves.
+
+Important caveat found on the East Haddam check: WebSearch turned up a real,
+live obituary hosted directly on this site —
+`biegafuneralhome.com/obituary/david-weidlich-sr` (David E. Weidlich Sr., 85,
+of East Haddam, died January 16, 2026) — that the site's own search didn't
+surface for a `East Haddam` query. So the in-site search isn't just "no
+current obituaries for this town," it's failing to find obituaries that
+demonstrably exist on the site. Don't treat a "No obituaries found" result
+here as proof of absence — try a WebSearch site-scoped check
+(`site:biegafuneralhome.com "town name"`) before concluding the feed is
+truly empty for a given town.
 
 Working fallback: Legacy.com's per-town page again (`legacy.com/us/
-obituaries/local/connecticut/durham`, `.../middlefield`) — found real,
-verifiable entries this way for both towns (Durham: Marjorie A. Dahlmeyer,
-James T. McKenna, Andrew T. Szymaszek, Edward Weston Chapman; Middlefield:
-Geraldine Emily Zehren, Peter James Ferretti), all cross-checked via
-WebSearch rather than trusting the Legacy.com excerpt alone, since several
-of that day's excerpts didn't state a town within the visible "..." cutoff.
+obituaries/local/connecticut/durham`, `.../middlefield`, `.../east-haddam`)
+— found real, verifiable entries this way for all three towns (Durham:
+Marjorie A. Dahlmeyer, James T. McKenna, Andrew T. Szymaszek, Edward Weston
+Chapman; Middlefield: Geraldine Emily Zehren, Peter James Ferretti; East
+Haddam: George Leon Neudecker Jr., Russ Reid Bochain, Judith Hayes
+Beatson), all cross-checked via WebSearch rather than trusting the
+Legacy.com excerpt alone, since several of that day's excerpts didn't state
+a town within the visible "..." cutoff.
+
+East Haddam's Legacy.com page (2026-08-18) was the worst of the three by
+far — most entries on it were upstate-New-York residents (Malone, NY;
+Queensbury, NY) with no apparent Connecticut connection, seemingly a data
+mixup rather than the usual "different town, same name" false positive.
+Given how polluted the page was, WebSearch directly (`"of East Haddam"
+Connecticut obituary 2026`) was more efficient than scrolling/verifying
+entry by entry. Also worth knowing: Moodus is a village within East Haddam
+— an obituary saying "of Moodus" should be treated as an East Haddam match,
+not excluded as a different town.
+
+Two more East Haddam sources surfaced this way that aren't in
+`FuneralHomes.csv`'s Biega/Dignity Memorial pair: Spencer Funeral Home
+(East Hampton, CT — already listed for East Hampton itself) handled Judith
+Hayes Beatson, and Aurora-McCarthy Funeral Home (Colchester, CT) handled
+George Leon Neudecker Jr. Both added as additional East Haddam rows.
 
 Middlefield's page had a notably high false-positive rate (2026-08-18) —
 worth budgeting extra WebSearch verification time for this specific town.
