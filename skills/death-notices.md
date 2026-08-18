@@ -623,3 +623,43 @@ Russo, David L. Benjamin), two of which were hosted on
 munsonloveterefuneralhome.com itself (findable by direct URL once you
 have the name) despite not showing up as Woodbury-relevant on the site's
 own front-page listing.
+
+### Biega Funeral Home and Doolittle Funeral Service — serve Middletown
+
+Middletown itself wasn't in `FuneralHomes.csv` until 2026-08-18 — added
+with these two funeral homes (both headquartered in Middletown) as
+sources, discovered as a side effect of tracking Biega and Doolittle
+through other towns' entries earlier in this file.
+
+Biega's search box (documented above as unreliable for filtering by town
+for its *other* served towns) worked fine here in the sense that typing
+"Middletown" didn't error, but it also didn't visibly filter the
+unfiltered ~10-result listing — same non-filtering behavior noted
+elsewhere for this site. Individual-entry verification was still
+necessary: of 5 checked, only 2 stated Middletown residence explicitly
+(Richard A. Hunt, Nicholas J. DiStefano); the rest were Meriden
+(birthplace/high school only mentioned Middletown) and Cromwell (birthplace
+only).
+
+**Doolittle's per-entry location tag on the listing page is unreliable in
+both directions** — confirmed 2026-08-18, a new and more concerning
+pattern than the single-direction mislabeling documented elsewhere in this
+file:
+
+- Nancy Clough was tagged "Middletown" on the listing page, but her full
+  obituary states she and her husband "built a beautiful life in Madison...
+  for 35 years" — no Middletown residence claim anywhere in the body.
+  Excluded despite the tag.
+- Martha Louise (Stocking) Livingston was tagged "Cromwell" on the listing
+  page, but her full obituary's opening sentence explicitly states "88, of
+  Middletown" — Cromwell was only her birthplace. Included despite the tag
+  saying otherwise.
+
+Because the tag can be wrong in either direction, it cannot be trusted at
+all for this site — always open the individual obituary and read the
+opening sentence for the actual "of [Town]" statement, treating the
+listing-page tag as a hint at best, not a filter. This is stricter than
+the general rule elsewhere in this file (which mostly warns about listing
+pages including entries from *other* towns, i.e. false positives) — here
+a real match can also be tagged as excluded (false negative), so don't
+skip an entry just because its listing tag doesn't say the target town.
