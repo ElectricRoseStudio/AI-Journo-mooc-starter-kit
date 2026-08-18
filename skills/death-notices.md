@@ -565,3 +565,61 @@ describing her as "a longtime Newington resident" — historical connection,
 not current address. Treated as a Windsor resident and excluded, consistent
 with the rule of trusting the explicit "of [Town]" tag over other town
 mentions in the text.
+
+### Dillon-Baxter and Farley-Sullivan Funeral Homes — serve Wethersfield
+
+Confirmed 2026-08-18: both of `FuneralHomes.csv`'s listed Wethersfield
+sources render fine via claude-in-chrome (no WebFetch blindness issue
+here), but both turned out to serve a much wider Hartford-area radius than
+just Wethersfield. Checked at least 8-10 recent entries across the two
+sites via individual permalink; real Wethersfield residents were the
+minority — most were Hartford, East Hartford, Bolton, East Lyme, or
+Westerly, RI. Dillon-Baxter in particular skewed almost entirely Hartford
+proper. Neither site's search box supports filtering by town (Dillon-Baxter
+is name-only and returned zero hits for "Wethersfield" as a name search;
+Farley-Sullivan has a "Locations" dropdown but it appeared to filter by
+serving branch, same pattern as Newington's Duksa site above, not
+decedent town).
+
+Given the low hit rate, WebSearch (`"of Wethersfield" Connecticut obituary
+[timeframe]`) was more efficient than working through the listing pages —
+every confirmed name this session (Robert Parsons, James William Clynch,
+Donna Georgina Vergo, Diane Bayek) was found this way, landing on either a
+Legacy.com snippet or a different funeral home's page (Newington Memorial,
+Dignity Memorial) entirely, not Dillon-Baxter's or Farley-Sullivan's own
+site.
+
+### Munson-Lovetere Funeral Home (Woodbury, CT) — serves Woodbury
+
+`https://www.munsonloveterefuneralhome.com/obituaries` explicitly states
+on-page that it covers "Woodbury, Southbury, Bethlehem, Middlebury, South
+Britain, Oxford, Newtown, Roxbury, Washington, Washington Depot, New
+Milford, Bridgewater, Watertown, Sandy Hook" — a wide multi-town service
+area, and this shows up directly in the results: of ~8 recent entries
+checked individually (2026-08-18), zero were confirmed Woodbury
+residents — actual towns included Southbury (service location only, not
+necessarily residence), Plymouth, Roxbury, and even Pompton Plains, NJ (a
+Cedar Crest Senior Living resident whose burial was scheduled in Newtown,
+CT). The site's own search box does support a location string but doesn't
+filter meaningfully — searching "Woodbury" returned an unrelated person
+literally surnamed Woodbury rather than town matches.
+
+Also confirmed here: a candidate that looked promising from a WebSearch
+AI-generated summary (John Gannon, "78... entered into eternal rest...”
+with Woodbury mentioned in the search snippet) turned out on direct
+fetch of the individual obituary page to have **no stated residence at
+all** — only a Southbury church service and a Woodbury burial cemetery
+(New North Cemetery). This is the same burial-location-≠-residence trap
+documented elsewhere in this file, but notable because it fooled a
+WebSearch summary specifically — always pull the individual obituary and
+check for an explicit "of [Town]" statement before trusting a search
+result's implied town, even when the search engine's own paraphrase
+states it as fact.
+
+Working pattern: skip the site's listing page and go straight to
+WebSearch (`"of Woodbury" Connecticut obituary [timeframe]`) — this
+surfaced three confirmed Woodbury residents (Bette Gurry, Vincent Joseph
+Russo, David L. Benjamin), two of which were hosted on
+munsonloveterefuneralhome.com itself (findable by direct URL once you
+have the name) despite not showing up as Woodbury-relevant on the site's
+own front-page listing.
