@@ -497,3 +497,37 @@ source in `FuneralHomes.csv` — 403s WebFetch (Cloudflare-protected, same
 signature as the other non-Dignity-Memorial/non-Tukios sites documented
 elsewhere in this file). No workaround found; rely on the two Dignity
 Memorial locationcodes for Norwich instead.
+
+### Dinoto Funeral Home (Mystic, CT) — serves Ledyard
+
+`https://www.dinotofuneral.com/Obituaries.htm` is on an older platform
+("Powered by CurrentObituary.Com") — WebFetch returns an empty shell (no
+obituary data at all, not even a degraded summary), so this one needs
+claude-in-chrome from the start; confirmed 2026-08-18.
+
+Two structural things worth knowing about this specific site:
+
+- Unlike the Dignity Memorial/Tukios feeds elsewhere in this file, this
+  page only shows five "current" obituaries at a time — there's no
+  50-entry batch listing to page through. A "Search Archive" box (by last
+  name, or by month/year in `mm/yyyy` format) exists for older entries but
+  wasn't tested this session; worth trying if five current names aren't
+  enough for the requested count.
+- Clicking a name to open its obituary, then clicking "Obituaries" in the
+  sidebar to return to the list, left the page in a state where the
+  *next* click didn't register — confirmed repeatedly 2026-08-18. Always
+  follow a "return to list" navigation with a throwaway click-and-wait (or
+  just re-click the same target once) rather than assuming the first
+  click after navigating back will land.
+
+This funeral home serves a wide New London County area, not just
+Ledyard, and the "current five" skewed accordingly — of five names shown,
+only two turned out to be Ledyard residents (Bernard "Bernie" Lippman,
+Calvin Maurice Brown); the other three were Norwich (Mallory Erin Ahern
+Young, Paulino Cotto) or Mystic (John "Jack" W. Pillar Jr. — Mystic is a
+village within Groton/Stonington, not Ledyard). Each obituary's opening
+sentence stated the town plainly this time (e.g., "Calvin Maurice Brown,
+age 79, of Ledyard, Connecticut"), so verification here was straightforward
+once the page was actually rendered — the difficulty was entirely
+mechanical (WebFetch blindness, the click-after-navigate quirk), not
+false-positive risk in the text itself.
