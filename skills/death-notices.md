@@ -150,6 +150,27 @@ still fail to surface a town's obituaries even when they exist on the site
 (see the Biega section above), so lead with WebSearch for Killingworth
 rather than trusting either site's search box.
 
+Confirmed for Chester too (2026-08-18) — this town fared much better than
+Killingworth/East Haddam; WebSearch readily surfaced four real, verifiable
+Chester decedents (Thomas F. Miksa, Florence Lewis Broach, James A.
+Zanardi, Gail Miller Moorhouse), all explicitly stated "of Chester" in the
+obituary body. Same reverse-mislabeling pattern as the Biega/Haddam case
+applies here too: individual Dignity Memorial permalinks for Miksa and
+Zanardi are both tagged `centerbrook-ct` in the URL (Robinson Wright &
+Weymer's own town) despite both obituaries explicitly stating Chester —
+don't let the URL slug override the obituary's own stated town.
+
+Also found on the Chester check: the original WebFetch summary of this
+locationcode (done for the East Haddam/Killingworth checks) had listed
+"Nathan L. Jacobson, 97, Chester, CT, died 07/02/2026" as one of the 50
+entries. A dedicated WebSearch for that name turned up no matching 2026
+obituary — only a Chester-based civil engineering firm bearing his name
+and an unrelated 2023 obituary for a Geraldine Jacobson (his late wife,
+apparently). This reads as a WebFetch summarization hallucination, not
+just the dropped-town-data issue documented above — treat every entry from
+a WebFetch summary of this URL as needing independent WebSearch
+confirmation before including it, not just the town field.
+
 ### Adzima Funeral Home (Derby, CT) — serves Oxford
 
 `https://www.adzimafh.com/obituary-listing` is another JS/AJAX-rendered listing
