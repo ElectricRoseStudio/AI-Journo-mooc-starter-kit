@@ -285,7 +285,7 @@ town column on each result rather than trusting the query to have filtered
 it. An "Immediate Need" call-us popup also appears on load — close it (X)
 before interacting with the search form underneath.
 
-### Biega Funeral Home (Middletown, CT) — serves Durham, Middlefield, East Haddam
+### Biega Funeral Home (Middletown, CT) — serves Durham, Middlefield, East Haddam, Killingworth, Haddam
 
 `https://www.biegafuneralhome.com/obituaries/` is another Tukios-powered
 site ("Funeral Home Website by Tukios®" in the footer) — same platform as
@@ -336,6 +336,27 @@ Two more East Haddam sources surfaced this way that aren't in
 (East Hampton, CT — already listed for East Hampton itself) handled Judith
 Hayes Beatson, and Aurora-McCarthy Funeral Home (Colchester, CT) handled
 George Leon Neudecker Jr. Both added as additional East Haddam rows.
+
+Also confirmed for Killingworth (2026-08-18, WebSearch found a Killingworth
+decedent — Tom Stevens — handled by Biega) and Haddam (2026-08-18, three
+decedents: Robert "Bob" Duval, Martin S. Ramsey Sr., Rudolph F. Marica) —
+both towns now added as Biega rows in `FuneralHomes.csv` alongside their
+existing Dignity Memorial listing.
+
+**Reverse false-positive pattern, found on the Haddam check:** Legacy.com's
+own page title/breadcrumb for Biega-handled obituaries sometimes tags the
+decedent's town as "Middletown, CT" — Biega's own town — rather than the
+decedent's actual town of residence. Two of the three confirmed Haddam
+entries (Robert Duval, Martin Ramsey Sr.) carried "Middletown, CT" in their
+Legacy.com listing title despite the obituary body clearly stating they
+lived in Haddam (Duval: three decades on the Haddam Park and Recreation
+Commission, Haddam P&Z, Haddam Board of Selectmen; Ramsey: "passed away...
+at his home in Haddam"). This is the inverse of the usual false-positive
+risk elsewhere in this file (a town's listing page pulling in someone who
+doesn't actually live there) — here, a genuine local match can get
+mislabeled with the funeral home's town instead. Don't filter out or
+deprioritize a Biega-sourced result just because its title says
+"Middletown" — read the obituary body for the actual stated residence.
 
 Middlefield's page had a notably high false-positive rate (2026-08-18) —
 worth budgeting extra WebSearch verification time for this specific town.
