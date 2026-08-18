@@ -269,13 +269,28 @@ search box ("Search obituaries") rather than one that only appears after
 scrolling. Confirmed 2026-08-18: searching `Durham` returned "No obituaries
 found," same zero-result pattern as Beecher & Bennett/Bethany and
 Beecher & Bennett/Woodbridge, despite `FuneralHomes.csv` listing Biega as
-Durham's (and Middlefield's and East Haddam's) nearest option. Only tested
-against Durham so far — Middlefield and East Haddam are unconfirmed but
-likely behave the same, being the same feed.
+Durham's (and Middlefield's and East Haddam's) nearest option. Confirmed for
+Middlefield too (2026-08-18, same "No obituaries found" result) — East
+Haddam is still unconfirmed but likely behaves the same, being the same feed.
 
 Working fallback: Legacy.com's per-town page again (`legacy.com/us/
-obituaries/local/connecticut/durham`) — found real, verifiable Durham
-entries this way (Marjorie A. Dahlmeyer, James T. McKenna, Andrew T.
-Szymaszek, Edward Weston Chapman), all cross-checked via WebSearch rather
-than trusting the Legacy.com excerpt alone, since several of that day's
-excerpts didn't state a town within the visible "..." cutoff.
+obituaries/local/connecticut/durham`, `.../middlefield`) — found real,
+verifiable entries this way for both towns (Durham: Marjorie A. Dahlmeyer,
+James T. McKenna, Andrew T. Szymaszek, Edward Weston Chapman; Middlefield:
+Geraldine Emily Zehren, Peter James Ferretti), all cross-checked via
+WebSearch rather than trusting the Legacy.com excerpt alone, since several
+of that day's excerpts didn't state a town within the visible "..." cutoff.
+
+Middlefield's page had a notably high false-positive rate (2026-08-18) —
+worth budgeting extra WebSearch verification time for this specific town.
+Excluded despite appearing on the Middlefield page: Pamela H. Barna (stated
+residence Clinton), Italia "Ty" Giacco (stated residence Middletown/
+Cromwell — she's buried in Middlefield, but burial ≠ residence), Valerie L.
+Butler and Cheryl Cammarota (a funeral service location and an employer in
+Middlefield respectively, but no stated residence there), and J. Michael
+Bishop — a Nobel-laureate cancer researcher who died in San Francisco,
+swept into the local page's "Notable Deaths" carousel with no connection to
+Middlefield at all found. Also checked and found stale: Patch's dedicated
+`patch.com/connecticut/durham/obituaries` (labeled "Durham-Middlefield")
+does town-tag its entries reliably but hadn't been updated past April 2024
+as of this check — don't rely on it for anything called "recent."
