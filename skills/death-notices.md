@@ -258,3 +258,24 @@ search for `Bethany` correctly surfaced Madeline Slicer and Robert Smith
 town column on each result rather than trusting the query to have filtered
 it. An "Immediate Need" call-us popup also appears on load — close it (X)
 before interacting with the search form underneath.
+
+### Biega Funeral Home (Middletown, CT) — serves Durham, Middlefield, East Haddam
+
+`https://www.biegafuneralhome.com/obituaries/` is another Tukios-powered
+site ("Funeral Home Website by Tukios®" in the footer) — same platform as
+Beecher & Bennett, but this one renders promptly via claude-in-chrome with
+no extra scroll/wait needed beyond the initial ~4s, and has a plain visible
+search box ("Search obituaries") rather than one that only appears after
+scrolling. Confirmed 2026-08-18: searching `Durham` returned "No obituaries
+found," same zero-result pattern as Beecher & Bennett/Bethany and
+Beecher & Bennett/Woodbridge, despite `FuneralHomes.csv` listing Biega as
+Durham's (and Middlefield's and East Haddam's) nearest option. Only tested
+against Durham so far — Middlefield and East Haddam are unconfirmed but
+likely behave the same, being the same feed.
+
+Working fallback: Legacy.com's per-town page again (`legacy.com/us/
+obituaries/local/connecticut/durham`) — found real, verifiable Durham
+entries this way (Marjorie A. Dahlmeyer, James T. McKenna, Andrew T.
+Szymaszek, Edward Weston Chapman), all cross-checked via WebSearch rather
+than trusting the Legacy.com excerpt alone, since several of that day's
+excerpts didn't state a town within the visible "..." cutoff.
