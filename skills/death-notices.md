@@ -124,6 +124,32 @@ funeral home (same `tributecenteronline.com`/`site-builder` JS bundle structure)
 find its `window.API.domainId` by fetching the home page HTML directly with curl
 (not WebFetch) and grepping for `window.API.domainId`.
 
+### Robinson Wright & Weymer Funeral Home (Centerbrook/Essex, CT, Dignity Memorial) — serves Chester, Haddam, East Haddam, Killingworth
+
+`https://www.dignitymemorial.com/obituaries?locationcode=3477` gets through
+WebFetch fine (same as Fulton-Theroux above — Dignity Memorial URLs are
+Cloudflare-protected against curl but not WebFetch), but the returned
+summary is unreliable for less-common towns: confirmed 2026-08-18, WebFetch
+against this exact URL asked to flag Killingworth returned "None of the
+obituaries specifically mention Killingworth, CT," listing roughly 20 of the
+50 entries as "Location not specified." A direct WebSearch (`"of
+Killingworth" Connecticut obituary 2026`) immediately surfaced a real
+Killingworth decedent (Tom Stevens, died Aug. 1, 2026) whose listing was
+presumably one of those "not specified" rows — WebFetch's summarization
+step is dropping town data it likely has, not the underlying page lacking
+it. Don't trust a WebFetch "no mention of [town]" verdict for this locationcode
+without cross-checking via WebSearch, especially for towns other than
+Essex/Chester/Old Saybrook, which dominate the visible listing.
+
+This locationcode also isn't the only source for Killingworth despite being
+the only one `FuneralHomes.csv` listed — Biega Funeral Home (already tracked
+above for Durham/Middlefield/East Haddam) turned out to have handled the
+Stevens obituary too, so it's now added as a second Killingworth row. Same
+caution as the East Haddam case applies: Biega's own in-site search may
+still fail to surface a town's obituaries even when they exist on the site
+(see the Biega section above), so lead with WebSearch for Killingworth
+rather than trusting either site's search box.
+
 ### Adzima Funeral Home (Derby, CT) — serves Oxford
 
 `https://www.adzimafh.com/obituary-listing` is another JS/AJAX-rendered listing
