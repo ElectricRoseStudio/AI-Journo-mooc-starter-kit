@@ -426,3 +426,46 @@ Gawlak, Vincent Guy Vecchitto). Don't treat echovita inclusion alone as
 sufficient confirmation for this town — a name needs to independently
 surface via WebSearch (ideally landing on the funeral home's own obituary
 page) before counting it as verified.
+
+### Montville — Uncasville and Oakdale are villages within it, not separate towns
+
+Confirmed 2026-08-18: an obituary stating "of Uncasville, CT" or "of
+Oakdale, CT" should be treated as a Montville match — both are villages
+within the town of Montville (same pattern as Moodus/East Haddam earlier
+in this file). Don't exclude a decedent just because the stated town isn't
+literally "Montville."
+
+**Woyasz & Son Funeral Service** (`woyaszandson.com/obituaries/obituary-
+listings`) has branches in both Norwich and Montville, but its own listing
+page skewed heavily toward false positives when checked against Montville
+specifically — of five names WebFetch's summary suggested might be
+Montville-connected, only one (Robert W. Miles, "of ... Oakdale,
+Connecticut") panned out on verification. The other four turned out to be
+Norwich residents (Douglas John Caisse Sr., Margot Hacker Gibbs) or had no
+stated Montville/Uncasville/Oakdale connection at all despite appearing
+on this feed (Lillice Bonita Fissette — grew up in Griswold, died at a
+nursing facility in East Lyme; Deborah L. Durand — died at a Plainfield
+care facility). This site is also Tukios-powered like Beecher & Bennett
+and Biega — obituary text loads client-side and needs `get_page_text`
+rather than `screenshot`/scroll, since the page didn't visually scroll to
+reveal more body text but `get_page_text` returned the full obituary
+regardless.
+
+**Montville Funeral Home of Church & Allen** (Dignity Memorial,
+`locationcode=2080`) fared much better, and is worth contrasting with the
+locationcode=3477 "Nathan L. Jacobson" hallucination documented in the
+Chester section above. Here, the WebFetch summary of the batch listing
+reproduced identically (same 50 names, ages, dates, in the same order)
+across two different URL forms (`?locationcode=2080` vs. the equivalent
+`/obituaries/uncasville-ct` city page) — a strong signal the underlying
+data is real rather than fabricated, since a hallucinating summarization
+step would be unlikely to reproduce an identical 50-item list verbatim
+twice. Individual-permalink verification confirmed several names directly
+(Roger S. Kaufmann, James F. Rondeau, Leo J. Plourde) by asking WebFetch to
+extract the specific obituary's URL from the listing page, then fetching
+that URL on its own — this is the reliable pattern for this locationcode:
+don't stop at the batch-listing summary, always pull the individual
+permalink and re-fetch it before treating a name as confirmed. One name
+from the batch (Thomas Charles Boyle, 33) had a real, live permalink but
+the obituary itself was too thin to confirm any town connection — excluded
+for insufficient information rather than treated as a false positive.
