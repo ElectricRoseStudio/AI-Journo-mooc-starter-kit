@@ -663,3 +663,42 @@ the general rule elsewhere in this file (which mostly warns about listing
 pages including entries from *other* towns, i.e. false positives) — here
 a real match can also be tagged as excluded (false negative), so don't
 skip an entry just because its listing tag doesn't say the target town.
+
+### Bethel — `hullfuneralservice.com` listing is stale, not just hard to reach
+
+`FuneralHomes.csv`'s only listed Bethel source, "Bethel Funeral Home" at
+`https://www.hullfuneralservice.com/listings` (shared with Danbury's Hull
+Funeral Home — one site, two branded location tabs), renders fine via
+claude-in-chrome — Cloudflare doesn't block a real browser session here,
+unlike the pure-curl 403 case for the *other* Cloudflare-protected sites
+documented elsewhere in this file (Byles-MacDougall, Impellitteri-Malia,
+Neilan). But confirmed 2026-08-19: its newest listed entry is dated January
+25, 2025 — over 18 months stale as of this check, despite the funeral home
+clearly still operating (its footer copyright says "© 2026"). This is a
+different failure mode from access-blocked or unreliable-tag sites
+documented elsewhere: the page loads and renders correctly, the town labels
+on it look accurate, there's just nothing recent to find. Don't spend time
+troubleshooting access to this specific listing if it looks current-day but
+returns old dates — treat it as a dead end and go straight to alternate
+sources.
+
+Two other Danbury-area funeral homes turned out to serve Bethel and have
+current 2026 listings, both added to `FuneralHomes.csv`:
+
+- **Cornell Memorial** (documented above for Danbury) has a real physical
+  Bethel branch (215 Greenwood Avenue) and tags some listing entries
+  "Bethel Funeral Home" — but same as the Danbury case, that's a *branch*
+  tag, not a residence indicator. Two Bethel-branch-tagged entries checked
+  (Waclaw Murdoch Maliszewski, Christopher David Downey) had **no stated
+  residence anywhere in the obituary at all** — only funeral/burial
+  locations in Bethel. Excluded both for insufficient information rather
+  than assumed-Bethel. Only entries with an explicit "of Bethel" statement
+  in the body count.
+- **Jowdy Kane Funeral Home** (Danbury) surfaced a confirmed Bethel
+  resident (Elfriede Utz) via WebSearch, not previously in
+  `FuneralHomes.csv` for any town relevant here — added as a Bethel source.
+
+Working pattern given the primary source's staleness: WebSearch (`"of
+Bethel" Connecticut obituary [timeframe]`) was the productive path this
+session, landing on Cornell Memorial, Jowdy Kane, and Legacy.com/News-Times
+pages rather than the stale Hull/Bethel Funeral Home listing.
