@@ -862,6 +862,26 @@ different company, "Edward Lawrence Funeral Home," with a Darien contact
 address) — treat this site's data as unreliable and not worth chasing
 further; not used as a source this session.
 
+### Madison — added to `FuneralHomes.csv` 2026-08-21
+
+Madison had no row until this session. There's a Swan Funeral Home in
+Madison itself (825 Boston Post Road), distinct from the Swan Funeral Home
+already tracked for Clinton (`locationcode=2632`) — different physical
+address, and its Dignity Memorial page uses the town-slug URL form
+(`dignitymemorial.com/obituaries/madison-ct`) rather than a locationcode
+one; the `/funeral-homes/connecticut/madison/swan-funeral-home/2680` page
+403s curl and its locationcode wasn't recoverable that way, so the
+town-slug URL is the one recorded. Don't assume same-named Swan Funeral
+Home entries elsewhere in this file share a location — check the address.
+
+This locationcode was unusually clean and productive: of the top 7
+entries in the batch, 5 were explicit Madison matches, no false positives
+hit among the 6 checked and confirmed individually this session (Sonnichsen,
+Moran, Ryan, Phillips, Etherington, Dowd) — every one had "Madison,
+Connecticut" stated plainly, several were lifelong or 60-year residents.
+Unlike the Killingworth/East Haddam/Chester locationcode=3477 case, no
+"Location not specified" ambiguity or hallucinated entries surfaced here.
+
 Two other Danbury-area funeral homes turned out to serve Bethel and have
 current 2026 listings, both added to `FuneralHomes.csv`:
 
