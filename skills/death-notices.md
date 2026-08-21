@@ -956,3 +956,55 @@ Working pattern given the primary source's staleness: WebSearch (`"of
 Bethel" Connecticut obituary [timeframe]`) was the productive path this
 session, landing on Cornell Memorial, Jowdy Kane, and Legacy.com/News-Times
 pages rather than the stale Hull/Bethel Funeral Home listing.
+
+### Ellington — both listed sources unreliable, WebSearch was the path
+
+Confirmed 2026-08-21: `FuneralHomes.csv`'s two listed Ellington sources
+both failed this session, for two different reasons.
+
+**Burke-Fortin** (`smallandpietrasfuneralhome.com/runtime.php?...`) — the
+whole domain returned a genuine 502 Bad Gateway (nginx-level server error,
+consistent across retries), not a blocking/rendering issue. Distinct
+failure mode from the Cloudflare-403 and Tukios-empty-shell cases
+documented elsewhere in this file — this is the site's backend actually
+down. Worth a retry on a future run rather than assumed permanently dead,
+but don't burn time troubleshooting it in the moment.
+
+**Leete-Stevens** (`leetestevens.com/obituary-listing`) loaded fine via
+claude-in-chrome (needed a longer ~10s wait — a spinner is visible in a
+screenshot even after `get_page_text` looks empty, same lesson as the
+Fairfield/Spear-Miller case: don't conclude "genuinely empty" from a quick
+check, verify with a screenshot first). It's a shared 3-branch feed
+(Enfield, Somers, Windsor Locks per the page's own footer) — of the 8 most
+recent entries checked individually, zero were Ellington residents (all
+Stafford Springs, Windsor Locks, Enfield, or East Windsor). This town isn't
+one of the three branches, so it reads as a poor fit for Ellington
+specifically despite `FuneralHomes.csv` listing it as a Somers-branch
+option. Individual permalinks are at `leetestevens.com/memorials/{slug}/
+{id}/`, a different URL shape from the FrontRunner
+`obituaries.frontrunnerpro.com` API pattern documented elsewhere in this
+file — this domain uses a different backend (confirmed: the FrontRunner
+API endpoint construction requires a `guid` resolved client-side via a
+`dmAPI.getSiteExternalId()` JS call not visible in static HTML, so the
+curl-based FrontRunner API approach that works for Adzima/Lester Gee/
+Harding doesn't work here without executing JS first).
+
+WebSearch (`"of Ellington" Connecticut obituary [timeframe]`) surfaced
+four confirmed decedents instead, each cross-checked individually:
+Carmelo "Paul" Arigno and Anna Marie King (both via Samsel & Carmon /
+Carmon Community Funeral Homes — `carmonfuneralhome.com`, already tracked
+for South Windsor), John J. "Jack" Sullivan (Ladd-Turkington & Carmon,
+Vernon — same `carmonfuneralhome.com` platform, not yet in
+`FuneralHomes.csv` as its own row), and James Paul Michaud (Holmes-Watkins
+Funeral Home, not yet tracked). Two false positives caught in the same
+search session: an "Arthur J. Weeden" who read as Ellington in one search
+snippet but whose full obituary stated he was actually of Adams,
+Massachusetts (a different person, same name — confirmed by fetching the
+obituary directly rather than trusting the snippet); and a "Linda Lanz"
+whose obituary stated she was a lifelong Stafford Springs resident despite
+surfacing in Ellington search results. One lead (Kirk Luthgren, reportedly
+69, of Ellington, died July 19) was dropped despite two separate WebSearch
+attempts — every result repeated the same paraphrased snippet without ever
+citing a specific article URL, so it never cleared the bar for a citable
+permalink; worth retrying on a future run in case the underlying page gets
+indexed.
