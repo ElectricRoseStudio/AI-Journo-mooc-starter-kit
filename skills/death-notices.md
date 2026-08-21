@@ -1339,3 +1339,15 @@ individually as usual. Unlike Introvigne's own tribute-wall pages (full
 obituary text not reachable this session, see Stafford section), the
 WebSearch-surfaced permalinks landed on other platforms (Legacy.com,
 abbeycremation.com) that gave full text directly.
+
+### Manchester — added to `FuneralHomes.csv` 2026-08-21
+
+Manchester had no row until this session, despite Tierney (already
+tracked for Tolland) being physically located there. Tierney's feed
+turned out to be Manchester-dominant — 8 of 50 recent entries were clean
+"of Manchester" matches, no WebSearch backfill needed, the best hit rate
+of any TributeCenterOnline pull so far in this file. **Holmes-Watkins**
+(also physically in Manchester, already tracked for Vernon) added too —
+it's Tukios-powered (confirmed via curl grep), not yet tried via browser
+for Manchester specifically but likely to work given the Vernon/Tolland
+precedent for this same domain.
