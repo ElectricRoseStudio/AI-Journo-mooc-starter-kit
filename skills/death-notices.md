@@ -727,6 +727,37 @@ Both Bodurtha and Chudd, and several Meadow Ridge entries generally,
 resolved to Redding via Meadow Ridge, a retirement community within the
 town — worth knowing as a landmark if it recurs.
 
+### East Haven Memorial, Porto Funeral Homes, Clancy-Palumbo — serve East Haven
+
+Confirmed 2026-08-21: East Haven Memorial (`easthavenmemorial.com`) and
+Porto Funeral Homes (`portofuneralhomes.net`) are both Cloudflare-protected
+— 403 on both curl and WebFetch, same signature as the other
+Cloudflare-blocked sites in this file. No workaround tried yet
+(claude-in-chrome wasn't connected this session); untested whether a real
+browser gets through.
+
+Clancy-Palumbo (`clancy-palumbofuneralhome.com`) is on the same
+TributeCenterOnline platform as Cody-White (documented above) —
+`window.API.domainId` for this domain is
+`ba0c7e03-3ccf-45ea-b597-30cedc3dc8a2`. The same
+`GetObituariesExtended` API call works with this DomainId and returned 50
+full records directly via curl (no browser needed). Unlike Cody-White,
+`PlaceOfResidence` was null but the `Description` field's opening sentence
+reliably states residence in plain "`Name age of Town`" form for the
+overwhelming majority of entries — this feed was unusually clean, every
+East Haven match in this session's batch had an explicit, unambiguous "of
+East Haven" (or "of East Haven and [OtherTown]" for dual-residence cases)
+in the very first sentence, no burial/birthplace/branch-tag false positives
+hit this time.
+
+Individual permalink pattern confirmed:
+`clancy-palumbofuneralhome.com/obituaries/{First}-{Middle}-{Last}?obId={Id}`
+(same shape as Cody-White's, middle name included when present, e.g.
+`Kimberly-Maria-Boucher`, but omitted where the API's `MiddleName` was
+blank, e.g. `Andrew-Proto`, `Robert-Palmer`) — all six checked resolved
+200 directly, no need to re-derive from a listing-page HTML fetch the way
+Cody-White's pattern required.
+
 Two other Danbury-area funeral homes turned out to serve Bethel and have
 current 2026 listings, both added to `FuneralHomes.csv`:
 
