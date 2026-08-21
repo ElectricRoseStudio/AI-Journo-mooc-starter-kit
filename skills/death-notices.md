@@ -1351,3 +1351,25 @@ of any TributeCenterOnline pull so far in this file. **Holmes-Watkins**
 it's Tukios-powered (confirmed via curl grep), not yet tried via browser
 for Manchester specifically but likely to work given the Vernon/Tolland
 precedent for this same domain.
+
+### Glastonbury — added to `FuneralHomes.csv` 2026-08-21
+
+Glastonbury had no row until this session. **Mulryan Funeral Home**
+(physically in Glastonbury) returns a 303 redirect on `/obituaries` that
+neither curl (`-L` included) nor WebFetch would follow/resolve — a
+distinct failure mode from the Cloudflare-403 and empty-shell cases
+documented elsewhere in this file. Not yet tried via claude-in-chrome;
+worth a browser check on a future run before assuming it's a dead end.
+
+**Glastonbury Funeral Home** — despite the name, its physical address is
+in East Hartford, not Glastonbury (confirmed via its own listing:
+"Originally founded... 1970" in East Hartford) — is a Dignity Memorial
+property. Its `dignitymemorial.com/obituaries/east-hartford-ct` listing
+(a new locationcode not previously tracked in this file) carried
+Glastonbury well: 5 of 50 entries, each individually verified rather than
+trusted from the batch summary, consistent with the Nathan Jacobson
+hallucination caution documented earlier in this file. No false positives
+hit this time — all five had explicit current-Glastonbury residence
+statements, including one (Keith Henson) tagged with two towns
+(Glastonbury and Old Lyme) whose body text confirmed Glastonbury via a
+specific church membership rather than leaving it ambiguous.
