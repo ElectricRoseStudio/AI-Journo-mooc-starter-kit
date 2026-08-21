@@ -1128,3 +1128,28 @@ were tagged "of Broad Brook" specifically, and two more came from Nicholson
 Enfield respectively) rather than East Windsor's own site — added both as
 additional East Windsor rows in `FuneralHomes.csv` since they turned out
 to be productive sources for this town too.
+
+### Windsor proper — low-yield on Carmon's wide-area feed, plus a branch-name trap
+
+Confirmed 2026-08-21: plain "Windsor" (as opposed to East/South/Locks) was
+one of the lower-yield towns checked against the Carmon
+(`domainId=19e64ac9-...`) 50-entry feed — only 3 clean matches in the
+batch (Jean Bill, Betty Magee, Diane Lubynsky), needing WebSearch to find
+a 4th (Henry "Hank" Priore). A regex excluding "East "/"South "/" Locks"
+around the word "Windsor" in the opening sentence worked well to avoid
+false-triggering on the neighboring towns that dominate this feed.
+
+New technique: the TributeCenterOnline API accepts a `searchTerm` query
+param — `GetObituariesExtended?...&searchTerm=Priore&...` returned exactly
+the matching record(s) directly by last name, without needing to guess or
+scrape a permalink from a WebSearch result. Much faster than the
+`pageSize=100` full-batch-then-filter approach when you already have a
+specific name from a WebSearch snippet and just need its `Id` to build a
+citable permalink.
+
+New false-positive pattern: **Gloria Yvonne Austin** was handled by Carmon
+Windsor Funeral Home and initially looked like a Windsor candidate, but
+Legacy.com's own syndication tagged her town as "Hartford, CT" (she worked
+40+ years at Hartford Hospital and was a member of a Hartford church) —
+excluded. Same branch-vs-residence trap as the Doolittle/Middletown case,
+here surfacing on a Carmon-family site for the first time.
