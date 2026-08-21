@@ -1237,3 +1237,36 @@ session's notices as a result. Reinforces the existing rule in this file:
 every echovita name needs independent confirmation before counting it,
 and that confirmation should include re-checking the *date*, not just the
 town and existence of the person.
+
+### Vernon — added to `FuneralHomes.csv` 2026-08-21
+
+Vernon had no row until this session. Three sources added: Burke-Fortin
+(physically in Vernon), Ladd-Turkington & Carmon (physically in Vernon,
+already tracked for Ellington), and Holmes-Watkins (Manchester, already
+tracked for East Windsor/Ellington).
+
+**Burke-Fortin** (`smallandpietrasfuneralhome.com`) is still returning a
+502 as of this session, unchanged from the Ellington check — confirms
+this is an ongoing outage, not a one-off, though still worth retrying on
+a future run rather than assumed permanently dead.
+
+Six clean matches came from a mix of the already-cached Carmon feed
+(Marquis, Pfistner), East Windsor Community Funeral Home's feed (Drenga —
+same TributeCenterOnline domain documented under East Windsor above), and
+WebSearch-confirmed Holmes-Watkins/Carmon records (Whitham, Iacoboni,
+Martell). Two false positives excluded: Diana (Johnson) Bonneau, tagged
+"Vernon, CT" by Legacy despite her own obituary stating "of Columbia" —
+same branch-vs-residence trap as Gloria Austin/Mary Jean Roy above; and
+Althea Wojcik, Legacy-tagged "Vernon, CT" but with no town stated
+anywhere in her own obituary body — excluded for insufficient information
+rather than trusting the tag alone, consistent with the Nhan Ly precedent.
+
+New data-field anomaly, first time seen in this file: Judith Drenga's API
+record had a populated `PlaceOfResidence` field reading "Manchester, CT"
+— every other TributeCenterOnline record checked across this file had
+this field null. Her obituary's own opening sentence explicitly states
+"of Vernon," and her daughter is listed as "of Vernon" too — treated the
+body text as authoritative over the structured field, consistent with
+this file's general rule of trusting the explicit "of [Town]" statement,
+but worth flagging that this field *can* be populated and can disagree
+with the text, not just be reliably absent.
