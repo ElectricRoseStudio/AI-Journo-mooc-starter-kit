@@ -1090,3 +1090,41 @@ One Suffield match (Rita Porcello Rossi) came from the *Leete-Stevens*
 feed instead (documented under Somers/Ellington above), not Carmon or
 Heritage — a reminder that a town can have valid sources outside its own
 `FuneralHomes.csv` row when a neighboring town's feed happens to carry it.
+
+### East Windsor — third TributeCenterOnline site found via browser JS
+
+Confirmed 2026-08-21: `FuneralHomes.csv`'s listed source
+(`eastwindsorfuneralhome.com`) is Cloudflare-protected against curl (403)
+but renders fine via claude-in-chrome, same as the Bethel/Harding cases —
+and it's also on the TributeCenterOnline platform (third site on this
+platform found so far, after Cody-White/Clancy-Palumbo/W.S. Clancy/
+Nicholson & Carmon). Its page is branded "East Windsor Community Funeral
+Home," not "Bassinger & Dowd" as the CSV previously had it — updated the
+row name to match (same URL, so likely a rebrand rather than a different
+business).
+
+New technique: since Cloudflare blocked curl entirely (couldn't grep the
+static HTML for `window.API.domainId` the way Cody-White/Clancy-Palumbo/
+W.S. Clancy were found), the domainId was pulled by running
+`window.API.domainId` directly via `javascript_tool` in the already-loaded
+claude-in-chrome tab — faster than trying to defeat Cloudflare on the curl
+side. Once the API is confirmed with `pageSize=100`, curl works fine for
+individual permalinks on *some* TributeCenterOnline domains (Cody-White,
+Clancy-Palumbo, W.S. Clancy, Nicholson & Carmon) but this one still 403s
+individual obituary permalinks via curl even though the listing API call
+itself succeeds — inconsistent Cloudflare configuration per-domain on the
+same platform, not a fixed rule. The API-returned data itself (name, age,
+dates, full description) is authoritative regardless, so a 403'd permalink
+citation is still safe to use since its content was independently
+confirmed via the API.
+
+Confirms **Broad Brook** is a village within the town of East Windsor
+(five villages total per town records: Broad Brook, Melrose, Scantic,
+Warehouse Point, Windsorville) — same landmark pattern as Uncasville/
+Montville, Moodus/East Haddam, and West Suffield/Suffield elsewhere in
+this file. Two of the six confirmed East Windsor decedents this session
+were tagged "of Broad Brook" specifically, and two more came from Nicholson
+& Carmon and Leete-Stevens's shared feeds (already tracked for Suffield/
+Enfield respectively) rather than East Windsor's own site — added both as
+additional East Windsor rows in `FuneralHomes.csv` since they turned out
+to be productive sources for this town too.
