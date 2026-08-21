@@ -1183,3 +1183,32 @@ Adzima's own FrontRunner API (documented in this file's original Oxford
 entry) is still returning an empty `data` array as of this session,
 unchanged from the 2026-08-15 note — Miller-Macari was sufficient this
 time so it wasn't investigated further.
+
+### Granby proper — another low-yield town on Carmon's wide-area feed
+
+Confirmed 2026-08-21: like Windsor, plain "Granby" (as opposed to East
+Granby) hit poorly on Carmon's 50-entry feed — only 2 matches, and both
+were "formerly of Granby" false positives (current residence elsewhere),
+zero clean hits. WebSearch filled in all 4 confirmed decedents instead
+(Walter Brown Jr., Clyde Harold Bassett, Eileen Ruth Mufatti, Concetta
+Piscitelli), each looked up by name via the API's `searchTerm` param
+(documented under Windsor above) to get the authoritative full record
+rather than relying on the WebSearch snippet.
+
+Confirms **North Granby** and **West Granby** are villages within the
+town of Granby (per Granby's own town-profile page, the town also
+contains Five Points, Goodrichville, Hungary, Mechanicsville, and
+Pegville as named areas) — same landmark pattern as Broad Brook/East
+Windsor and West Suffield/Suffield elsewhere in this file.
+
+Another branch-vs-residence false positive, same shape as Gloria Austin
+under Windsor above: **Mary Jean Roy** was handled by Hayes-Huling &
+Carmon (the Granby-branch funeral home) and her Celebration of Life was
+held at a Granby-adjacent church, but Legacy.com's own listing tagged her
+town as "East Granby, CT" — excluded. Two Granby matches this session
+(Mufatti, Piscitelli) both died at outside care facilities (Governor's
+House in Simsbury; her own home is stated as "in Granby" for Piscitelli)
+— worth noting Mufatti's case in particular relied on the obituary body
+explicitly stating "of Granby" despite dying in Simsbury, not on a
+listing-page tag, consistent with the file's general home-vs-care-facility
+caution.
