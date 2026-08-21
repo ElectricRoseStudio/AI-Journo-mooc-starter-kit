@@ -1008,3 +1008,35 @@ attempts — every result repeated the same paraphrased snippet without ever
 citing a specific article URL, so it never cleared the bar for a citable
 permalink; worth retrying on a future run in case the underlying page gets
 indexed.
+
+### Somers — real Leete-Stevens branch, but still low-yield via the listing widget
+
+Confirmed 2026-08-21: unlike Ellington, Somers Funeral Home is one of
+Leete-Stevens' three actual branches (Enfield/Somers/Windsor Locks), but
+its entries still don't surface proportionally in the shared listing
+widget — of 16 names checked individually across two pages of the most
+recent entries (spanning Aug. 18 down to Jul. 26), only one (Joyce M.
+Brewer) was a Somers match; the rest split across Enfield, Windsor Locks,
+Suffield, Broad Brook, and one Tennessee out-of-state relocation. Same
+"don't trust a quick empty check" lesson as Ellington applies doubly
+here — the listing widget took two rounds of `wait` (roughly 10s+8s) with
+a spinner still visible on the first screenshot before real data appeared.
+
+WebSearch (`"of Somers" Connecticut obituary 2026`) surfaced five more
+confirmed decedents efficiently in a single query, all handled by Somers
+Funeral Home or Leete-Stevens: Deborah Ann Alejandro, Richard "Dick"
+Hutton, Gregory Edgar, Nancy Loubier, George Morris. Two of these
+(Loubier, and Joyce Brewer from the widget) had directly fetchable
+`leetestevens.com/memorials/{slug}/{id}/` permalinks; the rest only
+surfaced via Legacy.com syndication links, which 403 WebFetch as usual —
+cross-checked via a second independent WebSearch query per name instead
+of trusted from one result alone. **Deborah Ann Alejandro** was the one
+exception this session where no specific article permalink could be found
+at all despite three separate search attempts (direct name search, an
+"obituary legacy.com id" search, and guessing the `leetestevens.com`
+slug directly, which 404'd without an ID suffix) — her facts were still
+well-corroborated (identical across two independent searches), so she was
+kept in the notice, cited to the general Legacy.com Somers town-listing
+page rather than a specific article, consistent with the general
+last-resort pattern in this file but worth flagging as a genuine gap
+rather than a solved case.
