@@ -682,6 +682,51 @@ troubleshooting access to this specific listing if it looks current-day but
 returns old dates — treat it as a dead end and go straight to alternate
 sources.
 
+### Bouton Funeral Home (Georgetown/Wilton, CT) — serves Redding
+
+`https://www.boutonfuneralhome.com/obituaries` is Tukios-powered (confirmed
+2026-08-21 via raw HTML grep for `tukios`) — same platform as Beecher &
+Bennett/Biega/Woyasz above. Plain curl/WebFetch returns HTTP 200 but only
+the page shell (search box, filters, no listing data); claude-in-chrome
+wasn't connected in this session to try the render-and-wait workaround, so
+unconfirmed whether that pattern (documented above for the other Tukios
+sites) works here too.
+
+Individual obituary permalinks on this site (`boutonfuneralhome.com/
+obituaries/{first}-{last}`) do fetch cleanly via plain WebFetch once you
+have the name/slug, though — two Redding decedents (Jennifer Sand Bodurtha,
+Richard Alan Chudd) were confirmed this way after WebSearch surfaced the
+direct permalink.
+
+Better working source for this town: Dignity Memorial's Danbury listing
+(`https://www.dignitymemorial.com/obituaries/danbury-ct`) reliably carries
+Redding entries (WebFetch returns real listing data, ~50 entries per page,
+each already tagged with a town and individual permalink) — four more
+Redding decedents (Wade William Roese, Lori Ann Rogers Acosta, Betty Lee
+Leota Kent [actually a Jowdy Kane/Legacy.com obituary, not Dignity
+Memorial — see below], Rochelle Feinberg) were confirmed this way, each
+re-fetched individually rather than trusted from the batch summary alone,
+consistent with the Nathan Jacobson hallucination caution documented
+elsewhere in this file. All were tagged "Redding, CT" directly (unlike the
+Killingworth/East Haddam cases, no "Location not specified" ambiguity hit
+for this town).
+
+Betty Lee Leota Kent was found via general WebSearch, not the Dignity
+Memorial listing — she was handled by Jowdy Kane Funeral Home (Danbury),
+whose own site (`jowdykanefuneralhome.com`) 403s WebFetch (Cloudflare-
+protected, same signature as other blocked sites in this file). Her
+obituary details were confirmed instead via the Legacy.com syndication
+(`legacy.com/us/obituaries/name/betty-kent-obituary?id=62083206`), which
+also 403s WebFetch directly but was reconstructed reliably from two
+independent WebSearch query results returning identical, detailed
+biographical facts (birth date, family names, retirement community) —
+treated as confirmed given the consistency, per the same logic as the
+Church & Allen locationcode=2080 verbatim-reproduction case above.
+
+Both Bodurtha and Chudd, and several Meadow Ridge entries generally,
+resolved to Redding via Meadow Ridge, a retirement community within the
+town — worth knowing as a landmark if it recurs.
+
 Two other Danbury-area funeral homes turned out to serve Bethel and have
 current 2026 listings, both added to `FuneralHomes.csv`:
 
