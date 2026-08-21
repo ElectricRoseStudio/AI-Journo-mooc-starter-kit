@@ -1270,3 +1270,30 @@ body text as authoritative over the structured field, consistent with
 this file's general rule of trusting the explicit "of [Town]" statement,
 but worth flagging that this field *can* be populated and can disagree
 with the text, not just be reliably absent.
+
+### Tolland — added to `FuneralHomes.csv` 2026-08-21
+
+Tolland had no row until this session. Both funeral homes physically in
+town, Burke-Fortin and Tolland Memorial, share the
+`smallandpietrasfuneralhome.com` domain, which is entirely down (502
+confirmed on multiple paths, not just the Burke-Fortin runtime.php URL
+checked under Vernon/Ellington) — same ongoing outage documented
+elsewhere in this file, added anyway per the usual practice of listing a
+town's own funeral homes even when currently broken.
+
+Ladd-Turkington & Carmon (already tracked for Ellington/Vernon) and a new
+find, **John F. Tierney Funeral Home** (Manchester), covered the gap. Also
+TributeCenterOnline — fourth site on this platform confirmed in this file
+(after Cody-White, Clancy-Palumbo/W.S. Clancy/Nicholson & Carmon, East
+Windsor Community) — `domainId` `d25d329b-642e-49e9-9a93-e33208a44b20`.
+Same API pattern works via curl.
+
+One data point worth remembering: WebFetch on an individual
+TributeCenterOnline obituary permalink (as opposed to the batch API call)
+sometimes only returns a loading-shell summary ("template for obituary
+listings... not present in this excerpt") even when the page returns
+HTTP 200 — happened for both the Tierney and Carmon individual pages this
+session. The API's `searchTerm` lookup returning the full `Description`
+field directly is the reliable path; treat a thin WebFetch summary of an
+individual permalink as a cue to re-fetch via the API rather than
+concluding the obituary itself is sparse.
