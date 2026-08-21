@@ -1327,3 +1327,15 @@ session's read. Notices built from name/age/date/town plus whatever
 fit in the truncated excerpt; worth trying again on a future run — maybe
 a longer wait after the tab click, or the tab content lives at a
 sub-path not yet found (e.g. `/obituaries/{slug}/obituary`).
+
+### Willington — added to `FuneralHomes.csv` 2026-08-21
+
+Introvigne (documented under Stafford above) also serves Willington, but
+paging through its 597-page feed one 5-entry page at a time was too slow
+to be worth it as the primary method here — only 2 of ~20 checked entries
+were Willington matches. WebSearch (`"of Willington" Connecticut obituary
+2026`) found the rest efficiently in a single query, each cross-checked
+individually as usual. Unlike Introvigne's own tribute-wall pages (full
+obituary text not reachable this session, see Stafford section), the
+WebSearch-surfaced permalinks landed on other platforms (Legacy.com,
+abbeycremation.com) that gave full text directly.
