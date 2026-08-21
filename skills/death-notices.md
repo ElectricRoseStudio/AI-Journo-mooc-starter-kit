@@ -1040,3 +1040,19 @@ kept in the notice, cited to the general Legacy.com Somers town-listing
 page rather than a specific article, consistent with the general
 last-resort pattern in this file but worth flagging as a genuine gap
 rather than a solved case.
+
+### Windsor Locks — best-performing branch on the shared Leete-Stevens feed
+
+Confirmed 2026-08-21, working from the same ~16-entry batch checked for
+the Somers and Ellington sessions above: Windsor Locks hit at a much
+higher rate than either of the other two towns sharing this feed — 5 of
+16 checked entries (Cyril Roy, Arthur Dobosz, Lena DiPoppo, Stephen
+Bentley, Patricia Kinsley), all with explicit "of Windsor Locks" or
+"lifelong Windsor Locks resident" statements and directly fetchable
+`leetestevens.com/memorials/{slug}/{id}/` permalinks — no WebSearch
+backfill needed this time, unlike Somers/Ellington. No new access issues
+to log; `FuneralHomes.csv`'s existing entry for this town is accurate as
+is. Worth remembering for next time: when re-checking this shared feed for
+a new town, the batch of individually-verified entries from a prior
+Somers/Ellington/Windsor Locks session can often be reused directly rather
+than re-fetched.
