@@ -1297,3 +1297,33 @@ session. The API's `searchTerm` lookup returning the full `Description`
 field directly is the reliable path; treat a thin WebFetch summary of an
 individual permalink as a cue to re-fetch via the API rather than
 concluding the obituary itself is sparse.
+
+### Introvigne Funeral Home (Stafford Springs, CT) — new platform, not yet catalogued
+
+Confirmed 2026-08-21: `introvignefuneralhome.com` is on a platform not
+matching any documented in this file (not Tukios, FrontRunner, or
+TributeCenterOnline) — modern Tailwind-style CSS, an `f1connect.net`
+CDN for photos, and schema.org JSON-LD blocks embedded per obituary page.
+Cloudflare-protected against curl (403 on both the listing and individual
+pages) but renders fine via claude-in-chrome, listing included, no special
+wait/scroll trick needed beyond the usual few seconds.
+
+Pagination is clean and explicit: `?pageNumber=2`, `?pageNumber=3`, etc.,
+with a real "Go to page N ... 597" control (597 total pages at 5 entries
+each) — much easier to page through deliberately than the Tukios sites'
+infinite-scroll-style widgets elsewhere in this file.
+
+Serves a wide multi-town area (Ashford, Storrs, Willington, Somers,
+Tolland, Hartford, Middletown, Putnam all appeared in the first 3 pages)
+— confirms Stafford Springs is the town's dominant village (also
+Staffordville, per the town's own community-structure page) and is what
+decedents are tagged with rather than "Stafford" plain.
+
+**Individual tribute pages didn't yield full obituary text this
+session** — the page loads a "Tribute Wall" view with a truncated excerpt
+and a separate "Obituary" tab, but clicking that tab (confirmed via
+claude-in-chrome) didn't visibly swap in the full text before the
+session's read. Notices built from name/age/date/town plus whatever
+fit in the truncated excerpt; worth trying again on a future run — maybe
+a longer wait after the tab click, or the tab content lives at a
+sub-path not yet found (e.g. `/obituaries/{slug}/obituary`).
