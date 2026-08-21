@@ -664,6 +664,18 @@ pages including entries from *other* towns, i.e. false positives) — here
 a real match can also be tagged as excluded (false negative), so don't
 skip an entry just because its listing tag doesn't say the target town.
 
+**Checked for a Dignity Memorial source too (2026-08-21): none exists.**
+`dignitymemorial.com/obituaries/middletown-ct` 404s — unlike Madison,
+Southington, Norwich, etc., Middletown has no dedicated Dignity Memorial
+town page. The nearest Dignity Memorial property, Della Vecchia Funeral
+Home (Southington, CT, locationcode 8533), lists only Southington and
+Wolcott as its current service area; its page mentions Middletown only in
+a historical note about a 1987 partnership with the now-defunct D'Angelo
+Funeral Home of Middletown, CT. No active Dignity Memorial location claims
+Middletown as service area. Biega and Doolittle remain the only sources
+for this town — don't add a Dignity Memorial row to `FuneralHomes.csv`
+for Middletown without a new location actually opening there.
+
 ### Bethel — `hullfuneralservice.com` listing is stale, not just hard to reach
 
 `FuneralHomes.csv`'s only listed Bethel source, "Bethel Funeral Home" at
