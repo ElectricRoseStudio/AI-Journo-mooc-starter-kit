@@ -1056,3 +1056,37 @@ is. Worth remembering for next time: when re-checking this shared feed for
 a new town, the batch of individually-verified entries from a prior
 Somers/Ellington/Windsor Locks session can often be reused directly rather
 than re-fetched.
+
+### Nicholson & Carmon (Suffield, CT) — TributeCenterOnline, same as Cody-White
+
+Confirmed 2026-08-21: `carmonfuneralhome.com` is on the TributeCenterOnline
+platform (same as Cody-White, Clancy-Palumbo, W.S. Clancy above) —
+`domainId` `19e64ac9-a371-4a92-89d5-c1e01cfc7c6b`. Same
+`GetObituariesExtended` API call, no browser needed. Note this is the same
+domain used by several *other* Carmon-branded funeral homes already in
+`FuneralHomes.csv` (South Windsor, Windsor, Granby, East Granby) — it's a
+single wide-serving-area feed covering the whole Hartford-north region
+(Suffield, Windsor, East Windsor, Windsor Locks, Ellington, Vernon, Avon,
+Bloomfield, Hartford, Tolland, South Windsor, East Granby, and more all
+appeared in one 50-entry pull), not Suffield-exclusive. `PlaceOfResidence`
+was null as usual; the `Description` opening sentence reliably stated town
+in plain "`Name age of Town`" form, with **West Suffield** confirmed as a
+village within Suffield (same landmark pattern as Uncasville/Montville
+elsewhere in this file) — two of five confirmed Suffield matches were
+tagged West Suffield specifically. Individual permalink pattern:
+`carmonfuneralhome.com/obituaries/{First}-{Middle}-{Last}?obId={Id}`,
+same shape as Cody-White/Clancy-Palumbo/W.S. Clancy.
+
+**Heritage Funeral Home** (`suffieldfuneralhome.com/obituary-listing`,
+West Suffield's other listed source) is FrontRunner-branded but its API
+call returned empty (`guid=62077:MainSite` via the shared
+`runtime/311039` backend) — same JS-resolved-guid problem documented for
+Leete-Stevens under Ellington/Somers above (this domain's real guid also
+isn't visible in static HTML). Not pursued further this session since
+Carmon's feed alone yielded enough Suffield matches; try claude-in-chrome
+on a future run if Carmon ever runs dry for this town.
+
+One Suffield match (Rita Porcello Rossi) came from the *Leete-Stevens*
+feed instead (documented under Somers/Ellington above), not Carmon or
+Heritage — a reminder that a town can have valid sources outside its own
+`FuneralHomes.csv` row when a neighboring town's feed happens to carry it.
