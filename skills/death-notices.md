@@ -862,6 +862,21 @@ different company, "Edward Lawrence Funeral Home," with a Darien contact
 address) — treat this site's data as unreliable and not worth chasing
 further; not used as a source this session.
 
+### W.S. Clancy Memorial Funeral Home (Branford, CT) — already in `FuneralHomes.csv`
+
+Confirmed 2026-08-21: this is also TributeCenterOnline (same platform as
+Cody-White and Clancy-Palumbo above) — `domainId`
+`9339732b-ee1c-478e-a2e2-42cef7880b9b`. Same `GetObituariesExtended` API
+call, no browser needed, 50 records returned directly via curl. Feed was
+clean — explicit "of Branford" in the opening sentence for the great
+majority of entries, no false-positive patterns hit this session. Main
+thing to watch: **North Branford is a separate town**, not a village
+within Branford (unlike the Uncasville/Montville or Moodus/East Haddam
+cases) — several entries tagged "of North Branford" showed up in the same
+feed and were excluded. Individual permalink pattern:
+`wsclancy.com/obituaries/{First}-{Middle}-{Last}?obId={Id}`, middle name/
+initial included when the API provided one.
+
 ### Madison — added to `FuneralHomes.csv` 2026-08-21
 
 Madison had no row until this session. There's a Swan Funeral Home in
