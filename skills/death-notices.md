@@ -897,6 +897,45 @@ Connecticut" stated plainly, several were lifelong or 60-year residents.
 Unlike the Killingworth/East Haddam/Chester locationcode=3477 case, no
 "Location not specified" ambiguity or hallucinated entries surfaced here.
 
+### Easton — Monroe locationcode=7075 is low-yield, same pattern as Killingworth
+
+Confirmed 2026-08-21: of 50 entries in the Spadaccino/Gallagher (Monroe,
+Dignity Memorial `locationcode=7075`) batch already in `FuneralHomes.csv`
+for Easton, only 2 were tagged Easton, and one of those two —
+**Joanne Raymond** — was a false positive on individual verification: her
+body text stated she "resided in Redding, Connecticut for the last 60
+years," directly contradicting the batch's Easton tag. Same
+tag-can-be-wrong caution as the Doolittle/Middletown case, but here the
+tag was wrong in the direction of a false positive rather than the
+Doolittle case's false negative. Only Edward P. Higgins survived
+individual verification from this locationcode.
+
+WebSearch (`"of Easton" Connecticut obituary [timeframe]`) was the
+productive path for the rest, same pattern as Killingworth/East Haddam —
+surfaced Eleanor Dugan (Adzima Funeral Home — already tracked for Oxford),
+Helen "Honey" Biro Scala (handled by Abriola Parkview Funeral Home,
+Trumbull, though her permalink resolved on a Legacy/ctpost syndication
+rather than Abriola's own site), Molly Aileen Kauffman West (Spear-Miller,
+already tracked for Fairfield), and Andrew "Andy" Olschan (Green's Funeral
+Home, Danbury), each confirmed via a direct permalink rather than trusted
+from the search snippet alone. A search restricted to March–May 2026
+turned up nothing further, leaving a real gap in the batch between Feb. 19
+and June 23 — worth re-checking on a future run rather than assuming it's
+complete.
+
+Both Abriola and Green's added to `FuneralHomes.csv` as new Easton
+sources. **Abriola** (`abriola.com`) is on the same old FuneralTech/Legacy
+CMS as Lesko (documented under Westport above) — its top-level
+`/181/Death-Notices.html` page is just a links page, not the real listing;
+the actual listing lives at `/tribute/all-services/index.html` (7,371
+entries as of this check) and loads fine via plain curl, no browser
+needed. **Green's** (`greensfuneralhome.com`) is Cloudflare-protected —
+403 on both curl and WebFetch, and unlike Cody-White/Bouton/Harding this
+blocks individual obituary permalinks too, not just the listing page
+(confirmed by testing the Olschan permalink directly: 403 both ways).
+Only usable this session via a WebSearch snippet that had already
+extracted the obituary text; not yet tried via claude-in-chrome.
+
 Two other Danbury-area funeral homes turned out to serve Bethel and have
 current 2026 listings, both added to `FuneralHomes.csv`:
 

@@ -86,7 +86,9 @@ Weston,"Bouton Funeral Home (Georgetown, Wilton)",https://www.boutonfuneralhome.
 Redding,"Bouton Funeral Home (Georgetown, Wilton)",https://www.boutonfuneralhome.com/obituaries,No Funeral Home in Town
 Redding,Dignity Memorial (Danbury-area listing),https://www.dignitymemorial.com/obituaries/danbury-ct,"No Funeral Home in Town; town-tagged aggregate page, not a single funeral home"
 Redding,Jowdy Kane Funeral Home (Danbury),https://www.jowdykanefuneralhome.com/listings,No Funeral Home in Town
-Easton,"Spadaccino and Leo P. Gallagher & Son Community Funeral Home (Monroe, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=7075,No Funeral Home in Town
+Easton,"Spadaccino and Leo P. Gallagher & Son Community Funeral Home (Monroe, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=7075,"No Funeral Home in Town; low-yield for Easton, see skills/death-notices.md"
+Easton,Abriola Parkview Funeral Home (Trumbull),https://abriola.com/tribute/all-services/index.html,No Funeral Home in Town
+Easton,Green's Funeral Home (Danbury),https://www.greensfuneralhome.com/obituaries/obituary-listings,"No Funeral Home in Town; Cloudflare-blocked for curl/WebFetch, see skills/death-notices.md"
 Fairfield,Spear-Miller Funeral Home,https://www.spearmillerfuneralhome.com/obituaries,
 Fairfield,Larson Funeral Home,https://www.larsonfh.com/obituaries/obituary-listings,
 Fairfield,Frank Polke & Son Funeral Home,https://www.frankpolkeandsonfuneralhome.com/listings,
