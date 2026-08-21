@@ -1153,3 +1153,33 @@ Legacy.com's own syndication tagged her town as "Hartford, CT" (she worked
 40+ years at Hartford Hospital and was a member of a Hartford church) —
 excluded. Same branch-vs-residence trap as the Doolittle/Middletown case,
 here surfacing on a Carmon-family site for the first time.
+
+### Miller-Macari Family Funeral Home (Seymour, CT) — serves Oxford
+
+Confirmed 2026-08-21: also Tukios-powered (same platform as Beecher &
+Bennett/Biega/Bouton/Spear-Miller elsewhere in this file), and rendered
+fine via claude-in-chrome — but the trigger this time was **scroll**, not
+just `wait`. A `get_page_text` right after a 10s wait still showed the
+empty shell; only after scrolling down did the listing populate (visible
+immediately in a screenshot). Worth trying scroll before concluding a
+longer wait alone isn't working, on this platform specifically.
+
+This is a shared multi-town feed (Seymour, Stratford, Shelton, Oxford,
+Bridgeport, Southbury all appeared on the first two pages) — 5 of the ~19
+names checked across two pages were confirmed Oxford matches (Morton
+Mitchell, Donna Barriga, Terence Clark, Gerard Brochu, Mary Ellen
+Klembara), each with an explicit "of Oxford" or "resident of Oxford"
+statement. Two candidates were excluded: Restituto Paris turned out to be
+of Seymour despite appearing in the same recent batch, and Nhan Ly's
+obituary stated no town at all ("Services are private," no biographical
+text) — excluded for insufficient information rather than assumed either
+way. Individual permalinks are at `millermacarifh.com/obituaries/
+{first}-{last}` and fetch cleanly via plain WebFetch once the slug is
+known (from the listing page or a constructed guess), even though the
+listing page itself needs a browser — same split as Cody-White/Bouton/
+Harding documented elsewhere in this file.
+
+Adzima's own FrontRunner API (documented in this file's original Oxford
+entry) is still returning an empty `data` array as of this session,
+unchanged from the 2026-08-15 note — Miller-Macari was sufficient this
+time so it wasn't investigated further.
