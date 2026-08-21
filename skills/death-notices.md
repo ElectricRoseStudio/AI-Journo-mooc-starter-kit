@@ -758,6 +758,58 @@ blank, e.g. `Andrew-Proto`, `Robert-Palmer`) — all six checked resolved
 200 directly, no need to re-derive from a listing-page HTML fetch the way
 Cody-White's pattern required.
 
+### Fairfield — added to `FuneralHomes.csv` 2026-08-21
+
+Fairfield had no `FuneralHomes.csv` row at all until this session, despite
+having its own funeral homes (unlike the "No Funeral Home in Town" towns
+elsewhere in this file). Four were found and added: Spear-Miller, Larson,
+Frank Polke & Son, Parente.
+
+**Larson, Frank Polke & Son, Parente** are all Cloudflare-protected — 403
+on both curl and WebFetch, same signature as elsewhere in this file. Not
+yet tried via claude-in-chrome.
+
+**Spear-Miller** (`spearmillerfuneralhome.com/obituaries`) is Tukios-powered,
+same as Beecher & Bennett/Biega/Woyasz/Bouton above, and needed
+claude-in-chrome to render — but needed a *longer* wait than the other
+Tukios sites documented in this file: an initial ~4s wait plus
+`get_page_text` still showed the empty shell; a further ~6s wait (so ~10s
+total) before the listing actually appeared. If a Tukios page comes back
+empty after the usual short wait, try waiting longer before concluding
+claude-in-chrome can't render it either.
+
+This is a shared multi-town feed like Beecher & Bennett's, not
+Spear-Miller-exclusive — despite the page's own text claiming it's "a
+collection of obituaries for Fairfield, CT," the first 20 entries checked
+included plenty of Westport, Stratford, Shelton, Norwalk, Bridgeport, and
+even Lake Ozark, MO residents. Roughly half of entries mentioning
+"Fairfield" turned out to be "formerly of Fairfield" (current residence
+elsewhere — excluded per the Charlotte Testa/Windsor rule established for
+Newington) or birthplace/raised-in mentions (excluded per the Cathleen
+Mulcahy/Norwich rule established for Norwich) rather than current
+residence. Confirmed current-Fairfield matches this session (Rainville,
+Blair, Lasko, Mastronardi, Coscia, Montague) all had an explicit,
+unambiguous "of Fairfield" (or equivalent "lifelong Fairfield resident" /
+dateline "Fairfield, Connecticut") tied to their *current* residence, not
+a past one.
+
+One new false-positive pattern, not previously documented in this file:
+**Bruce A. Benway Sr.** was tagged "of Southport and Pompano Beach,
+Florida" with the body stating "He resided in Fairfield and later in
+Southport" — Southport is a village within the Town of Fairfield (same
+landmark pattern as Uncasville/Montville and Moodus/East Haddam elsewhere
+in this file), but his *most recent* stated residence reads as split
+between Southport and Pompano Beach, FL, with no way to tell which was
+current at death. Excluded for ambiguity rather than assumed either way —
+worth a second look if Southport-tagged entries recur for Fairfield.
+
+Individual permalink pattern: `spearmillerfuneralhome.com/obituaries/
+{first}-{last}`, but nicknames used in the source name sometimes get
+folded into the slug (`james-jay-rainville`, not `james-rainville` —
+the plain version 302-redirects to a search-results page instead of
+404ing, so a bad guess won't obviously fail). Confirm with a curl status
+check before trusting a constructed permalink.
+
 Two other Danbury-area funeral homes turned out to serve Bethel and have
 current 2026 listings, both added to `FuneralHomes.csv`:
 
