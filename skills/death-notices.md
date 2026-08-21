@@ -762,8 +762,14 @@ Cody-White's pattern required.
 
 Fairfield had no `FuneralHomes.csv` row at all until this session, despite
 having its own funeral homes (unlike the "No Funeral Home in Town" towns
-elsewhere in this file). Four were found and added: Spear-Miller, Larson,
-Frank Polke & Son, Parente.
+elsewhere in this file). Five were found and added: Spear-Miller, Larson,
+Frank Polke & Son, Parente, Daystar Cremation Service.
+
+**Daystar Cremation Service** (`daystarcremation.com/obituaries`, redirects
+from `/listings`) is also Tukios-powered (`tukios_fhid: "7887"`) — not
+tried via claude-in-chrome, since Spear-Miller alone already yielded a full
+6-name batch this session. Untested whether it's the same shared feed as
+Spear-Miller or a separate one.
 
 **Larson, Frank Polke & Son, Parente** are all Cloudflare-protected — 403
 on both curl and WebFetch, same signature as elsewhere in this file. Not
