@@ -816,6 +816,52 @@ the plain version 302-redirects to a search-results page instead of
 404ing, so a bad guess won't obviously fail). Confirm with a curl status
 check before trusting a constructed permalink.
 
+### Westport — added to `FuneralHomes.csv` 2026-08-21
+
+Westport had no row until this session. Two sources found and added:
+Harding Funeral Home (own listing, physically in Westport) and Lesko
+Funeral Home (physically in Fairfield despite branding claiming to serve
+Westport — see below).
+
+**Harding** (`hardingfuneral.com/obituaries/obituary-listings`) is on
+FrontRunner Professional (per its own footer) and Cloudflare-protected
+against curl/WebFetch — 403 both ways, same signature as elsewhere in this
+file — but rendered fine via claude-in-chrome, same as the Bethel
+`hullfuneralservice.com` case. Unlike that case, individual obituary pages
+also 403 WebFetch directly (unlike the Dignity Memorial pattern where
+WebFetch gets through even when curl doesn't) — everything on this domain
+needs the browser, not just the listing page. The listing itself shows
+only name/dates, no town or residence — every candidate had to be opened
+individually to check for a stated town.
+
+This listing is *not* purely Westport despite the funeral home's physical
+location there: of the first 10 names checked, two were false positives
+worth noting as new patterns — **Paula Marie Barta** was actually a
+Stoystown, PA resident (obituary cross-posted here likely because she
+graduated Staples High School in Westport and is interred in Wilton — a
+"once lived here" echo, not current residence), and **Suzanne Solis** was
+a longtime Weston resident (not Westport — easy to mis-scan, different
+towns) who'd more recently moved to Meadow Ridge in Redding. Both excluded.
+The other six checked (Dworkow, Pollak, Englebardt, Schiavone, Lowrie,
+Cornette) were clean, explicit current-Westport matches.
+
+Individual permalink pattern:
+`hardingfuneral.com/obituaries/{First-Middle-Last}?obId={Id}` — same
+FrontRunner/TributeCenter-style shape as Cody-White and Clancy-Palumbo
+above, found directly via `read_page` on the listing rather than needing
+to guess.
+
+**Lesko Funeral Home** (`leskofuneralhome.com`) markets itself as serving
+"Westport, Bridge[port]..." in its page title, but its listed address is
+1209 Post Road, Fairfield, CT — a Fairfield funeral home, not a Westport
+one. Its obituary listing is also broken/confusing: `/44/Obituaries.html`
+redirects to a generic marketing page, which itself redirects to
+`/tribute/past-services/index.html`, a JS-driven page that appears to be
+serving mismatched branding (its own embedded config referenced a
+different company, "Edward Lawrence Funeral Home," with a Darien contact
+address) — treat this site's data as unreliable and not worth chasing
+further; not used as a source this session.
+
 Two other Danbury-area funeral homes turned out to serve Bethel and have
 current 2026 listings, both added to `FuneralHomes.csv`:
 
