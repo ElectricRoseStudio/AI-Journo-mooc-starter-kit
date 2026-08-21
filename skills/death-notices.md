@@ -1212,3 +1212,28 @@ House in Simsbury; her own home is stated as "in Granby" for Piscitelli)
 explicitly stating "of Granby" despite dying in Simsbury, not on a
 listing-page tag, consistent with the file's general home-vs-care-facility
 caution.
+
+### East Granby — echovita's date can be flat-out wrong, not just stale
+
+Confirmed 2026-08-21: East Granby did much better than Granby proper on
+this session's mix of sources — 6 clean matches, 5 of them via Carmon
+(Rebecca Hayes, Mary Jean Roy — see the Granby section above for why she's
+East Granby not Granby, Thomas Moran, George Vischak, Barbara Rusnock,
+Bradford Booker), found through a combination of scanning the cached
+50-entry batch directly and WebSearch + API `searchTerm` lookups for
+names surfaced by `echovita.com/us/obituaries/ct/east-granby` (which,
+unlike the Carmon feed, is organized as a genuine single-town page and
+was more efficient to scan than filtering a wide-area feed).
+
+**New echovita caution, stronger than the "lags by weeks" note already in
+this file for Deep River:** one echovita-listed entry, Matthew Shultz, was
+dated "July 11, 2026" on the list, but his own funeral home's page
+(`suffieldfuneralhome.com/memorials/matthew-shultz/...`) stated his actual
+date of death as **July 11, 2025** — a wrong year, not just a stale
+listing. Caught only because the funeral home handling him (Heritage
+Funeral Home, West Suffield) was fetched directly for confirmation rather
+than trusting echovita's date at face value. Excluded him from this
+session's notices as a result. Reinforces the existing rule in this file:
+every echovita name needs independent confirmation before counting it,
+and that confirmation should include re-checking the *date*, not just the
+town and existence of the person.
