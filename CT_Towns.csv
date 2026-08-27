@@ -1,76 +1,94 @@
 PATCHTOWN,PATCHBEAT,EDITOR,EMAIL
-Bethel,Bethel,Hayleigh Evans,hayleigh.evans@patch.com
-Brookfield,Brookfield,Hayleigh Evans,hayleigh.evans@patch.com
-Danbury,Danbury,Hayleigh Evans,hayleigh.evans@patch.com
-Easton,Weston-Redding-Easton,Hayleigh Evans,hayleigh.evans@patch.com
-Monroe,Monroe,Hayleigh Evans,hayleigh.evans@patch.com
-Newtown,Newtown,Hayleigh Evans,hayleigh.evans@patch.com
-Redding,Weston-Redding-Easton,Hayleigh Evans,hayleigh.evans@patch.com
-Southbury,Southbury,Hayleigh Evans,hayleigh.evans@patch.com
-Weston,Weston-Redding-Easton,Hayleigh Evans,hayleigh.evans@patch.com
-Wilton,Wilton,Hayleigh Evans,hayleigh.evans@patch.com
-Enfield,Enfield,Jay Kenney,jay.kenney@patch.com
-Ellington,Ellington-Somers,Jay Kenney,jay.kenney@patch.com
-Somers,Ellington-Somers,Jay Kenney,jay.kenney@patch.com
-Oxford,Oxford,Jay Kenney,jay.kenney@patch.com
-Suffield,Suffield,Jay Kenney,jay.kenney@patch.com
-South Windsor,South Windsor,Jay Kenney,jay.kenney@patch.com
-Windsor Locks,Windsor Locks,Jay Kenney,jay.kenney@patch.com
-Windsor,Windsor,Jay Kenney,jay.kenney@patch.com
-East Windsor,East Windsor,Jay Kenney,jay.kenney@patch.com
-Granby,The Granbys,Jay Kenney,jay.kenney@patch.com
-East Granby,The Granbys,Jay Kenney,jay.kenney@patch.com
-Manchester,Manchester,Chris Dehnel,chris.dehnel@patch.com
-Vernon,Vernon,Chris Dehnel,chris.dehnel@patch.com
-Middletown,Middletown,Chris Dehnel,chris.dehnel@patch.com
-Tolland,Tolland,Chris Dehnel,chris.dehnel@patch.com
-Glastonbury,Glastonbury,Chris Dehnel,chris.dehnel@patch.com
-Stafford,Stafford-Willington,Chris Dehnel,chris.dehnel@patch.com
-Willington,Stafford-Willington,Chris Dehnel,chris.dehnel@patch.com
-Mansfield,Mansfield,Chris Dehnel,chris.dehnel@patch.com
-Ridgefield,Ridgefield,Rich Kirby,rich.kirby@patch.com
-Milford,Milford,Chris Rhatigan,chris.rhatigan@patch.com
-New London,New London,Chris Rhatigan,chris.rhatigan@patch.com
-Stonington,Stonington,Chris Rhatigan,chris.rhatigan@patch.com
-Groton,Groton,Chris Rhatigan,chris.rhatigan@patch.com
-Naugatuck,Naugatuck,RJ Scofield,rj.scofield@patch.com
-Norwalk,Norwalk,RJ Scofield,rj.scofield@patch.com
-Trumbull,Trumbull,RJ Scofield,rj.scofield@patch.com
-New Canaan,New Canaan,RJ Scofield,rj.scofield@patch.com
-Shelton,Shelton-Derby,RJ Scofield,rj.scofield@patch.com
-Derby,Shelton-Derby,RJ Scofield,rj.scofield@patch.com
-Southington,Southington,Michael Lemanski,michael.lemanski@patch.com
-West Hartford,West Hartford,Michael Lemanski,michael.lemanski@patch.com
-Farmington,Farmington,Michael Lemanski,michael.lemanski@patch.com
-Simsbury,Simsbury,Michael Lemanski,michael.lemanski@patch.com
-Hartford,Hartford-East Hartford-Bloomfield,Michael Lemanski,michael.lemanski@patch.com
-East Hartford,Hartford-East Hartford-Bloomfield,Michael Lemanski,michael.lemanski@patch.com
-Bloomfield,Hartford-East Hartford-Bloomfield,Michael Lemanski,michael.lemanski@patch.com
 Avon,Avon,Michael Lemanski,michael.lemanski@patch.com
 Berlin,Berlin,Michael Lemanski,michael.lemanski@patch.com
+Bethany,"Bethany,Woodbridge",Rich Kirby,rich.kirby@patch.com
+Bethel,Bethel,Hayleigh Evans,hayleigh.evans@patch.com
+Hartford,Hartford,Michael Lemanski,michael.lemanski@patch.com
+Branford,Branford,Rich Kirby,rich.kirby@patch.com
+Bridgeport,Bridgeport,Al Branch,alfred.branch@patch.com
+Brookfield,Brookfield,Hayleigh Evans,hayleigh.evans@patch.com
 Canton,Canton,Michael Lemanski,michael.lemanski@patch.com
 Cheshire,Cheshire,Vinny Salzo,vincent.salzo@patch.com
-North Haven,North Haven,Vinny Salzo,vincent.salzo@patch.com
-Meriden,Meriden,Vinny Salzo,vincent.salzo@patch.com
-West Haven,West Haven,Vinny Salzo,vincent.salzo@patch.com
-Wallingford,Wallingford,Vinny Salzo,vincent.salzo@patch.com
-Hamden,Hamden,Vinny Salzo,vincent.salzo@patch.com
-Stratford,Stratford,Vinny Salzo,vincent.salzo@patch.com
-Greenwich,Greenwich,Richard Kaufman,richard.kaufman@patch.com
-Stamford,Stamford,Richard Kaufman,richard.kaufman@patch.com
-Guilford,Guilford,Richard Kaufman,richard.kaufman@patch.com
-Darien,Darien,Richard Kaufman,richard.kaufman@patch.com
-Fairfield,Fairfield,Al Branch,alfred.branch@patch.com
-Westport,Westport,Al Branch,alfred.branch@patch.com
-Madison,Madison,Al Branch,alfred.branch@patch.com
-Bridgeport,Bridgeport,Al Branch,alfred.branch@patch.com
-East Haven,East Haven,Rich Kirby,rich.kirby@patch.com
-Branford,Branford,Rich Kirby,rich.kirby@patch.com
-New Haven,New Haven,Rich Kirby,rich.kirby@patch.com
+Chester,"Chester,Essex,Deep River",Rich Kirby,rich.kirby@patch.com
 Clinton,Clinton,Rich Kirby,rich.kirby@patch.com
-Orange,Orange,Rich Kirby,rich.kirby@patch.com
+Danbury,Danbury,Hayleigh Evans,hayleigh.evans@patch.com
+Darien,Darien,Richard Kaufman,richard.kaufman@patch.com
+Deep River,"Chester,Essex,Deep River",Rich Kirby,rich.kirby@patch.com
+Derby,"Shelton,Derby",RJ Scofield,rj.scofield@patch.com
+Durham,"Durham,Middlefield",Rich Kirby,rich.kirby@patch.com
+East Granby,"Granby,East Granby",Jay Kenney,jay.kenney@patch.com
+East Haddam,"Haddam,East Haddam,Killingworth",Rich Kirby,rich.kirby@patch.com
+East Hampton,"East Hampton,Portland",Rich Kirby,rich.kirby@patch.com
+East Haven,East Haven,Rich Kirby,rich.kirby@patch.com
+East Lyme,"Lyme,East Lyme,Old Lyme",Rich Kirby,rich.kirby@patch.com
+East Windsor,East Windsor,Jay Kenney,jay.kenney@patch.com
+Easton,"Weston,Easton,Redding",Hayleigh Evans,hayleigh.evans@patch.com
+Ellington,"Ellington,Somers",Jay Kenney,jay.kenney@patch.com
+Enfield,Enfield,Jay Kenney,jay.kenney@patch.com
+Essex,"Chester,Essex,Deep River",Rich Kirby,rich.kirby@patch.com
+Fairfield,Fairfield,Al Branch,alfred.branch@patch.com
+Farmington,Farmington,Michael Lemanski,michael.lemanski@patch.com
+Glastonbury,Glastonbury,Chris Dehnel,chris.dehnel@patch.com
+Granby,"Granby,East Granby",Jay Kenney,jay.kenney@patch.com
+Greenwich,Greenwich,Richard Kaufman,richard.kaufman@patch.com
+Groton,Groton,Chris Rhatigan,chris.rhatigan@patch.com
+Guilford,Guilford,Richard Kaufman,richard.kaufman@patch.com
+Haddam,"Haddam,East Haddam,Killingworth",Rich Kirby,rich.kirby@patch.com
+Hamden,Hamden,Vinny Salzo,vincent.salzo@patch.com
+Killingworth,"Haddam,East Haddam,Killingworth",Rich Kirby,rich.kirby@patch.com
+Ledyard,Ledyard,Rich Kirby,rich.kirby@patch.com
+Lyme,"Lyme,East Lyme,Old Lyme",Rich Kirby,rich.kirby@patch.com
+Madison,Madison,Al Branch,alfred.branch@patch.com
+Manchester,Manchester,Chris Dehnel,chris.dehnel@patch.com
+Mansfield,Mansfield,Chris Dehnel,chris.dehnel@patch.com
+Meriden,Meriden,Vinny Salzo,vincent.salzo@patch.com
+Middlebury,"Woodbury,Middlebury",Rich Kirby,rich.kirby@patch.com
+Middlefield,"Durham,Middlefield",Rich Kirby,rich.kirby@patch.com
+Middletown,Middletown,Chris Dehnel,chris.dehnel@patch.com
+Milford,Milford,Chris Rhatigan,chris.rhatigan@patch.com
+Monroe,Monroe,Hayleigh Evans,hayleigh.evans@patch.com
+Montville,Montville,Rich Kirby,rich.kirby@patch.com
+Naugatuck,Naugatuck,RJ Scofield,rj.scofield@patch.com
+New Canaan,New Canaan,RJ Scofield,rj.scofield@patch.com
+New Haven,New Haven,Rich Kirby,rich.kirby@patch.com
+New London,New London,Chris Rhatigan,chris.rhatigan@patch.com
 New Milford,New Milford,Rich Kirby,rich.kirby@patch.com
+Newington,Newington,Rich Kirby,rich.kirby@patch.com
+Newtown,Newtown,Hayleigh Evans,hayleigh.evans@patch.com
+North Haven,North Haven,Vinny Salzo,vincent.salzo@patch.com
+Norwalk,Norwalk,RJ Scofield,rj.scofield@patch.com
+Norwich,Norwich,Rich Kirby,rich.kirby@patch.com
+Old Lyme,"Lyme,East Lyme,Old Lyme",Rich Kirby,rich.kirby@patch.com
+Orange,Orange,Rich Kirby,rich.kirby@patch.com
+Oxford,Oxford,Jay Kenney,jay.kenney@patch.com
+Portland,"East Hampton,Portland",Rich Kirby,rich.kirby@patch.com
+Redding,"Weston,Easton,Redding",Hayleigh Evans,hayleigh.evans@patch.com
+Ridgefield,Ridgefield,Rich Kirby,rich.kirby@patch.com
+Rocky Hill,Rocky Hill,Rich Kirby,rich.kirby@patch.com
+Shelton,"Shelton,Derby",RJ Scofield,rj.scofield@patch.com
+Simsbury,Simsbury,Michael Lemanski,michael.lemanski@patch.com
+Somers,"Ellington,Somers",Jay Kenney,jay.kenney@patch.com
+South Windsor,South Windsor,Jay Kenney,jay.kenney@patch.com
+Southbury,Southbury,Hayleigh Evans,hayleigh.evans@patch.com
+Southington,Southington,Michael Lemanski,michael.lemanski@patch.com
+Stafford,"Stafford,Willington",Chris Dehnel,chris.dehnel@patch.com
+Stamford,Stamford,Richard Kaufman,richard.kaufman@patch.com
+Stonington,Stonington,Chris Rhatigan,chris.rhatigan@patch.com
+Stratford,Stratford,Vinny Salzo,vincent.salzo@patch.com
+Suffield,Suffield,Jay Kenney,jay.kenney@patch.com
+Tolland,Tolland,Chris Dehnel,chris.dehnel@patch.com
+Trumbull,Trumbull,RJ Scofield,rj.scofield@patch.com
+Vernon,Vernon,Chris Dehnel,chris.dehnel@patch.com
+Wallingford,Wallingford,Vinny Salzo,vincent.salzo@patch.com
 Waterford,Waterford,Rich Kirby,rich.kirby@patch.com
-Lyme,Lyme-Old Lyme-East Lyme,Rich Kirby,rich.kirby@patch.com
-Old Lyme,Lyme-Old Lyme-East Lyme,Rich Kirby,rich.kirby@patch.com
-East Lyme,Lyme-Old Lyme-East Lyme,Rich Kirby,rich.kirby@patch.com
+West Hartford,West Hartford,Michael Lemanski,michael.lemanski@patch.com
+West Haven,West Haven,Vinny Salzo,vincent.salzo@patch.com
+Weston,"Weston,Easton,Redding",Hayleigh Evans,hayleigh.evans@patch.com
+Westport,Westport,Al Branch,alfred.branch@patch.com
+Wethersfield,Wethersfield,Rich Kirby,rich.kirby@patch.com
+Willington,"Stafford,Willington",Chris Dehnel,chris.dehnel@patch.com
+Wilton,Wilton,Hayleigh Evans,hayleigh.evans@patch.com
+Windsor,Windsor,Jay Kenney,jay.kenney@patch.com
+Windsor Locks,Windsor Locks,Jay Kenney,jay.kenney@patch.com
+Woodbridge,"Bethany,Woodbridge",Rich Kirby,rich.kirby@patch.com
+Woodbury,"Middlebury,Woodbury",Rich Kirby,rich.kirby@patch.com
