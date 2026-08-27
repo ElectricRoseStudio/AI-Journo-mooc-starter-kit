@@ -149,3 +149,17 @@ employment/gas-prices pieces) but still AP style per this repo's
 Add town-specific or technique additions below this line:
 
 <!-- Your additions here -->
+
+### Parallelizing across multiple towns: r.jina.ai rate-limits under load
+
+Confirmed 2026-08-27, running 8 towns as parallel fork agents at once
+(Danbury, Newtown, Bethel, Monroe, Southbury, Brookfield, Wilton, Weston):
+the `r.jina.ai` proxy started returning HTTP 429 partway through for at
+least two of the eight forks, almost certainly from several forks hitting
+the same proxy concurrently from the same environment/IP. Both forks
+recovered by pacing requests — one switched from the WebFetch tool to raw
+`curl` with `sleep 15` between calls, the other paced sequentially rather
+than firing verification fetches back-to-back. If running this skill for
+several towns at once (e.g. via parallel fork agents), expect this and
+build in spacing between `r.jina.ai` fetches rather than firing them as
+fast as possible; a single-town run hasn't hit this limit.
