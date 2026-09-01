@@ -17,9 +17,22 @@ per **distinct PATCHBEAT**, not per town — a beat's towns are combined.
 
 ### Parsing CT_Towns.csv
 
-- `PATCHBEAT` is **comma-separated inside a quoted field** here
-  (`"Chester,Essex,Deep River"`) — not semicolons like the older
-  `CT_Towns_Test*.csv` files. Split on `,` and `.strip()` each town.
+- **`PATCHBEAT` is comma-delimited inside a quoted CSV field** here
+  (`Windsor Locks,"Windsor Locks, East Windsor",Jay Kenney,...`) — **not**
+  semicolons like the older `CT_Towns_Test*.csv` files. A standard CSV reader
+  handles the quoting; then split the `PATCHBEAT` value on `,`.
+- Spacing after the comma is **inconsistent** — `"Chester,Essex,Deep River"`
+  (no space) vs `"Windsor Locks, East Windsor"` (space). Always `.strip()`
+  every split token.
+- Single-town beats have `PATCHBEAT == PATCHTOWN` (e.g. `Windsor,Windsor,...`).
+- **Build beats by grouping town rows on their `PATCHBEAT` value**, not by
+  guessing which towns "go together." Every town in a multi-town beat carries
+  the full beat string in its own row, so grouping is exact — but the groupings
+  are **not geographic intuition**. Example: `Windsor` is its own single-town
+  beat; `Windsor Locks` and `East Windsor` form a separate two-town beat that
+  **does not include Windsor**; `South Windsor` is a third, single-town beat. If
+  a request names several adjacent towns, resolve each town's actual
+  `PATCHBEAT` before deciding how many articles that is.
 - The **beat string's order is the town order** for the table title, even when
   the individual town rows appear in a different order.
 - Editor/EMAIL are consistent within each real multi-town beat — use any row's.
