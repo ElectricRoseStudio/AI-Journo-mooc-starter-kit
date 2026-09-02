@@ -73,9 +73,28 @@ BASE_URL = "https://townofkillingworth.com"
 HUB_URL = f"{BASE_URL}/meeting-minutes/"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCWJcx662JLu-zX0o_veIGRA"
 OUTPUT_DIR = "beat-archive/killingworth-agendas"
-DAYS_BACK = 4
-DAYS_AHEAD = 7
+# Killingworth uploads minutes 1-4+ weeks AFTER the meeting and posts no
+# agendas at all, so the date filter (which keys on the meeting date parsed
+# from the filename) needs a long lookback and almost no lookahead. A short
+# window here silently misses every late-posted PDF -- which is exactly what
+# happened between the Aug 2026 backfill and this fix.
+DAYS_BACK = 45
+DAYS_AHEAD = 2
+# Videos are posted to YouTube within a day or two of the meeting, so the
+# video lookback stays short and independent of the long document lookback
+# above -- otherwise a 45-day doc window would re-pull a month of large
+# meeting recordings on every run.
+VIDEO_DAYS_BACK = 7
 DELAY_SECONDS = 0.5
+
+# Board pages linked from the hub that are dead (404) -- skipped quietly
+# instead of logging a fetch error on every run.
+SKIP_BOARD_SLUGS = {"public-health-nursing-agency-minutes"}
+
+# Persistent record of every document URL already downloaded, so a widened
+# lookback (or the KEEP_DAYS=5 purge deleting local copies) never causes a
+# late-posted PDF to be re-downloaded and re-emailed. One URL per line.
+SEEN_URLS_FILE = "seen-urls.txt"
 
 YT_DLP_NODE = "node:/home/richkirby/.local/bin/yt-dlp-node"  # yt-dlp needs Node 22+; symlink kept current by scripts/update-yt-dlp-node.sh
 
@@ -88,7 +107,13 @@ _BOARD_LINK_RE = re.compile(
 _PDF_LINK_RE = re.compile(
     r'href="(https://townofkillingworth\.com/wp-content/uploads/[^"]+\.pdf)"',
 )
-_FILENAME_DATE_RE = re.compile(r"_(\d{2})_(\d{2})_(\d{2,4})\.pdf$", re.IGNORECASE)
+# Meeting date is the LAST _MM_DD_YYYY (or _MM_DD_YY) group in the filename,
+# optionally followed by a descriptive suffix such as _Special_Mtg,
+# _PublicHearing, -Walk-thru or _Regular before ".pdf".
+_FILENAME_DATE_RE = re.compile(
+    r"_(\d{1,2})_(\d{1,2})_(\d{2,4})(?:[_-][A-Za-z][^/\"]*)?\.pdf$",
+    re.IGNORECASE,
+)
 
 
 # --- HTTP helpers ---
@@ -118,6 +143,22 @@ def download_pdf(url, dest_path):
         return False
 
 
+# --- Persistent "already downloaded" ledger (keyed on source URL) ---
+
+def load_seen_urls(output_dir):
+    path = os.path.join(output_dir, SEEN_URLS_FILE)
+    if not os.path.exists(path):
+        return set()
+    with open(path) as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def record_seen_url(output_dir, url):
+    os.makedirs(output_dir, exist_ok=True)
+    with open(os.path.join(output_dir, SEEN_URLS_FILE), "a") as f:
+        f.write(url + "\n")
+
+
 # --- (1) Board discovery ---
 
 def discover_boards():
@@ -128,6 +169,8 @@ def discover_boards():
     boards = {}
     for m in _BOARD_LINK_RE.finditer(hub_html):
         url = m.group(1)
+        if url.rstrip("/").rsplit("/", 1)[-1] in SKIP_BOARD_SLUGS:
+            continue
         text = html.unescape(re.sub(r"<[^>]+>", "", m.group(2)).strip())
         if text and url not in boards:
             boards[url] = text
@@ -273,6 +316,8 @@ def main():
                         help=f"Look back N days (default: {DAYS_BACK})")
     parser.add_argument("--ahead", type=int, default=DAYS_AHEAD, metavar="N",
                         help=f"Also include meetings up to N days ahead (default: {DAYS_AHEAD})")
+    parser.add_argument("--video-days", type=int, default=VIDEO_DAYS_BACK, metavar="N",
+                        help=f"Video lookback in days, capped at --days (default: {VIDEO_DAYS_BACK})")
     parser.add_argument("--output-dir", default=OUTPUT_DIR, metavar="DIR",
                         help=f"Destination directory (default: {OUTPUT_DIR})")
     parser.add_argument("--dry-run", action="store_true", help="List matching items without downloading")
@@ -293,6 +338,8 @@ def main():
     today = datetime.date.today()
     cutoff = today - datetime.timedelta(days=args.days)
     future_limit = today + datetime.timedelta(days=args.ahead)
+    # Videos use their own short lookback, capped at the doc window.
+    video_cutoff = today - datetime.timedelta(days=min(args.video_days, args.days))
     board_filter = args.board.lower() if args.board else None
 
     print(f"Date window : {cutoff} to {future_limit}")
@@ -323,26 +370,32 @@ def main():
 
     video_listing = []
     if do_video and args.dry_run:
-        print(f"Fetching YouTube channel listing (uploaded since {cutoff})...")
-        video_listing = download_channel_videos(YOUTUBE_CHANNEL, args.output_dir, cutoff, dry_run=True)
+        print(f"Fetching YouTube channel listing (uploaded since {video_cutoff})...")
+        video_listing = download_channel_videos(YOUTUBE_CHANNEL, args.output_dir, video_cutoff, dry_run=True)
         print(f"Video       : {len(video_listing)} found\n")
 
     docs.sort(key=lambda x: (x["meeting_date"], x["board"]), reverse=True)
     assign_counters(docs, lambda d: (d["board"], d["meeting_date"]))
 
-    if not docs and not video_listing and not do_video:
-        print("No items found in the date window.")
+    seen_urls = load_seen_urls(args.output_dir)
+    new_docs = [d for d in docs if d["href"] not in seen_urls]
+    already = len(docs) - len(new_docs)
+    if already:
+        print(f"  ({already} already-downloaded doc(s) skipped via {SEEN_URLS_FILE})\n")
+
+    if not new_docs and not video_listing and not do_video:
+        print("No new items in the date window.")
         return
 
     if args.dry_run:
-        if docs:
+        if new_docs:
             print(f"{'Board':<40} {'Date':<12}")
             print("-" * 55)
-            for d in docs:
+            for d in new_docs:
                 print(f"{d['board'][:39]:<40} {d['meeting_date']!s:<12}")
-            print(f"\n{len(docs)} document(s).")
+            print(f"\n{len(new_docs)} new document(s).")
         if video_listing:
-            print(f"\nYouTube channel videos (uploaded since {cutoff}):")
+            print(f"\nYouTube channel videos (uploaded since {video_cutoff}):")
             for line in video_listing:
                 print(f"  {line}")
         print("\nRe-run without --dry-run to download.")
@@ -353,17 +406,20 @@ def main():
     log_lines = []
     downloaded = skipped = failed = 0
 
-    for d in docs:
+    for d in new_docs:
         dest = make_path(d["board"], d["meeting_date"], args.output_dir, counter=d["counter"])
         label = os.path.basename(dest)
         if os.path.exists(dest):
+            # Local copy already here (not yet in the ledger) -- record and move on.
             print(f"  skip (exists)  {label}")
+            record_seen_url(args.output_dir, d["href"])
             skipped += 1
             continue
         print(f"  [{d['meeting_date']}] {d['board']}")
         print(f"  downloading    {label}")
         if download_pdf(d["href"], dest):
             downloaded += 1
+            record_seen_url(args.output_dir, d["href"])
             log_lines.append(f"{datetime.datetime.now().isoformat()}  OK       {dest}")
         else:
             failed += 1
@@ -381,10 +437,10 @@ def main():
 
     if do_video:
         print()
-        print(f"Downloading YouTube channel videos (since {cutoff})...")
+        print(f"Downloading YouTube channel videos (since {video_cutoff})...")
         print(f"  Channel: {YOUTUBE_CHANNEL}")
         print(f"  Output:  {os.path.join(args.output_dir, 'videos')}/")
-        v_dl, v_skip, v_fail = download_channel_videos(YOUTUBE_CHANNEL, args.output_dir, cutoff)
+        v_dl, v_skip, v_fail = download_channel_videos(YOUTUBE_CHANNEL, args.output_dir, video_cutoff)
         if v_fail:
             print("  WARNING: one or more video downloads failed", file=sys.stderr)
 
