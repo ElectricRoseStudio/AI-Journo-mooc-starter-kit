@@ -1,5 +1,8 @@
 Town,Funeral Home,Main URL,Notes
 Clinton,Swan Funeral Home (Dignity Memorial),https://www.dignitymemorial.com/obituaries?locationcode=2632,
+Clinton,"Swan Funeral Home (Madison, Dignity Memorial)",https://www.dignitymemorial.com/obituaries/madison-ct,"Neighboring-town source; different location than Clinton's own Swan listing. Confirmed one Clinton match (Marlene Kistenberg) 2026-09-07, see skills/death-notices.md"
+Clinton,"Robinson Wright & Weymer Funeral Home (Centerbrook/Essex, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=3477,"Neighboring-town (Killingworth) source; checked 2026-09-07, no Clinton matches found in the visible batch, see skills/death-notices.md"
+Clinton,Biega Funeral Home (Middletown),https://www.biegafuneralhome.com/obituaries/,"Neighboring-town (Killingworth) source; checked 2026-09-07, no Clinton matches found; in-site search doesn't reliably filter by town, see skills/death-notices.md"
 Madison,Swan Funeral Home (Dignity Memorial),https://www.dignitymemorial.com/obituaries/madison-ct,"Different physical location/locationcode than Clinton's Swan Funeral Home, see skills/death-notices.md"
 East Lyme,Thomas L. Neilan & Sons,https://www.neilanfuneralhome.com/obituaries/obituary-listings,
 Lyme,Thomas L. Neilan & Sons,https://www.neilanfuneralhome.com/obituaries/obituary-listings,No Funeral Home in Town

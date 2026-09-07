@@ -1385,3 +1385,55 @@ hit this time — all five had explicit current-Glastonbury residence
 statements, including one (Keith Henson) tagged with two towns
 (Glastonbury and Old Lyme) whose body text confirmed Glastonbury via a
 specific church membership rather than leaving it ambiguous.
+
+### Clinton — neighboring-town check 2026-09-07
+
+After an initial Clinton pull from its own Swan Funeral Home listing
+(`locationcode=2632`), checked whether funeral homes in Clinton's
+neighboring towns (Madison, Killingworth) turn up any additional Clinton
+residents. Three sources checked, now added to `FuneralHomes.csv`:
+
+**Swan Funeral Home (Madison)** — already tracked for Madison itself
+(`dignitymemorial.com/obituaries/madison-ct`, a different physical
+location/listing than Clinton's own per the note added 2026-08-21) — did
+turn up one genuine cross-town match: Marlene R. Kistenberg, 87, died
+April 18, 2026, explicitly tagged "of Clinton, CT" despite appearing on
+Madison's page. Worth checking this page for Clinton whenever doing a
+fresh Clinton pull.
+
+**Robinson Wright & Weymer** (Centerbrook/Essex, `locationcode=3477`,
+already tracked for Killingworth/Chester/Haddam/East Haddam) and **Biega
+Funeral Home** (Middletown, already tracked for Killingworth/Haddam/
+Durham/Middlefield/East Haddam) — both checked for Clinton residents,
+neither turned up any. Biega's in-site search box (already documented
+elsewhere in this file as unreliable for filtering by town) also didn't
+filter when tried with "Clinton" as the query — same non-filtering
+behavior noted for its other served towns.
+
+**Re-fetching the same Clinton locationcode a second time surfaced three
+entries the first pass's page summary had silently dropped**: Rosa Aida
+Torres (85, died Aug. 11, 2026), Nicholas A. Guerra (80, died July 25,
+2026), and John L. Neri (93, died June 30, 2026) — all clean, explicit
+"of Clinton" matches that simply weren't mentioned in the first
+WebFetch summary of the same page. This is a distinct failure mode from
+the Nathan Jacobson hallucination or the Killingworth/East Haddam
+dropped-town-data cases documented earlier in this file: here the
+summary dropped whole entries, not just a field. Don't treat one
+WebFetch summarization pass of a Dignity Memorial listing as a complete
+inventory — a second pass (or explicit request for entries in a
+specific date range) can surface real matches the first pass missed.
+
+Also excluded this session: Elaine Josephine Brockett, 88, died June 26,
+2026 — tagged Clinton but the obituary gives only name, age, date and
+town, no other content (same thin-obituary pattern as Fickett/Koster/
+Bofinger documented elsewhere in this file).
+
+Westbrook and Old Saybrook (Clinton's other neighbors) still have no
+funeral home of their own tracked in this file. Not added this session —
+Clinton's own Swan Funeral Home listing already carries a number of
+Westbrook and Old Saybrook residents in the reverse direction (Michael J.
+Scherer, Marian Elaine Fitzgerald, Francis Charles Graham, Ralph L. Swain
+Sr., all found in the same locationcode=2632 batch), suggesting Swan is
+already the shared multi-town source for that side of Clinton's border
+and a dedicated Westbrook/Old Saybrook row may not add much for Clinton
+specifically.
