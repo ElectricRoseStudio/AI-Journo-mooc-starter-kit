@@ -1488,3 +1488,26 @@ all three having been written off earlier in this file as
 Cloudflare-blocked dead ends — worth remembering to retry any
 "Cloudflare-blocked, no workaround" note in this file via claude-in-chrome
 before treating it as permanently unreachable.
+
+**Correction, same session:** `FuneralHomes.csv` already had four
+Waterford rows before this check — missed initially because the town
+field was stored as `"Waterford "` with a trailing space, so a plain
+`grep "^Waterford,"` (and presumably any exact-match lookup) silently
+found nothing. Removed the stale duplicate rows and kept the
+re-researched ones above; if a town search ever turns up surprisingly
+empty for a town that "should" have data, check for this kind of
+whitespace/formatting bug before assuming the town was never added.
+
+### Orange — West Haven Funeral Home re-checked 2026-09-07
+
+Previously documented above (Cody-White section) as Cloudflare-blocked
+to both curl and WebFetch, unlike the Dignity Memorial pattern. Confirmed
+2026-09-07 it renders fine via claude-in-chrome, same as the
+Waterford/Bethel/Harding pattern. Its "Word" search box doesn't actually
+filter, though (typing a town name and submitting returns the same
+unfiltered first page) — same non-filtering behavior documented for
+several other funeral home sites in this file. The visible listing (10
+most recent, "Page 1 of 375") was almost entirely West Haven residents;
+no Orange matches found in what was checked. Cody-White's TributeCenterOnline
+API remains the productive Orange source — same session pulled 5 explicit
+"of Orange" matches from it directly via curl.
