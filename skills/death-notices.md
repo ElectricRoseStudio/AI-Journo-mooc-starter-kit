@@ -1437,3 +1437,54 @@ Sr., all found in the same locationcode=2632 batch), suggesting Swan is
 already the shared multi-town source for that side of Clinton's border
 and a dedicated Westbrook/Old Saybrook row may not add much for Clinton
 specifically.
+
+### Waterford — added to `FuneralHomes.csv` 2026-09-07
+
+Waterford had no row until this session, despite being used as this
+skill's own example town in its "When to use" section above and despite
+three of its funeral homes (Lester Gee, Byles-MacDougall,
+Impellitteri-Malia, plus Thomas L. Neilan & Sons via the East Lyme
+sections earlier in this file) already being documented here from
+Waterford-adjacent research. All four were finally run end-to-end this
+session, now that claude-in-chrome is connected.
+
+**Thomas L. Neilan & Sons** — already tracked for Lyme/East Lyme
+elsewhere in this file. Its East Lyme Funeral Home branch listing turned
+out to be Waterford-heavy: of the first 10 entries checked (originally
+while researching East Lyme), 6 were explicit Waterford residents
+(Richard C. Lord, Michael Phillip McBride, Mauro Oscar Zaldivar,
+Domenica Croft, George Anthony Joseph) against only 1 confirmed East
+Lyme match — this branch serves Waterford more than East Lyme itself
+despite the branding.
+
+**Byles-MacDougall** (`byles.com`) — previously documented elsewhere in
+this file as Cloudflare-protected with "no JS-API workaround found yet."
+Confirmed 2026-09-07: it renders fine via claude-in-chrome, same as the
+Neilan/Bethel/Harding pattern already established — the Cloudflare block
+was curl/WebFetch-specific all along, just not retried via browser until
+now. Its own recent-obituaries page carries a wide New London-area mix
+(Groton, Uncasville, Gales Ferry, Niantic, Salem) with Waterford as one
+town among several — Elizabeth A. Carp (97, of Waterford) was the one
+Waterford match in the first 20 entries checked.
+
+**Impellitteri-Malia** (`impellitterimaliafh.com`) — also previously
+flagged as Cloudflare-protected with no workaround. Confirmed 2026-09-07
+it renders fine via browser too (the `/obituaries` path itself errors;
+use the nav link, which resolves to `/listings`). This one skewed more
+productively toward Waterford than Byles-MacDougall: of the first 10
+entries, 3 were explicit Waterford matches (Daniel J. Del Grosso, Phyllis
+Rossetti, Bernard Joseph Breen) alongside New London, East Lyme, Niantic
+and Mystic residents.
+
+**Lester Gee** — re-checked 2026-09-07 via browser; still shows an empty
+listing (page shell renders, "Search / Previous / Next" controls present,
+zero entries), consistent with the empty-API finding from 2026-08-17.
+Kept in `FuneralHomes.csv` with a note rather than dropped, in case that
+changes on a future run.
+
+Net effect: Waterford now has three genuinely productive sources
+(Neilan's East Lyme branch, Byles-MacDougall, Impellitteri-Malia) despite
+all three having been written off earlier in this file as
+Cloudflare-blocked dead ends — worth remembering to retry any
+"Cloudflare-blocked, no workaround" note in this file via claude-in-chrome
+before treating it as permanently unreachable.

@@ -116,4 +116,8 @@ Willington,"Introvigne Funeral Home, Inc. (Stafford Springs)",https://www.introv
 Manchester,John F. Tierney Funeral Home,https://www.tierneyfuneralhome.com/obituaries/obituary-listings,
 Manchester,Holmes-Watkins Funeral Home,https://www.holmeswatkins.com/obituaries,
 Glastonbury,Mulryan Funeral Home,https://mulryanfh.com/obituaries,"303 redirect not resolved via curl/WebFetch as of 2026-08-21, see skills/death-notices.md"
+Waterford,Thomas L. Neilan & Sons (East Lyme Funeral Home branch),https://www.neilanfuneralhome.com/obituaries/obituary-listings,"Cloudflare-blocked for curl/WebFetch, renders via browser; confirmed 2026-09-07, see skills/death-notices.md"
+Waterford,Byles-MacDougall Funeral Service,https://www.byles.com/obituaries,"Cloudflare-blocked for curl/WebFetch, renders via browser; confirmed 2026-09-07, see skills/death-notices.md"
+Waterford,Impellitteri-Malia Funeral Home,https://www.impellitterimaliafh.com/listings,"Renders via browser; confirmed 2026-09-07, see skills/death-notices.md"
+Waterford,Lester Gee Funeral Home (New London),https://www.lestergeefh.com/obituary-listing,"Consistently shows no obituaries even via browser as of 2026-09-07 (also empty via API as of 2026-08-17), see skills/death-notices.md"
 Glastonbury,Glastonbury Funeral Home (East Hartford, Dignity Memorial),https://www.dignitymemorial.com/obituaries/east-hartford-ct,
