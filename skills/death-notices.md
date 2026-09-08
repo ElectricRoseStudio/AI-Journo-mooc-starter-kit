@@ -1874,3 +1874,35 @@ Not checked further: Salem and Bozrah have no dedicated funeral home of
 their own (consistent with the pattern found in other neighboring-town
 checks this session), and Ledyard's Dinoto was already established as
 low-yield with too small a "current" window to be worth rechecking here.
+
+### East Hampton — neighboring-town check 2026-09-08
+
+Checked Portland and Colchester for current East Hampton residents,
+beyond Spencer Funeral Home, East Hampton's own source.
+
+**Portland Memorial Funeral Home** (already tracked for Portland) — a
+small feed (URL pattern `portlandmemorialfuneralhome.com/{month}-{year}`,
+e.g. `/august-2026`); its September listing page didn't render via
+claude-in-chrome (the browser extension dropped mid-session and needed
+reconnecting — worth remembering that a stalled `browser_batch` result
+can mean the extension disconnected, not that the page itself failed),
+but the August page fetched fine via WebFetch and had only 3 entries,
+none East Hampton.
+
+**Aurora McCarthy Funeral Home** (Colchester, already tracked for East
+Haddam) — checked its unfiltered listing (183 pages) and attempted a
+"East Hampton" Word search, which didn't filter (same non-functional-
+search pattern seen at several other sites in this file); no East
+Hampton residents in the visible batch, which skews Colchester/
+Marlborough/Columbia.
+
+**New source found via WebSearch: Abbey Cremation Service** (Rocky
+Hill) — confirmed one match, Kenneth "Ken" Fox, 73, died July 6, 2026,
+of East Hampton. Notably, this is the same 511 Brook Street, Rocky Hill
+address as Brooklawn Funeral Home (checked and found unproductive
+during the Newington neighboring-town check) — likely two brand names
+sharing one physical operation, similar to the Duksa/Newington-New
+Britain dual-branch pattern documented elsewhere in this file. Abbey
+Cremation also turned out to be the source for Carol Ann Young, one of
+the Newington notices sent earlier — added to `FuneralHomes.csv` for
+both towns.
