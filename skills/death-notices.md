@@ -1511,3 +1511,29 @@ most recent, "Page 1 of 375") was almost entirely West Haven residents;
 no Orange matches found in what was checked. Cody-White's TributeCenterOnline
 API remains the productive Orange source — same session pulled 5 explicit
 "of Orange" matches from it directly via curl.
+
+### Durham — Biega's search confirmed broken, two more sources added 2026-09-08
+
+Re-confirmed the 2026-08-18 finding: Biega's in-site search for "Durham"
+still returns "No obituaries found," despite real, verifiable Durham
+obituaries existing. WebSearch (`"of Durham, CT" obituary [timeframe]`)
+remains the working route — pulled five confirmed Durham matches this
+way, each cross-checked against its own funeral home or newspaper page.
+
+Two of those five led to funeral homes not yet tracked for Durham, now
+added to `FuneralHomes.csv`: **Doolittle Funeral Service** (Middletown —
+already tracked for Middletown itself, see the Biega/Doolittle section
+earlier in this file) handled James Timothy McKenna, and **North Haven
+Funeral Home** handled Sandra C. Johnson. North Haven Funeral Home's own
+site renders via browser but its obituary-listing nav item didn't expose
+a plain link href to click through (JS-driven dropdown) — only the
+individual permalink pattern (`northhavenfuneral.com/obituaries/{First-
+Last}?obId={Id}`) was confirmed working; the listing page itself is
+recorded in the CSV with that caveat rather than a verified path.
+
+One geographic curiosity: Christopher Angelo Benzi's obituary states he
+died in "North Haven, VA" — read as the VA (Veterans Affairs) medical
+facility in North Haven, CT, not the state of Virginia, given his Army/
+police background and stated Durham residence. Worth remembering if this
+phrasing recurs elsewhere in this file — Connecticut has no town spelled
+that way, but a few towns host VA facilities that get abbreviated like this.
