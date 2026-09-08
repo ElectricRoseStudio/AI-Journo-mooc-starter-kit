@@ -1942,3 +1942,24 @@ just failing silently on a `browser_batch` call) — when a browser
 action returns nothing or the whole batch errors with no per-step
 output, check connection status before concluding the page itself is
 broken.
+
+### Norwich — CSV gap fixed 2026-09-08
+
+Checked Norwich's neighboring towns (Preston, Bozrah, Griswold, Lisbon)
+for their own dedicated funeral homes — none exist; all route back to
+Norwich-area homes already documented in this file.
+
+Found the actual gap instead: **Woyasz & Son Funeral Service** is
+already tracked for Montville, but it has a dedicated Norwich branch
+(141 Central Ave.) and its current listing is actually Norwich-heavy,
+not Montville-heavy — yet it was never added as a Norwich source.
+Checked its five current entries individually: Thomas Anthony Slaga
+(died Sept. 1, 2026, explicit "of Norwich"), Douglas John Caisse Sr.
+(68, died Aug. 12, 2026, explicit "of Norwich"), and Tina Ysordia (died
+Aug. 22, 2026, "prior to moving to Norwich, she lived in New York
+City," implying Norwich as her subsequent/current home) all confirmed.
+Two were excluded: Vincent Brophy has deep lifelong Norwich ties (born
+there, career at the Norwich Post Office, Norwich Elks Club) but no
+explicit statement of current residence anywhere in the obituary; and
+Wladyslawa "Virginia" Miroszka states no town at all. Added Woyasz to
+`FuneralHomes.csv` for Norwich.
