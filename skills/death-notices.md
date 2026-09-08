@@ -2040,3 +2040,17 @@ Hill" statement. Its obituary pages are Cloudflare-protected against
 WebFetch (403) like several other Tukios sites this session — use the
 browser tools instead. Updated its `FuneralHomes.csv` URL to the direct
 `/obituaries` listing page and added a confirmation note.
+
+### Haddam — CSV gap fixed 2026-09-08
+
+Checked Haddam's neighbors (Middletown, Durham, Chester, East Haddam,
+Killingworth) and found another CSV gap: **Doolittle Funeral Service**
+(Middletown), already tracked for Durham, Middlefield, Portland and
+Rocky Hill, was never added for Haddam despite having two confirmed
+current matches. Dr. Kenneth L. Eckhart Jr., 85, is tagged "of Haddam"
+directly. Marjorie Birdsey Bengtson, 78, is tagged "of Higganum" —
+applying this file's standing village-within-a-town rule, Higganum is
+a village of Haddam (she also worked for the Haddam-Killingworth
+School District, reinforcing the tie). Added Haddam to
+`FuneralHomes.csv` for this source. Haddam's existing sources
+(Robinson Wright & Weymer, Biega) were unaffected.
