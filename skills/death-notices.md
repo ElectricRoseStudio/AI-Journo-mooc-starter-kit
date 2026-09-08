@@ -2122,3 +2122,42 @@ died July 24, 2026. Wethersfield's other tracked source, **Farley
 Sullivan Funeral Home**, remains a confirmed empty shell (Tribute
 Technology rendering issue) even after a longer wait — noted on its
 row for a future retry.
+
+### Danbury — neighboring-town check, no new source, 2026-09-08
+
+Checked Honan Funeral Home (Newtown) — confirmed empty shell, no
+content even after an extended wait. Checked Lillis Funeral Home (New
+Milford) directly — two entries (Paul E. Martin Jr., Manny Velez Jr.)
+mention Danbury only as a birthplace, with New Milford as the actual
+residence; excluded per this file's birthplace-vs-residence rule.
+Danbury's other neighbors (Bethel, Ridgefield, Brookfield) are already
+served by shared branches of Danbury's own tracked sources (Cornell
+Memorial, Jowdy Kane). Nothing added.
+
+### Bethel — neighboring-town check, no new source, 2026-09-08
+
+Checked the Dignity Memorial Danbury-area aggregate listing — no
+Bethel-tagged entries in the current 50-entry batch. Checked Bouton
+Funeral Home (Georgetown/Wilton, already tracked for Redding) — no
+Bethel match on its first page; its search box is confirmed name-only
+("Search obituaries by name"), and its archive (53 pages) is too large
+to browse by hand. Honan Funeral Home (Newtown) remains an empty
+shell. Nothing added.
+
+### Brookfield — Cornell Memorial workaround confirmed, 2026-09-08
+
+Checked Brookfield's neighbors: Hull Funeral Home's listing (shared
+Danbury/Bethel branches) is stale — every entry dates to 2024, and its
+one Brookfield mention (Michael Spagnolo "of Brookfield") is a
+grandchild's town, not the deceased's. Honan Funeral Home (Newtown)
+remains an empty shell.
+
+The real finding was on Brookfield's own source: Cornell Memorial's
+listing page is a confirmed empty shell (Tribute Technology), same as
+already documented for its shared New Milford row, but the same
+Legacy.com/WebSearch workaround used there also works for Brookfield.
+Found and verified John William Lucas, 78, of Brookfield, died Aug.
+28, 2026 (published to Legacy.com Sept. 6, 2026 — a retired Brookfield
+police detective sergeant and later Danbury Hospital director of
+security). Added a confirmation note to Brookfield's own row pointing
+to this workaround.
