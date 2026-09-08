@@ -2192,9 +2192,8 @@ empty shell and added a note to its row.
 Checked Magner Funeral Home (Norwalk) — confirmed empty shell even
 after clicking "View All Obituaries." Found **Collins Funeral Home**
 (Norwalk), a genuinely new, working source with historical Wilton
-residents (e.g. Daniel S. Costello, "of Wilton, CT," 2024) — worth
-tracking, though not yet added to `FuneralHomes.csv` pending
-confirmation.
+residents (e.g. Daniel S. Costello, "of Wilton, CT," 2024) — added to
+`FuneralHomes.csv` for Wilton.
 
 Important new false-positive pattern found at Collins: several
 obituaries are phrased "[Deceased], beloved [spouse] of [Spouse Name]

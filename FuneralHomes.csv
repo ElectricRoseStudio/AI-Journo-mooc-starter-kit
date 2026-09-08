@@ -124,6 +124,7 @@ Fairfield,Daystar Cremation Service,https://www.daystarcremation.com/obituaries,
 Newtown,Honan Funeral Home,https://www.honanfh.com/newtown-ct-obituaries,"Confirmed empty shell as of 2026-09-08, see skills/death-notices.md"
 Newtown,Dignity Memorial (Danbury-area listing),https://www.dignitymemorial.com/obituaries/danbury-ct,"CSV gap fix: already tracked for Redding but never for Newtown; confirmed four current Newtown matches 2026-09-08, see skills/death-notices.md"
 Wilton,Bouton Funeral Home (Georgetown),https://www.boutonfuneralhome.com/obituaries,
+Wilton,Collins Funeral Home (Norwalk),https://www.collinsfh.com/obits,"Neighboring-town source; historically productive for Wilton, but watch for a false-positive phrasing pattern -- 'beloved [spouse] of [Spouse Name] of Wilton' attributes the town to the spouse, not the deceased, see skills/death-notices.md"
 Westport,Harding Funeral Home,https://www.hardingfuneral.com/obituaries/obituary-listings,
 Westport,Lesko Funeral Home,https://leskofuneralhome.com/44/Obituaries.html,"Physically located in Fairfield despite serving Westport; listing page broken/unreliable, see skills/death-notices.md"
 Vernon,Burke-Fortin Funeral Home,https://smallandpietrasfuneralhome.com/runtime.php?SiteId=14689&NavigatorId=103026&ListType=past,"Site returning 502 as of 2026-08-21, see skills/death-notices.md"
