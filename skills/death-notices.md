@@ -1622,3 +1622,35 @@ dead end.
 Net result: no new current Durham matches from this round, but
 Wallingford & Yalesville Funeral Homes added to `FuneralHomes.csv` as a
 legitimate standing source to recheck later.
+
+### Woodbridge — neighboring-town check 2026-09-08
+
+Checked New Haven and Ansonia funeral homes beyond the four sources
+already used for Woodbridge (Robert E. Shure & Son, Jenkins-King &
+Malerba, Celentano Funeral Home, The Green Cremation).
+
+**Maresca & Sons Funeral Home** (New Haven) has a "Word" search that
+genuinely filters by town — searching "Woodbridge" surfaced real,
+verifiable matches (Shirley Prout, Angelo Frischetti, Sara Vecchio,
+Theresa DeMattie, Pedro Jurado Pujols, Josephine Antonucci), each with a
+plausible full obituary, not just a name-collision false positive. But
+the most recent hit was Shirley Prout (July 29, 2025) — nothing current
+for 2026 as of this check. Worth rechecking on a future Woodbridge run;
+this looks like a real but currently-quiet source rather than a dead end.
+
+**Iovanne Funeral Home, Inc.** (New Haven) — a small single-branch home
+(its own "Serving Location" filter has only one option, itself). Only
+shows 5 obituaries per page; none of the visible entries were Woodbridge
+residents.
+
+**Jenkins-King & Malerba** (Ansonia, already tracked from the original
+Woodbridge pull) — re-checked its current 10-page listing; still just
+the one Woodbridge match already sent (Salvatore Petruzzello), no
+additional ones.
+
+**Robert E. Shure & Son** (New Haven, Martin Ledewitz's funeral home) —
+its `/obituaries/obituary-listings` page rendered an empty shell via
+browser this session (Tribute Technology platform, same empty-shell
+symptom as Wallingford & Yalesville documented in the Durham section
+above) — could not re-verify it directly this time. Not necessarily a
+dead end; worth a longer wait or repeat attempt on a future run.
