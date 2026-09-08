@@ -1679,3 +1679,33 @@ Not fully checked, worth a future look: **Naugatuck Valley Memorial /
 Fitzgerald Zembruski** (403s to WebFetch, not retried via browser this
 session) and **Connecticut Cremation** — both explicitly list Bethany
 among the towns they serve.
+
+### Orange — neighboring-town check 2026-09-08
+
+Checked New Haven funeral homes for current Orange residents, beyond
+the two sources already used (Cody-White, West Haven Funeral Home).
+
+**Maresca & Sons Funeral Home** confirmed productive again (same
+genuinely-working "Word" search documented in the Woodbridge and
+Bethany sections above) — searching "Orange" surfaced one clean, current
+match: Rosemary Prete, 95, died Feb. 20, 2026, former CFO of A. Prete
+and Son Construction Co. Several other hits on the same search were
+excluded on individual verification: Frank Mona (split time with
+Naples, FL, died there), Mark Esposito and John Pritchard (both
+"formerly of Orange," living elsewhere or tagged that way), Edna
+Casolino and Genevieve Baldwin (too old — 2024/2025), plus a couple of
+unrelated false positives from the word-match (Gina Raffone, Laurine
+Wilson) that didn't actually mention Orange in the visible excerpt.
+
+Note the search UI quirk that cost some time this session: the "Word"
+radio button and text field sometimes don't register a click/type on
+the first attempt (no visible error, just silently reverts to the
+unfiltered Name-search state) — always screenshot to confirm the radio
+is actually selected and the query text is in the box before hitting
+Search, rather than trusting a single click-type-click batch blindly.
+
+**Celentano Funeral Home** (New Haven) — search submitted via Enter key
+didn't filter this time (stayed at "Page 1 of 140," the full unfiltered
+count) — likely needs the Search button clicked rather than Return
+pressed, consistent with the quirk just noted for Maresca. No Orange
+matches in the unfiltered top 10 shown.
