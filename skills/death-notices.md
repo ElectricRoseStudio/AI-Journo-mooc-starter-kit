@@ -2054,3 +2054,24 @@ a village of Haddam (she also worked for the Haddam-Killingworth
 School District, reinforcing the tie). Added Haddam to
 `FuneralHomes.csv` for this source. Haddam's existing sources
 (Robinson Wright & Weymer, Biega) were unaffected.
+
+### East Haddam — Spencer Funeral Home confirmed productive, 2026-09-08
+
+Checked East Haddam's neighbors (Haddam, East Hampton, Colchester,
+Lyme, Salem) and its own already-tracked sources. **Spencer Funeral
+Home** (East Hampton, already listed for East Haddam but never
+confirmed) turned out to be productive: Robert "Bob" Gendron, 69, is
+tagged "of East Haddam" directly; Zdzislaw "Stan" Nastalczyk, 73, is
+tagged "of Moodus," which — applying the same village-within-a-town
+rule used for Higganum/Haddam — is a village of East Haddam. Added a
+confirmation note to its existing row. One candidate on the same page,
+Francis Edward Rogers Jr., was excluded: he lives in St. Petersburg,
+FL and was only staying at Chestelm Health and Rehab in Moodus, a
+facility, not a stated residence.
+
+Checked but unproductive: **Aurora-McCarthy Funeral Home** (Colchester,
+also already tracked for East Haddam) had no current East
+Haddam/Moodus match — its one Moodus mention, Raymond Churchill Jr.,
+is explicitly "formerly of Moodus," now living in Surprise, AZ.
+Robinson Wright & Weymer and Doolittle (checked during the Haddam
+investigation) had no East Haddam matches either.
