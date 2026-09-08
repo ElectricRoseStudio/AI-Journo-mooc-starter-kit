@@ -2003,3 +2003,26 @@ A WebSearch result surfaced a "Gilberg-Hartwig Funeral Home" in
 connection with a Deep River obituary (Sharon A. Howe) — checked and
 it's a real funeral home, but located in New Bremen, Ohio, unrelated to
 Connecticut. Search-summary artifact, not a lead; discarded.
+
+### Rocky Hill — CSV gap fixed 2026-09-08
+
+Checked Rocky Hill's neighbors (Cromwell, Wethersfield, Newington).
+Found another CSV gap: **Doolittle Funeral Service / Cromwell Funeral
+Home**, already tracked for Portland/Durham/Middlefield, has a current
+Rocky Hill match — Gray Wade Abbott, 62, of Rocky Hill, died Aug. 31,
+2026, an Army veteran buried at Colonel Raymond F. Gates Memorial
+Cemetery in Rocky Hill. Added Rocky Hill to `FuneralHomes.csv` for this
+source.
+
+Also checked: **Abbey Cremation Service**, already tracked for
+Newington/East Hampton, is itself physically located in Rocky Hill
+(511 Brook Street) but had zero current Rocky Hill-tagged obituaries in
+its own listing — no row added despite the local address. **Farley
+Sullivan Funeral Home** (Wethersfield/Glastonbury, Tribute Technology)
+rendered as an empty shell even after a 6-second wait — same known
+platform issue documented elsewhere in this file, flagged for a future
+retry rather than a confirmed dead end. **Dillon-Baxter** (Wethersfield,
+Tukios) has a search box labeled "Enter Name" — confirmed name-only,
+same limitation already seen on other Tukios sites (Biega) — and its
+1,551-record archive is too large to page through by hand, so it
+wasn't pursued further.
