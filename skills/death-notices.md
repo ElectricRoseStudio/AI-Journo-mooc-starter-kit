@@ -1586,3 +1586,39 @@ East Hampton, NEW YORK (the Hamptons) — sources like easthamptonstar.com
 and 27east.com. East Hampton, CT and East Hampton, NY share a name with
 no disambiguating word in typical search snippets; always check the
 source domain/state before trusting a "of East Hampton" WebSearch hit.
+
+### Durham — neighboring-town check 2026-09-08
+
+Checked Durham's other neighboring towns (Middletown, Middlefield,
+Haddam, Madison, Guilford, Wallingford) for funeral homes carrying
+current Durham residents, on top of the Doolittle/North Haven sources
+already added. Robinson Wright & Weymer (Haddam's Dignity Memorial
+source, locationcode=3477) and Swan Funeral Home (Madison) were both
+checked directly against their full batch listings — no Durham matches
+in either. Guilford Funeral Home's recent obituaries were all Guilford
+residents.
+
+**Wallingford & Yalesville Funeral Homes** (`wallingfordfh.com`) is
+worth tracking even though this check came up empty — it explicitly
+describes itself as serving "Durham-Middlefield, CT" and has real,
+verifiable historical Durham obituaries on file (2008-2022), just none
+current as of this check. Same platform/branch-filter pattern as Neilan
+and Newington Memorial documented elsewhere in this file (Wallingford
+Funeral Home vs. Yalesville Funeral Home branches) — renders fine via
+browser, empty shell via curl/WebFetch. Re-check on a future Durham run
+rather than writing it off.
+
+Rose Hill Funeral Home (Middlefield's other listed source, already
+flagged as 403-to-WebFetch) was also revisited here: it's on the same
+FrontRunner Professional platform as Adzima/Harding documented earlier
+in this file, but unlike those two, its page HTML doesn't expose an
+`ExternalUid`/domainId via a plain curl fetch, so the direct-API
+shortcut used for Adzima/Harding doesn't have an obvious path here.
+Renders an empty shell via browser too (no data even after a normal
+wait) — worth trying the browser-render-and-wait pattern again with a
+longer wait, or a claude-in-chrome session, before concluding it's a
+dead end.
+
+Net result: no new current Durham matches from this round, but
+Wallingford & Yalesville Funeral Homes added to `FuneralHomes.csv` as a
+legitimate standing source to recheck later.
