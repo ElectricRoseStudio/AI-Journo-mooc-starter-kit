@@ -2186,3 +2186,45 @@ precedent. All four individually verified via their permalinks. Added
 Newtown to `FuneralHomes.csv` for this source. Also confirmed Honan
 Funeral Home (Newtown's only other tracked source) remains a confirmed
 empty shell and added a note to its row.
+
+### Wilton — Collins Funeral Home found, a new false-positive pattern noted, 2026-09-08
+
+Checked Magner Funeral Home (Norwalk) — confirmed empty shell even
+after clicking "View All Obituaries." Found **Collins Funeral Home**
+(Norwalk), a genuinely new, working source with historical Wilton
+residents (e.g. Daniel S. Costello, "of Wilton, CT," 2024) — worth
+tracking, though not yet added to `FuneralHomes.csv` pending
+confirmation.
+
+Important new false-positive pattern found at Collins: several
+obituaries are phrased "[Deceased], beloved [spouse] of [Spouse Name]
+of [Town]," where the town grammatically modifies the *spouse's* name,
+not the deceased's. Both 2026 candidates checked (Raffaele "Ralph"
+Sandolo, Aug. 10; Serafina "Sara" Polito, Feb. 6) fit this exact
+pattern — Wilton is stated as their spouse's town, with no residence
+ever given for the deceased individually. Both excluded. Watch for
+this phrasing specifically at Collins Funeral Home going forward.
+
+### Redding — neighboring-town check, no new source, 2026-09-08
+
+Checked Collins Funeral Home (Norwalk) and Cornell Memorial Home
+(Danbury/Bethel/Brookfield, already tracked with a known Legacy.com
+workaround) — both have historical Redding/West Redding matches, but
+nothing more recent than 2024 and 2019 respectively. Redding's own
+tracked source, Bouton Funeral Home, remains highly and currently
+productive on its own. Nothing added.
+
+### Easton — neighboring-town check, no new source; CSV correction, 2026-09-08
+
+Checked Green's Funeral Home directly — still a confirmed empty shell
+via browser, even after a longer wait. Corrected its `FuneralHomes.csv`
+row: it's actually Abraham L. Green and Son Funeral Home, located at
+88 Beach Road, **Fairfield, CT** (not Danbury as previously recorded)
+— it explicitly markets itself as serving Easton along with many other
+Fairfield County towns.
+
+A promising-looking lead, "Farley Funeral Home," turned out to be a
+Massachusetts funeral home in Stoughton, MA — its one "Easton"
+obituary (Jane M. Garvin) refers to Easton, Massachusetts, a real town
+near Stoughton/Brockton, not Easton, Connecticut. A town-name collision
+across states; discarded as a false lead. Nothing added.
