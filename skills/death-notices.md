@@ -1850,3 +1850,27 @@ though both post to the same `jowdykanefuneralhome.com` site. This
 explains why it's so productive for Ridgefield: it's a genuine local
 funeral home, not just a nearby one. Noted in `FuneralHomes.csv`; no
 new source added since this doesn't change which URL to query.
+
+### Montville — neighboring-town check 2026-09-08
+
+Checked Norwich's other two Dignity Memorial locationcodes (already
+tracked for Norwich, not for Montville) for Montville/Uncasville/Oakdale
+residents, beyond Woyasz and the Uncasville Church & Allen branch
+already used for Montville.
+
+**Church & Allen Funeral Service (Norwich, locationcode=2085)** — note
+this is a *different* physical location/locationcode than the Uncasville
+Church & Allen branch already tracked for Montville, despite the shared
+name — checked all 50 entries individually. One Oakdale match: John
+Przybyl, 65, died May 18, 2026 — but genuinely thin (name, age, date of
+death, birth date, and cemetery only, no occupation or survivors),
+consistent with other thin-obituary exclusions elsewhere in this file.
+Added to `FuneralHomes.csv` anyway as a low-yield-but-tracked source.
+
+**Labenski Funeral Home (Norwich, locationcode=5089)** — no Montville,
+Uncasville, or Oakdale residents at all in its 50-entry batch.
+
+Not checked further: Salem and Bozrah have no dedicated funeral home of
+their own (consistent with the pattern found in other neighboring-town
+checks this session), and Ledyard's Dinoto was already established as
+low-yield with too small a "current" window to be worth rechecking here.
