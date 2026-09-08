@@ -2075,3 +2075,31 @@ Haddam/Moodus match — its one Moodus mention, Raymond Churchill Jr.,
 is explicitly "formerly of Moodus," now living in Surprise, AZ.
 Robinson Wright & Weymer and Doolittle (checked during the Haddam
 investigation) had no East Haddam matches either.
+
+### Woodbury — neighboring-town check, no new source, 2026-09-08
+
+Checked Woodbury's neighbors (Southbury, Middlebury, Watertown).
+**Carpino Funeral Home** (Southbury, already tracked) and **Brookside
+Memorial** (Middlebury, already tracked) both remain confirmed empty
+shells — same Tribute Technology rendering issue seen elsewhere, still
+unresolved even after a longer wait and, for Brookside, clicking "View
+All Obituaries." **Casey Funeral Homes** (Waterbury/Oakville) markets
+itself as serving Woodbury among many towns, but its search box is
+confirmed name-only, not town-filtering: searching "Smith" surfaced a
+result whose body text happened to mention "of Woodbury," but
+searching "Woodbury" or "Watertown" directly returned zero results —
+and its archive (477 pages) is too large to browse by hand. **Hickcox
+Funeral Home** (Watertown, new to this file) was checked directly; no
+Woodbury tags in the first page of 1,497 records. Nothing added.
+
+### Middlebury — CSV gap fixed 2026-09-08
+
+While investigating Middlebury's neighbors, found that **Munson-Lovetere
+Funeral Home**, already tracked for Woodbury and Southbury, has
+confirmed current-year Middlebury matches never captured for this
+town: Bruce Alan Meier, 87, "of Middlebury," died April 1, 2026; and
+Ryan J. Anderson, 22, "in his home in Middlebury," died April 16, 2026.
+Both individually verified. Added Middlebury to `FuneralHomes.csv` for
+this source. Also updated Middlebury's existing Brookside Memorial row
+with a note confirming the empty-shell issue found during the Woodbury
+check above.

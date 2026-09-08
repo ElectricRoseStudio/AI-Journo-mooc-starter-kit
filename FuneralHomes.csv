@@ -68,7 +68,8 @@ Killingworth,Biega Funeral Home (Middletown),https://www.biegafuneralhome.com/ob
 Wethersfield,Dillon-Baxter Funeral Home,https://www.dillonbaxter.com/obituaries,
 Wethersfield,Farley-Sullivan Funeral Home,https://www.farleysullivan.com/obituaries/obituary-listings,
 Woodbury,Munson-Lovetere Funeral Home,https://www.munsonloveterefuneralhome.com/obituaries,
-Middlebury,Brookside Memorial - The Albini Family Funeral Home,https://www.brooksidememorial.com/obituaries,
+Middlebury,Brookside Memorial - The Albini Family Funeral Home,https://www.brooksidememorial.com/obituaries,"Confirmed empty shell as of 2026-09-08 -- Tribute Technology rendering issue, not yet resolved via longer wait or the View All Obituaries button, see skills/death-notices.md"
+Middlebury,Munson-Lovetere Funeral Home (Woodbury/Southbury),https://www.munsonloveterefuneralhome.com/obituaries,"CSV gap fix: already tracked for Woodbury/Southbury but never for Middlebury; confirmed two Middlebury matches 2026-09-08 (Bruce Alan Meier, Ryan J. Anderson), see skills/death-notices.md"
 South Windsor,Samsel & Carmon Funeral Home,https://www.carmonfuneralhome.com/obituaries/obituary-listings,
 Windsor,Carmon Windsor Funeral Home,https://www.carmonfuneralhome.com/obituaries/obituary-listings,
 Suffield,Nicholson & Carmon Funeral Home,https://www.carmonfuneralhome.com/obituaries/obituary-listings,
