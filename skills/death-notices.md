@@ -2026,3 +2026,17 @@ Tukios) has a search box labeled "Enter Name" — confirmed name-only,
 same limitation already seen on other Tukios sites (Biega) — and its
 1,551-record archive is too large to page through by hand, so it
 wasn't pursued further.
+
+### Rocky Hill — Brooklawn Funeral Home confirmed productive, 2026-09-08
+
+While sending this week's Rocky Hill notices, checked **Brooklawn
+Funeral Home** (511 Brook Street, Rocky Hill) — already listed in
+`FuneralHomes.csv` for Rocky Hill but never previously used for a send
+— and found it highly productive: six current Rocky Hill matches in a
+single 20-entry batch (Donald Lewis Langevin, Jacqueline Yolanda
+Matthews, Trevor Roy Cameron, Sotiraq Bakri, Reno Libera, Sally R.
+Marinelli), each individually verified with an explicit "of Rocky
+Hill" statement. Its obituary pages are Cloudflare-protected against
+WebFetch (403) like several other Tukios sites this session — use the
+browser tools instead. Updated its `FuneralHomes.csv` URL to the direct
+`/obituaries` listing page and added a confirmation note.
