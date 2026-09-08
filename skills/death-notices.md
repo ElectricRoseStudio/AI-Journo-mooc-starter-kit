@@ -1709,3 +1709,30 @@ didn't filter this time (stayed at "Page 1 of 140," the full unfiltered
 count) — likely needs the Search button clicked rather than Return
 pressed, consistent with the quirk just noted for Maresca. No Orange
 matches in the unfiltered top 10 shown.
+
+### Waterford — neighboring-town check 2026-09-08
+
+Checked Montville and Salem for funeral homes with current Waterford
+residents, beyond the four sources already used (all effectively New
+London-based: Neilan, Byles-MacDougall, Impellitteri-Malia, Lester Gee).
+
+**Montville Funeral Home of Church & Allen** (Dignity Memorial,
+locationcode=2080, already tracked for Montville itself) — pulled and
+checked all 50 entries individually rather than trusting a single
+summary (consistent with the verbatim-reproduction reliability noted
+for this locationcode in the Montville section earlier in this file).
+Only one Waterford match: Normand J. Hickey, but he died June 3,
+2025 — over a year stale, not usable for a current notice. The feed
+is dominated by Uncasville and Oakdale (villages within Montville, not
+Waterford). Added to `FuneralHomes.csv` as a checked-but-currently-stale
+source, worth rechecking later rather than a permanent dead end.
+
+**Woyasz & Son Funeral Service** (Norwich/Montville) — no Waterford
+residents in its current 5-entry listing (mostly Norwich); 403s to
+WebFetch, checked via browser instead.
+
+**Salem, CT** — no dedicated Salem funeral home found at all; searches
+only surfaced Waterford's own existing sources or unrelated towns.
+
+Net result: no new current Waterford matches this round. Waterford's
+existing four New London-area sources remain the productive cluster.
