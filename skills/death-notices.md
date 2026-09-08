@@ -1559,3 +1559,30 @@ This town was already flagged elsewhere in this file for an unusually
 high false-positive rate on Legacy.com's general town page — this
 session avoided that page entirely, going straight to individual
 funeral-home permalinks for each name instead.
+
+### East Hampton — Spencer Funeral Home's search actually works, 2026-09-08
+
+Unlike most other sites documented in this file, Spencer Funeral Home's
+"Word" search genuinely filters by town — searching "East Hampton"
+correctly dropped a Glastonbury-tagged and a Colchester/Moodus-tagged
+entry from the unfiltered list, and surfaced two more genuine East
+Hampton matches (Janet McCann, Cassandra Munson) that weren't among the
+first 10 unfiltered results. Worth trying this site's own search first
+for future East Hampton pulls rather than going straight to WebSearch.
+
+Even with a working search, several listed entries still needed
+individual verification: town tags like "East Hampton/Moodus" or "East
+Hampton/New Britain" describe a decedent's history, not necessarily
+current residence — Francis Rogers (tagged East Hampton/Moodus) was
+actually a St. Petersburg, FL retiree whose daughter lives in East
+Hampton; Barry Edmonds (tagged East Hampton/Moodus) currently resided in
+Moodus. Also excluded: John Forbes IV, whose own obituary never states
+his residence — only his father's ("of East Hampton, Connecticut") is
+given.
+
+**Name-collision caution:** a plain WebSearch for `"of East Hampton,
+Connecticut" obituary` pulled in several results that were actually
+East Hampton, NEW YORK (the Hamptons) — sources like easthamptonstar.com
+and 27east.com. East Hampton, CT and East Hampton, NY share a name with
+no disambiguating word in typical search snippets; always check the
+source domain/state before trusting a "of East Hampton" WebSearch hit.
