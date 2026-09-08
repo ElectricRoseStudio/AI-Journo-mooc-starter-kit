@@ -1808,3 +1808,24 @@ notice batch works, double check afterward that the source actually
 made it into `FuneralHomes.csv` — it's easy for a productive one-off
 lookup to get used for an email without ever being recorded as a
 tracked source.
+
+### Old Lyme — same CSV gap, fixed 2026-09-08
+
+Same pattern as the East Lyme fix above: Thomas L. Neilan & Sons's East
+Lyme branch already produced two confirmed Old Lyme matches (Thomas
+Sessa, John "Ron" Hamilton Jr. — sent in the Old Lyme addendum email
+during the Waterford/Ledyard research) but was never added to this
+row. Fixed now.
+
+Checked two other neighboring-town sources while at it: Robinson
+Wright & Weymer's full 50-entry batch had no Old Lyme matches (it
+found Catherine Jeanne Spencer, but she's tagged "Lyme," already
+recorded there). A WebFetch of Dignity Memorial's Old Saybrook page
+(`dignitymemorial.com/obituaries/old-saybrook-ct`) returned content
+identical to Fulton-Theroux's already-known Old Lyme dataset rather
+than distinct Old Saybrook data — inconsistent with an earlier fetch of
+the same URL during the Clinton neighboring-town check, which returned
+different, Old Saybrook/Deep River-dominated content. Treat this as an
+unverified/possibly-cached result, not a confirmed second Old Lyme
+source — worth a clean re-fetch on a future run before trusting it
+either way.
