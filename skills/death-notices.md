@@ -2103,3 +2103,22 @@ Both individually verified. Added Middlebury to `FuneralHomes.csv` for
 this source. Also updated Middlebury's existing Brookside Memorial row
 with a note confirming the empty-shell issue found during the Woodbury
 check above.
+
+### Wethersfield — neighboring-town gap fixed 2026-09-08
+
+Checked Wethersfield's neighbors (Rocky Hill, Newington). Found two
+CSV gaps at once: **Brooklawn Funeral Home** and **Abbey Cremation
+Service** (both Rocky Hill, already tracked for Rocky Hill and for
+Newington/East Hampton respectively) each turned out to have a current
+Wethersfield match never captured for this town. Richard "Snooky"
+Dalfino Jr., 64, "of Wethersfield, CT," died Sept. 1, 2026 (Brooklawn).
+Margarita Matias Sanchez, 69, "of Wethersfield, CT," died Aug. 4, 2026
+(Abbey Cremation). Both individually verified via their permalinks.
+Added Wethersfield to `FuneralHomes.csv` for both sources.
+
+Also confirmed Wethersfield's own **Dillon-Baxter Funeral Home** is
+productive directly: Donald S. Brookman, 67, "of Wethersfield, CT,"
+died July 24, 2026. Wethersfield's other tracked source, **Farley
+Sullivan Funeral Home**, remains a confirmed empty shell (Tribute
+Technology rendering issue) even after a longer wait — noted on its
+row for a future retry.

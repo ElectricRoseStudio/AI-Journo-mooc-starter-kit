@@ -66,7 +66,9 @@ East Haddam,Aurora-McCarthy Funeral Home (Colchester),https://www.auroramccarthy
 Killingworth,"Robinson Wright & Weymer Funeral Home (Centerbrook/Essex, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=3477,No Funeral Home in Town
 Killingworth,Biega Funeral Home (Middletown),https://www.biegafuneralhome.com/obituaries/,No Funeral Home in Town
 Wethersfield,Dillon-Baxter Funeral Home,https://www.dillonbaxter.com/obituaries,
-Wethersfield,Farley-Sullivan Funeral Home,https://www.farleysullivan.com/obituaries/obituary-listings,
+Wethersfield,Farley-Sullivan Funeral Home,https://www.farleysullivan.com/obituaries/obituary-listings,"Confirmed empty shell as of 2026-09-08 -- Tribute Technology rendering issue, not resolved via longer wait, see skills/death-notices.md"
+Wethersfield,Brooklawn Funeral Home (Rocky Hill),https://www.brooklawnfuneralhome.com/obituaries,"CSV gap fix: already tracked for Rocky Hill but never for Wethersfield; confirmed one current Wethersfield match 2026-09-08 (Richard 'Snooky' Dalfino Jr.), see skills/death-notices.md"
+Wethersfield,Abbey Cremation Service (Rocky Hill),https://www.abbeycremation.com/obituaries,"CSV gap fix: already tracked for Newington/East Hampton but never for Wethersfield; confirmed one current Wethersfield match 2026-09-08 (Margarita Matias Sanchez), see skills/death-notices.md"
 Woodbury,Munson-Lovetere Funeral Home,https://www.munsonloveterefuneralhome.com/obituaries,
 Middlebury,Brookside Memorial - The Albini Family Funeral Home,https://www.brooksidememorial.com/obituaries,"Confirmed empty shell as of 2026-09-08 -- Tribute Technology rendering issue, not yet resolved via longer wait or the View All Obituaries button, see skills/death-notices.md"
 Middlebury,Munson-Lovetere Funeral Home (Woodbury/Southbury),https://www.munsonloveterefuneralhome.com/obituaries,"CSV gap fix: already tracked for Woodbury/Southbury but never for Middlebury; confirmed two Middlebury matches 2026-09-08 (Bruce Alan Meier, Ryan J. Anderson), see skills/death-notices.md"
