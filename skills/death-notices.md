@@ -1829,3 +1829,24 @@ different, Old Saybrook/Deep River-dominated content. Treat this as an
 unverified/possibly-cached result, not a confirmed second Old Lyme
 source — worth a clean re-fetch on a future run before trusting it
 either way.
+
+### Ridgefield — neighboring-town check 2026-09-08
+
+Checked Danbury's other sources (Dignity Memorial's Danbury page,
+Danbury Memorial Funeral Home, Hull Funeral Home) for current Ridgefield
+residents, beyond Jowdy Kane, Ridgefield's already-tracked source. None
+were productive: Dignity Memorial's Danbury batch had no Ridgefield
+matches, Danbury Memorial's listing page rendered completely empty
+(genuinely no data, not just slow-loading — waited twice, ~9s total),
+and Hull Funeral Home is confirmed still stale (newest entries dated
+mid-2024, same finding as the earlier Bethel section in this file).
+
+Every current Ridgefield candidate found via WebSearch (James Laslo,
+Paul O'Leary, Linda Marconi Rose, Vera Caporale, Peggy Ann VanDeventer)
+traced back to Jowdy Kane. Useful clarification surfaced along the way:
+Jowdy Kane operates a dedicated Ridgefield branch — "Kane Funeral
+Home," 25 Catoonah St., Ridgefield — distinct from its Danbury address,
+though both post to the same `jowdykanefuneralhome.com` site. This
+explains why it's so productive for Ridgefield: it's a genuine local
+funeral home, not just a nearby one. Noted in `FuneralHomes.csv`; no
+new source added since this doesn't change which URL to query.
