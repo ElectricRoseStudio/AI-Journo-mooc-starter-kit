@@ -42,6 +42,7 @@ Chester,Swan Funeral Homes (Deep River),https://www.legacy.com/funeral-homes/con
 Chester,"Robinson Wright & Weymer Funeral Home (Centerbrook/Essex, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=3477,No Funeral Home in Town
 Essex,Robinson Wright & Weymer Funeral Home,https://www.dignitymemorial.com/obituaries?locationcode=3477,
 Deep River,Swan Funeral Homes,https://www.legacy.com/funeral-homes/connecticut/deep-river/swan-funeral-homes-inc/fh-4189,"URL 404s as of 2026-08-18 - page deleted/suspended, see skills/death-notices.md"
+Deep River,"Robinson Wright & Weymer Funeral Home (Centerbrook/Essex, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=3477,"CSV gap fix: already tracked for Chester/Haddam/Killingworth/Essex but never for Deep River, despite confirmed current Deep River matches; No Funeral Home in Town; see skills/death-notices.md"
 Ledyard,Dinoto Funeral Home (Mystic),https://www.dinotofuneral.com/Obituaries.htm,No Funeral Home in Town
 Montville,Woyasz & Son Funeral Service,https://www.woyaszandson.com/obituaries/obituary-listings,
 Montville,"Montville Funeral Home of Church & Allen (Uncasville, Dignity Memorial)",https://www.dignitymemorial.com/obituaries?locationcode=2080,

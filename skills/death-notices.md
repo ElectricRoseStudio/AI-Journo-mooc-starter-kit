@@ -1963,3 +1963,43 @@ there, career at the Norwich Post Office, Norwich Elks Club) but no
 explicit statement of current residence anywhere in the obituary; and
 Wladyslawa "Virginia" Miroszka states no town at all. Added Woyasz to
 `FuneralHomes.csv` for Norwich.
+
+### Chester — neighboring-town check, no new source, 2026-09-08
+
+Checked Biega Funeral Home (Middletown): its search box turned out to
+be a literal name search, not a town filter — searching "Chester"
+returned only unrelated people literally named Chester (2010-2013).
+Checked Doolittle Funeral Service / Cromwell Funeral Home: no Chester
+matches. Chester remains fully served by the already-tracked Robinson
+Wright & Weymer (`locationcode=3477`); the Swan Funeral Homes (Deep
+River) link remains a confirmed 404. Nothing added.
+
+### Essex — neighboring-town check, no new source, 2026-09-08
+
+Checked Essex's neighbors (Old Saybrook, Deep River, Chester,
+Westbrook). Essex's own tracked source, Robinson Wright & Weymer, is
+physically located in Essex/Centerbrook and already surfaces
+Essex-tagged obituaries directly (Steven E. Bancroft, Richard A.
+Windatt, Barbara Venable, Marguerite d'Aprile Quigley, confirmed in the
+current 50-entry batch). Checked the Swan Funeral Home group listing
+(`dignitymemorial.com/obituaries?groupcode=swan`, covering Clinton,
+Madison, and Old Saybrook branches) for any Essex tags — none found.
+Nothing added.
+
+### Deep River — CSV gap fixed 2026-09-08
+
+Investigating Deep River's neighbors turned up a gap rather than a new
+source: **Robinson Wright & Weymer Funeral Home** (`locationcode=3477`)
+was already tracked for Chester, Haddam, Killingworth and Essex, but
+never for Deep River — even though its current listing plainly
+contains Deep River residents. Re-pulled the full 50-entry batch and
+confirmed four explicit Deep River tags: Joel Patrick Pierce, Joyce
+Calamari Hines (tagged both Deep River and Chester), Marcos Gonzalez,
+and Frances E. Confrey. Added Deep River to `FuneralHomes.csv` for this
+source. Deep River otherwise still has no working dedicated source —
+Swan Funeral Homes remains a confirmed 404.
+
+A WebSearch result surfaced a "Gilberg-Hartwig Funeral Home" in
+connection with a Deep River obituary (Sharon A. Howe) — checked and
+it's a real funeral home, but located in New Bremen, Ohio, unrelated to
+Connecticut. Search-summary artifact, not a lead; discarded.
