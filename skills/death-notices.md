@@ -1906,3 +1906,39 @@ Britain dual-branch pattern documented elsewhere in this file. Abbey
 Cremation also turned out to be the source for Carol Ann Young, one of
 the Newington notices sent earlier — added to `FuneralHomes.csv` for
 both towns.
+
+### Portland — neighboring-town check 2026-09-08, Doolittle/Cromwell added
+
+Checked East Hampton and Cromwell for current Portland residents,
+beyond Portland Memorial Funeral Home, Portland's own (small, low-
+volume) source.
+
+**Doolittle Funeral Service, Inc. / Cromwell Funeral Home** (already
+tracked for Middletown, physically two locations sharing one site —
+same dual-branch pattern as Newington/New Britain and Ridgefield/
+Danbury documented elsewhere in this file) turned out to be genuinely
+productive for Portland: its "Word" search actually filters correctly,
+and surfaced four confirmed current matches — James Edward Piatti (71,
+died July 13, 2026, 48-year Portland resident and volunteer fireman),
+Louise (Hertzberg) Feldman (87, died June 13, 2026, four decades in
+Portland's Gildersleeve section), Elisa (Betances) Jimenez (70, died
+May 25, 2026), and Benjamin Austin Adams (34, died April 20, 2026).
+Added to `FuneralHomes.csv` for Portland.
+
+One candidate was excluded: Sanda Marie Nickols, tagged "Portland" on
+the listing, but her full obituary shows she lived in Marlborough and
+then Union Hall, Virginia, only returning to Connecticut in 2017 with
+no clear statement of resettling in Portland specifically — the
+"Portland" tag likely traces to Portland Care and Rehabilitation
+Centre, where she was staying, not a stated home residence.
+
+**Spencer Funeral Home** (East Hampton, already confirmed to have a
+genuinely working search) — searched "Portland," returned "No matching
+records were found." Clean negative result, not a search failure.
+
+Also worth noting: the Chrome extension disconnected mid-session twice
+during this check (once needing `tabs_context_mcp` to reconnect, once
+just failing silently on a `browser_batch` call) — when a browser
+action returns nothing or the whole batch errors with no per-step
+output, check connection status before concluding the page itself is
+broken.
