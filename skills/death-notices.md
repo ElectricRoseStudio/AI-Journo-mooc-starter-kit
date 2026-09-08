@@ -2161,3 +2161,28 @@ Found and verified John William Lucas, 78, of Brookfield, died Aug.
 police detective sergeant and later Danbury Hospital director of
 security). Added a confirmation note to Brookfield's own row pointing
 to this workaround.
+
+### Monroe — neighboring-town check, no new source, 2026-09-08
+
+Checked Abriola Parkview Funeral Home (Trumbull) — individually
+verified all 10 current listings; none tagged Monroe (Trumbull,
+Bridgeport, Shelton, Stratford and Milford residents instead). Checked
+Green's Funeral Home (Danbury) via search — no Monroe match; Easton
+sits between the two towns, making it a geographic stretch. Monroe's
+own tracked source, Spadaccino and Leo P. Gallagher & Son, remains
+highly productive on its own (several current matches going back to
+April). Nothing added.
+
+### Newtown — CSV gap fixed 2026-09-08
+
+Checked Newtown's neighbors and found that the **Dignity Memorial
+Danbury-area listing** — already tracked for Redding but never for
+Newtown — has four confirmed current Newtown matches: Marion M.
+Millard, 91, died Aug. 19, 2026; Frank J. LaPak Jr., 92, died July 21,
+2026; Helen Ventura, 82, died July 2, 2026; and Lucille M. Gioello, 91,
+"of Maplewood, Newtown, CT," died June 27, 2026 — Maplewood is a
+senior living community in Newtown, same pattern as the Essex Meadows
+precedent. All four individually verified via their permalinks. Added
+Newtown to `FuneralHomes.csv` for this source. Also confirmed Honan
+Funeral Home (Newtown's only other tracked source) remains a confirmed
+empty shell and added a note to its row.
