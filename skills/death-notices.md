@@ -1537,3 +1537,25 @@ facility in North Haven, CT, not the state of Virginia, given his Army/
 police background and stated Durham residence. Worth remembering if this
 phrasing recurs elsewhere in this file — Connecticut has no town spelled
 that way, but a few towns host VA facilities that get abbreviated like this.
+
+### Middlefield — same Biega search problem, two more sources added 2026-09-08
+
+Same failure mode as Durham: Biega's in-site search for "Middlefield"
+turns up nothing despite real matches existing. Rose Hill Funeral Home
+(Middlefield's other listed source) 403s to curl/WebFetch; not retried
+via browser this session since WebSearch alone found five clean, well-
+documented matches spanning January to July 2026.
+
+Two of those five led to funeral homes not yet tracked for Middlefield,
+now added to `FuneralHomes.csv`: **Doolittle Funeral Service**
+(Middletown — already tracked for Middletown and now Durham, see
+earlier sections) handled Otto Max Zimmerman III, and **John J. Ferry &
+Sons Funeral Home** (Meriden) handled Geraldine Emily Zehren. Ferry's
+`/obituaries/obituary-listings` path is confirmed correct (loads a real
+"Obituary Listings" page via browser) but was empty at check time —
+worth rechecking on a future run rather than assuming it's a dead end.
+
+This town was already flagged elsewhere in this file for an unusually
+high false-positive rate on Legacy.com's general town page — this
+session avoided that page entirely, going straight to individual
+funeral-home permalinks for each name instead.

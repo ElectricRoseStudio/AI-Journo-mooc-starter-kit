@@ -19,8 +19,10 @@ Woodbridge,Beecher & Bennett Funeral Service (Hamden),https://www.beecherandbenn
 Durham,Biega Funeral Home (Middletown),https://www.biegafuneralhome.com/obituaries/,"No Funeral Home in Town; in-site search returns \"No obituaries found\" for Durham despite real matches existing, see skills/death-notices.md"
 Durham,Doolittle Funeral Service (Middletown),https://www.doolittlefuneralservice.com/listings,No Funeral Home in Town
 Durham,North Haven Funeral Home,https://www.northhavenfuneral.com/obituaries,"No Funeral Home in Town; one confirmed Durham match found 2026-09-08 (exact listing-page path unconfirmed -- only an individual obituary permalink was verified), see skills/death-notices.md"
-Middlefield,Biega Funeral Home (Middletown),https://www.biegafuneralhome.com/obituaries/,No Funeral Home in Town
-Middlefield,Rose Hill Funeral Home (Rocky Hill),https://www.rosehillfuneralhomect.com/obituaries/obituary-listings,No Funeral Home in Town
+Middlefield,Biega Funeral Home (Middletown),https://www.biegafuneralhome.com/obituaries/,"No Funeral Home in Town; in-site search returns no results for Middlefield despite real matches existing, see skills/death-notices.md"
+Middlefield,Rose Hill Funeral Home (Rocky Hill),https://www.rosehillfuneralhomect.com/obituaries/obituary-listings,"No Funeral Home in Town; 403s to curl/WebFetch, not yet retried via browser, see skills/death-notices.md"
+Middlefield,Doolittle Funeral Service (Middletown),https://www.doolittlefuneralservice.com/listings,No Funeral Home in Town
+Middlefield,John J. Ferry & Sons Funeral Home (Meriden),https://www.jferryfh.com/obituaries/obituary-listings,No Funeral Home in Town
 Middletown,Biega Funeral Home,https://www.biegafuneralhome.com/obituaries/,
 Middletown,Doolittle Funeral Service,https://www.doolittlefuneralservice.com/listings,
 East Hampton,Spencer Funeral Home,https://www.spencerfuneralhomeinc.com/listings,
