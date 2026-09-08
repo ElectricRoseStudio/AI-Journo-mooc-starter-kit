@@ -1736,3 +1736,26 @@ only surfaced Waterford's own existing sources or unrelated towns.
 
 Net result: no new current Waterford matches this round. Waterford's
 existing four New London-area sources remain the productive cluster.
+
+### New Milford — neighboring-town check 2026-09-08
+
+New Milford's other neighbors (Kent, Sherman, New Fairfield,
+Bridgewater, Roxbury, Washington, Warren) don't appear to have their
+own dedicated funeral homes; Brookfield was the one productive lead.
+
+**Brookfield Funeral Home** (on the Cornell Memorial platform, shared
+with Danbury and Bethel locations) explicitly serves New Milford.
+Confirmed one current match: Ellen L. Thompson, 67, died Aug. 6, 2026 —
+a longtime New Milford Public Library children's librarian. The site's
+own `/obituaries/obituary-listings` page rendered an empty shell via
+browser even after two separate ~4s waits (same Tribute Technology
+symptom as Wallingford, Shure, and Wakelee documented earlier in this
+file, but this one didn't resolve even with the longer-wait fix that
+worked for Wakelee) — found and confirmed the match via WebSearch and
+its Legacy.com syndication instead. Worth retrying the site directly
+with claude-in-chrome and an even longer wait on a future run.
+
+Three other current New Milford candidates surfaced by the same search
+(Carol Ann Johnson, John Leland Orcutt, Karen A. Fumal) all turned out
+to already be handled by Lillis Funeral Home, already tracked for this
+town — not new sources.
