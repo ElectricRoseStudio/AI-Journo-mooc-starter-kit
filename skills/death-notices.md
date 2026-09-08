@@ -1759,3 +1759,27 @@ Three other current New Milford candidates surfaced by the same search
 (Carol Ann Johnson, John Leland Orcutt, Karen A. Fumal) all turned out
 to already be handled by Lillis Funeral Home, already tracked for this
 town — not new sources.
+
+### Lyme — neighboring-town check 2026-09-08
+
+Checked East Haddam's sources (already tracked for that town, not yet
+for Lyme) for current Lyme residents, since Salem — Lyme's other
+neighbor — has no dedicated funeral home (confirmed absent during the
+Waterford neighboring-town check).
+
+**Robinson Wright & Weymer Funeral Home** (Centerbrook/Essex, Dignity
+Memorial locationcode=3477) turned up a genuine, well-documented match:
+Catherine Jeanne Spencer, 75, died July 27, 2026, of Lyme — chaired the
+French Department at Connecticut College until retiring in 2015, with
+degrees from the École Normale Supérieure, the Sorbonne, and a doctorate
+in French literature. Added to `FuneralHomes.csv` as a Lyme source too.
+
+**Spencer Funeral Home** (East Hampton, already tracked for East
+Haddam) — attempted a "Lyme" search but the click landed on stale UI
+coordinates from an earlier session and returned the unfiltered
+listing; no Lyme residents were visible in it regardless. Worth a clean
+retry (screenshot first, confirm radio selection, per the coordinate-
+reliability caution noted in the Orange section above) on a future run.
+
+**Aurora-McCarthy Funeral Home** (Colchester, already tracked for East
+Haddam) — 403s to WebFetch, not retried via browser this session.
