@@ -1654,3 +1654,28 @@ browser this session (Tribute Technology platform, same empty-shell
 symptom as Wallingford & Yalesville documented in the Durham section
 above) — could not re-verify it directly this time. Not necessarily a
 dead end; worth a longer wait or repeat attempt on a future run.
+
+### Bethany — neighboring-town check 2026-09-08
+
+Checked Cheshire, Naugatuck and Ansonia funeral homes for current
+Bethany residents, beyond the two sources already used (Beecher &
+Bennett, Prospect Memorial).
+
+**Wakelee Memorial Funeral Home** (Ansonia) — new source, confirmed
+productive: Elizabeth "Beth" Kremmel, 78, died Feb. 24, 2026, of
+Bethany. Same Tribute Technology empty-shell symptom as Wallingford/
+Shure documented above — the first render attempt showed nothing, but a
+second screenshot after a longer wait (~8s total) showed the listing
+populated. Its plain "Name" search box is name-only, not a town/word
+filter, so individual entries still need opening to check residence;
+WebSearch (`"of Bethany, Connecticut" obituary [timeframe]`) found the
+Kremmel match faster than paging through the listing would have.
+
+**Alderson-Ford Funeral Homes** (Cheshire/Naugatuck/Waterbury) — has a
+working keyword search (`fordfh.com/obituaries?query=...`); searching
+"Bethany" returned zero results.
+
+Not fully checked, worth a future look: **Naugatuck Valley Memorial /
+Fitzgerald Zembruski** (403s to WebFetch, not retried via browser this
+session) and **Connecticut Cremation** — both explicitly list Bethany
+among the towns they serve.
