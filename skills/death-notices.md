@@ -1783,3 +1783,28 @@ reliability caution noted in the Orange section above) on a future run.
 
 **Aurora-McCarthy Funeral Home** (Colchester, already tracked for East
 Haddam) — 403s to WebFetch, not retried via browser this session.
+
+### East Lyme — CSV gap fixed 2026-09-08
+
+Investigating East Lyme's neighboring towns turned up not a new source
+but a process gap: the original East Lyme pull (see the East Lyme
+sections earlier in this file, under Lyme/Old Lyme) used Dignity
+Memorial's Niantic listing (`dignitymemorial.com/obituaries/niantic-ct`,
+associated with Fulton-Theroux Funeral Service) to find 4 of the 5
+notices actually sent — Derrie Proctor, Charles Spranklin, Ann Marie
+Meek, Marilyn Coleman — but that source was never added to
+`FuneralHomes.csv`. Only Neilan was tracked. Fixed now; re-confirmed
+the page is still productive (Elizabeth Koster, Patricia Bofinger both
+still on it, matching entries already known as thin/excluded).
+
+Also checked Byles-MacDougall (Waterford's own New London source) for
+East Lyme: found Ellen Pierson Arcara, 74, died Aug. 20, 2026, but her
+obituary states only "of Niantic" throughout with no explicit East
+Lyme or Waterford statement — excluded per the standing rule against
+trusting the ambiguous "Niantic" tag alone (Niantic spans both towns).
+
+Lesson for this file generally: when a WebFetch/WebSearch-sourced
+notice batch works, double check afterward that the source actually
+made it into `FuneralHomes.csv` — it's easy for a productive one-off
+lookup to get used for an email without ever being recorded as a
+tracked source.
