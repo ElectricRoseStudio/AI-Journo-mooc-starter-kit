@@ -2372,3 +2372,35 @@ funeral home as unconfirmed until checked against the source directly.
 **Tolland Memorial Funeral Home** shares the same 502-erroring
 platform as Burke-Fortin (already documented) and wasn't independently
 reachable this round.
+
+### Windsor — neighboring-town investigation, 2026-09-10
+
+No genuinely new neighboring-town source found, but Windsor's own
+tracked source, **Carmon Windsor Funeral Home**, turned out highly
+productive: 11 current Windsor matches found via Legacy.com's Windsor
+aggregator page, including Aldor William Therian Jr. and Balbir
+Sokhey, both stated directly "of Windsor." The Carmon site's own
+"Location" filter dropdown (on the shared carmonfuneralhome.com
+obituary-listings page) is a fast way to isolate a specific branch's
+current obituaries going forward. A second branch, **Carmon Poquonock
+Funeral Home**, also surfaced (Evelyn Clair deJongh) — Poquonock is a
+village within Windsor itself, not a separate town, and this is the
+same company/domain already tracked, so no new row was needed.
+
+Checked and found broken: **Heritage Funeral Home** (Suffield) and
+**Windsor Locks Funeral Home & Crematory (Leete-Stevens)** — both
+listing pages render literal unfilled template placeholders (`{name}`,
+`{date}`, `{branchname}`) rather than lazy-loading real content, the
+same broken-template pattern seen at Adzima (Derby). Distinct from the
+Tribute Technology "empty shell" pattern documented elsewhere — this
+is a data-binding failure on the live site, not a slow client-side
+render.
+
+Three names surfaced by Legacy.com's Windsor aggregator were excluded
+as false positives from the broader-metro-area aggregation: John G.
+Santos Jr. (obituary states "of West Hartford," not Windsor), Eleanore
+Rose Herbert Schleicher (handled by a Marietta, Georgia funeral home —
+moved away), and Father Thomas G. Sickler (died at Kimberly Hall
+North, a care facility located in Windsor, but the obituary never
+states Windsor as his home residence — facility-location, not
+residence).
