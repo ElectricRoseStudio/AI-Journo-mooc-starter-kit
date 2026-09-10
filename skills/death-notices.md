@@ -2550,3 +2550,27 @@ Two candidates were excluded: Bella Iacobellis Esposito Giza, actually
 "of North Haven" — she died at CT Hospice in Branford, a facility
 location, not her residence; and Stephen Paprocki, "of East Haven,
 formerly of Branford," whose current town is East Haven.
+
+### New Haven — neighboring-town investigation, 2026-09-10
+
+Found two genuinely new neighboring-town sources, both Hamden-based,
+via Legacy.com's New Haven aggregator page. **Colonial Funerals LLC**
+— a brand-new entity — was confirmed via three direct matches: Annie
+Jones, Toby Sumrell, and Consuela Denosa Laurent, all explicitly "of
+New Haven, CT." **Peter H. Torello & Son Funeral Home** — also new —
+confirmed via Jose Nunez Quezada, "32 of New Haven."
+
+Also added **McClam Funeral Home**, located in New Haven itself (95
+Dixwell Ave), surfaced via two candidates (Dwayne Greene, John Belton
+Sr.) — but added with a caveat rather than as a full confirmation:
+the funeral home's own site truncates its obituary text behind a
+"View More" control that would not expand for me, so I never saw an
+explicit body-text residence statement for either candidate, only
+Legacy.com's page-tag of "New Haven, Connecticut." That page-tag has
+been wrong before (see the Sickler/Maliszewski false-positive pattern
+documented earlier in this file) — treat this row as needing
+re-verification before relying on it for a specific notice.
+
+Excluded: Louis Michael Adinolfi Jr. (actually "of North Branford,"
+though born in New Haven), Edwin Martin Gibson III (Vero Beach, FL),
+George O. Spencer (Ellington), and Motley Davis (Easton, PA).
