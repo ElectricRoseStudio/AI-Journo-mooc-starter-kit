@@ -2294,3 +2294,14 @@ confirmation notes to both rows. Nigro's obituary opens with "died
 peacefully in his home in Redding, CT" but later mentions time at
 Meadow Ridge senior living community — treated the opening statement
 as controlling since it's the more direct residence claim.
+
+### Brookfield — first death-notices send, 2026-09-10
+
+Sent Brookfield's first death-notices batch this cycle: John William
+Lucas (already found during the earlier neighboring-town check) and a
+second match, David John Barese, 64, "most recently of Brookfield,"
+died June 28, 2026 — a retired federal law enforcement officer and
+self-taught guitarist. Both found via the Legacy.com/WebSearch
+workaround; the listing page itself remains an empty shell. Updated
+the row's name to clarify it's Cornell Memorial's Brookfield branch
+and noted the repeat confirmation.
