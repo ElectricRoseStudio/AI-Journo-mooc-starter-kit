@@ -2227,3 +2227,33 @@ Massachusetts funeral home in Stoughton, MA — its one "Easton"
 obituary (Jane M. Garvin) refers to Easton, Massachusetts, a real town
 near Stoughton/Brockton, not Easton, Connecticut. A town-name collision
 across states; discarded as a false lead. Nothing added.
+
+### Danbury — CSV fix and full check, 2026-09-10
+
+Checked all four of Danbury's own tracked sources directly for a
+death-notices send. **Jowdy Kane Funeral Home**'s own listing is
+genuinely productive — confirmed two current Danbury matches (Doris
+Colon, Thomas Elm) directly on its own `/listings` page, no workaround
+needed.
+
+**Danbury Memorial Funeral Home**'s tracked URL
+(`danburymemorial.com/listings`) 404s — the site was restructured.
+Its homepage still surfaces recent obituaries, but the real content
+lives on a separate subdomain,
+`danburymemorial-new.secure.tributecenteronline.com` — same
+TributeCenterOnline platform documented elsewhere in this file for
+Cody-White. Confirmed one current Danbury match (Maria Isabel
+Hernandez) via that subdomain. Corrected the row's URL to the
+homepage, since the tributecenteronline subdomain isn't itself a
+stable landing page (permalinks are per-obituary, no listing page URL
+found there).
+
+**Cornell Memorial**'s own listing page is a confirmed empty shell
+(Tribute Technology) — same issue already documented for its shared
+Brookfield row; the Legacy.com/WebSearch workaround didn't surface a
+current Danbury match this time, but the **Dignity Memorial
+Danbury-area aggregate listing** did (Robert John Budnik).
+
+**Hull Funeral Home**'s listing remains stale — every entry still
+dated 2024, unchanged since the Brookfield investigation found the
+same thing. No current Danbury match.
