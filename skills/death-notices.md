@@ -2529,3 +2529,24 @@ Two candidates were excluded: Robert David Rascati, a relative of
 Carmelina Rascati, whose own obituary states "of Branford," not East
 Haven; and Karl Paecht, "of East Haven and Mystic, CT," excluded per
 the dual-residence rule.
+
+### Branford — neighboring-town investigation, 2026-09-10
+
+Found three genuinely new neighboring-town sources via Legacy.com's
+Branford aggregator page. **Keenan Funeral Home, Inc.** (North
+Branford) — just added for East Haven — is also productive for
+Branford: William C. Raccio Jr., 69, "of Branford." **North Haven
+Funeral Home, Inc.** (correct URL northhavenfuneral.com, not the
+guessable -funeralhome.com, which is an unrelated parked domain for
+sale) — a brand-new entity — confirmed via Edward J. Maloney Jr., 81,
+whose obituary opens directly "of Branford." **Guilford Funeral
+Home** — another brand-new entity, with a listing page that actually
+renders real content (not an empty shell, unlike most other platforms
+documented in this file) — confirmed via John Andrew Hull, whose
+obituary opens "John Andrew Hull of Branford, CT." Added all three as
+new Branford rows.
+
+Two candidates were excluded: Bella Iacobellis Esposito Giza, actually
+"of North Haven" — she died at CT Hospice in Branford, a facility
+location, not her residence; and Stephen Paprocki, "of East Haven,
+formerly of Branford," whose current town is East Haven.
