@@ -2321,3 +2321,26 @@ Two candidates were excluded: Gary Lansing Orelup, "most recently of
 Fairfield" after moving to assisted living there in 2025, with Easton
 only his childhood town; and Gary Paul Sharpe Jr., whose obituary
 states no town of residence at all.
+
+### Enfield — neighboring-town investigation, 2026-09-10
+
+Checked Enfield's own two tracked sources first. **Leete-Stevens
+Enfield Chapels** (shared site with Somers/Windsor Locks/East
+Windsor): listing page is an empty shell, but the Legacy.com/WebSearch
+workaround turned up a fresh current match, Dennis F. Sullivan Jr.,
+84, "of Enfield," died Sept. 7, 2026 — confirming the source is
+productive despite the broken listing page. **Browne Memorial Funeral
+Chapels**: also an empty shell, no matches found via the workaround.
+
+For neighboring towns, checked **Nicholson & Carmon** (Suffield,
+already tracked for Suffield/East Windsor) with no Enfield matches,
+and **East Windsor Community Funeral Home** (already tracked for East
+Windsor), which surfaced a genuine new Enfield match: Olivia Marie
+Shaw, 80, "of Enfield, CT," died June 16, 2026, a longtime Home Life
+Insurance/The Phoenix employee. Added East Windsor Community Funeral
+Home as a third tracked row for Enfield.
+
+Two candidates were checked and excluded: Margaret C. Teske, whose
+obituary states she was "formerly of Enfield" and now of Broad Brook;
+and Peter John Kramarenko, whose obituary lists Enfield only among
+several past towns with no clear statement of current residence.
