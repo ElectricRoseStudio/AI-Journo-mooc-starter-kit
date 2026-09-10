@@ -2469,3 +2469,21 @@ daughter and son-in-law, not to Fred himself, matching the established
 Collins Funeral Home spousal/relative-attribution false-positive
 pattern. About a dozen other aggregator entries traced to Suffield,
 Delray Beach FL, Cape Coral FL, or had no stated town.
+
+### Suffield — neighboring-town investigation, 2026-09-10
+
+No genuinely new neighboring-town source found, but confirmed
+Suffield's own tracked source, **Nicholson & Carmon Funeral Home**,
+solidly productive via Legacy.com's Suffield aggregator page: Jane M.
+Sheridan ("of West Suffield"), Florence W. Egan ("of Suffield"), and
+Jonathan Kyle Hansen ("of West Suffield") all confirmed directly.
+
+Reviewed roughly a dozen other names on the aggregator page with no
+Suffield match: Cheshire, South Hadley MA, Enfield, Granby ("formerly
+of"), Hartford, and one badly mistagged entry (a Fort Worth, TX
+decedent handled by a Rumford, Maine funeral home, with no Connecticut
+connection at all — a reminder that this aggregator's town-tagging can
+be wrong in surprising ways, not just adjacent-town noise). Heritage
+Funeral Home (West Suffield), Suffield's other tracked source, remains
+confirmed broken (unfilled template) from the Windsor investigation
+and wasn't independently re-checked this round.
