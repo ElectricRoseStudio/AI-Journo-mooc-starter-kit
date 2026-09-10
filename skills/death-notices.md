@@ -2257,3 +2257,27 @@ Danbury-area aggregate listing** did (Robert John Budnik).
 **Hull Funeral Home**'s listing remains stale — every entry still
 dated 2024, unchanged since the Brookfield investigation found the
 same thing. No current Danbury match.
+
+### Bethel — confirmed productive via permalink workaround, 2026-09-10
+
+Bethel's own tracked sources: Bethel Funeral Home (shared with Hull,
+stale) and Cornell Memorial's Danbury/Bethel branch (listing page
+empty shell). Confirmed the same workaround already documented for
+Cornell's shared New Milford row also applies here: individual
+obituary permalinks (`cornellmemorial.com/obituaries/{Name}?obId=...`)
+work fine even though the listing page itself renders empty — find
+them via Legacy.com/WebSearch rather than trying the listing page
+directly. Found and verified Robert Joseph Legnard, 84, "of Bethel" —
+a former Bethel Selectman and longtime Planning & Zoning Commission
+member. Jowdy Kane Funeral Home's current listing had no Bethel
+matches.
+
+One candidate was checked and excluded: Waclaw "Willy" Murdoch
+Maliszewski's Legacy.com page title tagged him "Bethel, CT," but that
+tag is inherited from the funeral home's own service-area metadata,
+not a statement in the obituary itself — the text never mentions
+Bethel and instead points to Westport (where he grew up), Pound Ridge,
+NY (where he ran a business) and New Canaan (where he was buried).
+Watch for this specific false-positive pattern (Legacy.com page-title
+town tags) going forward, distinct from the body-text false positives
+already documented elsewhere in this file.
