@@ -2305,3 +2305,19 @@ self-taught guitarist. Both found via the Legacy.com/WebSearch
 workaround; the listing page itself remains an empty shell. Updated
 the row's name to clarify it's Cornell Memorial's Brookfield branch
 and noted the repeat confirmation.
+
+### Easton — first death-notices send, 2026-09-10
+
+Sent Easton's first death-notices batch this cycle: Edward P.
+Higgins, 59, "of Easton," died June 23, 2026 (a Fairfield-area
+carpenter/contractor who died while traveling in Montana), and Joanne
+Raymond, 83, whose obituary opens "of Easton, Connecticut" despite
+also noting she'd spent 60 years in Redding — treated the direct
+opening statement as controlling. Both came from Spadaccino and Leo P.
+Gallagher & Son (Monroe), previously flagged as merely "low-yield" for
+Easton; updated that note to reflect this confirmed batch.
+
+Two candidates were excluded: Gary Lansing Orelup, "most recently of
+Fairfield" after moving to assisted living there in 2025, with Easton
+only his childhood town; and Gary Paul Sharpe Jr., whose obituary
+states no town of residence at all.
