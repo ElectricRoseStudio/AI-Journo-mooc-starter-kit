@@ -2447,3 +2447,25 @@ reside in East Windsor (Judith Nave King, "formerly of South
 Windsor"), Rocky Hill, North Windham, Delmar NY, Manchester, Enfield,
 Bourne MA, and Oldsmar FL. Aric Eastman Files reappeared here too,
 still "of Windsor Locks."
+
+### Windsor Locks — neighboring-town investigation, 2026-09-10
+
+No new neighboring-town entity found, but discovered a workaround
+that unblocks Windsor Locks' own tracked source. **Windsor Locks
+Funeral Home & Crematory (Leete-Stevens)**'s own listing page is
+broken (unfilled `{name}` template, same as Heritage/Suffield and
+Windsor Locks' Leete-Stevens sibling pages), but Legacy.com's Windsor
+Locks local aggregator page reaches the same funeral home's obituaries
+(published there as "Windsor Locks Funeral Home & Cremation
+Services") and turned up three direct current matches: Elizabeth G.
+Rockwell (78), Donna M. (Lanati) Starkey (81), and Cyril E. Roy (93),
+all stated "of Windsor Locks." Use this aggregator-page route instead
+of the funeral home's own site going forward.
+
+One candidate was checked and excluded: Fred K. Marinone, also from
+this funeral home — the only town mention in his obituary ("Erin
+Blake and her husband Terry of Windsor Locks") attaches to his
+daughter and son-in-law, not to Fred himself, matching the established
+Collins Funeral Home spousal/relative-attribution false-positive
+pattern. About a dozen other aggregator entries traced to Suffield,
+Delray Beach FL, Cape Coral FL, or had no stated town.
