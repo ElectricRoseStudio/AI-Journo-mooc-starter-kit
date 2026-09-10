@@ -2404,3 +2404,21 @@ moved away), and Father Thomas G. Sickler (died at Kimberly Hall
 North, a care facility located in Windsor, but the obituary never
 states Windsor as his home residence — facility-location, not
 residence).
+
+### East Windsor — neighboring-town investigation, 2026-09-10
+
+No genuinely new neighboring-town source found, but confirmed one of
+East Windsor's own tracked sources productive despite its
+Cloudflare-blocked listing page: **East Windsor Community Funeral
+Home**, via Diane L. Tracy, 69, stated directly "of East Windsor" in
+the obituary body.
+
+Checked Legacy.com's East Windsor aggregator page and several
+neighboring-town candidates (Samsel & Carmon/South Windsor,
+Ladd-Turkington & Carmon/Vernon, Leete-Stevens Enfield Chapels,
+Nicholson & Carmon/Suffield) — same false-positive pattern as Windsor
+and Somers: names tagged "East Windsor" by the aggregator turned out
+on inspection to actually reside elsewhere (Aric Eastman Files was "of
+Windsor Locks," George O. Spencer was "of Ellington," Heather Stearns
+was "of Enfield"). No current East Windsor resident found through any
+of these neighboring-town sources this round.
