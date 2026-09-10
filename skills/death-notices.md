@@ -2281,3 +2281,16 @@ NY (where he ran a business) and New Canaan (where he was buried).
 Watch for this specific false-positive pattern (Legacy.com page-title
 town tags) going forward, distinct from the body-text false positives
 already documented elsewhere in this file.
+
+### Redding — both tracked sources confirmed productive, 2026-09-10
+
+Sent Redding's first death-notices batch this cycle. Both of Redding's
+already-tracked sources turned out highly productive on first actual
+use: **Bouton Funeral Home** supplied four current matches (Peter
+David Nigro, Jennifer Sand Bodurtha, Michael P. Dobbins, Frederick
+Kubick), and the **Dignity Memorial Danbury-area listing** supplied
+two more (Wade William Roese, Lori Ann Rogers Acosta). Added
+confirmation notes to both rows. Nigro's obituary opens with "died
+peacefully in his home in Redding, CT" but later mentions time at
+Meadow Ridge senior living community — treated the opening statement
+as controlling since it's the more direct residence claim.
