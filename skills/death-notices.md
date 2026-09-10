@@ -2344,3 +2344,31 @@ Two candidates were checked and excluded: Margaret C. Teske, whose
 obituary states she was "formerly of Enfield" and now of Broad Brook;
 and Peter John Kramarenko, whose obituary lists Enfield only among
 several past towns with no clear statement of current residence.
+
+### Ellington — neighboring-town investigation, 2026-09-10
+
+Reconfirmed one of Ellington's own tracked sources: **Ladd-Turkington
+& Carmon Funeral Home (Vernon)**, via Kevin Paul Porter, whose
+obituary on the funeral home's own site states directly "age 72 of
+Ellington, CT."
+
+Found one genuinely new neighboring-town source: **John F. Tierney
+Funeral Home (Manchester)**, previously tracked only for Tolland.
+Confirmed via Mark Barkasy Sr., whose Legacy.com obituary (published
+by Tierney) is tagged "Ellington, CT" in the page title and states in
+the body that he and his wife "married... and raised their family in
+Ellington." Added as a fourth tracked row for Ellington.
+
+Checked but excluded: **Introvigne Funeral Home** (Stafford
+Springs) — reviewed its 16 most-recent obituaries directly (via an
+echovita.com mirror, since the funeral home's own listing page and
+Legacy.com's Ellington page both resist automated fetch); none were
+Ellington residents. A general web search had attributed three other
+names (Nancy Hart, Kirk Luthgren, Carmelo Paolo Arigno) to Introvigne,
+but that attribution could not be corroborated against the funeral
+home's own site or a direct obituary page, so those three were not
+used — treat unverified search-summary attributions of a specific
+funeral home as unconfirmed until checked against the source directly.
+**Tolland Memorial Funeral Home** shares the same 502-erroring
+platform as Burke-Fortin (already documented) and wasn't independently
+reachable this round.
