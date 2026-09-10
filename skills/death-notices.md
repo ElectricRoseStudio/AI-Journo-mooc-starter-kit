@@ -2487,3 +2487,21 @@ be wrong in surprising ways, not just adjacent-town noise). Heritage
 Funeral Home (West Suffield), Suffield's other tracked source, remains
 confirmed broken (unfilled template) from the Windsor investigation
 and wasn't independently re-checked this round.
+
+### Granby — neighboring-town investigation, 2026-09-10
+
+No new neighboring-town source found, but confirmed the shared tracked
+source for both Granby and East Granby, **Hayes-Huling & Carmon
+Funeral Home**, productive for both towns via Legacy.com's Granby
+aggregator page: Wayne M. Dow, 84, "of North Granby, CT," and Robert
+W. Latonie, 84, "of East Granby." One ambiguous case, Paul R. Thomas
+("of Windsor Locks and a longtime resident of Granby"), was excluded
+for Granby — the phrasing reads as a Windsor Locks resident now, not
+a current Granby one — though he was also handled by this same
+funeral home.
+
+About a dozen other names reviewed had no genuine Granby/East Granby
+match: Mesa, AZ; Enfield ("formerly Granby"); Worcester, MA; Wakefield,
+RI; and West Hartford ("formerly of Granby"). Neighboring towns
+Simsbury and Canton have no tracked funeral home yet, but nothing
+surfaced this round pointing toward one worth adding.
