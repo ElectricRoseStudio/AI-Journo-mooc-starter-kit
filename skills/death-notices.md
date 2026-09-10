@@ -2505,3 +2505,27 @@ match: Mesa, AZ; Enfield ("formerly Granby"); Worcester, MA; Wakefield,
 RI; and West Hartford ("formerly of Granby"). Neighboring towns
 Simsbury and Canton have no tracked funeral home yet, but nothing
 surfaced this round pointing toward one worth adding.
+
+### East Haven — neighboring-town investigation, 2026-09-10
+
+A productive round via Legacy.com's East Haven local aggregator page.
+Reconfirmed all three of East Haven's own tracked sources: **East
+Haven Memorial Funeral Home** (Sandra Derbacher, "of East Haven"),
+**Clancy-Palumbo Funeral Home & Cremation Service** (Neil Moriarty,
+"of East Haven"), and **Porto Funeral Homes** (Kurt T. Woolley, "of
+East Haven").
+
+Found three genuinely new neighboring-town sources. **Iovanne Funeral
+Home, Inc.** and **Maresca & Sons Funeral Home**, both already tracked
+for New Haven but not East Haven, turned out productive for East Haven
+too: Iovanne via two matches (Carmelina "Cookie" Rascati and Phyllis
+Massimino Verdoliva, both "of East Haven"), Maresca & Sons via Andrew
+Kardana, Ph.D. ("of East Haven, CT"). **Keenan Funeral Home** (North
+Branford) — a brand-new entity, not tracked anywhere before — was
+confirmed via James Michael Canino, "of East Haven, Connecticut."
+Added all three as new East Haven rows.
+
+Two candidates were excluded: Robert David Rascati, a relative of
+Carmelina Rascati, whose own obituary states "of Branford," not East
+Haven; and Karl Paecht, "of East Haven and Mystic, CT," excluded per
+the dual-residence rule.
