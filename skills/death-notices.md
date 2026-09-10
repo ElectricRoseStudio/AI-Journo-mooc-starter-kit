@@ -2422,3 +2422,28 @@ on inspection to actually reside elsewhere (Aric Eastman Files was "of
 Windsor Locks," George O. Spencer was "of Ellington," Heather Stearns
 was "of Enfield"). No current East Windsor resident found through any
 of these neighboring-town sources this round.
+
+### South Windsor — neighboring-town investigation, 2026-09-10
+
+Reconfirmed South Windsor's own tracked source, **Samsel & Carmon
+Funeral Home**, via Diane (Procopio) Deming, 79, stated directly "of
+South Windsor, Connecticut." The Carmon site's "Serving Location"
+filter can isolate this branch, though it did not reliably change
+results in every attempt this round — treat it as a shortcut, not a
+guarantee, and verify the individual obituary's own town statement
+regardless.
+
+Found one genuinely new neighboring-town source: **D'Esopo East
+Hartford Memorial Chapel (Dignity Memorial)**, already tracked for
+Glastonbury but not South Windsor. Confirmed via Mary Taylor, whose
+obituary states directly she "passed away... at her home in South
+Windsor, Connecticut." Added as a second tracked row for South
+Windsor.
+
+Checked Legacy.com's South Windsor aggregator page (~20 names
+reviewed) — same broad-aggregation false-positive pattern as Windsor
+and East Windsor: names tagged "South Windsor" turned out to actually
+reside in East Windsor (Judith Nave King, "formerly of South
+Windsor"), Rocky Hill, North Windham, Delmar NY, Manchester, Enfield,
+Bourne MA, and Oldsmar FL. Aric Eastman Files reappeared here too,
+still "of Windsor Locks."
