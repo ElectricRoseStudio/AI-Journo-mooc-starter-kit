@@ -3383,3 +3383,28 @@ as a contrast to Hartford and Farmington, where roughly half the
 leads had to be discarded. Avon obituaries seem to be unusually
 well-indexed and unambiguous compared to towns bordering a same-named
 neighbor (East/West/New Hartford) or a same-named out-of-state town.
+
+### Running a real Simsbury death-notices pull — Vincent Funeral Home's own listing page was enough on its own
+
+Ran the death-notices process for real (6 notices, sent to
+michael.lemanski@patch.com), no minimum specified so defaulted to 6
+per this skill's usual target. Didn't need WebSearch at all this
+time -- Vincent Funeral Home's own listing page (already tracked,
+native to Simsbury) had well over a dozen explicit Simsbury matches
+across just its first two pages, each with a clean individual Book
+of Memories page reachable via a 301 redirect
+(`vincentfuneral.frontrunnerpro.com/.../book-of-memories/{id}/{Last}-{First}/service-details.php`
+→ `memorials.vincentfuneralhome.com/{Last}-{First}/{id}/`) carrying
+rich biographical detail -- career, education, survivors. This is
+the deepest single-source listing found in the project so far.
+
+One near-miss caught by the now-standard discipline of checking each
+obituary's own opening sentence: Renee Morin looked like a Simsbury
+match in an earlier session's summary (grouped under "Simsbury
+residents" with the note "moved to Simsbury, CT with her family"),
+but her obituary's actual opening line reads "Renee MariAnge Morin,
+of Agawam, MA, passed away peacefully..." -- she'd moved to Simsbury
+as a child but was an Agawam, MA resident at death. Excluded.
+Updated the existing Simsbury row's note to record how productive
+this source turned out to be and flag the Morin near-miss for future
+reference.
