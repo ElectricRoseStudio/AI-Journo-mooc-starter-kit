@@ -2783,3 +2783,38 @@ Running tally update: **Trumbull** now has five accumulated leads
 still no `FuneralHomes.csv` row of its own — probably the next town
 worth investigating directly rather than picking up leads
 incidentally.
+
+### Madison — neighboring-town investigation, 2026-09-11
+
+Madison's own tracked source (Swan Funeral Home, town-slug URL) was
+already confirmed highly productive in the original 2026-08-21 entry
+above. Checked its neighbors — Guilford, Killingworth, Clinton — for
+additional sources.
+
+**Guilford Funeral Home** (115 Church St., Guilford — not tracked
+anywhere in this file before now) — like Frank Polke & Son and
+Morton's Mortuary documented elsewhere in this file, its listing page
+shows full excerpt text with no click-through needed. The very first
+page had a clean match: Michael T. DelVecchia, 93, "longtime resident
+of Madison," died Sept. 2, 2026, at the Masonic Health Center. Added
+as a new Madison row. Two other names on the same page were Guilford
+residents instead (Thomas William Haggarty, "lifelong resident of
+North Guilford"; John Louis Ryan, "of ... Guilford CT") — Guilford
+itself has no `FuneralHomes.csv` row yet and this funeral home is the
+obvious place to start whenever that town comes up.
+
+**Robinson Wright & Weymer Funeral Home** (Centerbrook/Essex, already
+tracked for Clinton and Killingworth) — reviewed its full current
+50-entry batch. One genuine Madison match: Patricia A. Attridge, 93,
+"died peacefully in her home in Madison," but dated March 27, 2026 —
+close to six months old, and the only Madison-tagged entry in a batch
+otherwise dominated by Essex, Chester, Old Saybrook and Deep River
+residents, consistent with this locationcode's coverage area already
+documented elsewhere in this file. Added as a new Madison row despite
+the staleness, since it's a genuine confirmed match and this
+locationcode is already tracked for two neighboring towns.
+
+Biega Funeral Home (Middletown, the other Killingworth/Clinton
+source) was not re-checked this round — its in-site search is
+already documented as unreliable, and time was better spent on the
+two sources above.
