@@ -3352,3 +3352,34 @@ Siroonian family member found nearby in the same result set -- an
 AI-summarization mixing artifact, not a source error. Caught before
 it went in the notice; only directly-stated facts about Siroonian
 himself were used.
+
+### Running a real Avon death-notices pull — easily the most productive source found all day
+
+Ran the death-notices process for real (6 notices, emailed to
+michael.lemanski@patch.com). Every candidate came from a single
+WebSearch for `"of Avon, Connecticut" OR "of Avon, CT" obituary 2026`
+-- five of the first five results it surfaced were clean, current,
+explicitly-confirmed Avon matches with rich biographical detail, no
+false positives or wrong-town tags this time (unlike Hartford and
+Farmington). Carmon Funeral Home & Family Center's native Avon
+location accounted for four of the six (Wolber-Bonafe, Peregrin,
+Huot, Nevins) plus one via its Windsor branch for an Avon resident
+(Manson) -- this one already-tracked source is turning out to be the
+single most reliable funeral home found in this whole project so
+far, worth checking first for any Hartford-area town that comes up
+short elsewhere.
+
+The sixth, Edwin "Ed" Hewitt, came from **Vincent Funeral Home**
+(already tracked for Simsbury/Canton/Burlington) -- its listing page
+doesn't cover every neighboring town (it had nothing for New Hartford
+or Barkhamsted when checked during the Canton round), but it does
+reach Avon, and the individual Book of Memories page (reached via a
+301 redirect from the listing-page link) had excellent detail: Cornell
+mechanical engineering degree, career as a nuclear engineer with ABB,
+60 years in Avon. Added as a new Avon row.
+
+No dead ends or false positives to report this round -- worth noting
+as a contrast to Hartford and Farmington, where roughly half the
+leads had to be discarded. Avon obituaries seem to be unusually
+well-indexed and unambiguous compared to towns bordering a same-named
+neighbor (East/West/New Hartford) or a same-named out-of-state town.
