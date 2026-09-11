@@ -3059,3 +3059,42 @@ Ashford, CT," died Aug. 29, 2026 -- re-fetched fresh to confirm it
 was still current rather than reusing stale data. Added as a new
 Ashford row; this one Introvigne listing page now covers five towns
 (Willington, Tolland, Stafford, Union, Ashford).
+
+### Southington's neighboring towns — Southington itself had no row, and the Dignity Memorial page turned out huge
+
+Southington borders eight towns (Bristol, Plainville, New Britain,
+Wolcott, Berlin, Waterbury, Cheshire, Meriden, per Wikipedia's
+geography section). Only Berlin and Meriden already had rows --
+Southington itself (a Patch beat) had never been added, nor had
+Bristol, Plainville, New Britain, Wolcott, Waterbury, or Cheshire
+(also a Patch beat, also missing).
+
+**DellaVecchia Funeral Home** (Southington, Dignity Memorial network,
+also serves Wolcott per its own marketing) turned out to be
+unusually productive: `dignitymemorial.com/obituaries/southington-ct`
+fetched a full 50-entry batch via WebFetch with roughly 35 current
+Southington matches, plus explicit out-of-town entries for Bristol
+(2), New Britain (1), Cheshire (1), and Meriden (2) mixed into the
+same batch -- Meriden's was redundant with the already-tracked Ferry
+row, but Bristol/New Britain/Cheshire were all new. Added four rows
+off this single fetch: Southington, Bristol, New Britain, and
+Cheshire, all pointing at the same URL.
+
+**Plainville Funeral Home** and **Woodtick Memorial Funeral Home**
+(Wolcott) were both blocked on direct fetch -- Plainville Cloudflare
+403s on curl/WebFetch, Woodtick is JS-rendered with an empty shell --
+but both confirmed productive via WebSearch (Leslie K. Mangan, 78, a
+"lifelong resident of Plainville," died Sept. 3, 2026; Barbara Ann
+D'Occhio, 85, "of Wolcott," died May 3, 2026). Added as new rows for
+their respective towns.
+
+**Waterbury** is a full city with many funeral homes (Casey, Colasanto,
+Maiorano, Bergin, Chase Parkway/Albini, and others found in a first
+search) -- not fully surveyed, since the ask here was a Southington
+cross-reference, not a Waterbury census. Picked **Maiorano Funeral
+Home** as a starting source since it turned up a clean, current,
+town-matched confirmation (Lorraine A. Gianelli, 97, "of Waterbury,"
+died Aug. 26, 2026); also Cloudflare-blocked on direct fetch. Added
+one Waterbury row with a note that it's a starting point, not
+comprehensive -- worth a deeper pass if Waterbury itself ever becomes
+the focus town rather than a neighbor.
