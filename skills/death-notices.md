@@ -3427,3 +3427,38 @@ Notable find: Mary Ball Tomolonius, one of the six, served as
 Canton's First Selectman from 2001 to 2007 -- worth knowing this
 source captures local civic figures with real biographical depth,
 not just routine notices.
+
+### Running a real Berlin death-notices pull — two "of Berlin, CT" tags turned out to be wrong
+
+Ran the death-notices process for real (6 notices, sent to
+michael.lemanski@patch.com). Both Berlin sources are whole-domain
+Cloudflare-blocked with no server-side fallback, so this was
+WebSearch-only, applying the by-now-standard discipline of reading
+each candidate's full obituary rather than trusting a snippet's town
+tag.
+
+Two leads were caught and dropped specifically because of that
+discipline, both instructive for future Berlin (or any) pulls:
+
+- **Lewis Charles Pia** -- multiple search results tagged him "of
+  Berlin, Connecticut," but his full obituary explained he grew up in
+  Berlin, then lived in Connecticut, then Newark, VT, and was a
+  resident of Munds Park, AZ (where he died) at time of death. The
+  "of [town]" tag on some funeral-home listing pages apparently
+  reflects hometown/origin in some cases, not current residence --
+  same trap as Barry Lynn Pearson in the Hartford round, but this
+  time the obituary text itself was ambiguous enough that only
+  reading the full bio caught it, not just the opening line.
+- **Claralyn Rollins** -- handled by the same Erickson-Hansen Funeral
+  Home of Berlin as several genuine Berlin matches, but her obituary
+  states she died in hospice care at her daughter's home in Granby,
+  CT, with no explicit "of Berlin" residence statement anywhere.
+  Funeral home location is not evidence of residence on its own.
+
+Also found a second native Berlin funeral home, **Erickson-Hansen
+Funeral Home of Berlin** (111 Chamberlain Hwy), not caught during the
+original Middletown-neighbors session that first added Berlin to the
+file -- confirmed productive with two clean matches after excluding
+the two false leads above. Both Berlin sources' rows updated with
+full confirmation lists and the caution about tag-vs-residence
+mismatches.
