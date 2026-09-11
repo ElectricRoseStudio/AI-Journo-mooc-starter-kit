@@ -3258,3 +3258,43 @@ geography section). All seven already had confirmed rows from
 earlier sessions today (mostly picked up during the Middletown- and
 Southington-neighbors rounds), and Berlin itself already had a row
 too. No new rows added -- second clean sweep today, after Simsbury.
+
+### Running an actual Hartford death-notices pull surfaced a real accuracy problem with the earlier Hartford row
+
+Ran the death-notices process for real (6 notices, emailed to
+michael.lemanski@patch.com) rather than just neighbor-discovery
+research, and it caught something the discovery-only passes hadn't:
+the existing Hartford row's "confirmed productive" note (from the
+Hartford-neighbors session) cited four people as Hartford matches
+based on the `dignitymemorial.com/obituaries/hartford-ct` listing
+page's own per-entry town tags. Opening the individual obituary pages
+for two of them (Joseph Skrabut, Joseph Christensen) showed their
+actual opening sentence says "East Hartford, Connecticut," not
+Hartford -- the listing page's town tag was simply wrong for those
+two. This is the same failure mode already documented for Legacy.com
+and Echovita aggregator tags elsewhere in this file, now confirmed to
+also apply to Dignity Memorial's own per-entry listing tags, not just
+third-party aggregators repackaging them.
+
+**Lesson for future death-notices runs, not just neighbor discovery:**
+a name appearing under the right town on a listing page is not
+sufficient confirmation by itself -- open the individual obituary (or
+get the AI summarizer to quote its literal opening sentence) before
+including anyone in an actual notice batch, not just during
+CSV-building research. Three separate false positives were caught
+this session this way (Skrabut, Christensen, and during a broader
+search: Jean R. Mazo tagged Hartford but actually West Hartford;
+Richard Paternostro's Hartford tag was his birthplace, actual
+residence Manchester; Barry Lynn Pearson had no residence statement
+in the obituary at all, only inferred from the funeral home's own
+city) -- all discarded rather than used.
+
+Two new confirmed-productive Hartford sources came out of finding
+replacements: **Carmon Funeral Home** (already tracked for twelve
+other towns) has a native South Green Memorial Home location in
+Hartford itself (43 Wethersfield Ave) and confirmed two matches; and
+**Dillon-Baxter Funeral Home** (already tracked for Wethersfield)
+confirmed two more. Added both as new Hartford rows. The existing
+Dignity Memorial Hartford row was corrected in place rather than
+left with the inaccurate citation -- its note now carries the
+per-entry-tag caution explicitly.
