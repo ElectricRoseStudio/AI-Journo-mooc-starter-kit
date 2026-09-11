@@ -129,10 +129,10 @@ Easton,"Spadaccino and Leo P. Gallagher & Son Community Funeral Home (Monroe, Di
 Easton,Abriola Parkview Funeral Home (Trumbull),https://abriola.com/tribute/all-services/index.html,No Funeral Home in Town
 Easton,Green's Funeral Home (Abraham L. Green and Son, Fairfield -- corrected from Danbury 2026-09-08),https://www.greensfuneralhome.com/obituaries/obituary-listings,"No Funeral Home in Town; confirmed empty shell as of 2026-09-08 (Cloudflare/rendering issue via both curl and browser), see skills/death-notices.md"
 Fairfield,Spear-Miller Funeral Home,https://www.spearmillerfuneralhome.com/obituaries,
-Fairfield,Larson Funeral Home,https://www.larsonfh.com/obituaries/obituary-listings,
-Fairfield,Frank Polke & Son Funeral Home,https://www.frankpolkeandsonfuneralhome.com/listings,
-Fairfield,Parente Funeral Home,https://www.parentefuneralhome.com/obituaries/obituary-listings,
-Fairfield,Daystar Cremation Service,https://www.daystarcremation.com/obituaries,
+Fairfield,Larson Funeral Home,https://www.larsonfh.com/obituaries/obituary-listings,"Confirmed productive 2026-09-11 (Gillian Blake Colhoun, 'of Fairfield'); renders fine via browser, not actually Cloudflare-blocked. Same address (1209 Post Rd.) as Parente below and Westport's Lesko row -- likely the same physical facility under different funeral-director names. See skills/death-notices.md"
+Fairfield,Frank Polke & Son Funeral Home,https://www.frankpolkeandsonfuneralhome.com/listings,"Confirmed productive 2026-09-11 (Costica Nedelcuta and Patricia Goyette, both 'of Fairfield'); renders fine via browser with full excerpt text on the listing page itself, no click-through needed. See skills/death-notices.md"
+Fairfield,Parente Funeral Home,https://www.parentefuneralhome.com/obituaries/obituary-listings,"Confirmed productive 2026-09-11 (Paula (Flanagan) Julian, 'of Fairfield'); renders fine via browser. Same address (1209 Post Rd.) as Larson above and Westport's Lesko row -- likely the same physical facility under different funeral-director names. See skills/death-notices.md"
+Fairfield,Daystar Cremation Service,https://www.daystarcremation.com/obituaries,"Renders via browser after a longer wait/scroll (Tukios), but listing is stale -- newest post as of 2026-09-11 dated March 2026. One candidate checked (Miyoko Burr) was a Norwalk resident. See skills/death-notices.md"
 Newtown,Honan Funeral Home,https://www.honanfh.com/newtown-ct-obituaries,"Confirmed empty shell as of 2026-09-08, see skills/death-notices.md"
 Newtown,Dignity Memorial (Danbury-area listing),https://www.dignitymemorial.com/obituaries/danbury-ct,"CSV gap fix: already tracked for Redding but never for Newtown; confirmed four current Newtown matches 2026-09-08, see skills/death-notices.md"
 Wilton,Bouton Funeral Home (Georgetown),https://www.boutonfuneralhome.com/obituaries,

@@ -2627,3 +2627,81 @@ residents, not Stratford (John F. Poppa Sr., 69; Jeanne B. Hall, 95) —
 noted here rather than discarded, since Bridgeport also has no
 `FuneralHomes.csv` row and Adzima-Stratford may be worth checking
 first when that town comes up.
+
+### Fairfield — neighboring-town investigation, 2026-09-11
+
+Fairfield already had five tracked sources (added 2026-08-21), three
+of which — Larson, Frank Polke & Son, and Parente — had never
+actually been tried via a browser and were assumed Cloudflare-blocked.
+All three turned out to render fine:
+
+**Larson Funeral Home** (1209 Post Rd.) — confirmed via Gillian Blake
+Colhoun, 64, "of Fairfield," died Aug. 19, 2026. Three other
+candidates checked on the same listing were excluded: Joan Isabelle
+Smith Crossman (grew up in Stratford, later Bridgeport, joined a
+Fairfield church in 2024 but no explicit residence statement —
+insufficient information), Dorothy Sommers (moved to Shelton in 1960,
+a Shelton lead instead), and Elinor "Chip" Ianuly (no stated residence
+for herself; her daughter is "of Southport, Connecticut," a village
+within Fairfield, but that's the relative-attribution trap, not a
+statement about Elinor). A fourth, Ruth Ann Hurd, was "of Stratford,
+CT" — a lead for Stratford, whose own tracked sources this file
+already documents above.
+
+**Frank Polke & Son Funeral Home** (39 S. Benson Rd.) — also renders
+fine, and unusually, shows full excerpt text directly on the listing
+page with no click-through needed. Two direct Fairfield matches:
+Costica Nedelcuta, 85, "of Fairfield," died Sept. 8, 2026; and
+Patricia Goyette, 81, "a lifelong resident of Fairfield" (born in
+Bridgeport), died Aug. 8, 2026. The same listing page surfaced clean
+leads for other towns not yet tracked: Bridgeport (Frusina Balamaci,
+Irene Cote), Milford (John E. Soldi Sr.), and Shelton (Simona Tudor).
+
+**Parente Funeral Home** (1209 Post Rd.) — also renders fine.
+Confirmed via Paula (Flanagan) Julian, 72, "of Fairfield," died July
+12, 2026. Two other candidates excluded: Antoinette Zangrilli ("of
+Bridgeport" — a Bridgeport lead) and Arthur Castellucci ("at his home
+in West Haven, Connecticut" despite owning the Fairfield Cab Company —
+business name, not residence) and Rosemary Del Prete ("formerly of
+Bridgeport," most recently an assisted-living resident in Waterbury).
+
+**Important finding: Larson and Parente share the exact same address**
+(1209 Post Rd., Fairfield) as each other, and that address is also on
+file for Westport's Lesko Funeral Home row. All three are almost
+certainly the same physical facility operating under different
+funeral-director business names (all three sites are also built on
+the same FuneralTech platform) — worth knowing before treating them as
+fully independent sources going forward.
+
+**Daystar Cremation Service** — same Tukios platform as elsewhere in
+this file; needed a scroll plus a ~6s wait to render, longer than a
+plain wait alone. Once rendered, though, its "recent obituaries" feed
+turned out to be stale — the newest post as of this check was dated
+March 2026. The one candidate opened (Miyoko Burr) was a Norwalk
+resident; her daughter is "of Fairfield, CT" (relative-attribution
+trap, not Miyoko's own residence).
+
+For neighboring towns, checked **Abriola Parkview Funeral Home**
+(Trumbull, already tracked for Easton and Stratford) directly: all 10
+names in its current listing were individually verified, and none
+were Fairfield residents. Instead this batch surfaced leads for
+several still-untracked towns: Milford (Craig Allyn Renz Sr.),
+Shelton (Grace Marie Silvestris; also Aileen Cleary, ambiguous — lived
+in "Weston, Westport, Fairfield, and later Shelton," no single stated
+current residence), Bridgeport (Fred R. Douglas Jr., "of Bridgeport
+and formerly of Trumbull"), and Trumbull itself (Elmer Adams; Susan
+Sipos; Joanne Lewis Schreiber, ambiguous — "passed away... in
+Trumbull, CT" after decades in Rowayton/Norwalk, unclear which was
+truly current).
+
+Also checked **Harding Funeral Home** (Westport, already tracked):
+two candidates (Jeanne Bessett, Alvin Gregory Hageman) both confirmed
+genuine Westport/Norwalk residents, no Fairfield match.
+
+Running tally of towns with no `FuneralHomes.csv` row yet but multiple
+independent leads accumulating across this file: **Bridgeport**
+(Poppa, Hall, Douglas ×2, Balamaci, Cote, Zangrilli, Del Prete),
+**Milford** (Allain, Renz, Soldi), **Shelton** (Ferron, Silvestris,
+Sommers, Tudor, Cleary), and **Trumbull** (Sipos, Adams, Schreiber).
+Worth starting any of these four with the sources already listed here
+rather than from scratch.
