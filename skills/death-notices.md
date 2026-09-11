@@ -2893,3 +2893,44 @@ listing page, the individual obituary URL
 server-side via curl, so it's usable as the Source link once a
 candidate name is found through WebSearch. Added as a new Mansfield
 row.
+
+### Manchester's neighboring towns — D'Esopo East Hartford also covers Manchester; fixed a duplicate Stafford row
+
+Checked Manchester's five bordering towns (Bolton, East Hartford,
+Glastonbury, South Windsor, Vernon, per city-data.com's nearest-towns
+list, cross-checked against known CT geography — Manchester does not
+border Andover or Tolland directly, Bolton sits between them).
+Bolton, Glastonbury, South Windsor and Vernon already had rows.
+East Hartford had none of its own, despite its Dignity Memorial URL
+already being used twice as a cross-reference (South Windsor,
+Glastonbury).
+
+**D'Esopo East Hartford Memorial Chapel (Dignity Memorial)** — the
+same `dignitymemorial.com/obituaries/east-hartford-ct` page already
+tracked for South Windsor and Glastonbury turned out to carry
+Manchester matches too: three current entries explicitly "of
+Manchester" (Kyle Malloy, 42, died Aug. 16, 2026; Timothy J. Fagan,
+72; Waida Martinez, 62), out of the same batch WebFetch returned.
+Added as a new Manchester row, and also added a standalone East
+Hartford row for the same URL/home since the town itself had no row.
+
+Two more East Hartford-area leads turned up but went nowhere this
+round: **Manchester Funeral Home** (`manchesterfh.com`, a third
+native Manchester option beyond Tierney/Holmes-Watkins) and **All
+Faith Memorial Chapel** (South Windsor, `allfaithmemorial.com`) are
+both blocked outright — 403 via curl and an empty shell via WebFetch
+for the former, 403 via WebFetch for the latter. Neither added; worth
+a browser-rendered recheck (claude-in-chrome) if either town's
+coverage needs deepening later. **Benjamin J. Callahan Funeral Home**
+(East Hartford, also Dignity Memorial network) was not added
+separately since it's presumably already folded into the same
+`east-hartford-ct` locationcode page rather than having an
+independent listing.
+
+**Housekeeping**: while checking Stafford's existing row, found it
+had been accidentally duplicated in the prior (Tolland-neighbors)
+session — one row already existed noting the site was
+Cloudflare-blocked for curl but reachable via claude-in-chrome, and a
+second row got added alongside it with the WebSearch-confirmed
+productivity note, because that session's `grep` check for existing
+rows didn't include "Stafford" itself. Merged into one row.
