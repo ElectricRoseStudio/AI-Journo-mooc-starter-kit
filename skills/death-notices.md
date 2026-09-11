@@ -3298,3 +3298,57 @@ confirmed two more. Added both as new Hartford rows. The existing
 Dignity Memorial Hartford row was corrected in place rather than
 left with the inaccurate citation -- its note now carries the
 per-entry-tag caution explicitly.
+
+### Running a real Farmington death-notices pull (applying the Hartford lesson)
+
+Ran the death-notices process for real (6 notices, emailed to
+michael.lemanski@patch.com), applying the residence-verification
+discipline learned during the Hartford run: every candidate's own
+obituary text was checked for an explicit town statement before
+inclusion, not just a search snippet or listing-page tag. Several
+leads were checked and discarded this way -- Michael J. Leary (no
+findable direct source despite an explicit "of Farmington, CT" line,
+so dropped for lack of a citable URL rather than a residence
+problem), Theresa Samolik (no matching obituary found at all),
+Genevieve Ann Clark (only tied to Ahern-Unionville and a "Farmington
+High School Alumni" aggregator page, no explicit current-residence
+statement), and Dr. Stephen H. Gordon (turned out to be tagged "West
+Hartford, CT" on Legacy.com, not Farmington -- a Molloy Funeral Home
+case, so the same funeral home does legitimately serve both towns
+and this was not a residence error on Molloy's part, just the wrong
+person for this town).
+
+The two rows already in the file (Molloy, Carmon) both got a second,
+independently-confirmed match: Thomas Arthur Dembik (82, "of
+Farmington," died May 16, via Molloy -- clean direct URL) and
+Anushka Kalpesh Patel (the same match already on file, reconfirmed
+with more biographical detail this time). Four new sources emerged:
+
+- **Funk Funeral Home** -- genuinely native to Farmington (301 Colt
+  Highway), not found in earlier sessions. JS-rendered listing, no
+  server-side content, but WebSearch confirmed Frances A. Boyea, 76,
+  "of Farmington," died March 12.
+- **Abbey Cremation Service** (Rocky Hill, already tracked for
+  Newington/East Hampton/Wethersfield) reaches Farmington too --
+  Marguerite "Maggie" DeFelice, 73, "of Farmington, previously of
+  Wethersfield," died June 27, with a very clean, detailed obituary.
+- **Ahern Funeral Home** (Unionville, a Farmington village) was a
+  known lead from the Farmington-neighbors session that never got a
+  clean confirmation -- resolved this time with Dr. Pauline Olsen,
+  89, an explicit "of Farmington, CT" match with rich biographical
+  detail (missionary physician, OB/GYN practice at St. Francis
+  Hospital for 25 years).
+- **Paradis-Givner Funeral Home** (Oxford, MA -- an out-of-state home
+  handling a Connecticut resident) confirmed Geary C. Siroonian, 71,
+  who "passed away... at his residence in Farmington, CT." No direct
+  obituary permalink could be found despite several search attempts,
+  so the CSV row and the notice itself cite Legacy.com's Farmington
+  local aggregator page instead -- weaker sourcing than the other
+  five, flagged as such in both places.
+
+Also worth noting: one WebSearch result tried to backfill Siroonian's
+survived-by details from an unrelated 2009 obituary for a different
+Siroonian family member found nearby in the same result set -- an
+AI-summarization mixing artifact, not a source error. Caught before
+it went in the notice; only directly-stated facts about Siroonian
+himself were used.
