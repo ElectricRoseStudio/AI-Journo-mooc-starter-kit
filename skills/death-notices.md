@@ -2975,3 +2975,44 @@ Sept. 8, 2026). Meriden Memorial Funeral Home
 (`meridenmemorialfh.com/obits`) was also checked as a second Meriden
 option but its listing is JS-rendered with no server-side content and
 no confirmed match was found for it this round -- not added.
+
+### Glastonbury's neighboring towns — Marlborough and Hebron were the gaps; Carmon went Cloudflare-blocked mid-session
+
+Glastonbury borders ten towns (East Hartford, Wethersfield, Rocky
+Hill, Cromwell, Portland, East Hampton, Marlborough, Hebron, Bolton,
+Manchester, per Wikipedia's geography section). Eight of the ten
+already had rows (several added in earlier sessions this same day);
+Marlborough and Hebron -- neither a Patch beat, same pattern as
+Bolton/Coventry -- had none.
+
+**Carmon Funeral Home** (`carmonfuneralhome.com`, already tracked
+productive for eight other towns under various branded names --
+Vernon/Ellington/Tolland, South Windsor, Windsor, Suffield, Granby,
+East Granby) turned Cloudflare-blocked partway through this session:
+earlier fetches on this domain (Manchester and Middletown rounds)
+worked fine, but by the time this round tried it, both curl and
+WebFetch got a 403 with a `__cf_bm` cookie, even on individual
+obituary permalinks. Confirmed productive for Marlborough anyway via
+WebSearch result titles alone -- two obituary permalinks on this
+domain explicitly titled "Marlborough, CT" (Lloyd L. Folsom Jr.,
+Thomas James McIntosh). Added as a new Marlborough row with the
+block noted; worth retrying direct access on a later session in case
+this was a temporary rate-limit rather than a permanent change.
+
+**Mulryan Funeral Home** (Glastonbury, already tracked but unreachable
+due to an unresolved 303 redirect) turned up a Marlborough tribute
+page via WebSearch (Margaret A. Weber) -- consistent with its address
+being on Hebron Ave, close to both Hebron and Marlborough. Added as a
+second Marlborough row, still flagged unconfirmed live since the
+redirect issue means the source itself hasn't been directly checked.
+
+**Aurora-McCarthy Funeral Home** (Colchester) came up for both Hebron
+and Marlborough in earlier searches (this round confirmed it for
+Hebron specifically). Whole domain is Cloudflare-blocked -- curl and
+WebFetch both 403, including individual obituary URLs, so no
+server-side fallback like Potter/Cromwell had. The only WebSearch
+match found with an explicit town match was dated (Vivian Lajoie
+Horton, "longtime resident of Hebron," died June 2024) -- added as a
+Hebron row anyway since it confirms the source is genuinely
+Hebron-productive, but flagged as stale; worth re-checking for a
+current match once the block is worked around (browser rendering).
