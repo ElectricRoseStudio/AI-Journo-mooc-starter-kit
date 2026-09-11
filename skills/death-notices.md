@@ -3098,3 +3098,42 @@ died Aug. 26, 2026); also Cloudflare-blocked on direct fetch. Added
 one Waterbury row with a note that it's a starting point, not
 comprehensive -- worth a deeper pass if Waterbury itself ever becomes
 the focus town rather than a neighbor.
+
+### Hartford's neighboring towns — Hartford itself was missing, and its Dignity Memorial URL turned out to be the East Hartford page in disguise
+
+Hartford borders eight towns (West Hartford, Newington, Wethersfield,
+East Hartford, Bloomfield, South Windsor, Glastonbury, Windsor, per
+Wikipedia's geography section). Six already had rows from earlier
+sessions; Hartford itself (a Patch beat) had never been added, nor
+had West Hartford (also a Patch beat) or Bloomfield (not a beat).
+
+**Hartford** — tried several native options first (De Leon Funeral
+Home, Hartford Community Funeral Home, H.K. Hunter/Howard K. Hill)
+and all were blocked or empty-shell. Then tried
+`dignitymemorial.com/obituaries/hartford-ct` on a hunch, since the
+East Hartford variant of this URL was already known productive --
+and it turned out to return the *same* batch as
+`east-hartford-ct` (same D'Esopo East Hartford Memorial Chapel
+locationcode), just with a few genuine Hartford entries mixed into
+the East Hartford-dominated feed (Leonardo Dominguez Vargas, 53;
+Martina Nicolette Miller, 70; James "Jim" M. Sullivan, 74; Maureen T.
+Moriarty, 75). Added as a new Hartford row on the `hartford-ct` URL,
+noting it's the same underlying feed as the East Hartford/South
+Windsor/Glastonbury/Manchester rows.
+
+**West Hartford** — Molloy Funeral Home confirmed via WebSearch
+(Nancy Jo (Merrick) Hoffman, "from West Hartford, CT," died Aug. 3,
+2026), but Cloudflare-blocked on the whole domain, including the
+individual obituary permalink found in the search result. Maple Hill
+Chapels/Talarski Funeral Home (same 906 Farmington Ave address --
+worth double-checking these aren't actually the same business under
+two names) was also blocked and not separately added.
+
+**Bloomfield** — Howard K. Hill Funeral Services is the natural
+native pick (`hkhfuneralservices.com`, also serves Hartford/New
+Haven) but is Cloudflare-blocked, and WebSearch didn't turn up a
+town-matched obituary specifically credited to it. Instead found a
+confirmed Bloomfield match (Catherine Alphra Wooden Bailey-Calloway,
+91, died Aug. 14, 2026) handled by Carmon Funeral Home -- already
+tracked productive for nine other towns. Added as a tenth Carmon row
+rather than pursuing Howard K. Hill further.
