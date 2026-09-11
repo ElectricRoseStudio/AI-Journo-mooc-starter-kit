@@ -2934,3 +2934,44 @@ Cloudflare-blocked for curl but reachable via claude-in-chrome, and a
 second row got added alongside it with the WebSearch-confirmed
 productivity note, because that session's `grep` check for existing
 rows didn't include "Stafford" itself. Merged into one row.
+
+### Middletown's neighboring towns — Cromwell, Berlin, Meriden were the gaps
+
+Middletown borders eight towns (Cromwell, Portland, East Hampton,
+Haddam, Durham, Middlefield, Berlin, Meriden, per Wikipedia's
+geography section — Portland and East Hampton are across the
+Connecticut River with no land border, but already tracked as
+neighboring-town sources anyway). Portland, East Hampton, Haddam,
+Durham and Middlefield already had rows; Cromwell, Berlin and Meriden
+had none, despite Berlin and Meriden both being Patch beats.
+
+**Cromwell** — turned out to already be covered without a dedicated
+row: Doolittle Funeral Service (tracked for Middletown/Portland/
+Durham/Middlefield/Rocky Hill/Haddam) does business locally as
+"Cromwell Funeral Home" from a Cromwell address (506 Main St).
+Confirmed productive via WebSearch (Woodrow "Bill" Wilson, 88, died
+at his home "in Cromwell" Aug. 17, 2026 -- cross-checked against the
+same name/age/date appearing directly in a Doolittle/Cromwell
+listing search, not just a generic Cromwell obituary aggregator).
+Added as a new Cromwell row pointing at the same listings URL.
+
+**Berlin** — Berlin Memorial Funeral Home (Kensington, a village
+within Berlin) is Cloudflare-protected on the whole domain: curl gets
+a 403 with a `__cf_bm` cookie, and WebFetch is also blocked here --
+notably different from the Potter Funeral Home / Mansfield case,
+where the listing page was blocked but individual obituary pages
+still worked server-side. No such fallback found for Berlin Memorial;
+even the individual obituary URL from the WebSearch result 403'd via
+curl. Confirmed productive via WebSearch only (Daniel A. Brauer, 75,
+"of Berlin, Connecticut," died Jan. 2, 2026). Added as a new Berlin
+row with the blocked status noted, matching the existing Waterford
+sources that are "confirmed productive, not yet retried via browser."
+
+**Meriden** — John J. Ferry & Sons Funeral Home was already
+referenced for Middlefield but never confirmed or given its own
+Meriden row. Blocked to curl/WebFetch (403). Confirmed productive via
+WebSearch (Margaret "Peggy" Ann Fountain, 82, "of Meriden, CT," died
+Sept. 8, 2026). Meriden Memorial Funeral Home
+(`meridenmemorialfh.com/obits`) was also checked as a second Meriden
+option but its listing is JS-rendered with no server-side content and
+no confirmed match was found for it this round -- not added.
