@@ -3408,3 +3408,22 @@ as a child but was an Agawam, MA resident at death. Excluded.
 Updated the existing Simsbury row's note to record how productive
 this source turned out to be and flag the Morin near-miss for future
 reference.
+
+### Running a real Canton death-notices pull — same source, much sparser per page
+
+Ran the death-notices process for real (6 notices, sent to
+michael.lemanski@patch.com), same Vincent Funeral Home listing
+already tracked for Canton. Unlike Simsbury (which had a dozen-plus
+matches on the first two pages), Canton only yielded 4 explicit
+matches on the first `&start=0` page and needed three more page
+offsets (`&start=20`, `&start=40`, `&start=60`) to reach 6 --
+roughly one Canton match per 20-result page versus several per page
+for Simsbury, consistent with Canton being the smaller of Vincent's
+two named locations. Updated the row's note with this pacing detail
+so a future Canton pull knows to expect paging through the listing
+rather than finding six on the first screen.
+
+Notable find: Mary Ball Tomolonius, one of the six, served as
+Canton's First Selectman from 2001 to 2007 -- worth knowing this
+source captures local civic figures with real biographical depth,
+not just routine notices.
