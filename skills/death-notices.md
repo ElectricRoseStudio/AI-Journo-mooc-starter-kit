@@ -3137,3 +3137,39 @@ confirmed Bloomfield match (Catherine Alphra Wooden Bailey-Calloway,
 91, died Aug. 14, 2026) handled by Carmon Funeral Home -- already
 tracked productive for nine other towns. Added as a tenth Carmon row
 rather than pursuing Howard K. Hill further.
+
+### Farmington's neighboring towns — Farmington itself had no row; Molloy and Carmon both stretch that far
+
+Farmington borders seven towns/cities (Avon, Burlington, Newington,
+West Hartford, Plainville, New Britain, Bristol, per Wikipedia's
+geography section). Four already had rows; Farmington itself (a
+Patch beat) and Avon (also a beat) had none, and Burlington (not a
+beat, pop. ~9,600) had none either.
+
+**Farmington** — Ahern Funeral Home (Unionville, a village within
+Farmington -- same domain checked and ruled out as a false-positive
+lead during the earlier Union/Willington round, this time genuinely
+relevant) is Cloudflare-blocked, and WebSearch turned up several
+names "cared for by Ahern... Unionville" without an explicit "of
+Farmington" residence line, so it wasn't added on that basis alone.
+Instead found two already-tracked sources reach Farmington directly:
+**Molloy Funeral Home** (West Hartford, already tracked there) --
+Donald Haupt, 85, "of Farmington," died May 19, 2026 -- and **Carmon
+Funeral Home** (already tracked for ten other towns) -- Anushka
+Kalpesh Patel, 13, "of Farmington, Connecticut," died June 2, 2026.
+Added both as new Farmington rows rather than pursuing Ahern further.
+
+**Avon** — Carmon Funeral Home & Family Center has its own branded
+Avon location (301 Country Club Rd), confirmed via WebSearch (Lynn
+Sorensen, 80, "of Avon, CT," died March 9, 2026). Added as an
+eleventh-and-twelfth-town Carmon row (Avon and Farmington both landed
+in this same round).
+
+**Burlington** — no dedicated source found. WebSearch turned up
+obituary aggregator pages and one named decedent (Lillian Tarnawsky,
+57, died Sept. 4, 2026) but no funeral home credited for her or
+anyone else specifically "of Burlington." Not added; worth trying
+again with a Bristol-area or Farmington-area source once one of
+those is confirmed to reach this far, or via browser rendering on
+Burlington-adjacent JS-shell sites already flagged elsewhere in this
+file.
