@@ -3214,3 +3214,38 @@ Bloomfield/Avon via Carmon, Canton via Vincent), and Simsbury itself
 was added in the immediately preceding Avon-neighbors session. No new
 rows added -- this is the first neighboring-town check today to come
 back with the whole set already closed.
+
+### Canton's neighboring towns — New Hartford and Barkhamsted were the gaps; caught a bad town tag along the way
+
+Canton borders six towns (Granby, Simsbury, Avon, Burlington, New
+Hartford, Barkhamsted, per Wikipedia's geography section). Granby,
+Simsbury, Avon and Burlington already had rows; New Hartford and
+Barkhamsted (neither a Patch beat) had none.
+
+**Montano-Shea Funeral Home** (New Hartford, also serves Winsted) is
+Cloudflare-blocked but confirmed productive for both towns via
+WebSearch: New Hartford (Genevieve Delis Jarm, 100, "of New
+Hartford," died Aug. 13, 2026) and Barkhamsted (Robert J. Stadler
+III, 87, "lived in Barkhamsted with his family since 1965," died
+Feb. 9, 2026). Added as new rows for both towns.
+
+A WebSearch result also surfaced a second apparent Barkhamsted
+source -- Hayes-Huling & Carmon Funeral Home (already tracked for
+Granby/East Granby), via a Legacy.com listing titled "Peter D. Ransom
+Obituary (2026) - Barkhamsted, CT." Checked the actual obituary text
+before trusting the title: it says "Peter Donald Ransom, 71, of East
+Hartland, Connecticut" -- East Hartland is a village in Hartland, not
+Barkhamsted. Legacy.com's own town tagging was wrong here (same
+caution already documented elsewhere in this file for Dignity
+Memorial and other aggregator pages -- check the obituary text, not
+just the page's own town label). Not added as a Barkhamsted source;
+worth revisiting Hayes-Huling & Carmon for Hartland specifically if
+that town ever comes up as a neighbor to check.
+
+Also checked whether Vincent Funeral Home (already tracked for
+Simsbury/Canton/Avon/Burlington) reaches New Hartford or Barkhamsted
+directly, since a WebSearch result described its service area as
+covering both, plus Harwinton and Hartland -- but the same listing
+page fetched for the Avon-neighbors session had no current entries
+for either town. Not added on that source; Montano-Shea covers both
+confirmed instead.
