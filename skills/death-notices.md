@@ -3173,3 +3173,32 @@ again with a Bristol-area or Farmington-area source once one of
 those is confirmed to reach this far, or via browser rendering on
 Burlington-adjacent JS-shell sites already flagged elsewhere in this
 file.
+
+### Avon's neighboring towns — Vincent Funeral Home resolved Simsbury, Canton, and the Burlington dead end all at once
+
+Avon borders six towns (Bloomfield, Burlington, Canton, Farmington,
+Simsbury, West Hartford). Bloomfield, Farmington and West Hartford
+already had rows; Canton and Simsbury (both Patch beats) had none,
+and Burlington was a known dead end from the Farmington-neighbors
+session.
+
+**Vincent Funeral Home** has branded locations in both Simsbury and
+Canton, and its obituary listing lives on a direct
+`vincentfuneral.frontrunnerpro.com` subdomain rather than going
+through a consumer-facing proxy domain -- this fetched cleanly via
+WebFetch on the first try, in contrast to the broken
+`smallandpietrasfuneralhome.com/runtime.php` proxy already documented
+for Burke-Fortin (Vernon) and the Cromwell/Tolland Memorial rows,
+which is the same underlying FrontRunner platform (SiteId 14689) just
+502ing through its own domain. Worth trying the equivalent direct
+`frontrunnerpro.com` subdomain for that group next time it comes up,
+in case it bypasses the same outage the way it did here.
+
+Confirmed all three towns from one fetch of this single listing
+page: Simsbury (Ronald Robert Daigle, 81, "of Simsbury, Connecticut,"
+died June 17, 2026), Canton (Ian Christopher Jason Clarke, 52, "of
+Canton," died July 1, 2026), and -- unprompted, just checked on a
+hunch since Vincent's service area plausibly extended that far --
+Burlington (David J. Black, "a resident of Burlington since 1977,"
+died July 10, 2026), finally closing the gap flagged as unresolved
+last session. Added as three new rows, all pointing at the same URL.
