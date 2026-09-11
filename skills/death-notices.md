@@ -3016,3 +3016,32 @@ Horton, "longtime resident of Hebron," died June 2024) -- added as a
 Hebron row anyway since it confirms the source is genuinely
 Hebron-productive, but flagged as stale; worth re-checking for a
 current match once the block is worked around (browser rendering).
+
+### Stafford's neighboring towns — Union was the only real gap
+
+Stafford borders four CT towns -- Union and Willington to the east,
+Ellington and Somers to the west -- plus the Massachusetts line to
+the north (not pursued; this file only tracks CT sources). Tolland
+also borders Stafford (confirmed on Tolland's own Wikipedia page,
+despite one search result claiming otherwise) and was already
+tracked from an earlier session today. Willington, Ellington and
+Tolland already had rows; Somers had one untested row; Union (pop.
+~800, no funeral home of its own and not a Patch beat) had none.
+
+**Union** — no WebSearch results turned up anything specific to
+"Union, CT" obituaries (the town is small enough, and "Unionville" --
+a Farmington village -- kept polluting results). But Introvigne
+Funeral Home's listing page, already tracked for Willington/Tolland/
+Stafford, already had a live Union match sitting in the same
+five-entry batch fetched during the Tolland-neighbors session: Dona
+L. (Howlett) Corsini, 92, "resident of Union, CT," died Aug. 29,
+2026. Added as a new Union row pointing at the same URL -- this one
+listing page now covers four different towns' rows.
+
+**Somers** (existing row, never confirmed) — the listing page
+(`leetestevens.com/obituary-listing`) returns only template
+placeholders (`{name}`, `{date}`) via WebFetch, no real content, a
+templating/rendering issue rather than a block. Confirmed productive
+via WebSearch instead (Donna K. (Bridge) Bailey, 71, "of Somers, CT,"
+died April 20, 2026). Updated the existing row with this note rather
+than adding a duplicate.
