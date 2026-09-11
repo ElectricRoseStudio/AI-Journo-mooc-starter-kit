@@ -3249,3 +3249,12 @@ covering both, plus Harwinton and Hartland -- but the same listing
 page fetched for the Avon-neighbors session had no current entries
 for either town. Not added on that source; Montano-Shea covers both
 confirmed instead.
+
+### Berlin's neighboring towns — already fully covered, no changes made
+
+Berlin borders seven towns (New Britain, Newington, Rocky Hill,
+Southington, Cromwell, Meriden, Middletown, per Wikipedia's
+geography section). All seven already had confirmed rows from
+earlier sessions today (mostly picked up during the Middletown- and
+Southington-neighbors rounds), and Berlin itself already had a row
+too. No new rows added -- second clean sweep today, after Simsbury.
