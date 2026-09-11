@@ -2574,3 +2574,56 @@ re-verification before relying on it for a specific notice.
 Excluded: Louis Michael Adinolfi Jr. (actually "of North Branford,"
 though born in New Haven), Edwin Martin Gibson III (Vero Beach, FL),
 George O. Spencer (Ellington), and Motley Davis (Easton, PA).
+
+### Stratford — neighboring-town investigation, 2026-09-11
+
+Stratford had no `FuneralHomes.csv` row of any kind before this
+session. Checked its own funeral homes via Legacy.com's Stratford
+aggregator page and found it unusually productive — three working
+sources confirmed in one pass:
+
+**Adzima Funeral Home - Stratford** (50 Paradise Green Place) —
+confirmed via Arlene Marie Sopp, 77, "of Stratford," a lifelong
+resident (with the exception of four years in Sevierville, TN), died
+Sept. 4, 2026. Worth flagging: this is a genuinely separate business
+from Edward F. Adzima Funeral Home in Derby (already tracked for
+Oxford) despite the near-identical name and shared "Adzima" branding
+— don't conflate the two rows.
+
+**William R. McDonald Funeral Home** (2591 Main St.) — confirmed via
+Francis "Bud" Hewitt, 89, "of the Lordship section of Stratford," a
+lifetime Lordship resident, died Sept. 4, 2026. Lordship is a village
+within the town of Stratford, same pattern as Broad Brook/East
+Windsor and Uncasville/Montville documented elsewhere in this file.
+
+**Galello-Luchansky Funeral & Cremation Services** (2220 Main St.) —
+confirmed via Larry J. Allain, "a long time resident of Milford &
+Stratford," a retired 30-year Metro North veteran, died Aug. 26,
+2026. His dual-town residence also makes this a lead worth trying for
+Milford, which likewise has no `FuneralHomes.csv` row yet.
+
+**Pistey Funeral Home** — one candidate checked (Edward DeSousa) and
+excluded: his obituary states he "passed away in his home in Orange,
+CT," with only his memorial visitation and funeral Mass held in
+Stratford — a funeral-location-vs-residence trap, same shape as the
+Duksa/Newington and Dillon-Baxter/Wethersfield cases earlier in this
+file. Not yet confirmed productive for Stratford; worth another check
+with a different candidate before ruling it out.
+
+For neighboring towns, checked **Abriola Parkview Funeral Home**
+(Trumbull, already tracked for Easton) directly: of its current
+10-entry listing, one was a genuine Stratford match — Desilia Cadet,
+94, "of Stratford, Connecticut," died Sept. 3, 2026 — individually
+verified via her permalink rather than trusted from the listing
+alone. Added as a second Stratford row. The other nine names on that
+same listing resolved to Trumbull (Susan Sipos, explicitly "of
+Trumbull" despite the funeral home's own town), Shelton (Cornel
+Ferron), and Ansonia ("formerly of Stratford" — Stella Shandrowski,
+excluded per this file's formerly-of rule) — worth revisiting this
+same listing as a lead for Shelton's own investigation.
+
+Two matches surfaced on Adzima-Stratford's listing that were Bridgeport
+residents, not Stratford (John F. Poppa Sr., 69; Jeanne B. Hall, 95) —
+noted here rather than discarded, since Bridgeport also has no
+`FuneralHomes.csv` row and Adzima-Stratford may be worth checking
+first when that town comes up.
