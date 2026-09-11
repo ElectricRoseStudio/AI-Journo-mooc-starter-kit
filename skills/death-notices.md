@@ -2748,3 +2748,38 @@ Jr., 85), **Frank Polke & Son, Fairfield** (Frusina "Sina" Balamaci,
 listing, was excluded here as she should have been for Bridgeport too
 — "formerly of Bridgeport," a recent Waterbury assisted-living
 resident.
+
+### Westport — neighboring-town investigation, 2026-09-11
+
+Checked **Spear-Miller Funeral Home** (Fairfield, already tracked for
+Fairfield) directly, per the shared multi-town feed already flagged
+in this file's original Fairfield section. Confirmed a genuine
+Westport match: Katherine Christopher Caulfield, 84, "a longtime
+resident of Westport, Connecticut" for 46 years (a retired reading
+teacher in Westport schools), died Aug. 17, 2026. Added as a new
+Westport row.
+
+The other eight names checked on the same listing all resolved
+elsewhere, none to Westport: Fairfield (Judith Anne Boland Caruso, "a
+longtime Fairfield resident"; Steven J. Palmer, who "grew up in
+Fairfield, where he lived the rest of his life," despite a career as
+planning director in Westport, Bethel and New Canaan — career
+location, not residence; Katherine Caulfield's own listing-neighbor
+Erik L. Peterson, who moved from Norwalk to Fairfield in 1991; and
+Rosemarie Roberge, ambiguous), Trumbull (Dolores Marie (Boudreau)
+Abbott, "of Trumbull," born in Fairfield; Kelly Murray Schempp, "of
+Trumbull, formerly of Fairfield" — two more names for Trumbull's
+growing lead pile), and Stratford (Julian "Juice" Hernandez, "of
+Stratford, formerly of Norwalk").
+
+Also checked **Bouton Funeral Home** (Georgetown, already tracked for
+Weston and Wilton): its current 12-name listing had two already-known
+Redding matches (Michael P. Dobbins, Deborah K. McCarthy) and one
+Darien resident (Lance Charles Griswold), but no Westport match among
+the names checked.
+
+Running tally update: **Trumbull** now has five accumulated leads
+(Sipos, Adams, Schempp, Abbott, and the ambiguous Schreiber) with
+still no `FuneralHomes.csv` row of its own — probably the next town
+worth investigating directly rather than picking up leads
+incidentally.
