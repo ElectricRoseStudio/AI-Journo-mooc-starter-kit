@@ -2861,3 +2861,35 @@ searching for this town — "Iannotti Funeral Home at Maple Root" comes
 up prominently in searches for Coventry obituaries but is a Rhode
 Island funeral home; a "Coventry" hit needs the state confirmed
 before treating it as a CT source.
+
+### Tolland's neighboring towns (Mansfield, Stafford) — Introvigne serves Tolland directly, Potter is another GriefSteps site
+
+Checked Tolland's six bordering towns (Coventry, Ellington, Mansfield,
+Stafford, Vernon, Willington, per Wikipedia's geography section).
+Coventry, Ellington, Vernon and Willington already had rows;
+Mansfield and Stafford had none.
+
+**Introvigne Funeral Home** (Stafford Springs, already tracked for
+Willington but not yet confirmed there) turned out to be directly
+useful for Tolland itself: its listing page
+(`introvignefuneralhome.com/obituaries/`) renders server-side and
+fetched cleanly via WebFetch, and the very first page had a live
+Tolland match — Christy Rose Healy, 36, "resident of Tolland, CT,"
+died Aug. 25, 2026 — plus a Stafford match on the same page (Dorothy
+"Dottie" P. Cheman, 87). Added new Tolland and Stafford rows for it.
+Worth re-checking this same page for Willington the next time that
+town comes up, since it's already reachable and unconfirmed there.
+
+**Potter Funeral Home** (Willimantic, serves Mansfield/Storrs) —
+listing page is JS-rendered with no server-side content (WebFetch
+returns a shell; curl gets 200 but the 192KB response has no
+obituary text in it), and grepping the HTML found the same
+`griefsteps`-branded widget as Bolton Funeral Home's site (a second
+funeral home on that platform, not the FrontRunner one). Confirmed
+productive via WebSearch instead (Joan Carolyn Nieforth, 89, "of
+Mansfield, Connecticut," died March 15, 2026) — and unlike the
+listing page, the individual obituary URL
+(`potterfuneralhome.com/obituaries/joan-c-nieforth`) fetches fine
+server-side via curl, so it's usable as the Source link once a
+candidate name is found through WebSearch. Added as a new Mansfield
+row.
