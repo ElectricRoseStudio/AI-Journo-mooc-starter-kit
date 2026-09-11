@@ -3045,3 +3045,17 @@ templating/rendering issue rather than a block. Confirmed productive
 via WebSearch instead (Donna K. (Bridge) Bailey, 71, "of Somers, CT,"
 died April 20, 2026). Updated the existing row with this note rather
 than adding a duplicate.
+
+### Willington's neighboring towns — Ashford was the only remaining gap
+
+Willington borders six towns: Stafford and Union to the north,
+Ashford to the east, Mansfield to the south, Tolland and Ellington to
+the west. By this point in the day's run of neighboring-town checks,
+five of the six already had rows -- only Ashford (not a Patch beat)
+was missing, and it turned out to already be sitting in data pulled
+during the Tolland/Stafford sessions: Introvigne Funeral Home's
+listing page has a fifth entry, Carol A. Lagrotteria, 70, "of
+Ashford, CT," died Aug. 29, 2026 -- re-fetched fresh to confirm it
+was still current rather than reusing stale data. Added as a new
+Ashford row; this one Introvigne listing page now covers five towns
+(Willington, Tolland, Stafford, Union, Ashford).
