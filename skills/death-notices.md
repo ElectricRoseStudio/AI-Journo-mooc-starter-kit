@@ -2818,3 +2818,46 @@ Biega Funeral Home (Middletown, the other Killingworth/Clinton
 source) was not re-checked this round — its in-site search is
 already documented as unreliable, and time was better spent on the
 two sources above.
+
+### Vernon's neighboring towns (Bolton, Coventry) — Bolton Funeral Home (Duda/GriefSteps)
+
+Checked Vernon's six bordering towns (Bolton, Tolland, Manchester,
+Ellington, Coventry, South Windsor, per vernon-ct.gov's own
+"Neighboring Town Notices" list) for funeral home coverage. Tolland,
+Manchester, Ellington and South Windsor already had rows; Bolton and
+Coventry had none.
+
+**Bolton Funeral Home** (`boltonfuneralhome1945.com/obituaries`) — a
+native Bolton source, but unreachable: curl (browser UA) gets a 403
+from nginx, and WebFetch returns a real page shell with no obituary
+entries. The site runs on Duda (`window.Parameters.SiteType` decodes
+to a Duda constant) with a "GriefSteps" obituary widget, not the
+FrontRunner platform documented elsewhere in this file — the
+`get-records-additional.php` API pattern used for Adzima/Lester Gee
+does not apply here, and no equivalent JS API endpoint was found in
+the static HTML. Note as unreachable rather than retrying.
+
+**John F. Tierney Funeral Home** (Manchester, already tracked for
+Manchester/Ellington/Tolland) confirmed productive for Bolton via
+WebSearch (not a direct fetch): Roger Whitney Wilson, 77, "of
+Bolton," died March 16, 2026, arrangements by Tierney. Added as a new
+Bolton row.
+
+**Coventry-Pietras Funeral Home** (2665 Boston Tpke, Coventry) turned
+out to be the same "Small & Pietras Funeral Home" group as Vernon's
+own Burke-Fortin and Tolland's Tolland Memorial — all three share
+SiteId 14689 on the same FrontRunner backend
+(`smallandpietrasfuneralhome.com`), which has been returning 502 on
+the listing path since at least 2026-08-21 and still was as of
+2026-09-11. Tried the `pietrasfh.frontrunnerpro.com/runtime/14689/ims/`
+subdomain directly as a possible working alternative — it responds
+200, but it's the staff login page ("IMS Login"), not a public
+listing; no public workaround found. Added as a Coventry row anyway
+since it documents the outage is shared across all three locations,
+not Vernon-specific.
+
+Watch for the Coventry, CT / Coventry, RI name collision when
+searching for this town — "Iannotti Funeral Home at Maple Root" comes
+up prominently in searches for Coventry obituaries but is a Rhode
+Island funeral home; a "Coventry" hit needs the state confirmed
+before treating it as a CT source.
