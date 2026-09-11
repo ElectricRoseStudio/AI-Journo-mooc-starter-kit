@@ -3202,3 +3202,15 @@ hunch since Vincent's service area plausibly extended that far --
 Burlington (David J. Black, "a resident of Burlington since 1977,"
 died July 10, 2026), finally closing the gap flagged as unresolved
 last session. Added as three new rows, all pointing at the same URL.
+
+### Simsbury's neighboring towns — already fully covered, no changes made
+
+Simsbury borders five towns (Granby, East Granby, Bloomfield, Avon,
+Canton, per WebSearch cross-referencing multiple sources -- Hartland
+is nearby but does not directly border Simsbury despite once being
+part of it historically). All five already had confirmed rows from
+earlier sessions today (Granby/East Granby via Hayes-Huling & Carmon,
+Bloomfield/Avon via Carmon, Canton via Vincent), and Simsbury itself
+was added in the immediately preceding Avon-neighbors session. No new
+rows added -- this is the first neighboring-town check today to come
+back with the whole set already closed.
