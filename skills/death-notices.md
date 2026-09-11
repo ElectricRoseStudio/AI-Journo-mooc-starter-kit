@@ -2705,3 +2705,46 @@ independent leads accumulating across this file: **Bridgeport**
 Sommers, Tudor, Cleary), and **Trumbull** (Sipos, Adams, Schreiber).
 Worth starting any of these four with the sources already listed here
 rather than from scratch.
+
+### Bridgeport — added to `FuneralHomes.csv` 2026-09-11
+
+Bridgeport had no row of its own, but the Stratford, Trumbull and
+Fairfield investigations above had already turned up several verified
+Bridgeport residents as a side effect. Checked Bridgeport's own
+funeral homes directly and confirmed two more sources, for six total
+without a single new death-notices send needed:
+
+**Morton's Mortuary** — renders with full excerpt text right on the
+listing page, no click-through needed (same convenient pattern as
+Frank Polke & Son in Fairfield). Two clean matches: Rev. Dr. Milicent
+J. Coburn, 78, "of Bridgeport," died Sept. 6, 2026; Shirley Ilene
+Pitts, 70, "of Bridgeport," died Aug. 25, 2026, at home. One name on
+the same page, Gary Paul Sharpe Jr., is the same "no stated town of
+residence" exclusion already documented in this file's Easton
+section — same person, same funeral home, same verdict.
+
+**Commerce Hill Radozycki Funeral Home** — confirmed via Evangeline
+Minos Exis, 100, "of Bridgeport," died Sept. 4, 2026, a Holy Trinity
+Greek Orthodox Church parishioner.
+
+**George J. Peterson Funeral Home** — renders fine via browser but is
+badly stale: the newest post as of this check was dated **December
+2021**, nearly five years old. Not usable as a current source.
+
+**Community Funeral Chapels** — confirmed empty shell (Tukios
+platform), no content rendered even after a scroll and an extended
+wait, same failure mode as Daystar (Fairfield) before its longer-wait
+fix — worth retrying with the scroll-then-wait sequence on a future
+check rather than assuming it's permanently broken.
+
+The other four sources are neighboring-town funeral homes already
+tracked elsewhere in this file, each reconfirmed via the Bridgeport
+match(es) found during that town's own investigation: **Adzima
+Funeral Home - Stratford** (John F. Poppa Sr., 69; Jeanne B. Hall,
+95), **Abriola Parkview Funeral Home, Trumbull** (Fred R. Douglas
+Jr., 85), **Frank Polke & Son, Fairfield** (Frusina "Sina" Balamaci,
+97; Irene Cote, 83), and **Parente Funeral Home, Fairfield**
+(Antoinette Zangrilli, 89). Rosemary Del Prete, from Parente's
+listing, was excluded here as she should have been for Bridgeport too
+— "formerly of Bridgeport," a recent Waterbury assisted-living
+resident.
