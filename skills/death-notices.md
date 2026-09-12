@@ -3462,3 +3462,33 @@ file -- confirmed productive with two clean matches after excluding
 the two false leads above. Both Berlin sources' rows updated with
 full confirmation lists and the caution about tag-vs-residence
 mismatches.
+
+### Re-checked Vernon's neighbors (2026-09-12) — still fully covered, one status change worth noting
+
+Re-ran the original Vernon-neighbors investigation from the day
+before (Bolton, Tolland, Manchester, Ellington, Coventry, South
+Windsor) to see if anything had changed. All six still have confirmed
+rows from the original session. No new rows added, but two things
+worth recording:
+
+- **smallandpietrasfuneralhome.com** (Burke-Fortin/Tolland Memorial/
+  Coventry-Pietras group) is still down and has gotten worse -- the
+  root domain itself now 502s, not just the `runtime.php` listing
+  path that was broken back on 2026-08-21. Confirmed the direct
+  `frontrunnerpro.com` subdomain trick that fixed Vincent's broken
+  proxy doesn't help here either (already tried and dead-ended at an
+  IMS staff login page during the original session).
+- **Bolton Funeral Home** no longer 403s on curl (now returns 200),
+  but the page is still JS-rendered with no server-side obituary
+  content via WebFetch -- practically still unreachable, just a
+  different failure signature. Not worth changing the row's note
+  significantly, but worth re-testing again next time in case the
+  JS rendering issue also clears up.
+
+Spot-checked one existing claim against today's stricter standard
+(reading the obituary's own opening sentence, not a listing page's
+tag), since the Manchester row cites the same D'Esopo East Hartford
+Memorial Chapel Dignity Memorial page that mistagged two people
+during the Hartford run: Kyle Malloy's own obituary text does say
+"of Manchester" directly, so that claim holds up -- no correction
+needed.
