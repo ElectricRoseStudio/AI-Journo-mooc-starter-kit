@@ -3522,3 +3522,27 @@ from the obituary body) should be treated as unconfirmed until the
 actual obituary text is checked -- this is now the third funeral-home
 group (Dignity Memorial, Erickson-Hansen/Berlin Memorial, Carmon)
 where this exact failure mode has shown up.
+
+### Running a real Manchester death-notices pull — no false leads this time, one new source
+
+Ran the death-notices process for real (6 notices, sent to
+chris.dehnel@patch.com). All six candidates checked out cleanly
+against their own obituary text this time -- no false town tags.
+Confirmed all three existing Manchester rows productive: John F.
+Tierney (Barry R. Everitt), Dignity Memorial/D'Esopo (Kyle Malloy,
+Timothy Fagan, Waida Martinez, Afua Adupako -- four matches in one
+source), and noted Holmes-Watkins is JS-rendered with no server-side
+content via direct fetch (already known productive for Manchester
+residents via WebSearch, per the Vernon row's Whitham confirmation).
+
+Found a new source: **Abbey Cremation Service** (Rocky Hill, already
+tracked for four other towns) reaches Manchester too -- Charles Horn
+III, 68, "spent his final years residing in Manchester, Connecticut,"
+died Aug. 11. Added as a new Manchester row.
+
+One notice (Michael Lee Gohla, the most recent match, died Sept. 4)
+couldn't be pinned to a specific tracked funeral home despite solid
+residence confirmation -- his son's 2025 obituary was handled by
+Holmes-Watkins, suggesting the same home, but that wasn't confirmed
+for Michael himself, so no CSV claim was made for it; the notice
+itself cites the general Legacy.com Manchester page instead.
