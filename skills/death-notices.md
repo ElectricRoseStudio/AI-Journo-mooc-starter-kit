@@ -3492,3 +3492,33 @@ Memorial Chapel Dignity Memorial page that mistagged two people
 during the Hartford run: Kyle Malloy's own obituary text does say
 "of Manchester" directly, so that claim holds up -- no correction
 needed.
+
+### Running a real Vernon death-notices pull — Legacy.com's Carmon-Vernon tag has the same problem as Dignity Memorial's
+
+Ran the death-notices process for real (6 notices, sent to
+chris.dehnel@patch.com). Burke-Fortin (Vernon's other native option,
+part of the still-broken Small & Pietras group) remains fully down --
+checked again, still 502, whole domain now not just the listing
+path.
+
+Found the Ladd-Turkington & Carmon rows have the exact same trap
+already documented for Dignity Memorial's East/Hartford page and
+Erickson-Hansen's Berlin listings: Legacy.com tags every obituary
+handled by a given funeral home with that funeral home's own city,
+not the decedent's actual town. Two leads that looked like Vernon
+matches at the search-snippet level turned out, once the actual
+obituary text was read, to be Ellington (Susan B. Papke) and South
+Windsor (Velma Michaud) residents -- both dropped. Four other
+candidates held up because their own obituary text explicitly named
+Vernon as the residence, not just the funeral-home tag: Patricia E.
+White ("a longtime resident of Vernon"), Mary C. Lee, Julia Doherty
+("raised in Vernon"), David G. Taylor. A fifth, John Erwin Whitham,
+came via Holmes-Watkins (also already tracked) with an explicit "of
+Vernon CT" line.
+
+**General lesson reinforced**: any Legacy.com search result whose
+only town evidence is the page title/funeral-home city (not a quote
+from the obituary body) should be treated as unconfirmed until the
+actual obituary text is checked -- this is now the third funeral-home
+group (Dignity Memorial, Erickson-Hansen/Berlin Memorial, Carmon)
+where this exact failure mode has shown up.
