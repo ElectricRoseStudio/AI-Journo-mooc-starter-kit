@@ -239,6 +239,38 @@ General rule going forward: before printing any specific multiplier in a
 kicker, actually divide the two numbers rather than eyeballing it from the
 sorted list.
 
+### Seven-town batch, Sept. 2026 (Southington, Hartford, Farmington, Avon,
+Simsbury, Canton, Berlin)
+
+More villages confirmed and kept: Plantsville (Southington), Unionville
+(Farmington), Weatogue/West Simsbury/Tariffville (Simsbury — a town can
+have more than one legitimate village tag at once), Collinsville (Canton),
+East Berlin (Berlin). Excluded as genuinely different towns: a Farmington
+row from Hartford's file; Avon and Middletown rows from Farmington's file;
+Newington, Monroe and Winsted rows from Berlin's file.
+
+**Hartford's file included multi-unit properties** — rows like "98-100
+Capen Street" and "30-32 Wayland Street," an address range rather than a
+single number, with 8 bedrooms and 3-4 baths across 4,000+ square feet.
+These read as small multi-family/income properties, not single-family
+homes with an unusually large bedroom count. Report the bed/bath/sqft
+figures as given rather than assuming a data error, but don't describe
+them as "homes" the way a single-family sale gets described — call them
+"properties" instead, and let the address-range and bedroom count imply
+the multi-unit nature rather than asserting it outright (the export
+doesn't have a property-type field to confirm it).
+
+Caught two more kicker multiplier errors this round (Farmington's "nearly
+doubled" was really ~1.45-1.49x; Simsbury's "more than double the square
+footage" was really ~1.6x) — same failure as the four-town batch above.
+Switched to absolute differences ("over 1,900 square feet more") instead
+of a multiplier in the Simsbury case, which sidesteps the arithmetic risk
+entirely when the ratio isn't a clean, obviously-true number. Prefer that
+approach over a multiplier unless the ratio is unambiguous (2x+, verified
+by actual division) — this is now the third batch in a row with at least
+one caught-before-sending multiplier error, so treat every such claim as
+guilty until verified by division, not just the more "dramatic" ones.
+
 <!-- Your additions here -->
 
 ### Ridgefield — first run, Aug. 2026 data
