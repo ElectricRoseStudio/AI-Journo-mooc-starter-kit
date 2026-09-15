@@ -162,6 +162,30 @@ plain-text death notices. Subject line convention:
 Add town-specific or platform-specific findings below this line as this
 skill gets used more:
 
+### Nine-town batch, Sept. 2026 (Danbury, Newtown, Bethel, Brookfield,
+Monroe, Southbury, Redding, Weston, Easton)
+
+More village/neighboring-town `City` mismatches confirmed, same discipline
+as the six-town batch: Newtown's CSV mixed in 13 Sandy Hook rows (Sandy
+Hook is a village within Newtown — kept, and called out by name in the
+article since two of the five picks were Sandy Hook sales, including the
+batch's top price); Weston's CSV had one Wilton row (a separate town —
+excluded); Easton's CSV had one Fairfield row (a separate town — excluded).
+Always run the `City` column check before trusting a filename, every time,
+not just the first run.
+
+One Danbury condo (`5 Nabby Road`) had a blank `Bedrooms` field rather than
+`0` — read as a studio unit and described in prose as "a studio condo,"
+not "a zero-bedroom" or a fabricated number. Check for blank/empty
+Bedrooms fields on very small (under ~500 sqft) condo units before either
+skipping the row or guessing a count.
+
+When a request lists more towns than are actually distinct (this batch's
+request named "Monroe" twice, effectively asking for 9 unique towns while
+saying "10 in total"), just write one article per unique town and note the
+discrepancy in the summary back to the user — don't ask, and don't write a
+duplicate article to hit a stated count.
+
 <!-- Your additions here -->
 
 ### Ridgefield — first run, Aug. 2026 data
