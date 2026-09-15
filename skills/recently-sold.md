@@ -217,6 +217,28 @@ actually inside the tight cluster) — caught and rewritten before sending,
 but worth double-checking that kind of claim by explicitly reading off
 the sorted numbers rather than assuming a pattern lines up.
 
+### Four-town batch, Sept. 2026 (Fairfield, Westport, Bridgeport, Madison)
+
+"Southport" confirmed (again) as a village within Fairfield — kept, though
+none of this run's top five happened to be Southport rows.
+
+Two more ratio/comparison errors caught in kicker paragraphs before
+sending, same category as the Glastonbury one above — a real pattern, not
+a one-off, so treat any kicker sentence with a specific multiplier ("double,"
+"two and a half times," "more than X% above") as needing arithmetic
+verification, not just a plausibility check:
+- A Fairfield draft claimed the top per-square-foot sale was "nearly two
+  and a half times" the next-highest rate; the actual ratio was about
+  1.5x. Rewritten to "more than 50% above," which was true.
+- A Madison draft claimed a home's per-square-foot rate was "more than
+  double" every other sale's; one comparison was actually just under 2x
+  (1.97x). Rewritten to "roughly double or more" to stay accurate across
+  every comparison, not just most of them.
+
+General rule going forward: before printing any specific multiplier in a
+kicker, actually divide the two numbers rather than eyeballing it from the
+sorted list.
+
 <!-- Your additions here -->
 
 ### Ridgefield — first run, Aug. 2026 data
