@@ -271,6 +271,31 @@ by actual division) — this is now the third batch in a row with at least
 one caught-before-sending multiplier error, so treat every such claim as
 guilty until verified by division, not just the more "dramatic" ones.
 
+### Five-town batch, Sept. 2026 (Norwalk, Trumbull, Naugatuck, Shelton,
+New Canaan)
+
+**Broaden the verification rule beyond multipliers: any superlative claim
+("the lowest," "the highest," "the smallest home," "the cheapest") needs
+the same sort-and-check discipline, not just ratio claims.** Two errors
+caught in this batch were plain ranking mistakes, no arithmetic involved:
+a Naugatuck draft called one sale "the lowest per-square-foot rate of the
+five" when a different sale in the same batch was actually lower; a New
+Canaan draft called one home both "the lowest per-square-foot rate" and
+called a different home "the smallest home," when a third property in the
+batch was actually both. Before calling anything the lowest/highest/
+smallest/largest in a kicker or a per-property paragraph, write out the
+full sorted list for that metric and confirm the claimed property is
+actually at the end you're claiming — don't rely on memory of "roughly
+where it fell" while drafting each paragraph independently.
+
+Norwalk's file had a legitimate extreme outlier worth flagging as a
+pattern: a Rowayton Avenue sale at $2,241/sq ft, nearly 4x the next-highest
+rate in the batch (Rowayton is a known high-end waterfront neighborhood
+within Norwalk). Don't assume an outlier this large is a data error —
+verify it reads as internally consistent (price ÷ sqft matches the stated
+rate) and, if so, report it as the real news it is rather than suppressing
+or hedging it.
+
 <!-- Your additions here -->
 
 ### Ridgefield — first run, Aug. 2026 data
