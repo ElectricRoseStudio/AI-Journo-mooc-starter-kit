@@ -186,6 +186,37 @@ saying "10 in total"), just write one article per unique town and note the
 discrepancy in the summary back to the user — don't ask, and don't write a
 duplicate article to hit a stated count.
 
+### Seven-town batch, Sept. 2026 (Vernon, Tolland, Manchester, Middletown,
+Glastonbury, Stafford, Willington)
+
+More village-vs-neighboring-town `City` calls, same discipline as before —
+kept as legitimate village rows: "Vernon Rockville" (Vernon), "South
+Glastonbury" (Glastonbury), "Stafford Springs" (Stafford — this is actually
+the *majority* tag for Stafford, not a minority village row, so don't be
+surprised when the "main" town name is the minority City value). Excluded
+as genuinely different towns: "Enfield" and a stray "Vernon Rockville" row
+from Tolland's file, "Ellington" from Willington's file.
+
+**New failure mode, Stafford's file only: rows with a real price but a
+blank/zero `Living area` and blank `Bedrooms`/`Bathrooms`.** Three rows
+($320,000, $55,000, $97,000) had this shape, each on a large multi-acre
+lot — these read as vacant land sales, not home sales, recorded in the
+same "sold" export. Filter these out before taking the top five (`Living
+area` not empty and not `0`), the same way undisclosed-address rows get
+filtered. Don't assume every row in a "properties sold" export is a home.
+
+When two sales in the same batch tie exactly on price (Redding's $1.65M
+tie last batch, Middletown's $510,000 tie this one), say so explicitly
+("tied for the top price," "matching that price") rather than arbitrarily
+picking one as "the" top price — and double-check any kicker sentence that
+compares "the two priciest" against "the two [something else]" doesn't
+silently assume they're the same two rows. One draft this round claimed
+Glastonbury's two highest-*priced* homes were also its two highest
+per-square-foot outliers; they weren't (the second-priciest home was
+actually inside the tight cluster) — caught and rewritten before sending,
+but worth double-checking that kind of claim by explicitly reading off
+the sorted numbers rather than assuming a pattern lines up.
+
 <!-- Your additions here -->
 
 ### Ridgefield — first run, Aug. 2026 data
