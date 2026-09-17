@@ -3546,3 +3546,434 @@ residence confirmation -- his son's 2025 obituary was handled by
 Holmes-Watkins, suggesting the same home, but that wasn't confirmed
 for Michael himself, so no CSV claim was made for it; the notice
 itself cites the general Legacy.com Manchester page instead.
+
+### New London and Groton -- added to `FuneralHomes.csv` 2026-09-16
+
+Neither town had its own row before this session. First corrected a
+wrong assumption: New London's actual bordering towns are only
+Waterford (west/north) and Groton (east, across the Thames River),
+per Wikipedia's geography section -- Montville and East Lyme are
+*not* direct neighbors (an initial WebSearch answer claimed New
+London bordered Waterford, Montville, Groton, Ledyard, Bozrah,
+Franklin, Griswold, Lisbon, Preston, and Sprague, which conflates
+"same county" with "bordering" and should not be trusted as a
+geography source -- go to Wikipedia's article text directly instead).
+
+New London itself already had funeral homes tracked in this file, just
+filed only under Waterford's rows (Lester Gee, Impellitteri-Malia,
+Neilan) because they serve Waterford as a neighboring-town source --
+none of the three were ever given their own New London row despite
+being physically located there (Impellitteri-Malia at 84 Montauk Ave;
+Lester Gee and Neilan's New London presence per their own sites). All
+three added as New London rows too, carrying over their existing
+known status (Lester Gee empty, the other two Cloudflare-blocked but
+browser-renderable).
+
+**Byles Memorial Home** (New London) and **Byles-Groton Memorial
+Home** are both branches of the same Byles-MacDougall Funeral
+Service, on the same Cloudflare-blocked `byles.com` domain already
+documented elsewhere in this file (403 on curl and WebFetch, same
+signature as the other Cloudflare-blocked sites). A search surfaced
+what looked like a workaround -- a legacy, non-Cloudflare-protected
+mirror at `obit.funeralnet.com/obitlist.html?task=Current&clientid=byles`
+(and `task=All`) that returns HTTP 200 via plain curl -- but both the
+"Current" and "All" listings came back with an empty `obit_list`
+table (confirmed 2026-09-16). This isn't the stale-dates pattern
+documented for Bethel/`hullfuneralservice.com` elsewhere in this file
+(old-but-real entries); it's a genuinely empty feed. Treat this
+mirror as a dead end, not a live alternate source.
+
+**Mystic Funeral Home** (`mysticfuneralhome.com`) is worth noting as a
+Groton/Stonington source (Mystic is a village split across both
+towns) but is Cloudflare-blocked on *both* curl and WebFetch --
+confirmed 2026-09-16, unlike the Dignity Memorial pattern where
+WebFetch usually gets through Cloudflare. Not yet tried via
+claude-in-chrome this session.
+
+**`dignitymemorial.com/obituaries/new-london-ct` is not a reliable
+source and should not be added to `FuneralHomes.csv` as-is.** Unlike
+the working Dignity Memorial pages elsewhere in this file (which use
+either a `?locationcode=` or a real town-slug tied to one physical
+location), this URL returned HTTP 404 for a bare fetch and behaves
+like a generic search/aggregator page rather than a single location's
+listing. Two WebFetch summaries of the same URL, run back to back on
+2026-09-16, returned two entirely different result sets: the first a
+clean, plausible New London/Groton/Waterford/Mystic-area list (Betty
+Lou Perkins, William Robert Livingston of Groton, John Thomas
+Defrancisco of Waterford, etc.), the second dominated by roughly 30
+New Britain, CT entries -- a town in a different county with no
+connection to this beat. This fails the consistency check established
+elsewhere in this file (contrast the Uncasville/locationcode=2080
+case, which reproduced an identical 50-item list twice as evidence of
+real underlying data): a non-reproducing result set here means the
+page either has no real geographic filter or WebFetch's summarization
+is fabricating entries against it. Don't trust any single WebFetch
+result from this URL without a second, matching fetch.
+
+**Griswold Funeral Home & Crematory**, which surfaced on a Legacy.com
+"funeral homes near Groton" listing, is a false lead -- it's actually
+located in Jewett City (the town of Griswold), not near Groton or New
+London at all; Legacy's "nearby" radius search pulled it in. Not
+added.
+
+### Ledyard -- more funeral home sources found 2026-09-16
+
+Note up front: per the correction earlier in this section, New
+London's only actual bordering towns are Waterford and Groton --
+Ledyard does not literally border it (it's a couple towns further
+north/east, in the same New London County area). Included here anyway
+as a nearby, thin-coverage beat town (Rich Kirby's own, per
+`CT_Towns.csv`) rather than a literal-adjacency claim.
+
+Before this session, Ledyard had only one `FuneralHomes.csv` row
+(Dinoto Funeral Home) and that source was already documented above as
+low-yield (2 of 5 checked names actually Ledyard residents). No
+claude-in-chrome connection available this session, so everything
+below is WebSearch-verified rather than checked against a live listing
+page directly -- re-run against the sites' own listings when a browser
+session is available.
+
+Three more sources found, all already tracked elsewhere in this file
+for New London/Groton/Waterford, now confirmed to also carry genuine
+Ledyard matches and added as additional Ledyard rows:
+
+- **Lester Gee Funeral Home** -- previously documented (Waterford/New
+  London rows) as consistently showing no obituaries, as recently as
+  2026-09-07. A 2026-09-16 WebSearch found a current, real Ledyard
+  match on it regardless: Curtis Stakley, 84, died Sept. 10, 2026,
+  viewing held at the funeral home's New London location. Worth
+  re-checking the site's own listing/API directly next time rather
+  than trusting the "consistently empty" note as still current --
+  funeral home listing sites clearly do go from empty to populated
+  over time.
+- **Byles Funeral Home** (`byles.com`, New London/Groton branches,
+  Cloudflare-blocked per the notes above) -- confirmed via WebSearch:
+  Julia "Judy" Gates Avery Weber, 90, died Aug. 31, 2026, graveside
+  service at Lambtown Cemetery in Ledyard. Her obituary explicitly
+  states "Susan Weber of Ledyard" among survivors and a Ledyard burial
+  site, a clean current-residence match.
+- **Mystic Funeral Home** (already tracked for Groton, Cloudflare-
+  blocked on both curl and WebFetch per the note above) -- confirmed
+  via WebSearch to carry genuine Ledyard obituaries, though the one
+  found (Nathaniel S. Lindsey, "29, of Ledyard, CT," motorcycle
+  accident) was dated April 2024, too old to use directly. Added
+  anyway since it establishes the source is real for this town, not
+  just Groton/Stonington-area names.
+
+**New false-positive pattern worth flagging:** a WebSearch for Elva
+Peralta (also a Sept. 10, 2026 Lester Gee decedent, found alongside
+Stakley) returned an AI-paraphrased summary confidently stating "of
+Ledyard, Connecticut" -- but the underlying Legacy.com page title
+itself reads "Elva Peralta Obituary (2026) - **New London, CT** -
+Lester Gee Funeral Home." Two independent WebSearch queries reproduced
+the same "of Ledyard" claim despite the page title's own explicit "New
+London, CT" tag, which reads as the search summarization layer
+conflating her with the Stakley result (same funeral home, same death
+date) rather than a genuine residence statement. Excluded from Ledyard
+on this basis -- when a WebSearch paraphrase and the source's own page
+title disagree on town, trust the page title (or better, the
+obituary's own opening sentence) over the paraphrase.
+
+No new dedicated-to-Ledyard funeral home found (i.e. one physically
+located in the town) -- **Gagne-Piechowski Funeral Home** (Jewett
+City, in the town of Griswold) came up as a candidate via general
+search, but is Cloudflare-blocked (`tribute-cloud.com` backend, same
+403 signature as elsewhere in this file) and no WebSearch turned up an
+independently-confirmed current Ledyard match for it this session --
+not added, unlike the three sources above.
+
+Also found via WebSearch but not tied to a specific funeral home
+site: Joan "Judy" Jirsa, 92, died Aug. 26, 2026, a 47-year member of
+the Ledyard Garden Club and Ledyard Congregational Church -- syndicated
+through The Day (New London's daily paper) on Legacy.com rather than a
+funeral-home-branded page. The Day recurs as the byline across several
+of this session's Ledyard finds (Stakley, Weber, Jirsa all show a "The
+Day" or "...- New London" credit) -- worth trying as a general New
+London County regional source in a future session with browser access,
+rather than working funeral-home-by-funeral-home.
+
+### Stonington -- added to `FuneralHomes.csv` 2026-09-16
+
+Stonington had zero dedicated rows before this session -- it only got
+a passing mention in Groton's Mystic Funeral Home note. Checked its
+real bordering towns first, same as the New London correction above:
+Stonington borders Groton (west) and North Stonington (north) within
+CT, plus Westerly, RI (east, across the Pawcatuck River). Groton
+already has coverage; **North Stonington is not a Patch beat town at
+all** (absent from `CT_Towns.csv`), so it's out of scope here -- no
+real in-state "neighboring town" gap the way Ledyard was for New
+London. Stonington itself, not a neighbor, turned out to be the actual
+gap, so that's what this session covers.
+
+Three sources added, all better reached from the Westerly, RI side of
+the state line than from a CT-based funeral home -- Stonington's
+Pawcatuck village directly abuts Westerly, and every funeral home
+searched that explicitly claims Pawcatuck/Stonington as service area
+turned out to be physically in Westerly:
+
+- **Mystic Funeral Home** -- already tracked for Groton (Mystic is a
+  village spanning both towns); given its own Stonington row here
+  since it wasn't broken out on its own before, same promotion pattern
+  used for the New London session's Byles/Impellitteri-Malia/Neilan
+  rows. Still Cloudflare-blocked both ways, untested via
+  claude-in-chrome (none available this session either).
+- **Gaffney-Dolan Funeral Home** (59 Spruce St., Westerly, RI) -- an
+  old-style `runtime.php?SiteId=...&NavigatorId=...` listing page
+  (same CMS family as Abriola/Lesko documented elsewhere in this
+  file), but unlike those two, this one is server-rendered and fetches
+  cleanly via plain WebFetch with no Cloudflare block and no browser
+  needed. Confirmed 2026-09-16: Kathryn Ann (Laffargue) Lewis, 89, "of
+  S. Broad Street, Pawcatuck, CT," died Aug. 29, 2026 -- explicit,
+  unambiguous current residence, found directly in the listing's first
+  10 entries (7 of 10 were Westerly, RI; one incidental Groton match,
+  Lora Morrone, also turned up in the same batch).
+- **Buckler-Johnston Funeral Home** (121 Main St., Westerly, RI) -- the
+  `/listings` page itself is a JS shell (plain WebFetch returns only
+  the title, no data), but raw curl on that URL redirects to
+  `/obituaries/obituary-listings?page=1` and the page HTML reveals
+  this is on the **TributeCenterOnline** platform, same family as
+  Cody-White/Clancy-Palumbo/W.S. Clancy documented earlier in this
+  file -- `window.API.domainId` is
+  `c69537b0-4ca8-47db-b4b2-8e484cdb5864`. The same
+  `GetObituariesExtended` API call (see the Cody-White section for the
+  full request shape) works directly via curl with this DomainId, no
+  browser needed, and returned 50 real records. `PlaceOfResidence` was
+  null (same as the other TributeCenterOnline sites) but the
+  `Description` field's opening sentence reliably stated residence.
+  Two clean current CT matches confirmed in the first 50-entry page:
+  Michael Joseph Pasko, 82, "of Stonington, Connecticut," died Sept.
+  2, 2026; Virginia "Ginnie" Shattuck Dugan, 73, "of Pawcatuck,
+  Connecticut," died June 6, 2026. One false lead excluded on the same
+  batch: Francis Michael LaFountain's obituary says he "grew up in
+  Stonington" (birthplace/raised-in, not stated current residence) --
+  his brother is tagged "of Pawcatuck" but Francis's own residence at
+  death is never stated, so excluded per the Cathleen Mulcahy
+  birthplace-≠-residence rule established earlier in this file.
+
+**Rushlow-Iacoi Funeral Home** (64 Friendship St., Westerly, RI), the
+third funeral home found explicitly claiming "Westerly, Ashaway,
+Bradford, Stonington, and Pawcatuck" as its service area, was checked
+and rejected -- its `/listings` page fetches fine via plain WebFetch
+(no Cloudflare block, real server-rendered data, one genuine North
+Stonington match even, Charles Knapp) but every entry on it is stale:
+newest listed death is dated July 2025, over a year old as of this
+check. Same dead-end pattern as Bethel's `hullfuneralservice.com`
+documented earlier in this file -- accessible and real, just nothing
+current. Not added to `FuneralHomes.csv`.
+
+### Southington and its neighbors, revisited — a second native Southington source found
+
+The 2026-09-11 session already added Southington and all eight of its
+bordering towns (Bristol, Plainville, New Britain, Wolcott, Berlin,
+Waterbury, Cheshire, Meriden) — see the earlier section in this file.
+Re-checked 2026-09-17 for anything missed: the seven neighbor towns
+were unchanged (Berlin and Meriden had rows already too), but
+Southington itself had relied on a single source (DellaVecchia).
+
+**Plantsville Funeral Home (Southington Cremation Service)** — a
+second, genuinely native Southington funeral home (Plantsville is a
+village within the town, same landmark pattern as Uncasville/Montville
+and Moodus/East Haddam elsewhere in this file), not found in the
+original session. Its `/obituaries` listing page is JS-rendered with
+an empty shell via both curl and WebFetch — no server-side content —
+so it needed WebSearch instead, same pattern as Wolcott's Woodtick
+Memorial. Two clean matches confirmed, each verified against the
+individual obituary's own opening sentence rather than a search
+snippet: Ellen (Plotkin) Lasek, 77, "of Southington, CT," died Aug.
+13, 2026; Margaret "Peg" J. (Blubaugh) Westover, 79, "of Southington,"
+died July 11, 2026. Both individual permalinks
+(`plantsvillefuneralhome.com/obituaries/{first}-{last}`) return 200
+via plain curl even though the listing page itself doesn't render
+server-side. Added as a second Southington row in `FuneralHomes.csv`.
+
+### Southington's neighbors, third pass — native sources for Bristol, New Britain, Cheshire, plus second sources for Wolcott and Waterbury
+
+The two 2026-09-11/2026-09-17 sessions above left Bristol, New Britain, and
+Cheshire relying solely on the shared Southington DellaVecchia batch (a
+"No Funeral Home in Town"-style cross-town match, despite these being real
+cities/towns with their own funeral homes), and Wolcott/Waterbury each with
+a single source. Asked to look specifically for additional funeral homes
+for Southington and its neighbors, found native or second sources for five
+of them, 2026-09-17.
+
+**Bristol — O'Brien Funeral Home & Cremations** (`obrien-funeralhome.com`)
+turned out to be on the same TributeCenterOnline platform as Cody-White/
+Clancy-Palumbo/W.S. Clancy documented earlier in this file (`domainId`
+`28702ba3-29de-4577-b1a3-1b932fc19985`, found via `curl` + grep for
+`API.domainId`, same as those cases) — the `GetObituariesExtended` API
+returned 50 records directly, no browser needed. This feed was unusually
+clean: roughly 30 of the 50 had an explicit, unambiguous "of Bristol"
+opening-sentence statement (Dorothy Malinowski Badal, 79, died Sept. 14,
+2026; Janice W. Pierce, 68, died Sept. 11; Daniel "Dano" Paul Sutula Jr.,
+58, died Aug. 19; and many more spanning back to March). Two caught and
+excluded on the formerly-resident pattern already established for Windsor/
+Newington and Burlington/Southport elsewhere in this file: Nancy B. Turski
+("of Bloomfield, formerly Bristol") and Dr. Ronald B. Herriott ("of
+Burlington, formerly of Bristol") both mention Bristol prominently but
+state a different current town. Individual permalink pattern
+`obrien-funeralhome.com/obituaries/{First}-{Last}?obId={Id}` confirmed via
+direct 200 fetch, no listing-page HTML scrape needed since `FirstName`/
+`LastName` come straight from the API. **Funk Funeral Home** (same
+platform, different `domainId`) was also checked as a second Bristol
+candidate but was low-yield by comparison — only 1 of 50 entries in its
+batch was an explicit Bristol match — so it wasn't added as a separate row
+given O'Brien alone already covers the town well.
+
+**New Britain — New Britain Memorial & Donald D. Sagarino Funeral Home**
+(Dignity Memorial) has its own dedicated `dignitymemorial.com/obituaries/
+new-britain-ct` page, distinct from the `southington-ct` URL already
+tracked here (confirmed by fetching both — different entries, different
+locationcode) — worth knowing since New Britain had looked, before this
+check, like a town with no native source of its own. Cloudflare-blocks
+curl (403) same as `southington-ct`, but WebFetch gets through, same
+established pattern. A WebFetch summary of the batch listed roughly 25 of
+32 visible entries as New Britain, but per the Nathan Jacobson
+hallucination caution documented in the Chester/locationcode=3477 section
+above, two were re-verified by pulling the individual permalink directly
+rather than trusting the summary: Kazimiera Cmuchowski, 88, "spent most of
+her life in New Britain," died Sept. 6, 2026, and Sandra (Massaro)
+Therrien, 82, born in New Britain and returned there after nursing school,
+died Sept. 5, 2026 — both independently confirmed, both handled by this
+funeral home per their own obituary pages (444 Farmington Ave., New
+Britain). Other native options search-surfaced (Shaker-Hill, Carlson,
+Farrell, Luddy & Peterson's) were all Cloudflare-blocked on curl/WebFetch
+with no workaround tried; not pursued further since the Dignity Memorial
+page alone was already productive.
+
+**Cheshire — Alderson-Ford Funeral Homes** (`fordfh.com`) is Tukios-powered
+(`tukios_fhid: "472"`), same platform as Beecher & Bennett/Biega/Woyasz/
+Bouton/Spear-Miller elsewhere in this file — the `/obituaries` listing page
+returns only the empty widget shell via curl/WebFetch, no browser tried
+this session. Individual obituary permalinks
+(`fordfh.com/obituaries/{first}-{last}`), found via WebSearch rather than
+the listing page, fetch cleanly via plain WebFetch/curl even though the
+listing itself doesn't render server-side — same split-access pattern as
+Plantsville's Southington listing above. Two confirmed directly against
+the obituary's own text: Robert Lewis King, 80, "a lifelong resident of
+Cheshire, CT," died Feb. 22, 2026; Rosalie Fountain, 88, of Cheshire, died
+April 9, 2026.
+
+**Wolcott — a second DellaVecchia branch, not the same feed as Southington's.**
+`dignitymemorial.com/obituaries/wolcott-ct` looked at first like it might
+just be the Southington URL under another town slug (the way Uncasville's
+locationcode=2080 reproduced identically under two URL forms, documented
+earlier in this file) — but this one returned a genuinely different batch,
+consistent with DellaVecchia's own marketing that it has a dedicated
+Wolcott location (690 Woodtick Rd) separate from its Southington address.
+Same Cloudflare-blocks-curl/WebFetch-gets-through pattern as the other
+Dignity Memorial URLs. Two matches confirmed individually rather than
+trusting the batch tag: Gerald Anthony Baginski, 87, a 43-year music
+educator, died Feb. 15, 2026; Joseph Michael Mango Sr., 93, died Jan. 29,
+2026 at Ingraham Manor in Bristol (a facility, not his residence — his own
+obituary page still states Wolcott, Connecticut as residence). Added
+alongside Woodtick Memorial as a second Wolcott row.
+
+**Waterbury — Casey's Eastside Memorial Funeral Home & Cremation Care**
+added as a second starting source (Waterbury remains a large city not
+comprehensively surveyed, same caveat as the existing Maiorano row).
+Tukios-powered, JS-rendered empty shell via curl; not yet tried via
+claude-in-chrome. Only one match found and confirmed this round: Joyce
+Anne Graham, 68, "of Waterbury," died March 11, 2026 at Beacon Brook Health
+Center — cross-checked against two independent Legacy.com syndications
+(the funeral home's own listing and a separate Republican American
+mirror) that reproduced identical name/age/date/funeral-home details, the
+same verbatim-reproduction confirmation logic used for the Betty Kent/
+Redding case earlier in this file, since the Legacy.com permalinks
+themselves 403 WebFetch directly.
+
+**Plainville** was checked for a second source too (**Connecticut Funeral
+Care**, `ctfuneralcare.com`) but came up empty — Cloudflare-blocked on curl/
+WebFetch and no WebSearch-confirmed Plainville decedent credited to it this
+round. Not added; the existing Plainville Funeral Home row remains the
+only source.
+
+### Mansfield's neighboring towns — Potter Funeral Home turned out to reach four of them, not just Mansfield
+
+Mansfield borders seven towns (Ashford, Chaplin, Windham, Columbia,
+Coventry, Tolland, Willington, per Wikipedia's geography section).
+Ashford, Tolland and Willington already had rows (via Introvigne); Coventry
+had one row but its listing URL (`smallandpietrasfuneralhome.com`) is still
+502 as of this check. Windham, Chaplin, and Columbia had no rows at all.
+Checked Mansfield itself for a native source too, since the existing Potter
+Funeral Home row is a Willimantic (i.e. Windham) business, not actually
+located in Mansfield.
+
+**Mansfield itself** — no native funeral home found. Checked
+`imortuary.com`'s dedicated Storrs-Mansfield directory page and it listed
+no local address at all, only funeral homes in Palmer/West Springfield,
+MA — this reads as a genuine gap (small college town, no funeral home of
+its own) rather than an access problem. Re-confirmed the existing Potter
+row is still productive (Prescott Bishop Spencer, Storrs Mansfield, died
+Sept. 15, 2026) rather than adding anything new for this town.
+
+**Windham** — realized Potter Funeral Home's own address (456 Jackson St)
+is in Willimantic, a village within the Town of Windham (same
+landmark-within-a-town pattern as Uncasville/Montville and Moodus/East
+Haddam elsewhere in this file) — so unlike Mansfield, this is not a
+"No Funeral Home in Town" case, and Windham got its own row on the same
+URL. Two matches confirmed via the individual obituary's own text: Sophie
+Szczurek, 101, "a century-old resident of Windham," died Jan. 9, 2026 (her
+own obituary page states Windham even though she was born in neighboring
+Lebanon — birthplace, not current residence, per the established
+birthplace-≠-residence caution); Ramona Garcia O'Farrill, 87, "of
+Willimantic," died the same day. Note on O'Farrill's permalink: the slug
+is `ramona-garcia-o-farrill` — WebSearch's own listed slug
+(`ramona-garcia-ofarrill`) 302-redirected rather than 404ing, so a
+plausible-looking guess wouldn't obviously fail; the apostrophe in "O'"
+becomes a hyphen, not a dropped character.
+
+**Bacon Funeral Home**, a second Willimantic/Windham funeral home, is
+Cloudflare-blocked on the whole domain — 403 on both the listing page and
+every individual obituary permalink tried (`baconfh.com/obituaries/
+{First-Middle-Last}?obId={Id}`, same shape as the FrontRunner/
+TributeCenter sites elsewhere in this file), unlike the Dignity Memorial
+pattern where WebFetch usually gets through. No workaround found; relied
+on WebSearch snippets alone for two matches, each corroborated by an
+independent syndication reproducing identical name/age/date details: Lise
+C. Laflamme, 76, "of Willimantic," died July 28, 2026; Eugene R. Ducharme,
+84, "of Willimantic, Connecticut," died July 29, 2026. Added as a second
+Windham row despite the lack of direct-fetch access, consistent with how
+other Cloudflare-blocked-with-no-workaround sources are still added
+elsewhere in this file (e.g. Berlin Memorial, Aurora-McCarthy for Hebron).
+
+**Chaplin** — Potter Funeral Home again, this time with a weaker
+confirmation worth flagging explicitly: the only match found, Kimberlie F.
+Schors-Robitaille (died March 9, 2026), never states her own town of
+residence in the obituary text — only that her husband is "of Chaplin, CT"
+and one daughter is "of Chaplin." Counted as a household-level match
+rather than the usual explicit "of [Town]" statement for the decedent
+herself; worth re-verifying if a stronger Chaplin source turns up later. A
+second lead, Dennis J. Garrity (81, "of Chaplin," died Aug. 8, 2026 at
+Davis Place in Danielson), could not be traced to a specific funeral home —
+a search for his name surfaced a same-named Dennis Garrity on
+`siskbrothers.com` (Hamden), but that obituary's own details (died 2014,
+age 68, Hamden resident) confirmed it's an unrelated person, not this
+Chaplin decedent. A new false-positive pattern for this file: a same-name
+collision on a *different* funeral home's own site, not just an
+aggregator page pulling in the wrong town.
+
+**Columbia** — Aurora-McCarthy Funeral Home (Colchester), already tracked
+elsewhere in this file for East Haddam, also reaches Columbia. Same
+whole-domain Cloudflare block as documented in the Hebron section (no
+fallback found), so relied on WebSearch: Flora Marvin Gustafson, 87, "of
+Columbia," died Aug. 17, 2026, cross-checked against the full obituary
+text as reproduced in the Legacy.com syndication (born in Colchester,
+Bacon Academy class of 1956, founding member of the Colchester Hayward
+Volunteer Fire Department Auxiliary) rather than trusted from a bare
+search snippet.
+
+**Coventry** — with the existing Coventry-Pietras row still down (502),
+found two working alternatives. **Potter Funeral Home** reaches Coventry
+too: Sharon Elizabeth Brettschneider, 77, explicitly "of Coventry,
+Connecticut," died July 4, 2026 (individual obituary page fetched cleanly,
+full text confirmed). **John F. Tierney Funeral Home** (Manchester,
+already tracked for Tolland) also reaches Coventry: Lynn Ann Nightingale,
+63, "of Coventry, CT," died July 18, 2026 — but unlike Potter, Tierney's
+whole domain is Cloudflare-blocked (403 on both the listing page and the
+individual `?obId=` permalink), so this one is confirmed from a
+sufficiently detailed WebSearch snippet alone (specific birthplace,
+employer, and family names matching a real obituary) rather than a direct
+fetch. Both added as new Coventry rows alongside the existing (currently
+broken) Coventry-Pietras one. One other lead, "Iannotti Funeral Home at
+Maple Root," was already flagged elsewhere in this file as a Coventry, RI
+business rather than Coventry, CT — confirmed still true, not revisited.
