@@ -3977,3 +3977,204 @@ fetch. Both added as new Coventry rows alongside the existing (currently
 broken) Coventry-Pietras one. One other lead, "Iannotti Funeral Home at
 Maple Root," was already flagged elsewhere in this file as a Coventry, RI
 business rather than Coventry, CT — confirmed still true, not revisited.
+
+### Milford's neighboring towns — Cody-White finally gets its own Milford row, plus West Haven and Shelton added
+
+Milford borders four towns (Orange, West Haven, Stratford, Shelton, per
+Wikipedia's geography section — the infobox also lists Shelton across the
+Housatonic River, easy to miss since the prose geography section leans on
+Orange/West Haven/Stratford). Orange and Stratford were already well
+covered (three and four rows respectively); Milford itself had never
+gotten a row despite Cody-White Funeral Home — physically located in
+Milford — being documented in this file's Customization section since its
+very first entry and already tracked for Orange and (via a "West Haven
+Funeral Home" note) implicitly relevant there too. West Haven and Shelton
+had no rows at all, despite several accumulated leads for both scattered
+across earlier Fairfield/Trumbull/Stratford sessions in this file.
+
+**Milford — Cody-White Funeral Home.** Re-pulled the same
+`GetObituariesExtended` API batch documented at the top of this file
+(`DomainId 5005a7e5-15a7-40e7-a7fb-addef6fad565`) and this time matched
+loosely on the word "Milford" anywhere in each entry's opening ~250
+characters rather than requiring a trailing "CT"/"Connecticut" token —
+the stricter regex used in an earlier session badly undercounted (missed
+patterns like "89, of Milford, beloved husband of..." with no state
+abbreviation immediately following). The looser match found 30 of 50
+entries in one batch with an explicit "of Milford" statement, each
+independently confirmed by the API's own `ServingLocationName` field
+(`"Cody-White Funeral Home"` on every one) rather than trusted from the
+text match alone. This makes Cody-White Milford's most productive single
+source by far, on par with Southington's DellaVecchia or Bristol's O'Brien
+documented elsewhere in this file.
+
+**New failure mode found here: a permalink can live on one funeral home's
+domain while the obituary's own text names a different one entirely, even
+when `ServingLocationName` isn't available to arbitrate.** Louise Ann
+Barbieri has a real, working page at
+`codywhitefuneralservice.com/obituaries/Louise-Barbieri?obId=49115060`
+(200 via plain curl) — but her `Id` doesn't appear anywhere in Cody-White's
+own `ServingLocationName`-tagged batch, and her obituary's own text ends
+"Arrangements have been entrusted with the GREGORY DOYLE FUNERAL HOME."
+Two other names that a general WebSearch initially (and incorrectly)
+attributed to "Gregory F. Doyle Funeral Home" — Edward R. Groves and
+MaryAnn Monteleone — turned out, on direct API inspection, to have
+`ServingLocationName: "Cody-White Funeral Home"` after all, so the error
+runs in both directions. Lesson: WebSearch's own funeral-home attribution
+for a given name is not reliable even when it looks confident, and a
+working permalink on a given domain doesn't guarantee that business
+handled the arrangements — check the obituary's own explicit "arrangements
+entrusted to" or "cared for by" line, or the API's own service-location
+field when available, before crediting a specific funeral home.
+
+**Milford — Gregory F. Doyle Funeral Home**, a second, genuinely native
+Milford business (291 Bridgeport Ave.) confirmed independently of the
+Cody-White confusion above: Robert R. Abed, 62, "of Milford," died June 3,
+2026, "funeral arrangements handled by Gregory Doyle Funeral Home" per his
+own obituary text; Theodore H. Goodwin, 86, a longtime Milford Bank
+employee whose calling hours were explicitly held "at the GREGORY DOYLE
+FUNERAL HOME," died May 25, 2026. Whole domain Cloudflare-blocked for curl
+and WebFetch alike (403), same signature as elsewhere in this file — no
+fallback found beyond WebSearch.
+
+**West Haven — West Haven Funeral Home** already had a note in this file
+(under the Orange row) calling it "nearly all West Haven residents," but
+had never gotten a row of its own for the town it's actually located in.
+Re-confirmed productive via WebSearch 2026-09-17: Kathleen Mary (Faughnan)
+Giaquinto, 91, "of West Haven," died Aug. 19, 2026 (cross-checked against
+an independent New Haven Register syndication reproducing identical
+biographical detail — same confirmation logic as the Betty Kent/Redding
+and Joyce Graham/Waterbury cases elsewhere in this file); Frances Rae
+Genna, 78, "of West Haven," died Aug. 30, 2026. Still Cloudflare-blocked
+for direct fetch, same as originally documented.
+
+Also found, as a side effect of the Milford API pull: **David Starks**, 72,
+in the same Cody-White batch — "suffered a heart attack at his home in
+West Haven, CT" — despite the same obituary stating he "grew up in
+Milford, CT." Correctly counted as a West Haven match, not a Milford one;
+the Milford mention is upbringing, not current residence, same
+birthplace-≠-residence pattern documented repeatedly elsewhere in this
+file. Added as a second West Haven row (Cody-White, cross-referenced from
+Milford).
+
+**Shelton — James T. Toohey & Son Funeral Home** (92 Howe Ave.) confirmed
+via two individually-verified matches: Laura E. Markut, 97, "of Shelton,
+CT," a lifelong Shelton native and Navy veteran, died June 23, 2026;
+Reinhard "Bob" H. Reichelt, 97, "of Shelton, CT," died May 25, 2026.
+Reichelt's case repeats the cross-domain pattern found for Milford above —
+his obituary's own live permalink resolves on `larsonfh.com` (the
+Fairfield-based, multi-business-sharing-one-address platform already
+flagged in the Fairfield section of this file), not Toohey's own domain —
+but the search summary of that same obituary explicitly named Toohey &
+Son as the funeral home that handled arrangements, so it's counted as a
+Toohey match on that basis. Whole domain Cloudflare-blocked for curl/
+WebFetch (403); no fallback found beyond WebSearch.
+
+**Riverview Funeral Home** (Shelton, 390 River Road) was also checked as a
+candidate second Shelton source — it's on the FrontRunner Professional
+platform (`riverviewfh.frontrunnerpro.com`, runtime ID 356489, `guid`
+`356489:MainSite` decoded from the page's own base64 `ExternalUid`, same
+API shape as Adzima/Lester Gee documented earlier in this file) — but the
+`get-records-additional.php` endpoint returned a well-formed, genuinely
+empty response (`{"success":true,"data":[],"maxPages":0}`) rather than any
+usable records. Same ambiguity flagged for Lester Gee/Waterloo earlier in
+this file: this reads as either a real "nothing posted right now" or a
+missing required parameter, and isn't distinguishable from here — worth
+re-checking the `data` array on a future run rather than ruling the site
+out permanently. Not added as a row this session.
+
+### New London and Groton, revisited — finally confirmed productive, not just "physically located here"
+
+New London's only two actual bordering towns remain Waterford and Groton
+(per the correction already on record in this file from the 2026-09-16
+session). Both already had rows, but a close read of the existing notes
+turned up a real gap: all four New London rows and both Groton rows were
+written as "Cloudflare-blocked, renders via browser" or "physically
+located here" with **no actual confirmed current match ever recorded for
+either town** — every prior verification in this file had gone toward
+Waterford, Ledyard or Stonington instead, treating New London/Groton
+sources purely as a byproduct. With claude-in-chrome available this
+session, went back and actually pulled confirmed matches.
+
+**Impellitteri-Malia Funeral Home** renders cleanly via browser (~4s
+wait, no scroll needed) and, unusually for this file, both the listing
+page *and* individual obituary permalinks are Cloudflare-blocked to curl
+and WebFetch alike (403 both ways) — everything here needs
+claude-in-chrome, not just the listing. Three matches confirmed by
+opening each individual permalink (`impellitterimaliafh.com/obituary/
+{First-Last}`) rather than trusting the listing excerpt alone: Rosanne
+Murphy, 84, "of New London," died Aug. 4, 2026; Loretta C. Brown, 85, "of
+New London," a retired 20-year New London Policewoman, died June 16, 2026
+(her page's own header date field showed "June 26" while the body text
+says "June 16" — a minor internal inconsistency on the site's part, not a
+verification failure; trusted the body text's explicit date); Joan
+Tackling, 85, "a lifelong resident of New London," died June 11, 2026. The
+same listing page's other entries were a mix of Waterford, East Lyme/
+Niantic, and Mystic residents — already-tracked neighboring towns, not
+new leads.
+
+**Byles-MacDougall Funeral Service** (`byles.com/obituaries` — the
+previously-recorded `/obits` path 403s outright and couldn't be confirmed
+as a working redirect since the whole domain blocks curl; `/obituaries` is
+the confirmed-working path going forward) also renders cleanly via
+browser, and is a genuinely large combined feed — "3,190 records" shown at
+the top, serving both the Byles Memorial Home (New London) and
+Byles-Groton Memorial Home branches with a "Filter by Locations" dropdown
+between them, not two separate sites. Confirmed one match per town by
+individual permalink (`byles.com/obituary/{first-last}`, lowercase-
+hyphenated, unlike Impellitteri-Malia's mixed-case pattern): Darnell A.
+Parker, 53, "of New London" (died at Yale New Haven Hospital after a
+Route 95 injury in East Lyme — treatment location, not residence, so
+correctly still a New London match), died Aug. 25, 2026; Ruth A.
+Ramaccia, 94, "of Groton," a longtime Groton Public School System cook,
+died Aug. 20, 2026. The single page-1 batch pulled for this check also
+showed several more likely Groton matches not yet individually verified —
+William Lloyd Foy Jr. (90), Dinkar P. Patel (56), Kenneth K. Jones (72,
+"of the City of Groton"), Frederik deGrooth (91) — worth pulling first on
+a real death-notices run given how productive this single fetch was.
+
+**Thomas L. Neilan & Sons** needed a notably longer wait than most sites
+in this file — an initial ~4s wait plus scroll still showed only the
+funeral home's two address blocks with no obituary cards; a further ~5s
+wait (so ~9s total) before the list actually populated. Clicking a
+listing card directly also didn't reliably navigate (same click-quirk
+already documented for Dinoto's site elsewhere in this file) — the fix
+here was to `read_page` for each card's actual `href`
+(`neilanfuneralhome.com/obituaries/{First-Last}?obId={Id}`) and navigate
+to it directly rather than clicking. One candidate opened this way (John
+Joseph Cassidy) turned out to be a Salem, CT resident — not a tracked
+town — but a second, Rose LoGioco Joseph, 102, "a life-long resident of
+New London" who had "lived continuously" in the same New London home "for
+more than 8 decades," died Sept. 9, 2026, confirmed the source productive
+for New London specifically, not just Waterford/East Lyme as previously
+recorded.
+
+**Mystic Funeral Home** (Groton/Stonington) — checked via claude-in-chrome
+in a follow-up pass. Same slow-render pattern as Neilan's site above: an
+initial ~4s wait showed nothing but the funeral home's header; a further
+~6s wait (so ~10s total) plus a scroll before the listing actually
+populated. Individual permalinks (`mysticfuneralhome.com/obituaries/
+{First-M-Last}?obId={Id}`) are on the same "Tribute Technology" platform
+as Neilan's and are likewise Cloudflare-blocked to curl/WebFetch but
+render fine via browser. Of four candidates opened from the first page,
+two were clean, explicit current-residence matches: Michelle Andre Hoover,
+71, died "at her home in Mystic, Connecticut" after retiring there, Sept.
+14, 2026; Stephen Edward Smyth, 70, "of Mystic, CT," a 47-year Electric
+Boat employee, died Sept. 12, 2026. One was excluded on the
+birthplace/upbringing rule (Wade S. Wirta, "of Jamestown, Rhode Island,"
+who merely "grew up in Gales Ferry, CT"), and one was an ambiguous
+dual-town statement not tied to either tracked town specifically (Valerie
+A. Kelly, who "settl[ed] in the Niantic and Stonington, Connecticut area"
+with her husband — two possible towns, no single current address, same
+shape as the Aileen Cleary/Shelton case documented elsewhere in this
+file). Neither of the two confirmed matches' obituaries named Groton or
+Stonington specifically by street address, so — consistent with how this
+file already treats the Mystic-spans-both-towns ambiguity for this same
+source — they're recorded against both towns' rows rather than assigned to
+just one.
+
+Lester Gee's New London/Waterford row still shows empty as of the last
+direct check (2026-09-07 browser, 2026-08-17 API) — not re-checked this
+session — but the Ledyard row already on record found a real Sept. 2026
+match on it via WebSearch, so treat "consistently empty" as needing a
+fresh direct check rather than a permanent verdict, per the caution
+already written into that Ledyard entry.
