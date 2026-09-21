@@ -77,7 +77,10 @@ several towns separated by commas/"and" is one article per town.
 
 SEO headline, no longer than 109 characters, naming the town and the
 draw (e.g. "Ridgefield's Weekend Lineup: Live Music, Theater and Art Fill
-Thursday Through Sunday").
+Thursday Through Sunday"). **Capitalize the first letter of every word in
+the headline**, including short words like "and," "of," "to" and "in" —
+initial caps throughout, not standard AP headline case (which would lowercase
+those).
 
 Meta description, up to 136 characters, summarizing the article's focus.
 
