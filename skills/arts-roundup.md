@@ -73,6 +73,21 @@ several towns separated by commas/"and" is one article per town.
    hit a target count.
 6. Write the article per the format and style rules below.
 
+**A note on running multiple towns as parallel forked subagents**:
+WebSearch has a per-session call budget, and that budget is **shared
+across every fork in the session, not allocated separately per fork**.
+Confirmed across two batches (Sept. 2026): running 5+ towns in parallel
+exhausted the shared budget (200 calls) partway through several forks'
+research, and the towns whose forks ran later or needed more searches
+came back with noticeably thinner, less-verified articles — not because
+those towns were actually quiet, but because their fork ran out of
+budget before finishing. If a town's finished article looks thin relative
+to its size/population, and it was part of a large parallel batch,
+suspect budget exhaustion before concluding it was a genuinely light
+week — re-run it alone (with a full budget) to check. Consider running
+large batches (6+ towns) in smaller waves rather than all at once if
+thoroughness matters more than speed.
+
 ## Article format
 
 SEO headline, no longer than 109 characters, naming the town and the
@@ -318,3 +333,127 @@ worth tracking separately:
   rule (street address only) and flagged as a judgment call in the
   article's editor's note — unlike a clean village-within-town case, this
   one is worth a second look if it recurs elsewhere.
+
+### Eight-town batch, Sept. 2026 (Danbury, Newtown, Brookfield, Bethel,
+Southbury, Monroe, Wilton, Weston-Redding-Easton) — run in parallel via
+forked subagents
+
+This batch is where the shared-WebSearch-budget constraint (now
+documented in Process above) first showed up clearly: Monroe, Wilton,
+Bethel and Newtown's forks all explicitly reported exhausting the
+200-call session budget mid-task, and Danbury, Monroe, Wilton and Bethel
+all came back with noticeably thin articles (1-2 events for towns this
+size) as a likely result. Newtown still managed 6 solid events despite
+also hitting the ceiling, so budget exhaustion degrades results rather
+than reliably capping every town at the same low count — don't assume a
+thin result *isn't* budget-related just because another equally-capped
+town did fine.
+
+**The most dangerous same-name-wrong-place instance yet**: Newtown
+research surfaced "The Newtown Theatre" with three shows that fit the
+weekend suspiciously perfectly — a direct fetch of the venue's own site
+showed it's in Newtown, **Pennsylvania**. Unlike earlier catches
+(Waterford Gallery of Art/Ireland, gotomonroe.com/Michigan,
+townofbrookfield.com/Wisconsin, a "State Theatre" in Easton/Pennsylvania,
+westonpl.org/Ohio — all confirmed again this batch, this pattern is now
+extremely common and should be treated as the default risk on every
+single venue name, not an edge case), this one had **no qualifying word
+distinguishing it from the target town at all** — just the bare town
+name plus "Theatre," which is exactly the kind of venue name a real local
+theater in the target town would also plausibly have. The only reason
+it was caught was fetching the venue's own site directly per the
+skill's standing rule, not any name-pattern heuristic. Treat every venue
+name as needing its own site fetched and its address confirmed as
+actually in the target state/town, with zero exceptions for how
+plausible or exact the name match seems.
+
+**A new site-block instance**: `wiltonlibrary.org` returned HTTP 403 to
+both WebFetch and curl with a browser user agent — same Cloudflare-style
+signature already documented for several funeral-home sites in the
+death-notices skill, now confirmed for a library site too. Worked around
+via two independent third-party directory listings that agreed on the
+same details (a local news site, a chamber of commerce listing) rather
+than trusting either alone.
+
+**A WebFetch summary can invent a year that isn't on the page at all**
+(distinct from the already-documented stale-date and wrong-day-of-week
+failures): a Weston Public Library book fair page was summarized as
+"2024," but the actual page text had no year printed anywhere — caught
+because the stated day-of-week/date pairing (Sat Sept 26/Sun Sept 27)
+only maps to 2026, cross-checked against a second independent source.
+**When a summary states a year, verify that year is actually printed on
+the source, not inferred by the summarizing step.**
+
+**A secondary source's generic recurrence claim overrode by the venue's
+own specific page**: one source described a recurring show as happening
+"the first Thursday of the month" (which would've been the wrong date
+for this window); the venue's own events page confirmed the actual
+in-window date directly. Prefer a venue's own specific, dated listing
+over any secondary source's generic recurrence description every time.
+
+Also confirmed again this batch, same as prior batches: a stale-looking
+URL slug doesn't always mean stale content (Danbury's Irish Festival page
+had a "2025" slug but current 2026 body text — check the body, not just
+the slug); a repeatedly-listed event across multiple secondary sources
+can still be unconfirmable and droppable if the primary organizer's own
+site and the specific permalink both fail to corroborate it (Bethel's
+"Glenn Roth" case); and a town's own Patch calendar can return
+essentially nothing for the actual target town (Bethel, Monroe, Wilton
+all had this — Patch's calendar skewed almost entirely to neighboring
+towns), requiring a fallback straight to organizer/local-aggregator
+sites.
+
+#### Follow-up: re-running the four thin towns solo (same session)
+
+After this batch, Danbury, Monroe, Wilton and Bethel were each re-run
+alone (not in parallel) to test whether their thin results were caused by
+the shared WebSearch budget running out. Key finding: **the WebSearch
+budget is per-session, not per-fork — a new fork in the same session
+inherits whatever budget the session has already used, it does not get
+its own fresh allocation.** By the time these four re-runs started, the
+session was already at 0/200, so all four had to run WebFetch-only (direct
+site fetches and educated URL/domain guesses, no search engine at all).
+**A real "fresh budget" re-test requires a genuinely new session, not
+another fork of an already-budget-exhausted one.**
+
+Even WebFetch-only, results varied — thinness isn't always the same
+underlying problem:
+- **Danbury (1→3 events) and Wilton (2→3 events)**: real gains. Both
+  found additional real, verifiable events via direct fetches of venues
+  the first pass hadn't reached (a university gallery, a music centre;
+  a walking tour whose name the first pass had gotten garbled via a
+  secondary source). Confirms these were at least partly budget-starved,
+  not genuinely this quiet.
+- **Monroe (1→1)**: no new events found, but WebFetch-only research did
+  find a real technical workaround worth reusing — a blocked/JS-rendered
+  library calendar (the "whofi" platform) exposed a working structured
+  data feed underneath at a predictable URL pattern:
+  `whofi.com/calendar/rss/<start-date>/<end-date>`. This is the same
+  "blocked HTML, working feed underneath" shape as the Tukios/FrontRunner
+  funeral-home API workarounds in the death-notices skill — worth trying
+  on any calendar platform that blocks its rendered page, before assuming
+  it's a dead end. Monroe's thin result held up as genuine.
+- **Wilton's library/town sites, by contrast, were confirmed hard dead
+  ends**: wiltonlibrary.org and wiltonct.gov both 403'd with no
+  discoverable feed/API workaround despite trying several guessed
+  patterns. **Not every blocked calendar platform has a structured-data
+  escape hatch — try a quick guess, but don't sink excessive effort into
+  one blocked site if it doesn't pan out fast.**
+- **Bethel was inconclusive, and the fork correctly declined to send a
+  "(revised)" article rather than misrepresent it.** Without any search
+  capability and without the first pass's specific source URLs on hand,
+  it couldn't even rediscover the right domains to re-verify the
+  *original* two events, let alone find new ones. **When a re-run can't
+  actually improve on or even re-confirm the original due to a tooling
+  constraint (not a content constraint), don't send a "revised" article
+  that just re-asserts the same content — say so and leave the original
+  as the final version instead.** This is the same standing principle as
+  "don't pad with unconfirmed items," applied to the re-run case
+  specifically.
+
+**Practical guidance going forward**: if thoroughness across a large
+batch matters, prefer running towns in smaller waves within one session
+(so later waves still have search budget) over one giant parallel batch,
+or plan for a follow-up session (fresh budget) to re-check any town that
+comes back surprisingly thin for its size — don't rely on same-session
+re-forking to fix it.
