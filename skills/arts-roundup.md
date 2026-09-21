@@ -248,3 +248,73 @@ the exception:
   each one independently re-derived and applied the verification
   discipline above without cross-contamination between towns, and each
   sent its own email and log line without collision.
+
+### Five-town batch #2, Sept. 2026 (Ledyard, Bethany-Woodbridge,
+Durham-Middlefield, Montville, Newington) — run in parallel via forked
+subagents
+
+All five sent successfully. Two more confirmed instances of the "same
+name, wrong place" pattern, plus a genuinely new hallucination variant
+worth tracking separately:
+
+- **A WebSearch synthesis can fabricate an event by blending two
+  unrelated real results together, not just get one result's date/URL
+  wrong.** The Bethany-Woodbridge run got a confident, specific-sounding
+  "New Moon Hootenanny 2026" at "Three Saints Park Parking in Bethany" —
+  but the underlying sources it was built from were actually an unrelated
+  "Hunter's Moon Hootenanny" in Shelton, CT and an unrelated Instagram
+  post. Neither source mentioned the event as reported; the search
+  synthesis had merged them into something that looked like a single,
+  real, sourced event. **Treat a WebSearch-synthesized answer as
+  unverified even when it reads as confident and specific — the
+  confidence of the phrasing is not evidence.** This is distinct from
+  the already-documented "stale date" and "wrong venue name" failures:
+  here the *event itself* didn't exist as described anywhere.
+- **A templated, generic-sounding description repeated near-verbatim
+  across multiple search results is itself a red flag**, independent of
+  whether any single fact in it is checkable. The Ledyard run's
+  "Hometown Fall Festival" had this shape — same boilerplate wording
+  everywhere, no primary source — and turned out to be a garbled stand-in
+  for a real, differently-named event (Holdridge Garden Center's
+  "Holdridge Fall Fest") findable once traced to its actual organizer.
+  When several results share suspiciously identical phrasing for an
+  "event," search for the organizer/venue directly rather than trusting
+  the repeated description.
+- **Same-name-wrong-place, two more instances**: a "Montville Historical
+  Society" WebSearch hit was for a same-named society in Montville, NJ;
+  an "Added Color, Rudy G" listing at a real Bethany/Woodbridge-area arts
+  venue (10selden.org) had no corroboration anywhere on that venue's own
+  site — same unverifiable-listing shape as the Orange batch's 10selden
+  case. Both dropped.
+- **A recurring event's generic URL can carry a stale date baked into
+  the slug itself.** Durham-Middlefield: a pub's own site linked a
+  "Shawn Taylor" event page whose slug encoded a past date
+  (`.../shawn-taylor-3-21-25/`) for what is actually a recurring series;
+  the correct upcoming occurrence lived at a *different*, correctly-dated
+  URL (`.../shawn-taylor-9-25-26/`) on the actual host venue's site. For
+  any recurring-series event, don't assume the first URL found is the
+  right occurrence — check that the date in the URL/page matches the
+  date being reported before using it.
+- **When two sources give conflicting street numbers for the same real
+  venue, prefer the venue's own homepage/footer over a secondary
+  listing site** (Durham-Middlefield: 70 vs. 72 Lyman Rd, resolved to 72
+  via the venue's own footer).
+- **A town's own Patch calendar can come back nearly empty or entirely
+  off-topic for the requested window** (Newington: its two listed items
+  were an out-of-town talk and a neighboring town's wine festival). When
+  that happens, bypass Patch and go straight to likely organizer sites
+  (town Chamber of Commerce, arts league, library, historical society)
+  rather than stretching irrelevant Patch listings to fill the article.
+- **Not every verification catches a problem — sometimes it just
+  confirms the claim was right.** Newington's Chalk Walk URL came from a
+  WebSearch AI-summary before being fetched directly; the direct fetch
+  confirmed it was accurate. Keep verifying every claimed fact/URL
+  regardless of source, but don't expect verification to always turn up
+  an error — confirming a true claim is exactly what the step is for.
+- **A postal address can name a different place than the town the venue
+  actually sits in.** Ledyard: Foxwoods Resort Casino's postal city is
+  "Mashantucket" (the reservation), but the property is geographically
+  within Ledyard's town limits. Treated as in-town for the address-format
+  rule (street address only) and flagged as a judgment call in the
+  article's editor's note — unlike a clean village-within-town case, this
+  one is worth a second look if it recurs elsewhere.
