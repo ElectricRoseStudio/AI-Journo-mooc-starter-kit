@@ -1,9 +1,9 @@
 # Arts-roundup skill
 
 Writes a Patch-style hyperlocal "Weekend Arts Roundup" for a town: a
-bulleted list of arts events, exhibitions, films and performances opening
-or on view the coming Thursday through Sunday, with real, verified venue
-links and Google Maps links.
+bulleted list of arts events, exhibitions, films, performances and
+family/recreation attractions opening or on view the coming Thursday
+through Sunday, with real, verified venue links and Google Maps links.
 
 ## When to use
 
@@ -24,9 +24,15 @@ several towns separated by commas/"and" is one article per town.
    week's occurrence unless the user says otherwise — confirm with the
    user if genuinely ambiguous rather than guessing.
 2. **Research real, current events for that town** across these categories:
-   films, exhibitions (museums, galleries, libraries), and performances
-   (theater, concerts, historical-society programs). Useful source types,
-   roughly in order of reliability:
+   films, exhibitions (museums, galleries, libraries), performances
+   (theater, concerts, historical-society programs), and recreation/family
+   attractions (farm fall-fun/corn mazes, fairs and festivals, outdoor
+   seasonal attractions). Recreation items are a fallback category, not a
+   default one — lead with film/exhibition/performance whenever the town
+   has them, and only reach for recreation to round out a thin week or
+   when a town genuinely has nothing in the other three categories (see
+   the Monroe case in Customization, where recreation was the entire
+   article). Useful source types, roughly in order of reliability:
    - The venue's own events page, fetched directly (WebFetch) — this is
      the most reliable source for date/time/title accuracy.
    - The town's Patch events calendar
@@ -67,10 +73,10 @@ several towns separated by commas/"and" is one article per town.
    before using it, the same as any other link.
 5. Pick a spread of entries across the window — ideally at least one per
    day (Thursday, Friday, Saturday, Sunday) — favoring variety across
-   film/exhibition/performance categories over a longer list of similar
-   items. It's fine to have fewer than a "full" list if the town genuinely
-   has a light week; don't pad with borderline or out-of-window items to
-   hit a target count.
+   film/exhibition/performance/recreation categories over a longer list
+   of similar items. It's fine to have fewer than a "full" list if the
+   town genuinely has a light week; don't pad with borderline or
+   out-of-window items to hit a target count.
 6. Write the article per the format and style rules below.
 
 **A note on running multiple towns as parallel forked subagents**:
@@ -457,3 +463,259 @@ batch matters, prefer running towns in smaller waves within one session
 or plan for a follow-up session (fresh budget) to re-check any town that
 comes back surprisingly thin for its size — don't rely on same-session
 re-forking to fix it.
+
+### Danbury — solo re-run, fresh session, Sept. 2026
+
+A third independent run (after the original batch pass and the
+same-session WebFetch-only re-run) confirmed the town is genuinely thin
+on Thursday/Friday programming, not just budget-starved — this run had a
+full fresh WebSearch budget and still found nothing verifiable before
+Saturday. Ended up with the same three real events as the prior
+re-run's ballpark (a WCSU gallery exhibit, the Irish Festival, one
+concert), landed on this time via different specific finds. Two
+technique notes worth keeping:
+
+- **A dated Patch calendar URL (`?date=YYYY-MM-DD`) surfaced far more
+  real events than the plain `/calendar` page.** The undated page for
+  this town returned almost nothing for the target weekend; adding the
+  explicit date query param returned a full, specific list (including
+  the Irish Festival and a Palace Danbury show) that the undated fetch
+  had missed entirely. Try the dated URL form before concluding a town's
+  Patch calendar is empty for a given weekend.
+- **A venue's own top-level domain can be a dead squatted site even when
+  the venue is real and well-documented elsewhere.**
+  `ivesconcertpark.com` 301-redirected to an unrelated personal site
+  (`taraboulsi.com`) with no connection to the venue at all — a stronger
+  and stranger failure than a 403 block or a same-name-wrong-state venue.
+  A WebSearch synthesis had attached a specific "Paint Night at the Park"
+  event to this venue/domain; since the domain itself doesn't resolve to
+  anything venue-related, the claim was dropped outright rather than
+  flagged, the same as the Bethany-Woodbridge "New Moon Hootenanny"
+  fabricated-blend case.
+- An exact show time can be unconfirmable even on the venue's own
+  primary ticket-purchase page (Palace Danbury's MOSAICA event page gave
+  date, price and lineup but no time) — printed as "Saturday evening"
+  rather than borrowing a specific time from a secondary search
+  synthesis that the primary source didn't corroborate.
+
+### Newtown — solo re-run, fresh session, Sept. 2026
+
+**"The Newtown Theatre" false positive recurred, unprompted, on the very
+first search** — same plausible-fitting show pattern as the eight-town
+batch already documented above (a bare town-name-plus-"Theatre" venue
+with a show that fit the weekend suspiciously well). Direct fetch of
+`thenewtowntheatre.com` again confirmed it's in Newtown, Pennsylvania.
+This is now three-for-three on this specific trap recurring across
+independent runs — treat it as close to guaranteed to resurface any time
+this skill runs for Newtown, CT again, not a one-off fluke.
+
+**A WebFetch summary computed wrong days-of-week for every single event
+on a page that only prints bare dates.** Edmond Town Hall's site lists
+events as "Sep 25," "Sep 26," "Sep 27" with no day-of-week text at all;
+the first summarizing pass invented "Thursday," "Friday," "Saturday" for
+those three dates respectively — each one wrong by exactly one day
+(the correct days were Friday, Saturday, Sunday). A second, more literal
+fetch asking for verbatim text (no day names on the page at all) caught
+it. When a summary states a day-of-week the source page doesn't actually
+print, don't trust it — compute it yourself from the bare date instead.
+
+**A secondary news source's descriptive phrase for an event is not that
+event's actual name or venue.** The Newtown Bee described a Sept. 27
+Newtown Historical Society program as a "19th Century Educational
+Experience" happening at "the meeting room of C.H. Booth Library" (that
+detail actually belonged to a different, earlier Sept. 20 event in the
+same article). The Historical Society's own site named the Sept. 27
+event "Little Red School House Open House" and placed it at Middle Gate
+Elementary School, 7 Cold Spring Rd — a different address entirely.
+Confirmed via the organizer's own site rather than published under the
+secondary source's invented name/location.
+
+Ended with four solid, independently verified events (a tribute concert,
+a free historical-anniversary double feature, a touring kids' musical,
+and the historical society open house) — three of the four sharing one
+venue (Edmond Town Hall) turned out fine for variety since each was a
+different format/category; don't treat single-venue concentration alone
+as a reason to pad with weaker items from elsewhere.
+
+### Bethel — solo re-run, fresh session, Sept. 2026
+
+This finally resolves the "inconclusive" Bethel case left open above: with
+a full fresh WebSearch budget and no tooling constraint this time, the
+town still came back thin — two verified events (a Thursday mural
+unveiling, a Sunday jazz trio), nothing Friday or Saturday despite
+checking the library, historical society, downtown venues and Patch
+calendar directly. Three real, independently-checked runs now agree this
+town is genuinely light on the Thu-Sun window specifically, not a
+budget or tooling artifact.
+
+- **The "Glenn Roth Live at La Zingara" listing already flagged as
+  unconfirmable in the original batch resurfaced again, verbatim, across
+  the same set of aggregator sites** (allevents.in, stayhappening, a
+  generic "Bethel Jazz" search synthesis) — and this time a primary
+  source was reachable to test it against: the organizer's own site,
+  betheljazz.com/shows, lists no such date and confirms its regular
+  series runs Wednesdays, not Sundays. This is a step beyond "can't
+  corroborate" — the organizer's own page actively contradicts the
+  aggregator claim, so it was dropped outright rather than flagged.
+  Worth treating this specific listing as debunked if it appears again
+  in a future Bethel run, not just unconfirmed.
+- **"Bethel Woods Center for the Arts" is a new, sharp instance of the
+  same-name-wrong-place trap** — a real, well-known, heavily-indexed
+  venue (the Woodstock site) that happens to share the "Bethel" name,
+  but is in Bethel, New York, not Bethel, Connecticut. Search results
+  described specific fall 2026 programming there confidently enough that
+  it would have been an easy inclusion without checking the state.
+- **A single well-sourced item can still need two hops to confirm.** A
+  local nonprofit's mural-unveiling event was first found via a
+  hyperlocal aggregator (Bethel Grapevine) with full date/time/address;
+  neither a broad WebSearch nor the nonprofit's Patronicity fundraising
+  page corroborated the date, but the nonprofit's own `/events` page
+  did, verbatim down to the time. Don't stop at "the fundraising/about
+  page doesn't mention it" when the same organization plausibly has a
+  separate, more current events page.
+- **`ctfilmfest.com/bethel/` is a dead domain (connection refused, not a
+  404)** — a Connecticut Film Festival Bethel event that multiple search
+  results referenced could not be verified at all and was dropped;
+  connection-level failures are as disqualifying as a 404 or a
+  contradicted claim.
+
+### Wilton — solo re-run, fresh session, Sept. 2026
+
+A third real data point on this town, and it lines up with Bethel's:
+genuinely thin (two events, both from the same organization, nothing
+Friday or Saturday) despite a full fresh WebSearch budget and no tooling
+constraints. `wiltonlibrary.org` was not re-tested this run (already
+confirmed a hard 403 dead end twice) — went straight to the Historical
+Society, Weir Farm, the Playshop, the Chamber of Commerce and Good
+Morning Wilton instead.
+
+- **The garbled-secondary-source walking tour name from the earlier
+  batch recurred in a new form, confirming it's the source's problem, not
+  a one-time error.** Patch's dated calendar listed a "Lambert House
+  Walking Tour" for Saturday, Sept. 26 at 10 a.m., 150 Danbury Rd. The
+  Historical Society's own site gives a different name ("Lambert
+  Corners Walking Tour"), a different date (Sunday, Sept. 27, 10:30
+  a.m.), and clarifies 150 Danbury Road is actually the Christmas Barn
+  Shop where the tour *ends*, not where it starts — the walk itself
+  begins at Lambert Corner (Rt. 7/33) and is led by town historian Bob
+  Russell. Every one of Patch's four data points (name, day, time,
+  address-meaning) was slightly off; only the organizer's own page got
+  all four right.
+- **Another WebSearch synthesis fabricated an event by attaching a real
+  program's real recurring shape to a name that doesn't check out.** A
+  search for Wilton weekend events produced a confident, specific claim
+  — Weir Farm's monthly Open Studio series (real, confirmed via NPS) was
+  happening Sept. 26 with an artist-in-residence named "Jan-Ru Wan." No
+  independent trace of that name exists anywhere. Worse, the article the
+  synthesis cited as its source (a Good Morning Wilton roundup) was
+  fetched directly and contains no mention of Weir Farm, Open Studios, or
+  that name at all — and Friends of Weir Farm's own events page
+  separately confirmed no Open Studio is scheduled that weekend. Same
+  failure shape as the Bethany-Woodbridge "New Moon Hootenanny" case:
+  synthesis presented as if quoting a real source that says nothing of
+  the kind.
+- **A nav-menu "current exhibitions" listing can include a long-since
+  digitized/permanent online exhibit alongside genuinely current
+  in-gallery shows** — the Historical Society's site lists "Citizens at
+  Last: Hannah Ambler, Grace Schenck and the Vote" as a current
+  exhibition, but it's actually a 2020 online-only exhibit (created for
+  the 19th Amendment centennial) with no physical installation or
+  specific run dates. Skipped rather than presented as an in-person
+  gallery show worth a visit this weekend.
+
+### Brookfield — solo re-run, fresh session, Sept. 2026
+
+A useful contrast after three thin towns in a row: this one came back
+genuinely full (four solid events — a theater run, a craft-instructor
+exhibition, a library talk, a themed film screening) after the same
+level of verification effort, confirming the recent thinness has been
+about the towns, not a drop in research thoroughness. All three main
+venues (library, theater, craft center) cluster within a few hundred
+feet of each other on Whisconier Road — worth remembering as a
+first-look area for this town in future runs.
+
+- **A WebSearch synthesis attributed a real, verifiable event to the
+  wrong town outright.** A "History Through a Lens" photography workshop
+  surfaced as a Brookfield-area event for Saturday, Sept. 27, matching
+  the target weekend closely enough to be tempting — but the actual
+  program (confirmed via a direct listing citing the host organization)
+  is run by and held at the Weston History & Culture Center in Weston,
+  CT, a neighboring but different town. Excluded on town grounds alone,
+  independent of whether the event itself was real.
+- **A venue's own homepage can show a stale "current" exhibition** while
+  a dedicated events/calendar subpage on the same site has the accurate,
+  current listing — Brookfield Craft Center's homepage still displayed a
+  show that had already closed in July; its `/coming-events/` page
+  correctly showed the actual current exhibition (Sept. 5–Oct. 17). When
+  a homepage and an events subpage on the same domain disagree, prefer
+  the more specific/dedicated page, the same principle as trusting a
+  library's dedicated events list over its general homepage blurb.
+- A Patch-sourced library listing ("Here Comes the Bride: Wedding
+  Dresses Through the Years") turned out to need a name-format
+  normalization to find on the library's own site (prefixed there as
+  "OTOR: Here Comes the Bride...", tying it to the library's One Town,
+  One Read program) but was otherwise accurate on date, time and
+  description — a case of Patch being right on substance even when its
+  exact title string doesn't match the primary source verbatim.
+
+### Monroe — solo re-run, fresh session, Sept. 2026
+
+**"Monroe" turned out to be an unusually bad town name for this skill —
+six separate same-name-wrong-place hits in one research pass**, more
+than any other town so far by a wide margin: a "Monroe Arts Center" in
+Monroe, Wisconsin (giveaway: a 608 area code); a "Monroe Arts
+Association" in Monroe, Oregon; a "Monroe Township Cultural Arts
+Commission" and an "Etsch Farms" corn maze both in Monroe Township, New
+Jersey; a "Monroe Arts Council" apparently in Washington state; and the
+already-known gotomonroe.com (Michigan) from the original batch. Every
+one of these would have read as a perfectly plausible local hit without
+checking the state/area code. For this specific town, treat "checking
+the state" as mandatory on literally every search result, not just the
+ones that seem too on-the-nose.
+
+After excluding all of those, genuinely nothing verifiable turned up for
+film, exhibition or performance categories in the Thu-Sun window — a
+first for this skill (every other thin town so far still had one or two
+real items). Checked and came up empty: the library's whofi calendar
+(loaded fine this run, no 403; contents were routine kids/teen
+programming, not arts-and-entertainment-category events), the
+Historical Society (next event Oct. 4, outside the window), Wolfe
+Park's summer concert series (ended in August), and Masuk High School
+Drama (no fall production found). `themonroesun.com`, a local news
+source that had been useful for other thin towns' hyperlocal coverage,
+403'd here.
+
+Flagged this to the user before sending rather than assuming how to
+handle a true zero — the user chose to broaden scope to a recreational
+fall attraction (Benedict's Home and Garden's corn maze/hayrides,
+verified directly on the farm's own site) rather than send a note-only
+piece or skip the town. **This is now standing policy, not a one-off
+call**: the Process section above formally adds recreation/family
+attractions (farm fall-fun, fairs, festivals, seasonal outdoor
+attractions) as a fourth category, to be used as a fallback when a town
+is thin or empty in the traditional three, not as a default alongside
+them. A future true-zero town no longer needs a check-in for this
+specific question — reach for recreation automatically per the Process
+rule — though checking in is still right for anything else genuinely
+ambiguous.
+
+### Weston-Redding-Easton — solo re-run, fresh session, Sept. 2026
+
+A genuinely full week this time (five events, all three towns
+represented, spanning Thursday through Sunday) with two reusable
+technique notes for this specific combined town:
+
+- **The Patch calendar URL for this trio is not the naive
+  `weston`/`redding`/`easton` slug — it's `weston-ct`.** All three towns
+  share one combined Patch presence at
+  `patch.com/connecticut/weston-ct/calendar`, and `easton-ct` also works
+  independently; plain `/connecticut/weston/calendar`,
+  `/connecticut/redding/calendar` and `/connecticut/easton/calendar`
+  all 404. Try `weston-ct` first for this combination.
+- **The correct Weston Public Library domain is
+  `westonpubliclibrary.org`, not `westonpl.org`** — the latter is the
+  already-documented Ohio trap from the original eight-town batch.
+  Getting the domain from a specific search result (rather than
+  guessing a shortened form) avoided the trap entirely this run; worth
+  doing deliberately for this town rather than guessing the library's
+  URL pattern.
